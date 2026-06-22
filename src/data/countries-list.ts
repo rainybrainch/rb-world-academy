@@ -1,6 +1,5 @@
-// Country Academy 用・25か国リスト + カウントリーレポート
+// Country Academy 用・25か国リスト（画像ファイル名順）
 export const countriesList = [
-  { id: 'countries-report', name: 'カウントリー\nレポート', icon: '/images/countries/カウントリーレポート.png', url: 'https://rainybrainch.github.io/countries-report/' },
   { id: 'japan', name: '日本', icon: '/images/countries/日本.jpg' },
   { id: 'usa', name: 'アメリカ', icon: '/images/countries/アメリカ.jpg' },
   { id: 'china', name: '中国', icon: '/images/countries/中国.jpg' },
@@ -24,6 +23,6 @@ export const countriesList = [
   { id: 'turkey', name: 'トルコ', icon: '/images/countries/トルコ.jpg' },
   { id: 'south-africa', name: '南アフリカ', icon: '/images/countries/南アフリカ.jpg' },
   { id: 'saudi-arabia', name: 'サウジアラビア', icon: '/images/countries/サウジアラビア.jpg' },
-  { id: 'dubai', name: 'ドバイ', icon: '/images/countries/ドバイ.jpg' },
   { id: 'eu', name: 'EU', icon: '/images/countries/EU.jpg' },
+  { id: 'countries-report', name: 'カウントリー\nレポート', icon: '/images/countries/カウントリーレポート.png', url: 'https://rainybrainch.github.io/countries-report/' },
 ];
