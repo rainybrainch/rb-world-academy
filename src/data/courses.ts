@@ -287,7 +287,7 @@ const enga1: Category = {
           videoId: '',
           isPremium: false,
           checkItems: ['Topic 4'],
-          sections: [],
+          sections: [{"type":"heading","level":2,"content":"Les Nombres de 0 à 100"},{"type":"text","content":"Maîtrisez les nombres en français de 0 à 100. Les nombres sont essentiels pour les conversations quotidiennes."},{"type":"glossary","terms":[{"term":"Zéro","definition":"0"},{"term":"Un","definition":"1"},{"term":"Dix","definition":"10"},{"term":"Vingt","definition":"20"},{"term":"Cent","definition":"100"}]},{"type":"highlight-box","title":"Exemples de Nombres","items":["J'ai vingt-cinq ans.","Cela coûte soixante-dix euros.","Il y a quatre-vingt-dix personnes."]},{"type":"practice","question":"Comptez en Français","auxiliaryPrompt":"Écrivez et prononcez les nombres","answer":"Écrivez les nombres de 0 à 100 par étapes de 10."}],
         },
         {
           id: 'l5',
@@ -642,7 +642,7 @@ const enga2: Category = {
           videoId: '',
           isPremium: false,
           checkItems: ['Topic 3'],
-          sections: [],
+          sections: [{"type":"heading","level":2,"content":"Vocabulaire de Base sur la Nourriture"},{"type":"text","content":"Apprenez les noms des aliments et des boissons courants. Ce vocabulaire est pratique pour commander au restaurant."},{"type":"glossary","terms":[{"term":"Une pomme","definition":"りんご"},{"term":"Le pain","definition":"パン"},{"term":"Le fromage","definition":"チーズ"},{"term":"Le café","definition":"コーヒー"},{"term":"L'eau","definition":"水"}]},{"type":"highlight-box","title":"Exemples de Nourriture","items":["J'aime les pommes.","Vous buvez du café?","Elle mange du pain au petit déjeuner."]},{"type":"practice","question":"Listez Vos Aliments Préférés","auxiliaryPrompt":"Nommez vos préférences alimentaires","answer":"Listez vos 5 aliments préférés et 3 boissons en français."}],
         },
         {
           id: 'l4',
@@ -928,7 +928,7 @@ const engb1: Category = {
           videoId: '',
           isPremium: false,
           checkItems: ['Topic 2'],
-          sections: [],
+          sections: [{"type":"heading","level":2,"content":"Les Activités Quotidiennes"},{"type":"text","content":"Décrivez votre routine quotidienne en utilisant le présent simple. Apprenez le vocabulaire des activités courantes."},{"type":"glossary","terms":[{"term":"Se réveiller","definition":"目を覚ます"},{"term":"Le petit déjeuner","definition":"朝食"},{"term":"Travailler","definition":"働く"},{"term":"Le déjeuner","definition":"昼食"},{"term":"Dormir","definition":"寝る"}]},{"type":"highlight-box","title":"Exemples de Routine","items":["Je me réveille à 7 heures.","Je prends le petit déjeuner tous les matins.","Je travaille dans un bureau."]},{"type":"practice","question":"Décrivez Votre Routine","auxiliaryPrompt":"Écrivez sur vos activités quotidiennes","answer":"Écrivez 5 phrases sur votre routine quotidienne au présent."}],
         },
         {
           id: 'l3',
@@ -1474,7 +1474,7 @@ const engc1: Category = {
           videoId: '',
           isPremium: false,
           checkItems: ['Topic 1'],
-          sections: [],
+          sections: [{"type":"heading","level":2,"content":"Les Salutations de Base"},{"type":"text","content":"Les salutations sont la fondation de la communication en français. Apprenez à dire bonjour, au revoir, et à vous présenter dans des situations quotidiennes."},{"type":"glossary","terms":[{"term":"Bonjour","definition":"こんにちは（昼間）"},{"term":"Au revoir","definition":"さようなら"},{"term":"Bonsoir","definition":"こんばんは"},{"term":"Bonne nuit","definition":"おやすみなさい"},{"term":"Enchanté(e)","definition":"お会いして嬉しいです"}]},{"type":"highlight-box","title":"Exemples de Conversations","items":["Bonjour! Comment ça va?","Bonsoir, c'est un plaisir!","Au revoir. À bientôt!"]},{"type":"practice","question":"Pratiquez les Salutations","auxiliaryPrompt":"Pratiquez les salutations à différentes heures de la journée","answer":"Saluez 5 personnes en utilisant différentes salutations appropriées à l'heure."}],
         },
         {
           id: 'l2',
@@ -1734,7 +1734,7 @@ const engc2: Category = {
           videoId: '',
           isPremium: false,
           checkItems: ['Topic 1'],
-          sections: [],
+          sections: [{"type":"heading","level":2,"content":"L'Imparfait pour les Récits"},{"type":"text","content":"L'imparfait décrit des actions habituelles ou les conditions du passé. C'est le temps narratif par excellence en français."},{"type":"glossary","terms":[{"term":"Je parlais","definition":"私は話していた"},{"term":"Habitude","definition":"習慣"},{"term":"Description","definition":"説明"},{"term":"Durée","definition":"期間"},{"term":"Jadis","definition":"昔は"}]},{"type":"highlight-box","title":"Exemples à l'Imparfait","items":["Quand j'était enfant, je jouais au football.","Il pleuvait quand nous sommes arrivés.","Elle regardait la télévision chaque soir."]},{"type":"practice","question":"Écrivez une Courte Histoire","auxiliaryPrompt":"Utilisez l'imparfait pour raconter une histoire","answer":"Écrivez une histoire courte (5-8 phrases) en utilisant l'imparfait."}],
         },
         {
           id: 'l2',
@@ -3345,7 +3345,7 @@ const jpnc1: Category = {
           videoId: '',
           isPremium: false,
           checkItems: ['Topic 1'],
-          sections: [],
+          sections: [{"type":"heading","level":2,"content":"Les Propositions Relatives Avancées"},{"type":"text","content":"Maîtrisez les propositions relatives complexes pour créer des phrases plus nuancées et littéraires."},{"type":"glossary","terms":[{"term":"Qui","definition":"誰が・もの"},{"term":"Que","definition":"何を・こと"},{"term":"Dont","definition":"...の"},{"term":"Où","definition":"場所"},{"term":"Antécédent","definition":"先行詞"}]},{"type":"highlight-box","title":"Exemples Complexes","items":["Le livre qui m'intéresse est sur la table.","L'homme que tu vois là-bas est mon ami.","La maison dont nous rêvons a une belle vue."]},{"type":"practice","question":"Combinez les Phrases","auxiliaryPrompt":"Utilisez les propositions relatives","answer":"Combinez 8 paires de phrases simples en utilisant les relatives."}],
         },
         {
           id: 'l2',
