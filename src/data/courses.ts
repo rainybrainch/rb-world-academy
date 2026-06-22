@@ -3860,57 +3860,93 @@ const zhoa1: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Basic Greetings & Introduction',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Greetings', 'Introduction', 'Politeness'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Basic Greetings（基本问候）' },
+            { type: 'text', content: '在中文里，问候是日常交流的基础。"你好"是最常见的问候语。早上说"早上好"，晚上说"晚上好"。学习基本问候能帮助你建立友好的沟通。' },
+            { type: 'glossary', terms: [{ term: '你好', definition: 'こんにちは（Hello）' }, { term: '早上好', definition: 'おはようございます（Good morning）' }, { term: '晚上好', definition: 'こんばんは（Good evening）' }, { term: '再见', definition: 'さようなら（Goodbye）' }, { term: '谢谢', definition: 'ありがとう（Thank you）' }]},
+            { type: 'highlight-box', title: 'Common Greetings', items: ['你好！很高兴认识你。(Hello! Nice to meet you.)', '早上好！(Good morning!)', '晚上好！再见。(Good evening! Goodbye.)'] },
+            { type: 'practice', question: 'Greeting Practice', auxiliaryPrompt: 'Practice saying greetings at different times', answer: 'Greet 5 people in various time contexts.' }
+          ]
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Personal Introduction & Names',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Names', 'Origin', 'Profession'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Personal Introduction（自我介绍）' },
+            { type: 'text', content: '介绍自己是学习中文的重要技能。用"我叫..."或"我是..."。中文名字由姓氏和名字组成，姓在前。能说出职业和来处很重要。' },
+            { type: 'glossary', terms: [{ term: '我', definition: 'わたし（I）' }, { term: '叫', definition: '呼ぶ（to be called）' }, { term: '名字', definition: '名前（name）' }, { term: '来自', definition: '〜から来た（come from）' }, { term: '是', definition: 'である（to be）' }]},
+            { type: 'highlight-box', title: 'Introduction Examples', items: ['我叫李明，我来自中国。(My name is Li Ming, I\'m from China.)', '我是一名学生。(I am a student.)', '很高兴认识你。(Nice to meet you.)'] },
+            { type: 'practice', question: 'Create Your Introduction', auxiliaryPrompt: 'Introduce yourself with name and country', answer: 'Write a 2-3 sentence introduction.' }
+          ]
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Numbers 1-10 & Counting',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Numbers', 'Counting', 'Quantifiers'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Numbers & Counting（数字和计数）' },
+            { type: 'text', content: '1到10的数字是中文基础。系统很规律：一、二、三、四、五、六、七、八、九、十。十以上是十位加个位，如十一、十二。掌握这些对购物、报时很重要。' },
+            { type: 'glossary', terms: [{ term: '一', definition: 'いち（1）' }, { term: '二', definition: 'に（2）' }, { term: '三', definition: 'さん（3）' }, { term: '四', definition: 'し/よん（4）' }, { term: '五', definition: 'ご（5）' }, { term: '六', definition: 'ろく（6）' }, { term: '七', definition: 'しち/なな（7）' }, { term: '八', definition: 'はち（8）' }, { term: '九', definition: 'きゅう（9）' }, { term: '十', definition: 'じゅう（10）' }]},
+            { type: 'highlight-box', title: 'Counting Examples', items: ['一、二、三、四、五、六、七、八、九、十(1-10)', '我有三个苹果。(I have three apples.)', '这是五十块钱。(This is fifty yuan.)'] },
+            { type: 'practice', question: 'Number Recognition', auxiliaryPrompt: 'Practice counting 1-10 and writing numbers', answer: 'Count from 1 to 10 in Chinese.' }
+          ]
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Family Members & Relations',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Family', 'Relationships', 'Gender differences'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Family Members（家庭成员）' },
+            { type: 'text', content: '在中文文化中家庭很重要。中文对不同亲属关系有专门词汇。特别是，对男性和女性亲属有不同称呼：哥哥/姐姐、弟弟/妹妹。这反映了中文文化的细致。' },
+            { type: 'glossary', terms: [{ term: '爸爸/父亲', definition: 'お父さん（father）' }, { term: '妈妈/母亲', definition: 'お母さん（mother）' }, { term: '哥哥', definition: '兄（older brother）' }, { term: '姐姐', definition: '姉（older sister）' }, { term: '弟弟', definition: '弟（younger brother）' }, { term: '妹妹', definition: '妹（younger sister）' }, { term: '家庭', definition: '家族（family）' }]},
+            { type: 'highlight-box', title: 'Family Examples', items: ['我的爸爸是医生。(My father is a doctor.)', '我有一个姐姐和一个弟弟。(I have an older sister and a younger brother.)', '我的家庭很幸福。(My family is very happy.)'] },
+            { type: 'practice', question: 'Family Description', auxiliaryPrompt: 'Describe your family members and relationships', answer: 'Write 3 sentences about your family.' }
+          ]
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Colors & Basic Adjectives',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Colors', 'Adjectives', 'Descriptions'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Colors & Adjectives（颜色和形容词）' },
+            { type: 'text', content: '颜色词汇是日常交流的重要部分。基本颜色：红、橙、黄、绿、蓝、紫。中文形容词放在名词前，如"红苹果"。学会描述使表达更生动。' },
+            { type: 'glossary', terms: [{ term: '红色', definition: '赤い（red）' }, { term: '蓝色', definition: '青い（blue）' }, { term: '黄色', definition: '黄色い（yellow）' }, { term: '绿色', definition: '緑色（green）' }, { term: '黑色', definition: '黒い（black）' }, { term: '白色', definition: '白い（white）' }, { term: '大', definition: '大きい（big）' }, { term: '小', definition: '小さい（small）' }]},
+            { type: 'highlight-box', title: 'Color Examples', items: ['这是一个红苹果。(This is a red apple.)', '我喜欢蓝色。(I like blue.)', '这个包很大。(This bag is very big.)'] },
+            { type: 'practice', question: 'Describe Objects', auxiliaryPrompt: 'Use colors and adjectives to describe things', answer: 'Describe 3 objects with colors and adjectives.' }
+          ]
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Daily Activities & Time',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Verbs', 'Time expressions', 'Daily routine'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Daily Activities & Time（日常活动和时间）' },
+            { type: 'text', content: '谈论日常活动很重要。学会说"我起床"、"我吃饭"、"我工作"。中文时间从大到小排列：今天下午三点。掌握这些能表达日程。' },
+            { type: 'glossary', terms: [{ term: '起床', definition: '起きる（wake up）' }, { term: '吃饭', definition: 'ご飯を食べる（eat meal）' }, { term: '工作', definition: '働く（work）' }, { term: '睡觉', definition: '寝る（sleep）' }, { term: '今天', definition: '今日（today）' }, { term: '明天', definition: '明日（tomorrow）' }, { term: '昨天', definition: '昨日（yesterday）' }, { term: '点', definition: '時（o\'clock）' }]},
+            { type: 'highlight-box', title: 'Daily Activity Examples', items: ['我每天早上七点起床。(I wake up at 7 o\'clock every morning.)', '我中午十二点吃饭。(I eat lunch at 12 o\'clock.)', '我晚上十一点睡觉。(I sleep at 11 o\'clock at night.)'] },
+            { type: 'practice', question: 'Daily Schedule', auxiliaryPrompt: 'Describe your typical daily activities and times', answer: 'Write 5 sentences about your daily routine with times.' }
+          ]
         },
       ],
     },
@@ -4120,57 +4156,93 @@ const zhoa2: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Past Tense & Recent Events',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Past tense', 'Events', 'Completed actions'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Expressing the Past（过去时表达）' },
+            { type: 'text', content: '中文的过去时用法灵活。没有复杂动词变位。通常在动词后加"了"表示已完成的动作。比如"我吃了饭"、"我看了电影"。这个结构在日常对话中常见。' },
+            { type: 'glossary', terms: [{ term: '了', definition: '～た（completed action marker）' }, { term: '去', definition: '行く（go）' }, { term: '来', definition: '来る（come）' }, { term: '做', definition: 'する（do）' }, { term: '说', definition: '言う（say）' }, { term: '听', definition: '聞く（listen）' }, { term: '看', definition: '見る（see）' }]},
+            { type: 'highlight-box', title: 'Past Tense Examples', items: ['昨天我去了北京。(Yesterday I went to Beijing.)', '我看了一个很好的电影。(I watched a very good movie.)', '他们吃了中国菜。(They ate Chinese food.)'] },
+            { type: 'practice', question: 'Tell Past Events', auxiliaryPrompt: 'Describe things you did recently using past tense', answer: 'Write 4 sentences about recent events using 了.' }
+          ]
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Comparisons & Preferences',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Comparisons', 'Preferences', 'Adjectives'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Making Comparisons（比较和偏好）' },
+            { type: 'text', content: '比较是日常交流中常见的。中文用"比"表示比较，如"苹果比橙子甜"。用"更"或"最"表示程度，"这个更好"、"这是最好的"。表达偏好用"喜欢"或"爱"。' },
+            { type: 'glossary', terms: [{ term: '比', definition: 'より（than）' }, { term: '更', definition: 'もっと（more）' }, { term: '最', definition: '最も（most）' }, { term: '喜欢', definition: '好き（like）' }, { term: '爱', definition: '愛する（love）' }, { term: '讨厌', definition: '嫌う（hate）' }, { term: '甜', definition: '甘い（sweet）' }, { term: '辣', definition: '辛い（spicy）' }]},
+            { type: 'highlight-box', title: 'Comparison Examples', items: ['我比你高。(I am taller than you.)', '这个电影比那个更有趣。(This movie is more interesting than that one.)', '我最喜欢的食物是面条。(My favorite food is noodles.)'] },
+            { type: 'practice', question: 'Express Preferences', auxiliaryPrompt: 'Compare things and state your preferences', answer: 'Write 3 comparison sentences and 2 preference sentences.' }
+          ]
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Shopping & Money',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Shopping', 'Money', 'Prices'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Shopping & Money Transactions（购物和金钱）' },
+            { type: 'text', content: '购物是实用生活中文的重要内容。需要学会问价格"多少钱"、讨价还价、付款。中文货币单位是元、角、分。常用表达："我要..."、"这个多少钱"、"太贵了"。' },
+            { type: 'glossary', terms: [{ term: '钱', definition: 'お金（money）' }, { term: '元', definition: '元（yuan）' }, { term: '块', definition: '～個（pieces）' }, { term: '买', definition: '買う（buy）' }, { term: '卖', definition: '売る（sell）' }, { term: '价格', definition: '値段（price）' }, { term: '便宜', definition: '安い（cheap）' }, { term: '贵', definition: '高い（expensive）' }]},
+            { type: 'highlight-box', title: 'Shopping Examples', items: ['这个苹果多少钱？(How much is this apple?)', '我要买三个。(I want to buy three.)', '太贵了，便宜一点吧。(Too expensive, can you lower the price?)'] },
+            { type: 'practice', question: 'Shopping Dialogue', auxiliaryPrompt: 'Create a conversation between customer and shopkeeper', answer: 'Write a short shopping conversation using relevant vocabulary.' }
+          ]
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Weather & Seasons',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Weather', 'Seasons', 'Descriptions'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Weather & Seasons（天气和季节）' },
+            { type: 'text', content: '谈论天气是日常交流常见话题。四个季节：春、夏、秋、冬。天气状况：晴天、下雨、下雪、有风。表达天气用"今天..."或"明天会..."。这些表达在日常生活中很有用。' },
+            { type: 'glossary', terms: [{ term: '春天', definition: '春（spring）' }, { term: '夏天', definition: '夏（summer）' }, { term: '秋天', definition: '秋（autumn）' }, { term: '冬天', definition: '冬（winter）' }, { term: '晴天', definition: '晴れ（sunny）' }, { term: '下雨', definition: '雨が降る（raining）' }, { term: '下雪', definition: '雪が降る（snowing）' }, { term: '温度', definition: '温度（temperature）' }]},
+            { type: 'highlight-box', title: 'Weather Examples', items: ['今天天气很好。(The weather is very nice today.)', '明天会下雨。(It will rain tomorrow.)', '我喜欢春天。(I like spring.)'] },
+            { type: 'practice', question: 'Describe Weather', auxiliaryPrompt: 'Describe current weather and seasonal preferences', answer: 'Write 4 sentences about weather patterns and favorite season.' }
+          ]
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Asking for Directions',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Directions', 'Locations', 'Spatial language'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Directions & Location（方向和位置）' },
+            { type: 'text', content: '学会问路和给方向是在中文国家旅游的必要技能。基本方向词：东、西、南、北、左、右、前、后。询问地点用"在哪里"。常见位置描述："在...旁边"、"在...对面"、"在...下面"。' },
+            { type: 'glossary', terms: [{ term: '左', definition: '左（left）' }, { term: '右', definition: '右（right）' }, { term: '前面', definition: '前（front）' }, { term: '后面', definition: '後ろ（back）' }, { term: '上面', definition: '上（above）' }, { term: '下面', definition: '下（below）' }, { term: '旁边', definition: '横（beside）' }, { term: '对面', definition: '向こう（opposite）' }]},
+            { type: 'highlight-box', title: 'Direction Examples', items: ['洗手间在哪里？(Where is the bathroom?)', '直走，然后右转。(Go straight, then turn right.)', '这个咖啡馆在公园对面。(This café is opposite the park.)'] },
+            { type: 'practice', question: 'Give Directions', auxiliaryPrompt: 'Give someone directions from one place to another', answer: 'Write directions using direction words and landmarks.' }
+          ]
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Restaurant & Food Culture',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Food', 'Dining', 'Preferences'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Dining & Food（用餐和食物）' },
+            { type: 'text', content: '在餐厅用餐需要特定的表达。常用词汇包括菜单、点菜、结账。中文菜肴名词多而特别，如"宫保鸡丁"、"麻婆豆腐"。学会表达食物偏好和询问菜单很实用。' },
+            { type: 'glossary', terms: [{ term: '菜单', definition: 'メニュー（menu）' }, { term: '点菜', definition: '注文する（order）' }, { term: '好吃', definition: 'おいしい（delicious）' }, { term: '辣', definition: '辛い（spicy）' }, { term: '甜', definition: '甘い（sweet）' }, { term: '咸', definition: '塩辛い（salty）' }, { term: '米饭', definition: 'ご飯（rice）' }, { term: '汤', definition: 'スープ（soup）' }]},
+            { type: 'highlight-box', title: 'Dining Examples', items: ['请给我菜单。(Please give me a menu.)', '我要一份宫保鸡丁。(I want kung pao chicken.)', '这个菜太辣了。(This dish is too spicy.)'] },
+            { type: 'practice', question: 'Order at Restaurant', auxiliaryPrompt: 'Practice ordering food and expressing preferences', answer: 'Write a restaurant dialogue with ordering and preferences.' }
+          ]
         },
       ],
     },
@@ -4380,57 +4452,93 @@ const zhob1: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Progressive & Habitual Actions',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Progressive', 'Habitual', 'Complex tenses'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Progressive & Habitual Actions（进行中和习惯性动作）' },
+            { type: 'text', content: 'B1级别需要掌握更复杂的时态。中文用"在..."或"正..."表示进行中的动作，如"我在看电影"或"他正在做功课"。习惯性用"经常"、"总是"、"从来不"等频率副词。这些表达能描述更复杂的时间关系。' },
+            { type: 'glossary', terms: [{ term: '在', definition: '～中（in the process of）' }, { term: '正', definition: '今・丁度（just）' }, { term: '经常', definition: 'よく（often）' }, { term: '总是', definition: 'いつも（always）' }, { term: '从来不', definition: '決して～ない（never）' }, { term: '有时', definition: '時々（sometimes）' }, { term: '已经', definition: '既に（already）' }, { term: '还', definition: 'まだ（still）' }]},
+            { type: 'highlight-box', title: 'Progressive Action Examples', items: ['我正在写一封邮件。(I\'m writing an email right now.)', '他们在讨论这个项目。(They are discussing this project.)', '我经常去健身房。(I often go to the gym.)'] },
+            { type: 'practice', question: 'Describe Ongoing Activities', auxiliaryPrompt: 'Describe what is happening now and your usual habits', answer: 'Write 5 sentences using progressive and habitual expressions.' }
+          ]
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Expressing Opinions & Arguments',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Opinions', 'Arguments', 'Persuasion'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Expressing Opinions & Arguments（表达观点和论点）' },
+            { type: 'text', content: 'B1级别能表达复杂的观点和进行论证很重要。常用观点表达："我认为"、"我觉得"、"据我所知"。支持观点用"因为"、"由于"、"另外"。表达对比用"虽然...但是"。' },
+            { type: 'glossary', terms: [{ term: '认为', definition: '考える（think）' }, { term: '觉得', definition: '感じる（feel）' }, { term: '因为', definition: 'なぜなら（because）' }, { term: '由于', definition: '～のため（due to）' }, { term: '虽然', definition: 'けれども（although）' }, { term: '但是', definition: 'でも（but）' }, { term: '另外', definition: 'また（moreover）' }, { term: '所以', definition: 'だから（therefore）' }]},
+            { type: 'highlight-box', title: 'Opinion Examples', items: ['我认为这个计划很有价值。(I think this plan is valuable.)', '虽然费用很高，但是质量很好。(Although costly, the quality is excellent.)', '因为环保重要，我们应该减少塑料使用。(Because environmental protection matters, we should reduce plastic.)'] },
+            { type: 'practice', question: 'Write an Opinion Piece', auxiliaryPrompt: 'Express and defend an opinion on a current issue', answer: 'Write a paragraph with supporting arguments.' }
+          ]
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Conditional Sentences',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Conditionals', 'Hypotheticals', 'Consequences'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Conditional Statements（条件句）' },
+            { type: 'text', content: '条件句表达假设情景。中文结构"如果...就..."或"要是...的话..."。第二类条件用"如果...会..."表示可能性较小。第三类用"要不是...就..."表示与事实相反。掌握这些结构对表达复杂想法很重要。' },
+            { type: 'glossary', terms: [{ term: '如果', definition: 'もし（if）' }, { term: '就', definition: '～ば（then）' }, { term: '要是', definition: 'もしも（if）' }, { term: '的话', definition: 'なら（if）' }, { term: '会', definition: 'だろう（would）' }, { term: '要不是', definition: 'もしも～なければ（if not）' }, { term: '除非', definition: '～でなければ（unless）' }]},
+            { type: 'highlight-box', title: 'Conditional Examples', items: ['如果你努力学习，就会成功。(If you study hard, you will succeed.)', '要是我有更多时间的话，我会去旅游。(If I had more time, I would travel.)', '除非天气很好，否则我不会去外面。(Unless the weather is nice, I won\'t go outside.)'] },
+            { type: 'practice', question: 'Write Conditional Scenarios', auxiliaryPrompt: 'Describe hypothetical situations and outcomes', answer: 'Write 5 sentences using different conditional types.' }
+          ]
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Cross-Cultural Communication',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Culture', 'Traditions', 'Values'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Cross-Cultural Communication（跨文化交流）' },
+            { type: 'text', content: 'B1级别讨论文化差异很重要。能描述不同的文化习俗和价值观。常用："在中国..."、"与西方不同..."、"传统上..."。学会尊重不同观点进行有意义的文化交流。这能更好理解中文文化圈。' },
+            { type: 'glossary', terms: [{ term: '文化', definition: '文化（culture）' }, { term: '习俗', definition: '習慣（custom）' }, { term: '传统', definition: '伝統（tradition）' }, { term: '节日', definition: '祭日（festival）' }, { term: '春节', definition: '春節（Chinese New Year）' }, { term: '中秋节', definition: '中秋節（Mid-Autumn Festival）' }, { term: '尊重', definition: '尊重する（respect）' }, { term: '理解', definition: '理解する（understand）' }]},
+            { type: 'highlight-box', title: 'Cultural Exchange Examples', items: ['春节是中国最重要的传统节日。(Chinese New Year is China\'s most important traditional festival.)', '在中国，尊老爱幼是传统美德。(In China, respecting elders is a traditional virtue.)', '虽然文化不同，但我们可以互相理解。(Although cultures differ, we can understand each other.)'] },
+            { type: 'practice', question: 'Discuss Cultural Topics', auxiliaryPrompt: 'Discuss traditions and cultural practices from your country', answer: 'Write about a cultural tradition and explain its significance.' }
+          ]
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Professional Communication',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Business', 'Emails', 'Meetings'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Business & Professional Chinese（商务中文）' },
+            { type: 'text', content: '在职场用中文交流需要掌握特定表达。学会写邮件、进行会议、做报告。常用："谢谢您的来信"、"根据..."、"我们需要讨论..."。正式表达方式和敬语在商务交流中很重要。' },
+            { type: 'glossary', terms: [{ term: '邮件', definition: 'メール（email）' }, { term: '会议', definition: '会議（meeting）' }, { term: '报告', definition: '報告（report）' }, { term: '合作', definition: '協力（cooperation）' }, { term: '提议', definition: '提案（proposal）' }, { term: '截止日期', definition: '期限（deadline）' }, { term: '进度', definition: '進捗（progress）' }, { term: '确认', definition: '確認（confirm）' }]},
+            { type: 'highlight-box', title: 'Professional Examples', items: ['谢谢您的来信，我们很高兴能与您合作。(Thank you for your email; we\'re pleased to cooperate with you.)', '根据我们的讨论，下一步是准备详细方案。(According to our discussion, the next step is to prepare a detailed plan.)', '请在下周五之前确认这个计划。(Please confirm this plan by next Friday.)'] },
+            { type: 'practice', question: 'Write Professional Email', auxiliaryPrompt: 'Compose a professional business email in Chinese', answer: 'Write a business email addressing a work-related matter.' }
+          ]
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Media & Current Events',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['News', 'Media', 'Discussion'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Media & Current Events（媒体和时事）' },
+            { type: 'text', content: '讨论新闻和时事需要特定词汇。能理解新闻标题和讨论事件。常用表达："据新闻报道"、"发生了"、"有关"。学会表达对事件的看法和分析。这能帮助你更好融入中文语言社区。' },
+            { type: 'glossary', terms: [{ term: '新闻', definition: 'ニュース（news）' }, { term: '报纸', definition: '新聞（newspaper）' }, { term: '电视', definition: 'テレビ（television）' }, { term: '发生', definition: '起こる（happen）' }, { term: '有关', definition: '関する（concerning）' }, { term: '影响', definition: '影響（influence）' }, { term: '政策', definition: '政策（policy）' }, { term: '社会', definition: '社会（society）' }]},
+            { type: 'highlight-box', title: 'Media Examples', items: ['据新闻报道，这个事件对社会有很大影响。(According to the news, this event has a major societal impact.)', '你怎么看待这个政策的实施？(How do you view the implementation of this policy?)', '这件事在网络上引起了广泛讨论。(This matter has sparked widespread discussion online.)'] },
+            { type: 'practice', question: 'Discuss Current Events', auxiliaryPrompt: 'Analyze and discuss a recent news story', answer: 'Write a paragraph discussing a news event and its implications.' }
+          ]
         },
       ],
     },
@@ -4640,57 +4748,92 @@ const zhob2: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Advanced Grammar Structures',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Grammar', 'Nuance', 'Complexity'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Advanced Grammar Structures（高级语法结构）' },
+            { type: 'text', content: 'B2级别需掌握细微的语法和表达。包括"与其...不如..."、"由于...以至于..."等复杂句式。理解"把"字句和"被"字句，这在书面中文中常见。这些结构让表达变得更精准和地道。' },
+            { type: 'glossary', terms: [{ term: '与其', definition: 'というより（rather）' }, { term: '不如', definition: '～方が良い（better to）' }, { term: '以至于', definition: '～ほど（so...that）' }, { term: '把', definition: 'を（object marker）' }, { term: '被', definition: 'に（passive marker）' }, { term: '不仅', definition: 'だけでなく（not only）' }, { term: '而且', definition: 'そして（and also）' }, { term: '况且', definition: 'ましてや（moreover）' }]},
+            { type: 'highlight-box', title: 'Advanced Grammar Examples', items: ['与其担心，不如积极行动。(Rather than worry, it\'s better to take action.)', '这个政策的影响以至于导致了失业率上升。(The impact of this policy was so significant that it led to rising unemployment.)', '我把所有资料整理好了。(I have organized all the materials.)'] },
+            { type: 'practice', question: 'Use Advanced Structures', auxiliaryPrompt: 'Create sentences using complex and nuanced Chinese', answer: 'Write 4 sentences using advanced grammar structures.' }
+          ]
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Persuasive Communication',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Rhetoric', 'Persuasion', 'Argumentation'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Persuasive Communication（说服性交流）' },
+            { type: 'text', content: 'B2级别能进行有效的说服性交流。使用修辞技巧、论证方法和有力表达。学会用"不仅...而且..."强调、"这正说明..."论证。在文章或演讲中，组织清晰论点和反驳对方观点是关键。' },
+            { type: 'glossary', terms: [{ term: '论证', definition: '論証（argumentation）' }, { term: '说服', definition: '説得する（persuade）' }, { term: '不仅', definition: 'だけでなく（not only）' }, { term: '而且', definition: 'そして（but also）' }, { term: '这正说明', definition: 'まさに示す（precisely shows）' }, { term: '反驳', definition: '反論する（refute）' }, { term: '证据', definition: '証拠（evidence）' }, { term: '结论', definition: '結論（conclusion）' }]},
+            { type: 'highlight-box', title: 'Persuasive Examples', items: ['这个方案不仅经济实惠，而且对环保有益。(This solution is not only cost-effective but also environmentally friendly.)', '统计数据显示，这正说明该政策是成功的。(Statistics show that this precisely demonstrates policy success.)', '虽然有人认为困难，但事实证明这是可行的。(Although some argue it\'s difficult, it has proven feasible.)'] },
+            { type: 'practice', question: 'Write Persuasive Essay', auxiliaryPrompt: 'Write an essay persuading readers to adopt your viewpoint', answer: 'Write a persuasive piece with strong arguments and evidence.' }
+          ]
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Literary & Formal Writing',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Literature', 'Formality', 'Classical'], sections: [
+            { type: 'heading', level: 2, content: 'Literary & Formal Registers（文学和正式语体）' },
+            { type: 'text', content: '文学和正式书面中文与日常口语有显著区别。学会使用"壮哉"、"岂"、"乃"这样的文言文语素和"某...某..."的文学化表达。正式文体中会看到古典引用和成语。这种语体在文学作品、学术论文和正式公函中使用。' },
+            { type: 'glossary', terms: [{ term: '某', definition: 'ある・某（a certain）' }, { term: '乃', definition: 'すなわち（that is）' }, { term: '岂', definition: 'どうして（how）' }, { term: '壮哉', definition: '素晴らしい（splendid）' }, { term: '然而', definition: 'しかし（however）' }, { term: '盖', definition: 'ゆえに（because）' }, { term: '吾辈', definition: 'われら（we）' }, { term: '古人', definition: '昔の人（ancients）' }]},
+            { type: 'highlight-box', title: 'Literary Examples', items: ['吾辈所为之事，乃人类进步之路。(What we do is the path to human progress.)', '某君曾言，读书如品茶，需细细品味。(A certain person once said reading is like tasting tea.)', '然而这一切的意义，岂止于此？(However, is the significance of all this merely this?)'] },
+            { type: 'practice', question: 'Write Literary Piece', auxiliaryPrompt: 'Write a short piece using literary and formal registers', answer: 'Write a passage in formal or literary Chinese style.' }
+          ]
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Specialized Field Vocabulary',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Specialized', 'Professional', 'Technical'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Field-Specific Vocabulary（专业领域词汇）' },
+            { type: 'text', content: '在不同专业领域中文有特定术语和表达。医学："病症"、"诊断"、"治疗"；法律："条款"、"法规"、"判决"；商业："财务"、"投资"、"合并"；科技："算法"、"数据库"、"编程"。掌握专业领域词汇对有效交流至关重要。' },
+            { type: 'glossary', terms: [{ term: '医学:病症', definition: '症状（symptom）' }, { term: '医学:诊断', definition: '診断（diagnosis）' }, { term: '法律:条款', definition: '条項（clause）' }, { term: '法律:法规', definition: '法律（law）' }, { term: '商业:财务', definition: '財務（finance）' }, { term: '商业:投资', definition: '投資（investment）' }, { term: '科技:算法', definition: 'アルゴリズム（algorithm）' }, { term: '科技:编程', definition: 'プログラミング（programming）' }]},
+            { type: 'highlight-box', title: 'Field-Specific Examples', items: ['医生诊断出患者患有高血压。(The doctor diagnosed the patient with hypertension.)', '这项合并协议包含了很多复杂的法律条款。(This merger agreement contains complex legal clauses.)', '新的算法显著提高了数据处理的效率。(The new algorithm significantly improved data processing efficiency.)'] },
+            { type: 'practice', question: 'Use Field Vocabulary', auxiliaryPrompt: 'Write about your professional field using specialized terminology', answer: 'Write a paragraph using field-specific vocabulary from your profession.' }
+          ]
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Chinese Idioms & Proverbs',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Idioms', 'Proverbs', 'Cultural wisdom'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Advanced Nuance & Idioms（成语和习语）' },
+            { type: 'text', content: '中文有丰富的成语和习语，浓缩了中文文化和哲学。常见成语如"画龙点睛"、"卧虎藏龙"、"十年磨剑"。学习这些不仅提高语言水平，还能更深入理解中文文化。B2级别理解和使用成语能让表达更生动和地道。' },
+            { type: 'glossary', terms: [{ term: '画龙点睛', definition: '仕上げの一撃（add the finishing touch）' }, { term: '卧虎藏龙', definition: '隠れた才能（hidden talents）' }, { term: '十年磨剑', definition: '執念深さ（persistence）' }, { term: '千锤百炼', definition: '鍛錬（well-honed）' }, { term: '厚积薄发', definition: '着実な蓄積（accumulation pays off）' }, { term: '志在千里', definition: '大志（lofty aspirations）' }, { term: '见微知著', definition: '細部から全体を知る（see the big picture）' }]},
+            { type: 'highlight-box', title: 'Idiom Examples', items: ['这次演讲的最后一个论点是画龙点睛之笔。(The final point was the touch that made it perfect.)', '这个公司卧虎藏龙，有很多杰出的人才。(This company has many hidden talents.)', '他十年磨剑，终于成为领域专家。(He persisted for ten years and finally became an expert.)'] },
+            { type: 'practice', question: 'Use Chinese Idioms', auxiliaryPrompt: 'Write passages incorporating Chinese idioms and proverbs', answer: 'Write 3 sentences that naturally incorporate Chinese idioms.' }
+          ]
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Mastery & Nuanced Expression',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Mastery', 'Nuance', 'Excellence'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Language Mastery（语言掌握和细微表达）' },
+            { type: 'text', content: '达到B2级别表示已掌握中文的大部分复杂结构。现在的目标是达到更高的表达精准度和文化理解。学会区分近义词的细微差别、理解语气的变化、欣赏中文表达的美感。这是从学习者成为真正使用者的关键一步。' },
+            { type: 'glossary', terms: [{ term: '精准', definition: '正確（precise）' }, { term: '微妙', definition: '微妙（subtle）' }, { term: '表达', definition: '表現（expression）' }, { term: '美感', definition: '美感（aesthetic sense）' }, { term: '文化素养', definition: '教養（cultural refinement）' }, { term: '深度理解', definition: '深い理解（deep understanding）' }, { term: '语言艺术', definition: '言語芸術（language art）' }]},
+            { type: 'highlight-box', title: 'Mastery Examples', items: ['我不仅学会了语言规则，更理解了中文文化的深层含义。(I not only learned the language rules but also understood the deeper cultural meaning.)', '通过阅读古典文学，我发现了中文表达的无穷魅力。(Through reading classical literature, I discovered the infinite charm of Chinese expression.)', '精通一种语言意味着能够在任何情境下自如交流。(Mastering a language means being able to communicate fluently in any situation.)'] },
+            { type: 'practice', question: 'Demonstrate Mastery', auxiliaryPrompt: 'Compose complex passages demonstrating high-level Chinese proficiency', answer: 'Write a sophisticated piece showcasing your language mastery.' }
+          ]
         },
       ],
     },
