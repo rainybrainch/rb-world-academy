@@ -14,30 +14,271 @@ const enga1: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Basic Greetings & Introduction',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Greetings', 'Introduction', 'Questions'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Basic Greetings'
+            },
+            {
+              type: 'text',
+              content: 'Greetings are the foundation of English communication. Learn to say hello, goodbye, and introduce yourself in everyday situations. These expressions are used when meeting someone for the first time or in casual daily interactions.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'hello', definition: 'こんにちは' },
+                { term: 'goodbye', definition: 'さようなら' },
+                { term: 'morning', definition: '朝' },
+                { term: 'afternoon', definition: '午後' },
+                { term: 'evening', definition: '夜' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Example Conversations',
+              items: [
+                'Hello! How are you?',
+                'Good morning!',
+                'Goodbye. See you later!'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Practice Greetings',
+              auxiliaryPrompt: 'Practice saying greetings at different times of day',
+              answer: 'Greet 5 friends using different time-appropriate expressions.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Personal Introduction'
+            },
+            {
+              type: 'text',
+              content: 'Introducing yourself is essential when meeting new people. You\'ll learn to tell your name, where you\'re from, and basic information about yourself using simple present tense sentences.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'name', definition: '名前' },
+                { term: 'from', definition: '〜から' },
+                { term: 'am', definition: 'いる、ある（I be動詞）' },
+                { term: 'nice', definition: '素敵な、良い' },
+                { term: 'to meet you', definition: 'あなたに会えて' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Introduction Examples',
+              items: [
+                'My name is John.',
+                'I am from Japan.',
+                'Nice to meet you!'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Write Your Introduction',
+              auxiliaryPrompt: 'Create a 3-sentence introduction about yourself',
+              answer: 'Include your name and where you\'re from.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Question Formation - Question Words'
+            },
+            {
+              type: 'text',
+              content: 'Learn to ask basic questions using \'What\', \'Where\', \'How\', and \'Who\'. These question words help you gather information in everyday conversations.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'what', definition: '何' },
+                { term: 'where', definition: 'どこ' },
+                { term: 'how', definition: 'どう、どのように' },
+                { term: 'who', definition: '誰' },
+                { term: 'your', definition: 'あなたの' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Question Examples',
+              items: [
+                'What is your name?',
+                'Where are you from?',
+                'How are you?'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Ask Questions',
+              auxiliaryPrompt: 'Use different question words',
+              answer: 'Ask your partner 5 questions using different question words.'
+            }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Daily Routines & Time',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Daily Activities', 'Telling Time'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Daily Activities'
+            },
+            {
+              type: 'text',
+              content: 'Describe your daily routine using simple present tense. Learn vocabulary for common activities like waking up, eating, working, and sleeping.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'wake up', definition: '目を覚ます' },
+                { term: 'breakfast', definition: '朝食' },
+                { term: 'work', definition: '働く' },
+                { term: 'lunch', definition: '昼食' },
+                { term: 'sleep', definition: '寝る' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Daily Routine Examples',
+              items: [
+                'I wake up at 7 am.',
+                'I eat breakfast every morning.',
+                'I work in an office.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe Your Daily Routine',
+              auxiliaryPrompt: 'Write about your daily activities',
+              answer: 'Write 5 sentences about your daily routine using present tense.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Telling Time'
+            },
+            {
+              type: 'text',
+              content: 'Learn to tell time in English using 12-hour and 24-hour formats. Understand expressions like \'quarter past\' and \'half past\'.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'time', definition: '時間' },
+                { term: 'o\'clock', definition: '〜時' },
+                { term: 'quarter', definition: '四分の一、15分' },
+                { term: 'half', definition: '半分、30分' },
+                { term: 'past', definition: '経過した' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Time Expressions',
+              items: [
+                'It is three o\'clock.',
+                'It is quarter past two.',
+                'It is half past five.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Practice Telling Time',
+              auxiliaryPrompt: 'Express times in English',
+              answer: 'Practice telling time. Write 10 different times in full English sentences.'
+            }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Food & Preferences',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Food Vocabulary', 'Preferences'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Basic Food Vocabulary'
+            },
+            {
+              type: 'text',
+              content: 'Learn names of common foods and drinks. This vocabulary is practical for ordering at restaurants, shopping, and discussing meals.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'apple', definition: 'りんご' },
+                { term: 'bread', definition: 'パン' },
+                { term: 'cheese', definition: 'チーズ' },
+                { term: 'coffee', definition: 'コーヒー' },
+                { term: 'water', definition: '水' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Food Examples',
+              items: [
+                'I like apples.',
+                'Do you drink coffee?',
+                'She eats bread for breakfast.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'List Your Favorite Foods',
+              auxiliaryPrompt: 'Name your food preferences',
+              answer: 'List your favorite 5 foods and 3 drinks in English.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Expressing Preferences'
+            },
+            {
+              type: 'text',
+              content: 'Use \'like\', \'don\'t like\', and \'prefer\' to talk about food preferences. Learn how to ask others about their favorite foods.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'like', definition: '好き' },
+                { term: 'don\'t like', definition: '好きではない' },
+                { term: 'prefer', definition: '〜の方が好き' },
+                { term: 'favorite', definition: '好きな' },
+                { term: 'delicious', definition: 'おいしい' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Preference Examples',
+              items: [
+                'I like pizza.',
+                'I don\'t like spicy food.',
+                'I prefer tea to coffee.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Express Your Food Preferences',
+              auxiliaryPrompt: 'Use like, don\'t like, and prefer',
+              answer: 'Write 5 sentences about your food preferences using \'like\', \'don\'t like\', and \'prefer\'.'
+            }
+          ],
         },
         {
           id: 'l4',
@@ -274,21 +515,125 @@ const enga2: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Past Tense & Present Continuous',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Past Tense', 'Irregular Verbs', 'Continuous'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Simple Past Tense - Regular Verbs'
+            },
+            {
+              type: 'text',
+              content: 'Learn to talk about completed actions in the past. Regular verbs form the past tense by adding \'-ed\'. This is fundamental for storytelling and describing experiences.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'yesterday', definition: '昨日' },
+                { term: 'last week', definition: '先週' },
+                { term: 'played', definition: '遊んだ（play）' },
+                { term: 'worked', definition: '働いた（work）' },
+                { term: 'watched', definition: '見た（watch）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Past Tense Examples',
+              items: [
+                'I played football yesterday.',
+                'She worked in the office last week.',
+                'We watched a movie last night.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Write About Your Past',
+              auxiliaryPrompt: 'Describe what you did yesterday',
+              answer: 'Write 7 sentences about what you did yesterday using regular past tense verbs.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Irregular Past Tense Verbs'
+            },
+            {
+              type: 'text',
+              content: 'Common irregular verbs don\'t follow the -ed pattern. Memorize these high-frequency irregular forms for fluent past tense communication.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'went', definition: '行った（go）' },
+                { term: 'saw', definition: '見た（see）' },
+                { term: 'ate', definition: '食べた（eat）' },
+                { term: 'had', definition: '持った（have）' },
+                { term: 'did', definition: 'した（do）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Irregular Verb Examples',
+              items: [
+                'I went to the store yesterday.',
+                'She saw her friend last week.',
+                'They ate lunch together.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Master Irregular Verbs',
+              auxiliaryPrompt: 'Practice irregular past tense forms',
+              answer: 'List 10 irregular past tense verbs. Use each one in a sentence about your past.'
+            }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Present Continuous Tense',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Present Continuous'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Present Continuous Tense'
+            },
+            {
+              type: 'text',
+              content: 'Use \'be + -ing\' to describe actions happening right now. This tense is essential for describing current situations and temporary activities.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'is', definition: 'です（be動詞）' },
+                { term: 'are', definition: 'です（be動詞複数）' },
+                { term: 'reading', definition: '読んでいる' },
+                { term: 'running', definition: '走っている' },
+                { term: 'cooking', definition: '料理している' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Present Continuous Examples',
+              items: [
+                'I am reading a book right now.',
+                'He is playing tennis.',
+                'They are cooking dinner.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Observe and Describe',
+              auxiliaryPrompt: 'Look around and describe what is happening',
+              answer: 'Look around you. Write 5 sentences about what people are doing right now using present continuous.'
+            }
+          ],
         },
         {
           id: 'l3',
@@ -534,12 +879,47 @@ const engb1: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Conditional Sentences',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['First Conditional', 'Future Planning'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'First Conditional (Present Real)'
+            },
+            {
+              type: 'text',
+              content: 'Use \'if + present, will + verb\' to talk about likely future situations. This structure is essential for discussing consequences and making plans.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'if', definition: 'もし' },
+                { term: 'will', definition: '〜だろう（未来）' },
+                { term: 'unless', definition: '〜でない限り' },
+                { term: 'provided', definition: '提供された、〜のもとで' },
+                { term: 'as long as', definition: '〜する限り' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Conditional Examples',
+              items: [
+                'If you study hard, you will pass the exam.',
+                'If it rains tomorrow, we will stay home.',
+                'Unless you hurry, you will be late.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Write Conditional Sentences',
+              auxiliaryPrompt: 'Discuss future possibilities',
+              answer: 'Write 8 first conditional sentences about your possible future situations.'
+            }
+          ],
         },
         {
           id: 'l2',
@@ -794,12 +1174,47 @@ const engb2: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Advanced Conditional Structures',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Second Conditional', 'Hypothetical'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Second Conditional (Hypothetical)'
+            },
+            {
+              type: 'text',
+              content: 'Use \'if + past, would + verb\' to discuss imaginary or unlikely situations. This advanced structure is necessary for sophisticated conversation.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'would', definition: '〜だろう（仮定法）' },
+                { term: 'if only', definition: 'もし〜だったら（願い）' },
+                { term: 'suppose', definition: '〜だと仮定する' },
+                { term: 'imagine', definition: '想像する' },
+                { term: 'hypothetically', definition: '仮定上は' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Second Conditional Examples',
+              items: [
+                'If I were rich, I would travel around the world.',
+                'If you lived in Paris, what would you do?',
+                'She would be happy if she had more time.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Write Hypothetical Sentences',
+              auxiliaryPrompt: 'Imagine unlikely or imaginary situations',
+              answer: 'Write 10 second conditional sentences about imaginary situations or wishes.'
+            }
+          ],
         },
         {
           id: 'l2',
