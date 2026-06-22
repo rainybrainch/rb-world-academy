@@ -63,14 +63,20 @@ export default function HomePage() {
             className="text-2xl leading-tight mb-2"
             style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'white' }}
           >
-            12言語 + 手話を学ぼう。<br />
-            <span style={{ color: 'var(--mb-gold)' }}>世界と繋がろう。</span>
+            Language と Country で<br />
+            <span style={{ color: 'var(--mb-gold)' }}>世界を学ぼう。</span>
           </h1>
+          <p
+            className="text-xs leading-relaxed mb-3"
+            style={{ color: 'rgba(255,255,255,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+          >
+            <strong style={{ color: 'var(--mb-green)' }}>🗣️ Language Academy:</strong> 12言語・1440講義で世界の言葉を習得。英語・日本語・中国語・韓国語・ドイツ語・フランス語・スペイン語・イタリア語・アラビア語・ポルトガル語・古典漢文・手話。
+          </p>
           <p
             className="text-xs leading-relaxed"
             style={{ color: 'rgba(255,255,255,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
           >
-            英語・日本語・中国語・韓国語・ドイツ語・フランス語・スペイン語・イタリア語・アラビア語・ポルトガル語・古典漢文・手話。全{topicCategories.length}言語・{totalLessons}講義を楽しく学ぼう。
+            <strong style={{ color: 'var(--mb-sky)' }}>🌍 Country Academy:</strong> 世界の国々の政治・経済・文化を深く理解。インド・台湾・中国・日本・ドイツ・アメリカ・イギリス・フランス・ブラジル・インドネシア・メキシコ・韓国。
           </p>
 
           <HeroCtaButton />
