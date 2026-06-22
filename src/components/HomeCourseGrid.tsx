@@ -21,6 +21,7 @@ const appIconMap: Record<string, string> = {
   'topic-arabic':           '/images/languages/arabic.png',
   'topic-portuguese':       '/images/languages/portuguese.png',
   'topic-classical-chinese': '/images/languages/classical-chinese.png',
+  'topic-sign-language':    '/images/languages/12手話.png',
 };
 
 interface Props {

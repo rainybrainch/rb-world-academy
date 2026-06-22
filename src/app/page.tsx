@@ -63,14 +63,14 @@ export default function HomePage() {
             className="text-2xl leading-tight mb-2"
             style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'white' }}
           >
-            11言語を学ぼう。<br />
+            12言語 + 手話を学ぼう。<br />
             <span style={{ color: 'var(--mb-gold)' }}>世界と繋がろう。</span>
           </h1>
           <p
             className="text-xs leading-relaxed"
             style={{ color: 'rgba(255,255,255,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
           >
-            英語・日本語・中国語・韓国語・ドイツ語・フランス語・イタリア語・アラビア語・ポルトガル語・古典中国語。全{topicCategories.length}言語・{totalLessons}講義を楽しく学ぼう。
+            英語・日本語・中国語・韓国語・ドイツ語・フランス語・スペイン語・イタリア語・アラビア語・ポルトガル語・古典漢文・手話。全{topicCategories.length}言語・{totalLessons}講義を楽しく学ぼう。
           </p>
 
           <HeroCtaButton />
@@ -87,6 +87,39 @@ export default function HomePage() {
         </div>
 
         <HomeCourseGrid categories={categories} />
+      </div>
+
+      {/* ── Country Academy ── */}
+      <div>
+        <div className="flex items-center gap-2 mb-3">
+          <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-sky)' }} />
+          <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+            国を学ぼう
+          </h2>
+        </div>
+        <Link href="https://rb-world-countries.vercel.app" target="_blank" rel="noopener">
+          <div
+            className="rounded-2xl p-4 relative overflow-hidden cursor-pointer hover:shadow-lg transition-shadow"
+            style={{
+              background: 'linear-gradient(135deg, #1a4d7a 0%, #2d7aa6 100%)',
+              border: '2px solid rgba(45, 122, 166, 0.5)',
+              boxShadow: '0 4px 12px rgba(45, 122, 166, 0.2)',
+            }}
+          >
+            <div className="relative z-10">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="text-2xl">🌍</span>
+                <h3 className="text-white font-bold text-sm">Country Academy</h3>
+              </div>
+              <p className="text-blue-100 text-xs mb-3">
+                世界の国々を政治、経済、文化の視点から学ぶ。12ヶ国 + 台湾のプロフィール。
+              </p>
+              <div className="inline-block px-3 py-1.5 bg-white text-blue-600 font-semibold rounded text-xs hover:bg-blue-50 transition-colors">
+                探索する →
+              </div>
+            </div>
+          </div>
+        </Link>
       </div>
 
       {/* ── 全講義制覇 ── */}
