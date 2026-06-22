@@ -579,7 +579,6 @@ const koreanB2: Category = {
 };
 
 
-};
 
 // German - A2/B1/B2
 const germanA2: Category = {
