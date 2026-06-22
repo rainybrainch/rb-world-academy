@@ -86,6 +86,13 @@ export const topicCategories: TopicCategory[] = [
     image: '/images/categories/classical-chinese.webp',
     genreId: 'g-language',
   },
+  {
+    id: 'topic-sign-language',
+    title: '手話',
+    description: '日本手話を学びます。ろう者コミュニティとの対話・表現スキルを習得。',
+    image: '/images/languages/12手話.png',
+    genreId: 'g-language',
+  },
 ];
 
 export function getGenreById(id: string): Genre | undefined {

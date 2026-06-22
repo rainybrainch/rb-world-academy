@@ -20263,9 +20263,87 @@ const arac2: Category = {
   ],
 };
 
+// Sign Language - A1 Level
+const jslA1: Category = {
+  id: 'cat-jsl-a1',
+  title: '手話 - 入門',
+  description: '日本手話を入門レベルで学びます。基本的な手形・動き・表現を習得。',
+  level: 'A1',
+  topicCategoryId: 'topic-sign-language',
+  courses: [{
+    id: 'jsl-a1-1',
+    title: '第1章：基本手話と指文字',
+    lessons: [
+      {
+        id: 'l1',
+        title: 'Lesson 1: 基本手形と挨拶',
+        duration: '10:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['基本手形', '挨拶表現'],
+        sections: [
+          { type: 'info-box', content: '日本手話の基本となる手形と、日常の挨拶表現を学びます。' },
+          { type: 'heading', level: 2, content: '基本手形' },
+          { type: 'text', content: '手話は手の形・位置・動きで表現します。\n• 指を開く形\n• 握りこぶし形\n• ピース形\n• 指差し形' },
+          { type: 'heading', level: 2, content: '挨拶表現' },
+          { type: 'text', content: '• おはよう（朝の挨拶）\n• こんにちは（昼間）\n• こんばんは（夜）\n• さようなら（別れ）\n• ありがとう（感謝）' },
+          { type: 'practice', question: '基本手形を実践', auxiliaryPrompt: '鏡の前で基本手形を再現してください', answer: '各手形を正確に表現できましたか？' }
+        ],
+      },
+      {
+        id: 'l2',
+        title: 'Lesson 2: 指文字（あ～な行）',
+        duration: '8:30',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['指文字', '50音の一部'],
+        sections: [
+          { type: 'info-box', content: '固有名詞や手話で表現できない言葉は指文字で綴ります。' },
+          { type: 'heading', level: 2, content: '指文字とは' },
+          { type: 'text', content: '手指で文字を表現する方法。各音は特定の手形と位置で表されます。' },
+          { type: 'heading', level: 2, content: 'あいうえお行' },
+          { type: 'text', content: 'あ・い・う・え・お、か・き・く・け・こ、さ・し・す・せ・そ' },
+          { type: 'practice', question: '自分の名前を指文字で', auxiliaryPrompt: '自分の名前をひらがなで綴ってください', answer: '正確に表現できましたか？' }
+        ],
+      },
+    ],
+  }],
+};
+
+// Sign Language - B1 Level
+const jslB1: Category = {
+  id: 'cat-jsl-b1',
+  title: '手話 - 初級',
+  description: '日本手話を初級レベルで学びます。日常会話・表現を習得。',
+  level: 'B1',
+  topicCategoryId: 'topic-sign-language',
+  courses: [{
+    id: 'jsl-b1-1',
+    title: '第2章：日常会話',
+    lessons: [
+      {
+        id: 'l1',
+        title: 'Lesson 1: 家族と生活',
+        duration: '10:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['家族表現', '日常語彙'],
+        sections: [
+          { type: 'info-box', content: '家族関係と日常生活に関する手話を学びます。' },
+          { type: 'heading', level: 2, content: '家族関係' },
+          { type: 'text', content: '• 母（両手で胸を触る）\n• 父（両手で肩を触る）\n• 兄・姉（頭の位置で表現）\n• 弟・妹（首の位置で表現）' },
+          { type: 'heading', level: 2, content: '日常活動' },
+          { type: 'text', content: '• 起きる / 寝る\n• 食べる / 飲む\n• 働く / 学ぶ' },
+          { type: 'practice', question: '家族紹介を手話で', auxiliaryPrompt: '自分の家族を手話で紹介してください', answer: '家族関係を正確に表現できましたか？' }
+        ],
+      },
+    ],
+  }],
+};
+
 // Export all categories
 export const allCategories: Category[] = [
-  enga1, enga2, engb1, engb2, engc1, engc2, jpna1, jpna2, jpnb1, jpnb2, jpnc1, jpnc2, zhoa1, zhoa2, zhob1, zhob2, zhoc1, zhoc2, kora1, kora2, korb1, korb2, korc1, korc2, deua1, deua2, deub1, deub2, deuc1, deuc2, fraa1, fraa2, frab1, frab2, frac1, frac2, spaa1, spaa2, spab1, spab2, spac1, spac2, rusa1, rusa2, rusb1, rusb2, rusc1, rusc2, pora1, pora2, porb1, porb2, porc1, porc2, itaa1, itaa2, itab1, itab2, itac1, itac2, araa1, araa2, arab1, arab2, arac1, arac2,
+  enga1, enga2, engb1, engb2, engc1, engc2, jpna1, jpna2, jpnb1, jpnb2, jpnc1, jpnc2, zhoa1, zhoa2, zhob1, zhob2, zhoc1, zhoc2, kora1, kora2, korb1, korb2, korc1, korc2, deua1, deua2, deub1, deub2, deuc1, deuc2, fraa1, fraa2, frab1, frab2, frac1, frac2, spaa1, spaa2, spab1, spab2, spac1, spac2, rusa1, rusa2, rusb1, rusb2, rusc1, rusc2, pora1, pora2, porb1, porb2, porc1, porc2, itaa1, itaa2, itab1, itab2, itac1, itac2, araa1, araa2, arab1, arab2, arac1, arac2, jslA1, jslB1,
 ];
 
 // Utility functions
