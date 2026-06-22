@@ -1,0 +1,1012 @@
+{
+  "language": "chinese",
+  "name": "中国語 - 拡張版",
+  "icon": "/images/genres/genre-chinese.jpg",
+  "description": "標準中国語（普通話）の講義コース。初級から上級まで段階的に学習できます。",
+  "version": "enhanced-v1",
+  "lessons": [
+    {
+      "id": "ch-001",
+      "level": 1,
+      "title": "基本表現 - 挨拶と自己紹介",
+      "titleCh": "基本表达 - 问候和自我介绍",
+      "objectives": [
+        "基本的な中国語の挨拶を習得する",
+        "簡単な自己紹介ができる",
+        "人称代名詞を理解する"
+      ],
+      "content": {
+        "introduction": "中国語を学ぶ第一歩。基本的な挨拶と自己紹介。",
+        "sections": [
+          {
+            "title": "基本挨拶",
+            "phrases": [
+              {
+                "chinese": "你好",
+                "romaji": "Nǐ hǎo",
+                "japanese": "こんにちは",
+                "usage": "標準的な挨拶",
+                "tone": "3-3"
+              },
+              {
+                "chinese": "早上好",
+                "romaji": "Zǎo shang hǎo",
+                "japanese": "おはよう",
+                "usage": "朝の挨拶",
+                "tone": "3-1-3"
+              },
+              {
+                "chinese": "晚上好",
+                "romaji": "Wǎn shang hǎo",
+                "japanese": "こんばんは",
+                "usage": "夜の挨拶",
+                "tone": "3-1-3"
+              },
+              {
+                "chinese": "再见",
+                "romaji": "Zài jiàn",
+                "japanese": "さようなら",
+                "usage": "別れの挨拶",
+                "tone": "4-4"
+              }
+            ]
+          },
+          {
+            "title": "自己紹介",
+            "phrases": [
+              {
+                "chinese": "我叫...",
+                "romaji": "Wǒ jiào...",
+                "japanese": "私の名前は...",
+                "usage": "名前を言う",
+                "tone": "3-4"
+              },
+              {
+                "chinese": "很高兴认识你",
+                "romaji": "Hěn gāo xìng rènshi nǐ",
+                "japanese": "お会いできて嬉しい",
+                "usage": "初対面の挨拶",
+                "tone": "3-1-4-4-3"
+              },
+              {
+                "chinese": "你叫什么名字？",
+                "romaji": "Nǐ jiào shénme míngzi?",
+                "japanese": "お名前は？",
+                "usage": "相手の名前を尋ねる",
+                "tone": "3-4-3-5-4"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-001-q1",
+          "type": "fill-blank",
+          "question": "朝の挨拶は？",
+          "hint": "早+朝",
+          "answer": "早上好",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-001-q2",
+          "type": "fill-blank",
+          "question": "こんばんはは？",
+          "hint": "晩+上",
+          "answer": "晚上好",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-001-q3",
+          "type": "fill-blank",
+          "question": "初めましては？",
+          "hint": "初次",
+          "answer": "初次见面",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ch-001-q4",
+          "type": "multiple-choice",
+          "question": "目上の人への敬語は？",
+          "options": [
+            "你好",
+            "您好",
+            "嗨"
+          ],
+          "answer": "您好",
+          "difficulty": "medium"
+        }
+      ],
+      "culturalNotes": "中国の挨拶は握手より軽くお辞儀をする傾向。敬語が非常に重要で、関係性を大切にする文化。初対面では敬語を使用するのが基本。",
+      "learningTips": [
+        "声調が重要：中国語は4つの声調があり、同じ『ma』でも声調により意味が大きく異なる",
+        "敬語の文脈：『你好』は比較的カジュアル。目上の人には『您好』が丁寧",
+        "毎日練習：これらの表現は毎日使うので、何度も声に出して練習することが効果的"
+      ],
+      "challengeProblems": [
+        {
+          "text": "朝・昼・夜それぞれで、目上の人と友人に異なる敬語レベルで挨拶する文を作る",
+          "difficulty": "high",
+          "expectedTime": "10分"
+        },
+        {
+          "text": "自分の名前・出身地・職業を組み合わせて、30秒の自己紹介を中国語で作成する",
+          "difficulty": "high",
+          "expectedTime": "15分"
+        }
+      ],
+      "resources": [],
+      "estimatedDuration": "10分",
+      "cefr": "A1"
+    },
+    {
+      "id": "ch-002",
+      "level": 1,
+      "title": "数字と日付",
+      "titleCh": "数字和日期",
+      "objectives": [
+        "数字（0-100）を習得する",
+        "曜日の表現を学ぶ",
+        "時刻を言える"
+      ],
+      "content": {
+        "introduction": "日常生活で最も使う表現。数字と日付の完全マスターガイド。",
+        "sections": [
+          {
+            "title": "基本数字（0-10）",
+            "phrases": [
+              {
+                "chinese": "零",
+                "romaji": "Líng",
+                "japanese": "0",
+                "usage": "ゼロ"
+              },
+              {
+                "chinese": "一",
+                "romaji": "Yī",
+                "japanese": "1",
+                "usage": "1"
+              },
+              {
+                "chinese": "二",
+                "romaji": "Er",
+                "japanese": "2",
+                "usage": "2"
+              },
+              {
+                "chinese": "三",
+                "romaji": "Sān",
+                "japanese": "3",
+                "usage": "3"
+              },
+              {
+                "chinese": "四",
+                "romaji": "Sì",
+                "japanese": "4",
+                "usage": "4（不運とも）"
+              },
+              {
+                "chinese": "五",
+                "romaji": "Wǔ",
+                "japanese": "5",
+                "usage": "5"
+              },
+              {
+                "chinese": "六",
+                "romaji": "Liù",
+                "japanese": "6",
+                "usage": "6"
+              },
+              {
+                "chinese": "七",
+                "romaji": "Qī",
+                "japanese": "7",
+                "usage": "7"
+              },
+              {
+                "chinese": "八",
+                "romaji": "Bā",
+                "japanese": "8",
+                "usage": "8（幸運）"
+              },
+              {
+                "chinese": "九",
+                "romaji": "Jiǔ",
+                "japanese": "9",
+                "usage": "9"
+              },
+              {
+                "chinese": "十",
+                "romaji": "Shí",
+                "japanese": "10",
+                "usage": "10"
+              }
+            ]
+          },
+          {
+            "title": "十位と百位の数字",
+            "phrases": [
+              {
+                "chinese": "二十",
+                "romaji": "Er shí",
+                "japanese": "20",
+                "usage": "20"
+              },
+              {
+                "chinese": "三十",
+                "romaji": "Sān shí",
+                "japanese": "30",
+                "usage": "30"
+              },
+              {
+                "chinese": "一百",
+                "romaji": "Yī bǎi",
+                "japanese": "100",
+                "usage": "100"
+              }
+            ]
+          },
+          {
+            "title": "曜日",
+            "phrases": [
+              {
+                "chinese": "星期一",
+                "romaji": "Xīngqī yī",
+                "japanese": "月曜日",
+                "usage": "月曜"
+              },
+              {
+                "chinese": "星期二",
+                "romaji": "Xīngqī er",
+                "japanese": "火曜日",
+                "usage": "火曜"
+              },
+              {
+                "chinese": "星期三",
+                "romaji": "Xīngqī sān",
+                "japanese": "水曜日",
+                "usage": "水曜"
+              },
+              {
+                "chinese": "星期四",
+                "romaji": "Xīngqī sì",
+                "japanese": "木曜日",
+                "usage": "木曜"
+              },
+              {
+                "chinese": "星期五",
+                "romaji": "Xīngqī wǔ",
+                "japanese": "金曜日",
+                "usage": "金曜"
+              },
+              {
+                "chinese": "星期六",
+                "romaji": "Xīngqī liù",
+                "japanese": "土曜日",
+                "usage": "土曜"
+              },
+              {
+                "chinese": "星期日",
+                "romaji": "Xīngqī rì",
+                "japanese": "日曜日",
+                "usage": "日曜"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-002-q1",
+          "type": "fill-blank",
+          "question": "25は？",
+          "hint": "二十+五",
+          "answer": "二十五",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-002-q2",
+          "type": "fill-blank",
+          "question": "金曜日は？",
+          "hint": "星期+五",
+          "answer": "星期五",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-002-q3",
+          "type": "fill-blank",
+          "question": "100は？",
+          "hint": "一+百",
+          "answer": "一百",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-002-q4",
+          "type": "fill-blank",
+          "question": "月曜日は？",
+          "hint": "星期+一",
+          "answer": "星期一",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-002-q5",
+          "type": "fill-blank",
+          "question": "10は？",
+          "hint": "十",
+          "answer": "十",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-002-q6",
+          "type": "fill-blank",
+          "question": "37は？",
+          "hint": "三十+七",
+          "answer": "三十七",
+          "difficulty": "medium"
+        }
+      ],
+      "culturalNotes": "中国では8は幸運の数字（『発』に音が似ている）、4は不運（『死』に似ている）。ビルに4階がないことが多い。オリンピック開幕時間も8:08に設定されるなど、文化的に根深い信仰。",
+      "learningTips": [
+        "数字の組み合わせ：11は『十一』、25は『二十五』のように十位と一位を組み合わせる",
+        "曜日の『星期』：『週』の意味で、その後ろに数字が来る",
+        "実践活用：街中の看板の電話番号や価格を読む練習が効果的"
+      ],
+      "challengeProblems": [
+        {
+          "text": "任意の電話番号を中国語で読み上げる",
+          "difficulty": "high",
+          "expectedTime": "5分"
+        },
+        {
+          "text": "自分の誕生日（年・月・日）を中国語で言う",
+          "difficulty": "high",
+          "expectedTime": "5分"
+        },
+        {
+          "text": "1週間のスケジュール（曜日ごとの予定）を中国語で述べる",
+          "difficulty": "high",
+          "expectedTime": "10分"
+        }
+      ],
+      "resources": [],
+      "estimatedDuration": "9分",
+      "cefr": "A1"
+    },
+    {
+      "id": "ch-003",
+      "level": 1,
+      "title": "よく使う動詞",
+      "titleCh": "常用动词",
+      "objectives": [
+        "基本動詞を習得する",
+        "簡単な文を組み立てられる",
+        "動詞の基本用法を理解する"
+      ],
+      "content": {
+        "introduction": "日常会話に必須の動詞。これで表現の幅が大きく広がります。",
+        "sections": [
+          {
+            "title": "基本動詞（食べる・飲む・行く・来る・見る）",
+            "phrases": [
+              {
+                "chinese": "吃",
+                "romaji": "Chī",
+                "japanese": "食べる",
+                "usage": "食事",
+                "example": "我吃米饭。（ご飯を食べます。）"
+              },
+              {
+                "chinese": "喝",
+                "romaji": "Hē",
+                "japanese": "飲む",
+                "usage": "飲料",
+                "example": "我喝茶。（お茶を飲みます。）"
+              },
+              {
+                "chinese": "去",
+                "romaji": "Qù",
+                "japanese": "行く",
+                "usage": "移動・目的地へ",
+                "example": "我去北京。（北京に行きます。）"
+              },
+              {
+                "chinese": "来",
+                "romaji": "Lái",
+                "japanese": "来る",
+                "usage": "到着・接近",
+                "example": "他来了。（彼が来ました。）"
+              },
+              {
+                "chinese": "看",
+                "romaji": "Kàn",
+                "japanese": "見る",
+                "usage": "視覚・観察",
+                "example": "我看书。（本を読みます。）"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-003-q1",
+          "type": "fill-blank",
+          "question": "食べるは？",
+          "hint": "チー",
+          "answer": "吃",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-003-q2",
+          "type": "fill-blank",
+          "question": "飲むは？",
+          "hint": "へー",
+          "answer": "喝",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-003-q3",
+          "type": "fill-blank",
+          "question": "行くは？",
+          "hint": "チュー",
+          "answer": "去",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-003-q4",
+          "type": "fill-blank",
+          "question": "来るは？",
+          "hint": "ライ",
+          "answer": "来",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-003-q5",
+          "type": "fill-blank",
+          "question": "見るは？",
+          "hint": "カン",
+          "answer": "看",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-003-q6",
+          "type": "sentence-build",
+          "question": "『私はご飯を食べます』を中国語で組み立てる",
+          "hint": "我+吃+米饭",
+          "answer": "我吃米饭。",
+          "difficulty": "medium"
+        }
+      ],
+      "culturalNotes": "中国語の『吃』は食べるだけでなく、『経験する』『苦労する』など比喩的な用法が豊富。『吃苦』（苦労する）、『吃饭』（飯を食べる＝生計を立てる）など日常会話で頻出。",
+      "learningTips": [
+        "動詞の基本構造：中国語の動詞は時制変化しない。『吃』『喝』は常に同じ形",
+        "文の組み立て方：『主語+動詞+目的語』が基本構造。『我吃米饭。』",
+        "動詞の方向性：『来』『去』で方向を指す。『他来了。』（彼が来た）"
+      ],
+      "challengeProblems": [
+        {
+          "text": "5つの基本動詞を使った短い文を5つ作る",
+          "difficulty": "medium",
+          "expectedTime": "10分"
+        },
+        {
+          "text": "自分の1日のスケジュールを基本動詞で説明する（3分以上）",
+          "difficulty": "high",
+          "expectedTime": "15分"
+        }
+      ],
+      "resources": [],
+      "estimatedDuration": "10分",
+      "cefr": "A1"
+    },
+    {
+      "id": "ch-004",
+      "level": 1,
+      "title": "食事と飲食",
+      "titleCh": "饮食",
+      "objectives": [
+        "食べ物の名前",
+        "食事の注文",
+        "中国料理"
+      ],
+      "content": {
+        "introduction": "中国料理は世界で最も多様。食事表現をマスター。",
+        "sections": [
+          {
+            "title": "食べ物",
+            "phrases": [
+              {
+                "chinese": "米饭",
+                "romaji": "Mi fan",
+                "japanese": "白米"
+              },
+              {
+                "chinese": "面条",
+                "romaji": "Mian tiao",
+                "japanese": "麺"
+              },
+              {
+                "chinese": "肉",
+                "romaji": "Rou",
+                "japanese": "肉"
+              },
+              {
+                "chinese": "菜",
+                "romaji": "Cai",
+                "japanese": "おかず"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-004-q1",
+          "type": "fill-blank",
+          "question": "白米は?",
+          "answer": "米饭"
+        },
+        {
+          "id": "ch-004-q2",
+          "type": "fill-blank",
+          "question": "麺は?",
+          "answer": "面条"
+        }
+      ],
+      "culturalNotes": "四川・広東・山東・江蘇の四大料理。地域色豊か。",
+      "estimatedDuration": "8分",
+      "cefr": "A1"
+    },
+    {
+      "id": "ch-005",
+      "level": 1,
+      "title": "色と形容詞",
+      "titleCh": "颜色和形容词",
+      "objectives": [
+        "色を表現",
+        "物を描写",
+        "形容詞の用法"
+      ],
+      "content": {
+        "introduction": "世界を描写するための形容詞と色。",
+        "sections": [
+          {
+            "title": "基本色",
+            "phrases": [
+              {
+                "chinese": "红色",
+                "romaji": "Hong se",
+                "japanese": "赤"
+              },
+              {
+                "chinese": "蓝色",
+                "romaji": "Lan se",
+                "japanese": "青"
+              },
+              {
+                "chinese": "绿色",
+                "romaji": "Lv se",
+                "japanese": "緑"
+              },
+              {
+                "chinese": "黄色",
+                "romaji": "Huang se",
+                "japanese": "黄"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-005-q1",
+          "type": "fill-blank",
+          "question": "赤は?",
+          "answer": "红色"
+        },
+        {
+          "id": "ch-005-q2",
+          "type": "fill-blank",
+          "question": "青は?",
+          "answer": "蓝色"
+        }
+      ],
+      "culturalNotes": "中国では赤は幸運・繁栄の象徴。春節は赤装飾で彩られる。",
+      "estimatedDuration": "8分",
+      "cefr": "A1"
+    },
+    {
+      "id": "ch-006",
+      "level": 1,
+      "title": "交通と方向",
+      "titleCh": "交通和方向",
+      "objectives": [
+        "交通手段",
+        "方向表現",
+        "移動表現"
+      ],
+      "content": {
+        "introduction": "移動と方向の基本表現。街中で使える実践的な表現。",
+        "sections": [
+          {
+            "title": "交通手段",
+            "phrases": [
+              {
+                "chinese": "车",
+                "romaji": "Che",
+                "japanese": "車"
+              },
+              {
+                "chinese": "火车",
+                "romaji": "Huoche",
+                "japanese": "電車"
+              },
+              {
+                "chinese": "飞机",
+                "romaji": "Feiji",
+                "japanese": "飛行機"
+              },
+              {
+                "chinese": "地铁",
+                "romaji": "Ditie",
+                "japanese": "地下鉄"
+              }
+            ]
+          },
+          {
+            "title": "方向",
+            "phrases": [
+              {
+                "chinese": "左",
+                "romaji": "Zuo",
+                "japanese": "左"
+              },
+              {
+                "chinese": "右",
+                "romaji": "You",
+                "japanese": "右"
+              },
+              {
+                "chinese": "前",
+                "romaji": "Qian",
+                "japanese": "前"
+              },
+              {
+                "chinese": "后",
+                "romaji": "Hou",
+                "japanese": "後ろ"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-006-q1",
+          "type": "fill-blank",
+          "question": "電車は?",
+          "answer": "火车"
+        },
+        {
+          "id": "ch-006-q2",
+          "type": "fill-blank",
+          "question": "左は?",
+          "answer": "左"
+        }
+      ],
+      "culturalNotes": "中国の高速列車網は世界最大。交通インフラが急速に発展。",
+      "estimatedDuration": "9分",
+      "cefr": "A1"
+    },
+    {
+      "id": "ch-007",
+      "level": 1,
+      "title": "時間と日程",
+      "titleCh": "时间和日程",
+      "objectives": [
+        "時刻表現",
+        "日程管理",
+        "時間関連用語"
+      ],
+      "content": {
+        "introduction": "時間は普遍的なテーマ。スケジュール調整に必須。",
+        "sections": [
+          {
+            "title": "時刻",
+            "phrases": [
+              {
+                "chinese": "一点",
+                "romaji": "Yi dian",
+                "japanese": "1時"
+              },
+              {
+                "chinese": "中午",
+                "romaji": "Zhong wu",
+                "japanese": "昼"
+              },
+              {
+                "chinese": "晚上",
+                "romaji": "Wan shang",
+                "japanese": "夜"
+              },
+              {
+                "chinese": "今天",
+                "romaji": "Jin tian",
+                "japanese": "今日"
+              }
+            ]
+          },
+          {
+            "title": "時間表現",
+            "phrases": [
+              {
+                "chinese": "早",
+                "romaji": "Zao",
+                "japanese": "早い"
+              },
+              {
+                "chinese": "晚",
+                "romaji": "Wan",
+                "japanese": "遅い"
+              },
+              {
+                "chinese": "现在",
+                "romaji": "Xian zai",
+                "japanese": "今"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-007-q1",
+          "type": "fill-blank",
+          "question": "昼は?",
+          "answer": "中午"
+        },
+        {
+          "id": "ch-007-q2",
+          "type": "fill-blank",
+          "question": "今日は?",
+          "answer": "今天"
+        }
+      ],
+      "culturalNotes": "中国は「時間は金なり」という概念を重視。ビジネスでは時間厳守が重要。",
+      "estimatedDuration": "9分",
+      "cefr": "A1"
+    },
+    {
+      "id": "ch-008",
+      "level": 2,
+      "title": "日常会話と複文構造",
+      "titleCh": "日常对话和复杂句子",
+      "objectives": [
+        "複文を理解",
+        "流暢な会話",
+        "文法構造の習得"
+      ],
+      "content": {
+        "introduction": "A1 の基礎から、より複雑な日常会話へ。複文構造を学びます。",
+        "sections": [
+          {
+            "title": "接続詞と複文",
+            "phrases": [
+              {
+                "chinese": "因为...所以...",
+                "romaji": "Yinwei...suoyi...",
+                "japanese": "...なぜなら...だから"
+              },
+              {
+                "chinese": "如果...就...",
+                "romaji": "Ruguo...jiu...",
+                "japanese": "もし...なら..."
+              },
+              {
+                "chinese": "虽然...但是...",
+                "romaji": "Suiran...danshi...",
+                "japanese": "...とはいえ...しかし"
+              },
+              {
+                "chinese": "当...的时候",
+                "romaji": "Dang...de shihou",
+                "japanese": "...するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-008-q1",
+          "type": "sentence-build",
+          "question": "『彼は忙しいから来られない』を中国語で",
+          "answer": "他很忙,所以他不能来。"
+        },
+        {
+          "id": "ch-008-q2",
+          "type": "sentence-build",
+          "question": "『もし雨なら外出しない』を中国語で",
+          "answer": "如果下雨,我就不出去。"
+        }
+      ],
+      "culturalNotes": "複文構造は中国語の文法的特徴。論理的な思考が必要。",
+      "estimatedDuration": "12分",
+      "cefr": "A2"
+    },
+    {
+      "id": "ch-009",
+      "level": 2,
+      "title": "ビジネス用語と敬語",
+      "titleCh": "商业用语和敬语",
+      "objectives": [
+        "ビジネス表現",
+        "より高度な敬語",
+        "プロフェッショナル会話"
+      ],
+      "content": {
+        "introduction": "職場や公式な場面での表現。ビジネス中国語の基礎。",
+        "sections": [
+          {
+            "title": "ビジネス用語",
+            "phrases": [
+              {
+                "chinese": "会议",
+                "romaji": "Huiyi",
+                "japanese": "会議"
+              },
+              {
+                "chinese": "合同",
+                "romaji": "Hetong",
+                "japanese": "契約"
+              },
+              {
+                "chinese": "协议",
+                "romaji": "Xieyi",
+                "japanese": "協議"
+              },
+              {
+                "chinese": "项目",
+                "romaji": "Xiangmu",
+                "japanese": "プロジェクト"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-009-q1",
+          "type": "fill-blank",
+          "question": "会議は?",
+          "answer": "会议"
+        },
+        {
+          "id": "ch-009-q2",
+          "type": "fill-blank",
+          "question": "契約は?",
+          "answer": "合同"
+        }
+      ],
+      "culturalNotes": "中国のビジネス文化では個人関係（guanxi）が重要。信頼構築が優先される。",
+      "estimatedDuration": "12分",
+      "cefr": "A2"
+    },
+    {
+      "id": "ch-010",
+      "level": 2,
+      "title": "感情と意見表現",
+      "titleCh": "情感和观点表达",
+      "objectives": [
+        "感情語彙",
+        "意見の述べ方",
+        "説得的な表現"
+      ],
+      "content": {
+        "introduction": "自分の感情や意見を表現する。より豊かなコミュニケーション。",
+        "sections": [
+          {
+            "title": "感情表現",
+            "phrases": [
+              {
+                "chinese": "我觉得...",
+                "romaji": "Wo juede...",
+                "japanese": "私は思う..."
+              },
+              {
+                "chinese": "我同意",
+                "romaji": "Wo tongyi",
+                "japanese": "同意する"
+              },
+              {
+                "chinese": "我不同意",
+                "romaji": "Wo bu tongyi",
+                "japanese": "同意しない"
+              },
+              {
+                "chinese": "太好了",
+                "romaji": "Tai haole",
+                "japanese": "素晴らしい"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-010-q1",
+          "type": "sentence-build",
+          "question": "『これは良い考えだと思う』を中国語で",
+          "answer": "我觉得这是一个好想法。"
+        },
+        {
+          "id": "ch-010-q2",
+          "type": "fill-blank",
+          "question": "同意するは?",
+          "answer": "同意"
+        }
+      ],
+      "culturalNotes": "中国では直接的な異議唱えは避けられることがある。間接的な表現が好まれる。",
+      "estimatedDuration": "11分",
+      "cefr": "A2"
+    },
+    {
+      "id": "ch-011",
+      "level": 2,
+      "title": "過去と未来の時制",
+      "titleCh": "过去和未来时态",
+      "objectives": [
+        "完了体表現",
+        "将来形",
+        "時制の正確な使い分け"
+      ],
+      "content": {
+        "introduction": "時制の正確な理解。歴史と計画を語る力。",
+        "sections": [
+          {
+            "title": "時制表現",
+            "phrases": [
+              {
+                "chinese": "...过",
+                "romaji": "...guo",
+                "japanese": "...したことがある"
+              },
+              {
+                "chinese": "将要...",
+                "romaji": "Jiangyao...",
+                "japanese": "これから...する"
+              },
+              {
+                "chinese": "会...",
+                "romaji": "Hui...",
+                "japanese": "...するだろう"
+              },
+              {
+                "chinese": "已经",
+                "romaji": "Yijing",
+                "japanese": "すでに"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ch-011-q1",
+          "type": "sentence-build",
+          "question": "『中国を訪れたことがある』を中国語で",
+          "answer": "我去过中国。"
+        },
+        {
+          "id": "ch-011-q2",
+          "type": "sentence-build",
+          "question": "『明日、仕事に行く予定です』を中国語で",
+          "answer": "我明天会去工作。"
+        }
+      ],
+      "culturalNotes": "中国語では時制が明示的でないため、文脈が重要。副詞で時間を指定することが多い。",
+      "estimatedDuration": "12分",
+      "cefr": "A2"
+    }
+  ]
+}

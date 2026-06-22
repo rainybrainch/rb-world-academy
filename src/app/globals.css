@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+:root {
+  /* Monebou brand palette (from manebou-hp) */
+  --mb-dark:      #1A1A2E;
+  --mb-gold:      #F5C842;
+  --mb-gold-dark: #D4A017;
+  --mb-sky:       #5BC8E8;
+  --mb-red:       #E8354A;
+  --mb-green:     #4CAF7D;
+  --mb-purple:    #9B6DD6;
+  --mb-cream:     #FFFDF5;
+  --mb-wave:      #1A6FA8;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--mb-cream);
+  background-image: radial-gradient(circle, rgba(26,26,46,0.055) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: var(--mb-dark);
+  font-family: var(--font-zen), 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.font-display {
+  font-family: var(--font-dela), sans-serif;
+}
+
+/* Neo-brutalist card shadows */
+.shadow-sky   { box-shadow: 4px 4px 0 var(--mb-sky); }
+.shadow-gold  { box-shadow: 4px 4px 0 var(--mb-gold); }
+.shadow-red   { box-shadow: 4px 4px 0 var(--mb-red); }
+.shadow-green { box-shadow: 4px 4px 0 var(--mb-green); }
+.shadow-dark  { box-shadow: 4px 4px 0 var(--mb-dark); }
+
+/* Hide scrollbar while keeping scroll functionality */
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Keyboard focus indicator for accessibility */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--mb-gold);
+  outline-offset: 2px;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Wide mode: expand content max-width */
+body.mb-wide .max-w-xl,
+body.mb-wide .max-w-2xl {
+  max-width: 1100px;
+}
+body.mb-wide main {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Toast & animation keyframes (extracted from component inline styles) */
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideDown {
+  from { opacity: 0; transform: translate(-50%, -20px); }
+  to   { opacity: 1; transform: translate(-50%, 0); }
+}
+@keyframes levelSlide {
+  from { opacity: 0; transform: translate(-50%, -24px) scale(0.85); }
+  to   { opacity: 1; transform: translate(-50%, 0) scale(1); }
+}
+@keyframes pulse-border {
+  0%, 100% { border-color: rgba(232,53,74,0.3); }
+  50%       { border-color: rgba(232,53,74,0.7); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Remaining animation keyframes */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+@keyframes appPop {
+  from { opacity: 0; transform: scale(0.8); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@media (hover: hover) {
+  .app-icon:hover { transform: translateY(-3px); }
+}
+.app-icon:active { transform: scale(0.92); }
+@keyframes courseModalIn {
+  from { opacity: 0; transform: scale(0.75) translateY(24px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+@keyframes spinBadge {
+  0%   { transform: rotate(-15deg) scale(0.5); opacity: 0; }
+  60%  { transform: rotate(8deg) scale(1.15); opacity: 1; }
+  100% { transform: rotate(0deg) scale(1); opacity: 1; }
+}
+@keyframes shimmerPulse {
+  0%, 100% { opacity: 0.6; }
+  50%       { opacity: 1; }
+}
+@keyframes fadeInOut {
+  0%   { opacity: 0; transform: scale(0.85); }
+  15%  { opacity: 1; transform: scale(1.05); }
+  25%  { opacity: 1; transform: scale(1); }
+  75%  { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.95); }
+}

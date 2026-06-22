@@ -1,0 +1,31 @@
+﻿{
+    "icon":  "genre-japanese-modern.jpg",
+    "lessons":  [
+                    {
+                        "title":  "カタカナ L1",
+                        "description":  "日本語学習 [改善]",
+                        "id":  1,
+                        "order":  1
+                    },
+                    {
+                        "title":  "数字 L2",
+                        "description":  "日本語学習 [改善]",
+                        "id":  2,
+                        "order":  2
+                    },
+                    {
+                        "title":  "挨拶 L3",
+                        "description":  "日本語学習 [改善]",
+                        "id":  3,
+                        "order":  3
+                    },
+                    {
+                        "title":  "色 L4",
+                        "description":  "日本語学習",
+                        "id":  4,
+                        "order":  4
+                    }
+                ],
+    "name":  "日本語を学ぼう！",
+    "id":  "japanese"
+}
