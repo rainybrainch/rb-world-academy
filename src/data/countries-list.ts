@@ -2,11 +2,11 @@
 export const countriesList = [
   { id: 'countries-report', name: 'カウントリー\nレポート', icon: '/images/countries/カウントリーレポート.png', url: 'https://rainybrainch.github.io/countries-report/' },
   { id: 'japan', name: '日本', icon: '/images/countries/日本.jpg' },
+  { id: 'usa', name: 'アメリカ', icon: '/images/countries/アメリカ.jpg' },
   { id: 'china', name: '中国', icon: '/images/countries/中国.jpg' },
   { id: 'korea', name: '韓国', icon: '/images/countries/韓国.jpg' },
   { id: 'taiwan', name: '台湾', icon: '/images/countries/台湾.png' },
   { id: 'india', name: 'インド', icon: '/images/countries/インド.jpg' },
-  { id: 'usa', name: 'アメリカ', icon: '/images/countries/アメリカ.jpg' },
   { id: 'uk', name: 'イギリス', icon: '/images/countries/イギリス.jpg' },
   { id: 'canada', name: 'カナダ', icon: '/images/countries/カナダ.jpg' },
   { id: 'australia', name: 'オーストラリア', icon: '/images/countries/オーストラリア.jpg' },
