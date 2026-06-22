@@ -77,49 +77,69 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* ── アプリグリッド ── */}
+      {/* ── Language アプリグリッド ── */}
       <div>
         <div className="flex items-center gap-2 mb-3">
           <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-green)' }} />
           <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            アプリ
+            Language アプリ
           </h2>
         </div>
 
         <HomeCourseGrid categories={categories} />
       </div>
 
-      {/* ── Country Academy ── */}
+      {/* ── Country アプリグリッド ── */}
       <div>
         <div className="flex items-center gap-2 mb-3">
           <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-sky)' }} />
           <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            国を学ぼう
+            Country アプリ
           </h2>
         </div>
-        <Link href="https://rb-world-countries.vercel.app" target="_blank" rel="noopener">
-          <div
-            className="rounded-2xl p-4 relative overflow-hidden cursor-pointer hover:shadow-lg transition-shadow"
-            style={{
-              background: 'linear-gradient(135deg, #1a4d7a 0%, #2d7aa6 100%)',
-              border: '2px solid rgba(45, 122, 166, 0.5)',
-              boxShadow: '0 4px 12px rgba(45, 122, 166, 0.2)',
-            }}
-          >
-            <div className="relative z-10">
-              <div className="flex items-center gap-3 mb-2">
-                <span className="text-2xl">🌍</span>
-                <h3 className="text-white font-bold text-sm">Country Academy</h3>
+
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-x-3 gap-y-5">
+          {[
+            { id: 'india', name: 'インド', icon: '/images/countries/インド.jpg' },
+            { id: 'taiwan', name: '台湾', icon: '/images/countries/台湾.jpg' },
+            { id: 'china', name: '中国', icon: '/images/countries/中国.jpg' },
+            { id: 'japan', name: '日本', icon: '/images/countries/日本.jpg' },
+            { id: 'germany', name: 'ドイツ', icon: '/images/countries/ドイツ.jpg' },
+            { id: 'usa', name: 'アメリカ', icon: '/images/countries/アメリカ.jpg' },
+            { id: 'uk', name: 'イギリス', icon: '/images/countries/イギリス.jpg' },
+            { id: 'france', name: 'フランス', icon: '/images/countries/フランス.jpg' },
+            { id: 'brazil', name: 'ブラジル', icon: '/images/countries/ブラジル.jpg' },
+            { id: 'indonesia', name: 'インドネシア', icon: '/images/countries/インドネシア.jpg' },
+            { id: 'mexico', name: 'メキシコ', icon: '/images/countries/メキシコ.jpg' },
+            { id: 'korea', name: '韓国', icon: '/images/countries/韓国.jpg' },
+          ].map((country) => (
+            <Link
+              key={country.id}
+              href={`https://rb-world-countries.vercel.app/countries/${country.id}`}
+              target="_blank"
+              rel="noopener"
+            >
+              <div
+                className="w-full rounded-2xl overflow-hidden border-2 shadow-sm relative cursor-pointer hover:scale-105 transition-transform"
+                style={{
+                  aspectRatio: '1/1',
+                  borderColor: 'rgba(26,26,46,0.08)',
+                  background: '#1a2a4a22',
+                  boxShadow: '0 2px 8px rgba(26,122,166,0.3)',
+                }}
+              >
+                <img
+                  src={country.icon}
+                  alt={country.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <p className="text-blue-100 text-xs mb-3">
-                世界の国々を政治、経済、文化の視点から学ぶ。12ヶ国 + 台湾のプロフィール。
+              <p className="text-xs font-bold mt-2 text-center text-gray-700" style={{ color: 'rgba(26,26,46,0.7)' }}>
+                {country.name}
               </p>
-              <div className="inline-block px-3 py-1.5 bg-white text-blue-600 font-semibold rounded text-xs hover:bg-blue-50 transition-colors">
-                探索する →
-              </div>
-            </div>
-          </div>
-        </Link>
+            </Link>
+          ))}
+        </div>
       </div>
 
       {/* ── 全講義制覇 ── */}
