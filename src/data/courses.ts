@@ -20762,9 +20762,93 @@ const clsb2: Category = {
   }],
 };
 
+// Sign Language - A2 Level
+const jslA2: Category = {
+  id: 'cat-jsl-a2',
+  title: '手話 - 初級',
+  description: '日本手話を初級レベルで学びます。日常会話と表現力を強化。',
+  level: 'A2',
+  topicCategoryId: 'topic-sign-language',
+  courses: [{
+    id: 'jsl-a2-1',
+    title: '第3章：日常表現と感情',
+    lessons: [
+      {
+        id: 'l1',
+        title: 'Lesson 1: 感情表現',
+        duration: '11:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['感情', '表情表現'],
+        sections: [
+          { type: 'info-box', content: '手話では顔の表情が非常に重要です。感情を正確に表現できるようになります。' },
+          { type: 'heading', level: 2, content: '基本的な感情表現' },
+          { type: 'text', content: '• 喜ぶ（両手を上げて笑顔）\n• 悲しむ（眉を下げて悲しい表情）\n• 怒る（眉を寄せて怒った表情）\n• 驚く（口を大きく開けて驚いた顔）\n• 困る（首をかしげて困った表情）' },
+          { type: 'practice', question: '感情を表現する', auxiliaryPrompt: '5つの異なる感情を手話で表現してください', answer: '顔の表情と手の動きが一致していますか？' }
+        ],
+      },
+      {
+        id: 'l2',
+        title: 'Lesson 2: 日常会話の表現',
+        duration: '11:30',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['日常表現', '会話'],
+        sections: [
+          { type: 'info-box', content: '日常生活でよく使う表現を習得します。' },
+          { type: 'heading', level: 2, content: '買い物での会話' },
+          { type: 'text', content: '• 「これはいくらですか」（指して値段を聞く）\n• 「小さいサイズはありますか」\n• 「カードで払えますか」' },
+          { type: 'practice', question: '買い物会話を手話で', auxiliaryPrompt: '簡単な買い物の会話を手話で演じてください', answer: 'スムーズに会話が進みましたか？' }
+        ],
+      }
+    ],
+  }],
+};
+
+// Sign Language - B2 Level
+const jslB2: Category = {
+  id: 'cat-jsl-b2',
+  title: '手話 - 上級',
+  description: '日本手話を上級レベルで学びます。複雑な表現と文化的理解を深めます。',
+  level: 'B2',
+  topicCategoryId: 'topic-sign-language',
+  courses: [{
+    id: 'jsl-b2-1',
+    title: '第4章：高度な表現と文化',
+    lessons: [
+      {
+        id: 'l1',
+        title: 'Lesson 1: 複雑な文法構造',
+        duration: '12:30',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['文法', '複雑表現'],
+        sections: [
+          { type: 'heading', level: 2, content: '手話の高度な文法' },
+          { type: 'text', content: '分類詞（classifiers）の高度な使用:\n• 人間の分類詞（人物の特徴を示す）\n• 物の分類詞（サイズや形状を示す）\n• 動きの分類詞（動作の方向を示す）' },
+          { type: 'practice', question: '複雑な構造を使う', auxiliaryPrompt: '複数の分類詞を組み合わせて場面を説明してください', answer: '文法構造が正確ですか？' }
+        ],
+      },
+      {
+        id: 'l2',
+        title: 'Lesson 2: ろう文化への理解',
+        duration: '13:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['文化', 'ろう社会'],
+        sections: [
+          { type: 'heading', level: 2, content: 'ろう文化とろう社会' },
+          { type: 'text', content: 'ろう人の生活、文化、アイデンティティについて深く学びます。\n• ろう教育の歴史\n• ろうコミュニティの組織\n• ろう文化の芸術と表現' },
+          { type: 'practice', question: 'ろう文化について議論', auxiliaryPrompt: 'ろう文化について手話で議論してください', answer: '深い理解が表現できていますか？' }
+        ],
+      }
+    ],
+  }],
+};
+
 // Export all categories
 export const allCategories: Category[] = [
-  enga1, enga2, engb1, engb2, engc1, engc2, jpna1, jpna2, jpnb1, jpnb2, jpnc1, jpnc2, zhoa1, zhoa2, zhob1, zhob2, zhoc1, zhoc2, kora1, kora2, korb1, korb2, korc1, korc2, deua1, deua2, deub1, deub2, deuc1, deuc2, fraa1, fraa2, frab1, frab2, frac1, frac2, spaa1, spaa2, spab1, spab2, spac1, spac2, rusa1, rusa2, rusb1, rusb2, rusc1, rusc2, pora1, pora2, porb1, porb2, porc1, porc2, itaa1, itaa2, itab1, itab2, itac1, itac2, araa1, araa2, arab1, arab2, arac1, arac2, jslA1, jslB1, clsa1, clsa2, clsb1, clsb2,
+  enga1, enga2, engb1, engb2, engc1, engc2, jpna1, jpna2, jpnb1, jpnb2, jpnc1, jpnc2, zhoa1, zhoa2, zhob1, zhob2, zhoc1, zhoc2, kora1, kora2, korb1, korb2, korc1, korc2, deua1, deua2, deub1, deub2, deuc1, deuc2, fraa1, fraa2, frab1, frab2, frac1, frac2, spaa1, spaa2, spab1, spab2, spac1, spac2, rusa1, rusa2, rusb1, rusb2, rusc1, rusc2, pora1, pora2, porb1, porb2, porc1, porc2, itaa1, itaa2, itab1, itab2, itac1, itac2, araa1, araa2, arab1, arab2, arac1, arac2, jslA1, jslA2, jslB1, jslB2, clsa1, clsa2, clsb1, clsb2,
 ];
 
 // Utility functions
