@@ -106,38 +106,74 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-          {countriesList.map((country) => (
-            <Link
-              key={country.id}
-              href={(country as any).url || `https://rb-world-countries.vercel.app/countries/${country.id}`}
-              target="_blank"
-              rel="noopener"
-            >
-              <div
-                className="group w-full rounded-2xl overflow-hidden border-2 relative cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
-                style={{
-                  aspectRatio: '1/1',
-                  borderColor: 'rgba(102,126,234,0.2)',
-                  background: 'linear-gradient(135deg, rgba(102,126,234,0.08) 0%, rgba(118,75,162,0.05) 100%)',
-                  boxShadow: '0 4px 12px rgba(26,122,166,0.2)',
-                }}
+          {countriesList.map((country) => {
+            // カウントリーレポートは外部リンク
+            if (country.id === 'countries-report') {
+              return (
+                <a
+                  key={country.id}
+                  href={country.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group"
+                >
+                  <div
+                    className="w-full rounded-2xl overflow-hidden border-2 relative cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                    style={{
+                      aspectRatio: '1/1',
+                      borderColor: 'rgba(102,126,234,0.2)',
+                      background: 'linear-gradient(135deg, rgba(102,126,234,0.08) 0%, rgba(118,75,162,0.05) 100%)',
+                      boxShadow: '0 4px 12px rgba(26,122,166,0.2)',
+                    }}
+                  >
+                    <img
+                      src={country.icon}
+                      alt={country.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div
+                      className="absolute inset-0 group-hover:bg-gradient-to-t group-hover:from-black/40 transition-all duration-300 pointer-events-none"
+                      style={{ background: 'transparent' }}
+                    />
+                  </div>
+                  <p className="text-xs font-bold mt-2 text-center leading-tight" style={{ color: 'rgba(26,26,46,0.75)' }}>
+                    {country.name}
+                  </p>
+                </a>
+              );
+            }
+
+            return (
+              <Link
+                key={country.id}
+                href={`/countries/${country.id}`}
+                className="group"
               >
-                <img
-                  src={country.icon}
-                  alt={country.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                />
-                {/* グラデーション・オーバーレイ */}
                 <div
-                  className="absolute inset-0 group-hover:bg-gradient-to-t group-hover:from-black/40 transition-all duration-300 pointer-events-none"
-                  style={{ background: 'transparent' }}
-                />
-              </div>
-              <p className="text-xs font-bold mt-2 text-center leading-tight" style={{ color: 'rgba(26,26,46,0.75)' }}>
-                {country.name}
-              </p>
-            </Link>
-          ))}
+                  className="w-full rounded-2xl overflow-hidden border-2 relative cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                  style={{
+                    aspectRatio: '1/1',
+                    borderColor: 'rgba(102,126,234,0.2)',
+                    background: 'linear-gradient(135deg, rgba(102,126,234,0.08) 0%, rgba(118,75,162,0.05) 100%)',
+                    boxShadow: '0 4px 12px rgba(26,122,166,0.2)',
+                  }}
+                >
+                  <img
+                    src={country.icon}
+                    alt={country.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div
+                    className="absolute inset-0 group-hover:bg-gradient-to-t group-hover:from-black/40 transition-all duration-300 pointer-events-none"
+                    style={{ background: 'transparent' }}
+                  />
+                </div>
+                <p className="text-xs font-bold mt-2 text-center leading-tight" style={{ color: 'rgba(26,26,46,0.75)' }}>
+                  {country.name}
+                </p>
+              </Link>
+            );
+          })}
         </div>
       </div>
 
