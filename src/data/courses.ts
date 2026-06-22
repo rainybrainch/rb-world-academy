@@ -14872,14 +14872,14 @@ const spab2: Category = {
 
 // ロシア語 - A1
 const rusa1: Category = {
-  id: 'cat-spa-c1',
-  title: 'Spanish - C1',
-  description: '（レベル C1）。',
-  level: 'C1',
-  topicCategoryId: 'topic-spa',
+  id: 'cat-rus-a1',
+  title: 'Russian - A1',
+  description: '（レベル A1）。',
+  level: 'A1',
+  topicCategoryId: 'topic-rus',
   courses: [
     {
-      id: 'spa-c1-1',
+      id: 'rus-a1-1',
       title: 'Chapter 1: Foundations',
       lessons: [
         {
