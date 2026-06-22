@@ -156,7 +156,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
                 ALL ACADEMY
               </span>
               <span style={{ color: 'rgba(91,200,232,0.5)', fontFamily: "'Dela Gothic One', sans-serif", fontSize: '9px', letterSpacing: '0.06em', lineHeight: 1.1 }}>
-                MANEBOU ACADEMY
+                オールアカデミー
               </span>
             </div>
           </Link>
@@ -249,11 +249,11 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
               ALL ACADEMY
             </div>
             <div style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'rgba(91,200,232,0.45)', fontSize: '11px', letterSpacing: '0.05em', marginTop: '2px' }}>
-              MANEBOU ACADEMY
+              オールアカデミー
             </div>
           </div>
           <div style={{ color: 'rgba(255,255,255,0.45)', fontSize: '10px', letterSpacing: '2px', marginTop: '4px' }}>
-            お金の知識を積み立てよう
+            11言語を学んで世界と繋がろう
           </div>
           {/* 7-day mini heatmap — intensity by lesson count */}
           {mounted && (

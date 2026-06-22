@@ -49,7 +49,7 @@ export default function HomeStats() {
       extra: null as string | null,
     },
     {
-      label: '積み立て講義',
+      label: '完了講義',
       sub: 'LESSONS',
       value: mounted ? String(animatedLessons) : '0',
       color: 'var(--mb-green)',

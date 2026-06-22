@@ -14,15 +14,7 @@ import CourseOverviewSheet from '@/components/CourseOverviewSheet';
 import { COURSE_META as courseMeta } from '@/data/course-meta';
 
 // カテゴリ（TopicCategory）のアイコン・カラー
-const topicMeta: Record<string, { icon: string; color: string; label: string; shadow: string }> = {
-  'cat-money':       { icon: '💴', color: '#5BC8E8', label: 'お金', shadow: 'rgba(91,200,232,0.3)' },
-  'cat-investment':  { icon: '📈', color: '#4CAF7D', label: '投資', shadow: 'rgba(76,175,125,0.3)' },
-  'cat-economics':   { icon: '🌐', color: '#9B6DD6', label: '経済', shadow: 'rgba(155,109,214,0.3)' },
-  'cat-politics':    { icon: '🏛', color: '#E8823A', label: '政治', shadow: 'rgba(232,130,58,0.3)' },
-  'cat-zai':         { icon: '🎲', color: '#F5C842', label: 'ZAi', shadow: 'rgba(245,200,66,0.3)' },
-  'cat-boardgame':   { icon: '🎯', color: '#F5C842', label: 'ボードゲーム', shadow: 'rgba(245,200,66,0.3)' },
-  'cat-exam-public': { icon: '📝', color: '#E8354A', label: '受験', shadow: 'rgba(232,53,74,0.3)' },
-};
+const topicMeta: Record<string, { icon: string; color: string; label: string; shadow: string }> = {};
 
 // ジャンルのアイコン・カラー
 const genreMeta: Record<string, { icon: string; color: string }> = {

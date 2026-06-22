@@ -10,7 +10,7 @@
 //   Lesson     = 既存
 // ─────────────────────────────────────────────────────
 
-export type CourseLevel = '入門' | '基礎' | '応用' | '上級' | 'A1' | 'A2' | 'B1' | 'B2';
+export type CourseLevel = '入門' | '基礎' | '応用' | '上級' | 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 
 export interface Genre {
   id: string;

@@ -1,0 +1,540 @@
+{
+  "language": "japanese",
+  "name": "日本語 A1 - 基礎コース",
+  "icon": "genre-japanese-modern.jpg",
+  "description": "日本語学習のA1レベル全5講義。基本挨拶・数字・色・自己紹介から実践会話まで段階的に習得します。",
+  "version": "enhanced-v1",
+  "level": "A1-Beginner",
+  "lessons": [
+    {
+      "id": "ja-a1-001",
+      "level": 1,
+      "title": "基本挨拶と自己紹介",
+      "objectives": [
+        "日本語の基本挨拶を敬語・カジュアル体で使い分けられる",
+        "簡単な自己紹介ができる",
+        "初対面の会話スキルを習得する"
+      ],
+      "introduction": "日本語学習の第一歩。様々な場面での挨拶と自己紹介を習得します。敬語とカジュアル体の違いも学びます。",
+      "content": {
+        "sections": [
+          {
+            "type": "info-box",
+            "content": "日本語の挨拶は時間帯・相手・場面によって使い分けます。敬語はビジネスや目上の人へ、カジュアル体は友人・同僚へ。まずは相手別に感情を込めて練習しましょう。"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "時間帯別の基本挨拶"
+          },
+          {
+            "type": "text",
+            "content": "【敬語】おはようございます / こんにちは / こんばんは\n【カジュアル】おはよう / こんにちは / こんばんは\n【別れの挨拶】さようなら / じゃあね（カジュアル） / 失礼します（敬語）"
+          },
+          {
+            "type": "subheading",
+            "content": "発音ガイド"
+          },
+          {
+            "type": "text",
+            "content": "おはよう (o-ha-yo-u) - 朝7〜11時\nこんにちは (ko-n-ni-chi-ha) - 昼11〜夕方\nこんばんは (ko-n-ba-n-ha) - 夜17〜21時"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "自己紹介フレーズ"
+          },
+          {
+            "type": "text",
+            "content": "【基本】\n私は〇〇です。(わたし は〇〇 です) - I am ○○.\n私の名前は〇〇です。- My name is ○○.\n〇〇から来ました。- I come from ○○.\n\n【敬語バージョン】\n申し上げます。- I introduce myself. (formal)\n初めてお目にかかります。- Nice to meet you. (polite)\n\n【カジュアル】\n俺は〇〇だ。(ore wa) - I'm ○○. (casual/male)\n私は〇〇よ。(watashi wa...yo) - I'm ○○. (casual/female)"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "使用シーン別の実例"
+          },
+          {
+            "type": "subheading",
+            "content": "シーン1: ビジネス会議（敬語）"
+          },
+          {
+            "type": "text",
+            "content": "A: おはようございます。〇〇会社の〇〇と申します。\nB: おはようございます。本日はよろしくお願いいたします。\n\nA: こちらこそ、ありがとうございます。"
+          },
+          {
+            "type": "subheading",
+            "content": "シーン2: 友人同士（カジュアル）"
+          },
+          {
+            "type": "text",
+            "content": "A: やあ！元気？\nB: おす！元気元気。〇〇からさ、遊びに来た。\nA: マジ？楽しもうぜ！\nB: じゃあね！またね。"
+          },
+          {
+            "type": "subheading",
+            "content": "シーン3: 学校・カジュアルな場面"
+          },
+          {
+            "type": "text",
+            "content": "A: こんにちは。私は〇〇です。\nB: あ、はじめまして。私も〇〇です。どうぞよろしく。\nA: よろしく。〇〇から来たんです。\nB: そう。どこから？"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "実践会話 レベル1"
+          },
+          {
+            "type": "text",
+            "content": "【会話】初対面の挨拶\n\nA: おはようございます。田中と申します。\nB: おはようございます。私は山田です。初めてお目にかかります。\nA: こちらこそ。本日はよろしくお願いいたします。\nB: こちらこそ。ご紹介ありがとうございます。\n\n【カジュアル版】\nA: おす！俺、田中。\nB: え、田中？俺、山田。〇〇から？\nA: 東京。お前は？\nB: 大阪。じゃあ、仲良くしようぜ。"
+          },
+          {
+            "type": "text",
+            "content": "【単語帳】\n敬語 = けいご (honorific language)\n自己紹介 = じこしょうかい (self-introduction)\n初めまして = はじめまして (first meeting / nice to meet you)\nよろしくお願いします = yoroshiku onegai shimasu (please take care of me)\n申し上げます = もうしあげます (I humbly say)\n〇〇から来ました = genzaiichi kara kimashita (came from ○○)"
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ja-a1-001-q1",
+          "type": "multiple-choice",
+          "question": "午後3時の挨拶は次のうちどれ？",
+          "options": [
+            "おはようございます",
+            "こんにちは",
+            "こんばんは",
+            "おやすみなさい"
+          ],
+          "answer": "こんにちは",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ja-a1-001-q2",
+          "type": "fill-blank",
+          "question": "「私は田中です」を敬語で言うと？",
+          "hint": "申し... です",
+          "answer": "申し上げます",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ja-a1-001-q3",
+          "type": "multiple-choice",
+          "question": "友人との別れ際のカジュアルな言い方は？",
+          "options": [
+            "さようなら",
+            "失礼します",
+            "じゃあね",
+            "お疲れ様です"
+          ],
+          "answer": "じゃあね",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "ja-a1-002",
+      "level": 1,
+      "title": "数字と基本単語",
+      "objectives": [
+        "1〜100の数字を正確に発音・聞き取りできる",
+        "日本語の数え方（数える・個数）を理解する",
+        "時間・年齢・価格の言い方を習得する"
+      ],
+      "introduction": "日本語の数字表現は複雑です。数え方によって数詞が変わります。基本から実践的な場面まで学びます。",
+      "content": {
+        "sections": [
+          {
+            "type": "info-box",
+            "content": "日本語は物によって数え方が異なります（1個、1人、1枚、1冊など）。また中国語由来の「音読み」と日本語の「訓読み」が混在。両方覚えることが重要です。"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "基本数字 1〜10"
+          },
+          {
+            "type": "text",
+            "content": "1 = ひと / いち (hito / ichi)\n2 = ふた / に (futa / ni)\n3 = み / さん (mi / san)\n4 = よ / し / よん (yo / shi / yon) ※4はし or よんが一般的\n5 = いつ / ご (itsu / go)\n6 = む / ろく (mu / roku)\n7 = なな / しち (nana / shichi) ※なな or しち\n8 = や / はち (ya / hachi)\n9 = ここの / きゅう (kokono / kyuu) ※きゅう 推奨\n10 = とう / じゅう (tou / juu)"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "数える物による数え方（助数詞）"
+          },
+          {
+            "type": "text",
+            "content": "【人を数える】〜人 (〜にん)\n1人 = ひとり\n2人 = ふたり\n3人以上 = さんにん、よんにん...\n\n【物・品物を数える】〜個 (〜こ)\n1個 = いっこ\n2個 = にこ\n3個 = さんこ\n\n【薄い物を数える】〜枚 (〜まい)\n紙1枚 = かみ いちまい\nシャツ3枚 = しゃつ さんまい\n\n【機械・乗り物を数える】〜台 (〜だい)\n車1台 = くるま いちだい\nパソコン2台 = ぱそこん にだい\n\n【書籍・冊子を数える】〜冊 (〜さつ)\n本1冊 = ほん いっさつ\n雑誌3冊 = ざっし さんさつ"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "時間の言い方"
+          },
+          {
+            "type": "text",
+            "content": "【時刻】\n1時 = いちじ (1 o'clock)\n3時30分 = さんじ さんじゅっぷん (3:30)\n7時45分 = しちじ よんじゅうごふん (7:45)\n\n【経過時間】\n1時間 = いちじかん (1 hour)\n30分 = さんじゅっぷん (30 minutes)\n1分 = いっぷん (1 minute)"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "年齢と生年"
+          },
+          {
+            "type": "text",
+            "content": "【年齢】〜歳 (〜さい)\n1歳 = いっさい\n20歳 = はたち or にじゅっさい\n25歳 = にじゅうごさい\n\n「何歳ですか？」= Nansai desu ka? (How old are you?)\n「25歳です」= Nijuugo sai desu. (I'm 25.)\n\n【生年】\n2000年 = にせんねん (year 2000)\n1995年4月 = せんきゅうひゃくきゅうじゅうごねん しがつ (April 1995)"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "価格の言い方"
+          },
+          {
+            "type": "text",
+            "content": "【円（えん）使用】\n100円 = ひゃくえん\n500円 = ごひゃくえん\n1000円 = せんえん\n5000円 = ごせんえん\n10000円 = いちまんえん\n\n「いくらですか？」= Ikura desu ka? (How much?)\n「千円です」= Sen'en desu. (It's 1000 yen.)"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "実践シーン：店での会話"
+          },
+          {
+            "type": "text",
+            "content": "【店員とお客さん】\nお客: すみません、これはいくらですか？\n店員: 3500円です。\nお客: 3個ください。\n店員: かしこまりました。合計10500円です。\n\n【友人との会話】\nA: 今何歳？\nB: 25歳。お前は？\nA: 俺は24。あ、3月で25になるか。\nB: そっか。誕生日いつ？"
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ja-a1-002-q1",
+          "type": "fill-blank",
+          "question": "3人を日本語で？",
+          "hint": "さん...","answer": "さんにん",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ja-a1-002-q2",
+          "type": "multiple-choice",
+          "question": "紙を5枚数える時は？",
+          "options": [
+            "ごこ",
+            "ごまい",
+            "ごだい",
+            "ごさつ"
+          ],
+          "answer": "ごまい",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ja-a1-002-q3",
+          "type": "fill-blank",
+          "question": "2000円を日本語で？",
+          "hint": "に...えん",
+          "answer": "にせんえん",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "ja-a1-003",
+      "level": 1,
+      "title": "色と形容詞",
+      "objectives": [
+        "基本的な色を日本語で正確に言える",
+        "色形容詞の敬語・カジュアル体を使い分けられる",
+        "物の特徴を説明できる"
+      ],
+      "introduction": "日本語の色表現は豊か。基本の11色から古典色まで。形容詞の活用も含めて学びます。",
+      "content": {
+        "sections": [
+          {
+            "type": "info-box",
+            "content": "日本語の色は古典的な名前が豊富です。黒でも「漆黒」「真っ黒」など。また形容詞は敬語・過去形で変わります。ここでは基本色と活用を習得します。"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "基本11色（いろ）"
+          },
+          {
+            "type": "text",
+            "content": "赤 = あか (red) | 緋色（ひいろ）- 深紅\n青 = あお (blue) | 紺（こん）- 濃紺\n黄色 = きいろ (yellow)\n緑 = みどり (green)\n白 = しろ (white)\n黒 = くろ (black)\nピンク = ぴんく (pink)\n紫 = むらさき (purple)\n橙 = だいだい (orange)\n灰色 = はいいろ (gray)\n茶色 = ちゃいろ (brown)"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "色の形容詞活用"
+          },
+          {
+            "type": "text",
+            "content": "【基本形容詞】\nこの花は赤いです。= This flower is red.\n彼のシャツは青い。= His shirt is blue. (casual)\n\n【敬語】\n赤ございます。= It's red. (formal)\n\n【過去形】\nそれは赤かった。= That was red. (past casual)\nそれは赤かったです。= That was red. (polite past)\n\n【否定】\nこれは赤くない。= This is not red. (casual)\nこれは赤くありません。= This is not red. (polite)"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "古典色の豊かな表現"
+          },
+          {
+            "type": "text",
+            "content": "朱色（あけいろ）= bright red (vermillion)\n濃紫（こむらさき）= deep purple\n若葉色（わかばいろ）= young leaf green\n利休色（りきゅいろ）= subtle grayish brown (tea ceremony)\n桜色（さくらいろ）= pale pink (cherry blossom)\n新緑（しんりょく）= fresh green\n夜明け色（よあけいろ）= dawn color\n薄紫（うすむらさき）= pale purple"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "物の特徴を説明する"
+          },
+          {
+            "type": "text",
+            "content": "【物の色を説明】\nこれは何色ですか？= Kore wa naniro desu ka? (What color is this?)\nこれは赤と青です。= This is red and blue.\n\n【複合説明】\nこのカバンは大きくて、黒いです。= This bag is big and black.\nそのペンは細くて、青い。= That pen is thin and blue. (casual)"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "実践シーン：ショッピング"
+          },
+          {
+            "type": "text",
+            "content": "【店員とお客さん】\nお客: すみません、別の色ありますか？\n店員: もちろん。赤・青・黒があります。\nお客: 赤いのをください。\n店員: かしこまりました。赤、サイズはいくつですか？\n\n【日常会話】\nA: この色、似合ってる？\nB: うん、紫って君に似合うね。\nA: ありがとう。このシャツ好きな色だから。"
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ja-a1-003-q1",
+          "type": "multiple-choice",
+          "question": "『紫』を日本語で言うと？",
+          "options": [
+            "あお",
+            "むらさき",
+            "ぴんく",
+            "あか"
+          ],
+          "answer": "むらさき",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ja-a1-003-q2",
+          "type": "fill-blank",
+          "question": "「このセーターは青い」の敬語は『このセーターは青い...』",
+          "hint": "です",
+          "answer": "です",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ja-a1-003-q3",
+          "type": "multiple-choice",
+          "question": "『このシャツは赤くない』の丁寧な形は？",
+          "options": [
+            "赤いです",
+            "赤くありません",
+            "赤くないです",
+            "赤ございません"
+          ],
+          "answer": "赤くありません",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "ja-a1-004",
+      "level": 1,
+      "title": "日常会話と基本表現",
+      "objectives": [
+        "「〜です」「〜ます」の丁寧形を正確に使える",
+        "基本的な質問と応答ができる",
+        "敬語・カジュアル体を状況に応じて使い分けられる"
+      ],
+      "introduction": "日本語で最も重要な文法基盤。丁寧形（敬語）とカジュアル体の使い分け、基本疑問文をマスターします。",
+      "content": {
+        "sections": [
+          {
+            "type": "info-box",
+            "content": "日本語の丁寧形『〜です/ます』は、敬語ではなく『相手に対する配慮』を表します。ビジネスや目上の人への基本。一方『カジュアル体』は友人・同僚との日常。両方必須です。"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "基本：『です』と『ます』の文"
+          },
+          {
+            "type": "text",
+            "content": "【名詞＋です】\n私は学生です。= I am a student. (neutral)\n彼は田中です。= He is Tanaka.\n今は月曜日です。= Today is Monday.\n\n【動詞＋ます】\n私は毎日歩きます。= I walk every day.\n彼は会社へ行きます。= He goes to the office.\nあした雨が降ります。= It will rain tomorrow.\n\n【形容詞＋です】\nこれは高いです。= This is expensive.\nそこは静かです。= It's quiet there.\n彼女は綺麗です。= She is beautiful."
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "疑問文の作り方"
+          },
+          {
+            "type": "text",
+            "content": "【基本疑問：〜ですか？】\nあなたは誰ですか？= Who are you?\nこれは何ですか？= What is this?\nお名前は？= What's your name? (casual)\n\n【何を・何を・どこに・いつ】\n何をしていますか？= What are you doing?\n何を飲みますか？= What do you drink?\nどこへ行きますか？= Where are you going?\nいつ来ますか？= When will you come?\n\n【はい／いいえで答える】\nQ: 日本人ですか？\nA: はい、日本人です。= Yes, I'm Japanese.\nA: いいえ、日本人ではありません。= No, I'm not Japanese."
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "カジュアル体と敬語の対比"
+          },
+          {
+            "type": "text",
+            "content": "【丁寧形 vs カジュアル体】\n\n丁寧形（敬語）：\n私は学生です。→ 私は学生だ。（casual male）\n            → 私は学生よ。（casual female）\n\n彼は行きます。→ 彼は行く。（casual）\n            → 彼は行くよ。（emphatic)\n\n【過去形の対比】\n丁寧形：昨日、映画を見ました。\nカジュアル：昨日、映画を見た。\n\n【否定形の対比】\n丁寧形：私は学生ではありません。\nカジュアル：俺は学生じゃない。"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "存在と所有"
+          },
+          {
+            "type": "text",
+            "content": "【存在：あります・います】\n『ある』＝ 物・事柄が存在\n『いる』＝ 人・動物が存在（生きている）\n\n机の上に本があります。= There is a book on the desk.\nあそこに誰かいます。= Someone is there.\n\nQ: 兄さんはいますか？= Do you have an older brother?\nA: はい、います。= Yes, I do.\n\n【所有】\n私は猫を持っています。= I have a cat.\n彼女は長い髪です。= She has long hair. (lit. She is long hair)"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "実践会話シーン集"
+          },
+          {
+            "type": "text",
+            "content": "【シーン1：初対面（敬語）】\nA: はじめまして。私は山田と申します。\nB: 山田さん、初めてお目にかかります。私は鈴木です。\nA: 本日はよろしくお願いいたします。\nB: こちらこそ、ありがとうございます。\n\n【シーン2：友人同士（カジュアル）】\nA: やあ！元気？何してた？\nB: あ、お疲れ。今日は映画見てた。\nA: 何の映画？\nB: 『君の名は。』見たことある？\nA: あ、俺も好きな映画だ。\nB: マジ？今度一緒に見ようぜ。\n\n【シーン3：店での会話】\nお客: すみません、これいくらですか？\n店員: 千円です。\nお客: 2個ください。\n店員: かしこまりました。合計2000円です。"
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ja-a1-004-q1",
+          "type": "fill-blank",
+          "question": "「私は学生です」のカジュアル形は『私は学生...』",
+          "hint": "だ/よ",
+          "answer": "だ",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ja-a1-004-q2",
+          "type": "multiple-choice",
+          "question": "「何をしていますか？」の正しい日本語は？",
+          "options": [
+            "何します？",
+            "何をしていますか？",
+            "何をしますか？",
+            "何が好きですか？"
+          ],
+          "answer": "何をしていますか？",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ja-a1-004-q3",
+          "type": "fill-blank",
+          "question": "「昨日、映画を見ました」のカジュアル形は『昨日、映画を見...』",
+          "hint": "た",
+          "answer": "た",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "ja-a1-005",
+      "level": 1,
+      "title": "総合演習：実践会話ロールプレイ",
+      "objectives": [
+        "1〜4の全レッスンを統合して実践的な会話ができる",
+        "複数の場面で敬語・カジュアル体を正確に使い分けられる",
+        "自然な日本語の流れを身につける"
+      ],
+      "introduction": "ここまでの学習を統合。実際の日本での場面を想定した会話ロールプレイで、実践スキルを磨きます。",
+      "content": {
+        "sections": [
+          {
+            "type": "info-box",
+            "content": "A1レベルの総仕上げ。敬語・数字・色・基本文法をすべて組み合わせた実践会話を演じます。自然さと正確さが目標です。各シーンで異なる人物になり、状況に応じて言葉を使い分けてください。"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "場面1：駅での初対面"
+          },
+          {
+            "type": "text",
+            "content": "【登場人物】観光客（あなた）× 駅員\n\n【会話例】\nあなた: すみません。田中ホテルはどこですか？\n駅員: 田中ホテルですね。ここから電車で15分です。\nあなた: 料金はいくらですか？\n駅員: 850円です。\nあなた: わかりました。ありがとうございます。\n駅員: 気をつけていってください。\n\n【学習ポイント】\n- 敬語の正しい活用（〜ですか、ございます）\n- 数字・時間の正確な言い方\n- 丁寧な質問文"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "場面2：カフェでの初めての友人との出会い"
+          },
+          {
+            "type": "text",
+            "content": "【登場人物】あなた × 新しい友人\n\n【会話例】\nあなた: やあ！初めまして。私は山田。\n友人: あ、こんにちは。俺は田中。よろしく。\nあなた: 何歳？\n友人: 25歳。お前は？\nあなた: 俺も25。誕生日いつ？\n友人: 3月。あ、コーヒーもう来てる？\nあなた: あ、うん。美味しいね。\n友人: だろ？ここのコーヒー好きだからさ。\n\n【学習ポイント】\n- カジュアル体での自然な会話\n- 年齢や個人情報の聞き方\n- 友人の距離感を保つ言葉づかい"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "場面3：買い物での色選び"
+          },
+          {
+            "type": "text",
+            "content": "【登場人物】客（あなた）× 店員\n\n【会話例】\n客: すみません。このシャツ、別の色ありますか？\n店員: はい。赤・青・黒・緑があります。\n客: 青いのをください。\n店員: サイズはいくつですか？\n客: Mサイズで。いくらですか？\n店員: 3500円です。\n客: 2個ください。合計いくら？\n店員: 合計7000円です。\n客: わかりました。ありがとうございます。\n\n【学習ポイント】\n- 色彩表現の正確さ\n- 数字・金額の理解\n- 敬語での自然な商取引"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "場面4：ビジネスミーティング（敬語フル）"
+          },
+          {
+            "type": "text",
+            "content": "【登場人物】新入社員（あなた）× 上司\n\n【会話例】\n上司: おはようございます。今日から〇〇部へ配属です。\nあなた: おはようございます。本日からよろしくお願いいたします。\n上司: では、まず会議室へ。3階です。\nあなた: かしこまりました。会議は何時からですか？\n上司: 10時からです。今は9時半。用意できますか？\nあなた: はい。大丈夫です。\n上司: では、3階の会議室Aへ。失礼します。\n\n【学習ポイント】\n- ビジネス敬語の正確さ\n- 時間・数字の聞き方\n- 上下関係を反映した言葉遣い"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "場面5：総合ロールプレイ"
+          },
+          {
+            "type": "text",
+            "content": "【あなたのシナリオ】\nあなたは日本へ留学に来た学生です。\n1) 駅員に安いホテルの場所を敬語で聞く\n2) 新しい学生（友人）にカジュアルな言葉で自己紹介する\n3) 服屋で赤と青のシャツ2個ずつ、合計金額を敬語で聞く\n4) ビジネスマンとの偶然の出会いで敬語で丁寧に挨拶\n\n【自分でやってみる】\nあなたが『カスタマー』になり、各場面で登場人物になりきってください。\n観察ポイント：\n- 敬語とカジュアル体の使い分けは自然か\n- 数字・時間・金額は正確か\n- 色や特徴を説明できるか\n- 初対面・友人・ビジネスの3パターンで対応できるか"
+          },
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "A1総まとめ語彙リスト"
+          },
+          {
+            "type": "text",
+            "content": "【頻出100語】\nおはようございます・こんにちは・こんばんは・さようなら・ありがとう・どうぞよろしく\n私・彼・彼女・友人・先生・学生・会社・会議\n朝・昼・夜・今・昨日・明日・今週・来週\n1・2・3...100・千・万\n赤・青・黄・黒・白・緑・紫・オレンジ\nです・ます・ある・いる・いく・くる・する\n何・どこ・いつ・誰・どう・なぜ・どれ\nが・を・に・へ・で・から・まで・と\nいくらですか・何時ですか・何ですか・誰ですか\n\n各語彙の詳細発音・用法は随時確認してください。"
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ja-a1-005-q1",
+          "type": "multiple-choice",
+          "question": "駅員への敬語での質問は？",
+          "options": [
+            "駅どこ？",
+            "駅はどこですか？",
+            "駅が好きですか？",
+            "駅へ行きます"
+          ],
+          "answer": "駅はどこですか？",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ja-a1-005-q2",
+          "type": "fill-blank",
+          "question": "友人へのカジュアルな問い「今何してる？」と同じ意味の敬語は『今何を...ますか』",
+          "hint": "して",
+          "answer": "していますか",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ja-a1-005-q3",
+          "type": "multiple-choice",
+          "question": "ビジネスシーンでの最適な別れ方は？",
+          "options": [
+            "じゃあね",
+            "バイバイ",
+            "失礼します",
+            "またね"
+          ],
+          "answer": "失礼します",
+          "difficulty": "easy"
+        }
+      ]
+    }
+  ]
+}

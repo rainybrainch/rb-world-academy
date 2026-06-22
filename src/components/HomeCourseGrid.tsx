@@ -10,12 +10,17 @@ import type { Category } from '@/types';
 
 // カテゴリIDとアプリアイコン画像のマッピング
 const appIconMap: Record<string, string> = {
-  'cat-money':       '/images/categories/cat-money.webp',
-  'cat-investment':  '/images/categories/cat-investment.webp',
-  'cat-economics':   '/images/categories/cat-economics.webp',
-  'cat-politics':    '/images/categories/cat-politics.webp',
-  'cat-play':        '/images/categories/cat-play.webp',
-  'cat-exam-public': '/images/categories/cat-exam-public.webp',
+  'topic-english':          '/images/languages/english.png',
+  'topic-japanese':         '/images/languages/japanese.png',
+  'topic-chinese':          '/images/languages/chinese.png',
+  'topic-korean':           '/images/languages/korean.png',
+  'topic-german':           '/images/languages/german.png',
+  'topic-french':           '/images/languages/french.png',
+  'topic-spanish':          '/images/languages/spanish.png',
+  'topic-italian':          '/images/languages/italian.png',
+  'topic-arabic':           '/images/languages/arabic.png',
+  'topic-portuguese':       '/images/languages/portuguese.png',
+  'topic-classical-chinese': '/images/languages/classical-chinese.png',
 };
 
 interface Props {

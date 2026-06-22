@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_W6BFsESvtmbBxZi7uwyrdBCPYo0D",
+  "orgId": "team_nG9QKAYYl5C4vbBn8QsR2T5J",
+  "projectName": "rb-world-academy",
+  "settings": {
+    "createdAt": 1781774807806,
+    "framework": "nextjs",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}

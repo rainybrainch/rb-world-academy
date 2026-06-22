@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const result = getLesson(courseId, lessonId);
   if (!result) return {};
   const { lesson, course, category } = result;
-  const desc = `${category.title} › ${course.title} — ${lesson.title}を学ぼう。ALL ACADEMYでお金の知識を楽しく習得。`;
+  const desc = `${category.title} › ${course.title} — ${lesson.title}を学ぼう。ALL ACADEMYで世界と繋がろう。`;
   return {
     title: `${lesson.title} | ${course.title} | ALL ACADEMY`,
     description: desc,

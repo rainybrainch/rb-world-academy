@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'ALL ACADEMY',
-    description: 'ゲームで遊んだら、経済がわかった。お金の知識を楽しく学ぼう。',
+    description: 'Learn 11 languages. Connect with the world.',
   },
   other: {
     'mobile-web-app-capable': 'yes',
