@@ -8,6 +8,7 @@
  * 画像出典: C:\Users\fukuf\OneDrive\画像\オールアカデミー\アプリカウントリー
  */
 export const countriesList = [
+  { id: 'countries-report', name: 'カウントリー\nレポート', icon: '/images/countries/カウントリーレポート.png', url: 'https://rainybrainch.github.io/countries-report/' },
   { id: 'japan', name: '日本', icon: '/images/countries/日本.jpg' },
   { id: 'usa', name: 'アメリカ', icon: '/images/countries/アメリカ.jpg' },
   { id: 'china', name: '中国', icon: '/images/countries/中国.jpg' },
@@ -33,5 +34,4 @@ export const countriesList = [
   { id: 'dubai', name: 'ドバイ', icon: '/images/countries/ドバイ.jpg' },
   { id: 'saudi-arabia', name: 'サウジアラビア', icon: '/images/countries/サウジアラビア.jpg' },
   { id: 'eu', name: 'EU', icon: '/images/countries/EU.jpg' },
-  { id: 'countries-report', name: 'カウントリー\nレポート', icon: '/images/countries/カウントリーレポート.png', url: 'https://rainybrainch.github.io/countries-report/' },
 ];
