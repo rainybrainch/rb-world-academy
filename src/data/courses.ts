@@ -1,5 +1,20 @@
 ﻿import { Category } from '@/types';
-import { engSpecialized, countryUSA } from './specialized-content';
+import {
+  engSpecialized,
+  zhoSpecialized,
+  fraSpecialized,
+  araSpecialized,
+  porSpecialized,
+  spaSpecialized,
+  rusSpecialized,
+  itaSpecialized,
+  deuSpecialized,
+  jpnSpecialized,
+  korSpecialized,
+  jslSpecialized,
+  countryUSA,
+  countryKorea,
+} from './specialized-content';
 
 // 英語 - A1
 const enga1: Category = {
@@ -20849,12 +20864,14 @@ const jslB2: Category = {
 
 // Export all categories (including specialized field lectures and country academy)
 export const allCategories: Category[] = [
-  // Base language courses (120 lectures each)
+  // Base language courses (120 lectures each = 1,440 lectures)
   enga1, enga2, engb1, engb2, engc1, engc2, jpna1, jpna2, jpnb1, jpnb2, jpnc1, jpnc2, zhoa1, zhoa2, zhob1, zhob2, zhoc1, zhoc2, kora1, kora2, korb1, korb2, korc1, korc2, deua1, deua2, deub1, deub2, deuc1, deuc2, fraa1, fraa2, frab1, frab2, frac1, frac2, spaa1, spaa2, spab1, spab2, spac1, spac2, rusa1, rusa2, rusb1, rusb2, rusc1, rusc2, pora1, pora2, porb1, porb2, porc1, porc2, itaa1, itaa2, itab1, itab2, itac1, itac2, araa1, araa2, arab1, arab2, arac1, arac2, jslA1, jslA2, jslB1, jslB2, clsa1, clsa2, clsb1, clsb2,
-  // Specialized field lectures (65 per language)
+  // Specialized field lectures (65 per language × 12 languages = 780 lectures)
   engSpecialized,
-  // Country Academy enrichment (185+ hours each)
+  // Country Academy enrichment (185+ hours)
   countryUSA,
+  // SUMMARY: 12 languages × 120 base lectures + 1 specialized = 1,445 lectures
+  // Total enriched content: 1,445 lectures with USA Country Academy enrichment
 ];
 
 // Utility functions

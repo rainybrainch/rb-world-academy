@@ -2,6 +2,8 @@ import type { MetadataRoute } from 'next';
 import { topicCategories } from '@/data/structure';
 import { categories } from '@/data/courses';
 
+export const revalidate = 3600; // Revalidate every hour
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://manebou-juku.vercel.app';
 
