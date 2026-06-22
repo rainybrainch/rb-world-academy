@@ -238,7 +238,7 @@ export const italianA1Expanded = {
         definition: 'I rest / I relax',
         synonyms: ['Riposo', 'Prendo una pausa'],
         antonyms: ['Lavoro', 'Mi affatico'],
-        nativeUsage: 'Reflexive; 'pisolino' = afternoon nap',
+        nativeUsage: 'Reflexive; pisolino = afternoon nap',
         culturalNote: 'Afternoon nap still common in Southern Italy'
       },
       {
