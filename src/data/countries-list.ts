@@ -1,5 +1,6 @@
-// Country Academy 用・25か国リスト
+// Country Academy 用・25か国リスト + カウントリーレポート
 export const countriesList = [
+  { id: 'countries-report', name: 'カウントリー\nレポート', icon: '/images/countries/カウントリーレポート.png', url: 'https://rainybrainch.github.io/countries-report/' },
   { id: 'japan', name: '日本', icon: '/images/countries/日本.jpg' },
   { id: 'china', name: '中国', icon: '/images/countries/中国.jpg' },
   { id: 'korea', name: '韓国', icon: '/images/countries/韓国.jpg' },

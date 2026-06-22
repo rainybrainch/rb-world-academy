@@ -109,7 +109,7 @@ export default function HomePage() {
           {countriesList.map((country) => (
             <Link
               key={country.id}
-              href={`https://rb-world-countries.vercel.app/countries/${country.id}`}
+              href={(country as any).url || `https://rb-world-countries.vercel.app/countries/${country.id}`}
               target="_blank"
               rel="noopener"
             >
