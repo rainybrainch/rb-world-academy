@@ -11114,57 +11114,471 @@ const spaa1: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Saludos y Presentaciones',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Saludos', 'Presentación Personal', 'Preguntas Básicas'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Saludos Básicos'
+            },
+            {
+              type: 'text',
+              content: 'Los saludos son la base de la comunicación en español. Aprende a decir hola, adiós e introduce te en situaciones cotidianas y formales. Estos son expresiones esenciales para cualquier conversación en español.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Hola', definition: 'こんにちは' },
+                { term: 'Adiós', definition: 'さようなら' },
+                { term: 'Buenos días', definition: 'おはよう' },
+                { term: 'Buenas noches', definition: 'こんばんは' },
+                { term: 'Hasta luego', definition: 'またね' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Ejemplos de Saludos',
+              items: [
+                '¡Hola! ¿Cómo estás?',
+                '¡Buenos días! ¿Qué tal?',
+                'Adiós. ¡Hasta pronto!'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Practica Saludos',
+              auxiliaryPrompt: 'Practica los saludos en diferentes contextos',
+              answer: 'Saluda a 5 personas usando diferentes expresiones según la hora del día.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Presentación Personal'
+            },
+            {
+              type: 'text',
+              content: 'Es esencial cuando conoces a alguien nuevo. Aprende a presentar tu nombre, de dónde eres e información básica sobre ti. Usa estructuras simples con el verbo "ser" para describir tu identidad.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Me llamo', definition: '私の名前は...です' },
+                { term: 'Soy de', definition: '私は...出身です' },
+                { term: 'Mucho gusto', definition: '初めまして' },
+                { term: 'Es un placer', definition: 'お会いして嬉しいです' },
+                { term: 'Encantado/a', definition: 'お会いできて光栄です' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Ejemplos de Presentación',
+              items: [
+                'Me llamo Juan. Soy de España.',
+                'Hola, soy María. Mucho gusto.',
+                'Encantado de conocerte. ¿De dónde eres?'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Tu Presentación Personal',
+              auxiliaryPrompt: 'Crea una presentación de 3-4 oraciones',
+              answer: 'Escribe cómo te presentarías incluyendo tu nombre y de dónde eres.'
+            }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Números y Hora',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Números 0-20', 'Decir la Hora', 'Tiempo'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Números del 0 al 20'
+            },
+            {
+              type: 'text',
+              content: 'Los números son fundamentales para la comunicación diaria. Aprende a contar del 0 al 20 en español, que es la base para números más grandes y expresiones numéricas.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Cero', definition: '0' },
+                { term: 'Uno', definition: '1' },
+                { term: 'Diez', definition: '10' },
+                { term: 'Quince', definition: '15' },
+                { term: 'Veinte', definition: '20' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Secuencia de Números',
+              items: [
+                '0 - cero, 1 - uno, 2 - dos, 3 - tres, 4 - cuatro',
+                '5 - cinco, 6 - seis, 7 - siete, 8 - ocho, 9 - nueve',
+                '10 - diez, 11 - once, 12 - doce, 13 - trece, 14 - catorce, 15 - quince, 16 - dieciséis, 17 - diecisiete, 18 - dieciocho, 19 - diecinueve, 20 - veinte'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Cuenta en Español',
+              auxiliaryPrompt: 'Escribe y pronuncia los números',
+              answer: 'Escribe los números del 0 al 20 y practica su pronunciación.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Decir la Hora'
+            },
+            {
+              type: 'text',
+              content: 'Aprender a decir la hora es esencial para las actividades diarias. En español, se usa "ser" con la hora (ej: "Es la una", "Son las dos").'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Qué hora es', definition: '何時ですか' },
+                { term: 'Es la una', definition: '1時です' },
+                { term: 'Son las dos', definition: '2時です' },
+                { term: 'y media', definition: '半' },
+                { term: 'y cuarto', definition: '四分の一（15分）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Ejemplos de Hora',
+              items: [
+                '¿Qué hora es? Es la una y media.',
+                'Son las tres y cuarto.',
+                'Tengo cita a las cinco.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Practica la Hora',
+              auxiliaryPrompt: 'Expresa diferentes horas en español',
+              answer: 'Escribe 10 horas diferentes en oraciones completas.'
+            }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Familia y Relaciones',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Vocabulario de Familia', 'Posesivos', 'Descripciones'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Miembros de la Familia'
+            },
+            {
+              type: 'text',
+              content: 'La familia es un tema central en las conversaciones. Aprende los nombres de los familiares en español: padres, hermanos, abuelos, tíos, primos, etc.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Padre', definition: '父' },
+                { term: 'Madre', definition: '母' },
+                { term: 'Hermano', definition: '兄弟' },
+                { term: 'Hermana', definition: '姉妹' },
+                { term: 'Abuelo', definition: '祖父' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Familia Ejemplos',
+              items: [
+                'Mi padre se llama Carlos.',
+                'Mi hermana es mayor que yo.',
+                'Tengo dos primos en Madrid.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe Tu Familia',
+              auxiliaryPrompt: 'Habla sobre los miembros de tu familia',
+              answer: 'Describe a 5 miembros de tu familia usando oraciones simples.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Adjetivos Posesivos'
+            },
+            {
+              type: 'text',
+              content: 'Los adjetivos posesivos muestran la relación entre una persona y algo. Son: mi, tu, su, nuestro, vuestro, su.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Mi / Mis', definition: 'わたしの' },
+                { term: 'Tu / Tus', definition: 'あなたの' },
+                { term: 'Su / Sus', definition: '彼/彼女/あなた（フォーマル）の' },
+                { term: 'Nuestro/a', definition: '私たちの' },
+                { term: 'Vuestro/a', definition: 'あなたたち（スペイン）の' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Ejemplos Posesivos',
+              items: [
+                'Mi gato es blanco.',
+                'Tu casa es grande.',
+                'Nuestros amigos son simpáticos.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Usa Adjetivos Posesivos',
+              auxiliaryPrompt: 'Escribe oraciones con posesivos',
+              answer: 'Escribe 8 oraciones usando diferentes adjetivos posesivos.'
+            }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Comida y Preferencias',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Vocabulario de Comida', 'Expresar Preferencias', 'En el Restaurante'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Vocabulario de Comida'
+            },
+            {
+              type: 'text',
+              content: 'Aprender nombres de comidas es práctico para ordenar en restaurantes, comprar comida y hablar de lo que te gusta comer. Esto es muy útil en conversaciones cotidianas.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Manzana', definition: 'りんご' },
+                { term: 'Pan', definition: 'パン' },
+                { term: 'Queso', definition: 'チーズ' },
+                { term: 'Café', definition: 'コーヒー' },
+                { term: 'Agua', definition: '水' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Ejemplos de Comida',
+              items: [
+                'Me gusta la pizza.',
+                '¿Quieres una manzana?',
+                'Ella bebe café cada mañana.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Lista Tus Comidas Favoritas',
+              auxiliaryPrompt: 'Nombra tus preferencias alimentarias',
+              answer: 'Lista 5 comidas favoritas y 3 bebidas que te gustan.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Expresar Preferencias'
+            },
+            {
+              type: 'text',
+              content: 'Usa "me gusta", "no me gusta" y "prefiero" para hablar de tus preferencias de comida. Aprende a hacer y responder preguntas sobre lo que te gusta.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Me gusta', definition: '〜が好きです' },
+                { term: 'No me gusta', definition: '〜が好きではありません' },
+                { term: 'Prefiero', definition: '〜の方が好きです' },
+                { term: 'Delicioso', definition: 'おいしい' },
+                { term: 'Picante', definition: '辛い' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Ejemplos de Preferencias',
+              items: [
+                'Me encanta el chocolate.',
+                'No me gusta el pescado crudo.',
+                'Prefiero el té al café.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Expresa Preferencias Alimentarias',
+              auxiliaryPrompt: 'Usa "me gusta", "no me gusta" y "prefiero"',
+              answer: 'Escribe 5 oraciones sobre tus preferencias de comida.'
+            }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Rutina Diaria',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Verbos de Rutina', 'Presente Simple', 'Actividades Diarias'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Verbos de Rutina Diaria'
+            },
+            {
+              type: 'text',
+              content: 'Describe tu rutina diaria usando verbos en presente. Incluye actividades como despertar, desayunar, trabajar, estudiar y dormir. Estos verbos son fundamentales para hablar de la vida cotidiana.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Despertarse', definition: '目を覚ます' },
+                { term: 'Desayunar', definition: 'ごはんを食べる' },
+                { term: 'Trabajar', definition: '働く' },
+                { term: 'Almorzar', definition: '昼食を食べる' },
+                { term: 'Dormir', definition: '寝る' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Mi Rutina Diaria',
+              items: [
+                'Me despierto a las 7 de la mañana.',
+                'Desayuno con mi familia.',
+                'Trabajo en una oficina.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe Tu Rutina Diaria',
+              auxiliaryPrompt: 'Escribe sobre tus actividades diarias',
+              answer: 'Escribe 6-8 oraciones sobre tu rutina usando presente simple.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Frecuencia y Horarios'
+            },
+            {
+              type: 'text',
+              content: 'Aprende adverbios de frecuencia (siempre, a menudo, nunca) y cómo indicar a qué hora haces las cosas. Esto te permite ser más específico al hablar de rutinas.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Siempre', definition: 'いつも' },
+                { term: 'A menudo', definition: 'よく' },
+                { term: 'Algunas veces', definition: '時々' },
+                { term: 'Raramente', definition: 'めったに' },
+                { term: 'Nunca', definition: '決して〜ない' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Expresiones de Frecuencia',
+              items: [
+                'Siempre bebo café por la mañana.',
+                'A menudo voy al cine los viernes.',
+                'Nunca como carne roja.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Frecuencia y Horarios',
+              auxiliaryPrompt: 'Usa adverbios de frecuencia en oraciones',
+              answer: 'Escribe 5 oraciones usando diferentes adverbios de frecuencia.'
+            }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Colores y Descripciones',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Colores', 'Adjetivos Descriptivos', 'Descripción de Objetos'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Los Colores Básicos'
+            },
+            {
+              type: 'text',
+              content: 'Aprende los colores fundamentales en español. Los colores son adjetivos que deben concordar en género y número con el sustantivo al que modifican.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Rojo', definition: '赤' },
+                { term: 'Azul', definition: '青' },
+                { term: 'Verde', definition: '緑' },
+                { term: 'Amarillo', definition: '黄' },
+                { term: 'Negro', definition: '黒' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Ejemplo de Colores',
+              items: [
+                'La casa es blanca.',
+                'Los coches son rojos.',
+                'Mi gato gris come en el jardín.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Identifica Colores',
+              auxiliaryPrompt: 'Describe objetos con colores',
+              answer: 'Escribe 8 oraciones describiendo objetos con sus colores.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Adjetivos Descriptivos'
+            },
+            {
+              type: 'text',
+              content: 'Usa adjetivos para describir personas, cosas y lugares. Ejemplos: grande, pequeño, bonito, feo, rápido, lento, caliente, frío.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Grande', definition: '大きい' },
+                { term: 'Pequeño', definition: '小さい' },
+                { term: 'Bonito', definition: '美しい' },
+                { term: 'Feo', definition: '醜い' },
+                { term: 'Viejo', definition: '古い' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Descripciones Ejemplos',
+              items: [
+                'Es una casa grande y bonita.',
+                'El perro es pequeño pero rápido.',
+                'Su padre es alto y fuerte.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe Personas y Cosas',
+              auxiliaryPrompt: 'Usa adjetivos en descripción',
+              answer: 'Escribe 6 oraciones describiendo personas, animales u objetos.'
+            }
+          ],
         },
       ],
     },
@@ -11174,57 +11588,471 @@ const spaa1: Category = {
       lessons: [
         {
           id: 'l7',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 7: Ocupaciones y Profesiones',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Vocabulario Profesional', 'Describir Trabajo', 'Preguntas sobre Empleo'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Profesiones Comunes'
+            },
+            {
+              type: 'text',
+              content: 'Aprende los nombres de profesiones comunes en español. Es importante poder decir qué trabajo haces y preguntar sobre la ocupación de otros en situaciones sociales.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Doctor/a', definition: '医者' },
+                { term: 'Profesor/a', definition: '先生' },
+                { term: 'Ingeniero/a', definition: 'エンジニア' },
+                { term: 'Abogado/a', definition: '弁護士' },
+                { term: 'Cocinero/a', definition: 'シェフ' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Profesiones Ejemplos',
+              items: [
+                'Soy maestro de primaria.',
+                '¿Qué profesión tienes?',
+                'Mi hermano es ingeniero de software.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Habla Sobre Profesiones',
+              auxiliaryPrompt: 'Describe qué hacen diferentes personas',
+              answer: 'Escribe 5 oraciones describiendo las profesiones de personas que conoces.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'En el Trabajo'
+            },
+            {
+              type: 'text',
+              content: 'Aprende vocabulario relacionado con el trabajo: oficina, reunión, proyecto, cliente, jefe, compañero. Esto te permite comunicarte en contextos profesionales.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Oficina', definition: 'オフィス' },
+                { term: 'Reunión', definition: '会議' },
+                { term: 'Proyecto', definition: 'プロジェクト' },
+                { term: 'Jefe', definition: '上司' },
+                { term: 'Compañero', definition: '同僚' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Contexto Laboral Ejemplos',
+              items: [
+                'Tengo una reunión importante mañana.',
+                'Mi jefe está en una videoconferencia.',
+                'Trabajo con mis compañeros en varios proyectos.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe Tu Trabajo',
+              auxiliaryPrompt: 'Habla sobre tu entorno laboral',
+              answer: 'Escribe 5-6 oraciones describiendo tu trabajo o un trabajo imaginario.'
+            }
+          ],
         },
         {
           id: 'l8',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 8: Transporte y Direcciones',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Medios de Transporte', 'Preposiciones de Lugar', 'Pedir Direcciones'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Medios de Transporte'
+            },
+            {
+              type: 'text',
+              content: 'Aprende el vocabulario sobre diferentes formas de transporte: coche, autobús, tren, bicicleta, avión, etc. Son palabras esenciales para hablar de cómo nos movemos.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Coche', definition: '車' },
+                { term: 'Autobús', definition: 'バス' },
+                { term: 'Tren', definition: '電車' },
+                { term: 'Bicicleta', definition: '自転車' },
+                { term: 'Avión', definition: '飛行機' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Transporte Ejemplos',
+              items: [
+                'Voy al trabajo en coche.',
+                'Ella prefiere ir en autobús.',
+                'Volamos a Nueva York en avión.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe Cómo Te Mueves',
+              auxiliaryPrompt: 'Habla sobre transportes que usas',
+              answer: 'Escribe 5 oraciones sobre cómo vas a diferentes lugares.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Preposiciones y Direcciones'
+            },
+            {
+              type: 'text',
+              content: 'Aprende preposiciones de lugar (en, sobre, bajo, dentro, fuera, al lado, enfrente) y cómo dar direcciones básicas para ayudar a alguien a encontrar un lugar.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'En', definition: 'で/に' },
+                { term: 'Al lado de', definition: '〜の隣' },
+                { term: 'Enfrente de', definition: '〜の前' },
+                { term: 'Detrás de', definition: '〜の後ろ' },
+                { term: 'Dentro de', definition: '〜の中' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Direcciones Ejemplos',
+              items: [
+                'La estación está al lado del parque.',
+                'El banco está enfrente de la farmacia.',
+                'La biblioteca está dentro del centro comercial.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Pide y Da Direcciones',
+              auxiliaryPrompt: 'Usa preposiciones para dar instrucciones',
+              answer: 'Escribe 5 oraciones dando direcciones desde tu casa a lugares cercanos.'
+            }
+          ],
         },
         {
           id: 'l9',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 9: Compras y Dinero',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['En la Tienda', 'Números Grandes', 'Precios y Dinero'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Compras en la Tienda'
+            },
+            {
+              type: 'text',
+              content: 'Aprende vocabulario para comprar: preguntar precio, pagar, cambio, bolsa, descuento. Estas palabras son prácticas para ir de compras en una tienda o mercado.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: '¿Cuánto cuesta?', definition: 'いくらですか？' },
+                { term: 'Es muy caro', definition: 'とても高いです' },
+                { term: 'Descuento', definition: '割引' },
+                { term: 'Cambio', definition: 'おつり' },
+                { term: 'Bolsa', definition: '袋' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Tienda Ejemplos',
+              items: [
+                '¿Cuánto cuesta esta camisa?',
+                'Tiene descuento. ¿Cuál es el precio final?',
+                'Quiero dos kilos de manzanas.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Compra en la Tienda',
+              auxiliaryPrompt: 'Practica expresiones de compra',
+              answer: 'Escribe un diálogo comprando 3 artículos en una tienda.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Números Grandes y Moneda'
+            },
+            {
+              type: 'text',
+              content: 'Extiende tu vocabulario numérico a números más grandes (21-1000) e introduce monedas y dinero. Es crucial para transacciones y entender precios.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Treinta', definition: '30' },
+                { term: 'Cincuenta', definition: '50' },
+                { term: 'Cien', definition: '100' },
+                { term: 'Mil', definition: '1000' },
+                { term: 'Euro', definition: 'ユーロ' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Números y Dinero',
+              items: [
+                'Cuesta veinticinco euros.',
+                'Tengo trescientos pesos.',
+                'El precio total es mil doscientos.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Práctica de Precios',
+              auxiliaryPrompt: 'Lee y escribe precios',
+              answer: 'Escribe 8 precios diferentes usando números grandes.'
+            }
+          ],
         },
         {
           id: 'l10',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 10: Casa y Hogar',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Partes de la Casa', 'Muebles y Objetos', 'Descripción del Hogar'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Cuartos de la Casa'
+            },
+            {
+              type: 'text',
+              content: 'Aprende los nombres de las habitaciones: sala, dormitorio, cocina, baño, comedor, garaje. Estos son vocabularios fundamentales para describir tu hogar.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Sala', definition: 'リビング' },
+                { term: 'Dormitorio', definition: '寝室' },
+                { term: 'Cocina', definition: 'キッチン' },
+                { term: 'Baño', definition: 'バスルーム' },
+                { term: 'Comedor', definition: 'ダイニング' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Mi Casa',
+              items: [
+                'Mi casa tiene tres dormitorios.',
+                'La cocina es grande y moderna.',
+                'El baño está al lado de la sala.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe Tu Casa',
+              auxiliaryPrompt: 'Habla sobre los cuartos de tu hogar',
+              answer: 'Escribe 5-6 oraciones describiendo las habitaciones de tu casa.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Muebles y Accesorios'
+            },
+            {
+              type: 'text',
+              content: 'Aprende nombres de muebles (sofá, mesa, silla, cama, armario) y objetos del hogar. Esto te permite describir completamente tu ambiente.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Sofá', definition: 'ソファ' },
+                { term: 'Mesa', definition: 'テーブル' },
+                { term: 'Silla', definition: '椅子' },
+                { term: 'Cama', definition: 'ベッド' },
+                { term: 'Armario', definition: 'クローゼット' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Muebles Ejemplos',
+              items: [
+                'Hay un sofá cómodo en la sala.',
+                'Mi cama es grande y blanca.',
+                'El armario está lleno de ropa.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Tu Habitación',
+              auxiliaryPrompt: 'Describe los muebles de tu cuarto',
+              answer: 'Escribe 5-6 oraciones describiendo los muebles de tu dormitorio.'
+            }
+          ],
         },
         {
           id: 'l11',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 11: Clima y Estaciones',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Estaciones del Año', 'Clima y Tiempo', 'Ropa Según Clima'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Las Cuatro Estaciones'
+            },
+            {
+              type: 'text',
+              content: 'Aprende los nombres de las estaciones y sus características. Cada estación tiene su propio clima y afecta qué ropa usamos y qué actividades hacemos.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Primavera', definition: '春' },
+                { term: 'Verano', definition: '夏' },
+                { term: 'Otoño', definition: '秋' },
+                { term: 'Invierno', definition: '冬' },
+                { term: 'Lluvia', definition: '雨' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Estaciones Ejemplos',
+              items: [
+                'En primavera hace buen tiempo.',
+                'En verano es muy caluroso.',
+                'En invierno llueve mucho.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Mi Estación Favorita',
+              auxiliaryPrompt: 'Describe la estación que te gusta',
+              answer: 'Escribe 5 oraciones sobre tu estación favorita y por qué la prefieres.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Vocabulario del Clima'
+            },
+            {
+              type: 'text',
+              content: 'Aprende palabras sobre el clima: calor, frío, lluvia, nieve, sol, nube, viento. Puedes usar "hace" para describir el clima (ej: "hace frío", "hace sol").'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Hace calor', definition: '暑い' },
+                { term: 'Hace frío', definition: '寒い' },
+                { term: 'Lluvia', definition: '雨' },
+                { term: 'Nieve', definition: '雪' },
+                { term: 'Hace sol', definition: '晴れている' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Clima Expresiones',
+              items: [
+                '¿Qué tiempo hace hoy?',
+                'Hace frío y ventoso.',
+                'Llueve mucho en primavera.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe el Clima',
+              auxiliaryPrompt: 'Habla sobre el clima de hoy',
+              answer: 'Escribe 6 oraciones describiendo el clima en diferentes estaciones.'
+            }
+          ],
         },
         {
           id: 'l12',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 12: Cuerpo y Salud',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Partes del Cuerpo', 'Problemas de Salud', 'En el Doctor'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Partes del Cuerpo Humano'
+            },
+            {
+              type: 'text',
+              content: 'Aprende los nombres de las partes del cuerpo: cabeza, brazo, mano, pierna, pie, corazón, etc. Es básico para describir tu cuerpo y explicar problemas de salud.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Cabeza', definition: '頭' },
+                { term: 'Brazo', definition: '腕' },
+                { term: 'Mano', definition: '手' },
+                { term: 'Pierna', definition: '脚' },
+                { term: 'Pie', definition: '足' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Cuerpo Ejemplos',
+              items: [
+                'Tengo dolor de cabeza.',
+                'Se me duele el brazo.',
+                'Mi pie derecho está hinchado.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Partes del Cuerpo',
+              auxiliaryPrompt: 'Señala y nombra partes del cuerpo',
+              answer: 'Escribe 8 oraciones identificando diferentes partes del cuerpo.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Expresar Síntomas y Problemas'
+            },
+            {
+              type: 'text',
+              content: 'Aprende a describir síntomas: me duele, tengo fiebre, tengo gripe, estoy enfermo. Es importante poder comunicar problemas de salud en español.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Dolor', definition: '痛み' },
+                { term: 'Fiebre', definition: '熱' },
+                { term: 'Gripe', definition: 'インフルエンザ' },
+                { term: 'Resfriado', definition: '風邪' },
+                { term: 'Estar enfermo', definition: '病気である' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Síntomas y Salud',
+              items: [
+                'No me siento bien. Tengo fiebre.',
+                'Mi cabeza duele mucho.',
+                'Estoy resfriado y no puedo trabajar.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe Síntomas',
+              auxiliaryPrompt: 'Explica problemas de salud',
+              answer: 'Escribe un diálogo entre un paciente y un doctor describiendo síntomas.'
+            }
+          ],
         },
       ],
     },
@@ -11234,57 +12062,471 @@ const spaa1: Category = {
       lessons: [
         {
           id: 'l13',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 13: Deportes y Actividades de Ocio',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Deportes', 'Entretenimiento', 'Actividades de Fin de Semana'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Deportes Populares'
+            },
+            {
+              type: 'text',
+              content: 'Aprende nombres de deportes comunes: fútbol, tenis, natación, esquí, ciclismo. Puedes usar verbos como "jugar", "practicar" y "hacer" con estos deportes.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Fútbol', definition: 'サッカー' },
+                { term: 'Tenis', definition: 'テニス' },
+                { term: 'Natación', definition: '水泳' },
+                { term: 'Esquí', definition: 'スキー' },
+                { term: 'Ciclismo', definition: 'サイクリング' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Deportes Ejemplos',
+              items: [
+                'Juego fútbol los sábados.',
+                'Ella practica tenis tres veces a la semana.',
+                'Me gusta nadar en el verano.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Tus Deportes Favoritos',
+              auxiliaryPrompt: 'Habla sobre deportes que practicas',
+              answer: 'Escribe 5 oraciones sobre deportes que te gustan y con qué frecuencia los haces.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Entretenimiento y Hobbies'
+            },
+            {
+              type: 'text',
+              content: 'Aprende actividades de ocio: ver películas, leer libros, escuchar música, jugar videojuegos, pintar. Son actividades que haces en tu tiempo libre.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Ver películas', definition: '映画を見る' },
+                { term: 'Leer', definition: '読む' },
+                { term: 'Música', definition: '音楽' },
+                { term: 'Videojuegos', definition: 'ビデオゲーム' },
+                { term: 'Pintar', definition: '絵を描く' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Tiempo Libre',
+              items: [
+                'Me gusta ver películas los viernes.',
+                'Leo libros antes de dormir.',
+                'Escucho música mientras trabajo.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Tus Hobbies',
+              auxiliaryPrompt: 'Describe cómo pasas tu tiempo libre',
+              answer: 'Escribe 6 oraciones sobre tus actividades favoritas de ocio.'
+            }
+          ],
         },
         {
           id: 'l14',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 14: Emociones y Estados de Ánimo',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Emociones', 'Estados de Ánimo', 'Expresiones Emocionales'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Emociones Básicas'
+            },
+            {
+              type: 'text',
+              content: 'Aprende a expresar tus emociones: feliz, triste, enojado, asustado, sorprendido. Estas palabras son esenciales para comunicar cómo te sientes.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Feliz', definition: '幸せ' },
+                { term: 'Triste', definition: '悲しい' },
+                { term: 'Enojado', definition: '怒っている' },
+                { term: 'Asustado', definition: '怖い' },
+                { term: 'Sorprendido', definition: '驚いた' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Expresar Emociones',
+              items: [
+                'Estoy muy feliz hoy.',
+                '¿Por qué estás triste?',
+                'No estoy enojado, solo cansado.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Expresa Emociones',
+              auxiliaryPrompt: 'Describe tus sentimientos',
+              answer: 'Escribe 5 oraciones describiendo diferentes emociones y por qué las sientes.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Estados de Ánimo y Bienestar'
+            },
+            {
+              type: 'text',
+              content: 'Aprende a hablar de cómo te sientes: bien, mal, cansado, emocionado, nervioso, relajado. Usa "estar" para estos estados temporales.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Bien', definition: '良い' },
+                { term: 'Mal', definition: '悪い' },
+                { term: 'Cansado', definition: '疲れている' },
+                { term: 'Emocionado', definition: 'わくわくしている' },
+                { term: 'Nervioso', definition: '緊張している' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Estados de Ánimo',
+              items: [
+                '¿Cómo estás hoy? Estoy bien, gracias.',
+                'Estoy muy emocionado por mis vacaciones.',
+                'No duermo bien. Estoy nervioso.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe Tu Estado Actual',
+              auxiliaryPrompt: 'Habla sobre cómo te sientes',
+              answer: 'Escribe 6 oraciones describiendo tu estado de ánimo y cómo te sientes hoy.'
+            }
+          ],
         },
         {
           id: 'l15',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 15: Animales y Mascotas',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Animales Domésticos', 'Animales Salvajes', 'Descripción de Animales'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Mascotas Comunes'
+            },
+            {
+              type: 'text',
+              content: 'Aprende nombres de mascotas populares: perro, gato, pájaro, pez, conejo, hámster. Muchas personas tienen mascotas y es un tema común de conversación.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Perro', definition: '犬' },
+                { term: 'Gato', definition: '猫' },
+                { term: 'Pájaro', definition: '鳥' },
+                { term: 'Pez', definition: '魚' },
+                { term: 'Conejo', definition: 'ウサギ' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Mascotas Ejemplos',
+              items: [
+                'Tengo un perro grande y marrón.',
+                'Mi gato es muy perezoso.',
+                '¿Tienes alguna mascota?'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Habla de Tu Mascota',
+              auxiliaryPrompt: 'Describe una mascota que tengas o conozcas',
+              answer: 'Escribe 5-6 oraciones describiendo una mascota (real o imaginaria).'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Animales Salvajes'
+            },
+            {
+              type: 'text',
+              content: 'Aprende nombres de animales salvajes: león, tigre, elefante, oso, serpiente, águila. Estos se ven en zoológicos, documentales y en la naturaleza.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'León', definition: 'ライオン' },
+                { term: 'Tigre', definition: 'トラ' },
+                { term: 'Elefante', definition: 'ゾウ' },
+                { term: 'Oso', definition: 'クマ' },
+                { term: 'Serpiente', definition: 'ヘビ' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Animales Salvajes',
+              items: [
+                'El león es el rey de la selva.',
+                'Los elefantes son muy inteligentes.',
+                'Me dan miedo las serpientes.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Mi Animal Favorito',
+              auxiliaryPrompt: 'Describe tu animal favorito',
+              answer: 'Escribe 5 oraciones sobre tu animal favorito y por qué te gusta.'
+            }
+          ],
         },
         {
           id: 'l16',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 16: Viajes y Vacaciones',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Planificación de Viajes', 'Alojamiento', 'Actividades Turísticas'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Planificación de Viajes'
+            },
+            {
+              type: 'text',
+              content: 'Aprende vocabulario para viajar: destino, vuelo, reserva, mapa, equipaje, pasaporte. Es importante para comunicar tus planes de viaje.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Destino', definition: '目的地' },
+                { term: 'Vuelo', definition: 'フライト' },
+                { term: 'Reserva', definition: '予約' },
+                { term: 'Equipaje', definition: '荷物' },
+                { term: 'Pasaporte', definition: 'パスポート' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Viaje Planificación',
+              items: [
+                '¿Adónde viajas en vacaciones?',
+                'Quiero reservar un vuelo a México.',
+                'Mi destino es Barcelona.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Mi Viaje de Vacaciones',
+              auxiliaryPrompt: 'Describe un viaje que quieres hacer',
+              answer: 'Escribe 5-6 oraciones sobre un viaje que planeas o que hiciste.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Alojamiento y Hospedaje'
+            },
+            {
+              type: 'text',
+              content: 'Aprende tipos de alojamiento: hotel, hostal, casa de huéspedes, apartamento. Aprende vocabulario para pedir habitaciones y servicios.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Hotel', definition: 'ホテル' },
+                { term: 'Hostal', definition: 'ホステル' },
+                { term: 'Habitación', definition: '客室' },
+                { term: 'Recepción', definition: 'フロント' },
+                { term: 'Wifi', definition: 'ワイファイ' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Hospedaje Ejemplos',
+              items: [
+                'Necesito una habitación para dos personas.',
+                '¿El hotel tiene wifi gratis?',
+                'La recepción está en el piso de abajo.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'En el Hotel',
+              auxiliaryPrompt: 'Práctica en situaciones de hospedaje',
+              answer: 'Escribe un diálogo reservando una habitación de hotel.'
+            }
+          ],
         },
         {
           id: 'l17',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 17: Educación y Aprendizaje',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Escuela y Educación', 'Asignaturas', 'Institución Educativa'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Sistema Educativo'
+            },
+            {
+              type: 'text',
+              content: 'Aprende vocabulario educativo: escuela, colegio, universidad, estudiante, profesor, examen, tarea. Palabras importantes si hablas de educación.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Escuela', definition: '学校' },
+                { term: 'Colegio', definition: 'スクール' },
+                { term: 'Universidad', definition: '大学' },
+                { term: 'Estudiante', definition: '学生' },
+                { term: 'Profesor', definition: '教授' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Educación Ejemplos',
+              items: [
+                'Voy a la universidad para estudiar ingeniería.',
+                'Mi profesor es muy inteligente.',
+                'Tengo un examen importante mañana.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Mi Educación',
+              auxiliaryPrompt: 'Habla sobre tu educación',
+              answer: 'Escribe 5-6 oraciones sobre tu escuela o universidad y qué estudias.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Asignaturas y Materias'
+            },
+            {
+              type: 'text',
+              content: 'Aprende nombres de asignaturas: matemáticas, español, inglés, historia, ciencia, educación física. Cada materia tiene vocabulario específico.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Matemáticas', definition: '数学' },
+                { term: 'Español', definition: 'スペイン語' },
+                { term: 'Historia', definition: '歴史' },
+                { term: 'Ciencia', definition: '科学' },
+                { term: 'Inglés', definition: '英語' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Materias Ejemplos',
+              items: [
+                'Mi materia favorita es historia.',
+                'Las matemáticas son difíciles.',
+                'Tengo clase de español dos veces a la semana.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Tus Materias',
+              auxiliaryPrompt: 'Describe las materias que estudias',
+              answer: 'Escribe 5 oraciones sobre las materias que estudias y cuál es tu favorita.'
+            }
+          ],
         },
         {
           id: 'l18',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 18: Festividades y Celebraciones',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Fiestas Españolas', 'Días Especiales', 'Tradiciones'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Festividades Importantes'
+            },
+            {
+              type: 'text',
+              content: 'Aprende nombres de festividades: Navidad, Año Nuevo, Día de Muertos, Pascua, Día de la Independencia. Cada cultura tiene sus propias celebraciones especiales.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Navidad', definition: 'クリスマス' },
+                { term: 'Año Nuevo', definition: '新年' },
+                { term: 'Pascua', definition: 'イースター' },
+                { term: 'Día de Muertos', definition: '死者の日' },
+                { term: 'Cumpleaños', definition: '誕生日' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Celebraciones Ejemplos',
+              items: [
+                'Celebramos la Navidad con la familia.',
+                'Mi cumpleaños es en enero.',
+                'El Día de Muertos es importante en México.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Tu Festividad Favorita',
+              auxiliaryPrompt: 'Describe cómo celebras',
+              answer: 'Escribe 5-6 oraciones sobre tu festividad favorita y cómo la celebras.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Tradiciones y Costumbres'
+            },
+            {
+              type: 'text',
+              content: 'Aprende sobre tradiciones españolas: la siesta, las tapas, la corrida de toros. Cada país tiene sus propias costumbres y tradiciones.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Tradición', definition: '伝統' },
+                { term: 'Costumbre', definition: '風習' },
+                { term: 'Fiesta', definition: 'パーティー' },
+                { term: 'Regalo', definition: 'ギフト' },
+                { term: 'Celebración', definition: 'お祝い' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Tradiciones Ejemplos',
+              items: [
+                'En España, la siesta es una tradición importante.',
+                'Se come turrón en Navidad.',
+                'Las tapas son una costumbre para socializar.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Tradiciones de Tu Cultura',
+              auxiliaryPrompt: 'Habla sobre las tradiciones de tu país',
+              answer: 'Escribe 5 oraciones describiendo las tradiciones de tu cultura.'
+            }
+          ],
         },
       ],
     },
@@ -11294,66 +12536,311 @@ const spaa1: Category = {
       lessons: [
         {
           id: 'l19',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 19: Conversaciones Telefónicas',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Expresiones Telefónicas', 'Dejar Mensajes', 'Hacer Reservaciones'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Frases Telefónicas Básicas'
+            },
+            {
+              type: 'text',
+              content: 'Aprende frases útiles para hablar por teléfono: "¿Hola?", "¿Quién habla?", "Un momento", "¿Puedo dejar un mensaje?". El teléfono es un medio importante de comunicación.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: '¿Hola?', definition: 'もしもし？' },
+                { term: '¿Quién habla?', definition: 'どなたですか？' },
+                { term: 'Línea ocupada', definition: '話中です' },
+                { term: 'Colgar', definition: '切る' },
+                { term: 'Mensaje de voz', definition: 'ボイスメール' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Conversación Telefónica',
+              items: [
+                '¿Hola? ¿Quién habla? - Soy Juan.',
+                'Un momento, por favor. Ella viene.',
+                '¿Puedo dejar un mensaje?'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Diálogo Telefónico',
+              auxiliaryPrompt: 'Practica conversaciones por teléfono',
+              answer: 'Escribe un diálogo telefónico de 6-8 líneas.'
+            }
+          ],
         },
         {
           id: 'l20',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 20: En el Restaurante',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Pedir Comida', 'Especialidades', 'Cuenta y Propina'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Ordenar en el Restaurante'
+            },
+            {
+              type: 'text',
+              content: 'Aprende frases para ordenar comida: "¿Qué recomienda?", "Quisiera...", "Para mí...", "De entrada", "De plato principal". Información útil para comer fuera.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: '¿Qué recomienda?', definition: 'お勧めは？' },
+                { term: 'Entrada', definition: '前菜' },
+                { term: 'Plato principal', definition: 'メイン' },
+                { term: 'Postre', definition: 'デザート' },
+                { term: 'La cuenta', definition: '勘定' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Restaurante Ejemplos',
+              items: [
+                'Mesero, quisiera la sopa de tomate.',
+                '¿Qué recomienda de plato principal?',
+                'De postre, un flan, por favor.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'En el Restaurante',
+              auxiliaryPrompt: 'Practica ordenar comida',
+              answer: 'Escribe un diálogo completo ordenando en un restaurante.'
+            }
+          ],
         },
         {
           id: 'l21',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 21: Compras en la Moda',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Ropa y Accesorios', 'Tallas y Colores', 'Probadores'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Vocabulario de Ropa'
+            },
+            {
+              type: 'text',
+              content: 'Aprende nombres de prendas: camisa, pantalón, vestido, zapato, abrigo, sombrero. Vocabulario esencial para comprar ropa y hablar de lo que usas.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Camisa', definition: 'シャツ' },
+                { term: 'Pantalón', definition: 'ズボン' },
+                { term: 'Vestido', definition: 'ワンピース' },
+                { term: 'Zapato', definition: '靴' },
+                { term: 'Abrigo', definition: 'コート' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Ropa Ejemplos',
+              items: [
+                'Necesito una camisa azul.',
+                'Los pantalones negros son elegantes.',
+                'Ese vestido te queda muy bien.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe Tu Ropa',
+              auxiliaryPrompt: 'Habla sobre lo que llevas',
+              answer: 'Escribe 5-6 oraciones describiendo la ropa que usas hoy.'
+            }
+          ],
         },
         {
           id: 'l22',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 22: Servicios Públicos',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Banco', 'Correo', 'Farmacia', 'Policía'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'En el Banco'
+            },
+            {
+              type: 'text',
+              content: 'Aprende vocabulario bancario: cuenta, depósito, retiro, tarjeta, moneda. Estas expresiones son importantes para gestiones financieras básicas.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Cuenta', definition: '口座' },
+                { term: 'Depósito', definition: '預金' },
+                { term: 'Retiro', definition: '出金' },
+                { term: 'Tarjeta de crédito', definition: 'クレジットカード' },
+                { term: 'Cambio', definition: '両替' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Banco Ejemplos',
+              items: [
+                'Quiero cambiar dólares a euros.',
+                '¿Cuál es la tasa de cambio?',
+                'Necesito abrir una cuenta de ahorros.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'En el Banco',
+              auxiliaryPrompt: 'Practica trámites bancarios',
+              answer: 'Escribe un diálogo en un banco pidiendo ayuda con una transacción.'
+            }
+          ],
         },
         {
           id: 'l23',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 23: Correcciones y Disculpas',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Pedir Disculpas', 'Corregir Errores', 'Expresiones de Perdón'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Cómo Disculparse'
+            },
+            {
+              type: 'text',
+              content: 'Aprende a disculparte: "Lo siento", "Disculpe", "Perdón", "No fue intencional". Es importante saber cómo pedir perdón de forma apropiada.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Lo siento', definition: '申し訳ない' },
+                { term: 'Disculpe', definition: 'すみません' },
+                { term: 'Perdón', definition: '許してください' },
+                { term: 'Fue un error', definition: '間違いでした' },
+                { term: 'No te preocupes', definition: '心配しないで' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Disculpas Ejemplos',
+              items: [
+                'Lo siento mucho. No fue intencional.',
+                'Disculpe, llego tarde por el tráfico.',
+                'Perdón si te ofendí. No era mi intención.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Práctica de Disculpas',
+              auxiliaryPrompt: 'Practica cómo disculparte',
+              answer: 'Escribe un diálogo donde alguien se disculpa por un error.'
+            }
+          ],
         },
         {
           id: 'l24',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 24: Hipótesis y Planes Futuros',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Futuro Simple', 'Intenciones', 'Planes de Vida'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Hablando del Futuro'
+            },
+            {
+              type: 'text',
+              content: 'Introduce el concepto del tiempo futuro: "Voy a...", "Haré...", "Espero...". Estas estructuras te permiten hablar de tus planes y aspiraciones.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Voy a', definition: '〜するつもり' },
+                { term: 'Haré', definition: 'する（未来形）' },
+                { term: 'Espero', definition: '〜を望む' },
+                { term: 'Quiero', definition: '〜が欲しい' },
+                { term: 'Sueño', definition: '夢' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Futuro Ejemplos',
+              items: [
+                'Voy a viajar a España el próximo año.',
+                'Haré un doctorado en la universidad.',
+                'Espero tener una familia feliz.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Tus Planes Futuros',
+              auxiliaryPrompt: 'Habla sobre lo que harás',
+              answer: 'Escribe 6-7 oraciones sobre tus planes para el próximo año.'
+            }
+          ],
         },
         {
           id: 'l25',
-          title: 'Lesson 7: Topic 7',
+          title: 'Lesson 25: Expresiones Culturales Españolas',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 7'],
-          sections: [],
+          checkItems: ['Dichos Populares', 'Expresiones Idiomáticas', 'Humor y Sarcasmo'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Dichos y Expresiones Comunes'
+            },
+            {
+              type: 'text',
+              content: 'Aprende expresiones idiomáticas españolas que enriquecen tu comunicación: "estar de buen humor", "irse de la lengua", "llevar la contraria".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Estar de buen humor', definition: '気分が良い' },
+                { term: 'Irse de la lengua', definition: 'しゃべってしまう' },
+                { term: 'Meter la pata', definition: '足を踏む' },
+                { term: 'Estar en la luna', definition: 'ぼんやりしている' },
+                { term: 'Dar gato por liebre', definition: 'だます' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Expresiones Culturales',
+              items: [
+                '¡Qué barbaridad! No lo puedo creer.',
+                'Ayer metí la pata en la entrevista.',
+                'Estaba en la luna, no escuché nada.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Expresiones Idiomáticas',
+              auxiliaryPrompt: 'Usa expresiones españolas',
+              answer: 'Escribe 5 oraciones usando diferentes expresiones idiomáticas españolas.'
+            }
+          ],
         },
       ],
     },
@@ -11374,57 +12861,301 @@ const spaa2: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Pasado Simple - Verbos Regulares',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Pasado Simple', 'Verbos Regulares', 'Narración'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Pretérito Indefinido - Verbos Regulares'
+            },
+            {
+              type: 'text',
+              content: 'Aprende a narrar acciones completadas en el pasado usando el pretérito indefinido. Los verbos regulares en -AR, -ER, -IR siguen patrones predecibles. Esto es esencial para contar historias.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Hablé', definition: '話した（hablar）' },
+                { term: 'Comí', definition: '食べた（comer）' },
+                { term: 'Viví', definition: '住んだ（vivir）' },
+                { term: 'Trabajaste', definition: '働いた（trabajar）' },
+                { term: 'Escribieron', definition: '書いた（escribir）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Pasado Ejemplos',
+              items: [
+                'Ayer hablé con mi amiga.',
+                'El mes pasado viajé a México.',
+                'Ellos comieron en un restaurante importante.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Narra el Pasado',
+              auxiliaryPrompt: 'Cuéntame qué hiciste ayer',
+              answer: 'Escribe 6-8 oraciones sobre lo que hiciste el fin de semana pasado.'
+            }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Pasado Simple - Verbos Irregulares',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Verbos Irregulares', 'Pasado', 'Casos Comunes'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Pretérito - Irregulares'
+            },
+            {
+              type: 'text',
+              content: 'Muchos verbos comunes son irregulares en pasado: ser/ir (fui), tener (tuve), hacer (hice), decir (dije). Memoriza estos patrones que aparecen frecuentemente.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Fui', definition: 'いった（ser/ir）' },
+                { term: 'Tuve', definition: '持った（tener）' },
+                { term: 'Hice', definition: 'した（hacer）' },
+                { term: 'Dije', definition: '言った（decir）' },
+                { term: 'Estuve', definition: 'いた（estar）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Irregulares Ejemplos',
+              items: [
+                'Fui al cine el viernes.',
+                'Tuve un examen muy difícil.',
+                '¿Qué hiciste en tus vacaciones?'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Verbos Irregulares',
+              auxiliaryPrompt: 'Usa verbos irregulares en pasado',
+              answer: 'Escribe 8 oraciones usando diferentes verbos irregulares en pretérito.'
+            }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Imperfecto - Descripción en Pasado',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Imperfecto', 'Descripción', 'Acciones Repetidas'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Pretérito Imperfecto'
+            },
+            {
+              type: 'text',
+              content: 'El imperfecto describe acciones habituales o en progreso en el pasado. Se usa para dar contexto y describir cómo eran las cosas. "Cuando era niño, jugaba en el parque."'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Jugaba', definition: '遊んでいた（jugar）' },
+                { term: 'Vivía', definition: '住んでいた（vivir）' },
+                { term: 'Tenía', definition: '持っていた（tener）' },
+                { term: 'Hacía', definition: 'していた（hacer）' },
+                { term: 'Iba', definition: 'いっていた（ir）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Imperfecto Ejemplos',
+              items: [
+                'Cuando era pequeño, jugaba fútbol todos los días.',
+                'Ella vivía en Madrid hace cinco años.',
+                'Siempre iba al parque por las tardes.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Describe el Pasado',
+              auxiliaryPrompt: 'Usa imperfecto para describir la infancia',
+              answer: 'Escribe 6 oraciones describiendo cómo eras y qué hacías cuando eras niño/a.'
+            }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Comparaciones y Superlativos',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Comparación', 'Superlativos', 'Expresiones Comparativas'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Oraciones Comparativas'
+            },
+            {
+              type: 'text',
+              content: 'Compara dos cosas: "más... que", "menos... que", "tan... como". Estas estructuras son fundamentales para expresar similitudes y diferencias.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Más... que', definition: 'より〜' },
+                { term: 'Menos... que', definition: 'より〜でない' },
+                { term: 'Tan... como', definition: '〜と同じくらい' },
+                { term: 'Mejor', definition: 'より良い' },
+                { term: 'Peor', definition: 'より悪い' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Comparación Ejemplos',
+              items: [
+                'Madrid es más grande que Barcelona.',
+                'El invierno es menos caluroso que el verano.',
+                'Mi hermana es tan inteligente como yo.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Compara Objetos',
+              auxiliaryPrompt: 'Haz comparaciones',
+              answer: 'Escribe 6 oraciones comparando diferentes cosas que conoces.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Superlativos'
+            },
+            {
+              type: 'text',
+              content: 'Expresa el extremo: "el más...", "el menos...", "el mejor", "el peor". Se usa para describir lo máximo o mínimo de algo.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'El más', definition: '最も〜' },
+                { term: 'El menos', definition: '最も〜でない' },
+                { term: 'El mejor', definition: '最良' },
+                { term: 'El peor', definition: '最悪' },
+                { term: 'El más alto', definition: '最も高い' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Superlativo Ejemplos',
+              items: [
+                'Es el edificio más alto de la ciudad.',
+                'Mi película favorita es la mejor que he visto.',
+                'Este es el restaurante menos caro del barrio.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Expresa Superlativos',
+              auxiliaryPrompt: 'Usa superlativos',
+              answer: 'Escribe 5 oraciones con superlativos sobre películas, comidas o lugares.'
+            }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Subjuntivo Presente - Introducción',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Subjuntivo', 'Deseos', 'Duda'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Introducción al Subjuntivo'
+            },
+            {
+              type: 'text',
+              content: 'El subjuntivo expresa deseos, dudas e incertidumbre. Se diferencia del indicativo (realidad). "Espero que tengas suerte" vs "Tengo suerte".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Hable', definition: '話す（subjuntivo）' },
+                { term: 'Espero que', definition: '〜を望む' },
+                { term: 'Quiero que', definition: '〜してほしい' },
+                { term: 'Es posible que', definition: '〜の可能性がある' },
+                { term: 'Dudo que', definition: '〜と疑う' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Subjuntivo Ejemplos',
+              items: [
+                'Espero que vengas a la fiesta.',
+                'Quiero que estudies más.',
+                'Es posible que llueva mañana.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Práctica de Subjuntivo',
+              auxiliaryPrompt: 'Usa el subjuntivo con verbos de deseo',
+              answer: 'Escribe 6 oraciones usando subjuntivo con "espero que", "quiero que".'
+            }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Conectores y Expresiones de Transición',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Conectores', 'Transiciones', 'Fluidez'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Palabras de Transición'
+            },
+            {
+              type: 'text',
+              content: 'Aprende conectores que hacen tu texto más fluido: además, sin embargo, por lo tanto, en cambio, finalmente. Son importantes para escribir y hablar con coherencia.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Además', definition: 'さらに' },
+                { term: 'Sin embargo', definition: 'しかし' },
+                { term: 'Por lo tanto', definition: 'したがって' },
+                { term: 'En cambio', definition: '一方' },
+                { term: 'Finalmente', definition: '最後に' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Conectores Ejemplos',
+              items: [
+                'El proyecto es interesante. Además, es importante.',
+                'Quería ir al cine, sin embargo, decidí quedarme en casa.',
+                'Estudié mucho; por lo tanto, aprobé el examen.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Conecta Oraciones',
+              auxiliaryPrompt: 'Usa conectores para unir ideas',
+              answer: 'Escribe un párrafo de 5-6 oraciones usando diferentes conectores.'
+            }
+          ],
         },
       ],
     },
@@ -11434,57 +13165,267 @@ const spaa2: Category = {
       lessons: [
         {
           id: 'l7',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 7: Condicional Presente',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Condicional', 'Hipótesis', 'Probabilidad'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Condicional Simple'
+            },
+            {
+              type: 'text',
+              content: 'Expresa lo que harías en una situación hipotética. "Si fuera rico, viajaría por el mundo." El condicional es importante para expresar deseos y posibilidades.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Hablaría', definition: '話すだろう（hablar）' },
+                { term: 'Comería', definition: '食べるだろう（comer）' },
+                { term: 'Viviría', definition: '住むだろう（vivir）' },
+                { term: 'Viajaría', definition: '旅するだろう（viajar）' },
+                { term: 'Trabajaría', definition: '働くだろう（trabajar）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Condicional Ejemplos',
+              items: [
+                'Si tuviera tiempo, iría de vacaciones.',
+                'Me gustaría visitar Japón.',
+                'Ella seguiría estudiando si pudiera.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Expresa Hipótesis',
+              auxiliaryPrompt: 'Usa condicional',
+              answer: 'Escribe 6 oraciones comenzando con "Si tuviera..." usando condicional.'
+            }
+          ],
         },
         {
           id: 'l8',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 8: Gerundio y Participio',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Gerundio', 'Participio', 'Acciones Progresivas'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Gerundio (-ando, -iendo)'
+            },
+            {
+              type: 'text',
+              content: 'El gerundio indica una acción en progreso. Se forma añadiendo -ando (verbos -AR) o -iendo (verbos -ER, -IR). "Estoy estudiando" = I am studying.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Hablando', definition: '話している' },
+                { term: 'Comiendo', definition: '食べている' },
+                { term: 'Viviendo', definition: '住んでいる' },
+                { term: 'Estudiando', definition: '勉強している' },
+                { term: 'Trabajando', definition: '働いている' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Gerundio Ejemplos',
+              items: [
+                'Estoy estudiando para el examen.',
+                'Ella está cocinando la cena.',
+                'Ellos están jugando fútbol en el parque.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Gerundio en Acciones',
+              auxiliaryPrompt: 'Describe lo que están haciendo',
+              answer: 'Escribe 5 oraciones describiendo qué están haciendo diferentes personas ahora.'
+            }
+          ],
         },
         {
           id: 'l9',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 9: Pronombres de Objeto Indirecto',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Pronombres Indirectos', 'Verbos de Beneficio', 'Dativo'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Pronombres de Objeto Indirecto'
+            },
+            {
+              type: 'text',
+              content: 'Los pronombres indirectos (me, te, le, nos, os, les) reciben la acción de forma indirecta. "Le doy un libro" (le = a él/ella).'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Me', definition: '私に（dativo）' },
+                { term: 'Te', definition: 'あなたに（dativo）' },
+                { term: 'Le', definition: '彼/彼女に（dativo）' },
+                { term: 'Nos', definition: '私たちに（dativo）' },
+                { term: 'Les', definition: '彼らに（dativo）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Pronombres Indirectos',
+              items: [
+                'Te doy mi número de teléfono.',
+                'Le compré un regalo especial.',
+                'Nos enviaron una invitación a la fiesta.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Usa Pronombres Indirectos',
+              auxiliaryPrompt: 'Forma oraciones con objeto indirecto',
+              answer: 'Escribe 6 oraciones usando pronombres de objeto indirecto.'
+            }
+          ],
         },
         {
           id: 'l10',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 10: Imperativo - Órdenes y Consejos',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Imperativo', 'Órdenes', 'Consejos'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Modo Imperativo'
+            },
+            {
+              type: 'text',
+              content: 'El imperativo da órdenes, instrucciones y consejos. Tiene formas diferentes para tú, usted, nosotros. "¡Habla!" vs "¡Hable!" (formal).'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Habla', definition: '話しなさい（tú）' },
+                { term: 'Hable', definition: 'お話しください（usted）' },
+                { term: 'Come', definition: '食べなさい' },
+                { term: 'Vive', definition: '住みなさい' },
+                { term: 'Estudia', definition: '勉強しなさい' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Imperativo Ejemplos',
+              items: [
+                'Abre la puerta, por favor.',
+                'Hable más lentamente, por favor.',
+                'Estudia este vocabulario importante.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Da Órdenes y Consejos',
+              auxiliaryPrompt: 'Usa imperativo',
+              answer: 'Escribe 6 órdenes o consejos usando el modo imperativo.'
+            }
+          ],
         },
         {
           id: 'l11',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 11: Expresiones Coloquiales',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Jerga', 'Expresiones Informales', 'Modismos'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Lenguaje Coloquial Español'
+            },
+            {
+              type: 'text',
+              content: 'Aprende expresiones informales que usan los hablantes nativos: "estar de buen/mal rollo", "tener un mal día", "ponerse de acuerdo".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Tío/a', definition: 'やあ（カジュアル）' },
+                { term: '¡Vale!', definition: 'わかった！' },
+                { term: '¡Venga!', definition: 'さあ！' },
+                { term: 'Está bien', definition: 'いいよ' },
+                { term: 'De verdad', definition: '本当に' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Coloquialismo Ejemplos',
+              items: [
+                '¡Tío, qué día tan loco!',
+                'Vale, nos vemos luego.',
+                'De verdad, fue alucinante.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Habla Coloquialmente',
+              auxiliaryPrompt: 'Usa expresiones informales',
+              answer: 'Escribe un diálogo informal usando expresiones coloquiales españolas.'
+            }
+          ],
         },
         {
           id: 'l12',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 12: Narración y Descripción en Pasado',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Narración', 'Combinación de Tiempos', 'Historias'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Combinación de Pretérito e Imperfecto'
+            },
+            {
+              type: 'text',
+              content: 'Para contar una historia efectivamente, combina el pretérito (acción principal) con el imperfecto (contexto). "Mientras yo comía, ella llamó."'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Ocurrió', definition: '起こった（pretérito）' },
+                { term: 'Estaba', definition: 'いた（imperfecto）' },
+                { term: 'Sucedió', definition: '発生した' },
+                { term: 'Mientras', definition: 'その間に' },
+                { term: 'De repente', definition: '突然' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Narración Ejemplos',
+              items: [
+                'Mientras yo trabajaba, mi amigo llegó.',
+                'Era un día soleado cuando sucedió el accidente.',
+                'Estábamos en casa cuando escuchamos la noticia.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Cuenta una Historia',
+              auxiliaryPrompt: 'Narra un evento combinando tiempos',
+              answer: 'Escribe una historia de 8-10 oraciones usando pretérito e imperfecto.'
+            }
+          ],
         },
       ],
     },
@@ -11494,57 +13435,301 @@ const spaa2: Category = {
       lessons: [
         {
           id: 'l13',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 13: Expresiones de Opinión y Acuerdo',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Opinión', 'Acuerdo', 'Desacuerdo'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Expresar Opinión'
+            },
+            {
+              type: 'text',
+              content: 'Aprende frases para expresar tu opinión de manera cortés: "Creo que...", "En mi opinión...", "Me parece que...", "A mi juicio...".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Creo que', definition: '〜だと思う' },
+                { term: 'En mi opinión', definition: '私の意見では' },
+                { term: 'Me parece que', definition: '〜に見える' },
+                { term: 'A mi juicio', definition: '私の判断では' },
+                { term: 'Considero que', definition: '〜だと考える' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Opinión Ejemplos',
+              items: [
+                'Creo que el cambio climático es muy importante.',
+                'En mi opinión, la educación debe ser prioritaria.',
+                'Me parece que esta película es excelente.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Expresa Tu Opinión',
+              auxiliaryPrompt: 'Da tu perspectiva sobre temas',
+              answer: 'Escribe 5 opiniones sobre temas actuales usando diferentes expresiones.'
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Acuerdo y Desacuerdo'
+            },
+            {
+              type: 'text',
+              content: 'Responde a opiniones: "Estoy de acuerdo", "No estoy de acuerdo", "Tienes razón", "Me parece que no".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Estoy de acuerdo', definition: '同意します' },
+                { term: 'No estoy de acuerdo', definition: '同意しません' },
+                { term: 'Tienes razón', definition: 'あなたは正しい' },
+                { term: 'Me parece que no', definition: 'そうは思いません' },
+                { term: 'Totalmente', definition: '全く' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Acuerdo Ejemplos',
+              items: [
+                'Totalmente de acuerdo contigo.',
+                'No estoy de acuerdo con esa opinión.',
+                'Tienes razón, nunca lo había pensado así.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Debate Amigable',
+              auxiliaryPrompt: 'Practica acuerdo y desacuerdo',
+              answer: 'Escribe un diálogo corto donde dos personas debaten sobre un tema.'
+            }
+          ],
         },
         {
           id: 'l14',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 14: Vocabulario de Tecnología',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Tecnología', 'Internet', 'Dispositivos'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Mundo Digital'
+            },
+            {
+              type: 'text',
+              content: 'Aprende palabras sobre tecnología: ordenador, teléfono móvil, correo electrónico, internet, redes sociales, aplicación. Vocabulario cada vez más importante.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Ordenador', definition: 'コンピュータ' },
+                { term: 'Teléfono móvil', definition: 'スマートフォン' },
+                { term: 'Correo electrónico', definition: 'メール' },
+                { term: 'Red social', definition: 'ソーシャルメディア' },
+                { term: 'Aplicación', definition: 'アプリ' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Tecnología Ejemplos',
+              items: [
+                'Envíame un correo cuando llegues.',
+                'Me gusta compartir fotos en redes sociales.',
+                'Descargué una nueva aplicación muy útil.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Tu Vida Digital',
+              auxiliaryPrompt: 'Describe tu uso de tecnología',
+              answer: 'Escribe 5-6 oraciones sobre cómo usas la tecnología en tu vida diaria.'
+            }
+          ],
         },
         {
           id: 'l15',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 15: Direcciones Más Complejas',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Navegación', 'Instrucciones', 'Mapas'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Dar y Recibir Direcciones'
+            },
+            {
+              type: 'text',
+              content: 'Describe rutas más complejas: "Gira a la izquierda", "Sigue todo recto", "Coge la segunda calle", "Cruza la plaza".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Gira a la izquierda', definition: '左に曲がる' },
+                { term: 'Sigue recto', definition: 'まっすぐ進む' },
+                { term: 'Coge', definition: '取る' },
+                { term: 'Cruza', definition: '横切る' },
+                { term: 'Esquina', definition: 'コーナー' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Dirección Compleja',
+              items: [
+                'Desde aquí, gira a la derecha. Luego, sigue recto dos cuadras.',
+                'Coge la primera calle a la izquierda y el edificio está allí.',
+                'Cruza la plaza y verás la estación enfrente.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Directions Game',
+              auxiliaryPrompt: 'Da instrucciones detalladas',
+              answer: 'Escribe direcciones detalladas desde tu casa a un lugar importante.'
+            }
+          ],
         },
         {
           id: 'l16',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 16: Consejos y Recomendaciones',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Consejos', 'Recomendaciones', 'Sugerencias'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Dar Consejos'
+            },
+            {
+              type: 'text',
+              content: 'Expresa consejos: "Te recomiendo que...", "Deberías...", "Si fuera tú...", "Mi consejo es...". Importante para ayudar a otros.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Te recomiendo', definition: 'お勧めします' },
+                { term: 'Deberías', definition: '〜すべき' },
+                { term: 'Si fuera tú', definition: '君の立場なら' },
+                { term: 'Mi consejo', definition: '私のアドバイス' },
+                { term: 'Sugiero que', definition: '〜を提案する' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Consejos Ejemplos',
+              items: [
+                'Te recomiendo que visites la Sagrada Familia.',
+                'Si fuera tú, aprendería a cocinar.',
+                'Mi consejo es que hagas ejercicio regularmente.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Consejos Personales',
+              auxiliaryPrompt: 'Da consejos sobre temas',
+              answer: 'Escribe 5 consejos que darías a un amigo sobre educación, salud o viajes.'
+            }
+          ],
         },
         {
           id: 'l17',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 17: Expresiones Emocionales Avanzadas',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Emociones Complejas', 'Matices', 'Intensidad'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Emociones Más Complejas'
+            },
+            {
+              type: 'text',
+              content: 'Expresa emociones complejas: "Estoy harto", "Me siento abrumado", "Es desolador", "Estoy emocionado pero nervioso".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Estoy harto', definition: 'うんざりしている' },
+                { term: 'Abrumado', definition: '圧倒されている' },
+                { term: 'Desolador', definition: '悲劇的' },
+                { term: 'Emocionado', definition: '感動している' },
+                { term: 'Agradecido', definition: 'grateful' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Emociones Complejas',
+              items: [
+                'Estoy harto de los atascos en la ciudad.',
+                'Me siento abrumado por tanta tarea.',
+                'Es desolador ver la pobreza.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Expresa Emociones Profundas',
+              auxiliaryPrompt: 'Describe sentimientos complejos',
+              answer: 'Escribe 5-6 oraciones expresando diferentes emociones complejas.'
+            }
+          ],
         },
         {
           id: 'l18',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 18: Expresiones sobre Salud y Bienestar',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Salud', 'Síntomas', 'Bienestar', 'Consejos Médicos'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Expresiones de Salud'
+            },
+            {
+              type: 'text',
+              content: 'Aprende a hablar sobre salud de forma más específica: "Tengo tensión alta", "Me duele el pecho", "Estoy bajo de ánimo", "Necesito descansar".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Tensión alta', definition: '高血圧' },
+                { term: 'Dolor de pecho', definition: '胸痛' },
+                { term: 'Bajo de ánimo', definition: '気分が落ち込んでいる' },
+                { term: 'Agotado', definition: '疲れ果てた' },
+                { term: 'Recuperarse', definition: '回復する' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Salud Ejemplos',
+              items: [
+                'He estado bajo de ánimo últimamente.',
+                'Me siento agotado después de trabajar.',
+                'Necesito ir al médico para un chequeo.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Habla sobre Salud',
+              auxiliaryPrompt: 'Describe problemas de salud',
+              answer: 'Escribe un diálogo entre un paciente y un doctor sobre síntomas.'
+            }
+          ],
         },
       ],
     },
@@ -11554,66 +13739,311 @@ const spaa2: Category = {
       lessons: [
         {
           id: 'l19',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 19: Discusión de Temas Actuales',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Temas Sociales', 'Debate', 'Argumentación'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Debatir Temas Importantes'
+            },
+            {
+              type: 'text',
+              content: 'Desarrolla habilidad para discutir temas como política, ambiente, educación. Aprende a argumentar y mantener una conversación equilibrada.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Cambio climático', definition: '気候変動' },
+                { term: 'Sostenibilidad', definition: '持続可能性' },
+                { term: 'Derechos humanos', definition: '人権' },
+                { term: 'Pobreza', definition: '貧困' },
+                { term: 'Justicia social', definition: '社会正義' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Debate Ejemplos',
+              items: [
+                'El cambio climático es uno de los mayores desafíos.',
+                'La educación debería ser accesible para todos.',
+                'Necesitamos actuar sobre la pobreza ahora.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Debate Simulado',
+              auxiliaryPrompt: 'Discute un tema actual',
+              answer: 'Escribe un argumento de 5-6 oraciones sobre un tema social importante.'
+            }
+          ],
         },
         {
           id: 'l20',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 20: Escritura Formal - Cartas y Correos',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Escritura Formal', 'Estructura', 'Tono Profesional'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Escribir Cartas Formales'
+            },
+            {
+              type: 'text',
+              content: 'Aprende la estructura: saludo, propósito, información principal, despedida. "Estimado Sr./Sra.", "Le escribo para informarle...".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Estimado', definition: '尊敬される' },
+                { term: 'Le escribo para', definition: '〜のためにお手紙します' },
+                { term: 'Atentamente', definition: '敬具' },
+                { term: 'Quedo atento', definition: 'お待ちしています' },
+                { term: 'Cordialmente', definition: 'よろしく' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Carta Formal',
+              items: [
+                'Estimado Sr. García,',
+                'Le escribo para solicitar información sobre...',
+                'Quedo atento a sus comentarios.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Escribe una Carta Formal',
+              auxiliaryPrompt: 'Redacta una carta profesional',
+              answer: 'Escribe una carta formal completa (saludo, cuerpo, despedida).'
+            }
+          ],
         },
         {
           id: 'l21',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 21: Expresiones Culturales Españolas Avanzadas',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Expresiones Avanzadas', 'Referencias Culturales', 'Matices'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Expresiones Idiomáticas Españolas'
+            },
+            {
+              type: 'text',
+              content: 'Aprende expresiones que usan los españoles: "estar de uvas", "tomar el pelo", "estar en la onda", "ponerse morado".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Tomar el pelo', definition: 'からかう' },
+                { term: 'Estar en la onda', definition: 'トレンドに乗っている' },
+                { term: 'Ponerse morado', definition: 'たっぷり食べる' },
+                { term: 'Estar de uvas', definition: '祝う気分' },
+                { term: 'Irse de marcha', definition: '遊びに行く' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Expresiones Españolas',
+              items: [
+                '¡No me tomes el pelo! Serio en serio.',
+                'Estamos en la onda con las últimas tendencias.',
+                'Nos pusimos morados de comer paella.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Usa Expresiones Españolas',
+              auxiliaryPrompt: 'Practica dichos españoles',
+              answer: 'Escribe 5 oraciones usando diferentes expresiones idiomáticas españolas.'
+            }
+          ],
         },
         {
           id: 'l22',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 22: Análisis de Textos Simples',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Comprensión', 'Análisis', 'Interpretación'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Leer y Analizar'
+            },
+            {
+              type: 'text',
+              content: 'Lee textos cortos y analiza: tema principal, argumentos, conclusiones. Desarrolla comprensión lectora profunda en español.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Tema principal', definition: 'メインテーマ' },
+                { term: 'Argumento', definition: '議論' },
+                { term: 'Conclusión', definition: '結論' },
+                { term: 'Propósito', definition: '目的' },
+                { term: 'Mensaje', definition: 'メッセージ' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Análisis Ejemplos',
+              items: [
+                'El tema principal del artículo es la educación.',
+                'El autor argumenta que la tecnología es esencial.',
+                'La conclusión es que debemos actuar ahora.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Analiza un Texto',
+              auxiliaryPrompt: 'Lee y comenta',
+              answer: 'Lee un párrafo y escribe su tema, 2 argumentos principales y la conclusión.'
+            }
+          ],
         },
         {
           id: 'l23',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 23: Presentaciones y Exposiciones',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Presentación Oral', 'Estructura', 'Fluidez'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Cómo Hacer una Presentación'
+            },
+            {
+              type: 'text',
+              content: 'Estructura: introducción, desarrollo, conclusión. Usa transiciones y mantén contacto visual. "Buenos días, hoy les presento...".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Buenos días', definition: 'おはようございます' },
+                { term: 'Les presento', definition: '〜をご紹介します' },
+                { term: 'Primeramente', definition: 'まず' },
+                { term: 'En conclusión', definition: '結論として' },
+                { term: 'Preguntas', definition: 'ご質問' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Presentación Ejemplos',
+              items: [
+                'Buenos días, hoy les presento un proyecto importante.',
+                'Primeramente, hablaremos del problema.',
+                'En conclusión, la solución es clara.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Prepara una Presentación',
+              auxiliaryPrompt: 'Organiza una exposición',
+              answer: 'Prepara una presentación corta (5 puntos) sobre un tema de tu interés.'
+            }
+          ],
         },
         {
           id: 'l24',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 24: Expresiones Sobre Relaciones Personales',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Relaciones', 'Sentimientos', 'Comunicación'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Hablar de Relaciones'
+            },
+            {
+              type: 'text',
+              content: 'Expresa sentimientos en relaciones: "Te echo de menos", "Eres importante para mí", "Necesitamos hablar", "Te quiero".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Te echo de menos', definition: '君が恋しい' },
+                { term: 'Eres importante', definition: 'あなたは重要' },
+                { term: 'Necesitamos hablar', definition: '話す必要がある' },
+                { term: 'Te quiero', definition: 'あなたを愛しています' },
+                { term: 'Amistad', definition: '友情' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Relaciones Ejemplos',
+              items: [
+                'Te echo mucho de menos desde que te fuiste.',
+                'Nuestras amistades son muy importantes.',
+                'Necesitamos hablar sobre lo que está pasando.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Expresa Sentimientos',
+              auxiliaryPrompt: 'Comunica emociones en relaciones',
+              answer: 'Escribe un mensaje sincero a un amigo expresando lo que significa para ti.'
+            }
+          ],
         },
         {
           id: 'l25',
-          title: 'Lesson 7: Topic 7',
+          title: 'Lesson 25: Reflexión y Autoevaluación',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 7'],
-          sections: [],
+          checkItems: ['Autoevaluación', 'Progreso', 'Planes Futuros'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Evalúa Tu Progreso'
+            },
+            {
+              type: 'text',
+              content: 'Reflexiona sobre lo aprendido en A2: "He mejorado mi capacidad de...", "Ahora puedo...", "Mi objetivo es...".'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'He mejorado', definition: '改善した' },
+                { term: 'Capacidad', definition: '能力' },
+                { term: 'Objetivo', definition: '目標' },
+                { term: 'Progreso', definition: '進歩' },
+                { term: 'Desafío', definition: 'チャレンジ' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Reflexión Ejemplos',
+              items: [
+                'He mejorado mucho mi comprensión del pasado.',
+                'Ahora puedo mantener conversaciones más complejas.',
+                'Mi próximo objetivo es alcanzar el nivel B1.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Tu Viaje de Aprendizaje',
+              auxiliaryPrompt: 'Reflexiona sobre tu progreso',
+              answer: 'Escribe 6-8 oraciones reflexionando sobre lo que has aprendido en A2 y tus metas futuras.'
+            }
+          ],
         },
       ],
     },
@@ -11634,57 +14064,93 @@ const spab1: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Subjuntivo Avanzado',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Subjuntivo', 'Cláusulas Adverbiales', 'Expresión de Duda'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Subjuntivo en Cláusulas Adverbiales' },
+            { type: 'text', content: 'Domina el subjuntivo cuando la acción es dudosa, concesiva o condicional. Aunque, a fin de que, siempre que, por miedo a que.' },
+            { type: 'glossary', terms: [ { term: 'Aunque', definition: '〜でも' }, { term: 'A fin de que', definition: '〜のために' }, { term: 'Siempre que', definition: '〜する限り' }, { term: 'Por miedo a que', definition: '〜を恐れて' }, { term: 'Insisto en que', definition: '〜を主張する' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Aunque llueva, iremos de camping.', 'Te lo digo para que lo entiendas.', 'Viajamos siempre que podemos.' ] },
+            { type: 'practice', question: 'Usa Subjuntivo Avanzado', auxiliaryPrompt: 'Forma oraciones con cláusulas adverbiales', answer: 'Escribe 5 oraciones usando aunque, para que, siempre que en subjuntivo.' }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Oraciones Subordinadas Complejas',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Subordinadas', 'Conjunciones', 'Estructura Compleja'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Cláusulas Subordinadas' },
+            { type: 'text', content: 'Crea oraciones más sofisticadas con múltiples cláusulas. Causa (porque, puesto que), tiempo (cuando, antes de que), condición (si, en caso de que).' },
+            { type: 'glossary', terms: [ { term: 'Porque', definition: '〜だから' }, { term: 'Cuando', definition: '〜の時' }, { term: 'En caso de que', definition: '〜の場合' }, { term: 'Mientras', definition: '〜の間に' }, { term: 'Después de que', definition: '〜した後' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Como no llegaste a tiempo, comenzamos sin ti.', 'Espera hasta que yo regrese.', 'En caso de que llueva, cancelamos.' ] },
+            { type: 'practice', question: 'Oraciones Subordinadas', auxiliaryPrompt: 'Crea estructuras complejas', answer: 'Escribe 5 oraciones con cláusulas subordinadas variadas.' }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Perífrasis Verbales',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Perífrasis', 'Matices Verbales', 'Aspecto'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Perífrasis Verbales Españolas' },
+            { type: 'text', content: 'Perifrasis como "acabar de", "ponerse a", "llevar...estudiando", "seguir...estudiando" añaden matices de aspecto y modalidad.' },
+            { type: 'glossary', terms: [ { term: 'Acabar de', definition: 'したばかり' }, { term: 'Ponerse a', definition: '〜し始める' }, { term: 'Seguir', definition: '〜し続ける' }, { term: 'Llevar', definition: '〜してから' }, { term: 'Volver a', definition: '再び〜する' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Acabo de terminar mi proyecto.', 'Se puso a llorar de repente.', 'Llevan tres años estudiando español.' ] },
+            { type: 'practice', question: 'Usa Perífrasis', auxiliaryPrompt: 'Expresa con matices', answer: 'Escribe 5 oraciones usando diferentes perífrasis verbales.' }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Registros Lingüísticos',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Registro Formal', 'Registro Informal', 'Contexto Social'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Adaptación del Lenguaje' },
+            { type: 'text', content: 'Ajusta tu lenguaje según el contexto: formal (empresa, academia), informal (amigos), coloquial (redes sociales).' },
+            { type: 'glossary', terms: [ { term: 'Estimado', definition: '尊敬される' }, { term: 'Cordialmente', definition: 'よろしく' }, { term: 'Oye', definition: 'ねえ' }, { term: 'Che', definition: 'やあ（ラテンアメリカ）' }, { term: 'Tío', definition: 'やあ（スペイン）' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Formal: Quisiera solicitar una reunión.', 'Informal: ¿Quieres tomar un café?', 'Coloquial: ¡Oye, ¿qué onda!' ] },
+            { type: 'practice', question: 'Adapta el Registro', auxiliaryPrompt: 'Escribe la misma idea en tres registros', answer: 'Expresa una petición en registro formal, informal y coloquial.' }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Argumentación y Debate Avanzado',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Argumentación', 'Debate', 'Refutación'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Técnicas de Debate' },
+            { type: 'text', content: 'Aprende a argumentar con lógica, refutar puntos, y mantener debates respetuosos. Presentar pruebas, admitir limitaciones.' },
+            { type: 'glossary', terms: [ { term: 'Por una parte', definition: '一方では' }, { term: 'Sin embargo', definition: 'しかし' }, { term: 'Esto demuestra que', definition: 'これは〜を証明する' }, { term: 'Concedo que', definition: '〜を認める' }, { term: 'Es indudable que', definition: '疑いの余地がない' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Por una parte es cierto, sin embargo hay que considerar...', 'Esto demuestra claramente que...', 'Concedo ese punto, pero el fondo del asunto...' ] },
+            { type: 'practice', question: 'Debate Estructurado', auxiliaryPrompt: 'Crea un debate', answer: 'Escribe un argumento con contraargumento sobre un tema polémico.' }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Literatura y Análisis Textual',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Literario', 'Análisis', 'Figuras Retóricas'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Comprensión Literaria' },
+            { type: 'text', content: 'Analiza poemas, cuentos y novelas españolas. Identifica metáforas, simbolismo, temas. Lee fragmentos de autores clásicos y modernos.' },
+            { type: 'glossary', terms: [ { term: 'Metáfora', definition: 'メタファー' }, { term: 'Simbolismo', definition: 'シンボリズム' }, { term: 'Personificación', definition: '擬人化' }, { term: 'Ironía', definition: 'アイロニー' }, { term: 'Aliteración', definition: '頭韻' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Garcilaso: "En tanto que de rosa y de azul..."', 'Lorca: Los olivos con su viento verde.', 'Machado: Caminante, no hay camino.' ] },
+            { type: 'practice', question: 'Analiza un Poema', auxiliaryPrompt: 'Interpreta un fragmento', answer: 'Lee y analiza un poema breve identificando figuras retóricas y temas.' }
+          ],
         },
       ],
     },
@@ -11694,57 +14160,93 @@ const spab1: Category = {
       lessons: [
         {
           id: 'l7',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 7: Expresiones Idiomáticas Avanzadas',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Idiomas', 'Cultura', 'Frases Hechas'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Dichos y Expresiones' },
+            { type: 'text', content: 'Expresiones que los nativos usan frecuentemente. "Dar la lata", "llevar la contraria", "estar en la luna de Valencia".' },
+            { type: 'glossary', terms: [ { term: 'Dar la lata', definition: 'うるさい' }, { term: 'Llevar la contraria', definition: '反対する' }, { term: 'Estar en la luna', definition: 'ぼんやりしている' }, { term: 'Tomar el pelo', definition: 'からかう' }, { term: 'Ponerse de acuerdo', definition: '合意する' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ '¡Dejas de dar la lata!', 'No me lleves la contraria siempre.', 'Hoy estabas en la luna, ¿qué pasa?' ] },
+            { type: 'practice', question: 'Usa Expresiones', auxiliaryPrompt: 'Practica dichos', answer: 'Escribe un diálogo usando 5 expresiones idiomáticas.' }
+          ],
         },
         {
           id: 'l8',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 8: Discurso Indirecto Avanzado',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Discurso Indirecto', 'Transformación', 'Cambios Temporales'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Estilo Indirecto' },
+            { type: 'text', content: 'Transforma discurso directo en indirecto con cambios de tiempos verbales. Directo: "Voy mañana" → Indirecto: "Dijo que iba al día siguiente".' },
+            { type: 'glossary', terms: [ { term: 'Dijo que', definition: '〜と言った' }, { term: 'Preguntó si', definition: '〜かどうか尋ねた' }, { term: 'Me pidió que', definition: '〜するよう求めた' }, { term: 'Afirmó que', definition: '〜と主張した' }, { term: 'Negó que', definition: '〜を否定した' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'D: "Tengo hambre" → I: Dijo que tenía hambre.', 'D: "¿Vienes?" → I: Preguntó si iba.', 'D: "¡Vete!" → I: Me pidió que me fuera.' ] },
+            { type: 'practice', question: 'Transforma Discurso', auxiliaryPrompt: 'Pasa a indirecto', answer: 'Transforma 5 oraciones del discurso directo al indirecto.' }
+          ],
         },
         {
           id: 'l9',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 9: Vocabulario Especializado',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Vocabulario Técnico', 'Campos Específicos', 'Neologismos'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Lenguaje Especializado' },
+            { type: 'text', content: 'Vocabulario de medicina, tecnología, derecho, ciencia. Palabras nuevas y neologismos del español contemporáneo.' },
+            { type: 'glossary', terms: [ { term: 'Algoritmo', definition: 'アルゴリズム' }, { term: 'Jurisdicción', definition: '管轄権' }, { term: 'Síntoma', definition: '症状' }, { term: 'Biogénesis', definition: '生成' }, { term: 'Cibernética', definition: 'サイバネティクス' } ] },
+            { type: 'highlight-box', title: 'Campos', items: [ 'Medicina: diagnóstico, prognosis, medicamento', 'Tecnología: interfaz, servidor, seguridad cibernética', 'Derecho: demanda, sentencia, recurso' ] },
+            { type: 'practice', question: 'Vocabulario Especializado', auxiliaryPrompt: 'Aprende términos técnicos', answer: 'Investiga y escribe 8 términos técnicos con definiciones en un campo.' }
+          ],
         },
         {
           id: 'l10',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 10: Presentaciones Académicas',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Presentación Académica', 'Investigación', 'Defensa Tesis'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Presentación Formal Avanzada' },
+            { type: 'text', content: 'Estructura para tesis, congresos, seminarios. Introducción con contexto, metodología, resultados, conclusiones.' },
+            { type: 'glossary', terms: [ { term: 'Metodología', definition: '方法論' }, { term: 'Hipótesis', definition: '仮説' }, { term: 'Resultados', definition: '結果' }, { term: 'Implicaciones', definition: '含意' }, { term: 'Futuras investigaciones', definition: '将来の研究' } ] },
+            { type: 'highlight-box', title: 'Estructura', items: [ 'Mi investigación aborda la cuestión de...', 'La metodología empleada fue...', 'Los resultados sugieren que...' ] },
+            { type: 'practice', question: 'Presenta un Estudio', auxiliaryPrompt: 'Propón una presentación', answer: 'Diseña una presentación académica sobre un tema de tu interés.' }
+          ],
         },
         {
           id: 'l11',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 11: Narrativa y Caracterización',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Narrativa', 'Descripción de Personajes', 'Técnicas Literarias'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Escritura Narrativa' },
+            { type: 'text', content: 'Crea personajes complejos, describe ambientes vivid amente, utiliza técnicas como la focalización narrativa.' },
+            { type: 'glossary', terms: [ { term: 'Protagonista', definition: '主人公' }, { term: 'Trama', definition: 'プロット' }, { term: 'Climax', definition: 'クライマックス' }, { term: 'Desenlace', definition: 'デンウエルタ' }, { term: 'Narrador omnisciente', definition: '全知の語り手' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Descripción vívida de personajes', 'Diálogos que revelan personalidad', 'Conflicto que impulsa la trama' ] },
+            { type: 'practice', question: 'Escribe un Fragmento Narrativo', auxiliaryPrompt: 'Crea una escena', answer: 'Escribe un párrafo narrativo describiendo un encuentro entre dos personajes.' }
+          ],
         },
         {
           id: 'l12',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 12: Cine, Televisión y Medios',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Vocabulario Audiovisual', 'Crítica', 'Medios Modernos'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Lenguaje de Cine y Medios' },
+            { type: 'text', content: 'Vocabulario de producciones audiovisuales: toma, plano, banda sonora, cinematografía, guión.' },
+            { type: 'glossary', terms: [ { term: 'Plano medio', definition: 'ミディアムショット' }, { term: 'Banda sonora', definition: 'サウンドトラック' }, { term: 'Guión', definition: 'スクリプト' }, { term: 'Montaje', definition: 'モンタージュ' }, { term: 'Cinematografía', definition: 'シネマトグラフィ' } ] },
+            { type: 'highlight-box', title: 'Crítica de Película', items: [ 'La cinematografía es espectacular.', 'La banda sonora complementa perfectamente.', 'El montaje acelera el ritmo narrativo.' ] },
+            { type: 'practice', question: 'Crítica de Película', auxiliaryPrompt: 'Reseña una película', answer: 'Escribe una crítica de 6-8 oraciones sobre una película, usando vocabulario audiovisual.' }
+          ],
         },
       ],
     },
@@ -11754,57 +14256,93 @@ const spab1: Category = {
       lessons: [
         {
           id: 'l13',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 13: Negociación y Mediación',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Negociación', 'Resolución de Conflictos', 'Diplomacia'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Técnicas de Negociación' },
+            { type: 'text', content: 'Expresiones para negociar: "¿Podríamos considerar...?", "Estaría dispuesto a...", "Sugiero que...".' },
+            { type: 'glossary', terms: [ { term: 'Negociar', definition: '交渉する' }, { term: 'Consenso', definition: 'コンセンサス' }, { term: 'Concesión', definition: '譲歩' }, { term: 'Propuesta', definition: '提案' }, { term: 'Acuerdo', definition: '合意' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Podríamos buscar un punto medio.', 'Estaría dispuesto a aumentar si...',  'Sugiero que reconsideremos esta opción.' ] },
+            { type: 'practice', question: 'Negocia una Solución', auxiliaryPrompt: 'Resuelve un conflicto', answer: 'Escribe un diálogo negociando la resolución de un desacuerdo.' }
+          ],
         },
         {
           id: 'l14',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 14: Escritura de Emails Profesionales',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Email Profesional', 'Tono Corporativo', 'Netiqueta'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Comunicación Empresarial por Email' },
+            { type: 'text', content: 'Estructura de email profesional, tono, claridad, llamadas a la acción efectivas.' },
+            { type: 'glossary', terms: [ { term: 'Asunto', definition: 'サブジェクト' }, { term: 'Estimado/a', definition: '尊敬される' }, { term: 'Agradezco', definition: '感謝する' }, { term: 'Atentamente', definition: '敬具' }, { term: 'Adjunto', definition: '添付' } ] },
+            { type: 'highlight-box', title: 'Estructura', items: [ 'Asunto: Claro y específico', 'Saludo formal', 'Propósito en primer párrafo', 'Cierre profesional' ] },
+            { type: 'practice', question: 'Escribe Email Profesional', auxiliaryPrompt: 'Redacta un email', answer: 'Escribe un email profesional completo solicitando información o reunión.' }
+          ],
         },
         {
           id: 'l15',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 15: Viajes y Experiencias Internacionales',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Viajes', 'Culturas', 'Experiencias'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Narrativas de Viaje' },
+            { type: 'text', content: 'Cuenta experiencias de viaje en español, describe destinos, comparte anécdotas, reflexiona sobre encuentros culturales.' },
+            { type: 'glossary', terms: [ { term: 'Destino', definition: '目的地' }, { term: 'Anécdota', definition: '逸話' }, { term: 'Encuentro cultural', definition: '文化的出会い' }, { term: 'Tradición', definition: '伝統' }, { term: 'Experiencia memorable', definition: '忘れられない経験' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'El viaje fue transformador.', 'Me sorprendió cómo...', 'Aprendí que la hospitalidad es...' ] },
+            { type: 'practice', question: 'Cuenta tu Viaje', auxiliaryPrompt: 'Narra una experiencia', answer: 'Escribe sobre un viaje significativo reflexionando sobre aprendizajes culturales.' }
+          ],
         },
         {
           id: 'l16',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 16: Activismo y Causas Sociales',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Activismo', 'Compromiso Social', 'Cambio'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Lenguaje del Cambio Social' },
+            { type: 'text', content: 'Expresiones sobre derechos, justicia, sostenibilidad. Argumenta sobre igualdad, ambiente, educación.' },
+            { type: 'glossary', terms: [ { term: 'Injusticia', definition: '不正義' }, { term: 'Sostenibilidad', definition: '持続可能性' }, { term: 'Empoderamiento', definition: 'エンパワーメント' }, { term: 'Desigualdad', definition: '不平等' }, { term: 'Compromiso', definition: 'コミットメント' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Es imperativo actuar contra la injusticia.', 'La sostenibilidad requiere cambios inmediatos.', 'El empoderamiento de mujeres es esencial.' ] },
+            { type: 'practice', question: 'Causa Social', auxiliaryPrompt: 'Escribe sobre una causa', answer: 'Escribe un ensayo breve defendiendo una causa social que te importa.' }
+          ],
         },
         {
           id: 'l17',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 17: Psicología y Comportamiento Humano',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Psicología', 'Emociones Complejas', 'Análisis Conductual'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Lenguaje Psicológico' },
+            { type: 'text', content: 'Vocabulario para describir comportamientos, emociones, procesos mentales. Introspección, motivación, identidad.' },
+            { type: 'glossary', terms: [ { term: 'Introspección', definition: '内観' }, { term: 'Motivación', definition: 'モチベーション' }, { term: 'Identidad', definition: 'アイデンティティ' }, { term: 'Resiliencia', definition: 'レジリエンス' }, { term: 'Inconsciente', definition: '無意識' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'La introspección es clave para el crecimiento.', 'La motivación intrínseca es más fuerte.', 'Nuestra identidad se forma a través de experiencias.' ] },
+            { type: 'practice', question: 'Reflexión Psicológica', auxiliaryPrompt: 'Analiza comportamiento', answer: 'Escribe un análisis de 6-8 oraciones sobre un comportamiento psicológico.' }
+          ],
         },
         {
           id: 'l18',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 18: Filosofía y Pensamiento Crítico',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Filosofía', 'Pensamiento Crítico', 'Ética'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Diálogo Filosófico' },
+            { type: 'text', content: 'Preguntas existenciales, ética, valores. Aprende a cuestionar, reflexionar y expresar posturas filosóficas.' },
+            { type: 'glossary', terms: [ { term: 'Existencia', definition: '存在' }, { term: 'Ética', definition: '倫理' }, { term: 'Moralidad', definition: 'モラル' }, { term: 'Propósito', definition: '目的' }, { term: 'Significado', definition: '意味' } ] },
+            { type: 'highlight-box', title: 'Preguntas', items: [ '¿Cuál es el propósito de la vida?', '¿Es la moralidad relativa o absoluta?', '¿Cómo definimos el éxito?' ] },
+            { type: 'practice', question: 'Ensayo Filosófico', auxiliaryPrompt: 'Explora una pregunta filosófica', answer: 'Escribe un ensayo breve respondiendo una pregunta filosófica personal.' }
+          ],
         },
       ],
     },
@@ -11814,66 +14352,108 @@ const spab1: Category = {
       lessons: [
         {
           id: 'l19',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 19: Traducción e Interpretación',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Traducción', 'Matices', 'Equivalencia'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Arte de la Traducción' },
+            { type: 'text', content: 'Entiende diferencias entre traducción literal y funcional. Cómo mantener significado y estilo en traducciones.' },
+            { type: 'glossary', terms: [ { term: 'Equivalencia', definition: '等価性' }, { term: 'Matiz', definition: 'ニュアンス' }, { term: 'Connotación', definition: '含意' }, { term: 'Traductología', definition: '翻訳学' }, { term: 'Fidelidad', definition: '忠実性' } ] },
+            { type: 'highlight-box', title: 'Desafíos', items: [ 'Expresiones idiomáticas sin equivalente directo', 'Conservar el tono del original', 'Adaptación cultural' ] },
+            { type: 'practice', question: 'Traduce un Fragmento', auxiliaryPrompt: 'Traduce del inglés al español', answer: 'Traduce un párrafo inglés al español manteniendo matices.' }
+          ],
         },
         {
           id: 'l20',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 20: Proyectos Creativos y Colaborativos',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Creatividad', 'Colaboración', 'Proyecto Final'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Creación Colaborativa en Español' },
+            { type: 'text', content: 'Trabajar en grupo, expresar ideas creativas, dar retroalimentación constructiva en español.' },
+            { type: 'glossary', terms: [ { term: 'Brainstorming', definition: 'ブレーンストーミング' }, { term: 'Retroalimentación', definition: 'フィードバック' }, { term: 'Colaboración', definition: 'コラボレーション' }, { term: 'Creatividad', definition: '創造性' }, { term: 'Innovación', definition: 'イノベーション' } ] },
+            { type: 'highlight-box', title: 'Frases', items: [ 'Sugiero que agreguemos...', 'Eso está bien, pero podríamos...', 'Excelente idea, vamos a desarrollarla.' ] },
+            { type: 'practice', question: 'Proyecto Colaborativo', auxiliaryPrompt: 'Planifica un proyecto', answer: 'Propón y estructura un proyecto creativo colaborativo en español.' }
+          ],
         },
         {
           id: 'l21',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 21: Futuro Profesional y Desarrollo',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Carrera', 'Desarrollo Profesional', 'Networking'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Español en Contexto Laboral' },
+            { type: 'text', content: 'Prepárate para utilizar español en tu carrera profesional. Networking, entrevistas, presentaciones.' },
+            { type: 'glossary', terms: [ { term: 'Entrevista', definition: 'インタビュー' }, { term: 'Curriculum', definition: 'レジュメ' }, { term: 'Networking', definition: 'ネットワーキング' }, { term: 'Oportunidad laboral', definition: 'キャリア機会' }, { term: 'Desarrollo profesional', definition: 'キャリア開発' } ] },
+            { type: 'highlight-box', title: 'Habilidades', items: [ 'Hablar en público con confianza', 'Escribir reportes profesionales', 'Comunicarse en reuniones internacionales' ] },
+            { type: 'practice', question: 'Prepara tu Entrevista', auxiliaryPrompt: 'Practica entrevista laboral', answer: 'Escribe respuestas a 5 preguntas típicas de entrevista en español.' }
+          ],
         },
         {
           id: 'l22',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 22: Culturas del Mundo Hispanohablante',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Diversidad Cultural', 'Identidades', 'Patrimonio'],
+          sections: [
+            { type: 'heading', level: 2, content: 'La Riqueza del Mundo Hispanohablante' },
+            { type: 'text', content: 'Explora la diversidad de culturas españolas e hispanoamericanas: música, arte, gastronomía, tradiciones.' },
+            { type: 'glossary', terms: [ { term: 'Patrimonio', definition: '遺産' }, { term: 'Tradición', definition: '伝統' }, { term: 'Identidad cultural', definition: '文化的アイデンティティ' }, { term: 'Sincretismo', definition: 'シンクレティズム' }, { term: 'Cosmovisión', definition: '世界観' } ] },
+            { type: 'highlight-box', title: 'Aspectos', items: [ 'Música: flamenco, tango, reggaeton, son cubano', 'Arte: Dalí, Frida Kahlo, Gabriel Orozco', 'Gastronomía: tacos, paella, ceviche, empanadas' ] },
+            { type: 'practice', question: 'Investiga una Cultura', auxiliaryPrompt: 'Explora un aspecto cultural', answer: 'Escribe sobre un elemento cultural hispanohablante que te fasci ne.' }
+          ],
         },
         {
           id: 'l23',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 23: Poesía y Expresión Artística',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Poesía', 'Métrica', 'Ritmo y Rima'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Creación Poética en Español' },
+            { type: 'text', content: 'Aprende estructuras poéticas: sonetos, décimas, versos libres. Analiza poetas importantes: Lorca, Neruda, Cortázar.' },
+            { type: 'glossary', terms: [ { term: 'Soneto', definition: 'ソネット' }, { term: 'Verso', definition: ' 詩句' }, { term: 'Métrica', definition: 'メトリクス' }, { term: 'Rima', definition: 'ライム' }, { term: 'Estrofa', definition: 'スタンザ' } ] },
+            { type: 'highlight-box', title: 'Poetas Clásicos', items: [ 'Lorca: "Verde que te quiero verde"', 'Neruda: "Puedo escribir los versos más tristes esta noche"', 'Machado: "Caminante, no hay camino"' ] },
+            { type: 'practice', question: 'Escribe tu Poema', auxiliaryPrompt: 'Crea expresión poética', answer: 'Escribe un poema o verso libre expresando un sentimiento profundo.' }
+          ],
         },
         {
           id: 'l24',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 24: Documentales y Análisis Crítico',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Documental', 'Análisis', 'Investigación'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Documentales en Español' },
+            { type: 'text', content: 'Ve documentales españoles e hispanohablantes, analiza perspectivas, desarrolla pensamiento crítico.' },
+            { type: 'glossary', terms: [ { term: 'Documental', definition: 'ドキュメンタリー' }, { term: 'Narrativa visual', definition: 'ビジュアルナラティブ' }, { term: 'Perspectiva', definition: 'パースペクティブ' }, { term: 'Sesgo', definition: 'バイアス' }, { term: 'Investigación', definition: '調査' } ] },
+            { type: 'highlight-box', title: 'Temas', items: [ 'Historia latinoamericana', 'Sostenibilidad ambiental', 'Movimientos sociales' ] },
+            { type: 'practice', question: 'Analiza un Documental', auxiliaryPrompt: 'Crítica de documental', answer: 'Escribe un análisis crítico de un documental en español.' }
+          ],
         },
         {
           id: 'l25',
-          title: 'Lesson 7: Topic 7',
+          title: 'Lesson 25: Reflexión Final - Camino a B2',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 7'],
-          sections: [],
+          checkItems: ['Reflexión', 'Consolidación', 'Próximos Pasos'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Consolidación del Nivel B1' },
+            { type: 'text', content: 'Reflexiona sobre tu progreso. Ahora puedes mantener conversaciones, argumentar, escribir textos coherentes. Prepárate para B2.' },
+            { type: 'glossary', terms: [ { term: 'Consolidación', definition: '統合' }, { term: 'Fluidez', definition: 'フルエンシー' }, { term: 'Espontaneidad', definition: '自発性' }, { term: 'Autonomía', definition: '自律性' }, { term: 'Integración', definition: '統合' } ] },
+            { type: 'highlight-box', title: 'Logros B1', items: [ 'Puedo debatir sobre temas complejos', 'Escribo textos estructurados y claros', 'Entiendo películas y documentales' ] },
+            { type: 'practice', question: 'Tu Viaje en B1', auxiliaryPrompt: 'Reflexiona sobre aprendizaje', answer: 'Escribe un ensayo reflexivo sobre tu progreso desde A1 hasta B1.' }
+          ],
         },
       ],
     },
@@ -11894,57 +14474,93 @@ const spab2: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Lengua Formal - Registro Académico',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Registro Formal', 'Académico', 'Sofisticación'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Lenguaje Académico y Formal' },
+            { type: 'text', content: 'Domina el registro más formal y académico. Vocabulario preciso, estructuras complejas, tono erudito.' },
+            { type: 'glossary', terms: [ { term: 'Por consiguiente', definition: '結果として' }, { term: 'Cabe destacar', definition: '注目すべきことに' }, { term: 'En cuanto a', definition: '〜に関して' }, { term: 'Conviene subrayar', definition: '強調する必要がある' }, { term: 'A saber', definition: 'つまり' } ] },
+            { type: 'highlight-box', title: 'Ejemplos Formales', items: [ 'Por consiguiente, es imperativo considerar...', 'Cabe destacar que este fenómeno demuestra...', 'En cuanto a la metodología, empleamos...' ] },
+            { type: 'practice', question: 'Escrita Académica', auxiliaryPrompt: 'Redacta párrafos formales', answer: 'Escribe un párrafo académico sobre cualquier tema usando lenguaje sofisticado.' }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Matices y Tonalidades del Significado',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Semántica', 'Connotación', 'Pragmática'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Significados Implícitos y Contextuales' },
+            { type: 'text', content: 'Comprende matices, dobles sentidos, ironía, sarcasmo. Interpreta lo no dicho. B2 requiere entender segundas capas de significado.' },
+            { type: 'glossary', terms: [ { term: 'Implícito', definition: '暗黙の' }, { term: 'Connotación', definition: '含意' }, { term: 'Ironía', definition: 'アイロニー' }, { term: 'Ambigüedad', definition: '曖昧性' }, { term: 'Subentendido', definition: '暗に理解される' } ] },
+            { type: 'highlight-box', title: 'Ejemplos de Ironía', items: [ 'Claro, excelente idea. (cuando no lo es)', 'Qué conversación tan emocionante tuvimos. (cuando fue aburrida)', 'Vaya, qué persona simpática.' ] },
+            { type: 'practice', question: 'Analiza Ironía y Sarcasmo', auxiliaryPrompt: 'Identifica significados implícitos', answer: 'Analiza 3 frases con doble sentido explicando lo que realmente significa.' }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Estructuras Sintácticas Avanzadas',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Sintaxis', 'Cláusulas Complejas', 'Subordinación Múltiple'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Construcciones Gramaticales Sofisticadas' },
+            { type: 'text', content: 'Oraciones con múltiples niveles de subordinación. Participios absolutos, cláusulas de genitivo, inversiones sintácticas.' },
+            { type: 'glossary', terms: [ { term: 'Participio absoluto', definition: '絶対分詞構文' }, { term: 'Inversión', definition: '転置' }, { term: 'Elipsis', definition: '省略' }, { term: 'Concordancia', definition: '一致' }, { term: 'Antecedente', definition: '先行詞' } ] },
+            { type: 'highlight-box', title: 'Ejemplos Complejos', items: [ 'Terminado el proyecto, presentamos los resultados.', 'En lo que a mí respecta, considero que...', 'Así pues, habida cuenta de que...' ] },
+            { type: 'practice', question: 'Construcciones Avanzadas', auxiliaryPrompt: 'Usa sintaxis compleja', answer: 'Escribe 4 oraciones con estructuras sintácticas sofisticadas.' }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Técnicas de Persuasión y Retórica',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Retórica', 'Persuasión', 'Argumentación Estratégica'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Estrategias Retóricas Efectivas' },
+            { type: 'text', content: 'Hipérbole, metáforas poderosas, paralelismo, repetición. Técnicas clásicas de retórica que hacen discursos persuasivos.' },
+            { type: 'glossary', terms: [ { term: 'Hipérbole', definition: '誇張' }, { term: 'Metáfora', definition: 'メタファー' }, { term: 'Paralelismo', definition: '平行構造' }, { term: 'Aliteración', definition: '頭韻' }, { term: 'Antítesis', definition: '対比' } ] },
+            { type: 'highlight-box', title: 'Ejemplos Retóricos', items: [ 'He esperado mil años por ti. (Hipérbole)', 'Tu voz es un rayo que ilumina mis días. (Metáfora)', 'No a la violencia, no a la injusticia, no al silencio. (Paralelismo)' ] },
+            { type: 'practice', question: 'Escribe Retóricamente', auxiliaryPrompt: 'Usa técnicas de persuasión', answer: 'Escribe un párrafo persuasivo usando al menos 3 técnicas retóricas.' }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Variantes Dialectales del Español',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Dialectología', 'Variantes Regionales', 'Sociolectos'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Diversidad Lingüística del Español' },
+            { type: 'text', content: 'Andaluz, castellano, catalán de españoles. Latinoamericano: mexicano, cubano, argentino, peruano, colombiano.' },
+            { type: 'glossary', terms: [ { term: 'Seseo', definition: 'c/zをsで発音' }, { term: 'Voseo', definition: 'vosの使用' }, { term: 'Aspiración', definition: 'h化' }, { term: 'Yeísmo', definition: 'llをyで発音' }, { term: 'Distinción', definition: 'c/zをθで発音' } ] },
+            { type: 'highlight-box', title: 'Variantes', items: [ 'Andaluz: "ehtá" (está), "mah" (más)', 'Argentino: "vos sos", "sho" (yo)', 'Mexicano: diminutivos (cafecito, momentito)' ] },
+            { type: 'practice', question: 'Análisis de Variantes', auxiliaryPrompt: 'Compara dialectos', answer: 'Investiga cómo un concepto se expresa en 3 variantes diferentes del español.' }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Traductología Avanzada y Crítica',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Traducción Especializada', 'Crítica Traductora', 'Teoría'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Teoría y Práctica de la Traducción' },
+            { type: 'text', content: 'Enfoques de traducción (literal, libre, funcional). Problemas específicos: regionalismos, neologismos, contextualización.' },
+            { type: 'glossary', terms: [ { term: 'Equivalencia dinámica', definition: '動的等価性' }, { term: 'Adaptación', definition: '適応' }, { term: 'Localización', definition: 'ローカライゼーション' }, { term: 'Transcreación', definition: 'トランスクリエーション' }, { term: 'Domesticación', definition: 'ドメスティケーション' } ] },
+            { type: 'highlight-box', title: 'Desafíos Traductores', items: [ 'Juegos de palabras intraducibles', 'Expresiones culturales sin equivalente', 'Cambios de registro entre lenguas' ] },
+            { type: 'practice', question: 'Analiza una Traducción', auxiliaryPrompt: 'Crítica de traducción', answer: 'Analiza una traducción identificando decisiones del traductor y alternativas posibles.' }
+          ],
         },
       ],
     },
@@ -11954,57 +14570,93 @@ const spab2: Category = {
       lessons: [
         {
           id: 'l7',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 7: Literatura Clásica Española e Hispanoamericana',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Literatura', 'Clásicos', 'Análisis Textual'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Grandes Obras Literarias' },
+            { type: 'text', content: 'Don Quijote, García Márquez, Cortázar, Vargas Llosa, Rosario Castellanos. Análisis de temas, personajes, contexto histórico.' },
+            { type: 'glossary', terms: [ { term: 'Argumento', definition: 'プロット' }, { term: 'Personaje arquetípico', definition: 'archetypal character' }, { term: 'Crítica literaria', definition: '文学批評' }, { term: 'Contexto histórico-social', definition: '歴史社会的文脈' }, { term: 'Modernismo', definition: 'モダニズム' } ] },
+            { type: 'highlight-box', title: 'Obras Significativas', items: [ 'Cervantes: estructura narrativa innovadora', 'García Márquez: realismo mágico', 'Cortázar: experimentalismo narrativo' ] },
+            { type: 'practice', question: 'Análisis Literario Profundo', auxiliaryPrompt: 'Interpreta una obra', answer: 'Escribe un análisis de 8-10 oraciones sobre un tema o personaje de una obra literaria.' }
+          ],
         },
         {
           id: 'l8',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 8: Ensayismo y Pensamiento Crítico',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Ensayo', 'Filosofía', 'Crítica Social'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Tradición Ensayística Hispanohablante' },
+            { type: 'text', content: 'Octavio Paz, Jorge Luis Borges, Ricardo Piglia. Lee ensayos sobre cultura, política, filosofía. Desarrolla tu propio pensamiento ensayístico.' },
+            { type: 'glossary', terms: [ { term: 'Ensayo', definition: 'エッセイ' }, { term: 'Argumento central', definition: 'central argument' }, { term: 'Tesis', definition: 'テーシス' }, { term: 'Evidencia', definition: '証拠' }, { term: 'Conclusión' , definition: '結論' } ] },
+            { type: 'highlight-box', title: 'Temas Ensayísticos', items: [ 'Identidad latinoamericana', 'El papel del intelectual', 'Memoria colectiva y verdad histórica' ] },
+            { type: 'practice', question: 'Tu Ensayo', auxiliaryPrompt: 'Escribe un ensayo', answer: 'Redacta un ensayo de 10-12 oraciones sobre un tema de tu interés.' }
+          ],
         },
         {
           id: 'l9',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 9: Estudios de Género y Teoría Crítica',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Teoría Crítica', 'Género', 'Postcolonialismo'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Pensamiento Contemporáneo' },
+            { type: 'text', content: 'Teoría feminista, postcolonial, estudios subalternos. Autoras como Silvia Federici, Gloria Anzaldúa, Gayatri Chakravorty Spivak.' },
+            { type: 'glossary', terms: [ { term: 'Patriarcado', definition: '家父長制' }, { term: 'Hegemonía', definition: 'ヘゲモニー' }, { term: 'Subalternidad', definition: 'サバルターン性' }, { term: 'Interseccionalidad', definition: 'インターセクショナリティ' }, { term: 'Decolonialismo', definition: 'デコロニアリズム' } ] },
+            { type: 'highlight-box', title: 'Conceptos Clave', items: [ 'La construcción social del género', 'Colonialismo y sus persistencias', 'Voces subalternas en la literatura' ] },
+            { type: 'practice', question: 'Análisis Teórico', auxiliaryPrompt: 'Aplica teoría crítica', answer: 'Analiza un texto literario desde una perspectiva teórica (género, postcolonial, etc.).' }
+          ],
         },
         {
           id: 'l10',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 10: Periodismo y Escritura de Opinión',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Periodismo', 'Opinión', 'Investigación'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Escritura Periodística Avanzada' },
+            { type: 'text', content: 'Artículos de opinión, reportajes de investigación, crónicas. Desarrolla voz como columnista, investiga temas complejos.' },
+            { type: 'glossary', terms: [ { term: 'Reportaje', definition: 'レポート' }, { term: 'Crónica', definition: 'クロニクル' }, { term: 'Investigación', definition: '調査報道' }, { term: 'Fuentes', definition: 'ソース' }, { term: 'Verificación', definition: 'ファクトチェック' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Crónica personal sobre un evento social', 'Reportaje investigativo sobre un tema de interés', 'Artículo de opinión argumentado' ] },
+            { type: 'practice', question: 'Escribe como Periodista', auxiliaryPrompt: 'Redacta un artículo', answer: 'Escribe un artículo periodístico sobre un tema actual con argumentos sólidos.' }
+          ],
         },
         {
           id: 'l11',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 11: Guionismo y Dramaturgia',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Guion', 'Drama', 'Diálogo Dramático'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Escritura para Cine y Teatro' },
+            { type: 'text', content: 'Estructura de guión, creación de diálogos dramáticos, construcción de conflicto, acotaciones. Estudia obras de Buero Vallejo, García Lorca.' },
+            { type: 'glossary', terms: [ { term: 'Guión', definition: 'スクリプト' }, { term: 'Acotación', definition: '舞台指示' }, { term: 'Acto', definition: 'アクト' }, { term: 'Escena', definition: 'シーン' }, { term: 'Diálogo', definition: 'ダイアログ' } ] },
+            { type: 'highlight-box', title: 'Elementos Dramáticos', items: [ 'Exposición clara del conflicto', 'Diálogos que revelan personajes', 'Puntos de giro dramático' ] },
+            { type: 'practice', question: 'Escribe una Escena', auxiliaryPrompt: 'Crea un fragmento dramático', answer: 'Escribe una escena de 8-10 líneas con diálogo entre dos personajes.' }
+          ],
         },
         {
           id: 'l12',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 12: Conferencias y Seminarios Especializados',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Conferencias', 'Discurso Público', 'Argumentación Experta'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Comunicación Experta en Público' },
+            { type: 'text', content: 'Prepara conferencias académicas, participa en seminarios, presenta investigaciones, modera debates.' },
+            { type: 'glossary', terms: [ { term: 'Conferencia', definition: 'カンファレンス' }, { term: 'Ponente', definition: 'スピーカー' }, { term: 'Audiencia especializada', definition: 'expert audience' }, { term: 'Preguntas y respuestas', definition: 'Q&A' }, { term: 'Visibilidad académica', definition: 'academic visibility' } ] },
+            { type: 'highlight-box', title: 'Estrategias', items: [ 'Introducción que capte atención', 'Estructura clara de puntos principales', 'Cierre que inspire reflexión' ] },
+            { type: 'practice', question: 'Tu Conferencia', auxiliaryPrompt: 'Prepara una presentación', answer: 'Diseña una conferencia de 15 minutos sobre un tema de tu expertise.' }
+          ],
         },
       ],
     },
@@ -12014,57 +14666,93 @@ const spab2: Category = {
       lessons: [
         {
           id: 'l13',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 13: Comunicación Intercultural Avanzada',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Interculturalidad', 'Sensibilidad', 'Negociación Multicultural'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Competencia Intercultural' },
+            { type: 'text', content: 'Navega diferencias culturales, evita malentendidos, adapta comunicación. Comprende worldviews diferentes en hispanohablantes.' },
+            { type: 'glossary', terms: [ { term: 'Estereotipos', definition: 'ステレオタイプ' }, { term: 'Prejuicios', definition: '偏見' }, { term: 'Relativismo cultural', definition: 'cultural relativism' }, { term: 'Empatía intercultural', definition: 'intercultural empathy' }, { term: 'Adaptación cultural', definition: '文化適応' } ] },
+            { type: 'highlight-box', title: 'Ejemplos', items: [ 'Diferencias en concepto de tiempo (monocrómico vs policrónico)', 'Distancia física en conversaciones según región', 'Valores y prioridades diferentes en negociación' ] },
+            { type: 'practice', question: 'Caso de Choque Cultural', auxiliaryPrompt: 'Analiza un conflicto cultural', answer: 'Describe un escenario de choque cultural y cómo resolverlo con sensibilidad.' }
+          ],
         },
         {
           id: 'l14',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 14: Escritura Creativa Avanzada',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Ficción', 'Novela', 'Experimentalismo'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Creación Literaria Sofisticada' },
+            { type: 'text', content: 'Escribe ficción con técnicas narrativas complejas. Stream of consciousness, metaficción, juego experimental con estructura.' },
+            { type: 'glossary', terms: [ { term: 'Flujo de conciencia', definition: 'stream of consciousness' }, { term: 'Metaficción', definition: 'メタフィクション' }, { term: 'Narrativa no lineal', definition: 'nonlinear narrative' }, { term: 'Polifonía', definition: 'ポリフォニー' }, { term: 'Mise en abyme', definition: 'mise en abyme' } ] },
+            { type: 'highlight-box', title: 'Técnicas', items: [ 'Alternar perspectivas narrativas', 'Jugar con la estructura del tiempo', 'Metarreflexión sobre el acto de narrar' ] },
+            { type: 'practice', question: 'Ficción Experimental', auxiliaryPrompt: 'Escribe experimentalmente', answer: 'Escribe un fragmento narrativo usando al menos una técnica experimental.' }
+          ],
         },
         {
           id: 'l15',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 15: Historia y Análisis de Fuentes',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Historiografía', 'Fuentes Primarias', 'Análisis Crítico'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Lectura Histórica Crítica' },
+            { type: 'text', content: 'Analiza documentos históricos, diarios, cartas. Comprende cómo se construye la historia, cuestiona narrativas oficiales.' },
+            { type: 'glossary', terms: [ { term: 'Fuente primaria', definition: 'primary source' }, { term: 'Historiografía', definition: 'historiography' }, { term: 'Narrativa oficial', definition: 'official narrative' }, { term: 'Testimonios', definition: 'testimony' }, { term: 'Revisión histórica', definition: 'historical revision' } ] },
+            { type: 'highlight-box', title: 'Análisis', items: [ 'Contexto de producción del documento', 'Intencionalidad del autor', 'Qué silencios hay en la narrativa' ] },
+            { type: 'practice', question: 'Análisis de Documento Histórico', auxiliaryPrompt: 'Interpreta una fuente', answer: 'Analiza un documento histórico identificando contexto, intención y sesgos.' }
+          ],
         },
         {
           id: 'l16',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 16: Discursos Políticos y Sociales',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Discurso Político', 'Movimientos Sociales', 'Retórica Pública'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Lenguaje del Poder y la Resistencia' },
+            { type: 'text', content: 'Analiza discursos políticos, comunicación de movimientos sociales, cómo se moviliza a través del lenguaje.' },
+            { type: 'glossary', terms: [ { term: 'Hegemonía discursiva', definition: 'hegemonic discourse' }, { term: 'Contrahegemonía', definition: 'counter-hegemony' }, { term: 'Slogan', definition: 'スローガン' }, { term: 'Narrativa política', definition: 'political narrative' }, { term: 'Mobilización', definition: 'モビライゼーション' } ] },
+            { type: 'highlight-box', title: 'Análisis de Discurso', items: [ 'Qué vocabulario elige un político', 'Cómo un movimiento redefine términos', 'Poder de framing en narrativas' ] },
+            { type: 'practice', question: 'Análisis de Discurso Político', auxiliaryPrompt: 'Interpreta un discurso', answer: 'Analiza un discurso político identificando recursos retóricos y efectos persuasivos.' }
+          ],
         },
         {
           id: 'l17',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 17: Biodiversidad y Sostenibilidad - Español Científico',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Lenguaje Científico', 'Medio Ambiente', 'Documentación Técnica'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Español de Ciencias Naturales' },
+            { type: 'text', content: 'Vocabulario científico preciso. Lee artículos sobre cambio climático, conservación, biodiversidad en el mundo hispanohablante.' },
+            { type: 'glossary', terms: [ { term: 'Ecosistema', definition: 'エコシステム' }, { term: 'Biodiversidad', definition: 'biodiversity' }, { term: 'Antropoceno', definition: 'Anthropocene' }, { term: 'Mitigación', definition: 'mitigation' }, { term: 'Adaptación', definition: 'adaptation' } ] },
+            { type: 'highlight-box', title: 'Temas', items: [ 'Selva amazónica y deforestación', 'Océanos y contaminación plástica', 'Especies en peligro de extinción' ] },
+            { type: 'practice', question: 'Ensayo Científico', auxiliaryPrompt: 'Redacta sobre sostenibilidad', answer: 'Escribe un ensayo sobre un problema ambiental usando terminología científica.' }
+          ],
         },
         {
           id: 'l18',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 18: Neurociencia del Lenguaje y Cognición',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Psicolingüística', 'Adquisición de Lenguaje', 'Bilingüismo'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Cómo el Cerebro Procesa el Español' },
+            { type: 'text', content: 'Comprende cómo funciona el aprendizaje de idiomas, bilingüismo, recuperación de vocabulario. Ciencia detrás de adquisición lingüística.' },
+            { type: 'glossary', terms: [ { term: 'Área de Broca', definition: 'Broca\'s area' }, { term: 'Área de Wernicke', definition: 'Wernicke\'s area' }, { term: 'Cognición', definition: 'コグニション' }, { term: 'Plasticidad neural', definition: 'neural plasticity' }, { term: 'Memoria semántica', definition: 'semantic memory' } ] },
+            { type: 'highlight-box', title: 'Conceptos', items: [ 'Períodos sensibles en adquisición de lenguaje', 'Ventajas cognitivas del bilingüismo', 'Interferencia y transferencia lingüística' ] },
+            { type: 'practice', question: 'Reflexión Neurolingüística', auxiliaryPrompt: 'Analiza tu propio aprendizaje', answer: 'Reflexiona sobre tu propio proceso de aprendizaje del español basándote en principios neurolingüísticos.' }
+          ],
         },
       ],
     },
@@ -12074,74 +14762,116 @@ const spab2: Category = {
       lessons: [
         {
           id: 'l19',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 19: Magia del Realismo Mágico',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Realismo Mágico', 'García Márquez', 'Literatura Latinoamericana'],
+          sections: [
+            { type: 'heading', level: 2, content: 'El Realismo Mágico Latinoamericano' },
+            { type: 'text', content: 'Explora este movimiento único: lo fantástico como parte de lo cotidiano. Lee "Cien años de soledad", analiza técnica y simbolismo.' },
+            { type: 'glossary', terms: [ { term: 'Lo maravilloso', definition: '素晴らしい' }, { term: 'Hibridez cultural', definition: 'cultural hybridity' }, { term: 'Temporal cíclico', definition: 'cyclical time' }, { term: 'Telurismo', definition: 'telluric elements' }, { term: 'Soledad', definition: '孤独' } ] },
+            { type: 'highlight-box', title: 'Obras Icónicas', items: [ 'García Márquez: Cien años de soledad', 'Allende: La casa de los espíritus', 'Cortázar: Rayuela' ] },
+            { type: 'practice', question: 'Tu Realismo Mágico', auxiliaryPrompt: 'Escribe con elementos mágicos', answer: 'Escribe un fragmento narrativo mezclando lo cotidiano con lo fantástico.' }
+          ],
         },
         {
           id: 'l20',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 20: Poesía Contemporánea y Experimental',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Poesía Moderna', 'Verso Libre', 'Poetas Contemporáneos'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Poesía del Siglo XXI' },
+            { type: 'text', content: 'Poesía urbana, poesía digital, slam poetry. Poetas como Leónidas Martínez, Gioconda Belli, Guadalupe Nettel.' },
+            { type: 'glossary', terms: [ { term: 'Verso libre', definition: 'free verse' }, { term: 'Ritmo interno', definition: 'internal rhythm' }, { term: 'Estrofa', definition: 'stanza' }, { term: 'Enumeración caótica', definition: 'chaotic enumeration' }, { term: 'Fragmentarismo', definition: 'fragmentarism' } ] },
+            { type: 'highlight-box', title: 'Temas Contemporáneos', items: [ 'Tecnología y alienación', 'Migración y fronteras', 'Identidad queer y disidencia' ] },
+            { type: 'practice', question: 'Poema Experimental', auxiliaryPrompt: 'Crea tu propio poema', answer: 'Escribe un poema en verso libre sobre un tema contemporáneo que te apasione.' }
+          ],
         },
         {
           id: 'l21',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 21: Oratoria y Discursos que Cambian Historia',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Oratoria', 'Históricos', 'Impacto Público'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Discursos que Transforman Sociedades' },
+            { type: 'text', content: 'Analiza discursos históricos de Bolívar, Martí, Mandela en español. Estudia técnicas retóricas que crean cambio social.' },
+            { type: 'glossary', terms: [ { term: 'Perora', definition: '演説' }, { term: 'Arengas', definition: 'rousing speeches' }, { term: 'Pathos', definition: 'パトス' }, { term: 'Ethos', definition: 'エトス' }, { term: 'Logos', definition: 'ロゴス' } ] },
+            { type: 'highlight-box', title: 'Momentos Históricos', items: [ 'Bolívar: discurso de Angostura', 'Martí: defendiendo la independencia', 'Mandela: reconciliación nacional' ] },
+            { type: 'practice', question: 'Tu Discurso de Cambio', auxiliaryPrompt: 'Pronuncia un discurso', answer: 'Escribe un discurso que busque inspirar cambio sobre un tema importante.' }
+          ],
         },
         {
           id: 'l22',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 22: Minimalismo y Economía de Lenguaje',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Minimalismo', 'Precisión', 'Estilo Ágil'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Decir Más con Menos' },
+            { type: 'text', content: 'Arte de la brevedad, precisión en cada palabra. Flash fiction, microrrelatos, poesía ultracorta. Raymond Carver en español.' },
+            { type: 'glossary', terms: [ { term: 'Minimalismo', definition: 'ミニマリズム' }, { term: 'Elipsis', definition: '省略' }, { term: 'Sugerencia', definition: '暗示' }, { term: 'Subtext', definition: 'subtext' }, { term: 'Economía narrativa', definition: 'narrative economy' } ] },
+            { type: 'highlight-box', title: 'Ejemplos Cortos', items: [ 'Microrrelatos de Julio Llamazares', 'Flash fiction contemporáneo', 'Minificción de Denise Muybridge' ] },
+            { type: 'practice', question: 'Microrrelato', auxiliaryPrompt: 'Escribe brevemente', answer: 'Escribe un microrrelato (máximo 200 palabras) que transmita emoción y profundidad.' }
+          ],
         },
         {
           id: 'l23',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 23: Ensayos sobre Identidad y Pertenencia',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Identidad', 'Pertenencia', 'Autoexploración'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Construcción de Identidades Complejas' },
+            { type: 'text', content: 'Escribe sobre quién eres en relación a lengua, tierra, comunidad. Explora hibridez, migración, enraizamiento.' },
+            { type: 'glossary', terms: [ { term: 'Identidad', definition: 'アイデンティティ' }, { term: 'Pertenencia', definition: '帰属意識' }, { term: 'Raíces', definition: 'roots' }, { term: 'Diáspora', definition: 'ディアスポラ' }, { term: 'Hogar', definition: 'ホーム' } ] },
+            { type: 'highlight-box', title: 'Temas Personales', items: [ 'Mi relación con el español', 'De dónde vengo, a dónde voy', 'Qué significa pertenecer' ] },
+            { type: 'practice', question: 'Ensayo Identitario', auxiliaryPrompt: 'Explora tu identidad', answer: 'Escribe un ensayo reflexivo (8-10 oraciones) sobre tu identidad y relación con el español.' }
+          ],
         },
         {
           id: 'l24',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 24: Futuro de la Lengua Española',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Evolución Lingüística', 'Futuro del Español', 'Tendencias'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Español: Lengua Viva y en Cambio' },
+            { type: 'text', content: 'Inglés como lingua franca, influencia de internet, neologismos, cambios gramaticales. Hacia dónde va el español en el siglo XXI.' },
+            { type: 'glossary', terms: [ { term: 'Neologismo', definition: 'neologism' }, { term: 'Digitalización', definition: 'digitalization' }, { term: 'Globalización lingüística', definition: 'linguistic globalization' }, { term: 'Hibridación', definition: 'hybridization' }, { term: 'Resistencia', definition: '抵抗' } ] },
+            { type: 'highlight-box', title: 'Cambios Actuales', items: [ 'Palabras del internet (tuitear, postear)', 'Influencia del inglés en tecnología', 'Conservación vs evolución' ] },
+            { type: 'practice', question: 'Reflexión Futurista', auxiliaryPrompt: 'Imagina el futuro', answer: 'Escribe una reflexión especulativa sobre cómo evolucionará el español en los próximos 50 años.' }
+          ],
         },
         {
           id: 'l25',
-          title: 'Lesson 7: Topic 7',
+          title: 'Lesson 25: Tu Proyecto Final de Maestría',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 7'],
-          sections: [],
+          checkItems: ['Proyecto Final', 'Síntesis', 'Demostración'],
+          sections: [
+            { type: 'heading', level: 2, content: 'Integración de Todo lo Aprendido' },
+            { type: 'text', content: 'Crea tu proyecto final de maestría en español: combinación de análisis, creación, investigación, reflexión personal.' },
+            { type: 'glossary', terms: [ { term: 'Síntesis', definition: '統合' }, { term: 'Integración', definition: '統合' }, { term: 'Demostración', definition: 'demonstration' }, { term: 'Madurez lingüística', definition: 'linguistic maturity' }, { term: 'Excelencia', definition: 'excellence' } ] },
+            { type: 'highlight-box', title: 'Opciones de Proyecto', items: [ 'Novela corta experimentando con técnicas aprendidas', 'Ensayo académico sobre tema complejo', 'Análisis multimedia de película + teoría' ] },
+            { type: 'practice', question: 'Tu Proyecto de Cierre', auxiliaryPrompt: 'Diseña tu proyecto final', answer: 'Propón y describe el proyecto final que integre todo lo que has aprendido en estos dos años de español.' }
+          ],
         },
       ],
     },
   ],
 };
 
-// スペイン語 - C1
-const spac1: Category = {
+// ロシア語 - A1
+const rusa1: Category = {
   id: 'cat-spa-c1',
   title: 'Spanish - C1',
   description: '（レベル C1）。',
