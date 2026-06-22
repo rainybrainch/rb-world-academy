@@ -1,0 +1,2779 @@
+{
+  "language": "sign_language",
+  "name": "手話",
+  "icon": "/images/genres/genre-sign-language.png",
+  "description": "国際手話・JSL（日本手話）。A1/A2/B1/B2 120講義完全カリキュラム。手形・位置・動き・表情の総合学習",
+  "lessons": [
+    {
+      "id": "sl-001",
+      "level": 1,
+      "chapter": 1,
+      "title": "Hand Shapes 基本5形 - 手形入門",
+      "objectives": ["5つの基本手形を習得する"],
+      "content": {
+        "introduction": "手話は手の形・位置・動き・表情で意味を伝えます。すべての基礎となる5つの基本手形を学びます。",
+        "sections": [
+          {
+            "title": "Open Hand（開いた手）",
+            "content": "5本指をすべて広げた状態。最も基本的な形です。",
+            "handshape_details": {
+              "palm_orientation": "前向き（Palm facing forward）",
+              "finger_position": "すべて広げて平行",
+              "use_cases": ["Greeting（挨拶）", "Offering（申し出）", "Five（5）"]
+            },
+            "glossary": [
+              {"sign": "HELLO", "meaning": "こんにちは", "handshape": "Open Hand", "movement": "手を上げて左右に振る"},
+              {"sign": "THANK-YOU", "meaning": "ありがとう", "handshape": "Open Hand", "movement": "手を下から上へ動かす"}
+            ]
+          },
+          {
+            "title": "Closed Fist（握った手）",
+            "content": "5本指をすべて握った状態。力強い表現に使われます。",
+            "handshape_details": {
+              "palm_orientation": "前向き or 横向き",
+              "finger_position": "すべて握られている",
+              "use_cases": ["Punch（パンチ）", "Hold（持つ）", "Strength（力）"]
+            },
+            "glossary": [
+              {"sign": "STRONG", "meaning": "強い", "handshape": "Closed Fist", "movement": "胸の前で握りしめる"},
+              {"sign": "HOLD", "meaning": "持つ", "handshape": "Closed Fist", "movement": "物を握るようにして保つ"}
+            ]
+          },
+          {
+            "title": "Pointing Finger（人差し指立てた）",
+            "content": "人差し指だけを立てた状態。指差しや指摘に使われます。",
+            "handshape_details": {
+              "palm_orientation": "前向き or 内側",
+              "finger_position": "人差し指のみ立てる",
+              "use_cases": ["Point（指す）", "You（あなた）", "Question（質問）"]
+            },
+            "glossary": [
+              {"sign": "YOU", "meaning": "あなた", "handshape": "Pointing Finger", "movement": "相手に向かって指す"},
+              {"sign": "POINT-AT", "meaning": "指す", "handshape": "Pointing Finger", "movement": "物体の方向に人差し指を向ける"}
+            ]
+          },
+          {
+            "title": "Peace Sign（V字形）",
+            "content": "人差し指と中指をV字に立てた状態。勝利や平和を表します。",
+            "handshape_details": {
+              "palm_orientation": "外向き or 内向き",
+              "finger_position": "人差し指と中指がV字に開く",
+              "use_cases": ["Peace（平和）", "Victory（勝利）", "Two（2）"]
+            },
+            "glossary": [
+              {"sign": "PEACE", "meaning": "平和", "handshape": "Peace Sign", "movement": "胸の前でV字を立てて保つ"},
+              {"sign": "TWO", "meaning": "2", "handshape": "Peace Sign", "movement": "手を前に出して立てる"}
+            ]
+          },
+          {
+            "title": "Thumbs Up（親指立てた）",
+            "content": "親指だけを上に立てた状態。肯定や賞賛を表します。",
+            "handshape_details": {
+              "palm_orientation": "内側向き",
+              "finger_position": "親指のみ上向きに立つ",
+              "use_cases": ["Good（良い）", "Excellent（素晴らしい）", "Agree（同意）"]
+            },
+            "glossary": [
+              {"sign": "GOOD", "meaning": "良い", "handshape": "Thumbs Up", "movement": "親指を上に向けて立てる"},
+              {"sign": "EXCELLENT", "meaning": "素晴らしい", "handshape": "Thumbs Up", "movement": "親指を上げて喜びを表現"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-002",
+      "level": 1,
+      "chapter": 1,
+      "title": "Finger Spelling 指文字 - アルファベット入門",
+      "objectives": ["26文字の指文字をマスターする"],
+      "content": {
+        "introduction": "固有名詞や新しい単語は指文字で表します。アルファベット26文字の指形を習得しましょう。",
+        "sections": [
+          {
+            "title": "A-F の指文字",
+            "content": "最初の6文字を学びます。各文字は指の形で区別されます。",
+            "handshape_details": {
+              "A": {"shape": "握りこぶしで親指を横に出す", "movement": "静止"},
+              "B": {"shape": "4本指を立てる（親指は側面）", "movement": "静止"},
+              "C": {"shape": "手を半円形に開く", "movement": "静止"},
+              "D": {"shape": "中指・薬指・小指を立てる", "movement": "静止"},
+              "E": {"shape": "5本指を少し曲げて閉じる", "movement": "静止"},
+              "F": {"shape": "親指と人差し指で円を作る", "movement": "静止"}
+            }
+          },
+          {
+            "title": "G-L の指文字",
+            "content": "G から L までの指文字。複雑さが増し始めます。",
+            "handshape_details": {
+              "G": {"shape": "人差し指と親指をL字に", "movement": "静止"},
+              "H": {"shape": "人差し指と中指を並べる", "movement": "静止"},
+              "I": {"shape": "小指だけ立てる", "movement": "静止"},
+              "J": {"shape": "小指をかぎ状に曲げる", "movement": "回転"},
+              "K": {"shape": "人差し指・中指と親指でK字", "movement": "静止"},
+              "L": {"shape": "人差し指と親指が直角", "movement": "静止"}
+            ]
+          },
+          {
+            "title": "M-R の指文字",
+            "content": "M から R までの指文字。より複雑な形を習得します。",
+            "handshape_details": {
+              "M": {"shape": "3本指（中・薬・小）を親指で押さえる", "movement": "静止"},
+              "N": {"shape": "2本指（薬・小）を親指で押さえる", "movement": "静止"},
+              "O": {"shape": "5本指で輪を作る", "movement": "静止"},
+              "P": {"shape": "K字で中指を下に曲げる", "movement": "静止"},
+              "Q": {"shape": "O字で手を回転", "movement": "回転"},
+              "R": {"shape": "人差し指と中指が交差", "movement": "静止"}
+            ]
+          },
+          {
+            "title": "S-Z の指文字と数字",
+            "content": "残りの文字と数字の指文字。指文字の完成です。",
+            "handshape_details": {
+              "S": {"shape": "握った状態で親指と人差し指の側面だけ見える", "movement": "静止"},
+              "T": {"shape": "人差し指を親指の側面に立てる", "movement": "静止"},
+              "U": {"shape": "人差し指と中指を立てて閉じる", "movement": "静止"},
+              "V": {"shape": "人差し指と中指がV字", "movement": "静止"},
+              "W": {"shape": "人差し・中指・薬指が立つ", "movement": "静止"},
+              "X": {"shape": "人差し指がかぎ状", "movement": "静止"},
+              "Y": {"shape": "親指と小指が立つ", "movement": "上下に揺れる"},
+              "Z": {"shape": "人差し指でZ字を描く", "movement": "Z字を描く"}
+            }
+          },
+          {
+            "title": "実践：名前を指文字で言う",
+            "content": "自分や他者の名前を指文字で表現する練習。",
+            "practice": [
+              {"id": "sl-002-p1", "type": "fill-blank", "question": "JOHN を指文字で表すと？", "answer": "J-O-H-N"},
+              {"id": "sl-002-p2", "type": "fill-blank", "question": "SARAH を指文字で？", "answer": "S-A-R-A-H"},
+              {"id": "sl-002-p3", "type": "multiple-choice", "question": "どの指文字が正しいでしょう？", "options": ["握った親指＝A", "5本立つ＝B", "半円形＝C"], "answer": "すべて正しい"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-003",
+      "level": 1,
+      "chapter": 1,
+      "title": "Basic Greetings 基本挨拶",
+      "objectives": ["日常の基本挨拶を実行できる"],
+      "content": {
+        "introduction": "手話コミュニティへの入り口。笑顔と身振りで相手を迎えます。",
+        "sections": [
+          {
+            "title": "HELLO - こんにちは",
+            "content": "最も基本的な挨拶。手を顔の側面から上げて、左右に振ります。",
+            "handshape": "Open Hand",
+            "location": "顔の側面から肩の高さ",
+            "movement": "左右に振る",
+            "facial_expression": "笑顔・友好的",
+            "glossary": [
+              {"variant": "casual", "description": "友人同士：軽く手を振る"},
+              {"variant": "formal", "description": "目上：ゆっくり丁寧に振る"}
+            ]
+          },
+          {
+            "title": "GOOD-MORNING - おはようございます",
+            "content": "朝の挨拶。太陽の位置を示してから GOOD を表現します。",
+            "handshape": "Open Hand → Thumbs Up",
+            "location": "胸の前～顔前",
+            "movement": "Open Hand で地平線を示す → Thumbs Up",
+            "facial_expression": "明るい笑顔",
+            "glossary": [
+              {"sign": "MORNING", "meaning": "朝", "description": "手を地平線高さで横に広げて朝日を表現"}
+            ]
+          },
+          {
+            "title": "GOOD-EVENING - こんばんは",
+            "content": "夕方の挨拶。太陽が沈む様子を表現します。",
+            "handshape": "Open Hand（下降）",
+            "location": "胸～腰",
+            "movement": "Open Hand で太陽が沈む動きを表現",
+            "facial_expression": "親しみやすい笑顔",
+            "glossary": []
+          },
+          {
+            "title": "GOODBYE - さようなら",
+            "content": "別れの挨拶。手を上げて左右に振ります（HELLO の変種）。",
+            "handshape": "Open Hand",
+            "location": "肩の高さ",
+            "movement": "左右に振る（HELLO より大きく）",
+            "facial_expression": "友好的・親しみやすい",
+            "glossary": [
+              {"variant": "casual", "description": "カジュアル：軽く手を振る"},
+              {"variant": "see-you-later", "description": "また後で：時計を指してから GOODBYE"}
+            ]
+          },
+          {
+            "title": "THANK-YOU - ありがとう",
+            "content": "感謝を表現。開いた手を胸から下へ向かって動かします。",
+            "handshape": "Open Hand",
+            "location": "胸の前",
+            "movement": "下方に動かす",
+            "facial_expression": "感謝の笑顔・感動的",
+            "glossary": [
+              {"variation": "emphatic", "description": "大きく動かす＝深い感謝"},
+              {"variation": "casual", "description": "小さく動かす＝軽い感謝"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-004",
+      "level": 1,
+      "chapter": 1,
+      "title": "Personal Pronouns 人称代名詞",
+      "objectives": ["I / YOU / HE / SHE / IT を表現できる"],
+      "content": {
+        "introduction": "手話では指さしで人称を表現します。3人称は空間に人物を設定します。",
+        "sections": [
+          {
+            "title": "I - 私",
+            "content": "人差し指を胸に向けて指す。自分を指します。",
+            "handshape": "Pointing Finger",
+            "location": "胸",
+            "movement": "胸に向かって指す",
+            "facial_expression": "自然",
+            "example": "I am happy（私は幸せです）"
+          },
+          {
+            "title": "YOU - あなた",
+            "content": "人差し指を相手に向けて指す。相手の方向により複数形にもなります。",
+            "handshape": "Pointing Finger",
+            "location": "相手の方向",
+            "movement": "相手を指す",
+            "facial_expression": "目で相手を見る",
+            "example": "YOU come here（あなたはここに来てください）"
+          },
+          {
+            "title": "HE / SHE - 彼 / 彼女",
+            "content": "その人がいた方向を指す。先に人物を空間に設定します。",
+            "handshape": "Pointing Finger",
+            "location": "その人がいた位置",
+            "movement": "その位置を指す",
+            "facial_expression": "その人への向きで性別を示す",
+            "example": "HE-over-there is my friend（彼はあそこにいる友人です）"
+          },
+          {
+            "title": "IT - それ",
+            "content": "物の方向を指す。先に物の位置を示してから参照します。",
+            "handshape": "Pointing Finger",
+            "location": "物の方向",
+            "movement": "物を指す",
+            "facial_expression": "その物への視線",
+            "example": "IT is big（それは大きいです）"
+          },
+          {
+            "title": "WE / US - 私たち",
+            "content": "握った手で自分から相手側に円弧を描く。複数の人を指します。",
+            "handshape": "Closed Fist or Index Fingers",
+            "location": "胸の前",
+            "movement": "自分から相手に向かって円弧を描く",
+            "facial_expression": "包括的な笑顔",
+            "example": "WE are friends（私たちは友人です）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-005",
+      "level": 1,
+      "chapter": 1,
+      "title": "Numbers 1-10 数字1-10",
+      "objectives": ["1から10までの数字を表現できる"],
+      "content": {
+        "introduction": "手話の数字表現。右手で数字を作り、左手で数えることもあります。",
+        "sections": [
+          {
+            "title": "ONE to FIVE",
+            "content": "1-5は指の数をそのまま表現します。",
+            "handshapes": {
+              "ONE": "Pointing Finger（人差し指立てる）",
+              "TWO": "Peace Sign（人差し・中指V字）",
+              "THREE": "3本指立てる",
+              "FOUR": "4本指立てる",
+              "FIVE": "Open Hand（5本指すべて広げる）"
+            }
+          },
+          {
+            "title": "SIX to TEN",
+            "content": "6-10は左手の5を基に右手で1-5を追加します。",
+            "handshapes": {
+              "SIX": "Open Hand（左）+ Thumbs Up（右）",
+              "SEVEN": "Open Hand（左）+人差し・中指（右）",
+              "EIGHT": "Open Hand（左）+ 3本指（右）",
+              "NINE": "Open Hand（左）+ 4本指（右）",
+              "TEN": "握った手（左右）で10を示す or 両手でX字"
+            }
+          },
+          {
+            "title": "Counting with Movement",
+            "content": "複数の物を数えるときは数字を繰り返し、位置を指し示します。",
+            "example": "I have FIVE apples（私はりんごを5個持っています）- FIVE と言いながら胸前に手をかざす"
+          },
+          {
+            "title": "Age表現",
+            "content": "年齢は数字を額の前で表現し、その後に AGE or YEARS-OLD を加えます。",
+            "example": "I am THREE years old（私は3歳です）- THREE を額前で、その後 YEARS-OLD"
+          },
+          {
+            "title": "練習問題",
+            "content": "数字表現の定着練習。",
+            "practice": [
+              {"id": "sl-005-p1", "type": "fill-blank", "question": "THREE を手話で表すと？", "answer": "3本指立てる"},
+              {"id": "sl-005-p2", "type": "multiple-choice", "question": "EIGHT を表現するときの左手は？", "options": ["Peace Sign", "Closed Fist", "Open Hand"], "answer": "Open Hand"},
+              {"id": "sl-005-p3", "type": "fill-blank", "question": "年齢「4歳」を表すと？", "answer": "FOUR（額前）+ YEARS-OLD"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-006",
+      "level": 1,
+      "chapter": 2,
+      "title": "Family Members 家族表現",
+      "objectives": ["家族の各メンバーを表現できる"],
+      "content": {
+        "introduction": "家族は基本的に手を顔の周りで動かして表現します。性別は手の動く位置で区別されます。",
+        "sections": [
+          {
+            "title": "MOTHER - 母親",
+            "content": "5本指の手を頬に当てる。女性は一般に頬の下側で表現します。",
+            "handshape": "Open Hand or 5-fingers",
+            "location": "頬（下側）",
+            "movement": "軽く当てる",
+            "facial_expression": "親愛感・温かさ",
+            "example": "MY MOTHER is kind（私の母は優しいです）"
+          },
+          {
+            "title": "FATHER - 父親",
+            "content": "5本指の手を額に当てる。男性は一般に額側で表現します。",
+            "handshape": "Open Hand or 5-fingers",
+            "location": "額",
+            "movement": "軽く当てる",
+            "facial_expression": "尊敬・親愛感",
+            "example": "MY FATHER works hard（私の父は一生懸命働いています）"
+          },
+          {
+            "title": "SISTER - 姉妹",
+            "content": "MOTHER の形から下に動かす。姉と妹は手の位置で区別。",
+            "handshape": "Open Hand",
+            "location": "頬から下へ",
+            "movement": "下に動かす",
+            "facial_expression": "親しみやすさ",
+            "example": "MY SISTER is funny（私の妹はおもしろいです）"
+          },
+          {
+            "title": "BROTHER - 兄弟",
+            "content": "FATHER の形から下に動かす。兄と弟は手の位置で区別。",
+            "handshape": "Open Hand",
+            "location": "額から下へ",
+            "movement": "下に動かす",
+            "facial_expression": "親しみやすさ",
+            "example": "MY BROTHER is strong（私の兄は強いです）"
+          },
+          {
+            "title": "GRANDPARENT - 祖父母",
+            "content": "FATHER / MOTHER の形を2回繰り返す。または OLD-PERSON + FATHER / MOTHER。",
+            "handshape": "Open Hand",
+            "location": "額 / 頬",
+            "movement": "2回繰り返す",
+            "facial_expression": "尊敬・愛情",
+            "example": "MY GRANDMOTHER is wise（私の祖母は賢いです）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-007",
+      "level": 1,
+      "chapter": 2,
+      "title": "Basic Emotions 基本感情",
+      "objectives": ["喜怒哀楽を表現できる"],
+      "content": {
+        "introduction": "感情は表情と手の形で表現します。表情がとても重要です。",
+        "sections": [
+          {
+            "title": "HAPPY - 幸せ",
+            "content": "頬に両手をあてて上に動かす。顔の動きで笑う。",
+            "handshape": "Open Hand or 5-fingers",
+            "location": "両頬",
+            "movement": "上に動かす",
+            "facial_expression": "大きな笑顔・目が笑う",
+            "example": "I am HAPPY（私は幸せです）"
+          },
+          {
+            "title": "SAD - 悲しい",
+            "content": "眉間と目元に両手をあてて下に動かす。悲しい表情を作ります。",
+            "handshape": "Curved hands or Open Hand",
+            "location": "眉間～目元",
+            "movement": "下に動かす",
+            "facial_expression": "眉を下げて・口を下げて・悲しい顔",
+            "example": "I am SAD（私は悲しいです）"
+          },
+          {
+            "title": "ANGRY - 怒っている",
+            "content": "眉間にシワを寄せた形で両手を額に当てる。怒った表情。",
+            "handshape": "Claw hands or Curved fingers",
+            "location": "額・眉間",
+            "movement": "押し付ける or 動かさない",
+            "facial_expression": "眉間にシワ・目を厳しくする・口を一文字に",
+            "example": "I am ANGRY（私は怒っています）"
+          },
+          {
+            "title": "SURPRISED - 驚いた",
+            "content": "口元と目元を手で表現。手を口の周りで広げる。",
+            "handshape": "O-hand or Open Hand",
+            "location": "口元～目元",
+            "movement": "広げる",
+            "facial_expression": "眉を上げて・目を大きく開いて・口をO字に",
+            "example": "I am SURPRISED（私は驚きました）"
+          },
+          {
+            "title": "TIRED - 疲れた",
+            "content": "頭の側面に手を当てて下に落とす。疲労感を表現。",
+            "handshape": "Open Hand or V-hand",
+            "location": "頭の側面",
+            "movement": "下に落とす",
+            "facial_expression": "目を下げて・疲れた顔",
+            "example": "I am TIRED（私は疲れています）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-008",
+      "level": 1,
+      "chapter": 2,
+      "title": "Body Parts 身体部分",
+      "objectives": ["身体各部を表現できる"],
+      "content": {
+        "introduction": "身体部分は直接その部分を指すか、手で形を作って表現します。",
+        "sections": [
+          {
+            "title": "HEAD - 頭",
+            "content": "握った手で頭の側面を軽くたたく。または頭を指差す。",
+            "handshape": "Closed Fist or Pointing Finger",
+            "location": "頭の側面",
+            "movement": "軽くたたく or 指す",
+            "example": "HEAD hurts（頭が痛いです）"
+          },
+          {
+            "title": "EYES - 目",
+            "content": "人差し指を目に向けて指す。両目の場合は両手で指す。",
+            "handshape": "Pointing Finger",
+            "location": "目の前",
+            "movement": "指す",
+            "example": "EYES are blue（目は青です）"
+          },
+          {
+            "title": "NOSE - 鼻",
+            "content": "人差し指で鼻の先端を指す。",
+            "handshape": "Pointing Finger",
+            "location": "鼻",
+            "movement": "指す or 軽く触れる",
+            "example": "NOSE is big（鼻は大きいです）"
+          },
+          {
+            "title": "MOUTH - 口",
+            "content": "人差し指で口を円く描く。または人差し指で口元を指す。",
+            "handshape": "Pointing Finger or Open Hand",
+            "location": "口の周り",
+            "movement": "円を描く or 指す",
+            "example": "MOUTH is small（口は小さいです）"
+          },
+          {
+            "title": "ARM - 腕 / HAND - 手",
+            "content": "腕全体は腕を上げて示す。手は握った手を上げる or 手の形を見せる。",
+            "handshape": "Open Hand or Closed Fist",
+            "location": "腕 / 手の位置",
+            "movement": "上げる or 見せる",
+            "example": "ARM is strong（腕は強いです）"
+          },
+          {
+            "title": "LEG - 足 / FOOT - 足",
+            "content": "足または脚を指す。または脚をたたく。",
+            "handshape": "Pointing Finger or Fist",
+            "location": "脚",
+            "movement": "指す or たたく",
+            "example": "LEG hurts（足が痛いです）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-009",
+      "level": 1,
+      "chapter": 2,
+      "title": "Simple Verbs 動詞基本形",
+      "objectives": ["基本的な動作を表現できる"],
+      "content": {
+        "introduction": "動詞は手の形と動きで時制や態を表現します。A1では基本形を学びます。",
+        "sections": [
+          {
+            "title": "EAT - 食べる",
+            "content": "握った手を口に持っていく。複数回繰り返して反復性を表現できます。",
+            "handshape": "Closed Fist or Claw Hand",
+            "location": "口",
+            "movement": "口に持っていく",
+            "example": "I EAT apple（私はりんごを食べます）"
+          },
+          {
+            "title": "DRINK - 飲む",
+            "content": "握った手を口に持っていく（EATとは異なり、より小さく）。",
+            "handshape": "C-hand or Claw Hand",
+            "location": "口",
+            "movement": "口に持っていく",
+            "example": "I DRINK water（私は水を飲みます）"
+          },
+          {
+            "title": "WALK - 歩く",
+            "content": "両手の指を歩く動きで動かす。前に進む動き。",
+            "handshape": "Pointing Fingers or Peace Sign",
+            "location": "体の前",
+            "movement": "前に進む（交互に動く）",
+            "example": "I WALK to school（私は学校に歩いて行きます）"
+          },
+          {
+            "title": "RUN - 走る",
+            "content": "WALK より速く、エネルギッシュに両手を前後に動かす。",
+            "handshape": "Closed Fist or L-hand",
+            "location": "体の前～横",
+            "movement": "前後に速く動かす",
+            "example": "I RUN fast（私は速く走ります）"
+          },
+          {
+            "title": "SLEEP - 寝る",
+            "content": "頭を傾けて、手を頭の側面に当てる。または手を頬に当てて横になる動き。",
+            "handshape": "Open Hand or Peace Sign",
+            "location": "頬",
+            "movement": "横に傾ける or 寝ている姿勢を示す",
+            "example": "I SLEEP at night（私は夜に寝ます）"
+          },
+          {
+            "title": "SIT - 座る",
+            "content": "握った手を重ねて、椅子に座る動きを表現。または胸の前で腕を曲げた形。",
+            "handshape": "Closed Fist or V-hand",
+            "location": "腰の前",
+            "movement": "座る動き or 静止",
+            "example": "I SIT on chair（私は椅子に座っています）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-010",
+      "level": 1,
+      "chapter": 2,
+      "title": "Common Objects 日常物体",
+      "objectives": ["日常的な物を表現できる"],
+      "content": {
+        "introduction": "手話では物の形や用途で表現することが多いです。象形文字的な思考です。",
+        "sections": [
+          {
+            "title": "BOOK - 本",
+            "content": "開いた両手をページをめくる動きで表現。",
+            "handshape": "Open Hand（両手、手のひら上向き）",
+            "location": "体の前",
+            "movement": "ページをめくる",
+            "example": "I READ book（私は本を読みます）"
+          },
+          {
+            "title": "TABLE - テーブル",
+            "content": "握った手を水平に並べて、テーブルの形を表現。",
+            "handshape": "Closed Fist or Flat Hand（両手）",
+            "location": "体の前・腰～胸の高さ",
+            "movement": "テーブルの形を示す",
+            "example": "TABLE is big（テーブルは大きいです）"
+          },
+          {
+            "title": "CHAIR - 椅子",
+            "content": "握った手を重ねて、椅子の背もたれを表現。または両手で座っている形。",
+            "handshape": "Closed Fist or V-hand",
+            "location": "腰の前～胸",
+            "movement": "椅子の形を示す",
+            "example": "SIT-ON CHAIR（椅子に座ります）"
+          },
+          {
+            "title": "HOUSE - 家",
+            "content": "三角屋根を両手で表現。家の形を描く。",
+            "handshape": "Open Hand or Flat Hand（両手、角度をつけて）",
+            "location": "頭上～胸",
+            "movement": "屋根の三角形を示す",
+            "example": "MY HOUSE is big（私の家は大きいです）"
+          },
+          {
+            "title": "CAR - 車",
+            "content": "握った両手で運転ハンドルを持つ。または車の形を手で示す。",
+            "handshape": "Closed Fist or C-hand（両手）",
+            "location": "体の前・腰～胸",
+            "movement": "ハンドルを回す or 車が走る動き",
+            "example": "I DRIVE car（私は車を運転します）"
+          },
+          {
+            "title": "COMPUTER - コンピュータ",
+            "content": "両手を連続させてタイピングする動きか、画面を指す。",
+            "handshape": "Claw Hand or Pointing Finger（両手）",
+            "location": "体の前",
+            "movement": "タイピングする or 画面を指す",
+            "example": "I USE computer（私はコンピュータを使用します）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-011",
+      "level": 1,
+      "chapter": 3,
+      "title": "Food & Eating 食べ物・飲食",
+      "objectives": ["食べ物の名前と食事に関する動詞を習得できる"],
+      "content": {
+        "introduction": "食べ物は実物の形や食べる方法で表現されることが多いです。",
+        "sections": [
+          {
+            "title": "APPLE - りんご",
+            "content": "握った手の親指の側面をほおに当てて回転させる。りんごを食べるポーズ。",
+            "handshape": "A-hand or Closed Fist",
+            "location": "ほお",
+            "movement": "回転させる",
+            "example": "I EAT apple（私はりんごを食べます）"
+          },
+          {
+            "title": "BREAD - パン",
+            "content": "手のひらの側面でパンをスライスする動きを表現。",
+            "handshape": "Open Hand（両手）",
+            "location": "体の前",
+            "movement": "スライスする",
+            "example": "I LIKE bread（私はパンが好きです）"
+          },
+          {
+            "title": "MILK - 牛乳",
+            "content": "握った両手を交互に絞る動き。牛を搾乳する動作。",
+            "handshape": "Closed Fist（両手）",
+            "location": "体の前",
+            "movement": "交互に絞る",
+            "example": "I DRINK milk（私は牛乳を飲みます）"
+          },
+          {
+            "title": "EGG - 卵",
+            "content": "握った両手を交差させてから、割るようにゆっくり開く。卵を割く動き。",
+            "handshape": "Closed Fist → Open Hand",
+            "location": "体の前",
+            "movement": "割く",
+            "example": "EGG is round（卵は丸いです）"
+          },
+          {
+            "title": "RICE - ご飯",
+            "content": "握った手を持ち上げて、ご飯を盛る仕草。または握った手を食べる仕草。",
+            "handshape": "Closed Fist or Claw Hand",
+            "location": "口の前",
+            "movement": "盛る or 食べる動き",
+            "example": "I EAT rice（私はご飯を食べます）"
+          },
+          {
+            "title": "WATER - 水",
+            "content": "手を水の流れる形で下に動かす。または W-hand の形で表現。",
+            "handshape": "W-hand or Open Hand",
+            "location": "体の前～下",
+            "movement": "下に流す or 飲む動き",
+            "example": "I DRINK water（私は水を飲みます）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-012",
+      "level": 1,
+      "chapter": 3,
+      "title": "Colors 色",
+      "objectives": ["基本的な色の名前を習得できる"],
+      "content": {
+        "introduction": "色は、色を示す手の形や、実物の色を指してから色の名前を表現します。",
+        "sections": [
+          {
+            "title": "Color Representation Method",
+            "content": "手話では通常、5本指を立てた手（Open Hand）を色の名前に関連させます。",
+            "method": "1. 色を示す手の形を作る（または実物を指す）2. その色を説明する手話を加える"
+          },
+          {
+            "title": "RED - 赤",
+            "content": "人差し指を唇に当てて引き下ろす。赤色を唇から示す。",
+            "handshape": "Pointing Finger",
+            "location": "唇～胸",
+            "movement": "下に引き下ろす",
+            "example": "RED color（赤い色）"
+          },
+          {
+            "title": "BLUE - 青",
+            "content": "B-hand を揺さぶって青色を表現。または sky を指してから color を示す。",
+            "handshape": "B-hand or Open Hand",
+            "location": "体の前",
+            "movement": "揺さぶる or 指す",
+            "example": "BLUE sky（青い空）"
+          },
+          {
+            "title": "GREEN - 緑",
+            "content": "G-hand を揺さぶって緑色を表現。または grass を指してから green を示す。",
+            "handshape": "G-hand or Open Hand",
+            "location": "体の前",
+            "movement": "揺さぶる or 指す",
+            "example": "GREEN grass（緑の芝生）"
+          },
+          {
+            "title": "YELLOW - 黄色",
+            "content": "Y-hand を揺さぶって黄色を表現。",
+            "handshape": "Y-hand",
+            "location": "体の前",
+            "movement": "揺さぶる",
+            "example": "YELLOW sun（黄色い太陽）"
+          },
+          {
+            "title": "BLACK - 黒",
+            "content": "眉毛を指してから black を示す。または darkness を表現してから black。",
+            "handshape": "Pointing Finger or Open Hand",
+            "location": "眉毛 or 体の前",
+            "movement": "指す or 暗さを表現",
+            "example": "BLACK color（黒い色）"
+          },
+          {
+            "title": "WHITE - 白",
+            "content": "胸から両手の Open Hand を開きながら下に動かす。清潔・明るさを表現。",
+            "handshape": "Open Hand",
+            "location": "胸～腰",
+            "movement": "開きながら下に動かす",
+            "example": "WHITE snow（白い雪）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-013",
+      "level": 1,
+      "chapter": 3,
+      "title": "Days & Time 曜日・時間",
+      "objectives": ["曜日と時間帯を表現できる"],
+      "content": {
+        "introduction": "時間は両手で示すことが多く、手話では特に現在・過去・未来の時制が重要です。",
+        "sections": [
+          {
+            "title": "Yesterday - 昨日",
+            "content": "親指を後ろ（肩越し）に向けて指す。過去を表現。",
+            "handshape": "Thumbs Up or Pointing Finger",
+            "location": "肩上～後ろ",
+            "movement": "後ろに指す",
+            "example": "YESTERDAY I go to school（昨日、私は学校に行きました）"
+          },
+          {
+            "title": "Today - 今日",
+            "content": "両手を体の前で下に動かす。現在を表現。",
+            "handshape": "Open Hand（両手）",
+            "location": "体の前",
+            "movement": "下に動かす",
+            "example": "TODAY is sunny（今日は晴れています）"
+          },
+          {
+            "title": "Tomorrow - 明日",
+            "content": "親指を前に向けて指す。未来を表現。",
+            "handshape": "Thumbs Up or Pointing Finger",
+            "location": "体の前",
+            "movement": "前に指す",
+            "example": "TOMORROW we meet（明日、私たちは会います）"
+          },
+          {
+            "title": "MONDAY to SUNDAY",
+            "content": "M-hand ～ S-hand で各曜日を表現。右手の人差し指で曜日を示してから、M～S の形に。",
+            "handshapes": {
+              "MONDAY": "M-hand",
+              "TUESDAY": "T-hand",
+              "WEDNESDAY": "W-hand",
+              "THURSDAY": "TH-hand (握った手の親指と人差し指が T 字)",
+              "FRIDAY": "F-hand",
+              "SATURDAY": "S-hand",
+              "SUNDAY": "S-hand or Open Hand"
+            }
+          },
+          {
+            "title": "TIME - 時間",
+            "content": "時計を指してから、その時刻を数字で表現。または両手を時計の針のように動かす。",
+            "handshape": "Pointing Finger or Clock hands",
+            "location": "腕 or 体の前",
+            "movement": "指す or 時計の針の動き",
+            "example": "WHAT-TIME is it?（何時ですか？）- 時計を指して What-Time の手話"
+          },
+          {
+            "title": "MORNING / AFTERNOON / NIGHT",
+            "content": "時間帯は太陽の位置で表現。朝は低い位置（東）、昼は高い位置、夜は低い位置（西）。",
+            "handshapes": {
+              "MORNING": "Open Hand を東側（左側）の地平線に示す",
+              "AFTERNOON": "Open Hand を高い位置に示す",
+              "NIGHT": "Open Hand を西側（右側）の地平線に示す"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-014",
+      "level": 1,
+      "chapter": 3,
+      "title": "Simple Questions - Question Words 疑問詞",
+      "objectives": ["基本的な疑問文を作れる"],
+      "content": {
+        "introduction": "手話では疑問文は語順がほぼ同じで、疑問詞の動きと表情で疑問を表現します。",
+        "sections": [
+          {
+            "title": "WHAT - 何",
+            "content": "握った手を体の前で上下に動かす。または両手を広げて「何？」と問う。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "体の前",
+            "movement": "上下に動かす or 広げる",
+            "facial_expression": "疑問の表情・眉を上げる",
+            "example": "WHAT is this?（これは何ですか？）"
+          },
+          {
+            "title": "WHO - 誰",
+            "content": "人差し指を口に当てた状態で、左右に動かす。",
+            "handshape": "Pointing Finger",
+            "location": "口",
+            "movement": "左右に動かす",
+            "facial_expression": "疑問の表情",
+            "example": "WHO is your friend?（誰があなたの友人ですか？）"
+          },
+          {
+            "title": "WHERE - どこ",
+            "content": "握った手を左右に動かす。場所を問う。",
+            "handshape": "Closed Fist or Pointing Finger",
+            "location": "体の前～左右",
+            "movement": "左右に動かす",
+            "facial_expression": "疑問の表情",
+            "example": "WHERE is school?（学校はどこですか？）"
+          },
+          {
+            "title": "WHEN - いつ",
+            "content": "握った両手を前後に動かす。時間軸を示す。または時計を指した後に WHEN。",
+            "handshape": "Closed Fist or L-hand",
+            "location": "体の前",
+            "movement": "前後に動かす",
+            "facial_expression": "疑問の表情",
+            "example": "WHEN do you arrive?（いつ到着しますか？）"
+          },
+          {
+            "title": "WHY - なぜ",
+            "content": "握った手を眉毛の下から上に動かす。または額を指してから WHY の動き。",
+            "handshape": "Closed Fist or Y-hand",
+            "location": "額～眉毛",
+            "movement": "下から上へ or Y を描く",
+            "facial_expression": "疑問・思案の表情",
+            "example": "WHY are you sad?（なぜあなたは悲しいのですか？）"
+          },
+          {
+            "title": "HOW - どうやって",
+            "content": "握った両手を上向きから下向きに返す。または H-hand で HOW を表現。",
+            "handshape": "Closed Fist or H-hand",
+            "location": "体の前",
+            "movement": "反転させる or H-hand の動き",
+            "facial_expression": "疑問の表情",
+            "example": "HOW do you make pizza?（どうやってピザを作りますか？）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-015",
+      "level": 1,
+      "chapter": 4,
+      "title": "School & Learning 学校・学習",
+      "objectives": ["学校環境と学習に関する手話を習得できる"],
+      "content": {
+        "introduction": "学校は社会性を学ぶ重要な場。手話コミュニティでは Deaf School が文化的に重要です。",
+        "sections": [
+          {
+            "title": "SCHOOL - 学校",
+            "content": "握った両手を合わせて、学校の屋根形を示す。または S-hand で示す。",
+            "handshape": "Closed Fist or S-hand",
+            "location": "体の前",
+            "movement": "屋根形 or S を描く",
+            "example": "I GO-TO school（私は学校に行きます）"
+          },
+          {
+            "title": "TEACHER - 先生",
+            "content": "両手で教壇に立っている形。または額から開いた手を出す（知識を与える）。",
+            "handshape": "Open Hand",
+            "location": "額～体の前",
+            "movement": "教える動き or 開く",
+            "example": "MY TEACHER is kind（私の先生は優しいです）"
+          },
+          {
+            "title": "STUDENT - 学生",
+            "content": "握った両手を胸に当てて、学ぶ姿勢。または SCHOOL と PERSON を組み合わせ。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "胸",
+            "movement": "学ぶ動き",
+            "example": "I AM-STUDENT（私は学生です）"
+          },
+          {
+            "title": "LEARN - 学ぶ",
+            "content": "握った手を額に当てて、知識を吸収する動き。",
+            "handshape": "Claw Hand or Open Hand",
+            "location": "額",
+            "movement": "額に向かって",
+            "example": "I LEARN sign language（私は手話を学んでいます）"
+          },
+          {
+            "title": "READ - 読む",
+            "content": "握った両手をページをめくる動きで表現。",
+            "handshape": "Closed Fist or V-hand（両手）",
+            "location": "体の前",
+            "movement": "ページをめくる",
+            "example": "I READ book every day（私は毎日本を読みます）"
+          },
+          {
+            "title": "WRITE - 書く",
+            "content": "握った手で文字を書く動き。または人差し指で空中に文字を書く。",
+            "handshape": "Closed Fist or Pointing Finger",
+            "location": "体の前 or 紙の上",
+            "movement": "書く動き",
+            "example": "I WRITE letter（私は手紙を書きます）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-016",
+      "level": 1,
+      "chapter": 4,
+      "title": "Animals 動物",
+      "objectives": ["基本的な動物を表現できる"],
+      "content": {
+        "introduction": "動物は見た目の特徴や行動で表現されることが多いです。",
+        "sections": [
+          {
+            "title": "DOG - 犬",
+            "content": "手をほおに当てて、舌を出す仕草。または耳の形を示す。",
+            "handshape": "Open Hand or Claw Hand",
+            "location": "ほお or 頭の横",
+            "movement": "舌を出す or 耳をピンと立てる",
+            "example": "I LIKE dog（私は犬が好きです）"
+          },
+          {
+            "title": "CAT - 猫",
+            "content": "両手で猫のひげを示す。または握った手をほおに当てて、ひげを引く。",
+            "handshape": "Claw Hand or Open Hand",
+            "location": "ほお",
+            "movement": "ひげを引く",
+            "example": "CAT is soft（猫は柔らかいです）"
+          },
+          {
+            "title": "BIRD - 鳥",
+            "content": "握った手を首から出して、くちばしを示す。または羽ばたく動き。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "首 or 体の前",
+            "movement": "羽ばたく or くちばしを示す",
+            "example": "BIRD can fly（鳥は飛べます）"
+          },
+          {
+            "title": "FISH - 魚",
+            "content": "握った手を波打たせながら前に動かす。魚が泳ぐ動き。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "体の前",
+            "movement": "波打ちながら前に進む",
+            "example": "FISH in water（水の中の魚）"
+          },
+          {
+            "title": "MONKEY - サル",
+            "content": "両腋の下で握った手でかく。または頭を指してから monkey の特徴を示す。",
+            "handshape": "Claw Hand",
+            "location": "腋の下",
+            "movement": "かく",
+            "example": "MONKEY is funny（サルはおもしろいです）"
+          },
+          {
+            "title": "ELEPHANT - 象",
+            "content": "握った手を鼻の下から下に動かす。象の長い鼻を表現。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "鼻～胸",
+            "movement": "下に動かす（長さを強調）",
+            "example": "ELEPHANT is big（象は大きいです）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-017",
+      "level": 1,
+      "chapter": 4,
+      "title": "Sports & Activities スポーツ・活動",
+      "objectives": ["スポーツと活動を表現できる"],
+      "content": {
+        "introduction": "スポーツは実際の動作を模倣して表現されることが多いです。",
+        "sections": [
+          {
+            "title": "PLAY - 遊ぶ",
+            "content": "握った両手を胸の前で交差させて、Y-hand の形で上下に動かす。遊び心を表現。",
+            "handshape": "Y-hand（両手）",
+            "location": "胸の前",
+            "movement": "上下に動かす",
+            "example": "I PLAY with friend（私は友人と遊びます）"
+          },
+          {
+            "title": "BASEBALL - 野球",
+            "content": "野球のバットを振る動作を模倣。握った手を肩の高さから下に振る。",
+            "handshape": "Closed Fist",
+            "location": "肩～腰",
+            "movement": "バットを振る動き",
+            "example": "I PLAY baseball（私は野球をします）"
+          },
+          {
+            "title": "SOCCER - サッカー",
+            "content": "握った足を蹴る動作を模倣。または人差し指で足を表してボールを蹴る。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "足 or 体の前",
+            "movement": "蹴る動き",
+            "example": "I PLAY soccer with friend（私は友人とサッカーをします）"
+          },
+          {
+            "title": "BASKETBALL - バスケットボール",
+            "content": "バスケットボールのシュート動作を模倣。握った手を上に投げる。",
+            "handshape": "C-hand or Open Hand",
+            "location": "肩の高さ",
+            "movement": "上に投げる or シュート",
+            "example": "I PLAY basketball（私はバスケットボールをします）"
+          },
+          {
+            "title": "SWIM - 泳ぐ",
+            "content": "両手を交互に前方に動かす。泳ぐ動作を模倣。",
+            "handshape": "Open Hand（両手）",
+            "location": "体の前",
+            "movement": "交互に前方に動かす",
+            "example": "I SWIM at beach（私はビーチで泳ぎます）"
+          },
+          {
+            "title": "DANCE - 踊る",
+            "content": "両手を上下に動かしながら体を揺らす。踊る動きを模倣。",
+            "handshape": "Open Hand or V-hand（両手）",
+            "location": "体の両側",
+            "movement": "踊る動き・揺れる",
+            "example": "I DANCE at party（私はパーティーで踊ります）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-018",
+      "level": 1,
+      "chapter": 4,
+      "title": "Adjectives - Quality Words 形容詞・性質語",
+      "objectives": ["基本的な形容詞を習得できる"],
+      "content": {
+        "introduction": "形容詞は手の形と大きさ、動きで程度を表現します。",
+        "sections": [
+          {
+            "title": "BIG - 大きい",
+            "content": "両手を Open Hand で広く開く。大きさを強調。",
+            "handshape": "Open Hand（両手）",
+            "location": "体の前",
+            "movement": "広く開く",
+            "facial_expression": "驚きや強調を表す",
+            "example": "ELEPHANT is very BIG（象はとても大きいです）"
+          },
+          {
+            "title": "SMALL - 小さい",
+            "content": "両手を Close Hand or Pinch Hand で小さくまとめる。",
+            "handshape": "Pinch Hand or Closed Fist（両手）",
+            "location": "体の前",
+            "movement": "小さくまとめる",
+            "example": "BABY is very SMALL（赤ちゃんはとても小さいです）"
+          },
+          {
+            "title": "TALL - 背が高い",
+            "content": "握った手を上に向かって動かす。身長の高さを示す。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "腰～頭上",
+            "movement": "上に向かって動かす",
+            "example": "HE is TALL（彼は背が高いです）"
+          },
+          {
+            "title": "SHORT - 背が低い / 短い",
+            "content": "握った手を低い位置で示す。または上から下へ短い距離で動かす。",
+            "handshape": "Closed Fist or Flat Hand",
+            "location": "低い位置",
+            "movement": "低く示す",
+            "example": "I am SHORT（私は背が低いです）"
+          },
+          {
+            "title": "HEAVY - 重い",
+            "content": "両手を下に向かって動かす。重さを感じさせる。",
+            "handshape": "Claw Hand or Open Hand（両手）",
+            "location": "腰",
+            "movement": "下に向かって、ゆっくり動かす",
+            "facial_expression": "苦労・努力の表情",
+            "example": "BOX is HEAVY（箱は重いです）"
+          },
+          {
+            "title": "LIGHT - 軽い",
+            "content": "両手を上に向かって、軽くふわっと動かす。",
+            "handshape": "Open Hand or Claw Hand（両手）",
+            "location": "腰～肩",
+            "movement": "上に向かって、軽く動かす",
+            "facial_expression": "楽さ・喜びの表情",
+            "example": "FEATHER is LIGHT（羽は軽いです）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-019",
+      "level": 1,
+      "chapter": 4,
+      "title": "Basic Sentences - Word Order 基本文 - 文法順序",
+      "objectives": ["基本的な文構造を理解できる"],
+      "content": {
+        "introduction": "手話の文順は多様ですが、一般的には主語-目的語-動詞（S-O-V）です。",
+        "sections": [
+          {
+            "title": "SVO vs SOV - 語順の違い",
+            "content": "手話では SOV（主語-目的語-動詞）が基本ですが、文脈により変わります。また、時制は時間表現で示します。",
+            "example_sov": "I APPLE EAT（私 りんご 食べます）= I eat an apple",
+            "example_context": "APPLE I EAT-OFTEN（りんご 私 よく食べる）= I often eat apples"
+          },
+          {
+            "title": "Negation - 否定",
+            "content": "否定は「NO」または「NOT」を使い、通常は文末に付けます。または頭を横に振って否定を表現。",
+            "example": "I NOT-LIKE spinach（私はほうれん草が好きではありません）",
+            "facial_expression": "頭を横に振る・眉を下げて・口をすぼめる"
+          },
+          {
+            "title": "Questions - 疑問文",
+            "content": "手話では疑問詞を前に出し、その後に文を続けます。疑問の時は眉を上げて表情で示します。",
+            "example": "WHAT YOU EAT?（あなたは何を食べていますか？）",
+            "facial_expression": "眉を上げて・疑問の表情"
+          },
+          {
+            "title": "Agreement/Disagreement - 同意/不同意",
+            "content": "頭を上下に振って同意・左右に振って不同意を表現。または YES / NO の手話を使う。",
+            "example_yes": "YOU LIKE PIZZA? YES.（ピザは好きですか？はい。）- 頭を上下に振る",
+            "example_no": "YOU LIKE PIZZA? NO.（ピザは好きですか？いいえ。）- 頭を左右に振る"
+          },
+          {
+            "title": "Practice Sentences",
+            "content": "文構造の定着練習。",
+            "practice": [
+              {"id": "sl-019-p1", "type": "fill-blank", "question": "「私は猫が好きです」を手話で表すと？", "answer": "I LIKE CAT（または CAT I LIKE）"},
+              {"id": "sl-019-p2", "type": "multiple-choice", "question": "否定文「彼は学校に行きません」の表現は？", "options": ["HE SCHOOL GO NOT（頭左右振り）", "HE NOT-GO SCHOOL", "NOT HE SCHOOL GO"], "answer": "HE SCHOOL GO NOT（頭左右振り）"},
+              {"id": "sl-019-p3", "type": "fill-blank", "question": "疑問文「あなたは何をしていますか？」の手話は？", "answer": "YOU WHAT DO?（眉上げ）"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-020",
+      "level": 1,
+      "chapter": 4,
+      "title": "Review & Consolidation - A1完成 A1総復習",
+      "objectives": ["A1レベルのすべての内容を総復習できる"],
+      "content": {
+        "introduction": "A1レベル（講義1-19）の要素をすべて統合します。実際の会話を通じて定着させましょう。",
+        "sections": [
+          {
+            "title": "Hand Shapes Review",
+            "content": "5つの基本手形（Open Hand, Closed Fist, Pointing Finger, Peace Sign, Thumbs Up）の確認と実行。",
+            "practice": [
+              {"id": "sl-020-p1", "type": "visual", "task": "各基本手形を正確に作ってみてください"}
+            ]
+          },
+          {
+            "title": "Dialogue Practice 1: Meeting Someone",
+            "content": "初対面の人との挨拶と簡単な自己紹介。",
+            "dialogue": "A: HELLO. MY NAME-IS JOHN. YOU NAME WHAT? / B: HELLO. I NAME-IS SARAH. NICE MEET YOU. / A: NICE MEET YOU.",
+            "vocabulary": ["HELLO", "MY", "NAME", "YOU", "NICE", "MEET"]
+          },
+          {
+            "title": "Dialogue Practice 2: Talking About Family",
+            "content": "家族について簡単に話す。",
+            "dialogue": "A: YOU FAMILY HOW-MANY? / B: I HAVE MOTHER, FATHER, BROTHER. SISTER TOO. / A: SISTER HOW-OLD? / B: SISTER FIVE YEARS-OLD.",
+            "vocabulary": ["FAMILY", "HAVE", "MOTHER", "FATHER", "BROTHER", "SISTER", "AGE", "YEARS-OLD"]
+          },
+          {
+            "title": "Dialogue Practice 3: Food & Preferences",
+            "content": "食べ物と好みについて話す。",
+            "dialogue": "A: YOU LIKE WHAT-FOOD? / B: I LIKE APPLE. I LIKE RICE. I NOT-LIKE SPINACH. YOU? / A: I LIKE BREAD. I LIKE CHICKEN.",
+            "vocabulary": ["LIKE", "FOOD", "APPLE", "RICE", "SPINACH", "BREAD", "CHICKEN"]
+          },
+          {
+            "title": "Dialogue Practice 4: Daily Activities",
+            "content": "毎日の活動について話す。",
+            "dialogue": "A: YOU TODAY WHAT-DO? / B: I EAT-BREAKFAST. I GO SCHOOL. I STUDY. I PLAY-SPORTS. YOU? / A: I WORK. I READ BOOK.",
+            "vocabulary": ["TODAY", "WHAT-DO", "EAT", "BREAKFAST", "SCHOOL", "STUDY", "PLAY", "WORK", "READ"]
+          },
+          {
+            "title": "Conversation Evaluation",
+            "content": "以下のポイントで自己評価してください：\n1. 手形の正確性：各手形が正しくできているか\n2. 流暢性：スムーズに手話が出ているか\n3. 理解力：相手の手話が理解できたか\n4. 表情・身体言語：表情や身体を活用できたか",
+            "practice": [
+              {"id": "sl-020-p2", "type": "video", "task": "自分の手話会話をビデオ記録して、再生して確認してください"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-021",
+      "level": 2,
+      "chapter": 1,
+      "title": "Clothing & Fashion 服装・ファッション",
+      "objectives": ["衣服の名前と描写ができる"],
+      "content": {
+        "introduction": "A2から始まる日常会話では、衣服について話す機会が増えます。色や素材の組み合わせも習います。",
+        "sections": [
+          {
+            "title": "SHIRT - シャツ",
+            "content": "握った手を胸に当てて、シャツの形を示す。上半身の衣服を表現。",
+            "handshape": "Open Hand or Flat Hand",
+            "location": "胸",
+            "movement": "シャツの形を示す",
+            "example": "MY SHIRT BLUE（私のシャツは青です）"
+          },
+          {
+            "title": "PANTS - ズボン",
+            "content": "両手を脚の側面に当てて、下ろす。ズボンの形を示す。",
+            "handshape": "Open Hand or Flat Hand（両手）",
+            "location": "脚",
+            "movement": "下に動かす",
+            "example": "I WEAR PANTS（私はズボンを穿いています）"
+          },
+          {
+            "title": "SHOES - 靴",
+            "content": "握った手を足元に当てる。または靴の形を両手で示す。",
+            "handshape": "Closed Fist or Open Hand（両手）",
+            "location": "足元",
+            "movement": "靴を示す",
+            "example": "MY SHOES RED（私の靴は赤です）"
+          },
+          {
+            "title": "DRESS - ドレス",
+            "content": "両手を肩から下に動かして、ドレスの形を描く。",
+            "handshape": "Open Hand（両手）",
+            "location": "肩～膝",
+            "movement": "下に動かす",
+            "example": "SHE WEAR DRESS（彼女はドレスを着ています）"
+          },
+          {
+            "title": "HAT - 帽子",
+            "content": "両手で頭の上に帽子をのせる形。",
+            "handshape": "Curved Hand or Open Hand（両手）",
+            "location": "頭の上",
+            "movement": "帽子をかぶる動き",
+            "example": "HE WEAR HAT（彼は帽子をかぶっています）"
+          },
+          {
+            "title": "Clothing Description",
+            "content": "衣服の色や素材を組み合わせて説明。",
+            "example_combination": "SHIRT + BLUE + SOFT（シャツ＋青＋やわらかい） = The soft blue shirt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-022",
+      "level": 2,
+      "chapter": 1,
+      "title": "Home & Furniture 家・家具",
+      "objectives": ["家の部屋と家具を表現できる"],
+      "content": {
+        "introduction": "家の中の環境と日常で使う家具について学びます。",
+        "sections": [
+          {
+            "title": "BEDROOM - 寝室",
+            "content": "握った手を頭の側に当てて寝ている形。その後 ROOM を示す。",
+            "handshape": "Closed Fist → Open Hand",
+            "location": "頭 → 体の前",
+            "movement": "寝る形 → 部屋を示す",
+            "example": "MY BEDROOM BIG（私の寝室は大きいです）"
+          },
+          {
+            "title": "KITCHEN - 台所",
+            "content": "握った手をひっくり返す（調理する動き）。その後 ROOM を示す。",
+            "handshape": "Closed Fist → Open Hand",
+            "location": "体の前 → 体の前",
+            "movement": "調理する → 部屋を示す",
+            "example": "KITCHEN CLEAN（台所はきれいです）"
+          },
+          {
+            "title": "BED - ベッド",
+            "content": "握った両手を並べて、ベッドの形を示す。",
+            "handshape": "Closed Fist or Flat Hand（両手）",
+            "location": "体の前",
+            "movement": "ベッドの形",
+            "example": "MY BED SOFT（私のベッドはやわらかいです）"
+          },
+          {
+            "title": "SOFA - ソファ",
+            "content": "握った両手を背中側に並べて、ソファの背もたれを示す。",
+            "handshape": "Closed Fist（両手）",
+            "location": "体の後ろ",
+            "movement": "ソファの形",
+            "example": "SOFA COMFORTABLE（ソファは快適です）"
+          },
+          {
+            "title": "DOOR - ドア",
+            "content": "握った両手を重ねて、ドアのオープン・クローズ動作を示す。",
+            "handshape": "Closed Fist or Flat Hand（両手）",
+            "location": "体の前",
+            "movement": "ドアを開け閉めする",
+            "example": "DOOR OPEN（ドアが開いています）"
+          },
+          {
+            "title": "WINDOW - 窓",
+            "content": "握った両手で窓の形を示す。または人差し指で窓枠を描く。",
+            "handshape": "Closed Fist or L-hand（両手）",
+            "location": "体の前",
+            "movement": "窓の形",
+            "example": "WINDOW BRIGHT（窓は明るいです）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-023",
+      "level": 2,
+      "chapter": 1,
+      "title": "Food Preparation & Meals 食事の準備・食卓",
+      "objectives": ["料理と食卓の動詞を習得できる"],
+      "content": {
+        "introduction": "食事に関する複雑な動作と日常の食卓について学びます。",
+        "sections": [
+          {
+            "title": "COOK - 料理する",
+            "content": "握った手をひっくり返す動き（混ぜる）を繰り返す。調理の一般的な動作。",
+            "handshape": "Closed Fist or Claw Hand",
+            "location": "体の前",
+            "movement": "ひっくり返す・混ぜる",
+            "example": "I COOK DINNER（私は夕食を料理します）"
+          },
+          {
+            "title": "BREAKFAST - 朝食",
+            "content": "朝を示す（日の出）後に EAT を示す。または B-hand で BREAKFAST。",
+            "handshape": "Open Hand → Claw Hand",
+            "location": "地平線 → 口",
+            "movement": "朝日 → 食べる",
+            "example": "I EAT BREAKFAST 8 O'CLOCK（私は8時に朝食を食べます）"
+          },
+          {
+            "title": "LUNCH - 昼食",
+            "content": "昼を示す（太陽が高い）後に EAT を示す。",
+            "handshape": "Open Hand → Claw Hand",
+            "location": "頭上 → 口",
+            "movement": "太陽 → 食べる",
+            "example": "LUNCH TIME 12 O'CLOCK（昼食は正午です）"
+          },
+          {
+            "title": "DINNER - 夕食",
+            "content": "夕方を示す（日の沈み）後に EAT を示す。",
+            "handshape": "Open Hand → Claw Hand",
+            "location": "地平線 → 口",
+            "movement": "夕日 → 食べる",
+            "example": "WE EAT DINNER TOGETHER（私たちは一緒に夕食を食べます）"
+          },
+          {
+            "title": "SET-TABLE - テーブルを整える",
+            "content": "握った手でテーブルに食器を置く動作を繰り返す。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "テーブル",
+            "movement": "置く・広げる",
+            "example": "I SET-TABLE BEFORE DINNER（私は食事の前にテーブルを整えます）"
+          },
+          {
+            "title": "WASH-DISHES - 皿洗い",
+            "content": "握った手を重ねて、洗う動きを繰り返す。",
+            "handshape": "Closed Fist or Curved Hand（両手）",
+            "location": "体の前",
+            "movement": "洗う・こする",
+            "example": "I WASH-DISHES AFTER DINNER（私は夕食後に皿洗いをします）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-024",
+      "level": 2,
+      "chapter": 2,
+      "title": "Weather & Seasons 天気・季節",
+      "objectives": ["気象と季節を表現できる"],
+      "content": {
+        "introduction": "天気や季節の変化は手話でよく使う表現です。",
+        "sections": [
+          {
+            "title": "RAIN - 雨",
+            "content": "両手の指を雨が降る動きで表現。両手を高い位置から下に動かす。",
+            "handshape": "Claw Hand or Curved Hand（両手）",
+            "location": "頭上～腰",
+            "movement": "下に降る動き",
+            "facial_expression": "雨の不快感や悲しさを表現",
+            "example": "TODAY RAIN（今日は雨です）"
+          },
+          {
+            "title": "SNOW - 雪",
+            "content": "両手の指を雪が降る動きで表現。両手を高い位置からゆっくり下に動かす。",
+            "handshape": "Claw Hand or Curved Hand（両手）",
+            "location": "頭上～腰",
+            "movement": "ゆっくり下に降る",
+            "facial_expression": "喜びや美しさを表現",
+            "example": "WINTER SNOW（冬は雪です）"
+          },
+          {
+            "title": "SUN - 太陽",
+            "content": "握った手を空高くに上げて、太陽を表現。",
+            "handshape": "Closed Fist or O-hand",
+            "location": "空高く",
+            "movement": "静止か小さく揺れる",
+            "example": "SUNNY DAY（晴れた日）"
+          },
+          {
+            "title": "CLOUD - 雲",
+            "content": "握った両手を波打たせながら横に動かす。雲の形を表現。",
+            "handshape": "Claw Hand or Curved Hand（両手）",
+            "location": "頭上",
+            "movement": "波打つ",
+            "example": "CLOUDY（曇っています）"
+          },
+          {
+            "title": "WIND - 風",
+            "content": "両手を体の前で左右に揺らす。風に揺れる動きを表現。",
+            "handshape": "Open Hand or Curved Hand（両手）",
+            "location": "体の前",
+            "movement": "左右に揺れる",
+            "example": "WINDY DAY（風の強い日）"
+          },
+          {
+            "title": "SPRING - 春",
+            "content": "地から花が咲く動きを表現。握った両手から開いた手を出す。",
+            "handshape": "Closed Fist → Open Hand（両手）",
+            "location": "低い位置 → 高い位置",
+            "movement": "上に開く",
+            "example": "SPRING FLOWERS BEAUTIFUL（春の花は美しいです）"
+          },
+          {
+            "title": "SUMMER - 夏",
+            "content": "太陽を示した後、暑さで汗をぬぐう動きを表現。",
+            "handshape": "O-hand or Closed Fist → Open Hand",
+            "location": "頭上 → ほお",
+            "movement": "太陽 → 汗をぬぐう",
+            "example": "SUMMER HOT（夏は暑いです）"
+          },
+          {
+            "title": "AUTUMN - 秋",
+            "content": "葉が落ちる動きを表現。両手の指を下に動かす。",
+            "handshape": "Claw Hand（両手）",
+            "location": "頭上～腰",
+            "movement": "下に落ちる",
+            "example": "AUTUMN LEAVES BEAUTIFUL（秋の紅葉は美しいです）"
+          },
+          {
+            "title": "WINTER - 冬",
+            "content": "寒さを感じて身体を丸める動きで表現。または雪を示す。",
+            "handshape": "Curved Hand or Claw Hand",
+            "location": "身体全体",
+            "movement": "縮こまる or 降る",
+            "facial_expression": "寒さの表情",
+            "example": "WINTER COLD（冬は寒いです）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-025",
+      "level": 2,
+      "chapter": 2,
+      "title": "Health & Body Care 健康・身の回りの世話",
+      "objectives": ["健康と身の回りの世話に関する手話を習得できる"],
+      "content": {
+        "introduction": "健康と衛生は手話コミュニティで重要なテーマです。",
+        "sections": [
+          {
+            "title": "SICK - 病気",
+            "content": "握った両手を頭と腹に当てて、病気を表現。",
+            "handshape": "Closed Fist or Claw Hand（両手）",
+            "location": "頭・腹",
+            "movement": "当てる",
+            "facial_expression": "不調の表情・眉を下げる",
+            "example": "I SICK（私は病気です）"
+          },
+          {
+            "title": "DOCTOR - 医者",
+            "content": "握った手を腕に当てて、診察する動きを示す。",
+            "handshape": "Closed Fist or Claw Hand",
+            "location": "腕",
+            "movement": "診察する",
+            "example": "I GO-TO DOCTOR（私は医者に行きます）"
+          },
+          {
+            "title": "HOSPITAL - 病院",
+            "content": "握った手を腕に当てた後、H-hand で建物を示す。",
+            "handshape": "Claw Hand → H-hand",
+            "location": "腕 → 体の前",
+            "movement": "診察 → 建物",
+            "example": "HOSPITAL NEAR MY-HOUSE（病院は私の家の近くです）"
+          },
+          {
+            "title": "MEDICINE - 薬",
+            "content": "握った手の中指で円を描く。薬の粒を表現。",
+            "handshape": "Closed Fist or Claw Hand",
+            "location": "体の前",
+            "movement": "円を描く",
+            "example": "I TAKE MEDICINE（私は薬を飲みます）"
+          },
+          {
+            "title": "EXERCISE - 運動",
+            "content": "両手を上下に動かして、運動している姿勢を表現。",
+            "handshape": "Open Hand or Closed Fist（両手）",
+            "location": "体の前",
+            "movement": "上下に動かす",
+            "example": "I EXERCISE EVERY-DAY（私は毎日運動します）"
+          },
+          {
+            "title": "SLEEP - 寝る（復習・強化版）",
+            "content": "A1で習った SLEEP をより詳しく。時間や睡眠の質を追加表現できます。",
+            "example_extended": "I SLEEP 8 HOURS GOOD（私は8時間よく眠ります）"
+          },
+          {
+            "title": "TIRED - 疲れた（復習・強化版）",
+            "content": "TIRED をより強調した表現。疲労度を表現できます。",
+            "example_extended": "I TIRED VERY-MUCH（私はとても疲れています）"
+          },
+          {
+            "title": "WASH - 洗う",
+            "content": "握った両手を洗う動作で表現。身体を洗う、手を洗う、など。",
+            "handshape": "Open Hand or Claw Hand（両手）",
+            "location": "身体各部",
+            "movement": "洗う・こする",
+            "example": "I WASH HANDS BEFORE EAT（私は食べる前に手を洗います）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-026",
+      "level": 2,
+      "chapter": 2,
+      "title": "Transportation & Travel 交通・旅行",
+      "objectives": ["交通手段と旅行に関する表現を習得できる"],
+      "content": {
+        "introduction": "移動と旅行は手話で頻繁に出てくるテーマです。",
+        "sections": [
+          {
+            "title": "BUS - バス",
+            "content": "握った手を運転ハンドルのように回す動き。大きなバスを示す。",
+            "handshape": "Closed Fist or C-hand（両手）",
+            "location": "体の前",
+            "movement": "ハンドルを回す",
+            "example": "I TAKE BUS TO SCHOOL（私はバスで学校に行きます）"
+          },
+          {
+            "title": "TRAIN - 電車",
+            "content": "握った両手を交互に前後に動かす。電車の走行を表現。",
+            "handshape": "L-hand or Closed Fist（両手）",
+            "location": "体の前",
+            "movement": "前後に動かす",
+            "example": "TRAIN FAST（電車は速いです）"
+          },
+          {
+            "title": "AIRPLANE - 飛行機",
+            "content": "両手を広げて飛行機の羽を示す。飛ぶ動きを表現。",
+            "handshape": "Open Hand or Peace Sign（両手）",
+            "location": "体の前～上",
+            "movement": "飛ぶ",
+            "example": "I FLY AIRPLANE TO TOKYO（私は飛行機で東京に行きます）"
+          },
+          {
+            "title": "BOAT - ボート",
+            "content": "握った手をボートのオールで水をかく動きを表現。",
+            "handshape": "Closed Fist or Open Hand（両手）",
+            "location": "体の前",
+            "movement": "水をかく",
+            "example": "BOAT SLOW（ボートは遅いです）"
+          },
+          {
+            "title": "TRAVEL - 旅行",
+            "content": "握った手を歩く人の形で前に動かす。移動を表現。",
+            "handshape": "Pointing Fingers or Peace Sign（両手）",
+            "location": "体の前",
+            "movement": "前に進む",
+            "example": "I TRAVEL SUMMER VACATION（私は夏休みに旅行します）"
+          },
+          {
+            "title": "HOTEL - ホテル",
+            "content": "握った手で建物を示す。またはH-hand で建物を表現。",
+            "handshape": "Closed Fist or H-hand（両手）",
+            "location": "体の前",
+            "movement": "建物の形",
+            "example": "HOTEL BIG（ホテルは大きいです）"
+          },
+          {
+            "title": "TICKET - 切符",
+            "content": "握った手を上下に動かして切符を示す。",
+            "handshape": "Closed Fist or Flat Hand",
+            "location": "体の前",
+            "movement": "上下に動かす",
+            "example": "I BUY TICKET（私は切符を買います）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-027",
+      "level": 2,
+      "chapter": 3,
+      "title": "Hobbies & Interests 趣味・興味",
+      "objectives": ["自分の趣味について表現できる"],
+      "content": {
+        "introduction": "趣味についての会話は自己表現の重要な要素です。",
+        "sections": [
+          {
+            "title": "HOBBY - 趣味",
+            "content": "H-hand で示すか、LIKE + ACTIVITY で表現。",
+            "handshape": "H-hand or Open Hand",
+            "location": "体の前",
+            "movement": "示す or 説明的",
+            "example": "MY HOBBY IS PHOTOGRAPHY（私の趣味は写真です）"
+          },
+          {
+            "title": "MUSIC - 音楽",
+            "content": "手を音楽のリズムに合わせて動かす。または M-hand で示す。",
+            "handshape": "M-hand or Curved Hand（両手）",
+            "location": "体の前",
+            "movement": "リズミカルに動く",
+            "example": "I LIKE MUSIC（私は音楽が好きです）"
+          },
+          {
+            "title": "PAINTING - 絵を描く",
+            "content": "握った手でブラシを持つ形。キャンバスに描く動きを表現。",
+            "handshape": "Closed Fist or Pinch Hand",
+            "location": "体の前",
+            "movement": "描く・塗る",
+            "example": "I ENJOY PAINTING（私は絵を描くことを楽しんでいます）"
+          },
+          {
+            "title": "PHOTOGRAPHY - 写真",
+            "content": "握った両手を眼の前に持ってカメラの形を作り、シャッターを切る動き。",
+            "handshape": "Closed Fist（両手）",
+            "location": "眼の前",
+            "movement": "シャッターを切る",
+            "example": "PHOTOGRAPHY MY FAVORITE（写真は私のお気に入りです）"
+          },
+          {
+            "title": "MOVIES - 映画",
+            "content": "両手で映画スクリーンの大きさを示す。または目の前で映画を見ている姿勢。",
+            "handshape": "Open Hand or Flat Hand（両手）",
+            "location": "体の前",
+            "movement": "スクリーンを示す",
+            "example": "I WATCH MOVIES EVERY-WEEK（私は毎週映画を見ます）"
+          },
+          {
+            "title": "READING - 読む（強化版）",
+            "content": "A1で習った READ をより詳しく。本の種類を追加。",
+            "example_extended": "I READ MYSTERY BOOKS（私は推理小説を読みます）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-028",
+      "level": 2,
+      "chapter": 3,
+      "title": "Shopping & Money 買い物・お金",
+      "objectives": ["買い物と金銭に関する表現を習得できる"],
+      "content": {
+        "introduction": "買い物は日常生活で必須の活動です。",
+        "sections": [
+          {
+            "title": "SHOP / STORE - 店",
+            "content": "握った手を重ねて、店の形を示す。",
+            "handshape": "Closed Fist or Flat Hand（両手）",
+            "location": "体の前",
+            "movement": "建物の形",
+            "example": "I GO SHOP（私は店に行きます）"
+          },
+          {
+            "title": "BUY - 買う",
+            "content": "握った手を胸に入れるようにして金銭を払う動作。",
+            "handshape": "Closed Fist or Claw Hand（両手）",
+            "location": "胸",
+            "movement": "支払う動き",
+            "example": "I BUY APPLE（私はりんごを買います）"
+          },
+          {
+            "title": "MONEY - お金",
+            "content": "人差し指と中指で札を持つ形。または M-hand で示す。",
+            "handshape": "Peace Sign or M-hand",
+            "location": "体の前",
+            "movement": "札を示す",
+            "example": "MONEY COST HOW-MUCH?（これはいくらですか？）"
+          },
+          {
+            "title": "EXPENSIVE - 高い",
+            "content": "握った手を上に上げる。価格が高いことを示す。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "体の前～上",
+            "movement": "上に上がる",
+            "example": "THIS EXPENSIVE（これは高いです）"
+          },
+          {
+            "title": "CHEAP - 安い",
+            "content": "握った手を下に下げる。価格が低いことを示す。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "体の前～下",
+            "movement": "下に下がる",
+            "example": "THIS CHEAP（これは安いです）"
+          },
+          {
+            "title": "DISCOUNT - 割引",
+            "content": "握った手を数値で示してから、減らすジェスチャー。",
+            "handshape": "Closed Fist or Numbers",
+            "location": "体の前",
+            "movement": "数値を示す → 減らす",
+            "example": "DISCOUNT 20%（20%割引）"
+          },
+          {
+            "title": "PAY - 支払う",
+            "content": "握った手を相手に向かって出す支払いの動き。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "体の前",
+            "movement": "相手に向かって出す",
+            "example": "I PAY CASH（私は現金で支払います）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-029",
+      "level": 2,
+      "chapter": 3,
+      "title": "Complex Emotions & Descriptors 複雑な感情・描写",
+      "objectives": ["より複雑な感情や描写を表現できる"],
+      "content": {
+        "introduction": "A1の基本感情を超えた、より微妙な感情表現を習います。",
+        "sections": [
+          {
+            "title": "NERVOUS - 緊張している",
+            "content": "握った手を胸に当てて、緊張を表現。体を少し震わせることもある。",
+            "handshape": "Closed Fist or Claw Hand",
+            "location": "胸",
+            "movement": "当てる or 小刻みに動く",
+            "facial_expression": "緊張・不安の表情",
+            "example": "I NERVOUS（私は緊張しています）"
+          },
+          {
+            "title": "EXCITED - 興奮している",
+            "content": "両手を上下に動かして興奮を表現。顔の表情も明るく。",
+            "handshape": "Open Hand or Claw Hand（両手）",
+            "location": "体の前～上",
+            "movement": "上下に動く",
+            "facial_expression": "大きな笑顔・眉を上げる",
+            "example": "I EXCITED VERY（私はとても興奮しています）"
+          },
+          {
+            "title": "BORED - 退屈している",
+            "content": "握った手をほおに当てて、退屈そうな顔をする。",
+            "handshape": "Closed Fist or Claw Hand（両手）",
+            "location": "ほお",
+            "movement": "当てる",
+            "facial_expression": "退屈そうな顔・眉を下げる",
+            "example": "I BORED（私は退屈しています）"
+          },
+          {
+            "title": "CONFUSED - 混乱している",
+            "content": "握った両手を眼の前で左右に振る。混乱を表現。",
+            "handshape": "Closed Fist or Claw Hand（両手）",
+            "location": "眼の前",
+            "movement": "左右に振る",
+            "facial_expression": "疑問・混乱の表情",
+            "example": "I CONFUSED（私は混乱しています）"
+          },
+          {
+            "title": "PROUD - 誇りに思う",
+            "content": "握った手を胸に当てて、胸を張る動作。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "胸",
+            "movement": "胸に当てる",
+            "facial_expression": "誇り・自信の表情",
+            "example": "I PROUD MY WORK（私は自分の仕事を誇りに思います）"
+          },
+          {
+            "title": "ASHAMED - 恥ずかしい",
+            "content": "握った手をほおに当てて、顔を下げる。または握った手を額に当てる。",
+            "handshape": "Closed Fist or Claw Hand",
+            "location": "ほお or 額",
+            "movement": "当てる・下げる",
+            "facial_expression": "恥ずかしい・申し訳ない表情",
+            "example": "I ASHAMED（私は恥ずかしいです）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-030",
+      "level": 2,
+      "chapter": 4,
+      "title": "Complex Verbs - Tense & Aspect 複雑な動詞・時制と相",
+      "objectives": ["手話の時制と相を理解し表現できる"],
+      "content": {
+        "introduction": "手話では、時制は時間表現と手の位置で示します。相（aspectual marking）は動きの繰り返しで表現されます。",
+        "sections": [
+          {
+            "title": "Past Tense - 過去時制",
+            "content": "過去を示す時間表現（YESTERDAY, LAST-WEEK など）を最初に示す。または親指を後ろに向ける。",
+            "example": "YESTERDAY I GO SCHOOL（昨日、私は学校に行きました）",
+            "structure": "TIME-MARKER + SUBJECT + ACTION（-ed の表現はない）"
+          },
+          {
+            "title": "Present Tense - 現在時制",
+            "content": "現在を示す時間表現（TODAY, NOW など）を示す。または時間表現をスキップ。",
+            "example": "NOW I READ BOOK（今、私は本を読んでいます）",
+            "structure": "時間表現は省略可能"
+          },
+          {
+            "title": "Future Tense - 未来時制",
+            "content": "未来を示す時間表現（TOMORROW, NEXT-WEEK など）を最初に示す。または親指を前に向ける。",
+            "example": "TOMORROW I GO MOVIE（明日、私は映画に行きます）",
+            "structure": "TIME-MARKER + SUBJECT + ACTION（will の表現はない）"
+          },
+          {
+            "title": "Continuous Aspect - 継続的な動作",
+            "content": "動作を繰り返すか、または long signing technique で継続性を表現。",
+            "example": "I STUDY ALL-DAY（私は一日中勉強しています）- STUDY を繰り返すか長く持続",
+            "technique": "動きを繰り返す or 動きを長く保つ"
+          },
+          {
+            "title": "Habitual Aspect - 習慣的な動作",
+            "content": "時間表現（EVERY-DAY, ALWAYS など）を加えて習慣性を表現。",
+            "example": "I EXERCISE EVERY-DAY（私は毎日運動します）",
+            "technique": "EVERY + TIME-UNIT + ACTION"
+          },
+          {
+            "title": "Perfective Aspect - 完了相",
+            "content": "動作の完了を FINISH で示す。または動作の後に ALREADY を加える。",
+            "example": "I FINISH EAT DINNER（私は夕食を食べ終わりました）or I EAT DINNER ALREADY",
+            "technique": "ACTION + FINISH or ACTION + ALREADY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-031",
+      "level": 3,
+      "chapter": 1,
+      "title": "Advanced Grammar - Negation & Agreement B1文法 - 否定と一致",
+      "objectives": ["複雑な否定と合意表現を習得できる"],
+      "content": {
+        "introduction": "B1から始まる文法は、より複雑な否定と合意表現です。",
+        "sections": [
+          {
+            "title": "Simple Negation - 単純否定",
+            "content": "文末に NOT を加えて否定を表現。頭を左右に振る。",
+            "example": "I LIKE SPINACH NOT（私はほうれん草が好きではありません）",
+            "structure": "SUBJECT + OBJECT + VERB + NOT（頭左右振り）"
+          },
+          {
+            "title": "Double Negation - 二重否定",
+            "content": "双方の側面から否定を表現。一般的に「確実に〜ではない」という意味。",
+            "example": "I NOT-LIKE + SPINACH NOT（私は本当にほうれん草が好きではありません）",
+            "technique": "否定 + 対象 + 否定（二重強調）"
+          },
+          {
+            "title": "Zero/Nothing - ゼロ・何もない",
+            "content": "O-hand をしてから開く。空っぽを表現。",
+            "example": "I HAVE NOTHING（私は何も持っていません）",
+            "handshape": "O-hand → Open Hand"
+          },
+          {
+            "title": "Agreement/Disagreement - 同意・不同意（強化版）",
+            "content": "A1で習った基本を超えた、より複雑な同意・不同意表現。",
+            "agreement_strong": "YES + 頭上下振り + 笑顔で強い同意",
+            "disagreement_strong": "NO + 頭左右振り + 眉を下げて強い不同意"
+          },
+          {
+            "title": "Conditional Agreement - 条件付き同意",
+            "content": "「もし〜なら」という条件の下での同意。",
+            "example": "IF WEATHER NICE, TOMORROW WE PLAY BASEBALL（もし天気が良ければ、明日野球をしましょう）",
+            "structure": "IF + CONDITION, THEN + CONSEQUENCE"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-032",
+      "level": 3,
+      "chapter": 1,
+      "title": "Cause & Effect / Conditionals 因果関係・条件文",
+      "objectives": ["因果関係と条件を表現できる"],
+      "content": {
+        "introduction": "複雑な関係を表現するために、因果関係と条件文は重要です。",
+        "sections": [
+          {
+            "title": "Because - なぜなら",
+            "content": "REASON を示してから、その理由を説明。",
+            "example": "WHY YOU HAPPY? BECAUSE I PASS EXAM（なぜ幸せですか？なぜなら試験に合格したからです）",
+            "structure": "SUBJECT + VERB + BECAUSE + REASON"
+          },
+          {
+            "title": "If...Then - もし〜なら、その時は",
+            "content": "条件を示してから、その結果を示す。",
+            "example": "IF RAIN, THEN CANCEL PICNIC（もし雨なら、ピクニックをキャンセルします）",
+            "structure": "IF + CONDITION, THEN + RESULT"
+          },
+          {
+            "title": "Result/Therefore - 結果・したがって",
+            "content": "前の文の結果として、新しい文を示す。",
+            "example": "I STUDY HARD, THEREFORE PASS EXAM（私は一生懸命勉強した、したがって試験に合格しました）",
+            "structure": "CAUSE + THEREFORE / RESULT"
+          },
+          {
+            "title": "Although/Despite - 〜にもかかわらず",
+            "content": "相反する2つの事実を同時に示す。",
+            "example": "ALTHOUGH RAIN, I GO OUTSIDE（雨にもかかわらず、私は外に行きました）",
+            "structure": "ALTHOUGH + OPPOSITE-FACT, STILL + ACTION"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-033",
+      "level": 3,
+      "chapter": 1,
+      "title": "Complex Sentences - Combining Ideas 複雑な文 - 考えの組み合わせ",
+      "objectives": ["複数の考えを手話で結合できる"],
+      "content": {
+        "introduction": "B1では、複数の意見や事実を結合して表現する能力が必要です。",
+        "sections": [
+          {
+            "title": "Coordination - 並列",
+            "content": "2つ以上の同等の要素を同時に示す。AND, OR, BUT で結合。",
+            "example_and": "I LIKE APPLE AND ORANGE（私はりんごとみかんが好きです）",
+            "example_or": "YOU LIKE COFFEE OR TEA?（あなたはコーヒーかお茶が好きですか？）",
+            "example_but": "I LIKE PIZZA BUT NOT-LIKE SPINACH（私はピザが好きですが、ほうれん草は好きではありません）"
+          },
+          {
+            "title": "Subordination - 従属",
+            "content": "主文と従属文の関係。従属節が先に来ることもある。",
+            "example": "WHEN YOU ARRIVE, I WAIT（あなたが到着する時、私は待ちます）"
+          },
+          {
+            "title": "Multiple Objects - 複数の目的語",
+            "content": "複数の対象を同時に示す。通常は列挙する。",
+            "example": "I BUY APPLE, ORANGE, BANANA（私はりんご、みかん、バナナを買いました）"
+          },
+          {
+            "title": "Multiple Verbs - 複数の動詞",
+            "content": "1つの主語で複数の動作を示す。",
+            "example": "I EAT BREAKFAST, THEN BRUSH TEETH, THEN GO SCHOOL（私は朝食を食べて、歯を磨いて、学校に行きました）",
+            "structure": "ACTION1, THEN ACTION2, THEN ACTION3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-034",
+      "level": 3,
+      "chapter": 2,
+      "title": "Professional & Work Environment 職業・職場環境",
+      "objectives": ["職業と職場について表現できる"],
+      "content": {
+        "introduction": "職業は自己紹介と社会性の重要な要素です。",
+        "sections": [
+          {
+            "title": "WORK - 働く",
+            "content": "握った両手を交互に前後に動かす。または両手を前に出す。",
+            "handshape": "Closed Fist or Flat Hand（両手）",
+            "location": "体の前",
+            "movement": "交互に動かす",
+            "example": "I WORK HARD（私は一生懸命働きます）"
+          },
+          {
+            "title": "JOB - 仕事",
+            "content": "握った両手を交互に動かす。WORK と似ていますが、名詞として。",
+            "handshape": "Closed Fist（両手）",
+            "location": "体の前",
+            "movement": "交互に動かす",
+            "example": "MY JOB ENGINEER（私の仕事はエンジニアです）"
+          },
+          {
+            "title": "OFFICE - オフィス",
+            "content": "握った両手を並べて、建物の形を示す。",
+            "handshape": "Closed Fist or Flat Hand（両手）",
+            "location": "体の前",
+            "movement": "建物の形",
+            "example": "MY OFFICE DOWNTOWN（私のオフィスはダウンタウンにあります）"
+          },
+          {
+            "title": "BOSS - 上司",
+            "content": "B-hand を用いるか、LEADER を示す。",
+            "handshape": "B-hand or Thumbs Up",
+            "location": "頭上",
+            "movement": "示す",
+            "example": "MY BOSS KIND（私の上司は優しいです）"
+          },
+          {
+            "title": "COLLEAGUE - 同僚",
+            "content": "握った手を肩を並べるように示す。または FRIEND + WORK。",
+            "handshape": "Closed Fist or Open Hand（両手）",
+            "location": "肩の高さ",
+            "movement": "並べる",
+            "example": "I WORK WITH COLLEAGUE（私は同僚と働いています）"
+          },
+          {
+            "title": "MEETING - 会議",
+            "content": "握った両手を合わせて、人々が集まる形。",
+            "handshape": "Closed Fist or Open Hand（両手）",
+            "location": "体の前",
+            "movement": "合わせる or 示す",
+            "example": "TODAY MEETING 2 O'CLOCK（今日の会議は2時です）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-035",
+      "level": 3,
+      "chapter": 2,
+      "title": "Education & Academic Subjects 教育・学問科目",
+      "objectives": ["教科と学問について表現できる"],
+      "content": {
+        "introduction": "学問は高度な手話表現が必要です。",
+        "sections": [
+          {
+            "title": "MATHEMATICS - 数学",
+            "content": "握った手で+と×と=を空中に描く。または M-hand で示す。",
+            "handshape": "Pointing Finger or M-hand",
+            "location": "体の前",
+            "movement": "記号を描く",
+            "example": "I STUDY MATHEMATICS（私は数学を勉強しています）"
+          },
+          {
+            "title": "SCIENCE - 科学",
+            "content": "握った手をビーカーのような形で示す。または S-hand で。",
+            "handshape": "C-hand or S-hand",
+            "location": "体の前",
+            "movement": "ビーカーを示す",
+            "example": "SCIENCE INTERESTING（科学は興味深いです）"
+          },
+          {
+            "title": "HISTORY - 歴史",
+            "content": "握った手を過去の方向（後ろ）に向かって示す。PAST + STORY。",
+            "handshape": "Closed Fist or H-hand",
+            "location": "肩越し",
+            "movement": "後ろに指す",
+            "example": "I LIKE HISTORY（私は歴史が好きです）"
+          },
+          {
+            "title": "LANGUAGE - 言語",
+            "content": "握った手を口の周りで動かす。会話・言語を表現。",
+            "handshape": "Open Hand or Claw Hand",
+            "location": "口の周り",
+            "movement": "口の周りで動く",
+            "example": "I STUDY THREE LANGUAGE（私は3つの言語を勉強しています）"
+          },
+          {
+            "title": "GEOGRAPHY - 地理",
+            "content": "握った両手を地球の形で示す。",
+            "handshape": "O-hand（両手）",
+            "location": "体の前",
+            "movement": "地球を示す",
+            "example": "GEOGRAPHY ABOUT WORLD（地理は世界についてです）"
+          },
+          {
+            "title": "LITERATURE - 文学",
+            "content": "握った両手でページをめくる動き。BOOK + STORY。",
+            "handshape": "Open Hand or Flat Hand（両手）",
+            "location": "体の前",
+            "movement": "ページをめくる",
+            "example": "I ENJOY LITERATURE（私は文学を楽しんでいます）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-036",
+      "level": 3,
+      "chapter": 2,
+      "title": "Comparison & Preferences 比較・好み",
+      "objectives": ["2つのものを比較して好みを表現できる"],
+      "content": {
+        "introduction": "比較は高度な表現スキルです。",
+        "sections": [
+          {
+            "title": "MORE - より多い",
+            "content": "握った手を上に向かって上げる。量が多いことを示す。",
+            "handshape": "Curved Hand or Claw Hand",
+            "location": "体の前",
+            "movement": "上に上げる",
+            "example": "I LIKE APPLE MORE THAN ORANGE（私はみかんよりりんごが好きです）"
+          },
+          {
+            "title": "LESS - より少ない",
+            "content": "握った手を下に向かって下げる。量が少ないことを示す。",
+            "handshape": "Curved Hand or Claw Hand",
+            "location": "体の前",
+            "movement": "下に下げる",
+            "example": "I LIKE SPINACH LESS（私はほうれん草が少ない好きです）"
+          },
+          {
+            "title": "SAME - 同じ",
+            "content": "握った人差し指を上下に動かす。または両方の手を同じ位置に持つ。",
+            "handshape": "Pointing Finger or H-hand",
+            "location": "体の前",
+            "movement": "上下に動かす",
+            "example": "WE LIKE SAME THING（私たちは同じものが好きです）"
+          },
+          {
+            "title": "DIFFERENT - 違う",
+            "content": "握った両手の人差し指を交差させてから開く。違いを示す。",
+            "handshape": "Pointing Finger or V-hand（両手）",
+            "location": "体の前",
+            "movement": "交差させてから開く",
+            "example": "WE LIKE DIFFERENT THING（私たちは違うものが好きです）"
+          },
+          {
+            "title": "PREFER - 〜の方が好き",
+            "content": "握った手を顔の前で、さらに高く上げる。好みを強調。",
+            "handshape": "Thumbs Up or Open Hand",
+            "location": "顔の前～上",
+            "movement": "上に上げる",
+            "example": "I PREFER PIZZA（ピザの方が好きです）"
+          },
+          {
+            "title": "COMPARE - 比較する",
+            "content": "握った両手を左右に示して、比較する。",
+            "handshape": "Closed Fist or Open Hand（両手）",
+            "location": "体の左右",
+            "movement": "左右に示す",
+            "example": "COMPARE APPLE AND ORANGE（りんごとみかんを比較します）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-037",
+      "level": 3,
+      "chapter": 3,
+      "title": "Problems & Solutions 問題・解決策",
+      "objectives": ["問題を説明し、解決策を提案できる"],
+      "content": {
+        "introduction": "問題の説明と解決は、実用的な手話スキルです。",
+        "sections": [
+          {
+            "title": "PROBLEM - 問題",
+            "content": "握った手を額に当てて、困りを表現。または P-hand で示す。",
+            "handshape": "Closed Fist or P-hand",
+            "location": "額",
+            "movement": "当てる or 示す",
+            "example": "I HAVE PROBLEM（私は問題があります）"
+          },
+          {
+            "title": "DIFFICULT - 難しい",
+            "content": "握った両手の指を折る動き。または両手を上下に動かす。",
+            "handshape": "Claw Hand or Curved Hand（両手）",
+            "location": "体の前",
+            "movement": "折る or 上下に動かす",
+            "facial_expression": "困った顔",
+            "example": "THIS VERY DIFFICULT（これはとても難しいです）"
+          },
+          {
+            "title": "EASY - 簡単",
+            "content": "握った手から開いた手へ。楽さを表現。",
+            "handshape": "Closed Fist → Open Hand",
+            "location": "体の前",
+            "movement": "開く",
+            "facial_expression": "笑顔",
+            "example": "THIS EASY（これは簡単です）"
+          },
+          {
+            "title": "SOLUTION - 解決策",
+            "content": "握った手を開く。問題が解決することを示す。",
+            "handshape": "Closed Fist → Open Hand",
+            "location": "体の前",
+            "movement": "開く",
+            "example": "WE FIND SOLUTION（私たちは解決策を見つけました）"
+          },
+          {
+            "title": "FIX - 直す",
+            "content": "握った手を回転させるか、修理する動きを示す。",
+            "handshape": "Closed Fist or Claw Hand",
+            "location": "体の前",
+            "movement": "回転させる or 修理する動き",
+            "example": "I FIX COMPUTER（私はコンピュータを直します）"
+          },
+          {
+            "title": "HELP - 助ける",
+            "content": "握った手を下から上に持ち上げる。支援を表現。",
+            "handshape": "Open Hand or Closed Fist",
+            "location": "体の前",
+            "movement": "下から上に持ち上げる",
+            "example": "CAN YOU HELP ME?（あなたは私を手伝ってくれますか？）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-038",
+      "level": 3,
+      "chapter": 3,
+      "title": "Advanced Descriptions & Attributes 高度な描写・属性",
+      "objectives": ["より複雑な物を詳しく描写できる"],
+      "content": {
+        "introduction": "B1では、より複雑で詳細な描写が要求されます。",
+        "sections": [
+          {
+            "title": "BEAUTIFUL - 美しい",
+            "content": "握った手を顔の前から離しながら開く。美しさが広がる表現。",
+            "handshape": "Closed Fist → Open Hand",
+            "location": "顔の前～前方",
+            "movement": "開きながら離す",
+            "facial_expression": "感動の表情",
+            "example": "SUNSET BEAUTIFUL（夕焼けは美しいです）"
+          },
+          {
+            "title": "UGLY - 醜い",
+            "content": "握った手を顔に近づけながら眉をひそめる。嫌悪を表現。",
+            "handshape": "Claw Hand",
+            "location": "顔の前",
+            "movement": "顔に近づける",
+            "facial_expression": "嫌悪の表情",
+            "example": "THIS UGLY（これは醜いです）"
+          },
+          {
+            "title": "CLEAN - きれい",
+            "content": "握った手を上から下へ動かす。清潔さを示す。",
+            "handshape": "Open Hand or Flat Hand",
+            "location": "体の前",
+            "movement": "上から下へ",
+            "facial_expression": "満足の表情",
+            "example": "HOUSE CLEAN（家はきれいです）"
+          },
+          {
+            "title": "DIRTY - 汚い",
+            "content": "握った手を体に当てて、汚れを示す。または顔をしかめる。",
+            "handshape": "Claw Hand or Open Hand",
+            "location": "体の各部",
+            "movement": "当てる or こする",
+            "facial_expression": "不快の表情",
+            "example": "HANDS DIRTY（手は汚いです）"
+          },
+          {
+            "title": "SMOOTH - なめらか",
+            "content": "握った手を上下にゆっくり動かす。なめらかさを表現。",
+            "handshape": "Open Hand or Flat Hand",
+            "location": "体の前",
+            "movement": "ゆっくり上下に動く",
+            "example": "SILK SMOOTH（シルクはなめらかです）"
+          },
+          {
+            "title": "ROUGH - ざらざら",
+            "content": "握った手を上下に素早く動かす。または両手をこする。",
+            "handshape": "Claw Hand or Curved Hand（両手）",
+            "location": "体の前",
+            "movement": "素早く上下に動く or こする",
+            "example": "SANDPAPER ROUGH（サンドペーパーはざらざらです）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-039",
+      "level": 3,
+      "chapter": 4,
+      "title": "Time Expressions - Temporal Relationships 時間表現・時間関係",
+      "objectives": ["複雑な時間関係を表現できる"],
+      "content": {
+        "introduction": "時間の表現は手話で特に発達した領域です。",
+        "sections": [
+          {
+            "title": "BEFORE - 前に",
+            "content": "握った手を肩越しの後ろから、体の前に動かす。過去を通り抜ける動き。",
+            "handshape": "Closed Fist or Thumbs Up",
+            "location": "肩越し → 体の前",
+            "movement": "過去から現在へ",
+            "example": "BEFORE I WORK DIFFERENT COMPANY（前に、私は別の会社で働いていました）"
+          },
+          {
+            "title": "AFTER - 後で",
+            "content": "握った手を体の前から、前方に向かって動かす。未来に進む動き。",
+            "handshape": "Closed Fist or Thumbs Up",
+            "location": "体の前 → 前方",
+            "movement": "現在から未来へ",
+            "example": "AFTER WORK, I EAT DINNER（仕事の後、私は夕食を食べます）"
+          },
+          {
+            "title": "DURING - 間に",
+            "content": "握った人差し指を上下に動かす。期間を表現。",
+            "handshape": "Pointing Finger or H-hand",
+            "location": "体の前",
+            "movement": "上下に動かす",
+            "example": "DURING MEETING, NO-TALKING（会議の間は、話しません）"
+          },
+          {
+            "title": "UNTIL - まで",
+            "content": "握った人差し指を水平に示してから、現在の位置に向かって動かす。終わりを示す。",
+            "handshape": "Pointing Finger",
+            "location": "体の前",
+            "movement": "終わりに向かって動く",
+            "example": "I WORK UNTIL 5 O'CLOCK（私は5時まで働きます）"
+          },
+          {
+            "title": "SINCE - 以来",
+            "content": "握った人差し指を現在の位置から過去に動かす。継続を表現。",
+            "handshape": "Pointing Finger or H-hand",
+            "location": "現在 → 過去",
+            "movement": "過去に指す",
+            "example": "I WORK HERE SINCE 2020（私は2020年からここで働いています）"
+          },
+          {
+            "title": "SOMETIMES / OFTEN / ALWAYS - 時々 / よく / いつも",
+            "content": "動作の頻度を示す。手の動きの繰り返し数で頻度を表現。",
+            "sometimes": "動作を少ない回数繰り返す",
+            "often": "動作を中程度の回数繰り返す",
+            "always": "動作を繰り返し続ける or 連続的に示す",
+            "example": "I EXERCISE OFTEN（私はよく運動します）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-040",
+      "level": 3,
+      "chapter": 4,
+      "title": "Expressing Opinions & Debates 意見表明・議論",
+      "objectives": ["意見を表明し、議論に参加できる"],
+      "content": {
+        "introduction": "意見表明は高度な対話スキルです。",
+        "sections": [
+          {
+            "title": "THINK - 考える",
+            "content": "握った手を額に当てる。思考を表現。",
+            "handshape": "Closed Fist or Claw Hand",
+            "location": "額",
+            "movement": "当てる or 小刻みに動く",
+            "example": "I THINK THAT GOOD（私はそれが良いと思います）"
+          },
+          {
+            "title": "BELIEVE - 信じる",
+            "content": "握った手を胸に当てる。信念を表現。",
+            "handshape": "Closed Fist or Open Hand",
+            "location": "胸",
+            "movement": "当てる",
+            "example": "I BELIEVE IN YOU（私はあなたを信じています）"
+          },
+          {
+            "title": "AGREE - 同意する",
+            "content": "頭を上下に振りながら、同意を示す。",
+            "handshape": "頭の動き",
+            "location": "顔",
+            "movement": "上下に振る",
+            "facial_expression": "同意の笑顔",
+            "example": "I AGREE YOU（私はあなたに同意します）"
+          },
+          {
+            "title": "DISAGREE - 同意しない",
+            "content": "頭を左右に振りながら、不同意を示す。",
+            "handshape": "頭の動き",
+            "location": "顔",
+            "movement": "左右に振る",
+            "facial_expression": "不同意の表情",
+            "example": "I DISAGREE YOU（私はあなたに同意しません）"
+          },
+          {
+            "title": "OPINION - 意見",
+            "content": "握った手を額から口の前に動かす。思考が言葉になる表現。",
+            "handshape": "Closed Fist or Claw Hand",
+            "location": "額 → 口",
+            "movement": "下に動かす",
+            "example": "WHAT YOUR OPINION?（あなたの意見は何ですか？）"
+          },
+          {
+            "title": "SUGGEST - 提案する",
+            "content": "握った手を相手に向かって出す。提案を示す。",
+            "handshape": "Open Hand or Flat Hand",
+            "location": "体の前",
+            "movement": "相手に向かって出す",
+            "example": "I SUGGEST WE PLAY SOCCER（私はサッカーをすることを提案します）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-041",
+      "level": 3,
+      "chapter": 4,
+      "title": "Technology & Modern Life テクノロジー・現代生活",
+      "objectives": ["技術用語と現代生活について表現できる"],
+      "content": {
+        "introduction": "デジタル化した世界を表現するために、技術用語は不可欠です。",
+        "sections": [
+          {
+            "title": "COMPUTER - コンピュータ（復習・強化版）",
+            "content": "A1で習った COMPUTER をより詳しく。タイピングや操作を示す。",
+            "example_extended": "I USE COMPUTER WORK（私はコンピュータで仕事をします）"
+          },
+          {
+            "title": "PHONE - 携帯電話",
+            "content": "握った手を耳と口に当てて、電話をする動き。",
+            "handshape": "Closed Fist or C-hand",
+            "location": "耳・口",
+            "movement": "当てる",
+            "example": "I CALL YOU BY PHONE（私はあなたに電話で連絡します）"
+          },
+          {
+            "title": "INTERNET - インターネット",
+            "content": "握った手をウェブのように指を広げながら動かす。または I-hand で示す。",
+            "handshape": "Claw Hand or I-hand",
+            "location": "体の前",
+            "movement": "広げて動かす",
+            "example": "I SEARCH INTERNET（私はインターネットで検索します）"
+          },
+          {
+            "title": "EMAIL - メール",
+            "content": "握った手を運ぶように動かす。または E-hand で示す。",
+            "handshape": "Closed Fist or E-hand",
+            "location": "体の前",
+            "movement": "運ぶように動かす",
+            "example": "I SEND EMAIL YOU（私はあなたにメールを送ります）"
+          },
+          {
+            "title": "SOCIAL-MEDIA - ソーシャルメディア",
+            "content": "握った手を複数の人に広がるように示す。または S-hand で。",
+            "handshape": "Open Hand or S-hand（両手）",
+            "location": "体の前",
+            "movement": "広がる・多くの人へ",
+            "example": "I POST SOCIAL-MEDIA（私はソーシャルメディアに投稿します）"
+          },
+          {
+            "title": "CAMERA - カメラ（復習・強化版）",
+            "content": "A1で習った CAMERA をより詳しく。写真を撮る方法を示す。",
+            "example_extended": "I TAKE PHOTO WITH CAMERA（私はカメラで写真を撮ります）"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-042",
+      "level": 3,
+      "chapter": 4,
+      "title": "Advanced Directions & Locations 高度な方向・場所表現",
+      "objectives": ["複雑な場所と方向を指示できる"],
+      "content": {
+        "introduction": "複雑な場所説明や方向指示のスキル",
+        "sections": [
+          {"title": "LEFT / RIGHT - 左 / 右", "content": "握った人差し指を左右に指す", "example": "TURN LEFT（左に曲がってください）"},
+          {"title": "NORTH / SOUTH / EAST / WEST - 北南東西", "content": "手を4方向に示す", "example": "STORE NORTH MY-HOUSE（店は私の家の北です）"},
+          {"title": "ABOVE / BELOW - 上 / 下", "content": "手を上下に示す", "example": "PICTURE ABOVE DOOR（写真はドアの上です）"},
+          {"title": "BETWEEN - 間に", "content": "握った両手の間に物を示す", "example": "TREE BETWEEN TWO HOUSE（木は2つの家の間です）"},
+          {"title": "BESIDE - 横に", "content": "握った両手を並べて示す", "example": "I SIT BESIDE YOU（私はあなたの横に座ります）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-043",
+      "level": 3,
+      "chapter": 4,
+      "title": "Storytelling Techniques ストーリーテリング技法",
+      "objectives": ["物語を生き生きと語れる"],
+      "content": {
+        "introduction": "手話でのストーリーテリングは、Deaf文化の中心です",
+        "sections": [
+          {"title": "NARRATOR - 語り手の立場変更", "content": "異なる人物を示して、それぞれの視点で話す", "example": "HE SAY... / I SAY...（彼は言いました...／私は言いました...）"},
+          {"title": "ACTION SEQUENCE - 一連の動作", "content": "複数の動作を時間順に示す", "example": "I WAKE UP, EAT, GO WORK, MEET FRIEND（私は目覚めて、食べて、仕事に行って、友人に会いました）"},
+          {"title": "DIALOGUE CONSTRUCTION - 会話構築", "content": "異なるキャラクターの立場変更で会話を表現", "example": "A SAY HELLO / B SAY HELLO BACK（AはHELLOと言った／BはHELLO BACKと言った）"},
+          {"title": "EMPHASIS & INTENSITY - 強調・強度", "content": "動きを大きくまたは速くして強調", "example": "VERY SURPRISED（本当に驚いた）- SURPRISEDを大きく"},
+          {"title": "SENSORY DESCRIPTIONS - 感覚描写", "content": "見た目・音・感触・臭いを表現", "example": "FLOWER SMELL NICE（花は良い香りがします）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-044",
+      "level": 3,
+      "chapter": 4,
+      "title": "Abstract Concepts - Philosophy & Ideas 抽象的概念・哲学",
+      "objectives": ["抽象的な考えを表現できる"],
+      "content": {
+        "introduction": "抽象的な概念は手話で最も難しいレベル",
+        "sections": [
+          {"title": "LOVE - 愛", "content": "握った手を胸に当てて、心に抱く", "example": "I LOVE YOU（私はあなたを愛しています）"},
+          {"title": "HOPE - 希望", "content": "握った手を上に向かって上げる", "example": "I HOPE TOMORROW NICE（明日が良い日であることを望みます）"},
+          {"title": "FREEDOM - 自由", "content": "握った手を束縛から解放する動き", "example": "FREEDOM IMPORTANT（自由は重要です）"},
+          {"title": "JUSTICE - 正義", "content": "握った両手を天秤のように上下に動かす", "example": "JUSTICE FOR ALL（すべての人のための正義）"},
+          {"title": "PEACE - 平和", "content": "握った手を胸に当てて、静けさを表現", "example": "WORLD NEED PEACE（世界は平和が必要です）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-045",
+      "level": 4,
+      "chapter": 1,
+      "title": "Deaf Culture & History ろう文化・歴史",
+      "objectives": ["ろう文化と歴史を理解・表現できる"],
+      "content": {
+        "introduction": "B2からの学習：ろう文化は手話学習の不可欠な部分",
+        "sections": [
+          {"title": "DEAF-SCHOOL - ろう学校", "content": "手話は伝統的にろう学校で伝承されている", "example": "I STUDY DEAF-SCHOOL（私はろう学校で勉強しました）"},
+          {"title": "SIGN-LANGUAGE-HISTORY - 手話の歴史", "content": "手話の発展と言語地位の獲得について", "example": "SIGN-LANGUAGE RECOGNIZE OFFICIAL（手話が公式に認識されました）"},
+          {"title": "DEAF-CULTURE - ろう文化", "content": "ろうコミュニティの独特の文化・価値観", "example": "DEAF-CULTURE RICH COMMUNITY（ろう文化は豊かなコミュニティです）"},
+          {"title": "DEAF-PRIDE - ろう・プライド", "content": "ろう・アイデンティティへの誇り", "example": "DEAF-PRIDE IMPORTANT（ろう・プライドは重要です）"},
+          {"title": "CULTURAL-EVENTS - 文化行事", "content": "ろう・フェスティバルや集会", "example": "DEAF-FESTIVAL NEXT-MONTH（ろう・フェスティバルは来月です）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-046",
+      "level": 4,
+      "chapter": 1,
+      "title": "Sociolinguistics - Register & Formality 社会言語学・レジスター",
+      "objectives": ["文脈に応じた適切な手話レジスターを使い分けられる"],
+      "content": {
+        "introduction": "手話にも文脈に応じたレジスター（言語レベル）があります",
+        "sections": [
+          {"title": "CASUAL-REGISTER - カジュアルレジスター", "content": "友人同士での日常的な手話", "example": "HEY, WHAT-YOU-DO?（やあ、何してる？）"},
+          {"title": "FORMAL-REGISTER - フォーマルレジスター", "content": "公式な場での手話（プレゼン、式典など）", "example": "GOOD-MORNING, HOW-ARE-YOU? FINE, THANK-YOU（おはようございます、いかがお過ごしですか？元気です、ありがとうございます）"},
+          {"title": "PROFESSIONAL-REGISTER - プロフェッショナルレジスター", "content": "職場や専門的文脈での手話", "example": "MEETING NOW START（会議を始めます）"},
+          {"title": "INTIMATE-REGISTER - 親密なレジスター", "content": "家族や親友同士での手話", "example": "LOVE-YOU（愛してる）"},
+          {"title": "SIGN-VARIATION - 地域変種", "content": "異なる手話コミュニティの変種・バリエーション", "example": "DIFFERENT-SIGN IN DIFFERENT-PLACE（異なる場所では異なる手話）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-047",
+      "level": 4,
+      "chapter": 1,
+      "title": "Complex Narratives & Reported Speech 複雑なナレーション・報告演説",
+      "objectives": ["複雑なストーリーと報告を表現できる"],
+      "content": {
+        "introduction": "B2での最上級の物語表現スキル",
+        "sections": [
+          {"title": "REPORTED-SPEECH - 報告演説", "content": "他者の言葉を報告する際の時制や視点変更", "example": "HE SAY TOMORROW HE COME（彼は明日来ると言いました）"},
+          {"title": "EMBEDDED-NARRATIVES - 埋め込まれた物語", "content": "物語の中に物語を含める表現", "example": "I TELL FRIEND ABOUT MOVIE I WATCH（私は見た映画について友人に話しました）"},
+          {"title": "PERSPECTIVE-SHIFT - 視点変更", "content": "異なる人物の立場から同じ事実を語り直す", "example": "FROM MY-VIEW... / FROM HIS-VIEW...（私の見方では... / 彼の見方では...）"},
+          {"title": "IRONY & SARCASM - 皮肉・冗談", "content": "手話での皮肉と冗談の表現方法", "example": "OH VERY-SMART YOU!（ああ、あなたは本当に賢い！）- 眉を下げて皮肉"}
+        ]
+      }
+    },
+    {
+      "id": "sl-048",
+      "level": 4,
+      "chapter": 2,
+      "title": "Idioms & Expressions - Figurative Language イディオム・表現的言語",
+      "objectives": ["手話のイディオムと慣用表現を理解できる"],
+      "content": {
+        "introduction": "手話特有のイディオムと比喩表現",
+        "sections": [
+          {"title": "GIVE-UP - 諦める", "content": "握った手を肩から下に落とす動き", "example": "I TIRED, I GIVE-UP（疲れた、諦める）"},
+          {"title": "BREAK-DOWN - 壊れる / 崩れ落ちる", "content": "握った両手を壊れる動きで表現", "example": "MACHINE BREAK-DOWN（機械が壊れました）"},
+          {"title": "STAND-UP - 立ち上がる / 立ち向かう", "content": "椅子から立つ動きまたは困難に立ち向かう", "example": "I STAND-UP FOR RIGHT（私は権利のために立ち向かいます）"},
+          {"title": "BACK-OFF - 後退する / 譲歩する", "content": "後ろに下がる動き", "example": "I BACK-OFF THIS-TOPIC（このトピックから後退します）"},
+          {"title": "FACE-TO-FACE - 対面で", "content": "両手の人差し指を向かい合わせる", "example": "WE TALK FACE-TO-FACE（私たちは対面で話します）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-049",
+      "level": 4,
+      "chapter": 2,
+      "title": "Multilingual Sign Communication 多言語手話コミュニケーション",
+      "objectives": ["複数の手話体系を理解・使用できる"],
+      "content": {
+        "introduction": "国際手話と異なる国の手話システム",
+        "sections": [
+          {"title": "INTERNATIONAL-SIGN - 国際手話", "content": "異なる国のろう者同士が使う共通手話", "example": "I USE INTERNATIONAL-SIGN（私は国際手話を使います）"},
+          {"title": "ENGLISH-SIGN - 英語圏手話", "content": "英語の文法に基づく手話体系", "example": "ENGLISH-SIGN USE IN AMERICA（英語圏手話はアメリカで使われます）"},
+          {"title": "JAPANESE-SIGN - 日本手話", "content": "日本のろう文化・標準化された手話", "example": "I NATIVE JAPANESE-SIGN（私は日本手話が母語です）"},
+          {"title": "CODE-SWITCHING - コード切り替え", "content": "異なる手話体系を文脈に応じて切り替える", "example": "I SWITCH BETWEEN JSL AND INTERNATIONAL-SIGN（私はJSLと国際手話を切り替えます）"},
+          {"title": "SIGN-LITERACY - 手話識字", "content": "手話を文字で表記し記録する技術", "example": "SIGN-WRITING PRESERVE SIGN-LANGUAGE（サイン・ライティングは手話言語を保存します）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-050",
+      "level": 4,
+      "chapter": 2,
+      "title": "B2 Final Review & Capstone Project B2総復習・総合課題",
+      "objectives": ["B2レベルのすべての内容を統合できる"],
+      "content": {
+        "introduction": "B2 level（講義25-49）の総仕上げと総合課題",
+        "sections": [
+          {"title": "Complex Conversation Practice - 複雑な会話練習", "content": "職業・趣味・政治的意見など多角的テーマでの会話", "practice": [{"id": "sl-050-p1", "type": "dialogue", "scenario": "ろう者/聴者のペアでの30分間の深い会話"}]},
+          {"title": "Storytelling Assessment - ストーリーテリング評価", "content": "個人的経験・社会問題・フィクションなど複雑なストーリーを語る", "practice": [{"id": "sl-050-p2", "type": "video", "task": "5分以上の複雑なストーリーを手話で語る"}]},
+          {"title": "Culture & Philosophy Reflection - 文化と哲学の反思", "content": "ろう文化とろう・アイデンティティについて自分の考えを表現", "practice": [{"id": "sl-050-p3", "type": "essay", "task": "ろう文化について手話で3分以上述べる"}]},
+          {"title": "Final Project - 最終プロジェクト", "content": "学習者が選択したテーマで、10分程度の自由な手話表現", "project": {"id": "sl-050-final", "type": "capstone", "requirements": ["流暢な手話", "適切な表情・身体言語", "複雑な文法構造の使用", "ろう文化への理解の表示"]}}
+        ]
+      }
+    },
+    {
+      "id": "sl-051",
+      "level": 4,
+      "chapter": 3,
+      "title": "Nuanced Emotions & Psychological States 微妙な感情・心理状態",
+      "objectives": ["複雑で微妙な心理状態を表現できる"],
+      "content": {
+        "introduction": "B2レベルでは、より洗練された感情表現が要求されます",
+        "sections": [
+          {"title": "AMBIVALENT - 二者択一的な気持ち", "content": "相反する2つの感情を同時に表現", "example": "I HAPPY ABOUT PROMOTION, BUT SAD LEAVE FRIEND（昇進は嬉しいけど、友人を離れるのは悲しい）"},
+          {"title": "MELANCHOLIC - 物思いにふけった", "content": "静かで深い悲しみを表現", "example": "I REMEMBER OLD-DAY, FEEL MELANCHOLIC（昔のことを思い出して、物思いにふける）"},
+          {"title": "NOSTALGIC - 懐かしい / ノスタルジック", "content": "過去への憧憬と甘い悲しみ", "example": "CHILDHOOD MEMORY NOSTALGIC（子供の頃の記憶は懐かしい）"},
+          {"title": "ANXIOUS - 不安な", "content": "具体的な理由のない漠然とした不安", "example": "FUTURE UNCERTAIN, I FEEL ANXIOUS（未来は不確かで、不安です）"},
+          {"title": "GRATEFUL - 感謝の気持ちに満ちた", "content": "深い感謝と感動", "example": "YOU HELP-ME MUCH, I GRATEFUL（あなたが多く助けてくれて、感謝しています）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-052",
+      "level": 4,
+      "chapter": 3,
+      "title": "Advanced Argumentation - Debate & Persuasion 高度な論証・議論と説得",
+      "objectives": ["説得力のある議論ができる"],
+      "content": {
+        "introduction": "B2での最高レベルの議論スキル",
+        "sections": [
+          {"title": "CLAIM - 主張", "content": "自分の立場や主張を明確に示す", "example": "I CLAIM SIGN-LANGUAGE OFFICIAL-LANGUAGE（私は手話が公式言語であるべきだと主張します）"},
+          {"title": "EVIDENCE - 証拠", "content": "主張を支持する根拠や事例を示す", "example": "EVIDENCE SHOW DEAF CHILD LEARN BEST WITH SIGN-LANGUAGE（証拠は、ろう児は手話で最も良く学ぶことを示しています）"},
+          {"title": "COUNTERARGUMENT - 反論", "content": "相反する観点を認識して対処する", "example": "SOME PEOPLE SAY SPEECH ONLY OPTION, BUT RESEARCH SHOW SIGN-LANGUAGE BETTER（ある人は音声のみがオプションだと言っていますが、研究は手話の方が良いことを示しています）"},
+          {"title": "RHETORICAL-QUESTION - 修辞的質問", "content": "答えが自明な質問で相手を考えさせる", "example": "DEAF CHILD DESERVE LANGUAGE ACCESS? OF-COURSE!（ろう児は言語アクセスを受ける価値がありませんか？もちろんあります！）"},
+          {"title": "PERSUASIVE-APPEAL - 説得的訴え", "content": "感情・価値観に訴えかける", "example": "SIGN-LANGUAGE NOT ONLY COMMUNICATION, IT CULTURE, IDENTITY, COMMUNITY（手話は単なるコミュニケーションではなく、文化、アイデンティティ、コミュニティです）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-053",
+      "level": 4,
+      "chapter": 3,
+      "title": "Technical & Specialized Vocabulary 技術用語・専門語彙",
+      "objectives": ["専門分野の手話用語を習得できる"],
+      "content": {
+        "introduction": "B2では、特定分野の専門手話が必要になります",
+        "sections": [
+          {"title": "MEDICAL-SIGNS - 医学手話", "content": "医学分野での専門用語", "example": "SURGERY TOMORROW MORNING（明日朝手術があります）"},
+          {"title": "LEGAL-SIGNS - 法律手話", "content": "法律分野での専門用語", "example": "COURT JUDGE DECISION IMPORTANT（裁判所の判事の決定は重要です）"},
+          {"title": "SCIENTIFIC-SIGNS - 科学手話", "content": "科学分野での専門用語", "example": "BIOLOGY STUDY LIVING-ORGANISM（生物学は生きた生物を研究します）"},
+          {"title": "EDUCATIONAL-SIGNS - 教育手話", "content": "教育分野での専門用語", "example": "CURRICULUM DESIGN FOR DEAF-STUDENT IMPORTANT（ろう生徒向けのカリキュラム設計は重要です）"},
+          {"title": "TECHNOLOGICAL-SIGNS - 技術手話", "content": "技術・IT分野での専門用語", "example": "ARTIFICIAL-INTELLIGENCE CHANGE WORLD（人工知能は世界を変えています）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-054",
+      "level": 4,
+      "chapter": 4,
+      "title": "Poetic & Artistic Sign Language 詩的・芸術的な手話",
+      "objectives": ["手話で詩的表現ができる"],
+      "content": {
+        "introduction": "手話には芸術的な表現形式があります。ASL Poetry や手話演劇など",
+        "sections": [
+          {"title": "HANDSHAPE-POETRY - 手形による詩", "content": "同じ手形を繰り返して音韻的効果を作る", "example": "A-A-A-ALL-SAME-HANDSHAPE（同じ手形を使った詩的効果）"},
+          {"title": "MOVEMENT-RHYTHM - 動きのリズム", "content": "動きのリズムと速度で詩的効果を作る", "example": "SLOW-SLOW-SLOW-FAST（速度の変化による表現）"},
+          {"title": "SPACE-POETRY - 空間的詩", "content": "空間全体を使った表現", "example": "LEFT-SIDE / RIGHT-SIDE / CENTER（異なる位置での対比表現）"},
+          {"title": "METAPHOR - メタファー", "content": "手話での比喩表現", "example": "LIFE LIKE JOURNEY（人生は旅のようなもの）"},
+          {"title": "VISUAL-PUNS - ビジュアル・ダジャレ", "content": "手形や動きの似ている言葉を使ったダジャレ", "example": "HANDSHAPE-1 LOOK-LIKE... DIFFERENT-SIGN-1...（手形が似ていることによるダジャレ）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-055",
+      "level": 4,
+      "chapter": 4,
+      "title": "Pragmatics & Discourse Analysis 語用論・談話分析",
+      "objectives": ["手話談話の微妙なニュアンスを理解できる"],
+      "content": {
+        "introduction": "B2での最高レベルの言語分析",
+        "sections": [
+          {"title": "TURN-TAKING - ターンテイキング", "content": "手話会話での話題交代の仕組み", "example": "YOU FINISH? MY-TURN NOW?（あなたは終わりましたか？私の番ですか？）"},
+          {"title": "REPAIR - 修復戦略", "content": "理解できないとき、わからないことを修復する方法", "example": "SLOW-DOWN AGAIN? I NOT-UNDERSTAND（ゆっくりもう一度？理解できていません）"},
+          {"title": "POLITENESS - 丁寧さ", "content": "手話での敬意と丁寧さの表現", "example": "PLEASE / THANK-YOU / EXCUSE-ME（手話での敬意表現）"},
+          {"title": "TOPIC-MANAGEMENT - トピック管理", "content": "会話のトピックを管理・変更する方法", "example": "ABOUT-THAT... / BY-THE-WAY...（話題の変更や管理）"},
+          {"title": "COHESION - 談話接続性", "content": "複数の文を繋ぎ、連貫した談話を作る方法", "example": "FIRST... SECOND... FINALLY...（段落的な構成）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-056",
+      "level": 4,
+      "chapter": 4,
+      "title": "Critical Reflection on Deaf Experience ろう体験への批判的思考",
+      "objectives": ["ろう・アイデンティティと社会的課題を深く考察できる"],
+      "content": {
+        "introduction": "B2での最終的な自己認識と社会分析",
+        "sections": [
+          {"title": "DEAF-IDENTITY - ろう・アイデンティティ", "content": "ろうであることの意味と社会的位置づけ", "example": "DEAF NOT DISABILITY, DEAF CULTURE IDENTITY（ろうは障害ではなく、文化的アイデンティティです）"},
+          {"title": "AUDISM - オーディズム", "content": "聴者中心主義・聴覚障害者への差別", "example": "AUDISM EXIST SOCIETY BECAUSE HEARING-CENTERED（社会にオーディズムが存在するのは、聴覚中心主義だからです）"},
+          {"title": "DEAF-RIGHTS - ろう権利", "content": "ろう者の権利・アクセスの正当性について", "example": "SIGN-LANGUAGE INTERPRETER NECESSARY RIGHT（手話通訳士が必要なのは、ろう者の権利です）"},
+          {"title": "SYSTEMIC-BARRIERS - システム的障壁", "content": "ろう者が直面する構造的な障壁", "example": "JOB OPPORTUNITY LIMITED BECAUSE HEARING-REQUIREMENT（仕事の機会が限定されるのは、聴覚要件があるからです）"},
+          {"title": "ADVOCACY-ACTIVISM - 権利擁護・活動", "content": "ろう者の権利のための活動と主張", "example": "I ADVOCATE FOR SIGN-LANGUAGE IN SCHOOL（私は学校での手話導入を主張しています）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-057",
+      "level": 4,
+      "chapter": 4,
+      "title": "Intercultural Communication & Mediation 異文化コミュニケーション・仲介",
+      "objectives": ["異なる文化背景のコミュニケーションを仲介できる"],
+      "content": {
+        "introduction": "ろう文化と聴文化の橋渡し",
+        "sections": [
+          {"title": "CODA-PERSPECTIVE - CODA視点", "content": "聴こえる親を持つろう子（CODA）の独特の視点", "example": "I CODA, UNDERSTAND BOTH DEAF AND HEARING WORLD（私はCODAで、ろう者と聴者の両方の世界を理解しています）"},
+          {"title": "HEARING-ALLYSHIP - 聴覚的同盟", "content": "ろう者の権利を支持する聴者の役割", "example": "HEARING-PERSON CAN SUPPORT DEAF-RIGHTS（聴覚者はろう者の権利を支持できます）"},
+          {"title": "CULTURAL-TRANSLATION - 文化翻訳", "content": "ろう文化と聴文化の相互理解を促進", "example": "SIGN-LANGUAGE NOT JUST LANGUAGE, IS CULTURE（手話は単なる言語ではなく、文化です）"},
+          {"title": "ACCESSIBILITY-ADVOCACY - アクセシビリティ擁護", "content": "すべての人へのアクセス・アコモデーション", "example": "CAPTION / INTERPRETER / ACCESSIBLE-DESIGN IMPORTANT（字幕・通訳・アクセスデザインは重要です）"},
+          {"title": "BRIDGE-BUILDING - 橋構築", "content": "コミュニティ間の関係構築と理解促進", "example": "WE BUILD BRIDGE BETWEEN DEAF AND HEARING WORLD（私たちはろう者と聴者の世界の橋を構築します）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-058",
+      "level": 4,
+      "chapter": 4,
+      "title": "Future Planning & Vision 将来計画・ビジョン",
+      "objectives": ["将来のビジョンと計画を複雑に表現できる"],
+      "content": {
+        "introduction": "B2での個人的・社会的ビジョン表現",
+        "sections": [
+          {"title": "CAREER-GOALS - キャリア目標", "content": "職業的野心と目標", "example": "I WANT BECOME TEACHER HELP DEAF-CHILD（私はろう児を助けるために教師になりたいです）"},
+          {"title": "PERSONAL-VISION - 個人的ビジョン", "content": "人生での達成・成就への願い", "example": "MY DREAM TRAVEL WORLD, MEET DIFFERENT-SIGN-LANGUAGE（私の夢は世界を旅して、異なる手話に出会うことです）"},
+          {"title": "SOCIAL-CHANGE - 社会的変化への願い", "content": "社会・コミュニティの改善への希望", "example": "FUTURE ALL-SCHOOL HAVE SIGN-LANGUAGE PROGRAM（将来、すべての学校は手話プログラムを持つでしょう）"},
+          {"title": "TECHNOLOGY-IMPACT - テクノロジーの影響", "content": "将来の技術がろう者にもたらす変化", "example": "VIDEO-RELAY-SERVICE IMPROVE, MORE ACCESSIBLE（ビデオリレーサービスが改善され、より利用しやすくなります）"},
+          {"title": "LEGACY - レガシー", "content": "次世代へ残したい遺産・メッセージ", "example": "I HOPE SIGN-LANGUAGE NEVER DISAPPEAR, FOREVER ALIVE（手話が永遠に消えず、生き続けることを願っています）"}
+        ]
+      }
+    },
+    {
+      "id": "sl-059",
+      "level": 4,
+      "chapter": 4,
+      "title": "Advanced Conversation Fluency 高度な会話流暢性",
+      "objectives": ["自然で流暢な手話会話ができる"],
+      "content": {
+        "introduction": "B2での最高レベルの会話スキル",
+        "sections": [
+          {"title": "Natural Conversation Patterns", "content": "自然な会話の流れと動的交換", "practice": [{"id": "sl-059-p1", "type": "dialogue", "scenario": "60分以上の自然な手話会話"}]},
+          {"title": "Nuanced Expression", "content": "微妙な意図・感情・ニュアンスの表現", "practice": [{"id": "sl-059-p2", "type": "video", "task": "複雑な感情や考えを手話で表現（15分以上）"}]},
+          {"title": "Coherent Narration", "content": "長い物語・説明を一貫性を保ちながら語る", "practice": [{"id": "sl-059-p3", "type": "video", "task": "20分以上の複雑なストーリーを一気に語る"}]},
+          {"title": "Professional Interaction", "content": "職業的・公式な手話交換", "practice": [{"id": "sl-059-p4", "type": "roleplay", "scenario": "面接・会議・プレゼンテーション"}]}
+        ]
+      }
+    },
+    {
+      "id": "sl-060",
+      "level": 4,
+      "chapter": 4,
+      "title": "B2 Final Capstone - Thesis & Presentation B2最終総合課題",
+      "objectives": ["B2全レベルの能力を総合的に示せる"],
+      "content": {
+        "introduction": "B2レベルの最終的な総合評価課題",
+        "sections": [
+          {"title": "Thesis Development", "content": "学習者が選択したテーマで、複雑な議論を展開", "requirements": ["明確な主張", "複数の根拠・証拠", "反論への対処", "流暢な手話表現"]},
+          {"title": "Presentation Skills", "content": "聴衆に対して効果的にプレゼンテーション", "requirements": ["30分以上の継続的な講演", "質問への対応", "視覚的サポート（図表など）の活用"]},
+          {"title": "Multimedia Integration", "content": "手話とビデオ・文字・画像の統合表現", "requirements": ["複数のメディア活用", "手話と視覚情報の調和"]},
+          {"title": "Final Assessment Criteria", "content": "評価基準：\n1. 手形・位置・動き・表情の正確性 (20点)\n2. 文法構造の複雑さと正確性 (20点)\n3. ろう文化・言語・社会への理解 (20点)\n4. プレゼンテーション・議論スキル (20点)\n5. 創造性・オリジナリティ (20点)\n総合: 100点満点"}
+        ]
+      }
+    }
+  ]
+}

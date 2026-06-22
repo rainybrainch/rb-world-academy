@@ -105,7 +105,7 @@ export default function HomePage() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-3 sm:grid-cols-4 gap-x-3 gap-y-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
           {countriesList.map((country) => (
             <Link
               key={country.id}
@@ -114,21 +114,26 @@ export default function HomePage() {
               rel="noopener"
             >
               <div
-                className="w-full rounded-2xl overflow-hidden border-2 shadow-sm relative cursor-pointer hover:scale-105 transition-transform"
+                className="group w-full rounded-2xl overflow-hidden border-2 relative cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
                 style={{
                   aspectRatio: '1/1',
-                  borderColor: 'rgba(26,26,46,0.08)',
-                  background: '#1a2a4a22',
-                  boxShadow: '0 2px 8px rgba(26,122,166,0.3)',
+                  borderColor: 'rgba(102,126,234,0.2)',
+                  background: 'linear-gradient(135deg, rgba(102,126,234,0.08) 0%, rgba(118,75,162,0.05) 100%)',
+                  boxShadow: '0 4px 12px rgba(26,122,166,0.2)',
                 }}
               >
                 <img
                   src={country.icon}
                   alt={country.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                {/* グラデーション・オーバーレイ */}
+                <div
+                  className="absolute inset-0 group-hover:bg-gradient-to-t group-hover:from-black/40 transition-all duration-300 pointer-events-none"
+                  style={{ background: 'transparent' }}
                 />
               </div>
-              <p className="text-xs font-bold mt-2 text-center text-gray-700" style={{ color: 'rgba(26,26,46,0.7)' }}>
+              <p className="text-xs font-bold mt-2 text-center leading-tight" style={{ color: 'rgba(26,26,46,0.75)' }}>
                 {country.name}
               </p>
             </Link>
