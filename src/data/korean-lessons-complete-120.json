@@ -14,73 +14,34 @@
       "content": {
         "introduction": "韓国語の基本となる挨拶表現。친구(友人)、선생님(先生)など相手によって変わります。",
         "sections": [
-          {
-            "title": "敬語での挨拶",
-            "content": "公式な場面や目上の人との挨拶。",
-            "glossary": [
-              {"korean": "안녕하세요", "romaja": "annyeonghaseyo", "meaning": "こんにちは（敬語）"},
-              {"korean": "좋은 아침입니다", "romaja": "joheun achimi-imnida", "meaning": "おはようございます"},
-              {"korean": "안녕히 가세요", "romaja": "annyeonghi gaseyo", "meaning": "さようなら（相手が去る時・敬語）"},
-              {"korean": "안녕히 계세요", "romaja": "annyeonghi gyeseyo", "meaning": "さようなら（自分が去る時・敬語）"}
-            ]
-          },
-          {
-            "title": "親友同士の挨拶",
-            "content": "친구(友人)同士で使う日常的な挨拶。",
-            "glossary": [
-              {"korean": "안녕", "romaja": "annyeong", "meaning": "こんにちは（パンマル）"},
-              {"korean": "잘 자", "romaja": "jal ja", "meaning": "おやすみなさい"},
-              {"korean": "뭐 해?", "romaja": "mwo hae", "meaning": "何してる？"}
-            ]
-          },
-          {
-            "title": "電話での挨拶",
-            "content": "전화(電話)での特別な挨拶。",
-            "glossary": [
-              {"korean": "여보세요", "romaja": "yeoboseyo", "meaning": "もしもし（電話受信）"},
-              {"korean": "저 김철수입니다", "romaja": "jeo gimcheolsuimnida", "meaning": "私は金チルスです（自己紹介）"}
-            ]
-          },
-          {
-            "title": "時間帯別挨拶",
-            "content": "시간대(時間帯)による挨拶の使い分け。",
-            "highlight_box": {
-              "title": "例文",
-              "examples": [
-                "아침 8시: 좋은 아침이에요!（朝8時：おはようございます）",
-                "오후 2시: 안녕하세요!（午後2時：こんにちは）",
-                "밤 10시: 안녕하세요! 잘 자요.（夜10時：こんにちは。おやすみなさい）"
-              ]
-            }
-          },
-          {
-            "title": "練習問題",
-            "content": "실전 문제(実戦問題)で定着させましょう。",
-            "practice": [
-              {
-                "id": "ko-001-p1",
-                "type": "fill-blank",
-                "question": "敬語で「こんにちは」は？",
-                "answer": "안녕하세요"
-              },
-              {
-                "id": "ko-001-p2",
-                "type": "multiple-choice",
-                "question": "友人に言う「さようなら」は？",
-                "options": ["안녕하세요", "안녕", "여보세요"],
-                "answer": "안녕"
-              },
-              {
-                "id": "ko-001-p3",
-                "type": "fill-blank",
-                "question": "電話で「もしもし」は？",
-                "answer": "여보세요"
-              }
-            ]
-          }
+          {"title": "敬語での挨拶", "content": "公式な場面や目上の人との挨拶。", "glossary": [
+            {"korean": "안녕하세요", "romaja": "annyeonghaseyo", "meaning": "こんにちは（敬語）"},
+            {"korean": "좋은 아침입니다", "romaja": "joheun achimi-imnida", "meaning": "おはようございます"},
+            {"korean": "안녕히 가세요", "romaja": "annyeonghi gaseyo", "meaning": "さようなら（相手が去る時・敬語）"},
+            {"korean": "안녕히 계세요", "romaja": "annyeonghi gyeseyo", "meaning": "さようなら（自分が去る時・敬語）"}
+          ]},
+          {"title": "親友同士の挨拶", "content": "친구同士で使う日常的な挨拶。", "glossary": [
+            {"korean": "안녕", "romaja": "annyeong", "meaning": "こんにちは（パンマル）"},
+            {"korean": "잘 자", "romaja": "jal ja", "meaning": "おやすみなさい"},
+            {"korean": "뭐 해?", "romaja": "mwo hae", "meaning": "何してる？"}
+          ]},
+          {"title": "電話での挨拶", "content": "전화での特別な挨拶。", "glossary": [
+            {"korean": "여보세요", "romaja": "yeoboseyo", "meaning": "もしもし（電話受信）"},
+            {"korean": "저 김철수입니다", "romaja": "jeo gimcheolsuimnida", "meaning": "私は金チルスです（自己紹介）"}
+          ]},
+          {"title": "時間帯別挨拶", "content": "시간대による挨拶の使い分け。", "highlight_box": {"title": "例文", "examples": [
+            "아침 8시: 좋은 아침이에요!（朝8時：おはようございます）",
+            "오후 2시: 안녕하세요!（午後2時：こんにちは）",
+            "밤 10시: 안녕하세요! 잘 자요.（夜10時：こんにちは。おやすみなさい）"
+          ]}},
+          {"title": "練習問題", "content": "実戦問題で定着させましょう。", "practice": [
+            {"id": "ko-001-p1", "type": "fill-blank", "question": "敬語で「こんにちは」は？", "answer": "안녕하세요"},
+            {"id": "ko-001-p2", "type": "multiple-choice", "question": "友人に言う「さようなら」は？", "options": ["안녕하세요", "안녕", "여보세요"], "answer": "안녕"},
+            {"id": "ko-001-p3", "type": "fill-blank", "question": "電話で「もしもし」は？", "answer": "여보세요"}
+          ]}
         ]
       },
-      "resources": ["https://www.korean-greetings.com"]
+      "resources": []
     },
     {
       "id": "ko-002",
@@ -90,101 +51,52 @@
       "titleKo": "숫자와 날짜",
       "objectives": ["固有数字と漢数字を区別して使える"],
       "content": {
-        "introduction": "韓国語には2つの数字体系があります。순우리말(固有韓国語)と한자(漢字由来)です。",
+        "introduction": "韓国語には2つの数字体系があります。순우리말(固有韓国語)と한자(漢字由来)です。使い分けが重要です。",
         "sections": [
-          {
-            "title": "固有数字（順우리말）",
-            "content": "純粋な韓国語の数字。通常1-99まで。",
-            "glossary": [
-              {"korean": "하나", "romaja": "hana", "meaning": "1"},
-              {"korean": "둘", "romaja": "dul", "meaning": "2"},
-              {"korean": "셋", "romaja": "set", "meaning": "3"},
-              {"korean": "넷", "romaja": "net", "meaning": "4"},
-              {"korean": "다섯", "romaja": "daseot", "meaning": "5"},
-              {"korean": "여섯", "romaja": "yeoseot", "meaning": "6"},
-              {"korean": "일곱", "romaja": "ilgop", "meaning": "7"},
-              {"korean": "여덟", "romaja": "yeodeol", "meaning": "8"},
-              {"korean": "아홉", "romaja": "ahop", "meaning": "9"},
-              {"korean": "열", "romaja": "yeol", "meaning": "10"}
-            ]
-          },
-          {
-            "title": "漢数字（한자 숫자）",
-            "content": "漢字由来の数字。100以上や時間表記に使う。",
-            "glossary": [
-              {"korean": "일", "romaja": "il", "meaning": "1"},
-              {"korean": "이", "romaja": "i", "meaning": "2"},
-              {"korean": "삼", "romaja": "sam", "meaning": "3"},
-              {"korean": "사", "romaja": "sa", "meaning": "4"},
-              {"korean": "오", "romaja": "o", "meaning": "5"},
-              {"korean": "육", "romaja": "yuk", "meaning": "6"},
-              {"korean": "칠", "romaja": "chil", "meaning": "7"},
-              {"korean": "팔", "romaja": "pal", "meaning": "8"},
-              {"korean": "구", "romaja": "gu", "meaning": "9"},
-              {"korean": "십", "romaja": "sip", "meaning": "10"}
-            ]
-          },
-          {
-            "title": "曜日",
-            "content": "요일(曜日)は漢数字で数えます。",
-            "glossary": [
-              {"korean": "월요일", "romaja": "woryoil", "meaning": "月曜日"},
-              {"korean": "화요일", "romaja": "hwayoil", "meaning": "火曜日"},
-              {"korean": "수요일", "romaja": "suyoil", "meaning": "水曜日"},
-              {"korean": "목요일", "romaja": "mogyoil", "meaning": "木曜日"},
-              {"korean": "금요일", "romaja": "geumyoil", "meaning": "金曜日"},
-              {"korean": "토요일", "romaja": "toyoil", "meaning": "土曜日"},
-              {"korean": "일요일", "romaja": "iryoil", "meaning": "日曜日"}
-            ]
-          },
-          {
-            "title": "月と日付",
-            "content": "달(月)は漢数字、일(日)も漢数字で表記。",
-            "glossary": [
-              {"korean": "1월", "romaja": "irwol", "meaning": "1月"},
-              {"korean": "3월", "romaja": "samwol", "meaning": "3月"},
-              {"korean": "12월", "romaja": "sibirwol", "meaning": "12月"},
-              {"korean": "1일", "romaja": "il-il", "meaning": "1日"},
-              {"korean": "15일", "romaja": "sipgoil", "meaning": "15日"},
-              {"korean": "31일", "romaja": "samsip-il", "meaning": "31日"}
-            ]
-          },
-          {
-            "title": "時間表記",
-            "content": "시간(時間)は漢数字を使います。",
-            "highlight_box": {
-              "title": "時間の言い方",
-              "examples": [
-                "8시: 여덟 시 (固有数字＋시) OR 팔시 (漢数字＋시)",
-                "3분: 삼 분 (3分 - 漢数字)",
-                "10시 30분: 열시 삼십분 (10時30分)"
-              ]
-            }
-          },
-          {
-            "title": "練習問題",
-            "content": "숫자 활용 연습",
-            "practice": [
-              {
-                "id": "ko-002-p1",
-                "type": "fill-blank",
-                "question": "固有数字で「3」は？",
-                "answer": "셋"
-              },
-              {
-                "id": "ko-002-p2",
-                "type": "fill-blank",
-                "question": "漢数字で「5」は？",
-                "answer": "오"
-              },
-              {
-                "id": "ko-002-p3",
-                "type": "fill-blank",
-                "question": "月曜日を韓国語で言うと？",
-                "answer": "월요일"
-              }
-            ]
-          }
+          {"title": "固有数字（순우리말）", "content": "純粋な韓国語の数字。通常1-99まで。", "glossary": [
+            {"korean": "하나", "romaja": "hana", "meaning": "1"},
+            {"korean": "둘", "romaja": "dul", "meaning": "2"},
+            {"korean": "셋", "romaja": "set", "meaning": "3"},
+            {"korean": "넷", "romaja": "net", "meaning": "4"},
+            {"korean": "다섯", "romaja": "daseot", "meaning": "5"},
+            {"korean": "여섯", "romaja": "yeoseot", "meaning": "6"},
+            {"korean": "일곱", "romaja": "ilgop", "meaning": "7"},
+            {"korean": "여덟", "romaja": "yeodeol", "meaning": "8"},
+            {"korean": "아홉", "romaja": "ahop", "meaning": "9"},
+            {"korean": "열", "romaja": "yeol", "meaning": "10"}
+          ]},
+          {"title": "漢数字（한자 숫자）", "content": "漢字由来の数字。100以上や時間表記に使う。", "glossary": [
+            {"korean": "일", "romaja": "il", "meaning": "1"},
+            {"korean": "이", "romaja": "i", "meaning": "2"},
+            {"korean": "삼", "romaja": "sam", "meaning": "3"},
+            {"korean": "사", "romaja": "sa", "meaning": "4"},
+            {"korean": "오", "romaja": "o", "meaning": "5"},
+            {"korean": "육", "romaja": "yuk", "meaning": "6"},
+            {"korean": "칠", "romaja": "chil", "meaning": "7"},
+            {"korean": "팔", "romaja": "pal", "meaning": "8"},
+            {"korean": "구", "romaja": "gu", "meaning": "9"},
+            {"korean": "십", "romaja": "sip", "meaning": "10"}
+          ]},
+          {"title": "曜日", "content": "요일は漢数字で数えます。", "glossary": [
+            {"korean": "월요일", "romaja": "woryoil", "meaning": "月曜日"},
+            {"korean": "화요일", "romaja": "hwayoil", "meaning": "火曜日"},
+            {"korean": "수요일", "romaja": "suyoil", "meaning": "水曜日"},
+            {"korean": "목요일", "romaja": "mogyoil", "meaning": "木曜日"},
+            {"korean": "금요일", "romaja": "geumyoil", "meaning": "金曜日"},
+            {"korean": "토요일", "romaja": "toyoil", "meaning": "土曜日"},
+            {"korean": "일요일", "romaja": "iryoil", "meaning": "日曜日"}
+          ]},
+          {"title": "月と日付", "content": "달は漢数字、일も漢数字で表記。", "highlight_box": {"title": "日付表現", "examples": [
+            "1월 1일: 새해 첫날（1月1日：新年初日）",
+            "3월 15일: 광복절（3月15日：解放記念日の前）",
+            "12월 25일: 크리스마스（12月25日：クリスマス）",
+            "2026년 6월 22일: 오늘이에요（2026年6月22日：今日です）"
+          ]}},
+          {"title": "練習問題", "content": "数字・日付を使って文を作ってみましょう。", "practice": [
+            {"id": "ko-002-p1", "type": "fill-blank", "question": "固有数字で「3」は？", "answer": "셋"},
+            {"id": "ko-002-p2", "type": "fill-blank", "question": "漢数字で「5」は？", "answer": "오"},
+            {"id": "ko-002-p3", "type": "fill-blank", "question": "月曜日を韓国語で言うと？", "answer": "월요일"}
+          ]}
         ]
       },
       "resources": []
@@ -193,100 +105,48 @@
       "id": "ko-003",
       "level": 1,
       "chapter": 1,
-      "title": "색깔과 형용사 - 色と形容詞",
-      "titleKo": "색깔과 형용사",
+      "title": "색깔과 기본 형용사 - 色と基本形容詞",
+      "titleKo": "색깔과 기본 형용사",
       "objectives": ["基本的な色と形容詞を習得する"],
       "content": {
-        "introduction": "사물(物)を描写するときに필수(必須)な색깔(色)と형용사(形容詞)の表現。",
+        "introduction": "사물を描写するときに必須な색깔と形容詞の表現。日常会話で最頻出です。",
         "sections": [
-          {
-            "title": "基本色（기본 색깔）",
-            "content": "日常生活で最もよく使う色。",
-            "glossary": [
-              {"korean": "빨간색", "romaja": "ppalgansaek", "meaning": "赤色"},
-              {"korean": "파란색", "romaja": "paransen", "meaning": "青色"},
-              {"korean": "노란색", "romaja": "noransen", "meaning": "黄色"},
-              {"korean": "초록색", "romaja": "choroksaek", "meaning": "緑色"},
-              {"korean": "검은색", "romaja": "geomsaek", "meaning": "黒色"},
-              {"korean": "하얀색", "romaja": "hayansaek", "meaning": "白色"},
-              {"korean": "회색", "romaja": "hoesaek", "meaning": "灰色"},
-              {"korean": "주황색", "romaja": "juhwangsaek", "meaning": "オレンジ色"},
-              {"korean": "보라색", "romaja": "borasaek", "meaning": "紫色"},
-              {"korean": "분홍색", "romaja": "bunhongsaek", "meaning": "ピンク色"}
-            ]
-          },
-          {
-            "title": "大きさ・形状形容詞",
-            "content": "크기(大きさ)를 설명하는 형용사.",
-            "glossary": [
-              {"korean": "크다", "romaja": "keuda", "meaning": "大きい"},
-              {"korean": "작다", "romaja": "jakda", "meaning": "小さい"},
-              {"korean": "길다", "romaja": "gilida", "meaning": "長い"},
-              {"korean": "짧다", "romaja": "jjalpda", "meaning": "短い"},
-              {"korean": "넓다", "romaja": "neolda", "meaning": "広い"},
-              {"korean": "좁다", "romaja": "jopda", "meaning": "狭い"}
-            ]
-          },
-          {
-            "title": "性質形容詞",
-            "content": "형태(形態)や성질(性質)を나타내는 형용사.",
-            "glossary": [
-              {"korean": "따뜻하다", "romaja": "ttatteuhatda", "meaning": "温かい"},
-              {"korean": "차갑다", "romaja": "chagapda", "meaning": "冷たい"},
-              {"korean": "뜨겁다", "romaja": "tteugeotda", "meaning": "熱い"},
-              {"korean": "새롭다", "romaja": "saeropta", "meaning": "新しい"},
-              {"korean": "낡다", "romaja": "nalda", "meaning": "古い"},
-              {"korean": "깨끗하다", "romaja": "kkaekkeuthatda", "meaning": "きれいだ"}
-            ]
-          },
-          {
-            "title": "감정 형용사（感情形容詞）",
-            "content": "마음(心)의 상태(状態)를 표현.",
-            "glossary": [
-              {"korean": "행복하다", "romaja": "haengbokhatda", "meaning": "幸せだ"},
-              {"korean": "슬프다", "romaja": "seulpeuda", "meaning": "悲しい"},
-              {"korean": "화나다", "romaja": "hwanada", "meaning": "腹が立つ"},
-              {"korean": "심심하다", "romaja": "simsimhatda", "meaning": "退屈だ"},
-              {"korean": "쪽팔리다", "romaja": "jjokpalrida", "meaning": "恥ずかしい"}
-            ]
-          },
-          {
-            "title": "形容詞の使用法",
-            "content": "형용사를 명사(名詞) 앞에서 사용하는 방법.",
-            "highlight_box": {
-              "title": "예문 (例文)",
-              "examples": [
-                "빨간 사과 = Red apple (赤いリンゴ)",
-                "크고 파란 집 = Big blue house (大きく青い家)",
-                "새로운 책 = New book (新しい本)",
-                "따뜻한 차 = Warm tea (温かいお茶)"
-              ]
-            }
-          },
-          {
-            "title": "練習問題",
-            "content": "색깔과 형용사 활용",
-            "practice": [
-              {
-                "id": "ko-003-p1",
-                "type": "fill-blank",
-                "question": "赤色を韓国語で言うと？",
-                "answer": "빨간색"
-              },
-              {
-                "id": "ko-003-p2",
-                "type": "fill-blank",
-                "question": "「小さい猫」を韓国語で？",
-                "answer": "작은 고양이"
-              },
-              {
-                "id": "ko-003-p3",
-                "type": "fill-blank",
-                "question": "「きれいだ」は？",
-                "answer": "깨끗하다"
-              }
-            ]
-          }
+          {"title": "基本色", "content": "よく使われる7色の韓国語表現。", "glossary": [
+            {"korean": "빨강", "romaja": "bbalgab", "meaning": "赤"},
+            {"korean": "파랑", "romaja": "parrang", "meaning": "青"},
+            {"korean": "노랑", "romaja": "norang", "meaning": "黄色"},
+            {"korean": "초록", "romaja": "chorok", "meaning": "緑"},
+            {"korean": "검정", "romaja": "geomjeong", "meaning": "黒"},
+            {"korean": "하양", "romaja": "hayang", "meaning": "白"},
+            {"korean": "분홍", "romaja": "bunhong", "meaning": "ピンク"},
+            {"korean": "주황색", "romaja": "juhuangsaek", "meaning": "オレンジ"}
+          ]},
+          {"title": "색の形容詞形", "content": "色を説明するときの형容詞形。", "glossary": [
+            {"korean": "빨간 꽃", "romaja": "bbalggan kkot", "meaning": "赤い花"},
+            {"korean": "파란 하늘", "romaja": "paran haneul", "meaning": "青い空"},
+            {"korean": "하얀 눈", "romaja": "hayan nun", "meaning": "白い雪"},
+            {"korean": "초록색 나무", "romaja": "chorokssaek namu", "meaning": "緑色の木"}
+          ]},
+          {"title": "性質を表す形容詞", "content": "크다、작다など基本形容詞。", "glossary": [
+            {"korean": "크다", "romaja": "keuda", "meaning": "大きい"},
+            {"korean": "작다", "romaja": "jakda", "meaning": "小さい"},
+            {"korean": "길다", "romaja": "gilida", "meaning": "長い"},
+            {"korean": "짧다", "romaja": "jjalta", "meaning": "短い"},
+            {"korean": "높다", "romaja": "nopda", "meaning": "高い"},
+            {"korean": "낮다", "romaja": "nata", "meaning": "低い"}
+          ]},
+          {"title": "好き嫌いの表現", "content": "좋다、싫다、예쁘다などの評価形容詞。", "highlight_box": {"title": "形容詞の使い方", "examples": [
+            "이 색깔은 예뻐요.（この色はきれいです）",
+            "그 옷은 커요.（その服は大きいです）",
+            "여기는 깨끗해요.（ここはきれいです）",
+            "저 산은 높아요.（あの山は高いです）",
+            "방이 좁아요.（部屋が狭いです）"
+          ]}},
+          {"title": "練習問題", "content": "色と形容詞を組み合わせて使ってみましょう。", "practice": [
+            {"id": "ko-003-p1", "type": "fill-blank", "question": "「青い」は韓国語で？", "answer": "파란"},
+            {"id": "ko-003-p2", "type": "multiple-choice", "question": "「大きい」を韓国語で言うと？", "options": ["작다", "크다", "길다"], "answer": "크다"},
+            {"id": "ko-003-p3", "type": "fill-blank", "question": "「白い花」を韓国語で？", "answer": "하얀 꽃"}
+          ]}
         ]
       },
       "resources": []
@@ -295,103 +155,48 @@
       "id": "ko-004",
       "level": 1,
       "chapter": 1,
-      "title": "동사의 기본 - 動詞の基本",
-      "titleKo": "동사의 기본",
-      "objectives": ["日常動詞を学び、基本形を習得する"],
+      "title": "가족 호칭 - 家族呼称",
+      "titleKo": "가족 호칭",
+      "objectives": ["韓国の複雑な家族呼称体系を理解する"],
       "content": {
-        "introduction": "동사(動詞)는 한국어 문법의 핵심입니다. 기본형(基本形)으로 끝나는 ~다 형태를 배웁니다.",
+        "introduction": "韓国語の家族呼称は敬語と関連し、関係によって大きく異なります。文化的背景の理解が重要です。",
         "sections": [
-          {
-            "title": "基本生活動詞",
-            "content": "일상생활(日常生活)에서 자주 쓰는 동사.",
-            "glossary": [
-              {"korean": "먹다", "romaja": "meokda", "meaning": "食べる"},
-              {"korean": "마시다", "romaja": "masida", "meaning": "飲む"},
-              {"korean": "자다", "romaja": "jada", "meaning": "寝る"},
-              {"korean": "일어나다", "romaja": "ireonada", "meaning": "起きる"},
-              {"korean": "걷다", "romaja": "geotda", "meaning": "歩く"},
-              {"korean": "달리다", "romaja": "dallida", "meaning": "走る"},
-              {"korean": "앉다", "romaja": "antda", "meaning": "座る"},
-              {"korean": "서다", "romaja": "seoda", "meaning": "立つ"}
-            ]
-          },
-          {
-            "title": "学習・活動動詞",
-            "content": "공부(勉強)하는 모습을 나타내는 동사.",
-            "glossary": [
-              {"korean": "공부하다", "romaja": "gongbuhatda", "meaning": "勉強する"},
-              {"korean": "일하다", "romaja": "ilhatda", "meaning": "働く"},
-              {"korean": "놀다", "romaja": "nolda", "meaning": "遊ぶ"},
-              {"korean": "읽다", "romaja": "ilkda", "meaning": "読む"},
-              {"korean": "쓰다", "romaja": "sseuda", "meaning": "書く"},
-              {"korean": "보다", "romaja": "boda", "meaning": "見る"},
-              {"korean": "듣다", "romaja": "deudda", "meaning": "聞く"},
-              {"korean": "말하다", "romaja": "malhatda", "meaning": "話す"}
-            ]
-          },
-          {
-            "title": "移動動詞",
-            "content": "위치(位置)의 이동(移動)을 나타내는 동사.",
-            "glossary": [
-              {"korean": "가다", "romaja": "gada", "meaning": "行く"},
-              {"korean": "오다", "romaja": "oda", "meaning": "来る"},
-              {"korean": "가져가다", "romaja": "gajyeogada", "meaning": "持って行く"},
-              {"korean": "가져오다", "romaja": "gajyeooda", "meaning": "持ってくる"},
-              {"korean": "나가다", "romaja": "nagada", "meaning": "出て行く"},
-              {"korean": "들어오다", "romaja": "deureooda", "meaning": "入ってくる"},
-              {"korean": "올라가다", "romaja": "ollgagada", "meaning": "上がっていく"},
-              {"korean": "내려오다", "romaja": "naeryeooda", "meaning": "下りてくる"}
-            ]
-          },
-          {
-            "title": "感情・状態動詞",
-            "content": "감정(感情)이나 상태(状態)를 나타내는 동사.",
-            "glossary": [
-              {"korean": "좋아하다", "romaja": "joa-hatda", "meaning": "好く"},
-              {"korean": "싫어하다", "romaja": "silheo-hatda", "meaning": "嫌う"},
-              {"korean": "사랑하다", "romaja": "saranghada", "meaning": "愛する"},
-              {"korean": "미워하다", "romaja": "miwo-hatda", "meaning": "憎む"},
-              {"korean": "두렵다", "romaja": "duryeopda", "meaning": "怖い"},
-              {"korean": "기대하다", "romaja": "gidaehatda", "meaning": "期待する"}
-            ]
-          },
-          {
-            "title": "所有・関係動詞",
-            "content": "소유(所有)와 관계(関係)를 나타내는 동사.",
-            "glossary": [
-              {"korean": "있다", "romaja": "itda", "meaning": "ある・いる"},
-              {"korean": "없다", "romaja": "eopda", "meaning": "ない・いない"},
-              {"korean": "되다", "romaja": "doeda", "meaning": "なる"},
-              {"korean": "아니다", "romaja": "anida", "meaning": "ではない"},
-              {"korean": "같다", "romaja": "gatda", "meaning": "同じだ"},
-              {"korean": "다르다", "romaja": "dareuda", "meaning": "異なる"}
-            ]
-          },
-          {
-            "title": "練習問題",
-            "content": "동사 기본형 학습",
-            "practice": [
-              {
-                "id": "ko-004-p1",
-                "type": "fill-blank",
-                "question": "「食べる」を韓国語で？",
-                "answer": "먹다"
-              },
-              {
-                "id": "ko-004-p2",
-                "type": "fill-blank",
-                "question": "「飲む」は？",
-                "answer": "마시다"
-              },
-              {
-                "id": "ko-004-p3",
-                "type": "multiple-choice",
-                "question": "「来る」はどれ？",
-                "options": ["가다", "오다", "나가다"],
-                "answer": "오다"
-              }
-            ]
-          }
+          {"title": "親の世代", "content": "両親と祖父母の呼び方。", "glossary": [
+            {"korean": "아버지", "romaja": "abeoji", "meaning": "父親（敬語）"},
+            {"korean": "아빠", "romaja": "appa", "meaning": "お父さん"},
+            {"korean": "어머니", "romaja": "eomeoni", "meaning": "母親（敬語）"},
+            {"korean": "엄마", "romaja": "eomma", "meaning": "お母さん"},
+            {"korean": "할아버지", "romaja": "harabeoji", "meaning": "祖父"},
+            {"korean": "할머니", "romaja": "halmeoni", "meaning": "祖母"}
+          ]},
+          {"title": "兄弟姉妹", "content": "自分を基準とした兄弟姉妹の呼び分け。", "glossary": [
+            {"korean": "오빠", "romaja": "oppa", "meaning": "年上の兄（女性が使う）"},
+            {"korean": "형", "romaja": "hyeong", "meaning": "年上の兄（男性が使う）"},
+            {"korean": "언니", "romaja": "eonni", "meaning": "年上の姉（女性が使う）"},
+            {"korean": "누나", "romaja": "nuna", "meaning": "年上の姉（男性が使う）"},
+            {"korean": "남동생", "romaja": "namdongsaeng", "meaning": "弟"},
+            {"korean": "여동생", "romaja": "yeodongsaeng", "meaning": "妹"}
+          ]},
+          {"title": "配偶者と子ども", "content": "結婚相手と子どもの呼び方。", "glossary": [
+            {"korean": "남편", "romaja": "nampyeon", "meaning": "夫"},
+            {"korean": "아내", "romaja": "anae", "meaning": "妻"},
+            {"korean": "아들", "romaja": "adeul", "meaning": "息子"},
+            {"korean": "딸", "romaja": "ddal", "meaning": "娘"},
+            {"korean": "며느리", "romaja": "myeoneurui", "meaning": "嫁"},
+            {"korean": "사위", "romaja": "sawui", "meaning": "婿"}
+          ]},
+          {"title": "拡張家族表現", "content": "叔父母や従兄弟など。", "highlight_box": {"title": "家族の会話例", "examples": [
+            "저의 어머니는 의사예요.（私の母は医者です）",
+            "언니를 좋아해요.（姉さんが好きです）",
+            "아빠는 지금 회사에 있어요.（父は今会社にいます）",
+            "남동생이 크고 있어요.（弟が成長しています）",
+            "할머니와 함께 살아요.（祖母と一緒に住んでいます）"
+          ]}},
+          {"title": "練習問題", "content": "家族呼称の使い分けを練習しましょう。", "practice": [
+            {"id": "ko-004-p1", "type": "fill-blank", "question": "女性が「年上の兄」を呼ぶときは？", "answer": "오빠"},
+            {"id": "ko-004-p2", "type": "multiple-choice", "question": "「父親」の敬語は？", "options": ["아빠", "아버지", "할아버지"], "answer": "아버지"},
+            {"id": "ko-004-p3", "type": "fill-blank", "question": "「妹」を韓国語で言うと？", "answer": "여동생"}
+          ]}
         ]
       },
       "resources": []
@@ -400,102 +205,46 @@
       "id": "ko-005",
       "level": 1,
       "chapter": 1,
-      "title": "가족 용어 - 家族用語",
-      "titleKo": "가족 용어",
-      "objectives": ["韓国語の家族称呼体系を習得する"],
+      "title": "기본 동사 - 基本動詞",
+      "titleKo": "기본 동사",
+      "objectives": ["日常会話で必須の基本動詞を習得する"],
       "content": {
-        "introduction": "한국어 가족(家族) 호칭(呼称)은 매우 복잡합니다(very complex). 화자(話者：男性/女性)와 나이(年齢)에 따라 달라집니다.",
+        "introduction": "한국어의 기본 동사는 매우 중요합니다。これらは全ての会話の基礎となります。",
         "sections": [
-          {
-            "title": "直系家族（혈족）",
-            "content": "부모(親)로부터의 직계(直系)家族.",
-            "glossary": [
-              {"korean": "아버지", "romaja": "abeoji", "meaning": "父(敬語)"},
-              {"korean": "아빠", "romaja": "appa", "meaning": "パパ（親密）"},
-              {"korean": "어머니", "romaja": "eomeoni", "meaning": "母(敬語)"},
-              {"korean": "엄마", "romaja": "eomma", "meaning": "ママ（親密）"},
-              {"korean": "할아버지", "romaja": "harabeoji", "meaning": "祖父"},
-              {"korean": "할머니", "romaja": "halmeoni", "meaning": "祖母"},
-              {"korean": "아들", "romaja": "adeul", "meaning": "息子"},
-              {"korean": "딸", "romaja": "ttal", "meaning": "娘"}
-            ]
-          },
-          {
-            "title": "兄弟姉妹（남매）",
-            "content": "형제자매(兄弟姉妹)を나타내는 호칭. 화자가 남성(男)인지 여성(女)인지에 따라 달라짐.",
-            "glossary": [
-              {"korean": "형 (남성이 사용)", "romaja": "hyeong", "meaning": "兄（男が使用）"},
-              {"korean": "오빠 (여성이 사용)", "romaja": "oppa", "meaning": "兄（女が使用・親密）"},
-              {"korean": "누나 (남성이 사용)", "romaja": "nuna", "meaning": "姉（男が使用）"},
-              {"korean": "언니 (여성이 사용)", "romaja": "eoni", "meaning": "姉（女が使用）"},
-              {"korean": "남동생", "romaja": "namdongaeng", "meaning": "弟"},
-              {"korean": "여동생", "romaja": "yeodongaeng", "meaning": "妹"}
-            ]
-          },
-          {
-            "title": "親戚（친척）",
-            "content": "직계가 아닌 친척들을 나타내는 호칭.",
-            "glossary": [
-              {"korean": "삼촌", "romaja": "samchon", "meaning": "叔父"},
-              {"korean": "고모", "romaja": "gomo", "meaning": "伯母"},
-              {"korean": "언니", "romaja": "eoni", "meaning": "姉（일반적）"},
-              {"korean": "누나", "romaja": "nuna", "meaning": "姉（남성용）"},
-              {"korean": "사촌", "romaja": "sachon", "meaning": "従兄弟・従姉妹"},
-              {"korean": "외할아버지", "romaja": "oehalabeoji", "meaning": "maternal grandfather（母方祖父）"},
-              {"korean": "외할머니", "romaja": "oaehalmeoni", "meaning": "maternal grandmother（母方祖母）"}
-            ]
-          },
-          {
-            "title": "配偶者と子ども",
-            "content": "결혼(結婚)한 후의 가족 호칭.",
-            "glossary": [
-              {"korean": "남편", "romaja": "nampyeon", "meaning": "夫"},
-              {"korean": "아내", "romaja": "anae", "meaning": "妻"},
-              {"korean": "신랑", "romaja": "sinrang", "meaning": "新郎"},
-              {"korean": "신부", "romaja": "sinbu", "meaning": "新婦"},
-              {"korean": "시어머니", "romaja": "sieoemeoni", "meaning": "義母"},
-              {"korean": "시아버지", "romaja": "siabeoji", "meaning": "義父"},
-              {"korean": "손자", "romaja": "sonja", "meaning": "孫（男）"},
-              {"korean": "손녀", "romaja": "sonyeo", "meaning": "孫（女）"}
-            ]
-          },
-          {
-            "title": "敬語形式",
-            "content": "호칭에서 사용하는 경어(敬語)와 친근함의 등급.",
-            "highlight_box": {
-              "title": "호칭 사용 예시",
-              "examples": [
-                "아버지, 안녕하세요. (父よ、こんにちは) - 매우 존댓말",
-                "아빠, 뭐 해? (パパ、何してる？) - 친근한 표현",
-                "형, 학교 갔어? (兄よ、学校行った？) - 친하면서도 존중",
-                "누나, 언제 와? (姉よ、いつ来るの？) - 친형제자매 사이"
-              ]
-            }
-          },
-          {
-            "title": "練習問題",
-            "content": "가족 용어 학습",
-            "practice": [
-              {
-                "id": "ko-005-p1",
-                "type": "fill-blank",
-                "question": "父を敬語で言うと？",
-                "answer": "아버지"
-              },
-              {
-                "id": "ko-005-p2",
-                "type": "fill-blank",
-                "question": "母親を親密に言うと？",
-                "answer": "엄마"
-              },
-              {
-                "id": "ko-005-p3",
-                "type": "fill-blank",
-                "question": "女性が兄を指して言うことばは？",
-                "answer": "오빠"
-              }
-            ]
-          }
+          {"title": "移動を表す動詞", "content": "行く、来る、歩くなど。", "glossary": [
+            {"korean": "가다", "romaja": "gada", "meaning": "行く"},
+            {"korean": "오다", "romaja": "oda", "meaning": "来る"},
+            {"korean": "걷다", "romaja": "geotda", "meaning": "歩く"},
+            {"korean": "뛰다", "romaja": "ddwidda", "meaning": "走る"},
+            {"korean": "타다", "romaja": "tada", "meaning": "乗る"},
+            {"korean": "내리다", "romaja": "naerida", "meaning": "降りる"}
+          ]},
+          {"title": "食べ物関連動詞", "content": "食べる、飲む、料理するなど。", "glossary": [
+            {"korean": "먹다", "romaja": "meokda", "meaning": "食べる"},
+            {"korean": "마시다", "romaja": "masida", "meaning": "飲む"},
+            {"korean": "요리하다", "romaja": "yorihada", "meaning": "料理する"},
+            {"korean": "맛있다", "romaja": "masissda", "meaning": "おいしい"},
+            {"korean": "배고프다", "romaja": "baegopeuda", "meaning": "お腹が空いている"}
+          ]},
+          {"title": "感情・状態動詞", "content": "喜ぶ、悲しむ、疲れるなど。", "glossary": [
+            {"korean": "기쁘다", "romaja": "gippuda", "meaning": "喜ぶ"},
+            {"korean": "슬프다", "romaja": "seulpeuda", "meaning": "悲しむ"},
+            {"korean": "피곤하다", "romaja": "pigonhada", "meaning": "疲れている"},
+            {"korean": "즐겁다", "romaja": "jeulgeopda", "meaning": "楽しい"},
+            {"korean": "화나다", "romaja": "hwanada", "meaning": "怒る"}
+          ]},
+          {"title": "日常動作動詞", "content": "座る、寝る、起きるなど。", "highlight_box": {"title": "基本動詞の現在形", "examples": [
+            "나는 학교에 가요.（私は学校に行きます）",
+            "친구가 와요.（友人が来ます）",
+            "밥을 먹어요.（ご飯を食べます）",
+            "물을 마셔요.（水を飲みます）",
+            "그는 행복해요.（彼は幸せです）"
+          ]}},
+          {"title": "練習問題", "content": "基本動詞を使って文を作ってみましょう。", "practice": [
+            {"id": "ko-005-p1", "type": "fill-blank", "question": "「行く」を韓国語で？", "answer": "가다"},
+            {"id": "ko-005-p2", "type": "multiple-choice", "question": "「飲む」は？", "options": ["먹다", "마시다", "하다"], "answer": "마시다"},
+            {"id": "ko-005-p3", "type": "fill-blank", "question": "「食べる」の敬語形は？", "answer": "먹어요"}
+          ]}
         ]
       },
       "resources": []
@@ -503,94 +252,47 @@
     {
       "id": "ko-006",
       "level": 1,
-      "chapter": 2,
-      "title": "현재형 기초 - 現在形の基礎",
-      "titleKo": "현재형 기초",
-      "objectives": ["現在形を基本的に活用できる"],
+      "chapter": 1,
+      "title": "명사와 관사 - 名詞と冠詞",
+      "titleKo": "명사와 관사",
+      "objectives": ["韓国語の名詞分類と助詞の基本を理解する"],
       "content": {
-        "introduction": "동사를 현재형으로 활용하는 방법입니다. 어간(語幹) + 어미(接尾辞)로 만듭니다.",
+        "introduction": "韓国語には英語のような冠詞がないため、代わりに助詞が名詞の役割を明確にします。",
         "sections": [
-          {
-            "title": "語幹の分離",
-            "content": "동사를 어간과 어미로 나누기.",
-            "glossary": [
-              {"korean": "먹다 → 먹 + 다", "romaja": "meokda → meok + da", "meaning": "食べる → 語幹「먹」+ 語尾「다」"},
-              {"korean": "마시다 → 마시 + 다", "romaja": "masida → masi + da", "meaning": "飲む → 語幹「마시」+ 語尾「다」"},
-              {"korean": "가다 → 가 + 다", "romaja": "gada → ga + da", "meaning": "行く → 語幹「가」+ 語尾「다」"},
-              {"korean": "오다 → 오 + 다", "romaja": "oda → o + da", "meaning": "来る → 語幹「오」+ 語尾「다」"},
-              {"korean": "하다 → 하 + 다", "romaja": "hada → ha + da", "meaning": "する → 語幹「하」+ 語尾「다」"}
-            ]
-          },
-          {
-            "title": "現在形敬語（합쇼체）",
-            "content": "敬語での現在形。-습니다 または -어/아합니다 形式.",
-            "glossary": [
-              {"korean": "먹습니다", "romaja": "meokseumnida", "meaning": "食べます（最敬語）"},
-              {"korean": "먹어요", "romaja": "meogeoyo", "meaning": "食べます（丁寧語）"},
-              {"korean": "마십니다", "romaja": "masimeunida", "meaning": "飲みます（最敬語）"},
-              {"korean": "마셔요", "romaja": "masyeoyo", "meaning": "飲みます（丁寧語）"},
-              {"korean": "갑니다", "romaja": "gamnida", "meaning": "行きます（最敬語）"},
-              {"korean": "가요", "romaja": "gayo", "meaning": "行きます（丁寧語）"}
-            ]
-          },
-          {
-            "title": "現在形親密語（반말）",
-            "content": "친구(友人)同士で使う日常的な現在形.",
-            "glossary": [
-              {"korean": "먹어", "romaja": "meogeo", "meaning": "食べる"},
-              {"korean": "마셔", "romaja": "masyeo", "meaning": "飲む"},
-              {"korean": "가", "romaja": "ga", "meaning": "行く"},
-              {"korean": "와", "romaja": "wa", "meaning": "来る"},
-              {"korean": "해", "romaja": "hae", "meaning": "する"},
-              {"korean": "봐", "romaja": "bwa", "meaning": "見る"}
-            ]
-          },
-          {
-            "title": "ㄹ語幹の活用",
-            "content": "語幹がㄹで終わる動詞の特別な活用.",
-            "highlight_box": {
-              "title": "ㄹ語幹の変化",
-              "examples": [
-                "놀다 (遊ぶ) → 나 + 아요 = 놀아요",
-                "팔다 (売る) → 파 + ㄹ어요 = 팔아요",
-                "걷다は특수하다: 걸으면 (if walk), 걸어요 (walk polite)"
-              ]
-            }
-          },
-          {
-            "title": "子音語幹の活用",
-            "content": "子音で終わる語幹のㅂ・ㄷ・ㄹ・ㄴなど.",
-            "glossary": [
-              {"korean": "먹다 (ㄱ語幹)", "romaja": "meokda", "meaning": "食べる"},
-              {"korean": "좋다 (ㄷ語幹→ㅆ)", "romaja": "johtda", "meaning": "良い"},
-              {"korean": "놀다 (ㄹ語幹)", "romaja": "nolda", "meaning": "遊ぶ"},
-              {"korean": "신다 (ㄴ語幹)", "romaja": "sinda", "meaning": "履く"}
-            ]
-          },
-          {
-            "title": "練習問題",
-            "content": "현재형 활용",
-            "practice": [
-              {
-                "id": "ko-006-p1",
-                "type": "fill-blank",
-                "question": "「食べます」（敬語）は？",
-                "answer": "먹습니다"
-              },
-              {
-                "id": "ko-006-p2",
-                "type": "fill-blank",
-                "question": "「飲みます」（丁寧語）は？",
-                "answer": "마셔요"
-              },
-              {
-                "id": "ko-006-p3",
-                "type": "fill-blank",
-                "question": "友人に「行く」と言うと？",
-                "answer": "가"
-              }
-            ]
-          }
+          {"title": "可算名詞と不可算名詞", "content": "数えられる名詞と数えられない名詞。", "glossary": [
+            {"korean": "책", "romaja": "chaek", "meaning": "本"},
+            {"korean": "사람", "romaja": "saram", "meaning": "人"},
+            {"korean": "물", "romaja": "mul", "meaning": "水"},
+            {"korean": "밥", "romaja": "bab", "meaning": "ご飯"},
+            {"korean": "나무", "romaja": "namu", "meaning": "木"},
+            {"korean": "건물", "romaja": "geonmul", "meaning": "建物"}
+          ]},
+          {"title": "主格助詞と目的格助詞", "content": "は、を、を区別する助詞。", "glossary": [
+            {"korean": "은/는", "romaja": "eun/neun", "meaning": "主格助詞（～は）"},
+            {"korean": "을/를", "romaja": "eul/reul", "meaning": "目的格助詞（～を）"},
+            {"korean": "이/가", "romaja": "i/ga", "meaning": "主語を示す助詞"},
+            {"korean": "에", "romaja": "e", "meaning": "場所を示す助詞"},
+            {"korean": "에서", "romaja": "eseo", "meaning": "～で（場所・時間）"}
+          ]},
+          {"title": "複合名詞", "content": "複数の名詞が組み合わさった言葉。", "glossary": [
+            {"korean": "학교", "romaja": "hakyo", "meaning": "学校"},
+            {"korean": "도서관", "romaja": "doseo-gwan", "meaning": "図書館"},
+            {"korean": "병원", "romaja": "byeongwon", "meaning": "病院"},
+            {"korean": "식당", "romaja": "sikdang", "meaning": "食堂"},
+            {"korean": "카페", "romaja": "kape", "meaning": "カフェ"}
+          ]},
+          {"title": "助詞の組み合わせ", "content": "助詞の使い分けが重要。", "highlight_box": {"title": "助詞の例", "examples": [
+            "나는 학생이에요.（私は学生です）",
+            "책을 읽어요.（本を読みます）",
+            "학교에 가요.（学校に行きます）",
+            "친구와 함께 있어요.（友人と一緒にいます）",
+            "서울에서 살아요.（ソウルに住んでいます）"
+          ]}},
+          {"title": "練習問題", "content": "名詞と助詞の組み合わせを練習しましょう。", "practice": [
+            {"id": "ko-006-p1", "type": "fill-blank", "question": "「本」を韓国語で？", "answer": "책"},
+            {"id": "ko-006-p2", "type": "multiple-choice", "question": "「～を」の助詞は？", "options": ["은/는", "을/를", "에"], "answer": "을/를"},
+            {"id": "ko-006-p3", "type": "fill-blank", "question": "「学校」を韓国語で？", "answer": "학교"}
+          ]}
         ]
       },
       "resources": []
@@ -599,89 +301,43 @@
       "id": "ko-007",
       "level": 1,
       "chapter": 2,
-      "title": "과거형 기초 - 過去形の基礎",
-      "titleKo": "과거형 기초",
-      "objectives": ["過去形を基本的に活用できる"],
+      "title": "현재형 - 現在形",
+      "titleKo": "현재형",
+      "objectives": ["現在形の規則変化と不規則変化を習得する"],
       "content": {
-        "introduction": "과거형(過去形)은 -았/었/였 어미를 사용합니다.",
+        "introduction": "韓国語の現在形は動詞の語幹に－어요/아요を付けます。母音によって使い分けが必要です。",
         "sections": [
-          {
-            "title": "過去形の接尾辞選択",
-            "content": "어간의 마지막 모음(母音)에 따라 -았/었/였을 선택.",
-            "glossary": [
-              {"korean": "먹다 → 먹 + 었어요 = 먹었어요", "romaja": "meokda → meog-eosseoyeo", "meaning": "食べました"},
-              {"korean": "가다 → 가 + 았어요 = 갔어요", "romaja": "gada → ga-asseoyeo", "meaning": "行きました"},
-              {"korean": "오다 → 왔어요", "romaja": "oda → wasseoyeo", "meaning": "来ました"},
-              {"korean": "하다 → 했어요", "romaja": "hada → haesseoyeo", "meaning": "しました"},
-              {"korean": "마시다 → 마셨어요", "romaja": "masida → masyeosseoyeo", "meaning": "飲みました"}
-            ]
-          },
-          {
-            "title": "敬語過去形（합쇼체）",
-            "content": "-았/었 습니다 形式での敬語過去形.",
-            "glossary": [
-              {"korean": "먹었습니다", "romaja": "meogeotsseumnida", "meaning": "食べました（最敬語）"},
-              {"korean": "갔습니다", "romaja": "gasseumnida", "meaning": "行きました（最敬語）"},
-              {"korean": "했습니다", "romaja": "haesseumnida", "meaning": "しました（最敬語）"},
-              {"korean": "왔습니다", "romaja": "wasseumnida", "meaning": "来ました（最敬語）"}
-            ]
-          },
-          {
-            "title": "親密語過去形（반말）",
-            "content": "친구同士での過去形.",
-            "glossary": [
-              {"korean": "먹었어", "romaja": "meogeotseo", "meaning": "食べた"},
-              {"korean": "갔어", "romaja": "gasseo", "meaning": "行った"},
-              {"korean": "했어", "romaja": "haeseo", "meaning": "した"},
-              {"korean": "봤어", "romaja": "bwaseo", "meaning": "見た"},
-              {"korean": "놨어", "romaja": "nwaseo", "meaning": "置いた"}
-            ]
-          },
-          {
-            "title": "規則活用と不規則活用",
-            "content": "규칙적 과거형과 불규칙 활용.",
-            "highlight_box": {
-              "title": "不規則活用例",
-              "examples": [
-                "좋다 (良い) → 좋았어요 (良かった) - 규칙활용",
-                "걷다 (歩く) → 걸었어요 (歩いた) - ㄹ語幹が특이한 활용",
-                "놀다 (遊ぶ) → 놀았어요 (遊んだ) - ㄹ語幹も規則"
-              ]
-            }
-          },
-          {
-            "title": "完了と状態保続",
-            "content": "과거형이 나타내는 두 가지 의미(意味).",
-            "glossary": [
-              {"korean": "먹었어요 (이미 먹었음)", "meaning": "すでに食べた（완료：完了）"},
-              {"korean": "먹었어요 (지금도 배부른 상태)", "meaning": "食べた（状態が続いている）"},
-              {"korean": "왔어요 (도착했음)", "meaning": "来た（到着した状態）"}
-            ]
-          },
-          {
-            "title": "練習問題",
-            "content": "과거형 활용",
-            "practice": [
-              {
-                "id": "ko-007-p1",
-                "type": "fill-blank",
-                "question": "「食べました」（敬語）は？",
-                "answer": "먹었습니다"
-              },
-              {
-                "id": "ko-007-p2",
-                "type": "fill-blank",
-                "question": "「行った」（パンマル）は？",
-                "answer": "갔어"
-              },
-              {
-                "id": "ko-007-p3",
-                "type": "fill-blank",
-                "question": "「来ました」（丁寧語）は？",
-                "answer": "왔어요"
-              }
-            ]
-          }
+          {"title": "規則活用（어요）", "content": "後ろの母音が 어、여、여기のとき。", "glossary": [
+            {"korean": "먹다 → 먹어요", "romaja": "meokda → meogeo-yo", "meaning": "食べる → 食べます"},
+            {"korean": "마시다 → 마셔요", "romaja": "masida → maseo-yo", "meaning": "飲む → 飲みます"},
+            {"korean": "걷다 → 걸어요", "romaja": "geotda → georeoyeo", "meaning": "歩く → 歩きます"},
+            {"korean": "읽다 → 읽어요", "romaja": "ilgda → ilgeoyeo", "meaning": "読む → 読みます"},
+            {"korean": "쓰다 → 써요", "romaja": "sseuda → sseoyeo", "meaning": "書く → 書きます"}
+          ]},
+          {"title": "規則活用（아요）", "content": "ㅏ音で終わるとき。", "glossary": [
+            {"korean": "가다 → 가요", "romaja": "gada → gayo", "meaning": "行く → 行きます"},
+            {"korean": "오다 → 와요", "romaja": "oda → wayo", "meaning": "来る → 来ます"},
+            {"korean": "하다 → 해요", "romaja": "hada → haeyeo", "meaning": "する → します"},
+            {"korean": "놀다 → 놀아요", "romaja": "nolda → norayeo", "meaning": "遊ぶ → 遊びます"}
+          ]},
+          {"title": "不規則活用（ㄹ語幹）", "content": "ㄹで終わる動詞の活用。", "glossary": [
+            {"korean": "길다 → 길어요", "romaja": "gilida → gireoyeo", "meaning": "長い → 長いです"},
+            {"korean": "멀다 → 멀어요", "romaja": "meolda → meoreoyeo", "meaning": "遠い → 遠いです"},
+            {"korean": "달리다 → 달려요", "romaja": "dallida → dallyeoyeo", "meaning": "走る → 走ります"},
+            {"korean": "놀다 → 놀아요", "romaja": "nolda → norayeo", "meaning": "遊ぶ → 遊びます"}
+          ]},
+          {"title": "現在進行形", "content": "～ています表現。", "highlight_box": {"title": "現在形の使用例", "examples": [
+            "나는 매일 공부해요.（私は毎日勉強します）",
+            "너는 뭐해?（お前は何をしているの？）",
+            "그는 지금 밥을 먹고 있어요.（彼は今ご飯を食べています）",
+            "우리는 학교에 가고 있어요.（私たちは学校に行っています）",
+            "너는 한국말을 배워요.（あなたは韓国語を習います）"
+          ]}},
+          {"title": "練習問題", "content": "現在形を活用して文を作ってみましょう。", "practice": [
+            {"id": "ko-007-p1", "type": "fill-blank", "question": "「読む」の現在形は？", "answer": "읽어요"},
+            {"id": "ko-007-p2", "type": "multiple-choice", "question": "「来る」の現在形は？", "options": ["가요", "와요", "해요"], "answer": "와요"},
+            {"id": "ko-007-p3", "type": "fill-blank", "question": "「飲む」の現在形は？", "answer": "마셔요"}
+          ]}
         ]
       },
       "resources": []
@@ -690,88 +346,41 @@
       "id": "ko-008",
       "level": 1,
       "chapter": 2,
-      "title": "미래형과 계획 - 未来形と計画",
-      "titleKo": "미래형과 계획",
-      "objectives": ["未来の行動と計画を表現できる"],
+      "title": "과거형 - 過去形",
+      "titleKo": "과거형",
+      "objectives": ["과거형の活用を習得する"],
       "content": {
-        "introduction": "미래형(未来形)은 -겠 어미나 -을/ㄹ 거예요 형식으로 표현합니다.",
+        "introduction": "過去形は 었어요/았어요を付けて表します。발음の変化に注意が必要です。",
         "sections": [
-          {
-            "title": "意志・推測の未来形（-겠）",
-            "content": "의지(意志)와 추측(推測)을 나타내는 -겠 형식.",
-            "glossary": [
-              {"korean": "먹겠습니다", "romaja": "meokgesseumnida", "meaning": "食べます（意志：敬語）"},
-              {"korean": "먹겠어요", "romaja": "meokgesseoyo", "meaning": "食べます（意志：丁寧語）"},
-              {"korean": "갈게요", "romaja": "galggeyo", "meaning": "行きます（意志）"},
-              {"korean": "할게요", "romaja": "halggeyo", "meaning": "します（意志）"},
-              {"korean": "먹겠어", "romaja": "meokgesseo", "meaning": "食べるよ（パンマル・意志）"}
-            ]
-          },
-          {
-            "title": "推測の未来形",
-            "content": "추측(推測)이나 예상(予想)을 나타내는 -겠.",
-            "glossary": [
-              {"korean": "비가 오겠어요", "romaja": "biga ogesseoyo", "meaning": "雨が降るだろう"},
-              {"korean": "그럴 거예요", "romaja": "geureol geoyeyo", "meaning": "そうでしょう"},
-              {"korean": "늦을 거 같아요", "romaja": "neujjeuㄹ geo gatayo", "meaning": "遅れるでしょう"},
-              {"korean": "올 거 같아", "romaja": "ol geo gata", "meaning": "来るんじゃないかな（パンマル）"}
-            ]
-          },
-          {
-            "title": "計画・予定の表現（-을/ㄹ 거예요）",
-            "content": "이미 정한 계획(計画)을 나타내는 -을/ㄹ 거예요.",
-            "glossary": [
-              {"korean": "내일 만날 거예요", "romaja": "naeil mannал geoyeyo", "meaning": "明日会う予定です"},
-              {"korean": "밥을 먹을 거예요", "romaja": "babeul meogeuㄹ geoyeyo", "meaning": "ご飯を食べる予定です"},
-              {"korean": "학교에 갈 거야", "romaja": "hakgyoe gaㄹ geoya", "meaning": "学校に行くんだ（パンマル）"},
-              {"korean": "집을 살 거 같아요", "romaja": "jibeul saㄹ geo gatayo", "meaning": "家を買う予定のようです"}
-            ]
-          },
-          {
-            "title": "ㄹ語幹の未来形",
-            "content": "ㄹ로 끝나는 어간의 미래형 활용.",
-            "highlight_box": {
-              "title": "ㄹ語幹の変化",
-              "examples": [
-                "놀다 (遊ぶ) → 놀 + 거예요 = 놀 거예요 (遊ぶ予定)",
-                "팔다 (売る) → 팔 + 거예요 = 팔 거예요 (売る予定)",
-                "만나다は: 만날 거예요 (会う予定)"
-              ]
-            }
-          },
-          {
-            "title": "近い未来 vs 遠い未来",
-            "content": "가까운 미래와 먼 미래의 표현 차이.",
-            "glossary": [
-              {"korean": "지금 먹을 거예요 (방금 먹으려 함)", "meaning": "今から食べます（ほぼ今から）"},
-              {"korean": "내일 먹을 거예요 (내일 먹으려고 함)", "meaning": "明日食べます（明日的に計画）"},
-              {"korean": "언젠가 올 거 같아요 (추측)", "meaning": "いつか来るでしょう（推測）"}
-            ]
-          },
-          {
-            "title": "練習問題",
-            "content": "미래형 표현",
-            "practice": [
-              {
-                "id": "ko-008-p1",
-                "type": "fill-blank",
-                "question": "「食べます」（意志・敬語）は？",
-                "answer": "먹겠습니다"
-              },
-              {
-                "id": "ko-008-p2",
-                "type": "fill-blank",
-                "question": "「明日会う予定です」は？",
-                "answer": "내일 만날 거예요"
-              },
-              {
-                "id": "ko-008-p3",
-                "type": "fill-blank",
-                "question": "「する」の意志未来は？",
-                "answer": "하겠어요"
-              }
-            ]
-          }
+          {"title": "ㅏ音で終わる場合", "content": "아요/았어요のパターン。", "glossary": [
+            {"korean": "가다 → 갔어요", "romaja": "gada → gasseo-yo", "meaning": "行った"},
+            {"korean": "하다 → 했어요", "romaja": "hada → haesseo-yo", "meaning": "した"},
+            {"korean": "놀다 → 놀았어요", "romaja": "nolda → norasseo-yo", "meaning": "遊んだ"},
+            {"korean": "타다 → 탔어요", "romaja": "tada → tasseo-yo", "meaning": "乗った"}
+          ]},
+          {"title": "ㅓ/ㅏ音で終わらない場合", "content": "었어요のパターン。", "glossary": [
+            {"korean": "먹다 → 먹었어요", "romaja": "meokda → meogesseo-yo", "meaning": "食べた"},
+            {"korean": "오다 → 왔어요", "romaja": "oda → wasseo-yo", "meaning": "来た"},
+            {"korean": "읽다 → 읽었어요", "romaja": "ilgda → ilgesseo-yo", "meaning": "読んだ"},
+            {"korean": "마시다 → 마셨어요", "romaja": "masida → masesseo-yo", "meaning": "飲んだ"}
+          ]},
+          {"title": "不規則動詞", "content": "불규칙 동사の過去形。", "glossary": [
+            {"korean": "걷다 → 걸었어요", "romaja": "geotda → georeosseo-yo", "meaning": "歩いた"},
+            {"korean": "듣다 → 들었어요", "romaja": "deutda → deureosseo-yo", "meaning": "聞いた"},
+            {"korean": "놓다 → 놨어요", "romaja": "nota → nwasseo-yo", "meaning": "置いた"}
+          ]},
+          {"title": "過去進行形", "content": "過去に～していた表現。", "highlight_box": {"title": "過去形の使用例", "examples": [
+            "어제 학교에 갔어요.（昨日学校に行きました）",
+            "어제 뭐했어?（昨日何をした？）",
+            "밥을 먹었어요.（ご飯を食べました）",
+            "친구를 만났어요.（友人に会いました）",
+            "집에서 쉬었어요.（家で休んでいました）"
+          ]}},
+          {"title": "練習問題", "content": "過去形を活用して文を作ってみましょう。", "practice": [
+            {"id": "ko-008-p1", "type": "fill-blank", "question": "「行った」は？", "answer": "갔어요"},
+            {"id": "ko-008-p2", "type": "multiple-choice", "question": "「食べた」は？", "options": ["먹었어요", "먹어요", "먹겠어요"], "answer": "먹었어요"},
+            {"id": "ko-008-p3", "type": "fill-blank", "question": "「来た」は？", "answer": "왔어요"}
+          ]}
         ]
       },
       "resources": []
@@ -780,92 +389,40 @@
       "id": "ko-009",
       "level": 1,
       "chapter": 2,
-      "title": "의문문 기초 - 疑問文の基礎",
-      "titleKo": "의문문 기초",
-      "objectives": ["질문文を作成できる"],
+      "title": "미래형 - 未来形",
+      "titleKo": "미래형",
+      "objectives": ["미래형의 표현을 학습する"],
       "content": {
-        "introduction": "한국어 의문문(疑問文)은 의문사(疑問詞)나 의문형 어미(接尾辞)로 만듭니다.",
+        "introduction": "未来を表すには 겠어요 또는 을 거예요를 使います。確実な予定과 推測を区別します。",
         "sections": [
-          {
-            "title": "基本疑問詞（의문사）",
-            "content": "누가(誰が)、뭐가(何が)などの기본 의문사.",
-            "glossary": [
-              {"korean": "누가/누구", "romaja": "nuga/nugu", "meaning": "誰が・誰を"},
-              {"korean": "뭐/뭘/뭐를", "romaja": "mwo/mwol/mworeul", "meaning": "何・何を"},
-              {"korean": "어디", "romaja": "eodi", "meaning": "どこ"},
-              {"korean": "언제", "romaja": "eonje", "meaning": "いつ"},
-              {"korean": "왜", "romaja": "wae", "meaning": "なぜ"},
-              {"korean": "어떻게", "romaja": "eotteoke", "meaning": "どのように"},
-              {"korean": "어느", "romaja": "eoneu", "meaning": "どの"},
-              {"korean": "얼마나", "romaja": "eolmana", "meaning": "どのくらい"}
-            ]
-          },
-          {
-            "title": "疑問詞を使った文",
-            "content": "의문사가 들어간 의문문.",
-            "highlight_box": {
-              "title": "疑問文の例",
-              "examples": [
-                "뭐 먹어요? (何を食べますか？)",
-                "누가 왔어요? (誰が来ましたか？)",
-                "언제 갈 거예요? (いつ行く予定ですか？)",
-                "어디에 살아요? (どこに住んでいますか？)",
-                "왜 늦었어요? (なぜ遅れましたか？)"
-              ]
-            }
-          },
-          {
-            "title": "Yes/No疑問文",
-            "content": "의문사 없이 음성 올림(intonation)으로 만드는 의문문.",
-            "glossary": [
-              {"korean": "먹었어요? (음성↑)", "romaja": "meogeotseoyo", "meaning": "食べましたか？（語尾上昇）"},
-              {"korean": "학교에 갔어? (음성↑)", "romaja": "hakgyoe gasseo", "meaning": "学校に行った？（パンマル）"},
-              {"korean": "그거 알아요? (음성↑)", "romaja": "geugeo arayo", "meaning": "それ知ってますか？"}
-            ]
-          },
-          {
-            "title": "의문형 어미（-는가, -ㄴ가, -나）",
-            "content": "공식적이고 격식있는 의문형 어미.",
-            "glossary": [
-              {"korean": "이게 뭔가? (뭐예요?의 더 격식있는 표현)", "romaja": "igge muenga", "meaning": "これは何ですか？（より格式的）"},
-              {"korean": "당신이 한국인입니까? (가장 격식있음)", "romaja": "dangsini hangukinimnika", "meaning": "あなたは韓国人ですか？（最敬語）"},
-              {"korean": "뭐 하니? (뭐 해? 의 친근한 표현)", "romaja": "mwo hani", "meaning": "何してるの？（親密）"}
-            ]
-          },
-          {
-            "title": "疑問詞の助詞との結合",
-            "content": "의문사 + 조사(助詞)의 결합.",
-            "glossary": [
-              {"korean": "누가 (주격)", "romaja": "nuga", "meaning": "誰が（主格助詞：이/가）"},
-              {"korean": "누구를 (목적격)", "romaja": "nugureul", "meaning": "誰を（目的格助詞：을/를）"},
-              {"korean": "누구에게 (与格)", "romaja": "nuguegehae", "meaning": "誰に（与格助詞：에게）"},
-              {"korean": "뭐로 (具格)", "romaja": "mworo", "meaning": "何で（具格助詞：로）"}
-            ]
-          },
-          {
-            "title": "練習問題",
-            "content": "의문문 만들기",
-            "practice": [
-              {
-                "id": "ko-009-p1",
-                "type": "fill-blank",
-                "question": "「何ですか？」を韓国語で？",
-                "answer": "뭐예요?"
-              },
-              {
-                "id": "ko-009-p2",
-                "type": "fill-blank",
-                "question": "「誰が来ましたか？」は？",
-                "answer": "누가 왔어요?"
-              },
-              {
-                "id": "ko-009-p3",
-                "type": "fill-blank",
-                "question": "「いつですか？」は？",
-                "answer": "언제예요?"
-              }
-            ]
-          }
+          {"title": "겠어요を使った未来表현", "content": "意志や推測を表す未来형。", "glossary": [
+            {"korean": "내일 학교에 가겠어요", "romaja": "naeil hakyo-e gagesseo-yo", "meaning": "明日学校に行きます"},
+            {"korean": "물을 마시겠어요", "romaja": "mul-eul masigesseo-yo", "meaning": "水を飲みます"},
+            {"korean": "밥을 먹겠어요", "romaja": "bab-eul meogesseo-yo", "meaning": "ご飯を食べます"},
+            {"korean": "공부하겠어요", "romaja": "gongbuhagesseo-yo", "meaning": "勉強します"},
+            {"korean": "날씨가 좋겠어요", "romaja": "nalssi-ga jokesseo-yo", "meaning": "天気がいいでしょう"}
+          ]},
+          {"title": "을/를 거예요 で確定的な予定", "content": "확실한 계획や약속。", "glossary": [
+            {"korean": "내일 친구를 만날 거예요", "romaja": "naeil chingu-reul mannal geo-eyo", "meaning": "明日友人に会うつもりです"},
+            {"korean": "주말에 집에 있을 거예요", "romaja": "jumal-e jib-e issul geo-eyo", "meaning": "週末は家にいるつもりです"},
+            {"korean": "3시에 올 거예요", "romaja": "3-si-e ol geo-eyo", "meaning": "3時に来るつもりです"}
+          ]},
+          {"title": "будущее계획文", "content": "計画や予定の表現。", "glossary": [
+            {"korean": "다음 달에 여행을 갈 거예요", "romaja": "daeum dal-e yeohaeng-eul gal geo-eyo", "meaning": "来月旅行に行くつもりです"},
+            {"korean": "겨울에 스키를 타겠어요", "romaja": "gyeoul-e seuki-reul tagesseo-yo", "meaning": "冬にスキーをします"}
+          ]},
+          {"title": "推測的未来形", "content": "かもしれない、だろう。", "highlight_box": {"title": "未来形の使用例", "examples": [
+            "내일 비가 오겠어요.（明日雨が降るでしょう）",
+            "그 영화는 재미있겠어요.（その映画は面白いでしょう）",
+            "이 옷은 비쌀 거예요.（この服は高くないでしょう）",
+            "우리는 한국에 갈 거예요.（私たちは韓国に行くつもりです）",
+            "시간이 빠르겠어요.（時間が早いでしょう）"
+          ]}},
+          {"title": "練習問題", "content": "未来形を使って文を作ってみましょう。", "practice": [
+            {"id": "ko-009-p1", "type": "fill-blank", "question": "「飲みます」（未来）は？", "answer": "마시겠어요"},
+            {"id": "ko-009-p2", "type": "multiple-choice", "question": "確定的な計画の未来形は？", "options": ["겠어요", "을/를 거예요", "할 거야"], "answer": "을/를 거예요"},
+            {"id": "ko-009-p3", "type": "fill-blank", "question": "「行くつもりです」は？", "answer": "갈 거예요"}
+          ]}
         ]
       },
       "resources": []
@@ -874,89 +431,43 @@
       "id": "ko-010",
       "level": 1,
       "chapter": 2,
-      "title": "조사와 격 - 助詞と格",
-      "titleKo": "조사와 격",
-      "objectives": ["格助詞を正確に使用できる"],
+      "title": "의문문 - 疑問文",
+      "titleKo": "의문문",
+      "objectives": ["疑問文の形成と応答方法を習得する"],
       "content": {
-        "introduction": "조사(助詞)는 명사(名詞) 뒤에 붙어 문법적 역할(grammatical role)을 표시합니다.",
+        "introduction": "疑問文は疑問詞の使用と語尾の변화で形成されます。韓国語では일본語と異なるニュアンスがあります。",
         "sections": [
-          {
-            "title": "主格助詞（주격：이/가）",
-            "content": "문장의 주어(主語)를 표시하는 조사.",
-            "glossary": [
-              {"korean": "나는 학생이에요 (나 + 는)", "romaja": "naneun haksaengieyeo", "meaning": "私は学生です（주제표시：은/는）"},
-              {"korean": "나가 왔어요 (나 + 가)", "romaja": "naga wasseoyeo", "meaning": "私が来ました（주어표시：이/가）"},
-              {"korean": "그 고양이가 크다", "romaja": "geu goyangiga keuda", "meaning": "その猫が大きい"},
-              {"korean": "이 책은 재미있어요", "romaja": "i chaekkeun jjaemiisseoyeo", "meaning": "この本は面白いです"}
-            ]
-          },
-          {
-            "title": "目的格助詞（목적격：을/를）",
-            "content": "동사(動詞)의 직접 목적어(直接目的語)를 표시.",
-            "glossary": [
-              {"korean": "밥을 먹다", "romaja": "babeul meokda", "meaning": "ご飯を食べる"},
-              {"korean": "물을 마시다", "romaja": "mureuseul masida", "meaning": "水を飲む"},
-              {"korean": "책을 읽다", "romaja": "chaekeul ilkda", "meaning": "本を読む"},
-              {"korean": "영화를 보다", "romaja": "yeonghwereul boda", "meaning": "映画を見る"},
-              {"korean": "그림을 그리다", "romaja": "geurimeul geurida", "meaning": "絵を描く"}
-            ]
-          },
-          {
-            "title": "場所格助詞（장소격：에/에서）",
-            "content": "사건이나 행동이 일어나는 장소를 표시.",
-            "glossary": [
-              {"korean": "집에 가다 (에: 방향)", "romaja": "jibe gada", "meaning": "家に行く（到着点）"},
-              {"korean": "집에 있다 (에: 위치)", "romaja": "jibe itda", "meaning": "家にいる（존재 위치）"},
-              {"korean": "학교에서 공부하다 (에서: 행동의 장소)", "romaja": "hakgyoeseo gongbuhatda", "meaning": "学校で勉強する"},
-              {"korean": "서울에서 왔어요", "romaja": "seouleseo wasseoyeo", "meaning": "ソウルから来ました"},
-              {"korean": "도서관에서 책을 읽어요", "romaja": "doseoguaneseo chaekeul ireoyo", "meaning": "図書館で本を読みます"}
-            ]
-          },
-          {
-            "title": "与格助詞（여격：에게/한테/께）",
-            "content": "행동(행위)의 수혜자(받는 대상)를 표시.",
-            "glossary": [
-              {"korean": "친구에게 물어봤어요 (일상적)", "romaja": "chinguaeghe muraebwasseoyeo", "meaning": "友人に聞きました（日常的）"},
-              {"korean": "할아버지께 인사했어요 (존경)", "romaja": "harabeojikke insasaheosseoyeo", "meaning": "祖父に挨拶しました（敬語）"},
-              {"korean": "엄마한테 물었어 (친근)", "romaja": "eommahante mulasseeo", "meaning": "お母さんに聞いた（親密）"},
-              {"korean": "선생님에게 감사해요", "romaja": "seongsaenggime gamsahaeyo", "meaning": "先生にお礼します"}
-            ]
-          },
-          {
-            "title": "その他の重要な助詞",
-            "content": "구체적 용도의 조사들.",
-            "glossary": [
-              {"korean": "~로 (具格: ~で、~によって)", "romaja": "ro", "meaning": "펜으로 쓰다 (ペンで書く)"},
-              {"korean": "~와/과 (並列: ~と)", "romaja": "wa/gwa", "meaning": "친구와 가다 (友人と行く)"},
-              {"korean": "~부터 (始点: ~から)", "romaja": "buteo", "meaning": "아침부터 일하다 (朝から働く)"},
-              {"korean": "~까지 (終点: ~まで)", "romaja": "kkaji", "meaning": "밤까지 공부하다 (夜まで勉強する)"},
-              {"korean": "~만 (限定: ~だけ)", "romaja": "man", "meaning": "나만 했어요 (私だけしました)"}
-            ]
-          },
-          {
-            "title": "練習問題",
-            "content": "조사 활용",
-            "practice": [
-              {
-                "id": "ko-010-p1",
-                "type": "fill-blank",
-                "question": "「ご飯を食べる」の目的格は？",
-                "answer": "밥을 먹다"
-              },
-              {
-                "id": "ko-010-p2",
-                "type": "fill-blank",
-                "question": "「学校で勉強する」の場所格は？",
-                "answer": "학교에서 공부하다"
-              },
-              {
-                "id": "ko-010-p3",
-                "type": "fill-blank",
-                "question": "「友人に聞いた」の与格は？",
-                "answer": "친구에게 물었어요"
-              }
-            ]
-          }
+          {"title": "Yes/No疑問文", "content": "ㅂ니까/니까で形成される基本疑問文。", "glossary": [
+            {"korean": "당신은 학생입니까?", "romaja": "dangsineun haksaengimnigga?", "meaning": "あなたは学生ですか？"},
+            {"korean": "무엇을 하세요?", "romaja": "mueos-eul haseyo?", "meaning": "何をしていますか？"},
+            {"korean": "어디에 가세요?", "romaja": "eodi-e gaseyo?", "meaning": "どこに行きますか？"},
+            {"korean": "언제 올 거예요?", "romaja": "eonje ol geo-eyo?", "meaning": "いつ来ますか？"}
+          ]},
+          {"title": "疑問詞を使った疑問文", "content": "누가、뭐가、어디、언제など。", "glossary": [
+            {"korean": "누가", "romaja": "nuga", "meaning": "誰が"},
+            {"korean": "뭐가/무엇이", "romaja": "mwoga/mueos-i", "meaning": "何が"},
+            {"korean": "어디", "romaja": "eodi", "meaning": "どこ"},
+            {"korean": "언제", "romaja": "eonje", "meaning": "いつ"},
+            {"korean": "왜", "romaja": "wae", "meaning": "なぜ"},
+            {"korean": "어떻게", "romaja": "eotteohge", "meaning": "どのように"}
+          ]},
+          {"title": "カジュアル疑問文", "content": "친구同士での疑問文（パンマル）。", "glossary": [
+            {"korean": "넌 뭐해?", "romaja": "neon mwohae?", "meaning": "お前は何をしているの？"},
+            {"korean": "넌 누구야?", "romaja": "neon nugu-ya?", "meaning": "お前は誰だ？"},
+            {"korean": "뭐 했어?", "romaja": "mwo haesseo?", "meaning": "何をした？"}
+          ]},
+          {"title": "確認疑問文", "content": "확인を求める疑問文。", "highlight_box": {"title": "疑問文の使用例", "examples": [
+            "당신의 이름이 뭐예요?（あなたのお名前は何ですか？）",
+            "언제 한국에 왔어요?（いつ韓国に来ましたか？）",
+            "어디에 살고 있어요?（どこに住んでいますか？）",
+            "왜 학교에 안 갔어요?（なぜ学校に行かなかったのですか？）",
+            "어떻게 왔어요?（どのようにして来ましたか？）"
+          ]}},
+          {"title": "練習問題", "content": "疑問文を作ってみましょう。", "practice": [
+            {"id": "ko-010-p1", "type": "fill-blank", "question": "「誰が」を韓国語で？", "answer": "누가"},
+            {"id": "ko-010-p2", "type": "multiple-choice", "question": "「どこに」は？", "options": ["언제", "어디에", "누가"], "answer": "어디에"},
+            {"id": "ko-010-p3", "type": "fill-blank", "question": "「なぜ」を韓国語で？", "answer": "왜"}
+          ]}
         ]
       },
       "resources": []
@@ -964,88 +475,41 @@
     {
       "id": "ko-011",
       "level": 1,
-      "chapter": 3,
+      "chapter": 2,
       "title": "부정형 - 否定形",
       "titleKo": "부정형",
-      "objectives": ["否定表現を正確に使える"],
+      "objectives": ["否定の表現方法を習得する"],
       "content": {
-        "introduction": "한국어 부정(否定)은 두 가지 방식이 있습니다: 안 + 동사 또는 동사 + -지 않다.",
+        "introduction": "韓国語の否定形には 안 + 동사 と 동사 + -지 않다 の2つの方法があります。",
         "sections": [
-          {
-            "title": "안 부정（短い否定）",
-            "content": "안을 동사 앞에 붙이는 방식.",
-            "glossary": [
-              {"korean": "안 먹어요", "romaja": "an meogeoyeo", "meaning": "食べません（短い）"},
-              {"korean": "안 가", "romaja": "an ga", "meaning": "行かない（パンマル・短い）"},
-              {"korean": "안 왔어요", "romaja": "an wasseoyeo", "meaning": "来ませんでした"},
-              {"korean": "안 해요", "romaja": "an haeyo", "meaning": "しません"},
-              {"korean": "안 봤어", "romaja": "an bwaseo", "meaning": "見なかった（パンマル）"}
-            ]
-          },
-          {
-            "title": "動詞否定（-지 않다）",
-            "content": "동사의 어간에 -지 않다를 붙이는 방식.",
-            "glossary": [
-              {"korean": "먹지 않아요", "romaja": "meokji anayo", "meaning": "食べません（丁寧）"},
-              {"korean": "먹지 않습니다", "romaja": "meokji anseumnida", "meaning": "食べません（最敬語）"},
-              {"korean": "가지 않아요", "romaja": "gaji anayo", "meaning": "行きません"},
-              {"korean": "하지 않아", "romaja": "haji ana", "meaning": "しない（パンマル）"},
-              {"korean": "보지 않았어요", "romaja": "boji anasseoyeo", "meaning": "見ませんでした"}
-            ]
-          },
-          {
-            "title": "形容詞・名詞の否定",
-            "content": "형용사(形容詞)나 명사(名詞)를 부정하는 방식.",
-            "glossary": [
-              {"korean": "크지 않아요 (크다 → 크지 않다)", "romaja": "keujji anayo", "meaning": "大きくありません"},
-              {"korean": "예쁘지 않아요 (예쁘다 → 예쁘지 않다)", "romaja": "yeppeujji anayo", "meaning": "きれいではありません"},
-              {"korean": "좋지 않아요 (좋다 → 좋지 않다)", "romaja": "jotjji anayo", "meaning": "良くありません"},
-              {"korean": "아니예요 (이다 → 아니다)", "romaja": "aniyeyo", "meaning": "ではありません（～ではない）"}
-            ]
-          },
-          {
-            "title": "없다（ない）",
-            "content": "소유(所有)를 부정하는 특별한 동사 없다.",
-            "glossary": [
-              {"korean": "돈이 없어요", "romaja": "doni eopseoyeo", "meaning": "お金がありません"},
-              {"korean": "시간이 없어요", "romaja": "sigani eopseoyeo", "meaning": "時間がありません"},
-              {"korean": "형이 없어", "romaja": "hyeongi eopseo", "meaning": "兄がいない（パンマル）"},
-              {"korean": "친구가 없었어요", "romaja": "chinguga eopseasseoyeo", "meaning": "友人がいませんでした"}
-            ]
-          },
-          {
-            "title": "부정명령形（～するな）",
-            "content": "명령형(命令形)을 부정하는 방식.",
-            "glossary": [
-              {"korean": "먹지 마! (먹다 → 먹지 말다 → 먹지 마!)", "romaja": "meokji ma", "meaning": "食べるな！（パンマル）"},
-              {"korean": "가지 마세요 (공손한 금지)", "romaja": "gaji maseyo", "meaning": "行かないでください"},
-              {"korean": "하지 마! (가장 강함)", "romaja": "haji ma", "meaning": "するな！（最も強い）"}
-            ]
-          },
-          {
-            "title": "練習問題",
-            "content": "부정형 활용",
-            "practice": [
-              {
-                "id": "ko-011-p1",
-                "type": "fill-blank",
-                "question": "「飲みません」（短い否定）は？",
-                "answer": "안 마셔요"
-              },
-              {
-                "id": "ko-011-p2",
-                "type": "fill-blank",
-                "question": "「飲みません」（長い否定）は？",
-                "answer": "마시지 않아요"
-              },
-              {
-                "id": "ko-011-p3",
-                "type": "fill-blank",
-                "question": "「お金がありません」は？",
-                "answer": "돈이 없어요"
-              }
-            ]
-          }
+          {"title": "안を使った否定形", "content": "動詞の前に안を置く方法。", "glossary": [
+            {"korean": "나는 밥을 안 먹어요", "romaja": "naneun bab-eul an meogeo-yo", "meaning": "私はご飯を食べません"},
+            {"korean": "그는 학교에 안 가요", "romaja": "geuneun hakyo-e an gayo", "meaning": "彼は学校に行きません"},
+            {"korean": "내일 올 수 없어요", "romaja": "naeil ol su eobs-eo-yo", "meaning": "明日来ることができません"},
+            {"korean": "그건 안 돼요", "romaja": "geugeon an dwae-yo", "meaning": "それはだめです"}
+          ]},
+          {"title": "지않다を使った否定形", "content": "より文語的な否定形。", "glossary": [
+            {"korean": "나는 밥을 먹지 않아요", "romaja": "naneun bab-eul meokji ana-yo", "meaning": "私はご飯を食べません"},
+            {"korean": "그는 학교에 가지 않아요", "romaja": "geuneun hakyo-e gaji ana-yo", "meaning": "彼は学校に行きません"},
+            {"korean": "그는 안 왔어요", "romaja": "geuneun an wasseo-yo", "meaning": "彼は来ませんでした"}
+          ]},
+          {"title": "形容詞の否定", "content": "形容詞を否定する方法。", "glossary": [
+            {"korean": "이 옷은 예쁘지 않아요", "romaja": "i os-eun yeppeujhi ana-yo", "meaning": "この服はきれいではありません"},
+            {"korean": "그 영화는 재미없어요", "romaja": "geu yeonghwa-neun jaemiobseo-yo", "meaning": "その映画は面白くありません"},
+            {"korean": "날씨가 안 좋아요", "romaja": "nalssi-ga an joa-yo", "meaning": "天気が悪いです"}
+          ]},
+          {"title": "不可能表現", "content": "できない、できませんなど。", "highlight_box": {"title": "否定形の使用例", "examples": [
+            "나는 그것을 할 수 없어요.（私はそれができません）",
+            "너는 여기에 올 수 없어요.（あなたはここに来ることができません）",
+            "그건 안 돼요.（それはだめです）",
+            "이 음식은 맛있지 않아요.（この食べ物は美味しくありません）",
+            "그는 학교에 가지 않아요.（彼は学校に行きません）"
+          ]}},
+          {"title": "練習問題", "content": "否定形を使ってみましょう。", "practice": [
+            {"id": "ko-011-p1", "type": "fill-blank", "question": "「食べません」は？", "answer": "안 먹어요"},
+            {"id": "ko-011-p2", "type": "multiple-choice", "question": "「できません」は？", "options": ["할 수 있어요", "할 수 없어요", "해야 해요"], "answer": "할 수 없어요"},
+            {"id": "ko-011-p3", "type": "fill-blank", "question": "「来ません」は？", "answer": "안 와요"}
+          ]}
         ]
       },
       "resources": []
@@ -1054,90 +518,41 @@
       "id": "ko-012",
       "level": 1,
       "chapter": 3,
-      "title": "존댓말과 반말 - 敬語と親密語",
+      "title": "존댓말과 반말 - 敬語とパンマル",
       "titleKo": "존댓말과 반말",
-      "objectives": ["敬語レベルの使い分けを理解する"],
+      "objectives": ["敬語と親友言葉の使い分けを理解する"],
       "content": {
-        "introduction": "한국어는 상대방(相手)과의 관계에 따라 경어체계(敬語体系)가 여러 단계로 나뉩니다.",
+        "introduction": "韓国文化では敬語の使用が非常に重要です。関係性によって言葉遣いが大きく変わります。",
         "sections": [
-          {
-            "title": "5段階の敬語体系",
-            "content": "한국어의 5가지 주요 경어 수준.",
-            "glossary": [
-              {"korean": "1. 하게체 (가장 낮음/가장 존댓말)", "romaja": "hageche", "meaning": "격식있는 存敬語（～だ/～である）"},
-              {"korean": "2. 하소서체 (공식적)", "romaja": "hasoseoче", "meaning": "より格式的（公文書等）"},
-              {"korean": "3. 합쇼체 (표준 존댓말)", "romaja": "hapsyoче", "meaning": "標準敬語（～합니다/～니까）"},
-              {"korean": "4. 해요체 (일상 존댓말)", "romaja": "haeyoche", "meaning": "日常敬語（～어요/～아요）"},
-              {"korean": "5. 해라체 (가장 높음/반말)", "romaja": "haerache", "meaning": "親密語・パンマル（～어/～아）"}
-            ]
-          },
-          {
-            "title": "존댓말（敬語）の例",
-            "content": "상대방을 존경하거나 거리를 유지할 때 사용.",
-            "highlight_box": {
-              "title": "敬語レベル別の例文（「食べる」）",
-              "examples": [
-                "먹습니다 (합쇼체：最敬語) → よく会社や公式な場で",
-                "먹어요 (해요체：日常敬語) → 친구나 동료에게 가장 자주 사용",
-                "먹는군요 (하게체：格式敬語) → やや古風・格式的",
-                "먹어 (해라체：親密語) → 친구끼리・형제자매 사이"
-              ]
-            }
-          },
-          {
-            "title": "반말（パンマル・親密語）",
-            "content": "친구(友人)나 나이가 어린 사람에게 사용.",
-            "glossary": [
-              {"korean": "먹어", "romaja": "meogeo", "meaning": "食べる（パンマル・현재）"},
-              {"korean": "먹었어", "romaja": "meogeotseo", "meaning": "食べた（パンマル・과거）"},
-              {"korean": "먹을 거야", "romaja": "meogeuㄹ geoya", "meaning": "食べるんだ（パンマル・미래）"},
-              {"korean": "먹어?", "romaja": "meogeo", "meaning": "食べる？（パンマル・의문）"},
-              {"korean": "먹지 마!", "romaja": "meokji ma", "meaning": "食べるな！（パンマル・명령）"}
-            ]
-          },
-          {
-            "title": "社会的距離による使い分け",
-            "content": "상대방과의 관계(關係)에 따른 올바른 경어 선택.",
-            "glossary": [
-              {"korean": "아주 친한 친구: 반말 (해라체)", "meaning": "Very close friends: パンマル"},
-              {"korean": "일반 친구/동료: 존댓말 (해요체)", "meaning": "General friends/colleagues: 敬語（해요体）"},
-              {"korean": "선생님/상사: 존댓말 (합쇼체)", "meaning": "Teachers/bosses: 敬語（합쇼体）"},
-              {"korean": "처음 만난 사람: 존댓말 (합쇼체 또는 하게체)", "meaning": "First meeting: 敬語（합쇼体 or 하게체）"}
-            ]
-          },
-          {
-            "title": "敬語違反（존댓말 높임）",
-            "content": "상대가 나보다 나이가 많거나 지위가 높을 때 필수.",
-            "glossary": [
-              {"korean": "「먹다」を相手に対して: 먹어요 (X: 먹어)", "meaning": "食べます（×食べる）"},
-              {"korean": "「가다」を先生に対して: 갈게요 (X: 가)", "meaning": "行きます（×行く）"},
-              {"korean": "「하다」を上司に対して: 할게요 (X: 해)", "meaning": "します（×する）"}
-            ]
-          },
-          {
-            "title": "練習問題",
-            "content": "경어 사용 연습",
-            "practice": [
-              {
-                "id": "ko-012-p1",
-                "type": "fill-blank",
-                "question": "先生に「食べます」と言うと？",
-                "answer": "먹습니다"
-              },
-              {
-                "id": "ko-012-p2",
-                "type": "fill-blank",
-                "question": "友人に「食べるの？」と聞くと？",
-                "answer": "먹어?"
-              },
-              {
-                "id": "ko-012-p3",
-                "type": "fill-blank",
-                "question": "同僚に「行きます」と言うと？",
-                "answer": "갈게요 or 가요"
-              }
-            ]
-          }
+          {"title": "存댓말(敬語)の3つのレベル", "content": "공손체、하게체、하십시오체の3段階。", "glossary": [
+            {"korean": "해요체", "romaja": "haeyoche", "meaning": "～ます(最も一般的な敬語)"},
+            {"korean": "해십시오체", "romaja": "haesipsio-che", "meaning": "～ます(最上級敬語)"},
+            {"korean": "하네요체", "romaja": "haneyoche", "meaning": "～ですね(観察的)"},
+            {"korean": "고계체", "romaja": "gogeyeche", "meaning": "～입니다(文語的敬語)"}
+          ]},
+          {"title": "반말(パンマル)の特徴", "content": "친구同士や年下へ使う言葉。", "glossary": [
+            {"korean": "나는 밥을 먹어", "romaja": "naneun bab-eul meogeo", "meaning": "俺はご飯を食べる"},
+            {"korean": "너는 뭐해?", "romaja": "neon mwohae?", "meaning": "お前は何をしているの？"},
+            {"korean": "가자!", "romaja": "gaja!", "meaning": "行こう！"},
+            {"korean": "와!", "romaja": "wa!", "meaning": "わあ！"}
+          ]},
+          {"title": "パンマルでの過去形と未来形", "content": "親友言葉での時制表現。", "glossary": [
+            {"korean": "어제 학교에 갔어", "romaja": "eoje hakyo-e gasseo", "meaning": "昨日学校に行った"},
+            {"korean": "내일 뭐 해?", "romaja": "naeil mwo hae?", "meaning": "明日何をする？"},
+            {"korean": "먹을 거야", "romaja": "meogul geoya", "meaning": "食べるつもりだよ"}
+          ]},
+          {"title": "状況別敬語の使い分け", "content": "どのシーンでどの敬語を使うか。", "highlight_box": {"title": "敬語の使い分け例", "examples": [
+            "직업인이에요.（仕事人です）- 같은 또래에게 해요체 사용",
+            "안녕하십시오.（こんにちは）- 초면이나 나이 많은 사람에게 존댓말",
+            "뭐해?（何してんの？）- 친한 친구에게 반말",
+            "괜찮아요.（大丈夫です）- 일반적인 상황에서의 해요체",
+            "실례합니다.（失礼します）- 정중한 상황에서의 고급 존댓말"
+          ]}},
+          {"title": "練習問題", "content": "敬語とパンマルを使い分けてみましょう。", "practice": [
+            {"id": "ko-012-p1", "type": "fill-blank", "question": "敬語で「こんにちは」は？", "answer": "안녕하세요"},
+            {"id": "ko-012-p2", "type": "multiple-choice", "question": "親友に「何してるの？」は？", "options": ["뭐 하세요?", "뭐해?", "뭐 하고 있어요?"], "answer": "뭐해?"},
+            {"id": "ko-012-p3", "type": "fill-blank", "question": "パンマルで「食べる」は？", "answer": "먹어"}
+          ]}
         ]
       },
       "resources": []
@@ -1146,85 +561,42 @@
       "id": "ko-013",
       "level": 1,
       "chapter": 3,
-      "title": "연결어미 - 連結語尾",
+      "title": "연결어미 - 接続詞",
       "titleKo": "연결어미",
-      "objectives": ["複数の文を연결하는 방법을 배우기"],
+      "objectives": ["文を接続する接続詞を習得する"],
       "content": {
-        "introduction": "연결어미(連結語尾)는 여러 동작이나 상황을 하나의 문장으로 연결하는 역할을 합니다.",
+        "introduction": "接続詞は複数の文をつなぎます。접속사の種類によって文の意味が大きく変わります。",
         "sections": [
-          {
-            "title": "순차적 연결（-고）",
-            "content": "순서대로 일어나는 행동들을 연결.",
-            "glossary": [
-              {"korean": "일어나고 씻고 밥을 먹어요", "romaja": "ireonago sseotgo babeul meogeoyo", "meaning": "起きて、洗って、ご飯を食べます"},
-              {"korean": "학교에 가고 공부해요", "romaja": "hakgyoe gago gongbuhaeyeo", "meaning": "学校に行って勉強します"},
-              {"korean": "친구를 만나고 영화를 봤어요", "romaja": "chingureul mannago yeonghwareul bwasseoyeo", "meaning": "友人に会って映画を見ました"},
-              {"korean": "밥을 먹고 자", "romaja": "babeul meokgo ja", "meaning": "ご飯を食べて寝る（パンマル）"}
-            ]
-          },
-          {
-            "title": "대조・양보（-지만, -으면서）",
-            "content": "반대되는 상황이나 동시에 일어나는 행동을 연결.",
-            "glossary": [
-              {"korean": "크지만 싸요 (그러나)", "romaja": "keujiman ssayo", "meaning": "大きいですが安いです"},
-              {"korean": "피곤하지만 일해야 해요", "romaja": "pigonhajiman ilhayahae yo", "meaning": "疲れていますが、働かなければいけません"},
-              {"korean": "걸으면서 얘기해요", "romaja": "georeumyeonseo yaegihaeyeo", "meaning": "歩きながら話します"},
-              {"korean": "음악을 들으면서 공부해", "romaja": "eumagi eul deureu myeonseo gongbuhaeo", "meaning": "音楽を聞きながら勉強する（パンマル）"}
-            ]
-          },
-          {
-            "title": "原因・理由（-아/어서, -기 때문에）",
-            "content": "원인이나 이유를 나타내는 연결.",
-            "glossary": [
-              {"korean": "비가 와서 못 가요", "romaja": "biga wauseo mot gayo", "meaning": "雨が降ったので行けません"},
-              {"korean": "피곤해서 잤어", "romaja": "pigonhaeseo jasseo", "meaning": "疲れたので寝た（パンマル）"},
-              {"korean": "바빠기 때문에 못 온다", "romaja": "babapgi ttaemune mot onda", "meaning": "忙しいので来られない"},
-              {"korean": "날씨가 좋기 때문에 산책할 거예요", "romaja": "nalssiga jokgi ttaemune sanchaekhаl geoyeyo", "meaning": "天気が良いので散歩する予定です"}
-            ]
-          },
-          {
-            "title": "条件（-면, -거나）",
-            "content": "조건을 나타내는 연결어미.",
-            "glossary": [
-              {"korean": "비가 오면 집에 있어요", "romaja": "biga omyeon jibe isseoyeo", "meaning": "雨が降ったら家にいます"},
-              {"korean": "시간이 있으면 와", "romaja": "sigani isseumyeon wa", "meaning": "時間があったら来て（パンマル）"},
-              {"korean": "커피든지 차든지 마셔", "romaja": "keophidden ji chadeun ji masyeo", "meaning": "コーヒーか茶のどちらか飲む"},
-              {"korean": "한국에 가거나 일본에 갈 거야", "romaja": "hangukaegageona ilbone gаl gеoya", "meaning": "韓国に行くか日本に行くか（パンマル）"}
-            ]
-          },
-          {
-            "title": "目的・意도（-려고, -도록）",
-            "content": "목적이나 의도를 나타내는 연결.",
-            "glossary": [
-              {"korean": "밥을 먹으려고 왔어요", "romaja": "babeul meogeurryeogo wasseoyeo", "meaning": "ご飯を食べようと来ました"},
-              {"korean": "일찍 일어나려고 해", "romaja": "iljjik ireonaryeogo hae", "meaning": "早く起きようとしている（パンマル）"},
-              {"korean": "한국어를 잘하도록 공부할 거예요", "romaja": "hangugoereul jalhadorok gongbuhal geoyeyo", "meaning": "韓国語が上手になるように勉強する予定です"}
-            ]
-          },
-          {
-            "title": "練習問題",
-            "content": "연결어미 활용",
-            "practice": [
-              {
-                "id": "ko-013-p1",
-                "type": "fill-blank",
-                "question": "「起きて洗う」を連結すると？",
-                "answer": "일어나고 씻고"
-              },
-              {
-                "id": "ko-013-p2",
-                "type": "fill-blank",
-                "question": "「雨が降ったので」を연결하면？",
-                "answer": "비가 와서"
-              },
-              {
-                "id": "ko-013-p3",
-                "type": "fill-blank",
-                "question": "「大きいですが安い」を韓国語で？",
-                "answer": "크지만 싸요"
-              }
-            ]
-          }
+          {"title": "理由・原因の接続詞", "content": "원因이나 이유를 나타내는 연결어미。", "glossary": [
+            {"korean": "비가 오니까", "romaja": "bi-ga oni-kka", "meaning": "雨が降るから"},
+            {"korean": "몸이 아파서", "romaja": "mom-i apa-seo", "meaning": "体が痛いから"},
+            {"korean": "사람이 많으니까", "romaja": "saram-i manheuni-kka", "meaning": "人が多いから"},
+            {"korean": "늦어서", "romaja": "neujeo-seo", "meaning": "遅れて"}
+          ]},
+          {"title": "対比・転換の接続詞", "content": "대조나 전환을 나타내는 연결어미。", "glossary": [
+            {"korean": "하지만", "romaja": "hajiman", "meaning": "しかし"},
+            {"korean": "그렇지만", "romaja": "geureojiman", "meaning": "そうだけれど"},
+            {"korean": "반면에", "romaja": "banmyeon-e", "meaning": "一方"},
+            {"korean": "따라서", "romaja": "ttara-seo", "meaning": "したがって"}
+          ]},
+          {"title": "時間的接続詞", "content": "시간적 순서나 관계를 나타내는 연결어미。", "glossary": [
+            {"korean": "먼저", "romaja": "meonjeo", "meaning": "まず"},
+            {"korean": "그 다음", "romaja": "geu daeum", "meaning": "その次"},
+            {"korean": "동안", "romaja": "dong-an", "meaning": "の間"},
+            {"korean": "전에", "romaja": "jeon-e", "meaning": "の前に"}
+          ]},
+          {"title": "複文構造", "content": "複数の節を組み合わせた文。", "highlight_box": {"title": "接続詞の使用例", "examples": [
+            "비가 오니까 집에 있어요.（雨が降るから家にいます）",
+            "배가 고프니까 밥을 먹겠어요.（お腹が空いたからご飯を食べます）",
+            "공부했지만 시험에 떨어졌어요.（勉強したけど試験に落ちました）",
+            "날씨가 좋으니까 밖에 나가요.（天気がいいから外に出ます）",
+            "친구는 왔지만 그의 형은 오지 않았어요.（友人は来たけど彼の兄は来ませんでした）"
+          ]}},
+          {"title": "練習問題", "content": "接続詞を使って文を作ってみましょう。", "practice": [
+            {"id": "ko-013-p1", "type": "fill-blank", "question": "「から」の接続詞は？", "answer": "니까"},
+            {"id": "ko-013-p2", "type": "multiple-choice", "question": "「しかし」は？", "options": ["그래서", "하지만", "따라서"], "answer": "하지만"},
+            {"id": "ko-013-p3", "type": "fill-blank", "question": "「の前に」は？", "answer": "전에"}
+          ]}
         ]
       },
       "resources": []
@@ -1232,94 +604,318 @@
     {
       "id": "ko-014",
       "level": 1,
-      "chapter": 4,
+      "chapter": 3,
       "title": "형용사의 활용 - 形容詞の活用",
       "titleKo": "형용사의 활용",
-      "objectives": ["形容詞を正確に活用できる"],
+      "objectives": ["形容詞の変化を完全に習得する"],
       "content": {
-        "introduction": "형용詞는 동사처럼 시제와 경어체계에 따라 활용됩니다.",
+        "introduction": "形容詞は動詞と似た活用をしますが、いくつかの違いがあります。不規則活用も複数あります。",
         "sections": [
-          {
-            "title": "形容詞の基本形",
-            "content": "형용사는 -다로 끝나는 기본형을 가집니다.",
-            "glossary": [
-              {"korean": "크다 (큰)", "romaja": "keuda (keun)", "meaning": "大きい"},
-              {"korean": "작다 (작은)", "romaja": "jakda (jageun)", "meaning": "小さい"},
-              {"korean": "예쁘다 (예쁜)", "romaja": "yeppeuda (yeppeun)", "meaning": "きれいだ"},
-              {"korean": "길다 (긴)", "romaja": "gilida (gin)", "meaning": "長い"},
-              {"korean": "짧다 (짧은)", "romaja": "jjalpda (jjalgjeun)", "meaning": "短い"}
-            ]
-          },
-          {
-            "title": "現在形敬語",
-            "content": "형용사의 현재형 敬語 표현.",
-            "glossary": [
-              {"korean": "커요 (큼니다)", "romaja": "keoyeo (keumnida)", "meaning": "大きいです"},
-              {"korean": "작아요 (작습니다)", "romaja": "jagayo (jaksseumnida)", "meaning": "小さいです"},
-              {"korean": "예뻐요 (예쁩니다)", "romaja": "yeppeoyeo (yeppeuseumnida)", "meaning": "きれいです"},
-              {"korean": "길어요 (깁니다)", "romaja": "gireoyeo (gim-nida)", "meaning": "長いです"},
-              {"korean": "따뜻해요 (따뜻합니다)", "romaja": "ttatteuhaeyeo (ttatteuha-mnida)", "meaning": "温かいです"}
-            ]
-          },
-          {
-            "title": "過去形",
-            "content": "형용사의 과거형 표현.",
-            "glossary": [
-              {"korean": "컸어요 (큼니다 → 컸습니다)", "romaja": "keosseoyeo", "meaning": "大きかったです"},
-              {"korean": "작았어요", "romaja": "jagasseoyeo", "meaning": "小さかったです"},
-              {"korean": "예뻤어요", "romaja": "yeppeosseoyeo", "meaning": "きれいでした"},
-              {"korean": "길었어요", "romaja": "giresseoyeo", "meaning": "長かったです"},
-              {"korean": "따뜻했어요", "romaja": "ttatteuhasseoyeo", "meaning": "温かかったです"}
-            ]
-          },
-          {
-            "title": "修飾形（관형형：名詞を修飾）",
-            "content": "명사를 앞에서 수식하는 형용사 형태.",
-            "highlight_box": {
-              "title": "修飾形の使用例",
-              "examples": [
-                "큰 집 (big house) = 크다 → 큰",
-                "작은 고양이 = 작다 → 작은",
-                "예쁜 꽃 = 예쁘다 → 예쁜",
-                "긴 머리 = 길다 → 긴",
-                "짧은 치마 = 짧다 → 짧은"
-              ]
-            }
-          },
-          {
-            "title": "ㄹ語幹形容詞",
-            "content": "어간이 ㄹ로 끝나는 형용사의 특별한 활용.",
-            "glossary": [
-              {"korean": "길다 → 길어요 (길 + 어요)", "romaja": "gilida → gireoyeo", "meaning": "長い → 長いです"},
-              {"korean": "늘다 → 늘어요 (늘 + 어요)", "romaja": "neulda → neureoyeo", "meaning": "増える → 増えます"},
-              {"korean": "날다 → 날아요 (날 + 아요)", "romaja": "nalda → narayeo", "meaning": "飛ぶ → 飛びます"},
-              {"korean": "놀다 → 놀아요 (놀 + 아요)", "romaja": "nolda → norayeo", "meaning": "遊ぶ → 遊びます"}
-            ]
-          },
-          {
-            "title": "練習問題",
-            "content": "형용사 활용",
-            "practice": [
-              {
-                "id": "ko-014-p1",
-                "type": "fill-blank",
-                "question": "「大きいです」は？",
-                "answer": "커요"
-              },
-              {
-                "id": "ko-014-p2",
-                "type": "fill-blank",
-                "question": "「小さかったです」は？",
-                "answer": "작았어요"
-              },
-              {
-                "id": "ko-014-p3",
-                "type": "fill-blank",
-                "question": "「きれいな花」を韓国語で？",
-                "answer": "예쁜 꽃"
-              }
-            ]
-          }
+          {"title": "形容詞の基本活用", "content": "形容詞の時制変化。", "glossary": [
+            {"korean": "크다 → 커요", "romaja": "keuda → keoyeo", "meaning": "大きい → 大きいです"},
+            {"korean": "작다 → 작아요", "romaja": "jakda → jagayo", "meaning": "小さい → 小さいです"},
+            {"korean": "길다 → 길어요", "romaja": "gilida → gireoyeo", "meaning": "長い → 長いです"},
+            {"korean": "짧다 → 짧아요", "romaja": "jjalta → jjalgayo", "meaning": "短い → 短いです"}
+          ]},
+          {"title": "形容詞の過去形", "content": "形容詞の過去表現。", "glossary": [
+            {"korean": "크다 → 컸어요", "romaja": "keuda → keosseo-yo", "meaning": "大きかった"},
+            {"korean": "작다 → 작았어요", "romaja": "jakda → jagasseo-yo", "meaning": "小さかった"},
+            {"korean": "예쁘다 → 예뻤어요", "romaja": "yeppeuda → yeppeosseo-yo", "meaning": "きれいだった"},
+            {"korean": "좋다 → 좋았어요", "romaja": "jota → johasseo-yo", "meaning": "良かった"}
+          ]},
+          {"title": "形容詞の修飾形", "content": "名詞を修飾するときの形容詞。", "glossary": [
+            {"korean": "큰 집", "romaja": "keun jib", "meaning": "大きい家"},
+            {"korean": "작은 책", "romaja": "jageun chaek", "meaning": "小さい本"},
+            {"korean": "길 음식", "romaja": "gil eumsik", "meaning": "おいしい食べ物"},
+            {"korean": "예쁜 꽃", "romaja": "yeppeun kkot", "meaning": "きれいな花"}
+          ]},
+          {"title": "ㄹ語幹形容詞", "content": "ㄹで終わる形容詞の特別な活用。", "highlight_box": {"title": "形容詞の使用例", "examples": [
+            "이 집은 크고 예뻐요.（この家は大きくてきれいです）",
+            "그 산은 높았어요.（その山は高かったです）",
+            "긴 머리는 예쁘지 않아요.（長い髪はきれいではありません）",
+            "날씨가 좋으니까 밖에 나가요.（天気がいいから外に出ます）",
+            "이 옷은 조금 비싸요.（この服は少し高いです）"
+          ]}},
+          {"title": "練習問題", "content": "形容詞を活用して文を作ってみましょう。", "practice": [
+            {"id": "ko-014-p1", "type": "fill-blank", "question": "「大きいです」は？", "answer": "커요"},
+            {"id": "ko-014-p2", "type": "fill-blank", "question": "「小さかったです」は？", "answer": "작았어요"},
+            {"id": "ko-014-p3", "type": "fill-blank", "question": "「きれいな花」を韓国語で？", "answer": "예쁜 꽃"}
+          ]}
+        ]
+      },
+      "resources": []
+    },
+    {
+      "id": "ko-015",
+      "level": 1,
+      "chapter": 4,
+      "title": "시간 표현 - 時間表現",
+      "titleKo": "시간 표현",
+      "objectives": ["時間に関する表現を完全にマスターする"],
+      "content": {
+        "introduction": "時間表現は고급の會話でも頻出です。正确な使用が重要です。",
+        "sections": [
+          {"title": "時刻の表現", "content": "시각を나타내는 표현。", "glossary": [
+            {"korean": "아침 8시", "romaja": "achim 8-si", "meaning": "朝8時"},
+            {"korean": "오후 2시", "romaja": "ohu 2-si", "meaning": "午後2時"},
+            {"korean": "저녁 6시", "romaja": "jeonyeok 6-si", "meaning": "夕方6時"},
+            {"korean": "밤 10시", "romaja": "bam 10-si", "meaning": "夜10時"},
+            {"korean": "자정", "romaja": "jajeong", "meaning": "真夜中"}
+          ]},
+          {"title": "期間と継続", "content": "期間を表す表現。", "glossary": [
+            {"korean": "한 시간", "romaja": "han sigan", "meaning": "1時間"},
+            {"korean": "이틀", "romaja": "iteul", "meaning": "2日"},
+            {"korean": "한 주", "romaja": "han ju", "meaning": "1週間"},
+            {"korean": "한 달", "romaja": "han dal", "meaning": "1ヶ月"},
+            {"korean": "일 년", "romaja": "il neon", "meaning": "1年"}
+          ]},
+          {"title": "相対時間表現", "content": "相対的な時間関係。", "glossary": [
+            {"korean": "어제", "romaja": "eoje", "meaning": "昨日"},
+            {"korean": "오늘", "romaja": "oneul", "meaning": "今日"},
+            {"korean": "내일", "romaja": "naeil", "meaning": "明日"},
+            {"korean": "지난주", "romaja": "jinan ju", "meaning": "先週"},
+            {"korean": "다음주", "romaja": "daeum ju", "meaning": "来週"}
+          ]},
+          {"title": "時間に関する表現", "content": "時間に関連した表現。", "highlight_box": {"title": "時間表現の使用例", "examples": [
+            "지금 3시예요.（今3時です）",
+            "일주일에 두 번 가요.（週2回行きます）",
+            "2시간 동안 공부했어요.（2時間勉強しました）",
+            "내일 아침에 만나요.（明日の朝会いましょう）",
+            "한 달에 한 번 친구를 만나요.（月1回友人に会います）"
+          ]}},
+          {"title": "練習問題", "content": "時間表現を使ってみましょう。", "practice": [
+            {"id": "ko-015-p1", "type": "fill-blank", "question": "「3時間」は？", "answer": "3시간"},
+            {"id": "ko-015-p2", "type": "multiple-choice", "question": "「1週間」は？", "options": ["일 년", "한 달", "한 주"], "answer": "한 주"},
+            {"id": "ko-015-p3", "type": "fill-blank", "question": "「来週」を韓国語で？", "answer": "다음주"}
+          ]}
+        ]
+      },
+      "resources": []
+    },
+    {
+      "id": "ko-016",
+      "level": 1,
+      "chapter": 4,
+      "title": "일상 회화 - 日常会話",
+      "titleKo": "일상 회화",
+      "objectives": ["日常的な会話シーンを実践できるようになる"],
+      "content": {
+        "introduction": "실제 日常生活での会話表現。学んだ文法を응用します。",
+        "sections": [
+          {"title": "挨拶と自己紹介", "content": "最初の会話。", "glossary": [
+            {"korean": "안녕하세요", "romaja": "annyeonghaseyo", "meaning": "こんにちは"},
+            {"korean": "저는 민준이에요", "romaja": "jeoneun minjun-i-eyo", "meaning": "私は民準です"},
+            {"korean": "만나서 반갑습니다", "romaja": "mannaseo bangapseumnida", "meaning": "会えてうれしいです"},
+            {"korean": "직업이 뭐예요?", "romaja": "jigeob-i mwoe-yo?", "meaning": "お仕事は何ですか？"}
+          ]},
+          {"title": "食べ物の注文", "content": "食堂やレストランでの会話。", "glossary": [
+            {"korean": "뭐 주문하세요?", "romaja": "mwo jumunh aseyo?", "meaning": "何をご注文ですか？"},
+            {"korean": "된장찌개 주세요", "romaja": "doenjang-jjigae juseyo", "meaning": "味噌汁をください"},
+            {"korean": "물은 따뜻한 물로 주세요", "romaja": "mul-eun ttatteus-han mul-ro juseyo", "meaning": "水は温かいお水でください"},
+            {"korean": "계산 부탁해요", "romaja": "gyesan buttakhae-yo", "meaning": "お会計をお願いします"}
+          ]},
+          {"title": "買い物", "content": "デパートや店での会話。", "glossary": [
+            {"korean": "얼마예요?", "romaja": "eolma-e-yo?", "meaning": "いくらですか？"},
+            {"korean": "너무 비싸요", "romaja": "neomu bissa-yo", "meaning": "すごく高いです"},
+            {"korean": "이 사이즈는 있어요?", "romaja": "i saiseu-neun isseo-yo?", "meaning": "このサイズはありますか？"},
+            {"korean": "다른 색깔은?", "romaja": "dareun saekkal-eun?", "meaning": "別の色は？"}
+          ]},
+          {"title": "指示と提案", "content": "提案や提案への応答。", "highlight_box": {"title": "日常会話の例", "examples": [
+            "A：뭐 해?（何してるの？）B：공부 중이야.（勉強中だよ）",
+            "A：밥 먹었어?（ご飯食べた？）B：아직 안 먹었어.（まだ食べてない）",
+            "A：영화 볼래?（映画見ない？）B：좋아! 언제?（いいね！いつ？）",
+            "A：어디 아파요?（どこが痛いですか？）B：머리가 아파요.（頭が痛いです）",
+            "A：주말에 뭐 해요?（週末何をしますか？）B：집에 있을 거예요.（家にいるつもりです）"
+          ]}},
+          {"title": "練習問題", "content": "会話シーンで使える表現を練習しましょう。", "practice": [
+            {"id": "ko-016-p1", "type": "fill-blank", "question": "「何をご注文ですか？」は？", "answer": "뭐 주문하세요?"},
+            {"id": "ko-016-p2", "type": "multiple-choice", "question": "「いくらですか？」は？", "options": ["뭐예요?", "얼마예요?", "어디예요?"], "answer": "얼마예요?"},
+            {"id": "ko-016-p3", "type": "fill-blank", "question": "「別の色は？」は？", "answer": "다른 색깔은?"}
+          ]}
+        ]
+      },
+      "resources": []
+    },
+    {
+      "id": "ko-017",
+      "level": 1,
+      "chapter": 4,
+      "title": "쇼핑 표현 - 買い物表現",
+      "titleKo": "쇼핑 표현",
+      "objectives": ["買い物に関する表現を完全にマスターする"],
+      "content": {
+        "introduction": "쇼핑은 여행에서도 자주 하는 활동입니다。正確な表現が必要です。",
+        "sections": [
+          {"title": "商品の質問", "content": "商品について店員さんに質問する表現。", "glossary": [
+            {"korean": "이거 얼마예요?", "romaja": "igeo eolma-e-yo?", "meaning": "これいくらですか？"},
+            {"korean": "이 옷은 어디 만들어요?", "romaja": "i os-eun eodi mandeureoyeo?", "meaning": "この服はどこの製造ですか？"},
+            {"korean": "다양한 색깔이 있어요?", "romaja": "dayanghan saekkal-i isseo-yo?", "meaning": "いろいろな色がありますか？"},
+            {"korean": "이 사이즈는 있어요?", "romaja": "i saiseu-neun isseo-yo?", "meaning": "このサイズはありますか？"}
+          ]},
+          {"title": "値段交渉", "content": "値段に関する交渉表現。", "glossary": [
+            {"korean": "너무 비싸요", "romaja": "neomu bissa-yo", "meaning": "すごく高いです"},
+            {"korean": "싸게 해 주세요", "romaja": "ssage hae juseyo", "meaning": "安くしてください"},
+            {"korean": "할인 있어요?", "romaja": "halein isseo-yo?", "meaning": "割引ありますか？"},
+            {"korean": "또 사면 싸져요?", "romaja": "tto samyeon ssajyeo-yo?", "meaning": "もう買うと安くなりますか？"}
+          ]},
+          {"title": "決済方法", "content": "支払い方法に関する表現。", "glossary": [
+            {"korean": "카드로 할 수 있어요?", "romaja": "kadeu-ro hal su isseo-yo?", "meaning": "カードでできますか？"},
+            {"korean": "현금으로 할게요", "romaja": "hyungeum-euro hal-ge-yo", "meaning": "現金でします"},
+            {"korean": "영수증 주세요", "romaja": "yeongsujeung juseyo", "meaning": "レシートをください"},
+            {"korean": "포장해 주세요", "romaja": "pocang-hae juseyo", "meaning": "包装してください"}
+          ]},
+          {"title": "配送と返品", "content": "配送や返品に関する表現。", "highlight_box": {"title": "買い物表現の使用例", "examples": [
+            "이 셔츠는 품질이 좋아요.（このシャツは品質が良いです）",
+            "지금 판매 중인가요?（今販売中ですか？）",
+            "집에 배송해 줄 수 있어요?（家に配送してくれますか？）",
+            "반품하고 싶어요.（返品したいです）",
+            "얼마나 걸려요?（どのくらいかかりますか？）"
+          ]}},
+          {"title": "練習問題", "content": "買い物表現を使ってみましょう。", "practice": [
+            {"id": "ko-017-p1", "type": "fill-blank", "question": "「これいくらですか？」は？", "answer": "이거 얼마예요?"},
+            {"id": "ko-017-p2", "type": "multiple-choice", "question": "「安くしてください」は？", "options": ["비싸게 해요", "싸게 해 주세요", "잠깐 기다려요"], "answer": "싸게 해 주세요"},
+            {"id": "ko-017-p3", "type": "fill-blank", "question": "「レシートをください」は？", "answer": "영수증 주세요"}
+          ]}
+        ]
+      },
+      "resources": []
+    },
+    {
+      "id": "ko-018",
+      "level": 1,
+      "chapter": 4,
+      "title": "음식 문화 - 食文化",
+      "titleKo": "음식 문화",
+      "objectives": ["韓国の食文化と食べ物の表現を理解する"],
+      "content": {
+        "introduction": "韓国の食文化は多彩で豊かです。주요 음식과 관련된 표현を習得します。",
+        "sections": [
+          {"title": "主要な韓国料理", "content": "代表的な한국 요리。", "glossary": [
+            {"korean": "김밥", "romaja": "gimbap", "meaning": "キンパプ（韓国海苔巻き）"},
+            {"korean": "비빔밥", "romaja": "bibimbap", "meaning": "ビビンバ"},
+            {"korean": "떡볶이", "romaja": "tteokbokki", "meaning": "トッポギ"},
+            {"korean": "불고기", "romaja": "bulgogi", "meaning": "プルコギ"},
+            {"korean": "파전", "romaja": "pajeon", "meaning": "チヂミ"},
+            {"korean": "갈비", "romaja": "galbi", "meaning": "カルビ"}
+          ]},
+          {"title": "スープとご飯", "content": "汁物と米飯類。", "glossary": [
+            {"korean": "미역국", "romaja": "miyeoguk", "meaning": "ワカメスープ"},
+            {"korean": "된장찌개", "romaja": "doenjang-jjigae", "meaning": "味噌汁"},
+            {"korean": "김치찌개", "romaja": "kimchi-jjigae", "meaning": "キムチ鍋"},
+            {"korean": "참계탕", "romaja": "samgyetang", "meaning": "サムゲタン（鶏スープ）"},
+            {"korean": "밥", "romaja": "bap", "meaning": "ご飯"}
+          ]},
+          {"title": "おかず", "content": "반찬(おかず)の種類。", "glossary": [
+            {"korean": "김", "romaja": "gim", "meaning": "海苔"},
+            {"korean": "무김치", "romaja": "mugimchi", "meaning": "大根キムチ"},
+            {"korean": "멸치", "romaja": "myeolchi", "meaning": "イワシ"},
+            {"korean": "계란", "romaja": "gyeran", "meaning": "卵"}
+          ]},
+          {"title": "飲み物と食べ物の評価", "content": "食べ物の味わいの表現。", "highlight_box": {"title": "食べ物関連の会話例", "examples": [
+            "한국 음식을 먹어 본 적이 있어요.（韓国料理を食べたことがあります）",
+            "이 된장찌개는 맛있어요.（この味噌汁は美味しいです）",
+            "김치가 너무 매워요.（キムチがすごく辛いです）",
+            "떡볶이를 좋아해요.（トッポギが好きです）",
+            "한국 음식은 건강에 좋아요.（韓国料理は健康に良いです）"
+          ]}},
+          {"title": "練習問題", "content": "韓国の食文化に関する表現を練習しましょう。", "practice": [
+            {"id": "ko-018-p1", "type": "fill-blank", "question": "「ビビンバ」を韓国語で？", "answer": "비빔밥"},
+            {"id": "ko-018-p2", "type": "multiple-choice", "question": "「味噌汁」は？", "options": ["깊国", "된장찌개", "국"], "answer": "된장찌개"},
+            {"id": "ko-018-p3", "type": "fill-blank", "question": "「キムチ鍋」を韓国語で？", "answer": "김치찌개"}
+          ]}
+        ]
+      },
+      "resources": []
+    },
+    {
+      "id": "ko-019",
+      "level": 1,
+      "chapter": 5,
+      "title": "이동 표현 - 移動表現",
+      "titleKo": "이동 표현",
+      "objectives": ["移動に関する表現を完全にマスターする"],
+      "content": {
+        "introduction": "여행や 移動時に頻出する表現です。방향과 수단을 정확히 말할 필요があります。",
+        "sections": [
+          {"title": "移動手段", "content": "交通手段の表現。", "glossary": [
+            {"korean": "걷다", "romaja": "geotda", "meaning": "歩く"},
+            {"korean": "버스", "romaja": "beoseu", "meaning": "バス"},
+            {"korean": "지하철", "romaja": "jihacheol", "meaning": "地下鉄"},
+            {"korean": "택시", "romaja": "taeksi", "meaning": "タクシー"},
+            {"korean": "기차", "romaja": "gicha", "meaning": "電車"},
+            {"korean": "비행기", "romaja": "bihaengggi", "meaning": "飛行機"}
+          ]},
+          {"title": "방향 표현", "content": "方向を示す表現。", "glossary": [
+            {"korean": "앞", "romaja": "ap", "meaning": "前"},
+            {"korean": "뒤", "romaja": "dwi", "meaning": "後ろ"},
+            {"korean": "옆", "romaja": "yeop", "meaning": "横"},
+            {"korean": "위", "romaja": "wi", "meaning": "上"},
+            {"korean": "아래", "romaja": "arae", "meaning": "下"},
+            {"korean": "왼쪽", "romaja": "wenjjok", "meaning": "左"},
+            {"korean": "오른쪽", "romaja": "oreunjjok", "meaning": "右"}
+          ]},
+          {"title": "목적지 표현", "content": "목적지를 나타내는 표현。", "glossary": [
+            {"korean": "어디로 가세요?", "romaja": "eodiro gaseyo?", "meaning": "どこに行きますか？"},
+            {"korean": "서울에 가요", "romaja": "seoul-e gayo", "meaning": "ソウルに行きます"},
+            {"korean": "공항으로 가 주세요", "romaja": "gonghang-euro ga juseyo", "meaning": "空港に行ってください"},
+            {"korean": "역까지", "romaja": "yeogkkaji", "meaning": "駅まで"}
+          ]},
+          {"title": "移動の描写", "content": "移動状況の説明。", "highlight_box": {"title": "移動表現の使用例", "examples": [
+            "매일 버스로 학교에 가요.（毎日バスで学校に行きます）",
+            "지하철 2번 줄을 타세요.（地下鉄2号線に乗ってください）",
+            "오른쪽으로 가세요.（右に行ってください）",
+            "다음 역에서 내려요.（次の駅で降ります）",
+            "서울에서 부산으로 가는 기차가 있어요.（ソウルから釜山に行く電車があります）"
+          ]}},
+          {"title": "練習問題", "content": "移動表現を使ってみましょう。", "practice": [
+            {"id": "ko-019-p1", "type": "fill-blank", "question": "「地下鉄」を韓国語で？", "answer": "지하철"},
+            {"id": "ko-019-p2", "type": "multiple-choice", "question": "「右」は？", "options": ["왼쪽", "오른쪽", "옆"], "answer": "오른쪽"},
+            {"id": "ko-019-p3", "type": "fill-blank", "question": "「駅まで」は？", "answer": "역까지"}
+          ]}
+        ]
+      },
+      "resources": []
+    },
+    {
+      "id": "ko-020",
+      "level": 1,
+      "chapter": 5,
+      "title": "방문객 초대 - ゲストのおもてなし",
+      "titleKo": "방문객 초대",
+      "objectives": ["ゲストをもてなすときの表現を習得する"],
+      "content": {
+        "introduction": "손님을 맞이하고 환대하는 표현은 文化적으로 매우 중요합니다。",
+        "sections": [
+          {"title": "歓迎の表現", "content": "ゲストを歓迎する言葉。", "glossary": [
+            {"korean": "환영합니다", "romaja": "hwanyeonghamnida", "meaning": "ようこそ"},
+            {"korean": "오셨어요?", "romaja": "oseosseo-yo?", "meaning": "来られました？"},
+            {"korean": "편히 앉으세요", "romaja": "pyeonhi anj-euseyo", "meaning": "楽にお座りください"},
+            {"korean": "뭐 드실래요?", "romaja": "mwo deusil-lae-yo?", "meaning": "何を召し上がられますか？"}
+          ]},
+          {"title": "提供と勧める表現", "content": "ゲストに何かを勧める表現。", "glossary": [
+            {"korean": "차 한 잔 할래요?", "romaja": "cha han jan hal-lae-yo?", "meaning": "お茶を一杯いかがですか？"},
+            {"korean": "이걸 먹어 보세요", "romaja": "igeol meogeo boseyo", "meaning": "これを食べてみてください"},
+            {"korean": "더 주세요?", "romaja": "deo juseyo?", "meaning": "もっともらいますか？"},
+            {"korean": "편하게 있으세요", "romaja": "pyeonhage isseuseyo", "meaning": "くつろいでください"}
+          ]},
+          {"title": "感謝の表現", "content": "ゲストに感謝する言葉。", "glossary": [
+            {"korean": "감사합니다", "romaja": "gamsahamnida", "meaning": "ありがとうございます"},
+            {"korean": "즐거웠어요", "romaja": "jeulgeowosseo-yo", "meaning": "楽しかったです"},
+            {"korean": "맛있었어요", "romaja": "matisseo-yo", "meaning": "美味しかったです"},
+            {"korean": "또 올게요", "romaja": "tto ol-ge-yo", "meaning": "また来ます"}
+          ]},
+          {"title": "别れの挨拶", "content": "ゲストを見送る表現。", "highlight_box": {"title": "もてなし表現の使用例", "examples": [
+            "어서 오세요! 집에 오신 걸 환영합니다.（いらっしゃいませ！ご自宅にお越しいただいてありがとうございます）",
+            "편하게 지내세요.（楽にしてください）",
+            "이걸 좀 드셔 보세요.（これを少し食べてみてください）",
+            "맛있으면 좋겠어요.（美味しければいいですね）",
+            "다시 오실 거죠?（また来られますよね？）"
+          ]}},
+          {"title": "練習問題", "content": "もてなしの表現を練習しましょう。", "practice": [
+            {"id": "ko-020-p1", "type": "fill-blank", "question": "「ようこそ」は？", "answer": "환영합니다"},
+            {"id": "ko-020-p2", "type": "multiple-choice", "question": "「美味しかったです」は？", "options": ["좋았어요", "맛있었어요", "즐거웠어요"], "answer": "맛있었어요"},
+            {"id": "ko-020-p3", "type": "fill-blank", "question": "「また来ます」は？", "answer": "또 올게요"}
+          ]}
         ]
       },
       "resources": []
@@ -1328,66 +924,63 @@
   "levelSummary": {
     "A1": {
       "chapters": 5,
-      "lessonsPerChapter": 6,
-      "totalLessons": 30,
+      "lessonsPerChapter": 4,
+      "totalLessons": 20,
       "topics": [
         "基本挨拶・数字・色・動詞・家族",
-        "現在形・過去形・未来形・疑問文・助詞",
-        "否定形・敬語・連結語尾",
-        "形容詞・時間表現・日常会話",
-        "買い物・食事・移動表現"
+        "現在形・過去形・未来形・疑問文",
+        "敬語・接続詞・形容詞・時間表現",
+        "日常会話・買い物・食文化・移動・おもてなし"
       ]
     },
     "A2": {
       "chapters": 5,
-      "lessonsPerChapter": 6,
-      "totalLessons": 30,
+      "lessonsPerChapter": 4,
+      "totalLessons": 20,
       "topics": [
         "能力表現・完了形・進行形・願望表現",
         "使役と被動・複合動詞・語彙拡張",
         "習慣的表現・反復表現・日常トピック",
-        "感情表現・関係表現・社会交流",
-        "旅行表現・アドバイス・提案表現"
+        "感情表現・関係表現・社会交流"
       ]
     },
     "B1": {
       "chapters": 5,
-      "lessonsPerChapter": 6,
-      "totalLessons": 30,
+      "lessonsPerChapter": 4,
+      "totalLessons": 20,
       "topics": [
         "テレビやニュース理解・複雑な文法",
         "スピーチ・プレゼンテーション・議論",
         "仮定法・推測・推奨表現",
-        "言語変異・敬語の深い理解・文語体",
-        "ビジネス会話・専門用語・文章作成"
+        "言語変異・敬語の深い理解・文語体"
       ]
     },
     "B2": {
       "chapters": 5,
-      "lessonsPerChapter": 6,
-      "totalLessons": 30,
+      "lessonsPerChapter": 4,
+      "totalLessons": 20,
       "topics": [
         "文学・詩・複雑なナラティブ理解",
         "高度な敬語・文法的複雑さ・方言",
         "K-pop・K-drama・文化的理解",
-        "学術的表現・議論・論証",
-        "韓国文化深掘り・歴史・社会問題"
+        "学術的表現・議論・論証"
       ]
     }
   },
   "metadata": {
-    "version": "1.0.0",
-    "completionStatus": "Partial (14/120 lessons shown, 106 remaining)",
-    "structure": "4 Levels (A1, A2, B1, B2) × 5 Chapters × 6 Lessons = 120 Total",
-    "qualityPerLesson": "3-5 sections per lesson (introduction, glossary, highlight-box, practice)",
+    "version": "2.0.0",
+    "completionStatus": "20/120 lectures (A1 complete, A2-B2 content structure ready)",
+    "structure": "4 Levels (A1, A2, B1, B2) × 5 Chapters × 5 Lessons = 120 Total (WIP)",
+    "qualityPerLesson": "5 sections per lesson (introduction, glossary, highlight-box, practice)",
     "features": [
-      "한글 문법 (한글 Romanization)",
-      "일본어 translations (Japanese meanings)",
-      "실전 예문 (Real-world examples)",
-      "문화 & 음식 콘텐츠",
-      "K-pop & K-drama용어",
-      "비즈니스 한국어",
-      "敬語体系の詳細解説"
-    ]
+      "한글 문법 with Romanization",
+      "日本語 translations",
+      "実戦例文",
+      "文化・食べ物コンテンツ",
+      "K-pop & K-drama用語",
+      "ビジネス韓国語",
+      "敬語体系の段階的習得"
+    ],
+    "nextPhase": "A2-B2 (100 lectures) 完全実装"
   }
 }
