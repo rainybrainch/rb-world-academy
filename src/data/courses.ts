@@ -7123,57 +7123,276 @@ const deua1: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Basic Greetings & Introductions',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Greetings', 'Introduction', 'Formality'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Basic Greetings & Personal Introduction'
+            },
+            {
+              type: 'text',
+              content: 'Greetings are the foundation of German communication. Learn to say hello, goodbye, and introduce yourself in everyday situations. German culture emphasizes polite forms of address, making these expressions essential when meeting someone for the first time.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Hallo', definition: 'こんにちは' },
+                { term: 'Guten Morgen', definition: 'おはよう' },
+                { term: 'Guten Tag', definition: 'こんにちは（昼間）' },
+                { term: 'Gute Nacht', definition: 'おやすみなさい' },
+                { term: 'Auf Wiedersehen', definition: 'さようなら' },
+                { term: 'Tschüss', definition: 'じゃあね（カジュアル）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Greeting Phrases',
+              items: [
+                'Hallo! Wie geht es dir?',
+                'Guten Morgen! Wie heißt du?',
+                'Auf Wiedersehen! Bis bald!'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Practice Greetings',
+              auxiliaryPrompt: 'Practice introducing yourself with proper German greetings',
+              answer: 'Introduce yourself: Hallo, ich heiße [name]. Ich bin aus [country].'
+            }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Pronouns & Verb sein',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Pronouns', 'sein verb', 'Conjugation'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Pronouns & Verb sein (to be)'
+            },
+            {
+              type: 'text',
+              content: 'Mastering personal pronouns and the verb sein is fundamental for German. These forms help you identify people and describe characteristics. The verb sein is irregular and essential for everyday conversation.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'ich', definition: '私は（主格）' },
+                { term: 'du', definition: '君は（親友向け単数）' },
+                { term: 'er/sie/es', definition: '彼/彼女/それは' },
+                { term: 'wir', definition: '私たちは' },
+                { term: 'ihr', definition: '君たちは（複数非正式）' },
+                { term: 'Sie', definition: 'あなたは（敬語）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Verb sein Conjugation',
+              items: [
+                'Ich bin Student.',
+                'Du bist Lehrer.',
+                'Er ist Arzt.',
+                'Wir sind Freunde.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Pronoun Exercise',
+              auxiliaryPrompt: 'Fill in correct pronouns for each sentence',
+              answer: 'ich bin, du bist, er/sie/es ist, wir sind, ihr seid, Sie sind'
+            }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Numbers 0-20 & Age',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Numbers', 'Counting', 'Age expression'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Numbers 0-20 & Age'
+            },
+            {
+              type: 'text',
+              content: 'Learning numbers is practical for daily communication. German numbers follow specific patterns that help you build towards larger numbers. Knowing how to ask and state age is an essential social skill.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'null', definition: 'ゼロ' },
+                { term: 'eins', definition: '1' },
+                { term: 'zwei', definition: '2' },
+                { term: 'drei', definition: '3' },
+                { term: 'zehn', definition: '10' },
+                { term: 'zwanzig', definition: '20' },
+                { term: 'alt', definition: '年をとった、古い' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Age Expression',
+              items: [
+                'Ich bin zwanzig Jahre alt.',
+                'Du bist fünfzehn Jahre alt.',
+                'Wie alt bist du?'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Number Practice',
+              auxiliaryPrompt: 'Count 0-20 and practice stating ages',
+              answer: 'Ich bin [number] Jahre alt. (Example: Ich bin 23 Jahre alt.)'
+            }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Definite & Indefinite Articles',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Articles', 'Gender', 'Cases'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Definite & Indefinite Articles'
+            },
+            {
+              type: 'text',
+              content: 'German articles change by grammatical gender and case. Three genders exist: masculine (der), feminine (die), and neuter (das). This fundamental feature affects all nouns and requires careful attention.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'der', definition: '男性定冠詞' },
+                { term: 'die', definition: '女性定冠詞' },
+                { term: 'das', definition: '中性定冠詞' },
+                { term: 'ein', definition: '男性不定冠詞' },
+                { term: 'eine', definition: '女性不定冠詞' },
+                { term: 'ein', definition: '中性不定冠詞' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Article Examples',
+              items: [
+                'der Mann (男性) - ein Mann',
+                'die Frau (女性) - eine Frau',
+                'das Kind (中性) - ein Kind'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Article Identification',
+              auxiliaryPrompt: 'Identify correct articles for nouns',
+              answer: 'der Tisch, die Lampe, das Buch, ein Auto, eine Katze, ein Fenster'
+            }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Basic Adjectives & Description',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Adjectives', 'Agreement', 'Description'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Basic Adjectives & Description'
+            },
+            {
+              type: 'text',
+              content: 'Adjectives in German must agree with nouns in gender, number, and case. Common descriptive adjectives help you build complex sentences and express yourself precisely.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'groß', definition: '大きい' },
+                { term: 'klein', definition: '小さい' },
+                { term: 'schön', definition: '美しい' },
+                { term: 'hässlich', definition: '醜い' },
+                { term: 'neu', definition: '新しい' },
+                { term: 'alt', definition: '古い' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Adjective Usage',
+              items: [
+                'Das ist ein großes Haus.',
+                'Sie ist eine schöne Frau.',
+                'Der kleine Junge ist nett.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Adjective Practice',
+              auxiliaryPrompt: 'Describe objects using adjectives',
+              answer: 'Das ist ein neues Auto. Es ist groß und schön.'
+            }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Question Words & Simple Questions',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Question words', 'Wer, Was, Wo', 'Question formation'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Question Words & Simple Questions'
+            },
+            {
+              type: 'text',
+              content: 'Learning question words (Wer, Was, Wo, Wann, Warum) enables you to gather information in German conversations. Proper intonation and word order are important for natural question formation.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Wer?', definition: '誰？' },
+                { term: 'Was?', definition: '何？' },
+                { term: 'Wo?', definition: 'どこ？' },
+                { term: 'Wann?', definition: 'いつ？' },
+                { term: 'Warum?', definition: 'なぜ？' },
+                { term: 'Wie?', definition: 'どのように？' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Question Examples',
+              items: [
+                'Wer bist du?',
+                'Was ist das?',
+                'Wo wohnst du?',
+                'Wann kommst du?'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Question Formation',
+              auxiliaryPrompt: 'Form questions using question words',
+              answer: 'Practice: Wie heißt du? Wo bist du? Wann kommst du nach Hause?'
+            }
+          ],
         },
       ],
     },
@@ -7383,57 +7602,274 @@ const deua2: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Simple Past Tense - Regular Verbs',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Past Tense', 'Regular verbs', 'Narrative'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Simple Past Tense - Regular Verbs'
+            },
+            {
+              type: 'text',
+              content: 'The simple past tense (Präteritum) is used for narration, storytelling, and describing past events. Regular verbs form the past by adding -te/-tet endings to the stem. Understanding this tense allows you to discuss past experiences naturally.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'sagen', definition: '言う' },
+                { term: 'kaufen', definition: '買う' },
+                { term: 'arbeiten', definition: '働く' },
+                { term: 'spielen', definition: '遊ぶ' },
+                { term: 'wachen', definition: '目覚める' },
+                { term: 'machte', definition: '〜した（machen）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Past Tense Examples',
+              items: [
+                'Ich spielte Fußball gestern.',
+                'Sie arbeitete im Büro.',
+                'Wir kauften ein Auto.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Past Tense Conjugation',
+              auxiliaryPrompt: 'Convert present verbs to simple past',
+              answer: 'spielen→spielte, kaufen→kaufte, arbeiten→arbeitete'
+            }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Present Perfect - haben & sein',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Perfekt', 'Auxiliary verbs', 'Past participles'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Present Perfect Tense - haben & sein'
+            },
+            {
+              type: 'text',
+              content: 'The present perfect (Perfekt) is commonly used in conversation to discuss recent past actions. It combines the auxiliary verb (haben or sein) with the past participle. This tense is essential for everyday German communication.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'haben', definition: '持つ（助動詞）' },
+                { term: 'sein', definition: 'ある（移動動詞の助動詞）' },
+                { term: 'gegessen', definition: '食べた' },
+                { term: 'gefahren', definition: '運転した' },
+                { term: 'gelaufen', definition: '走った' },
+                { term: 'gekommen', definition: '来た' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Perfect Tense Examples',
+              items: [
+                'Ich habe Kaffee getrunken.',
+                'Sie ist nach Berlin gefahren.',
+                'Wir sind im Park gelaufen.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Perfect Tense Formation',
+              auxiliaryPrompt: 'Form sentences using present perfect',
+              answer: 'Ich habe ein Buch gelesen. Du bist zu Hause geblieben.'
+            }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Reflexive Verbs & Dative',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Reflexive verbs', 'Dative case', 'sich'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Reflexive Verbs & Dative Objects'
+            },
+            {
+              type: 'text',
+              content: 'Reflexive verbs (sich waschen, sich freuen) are common in German and require the dative or accusative case for the reflexive pronoun. The dative case marks the indirect object and is crucial for expressing to whom an action occurs.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'sich', definition: '自分（再帰代詞）' },
+                { term: 'mir', definition: '私に（与格）' },
+                { term: 'dir', definition: '君に（与格）' },
+                { term: 'ihm', definition: '彼に（与格）' },
+                { term: 'ihr', definition: '彼女に（与格）' },
+                { term: 'uns', definition: '私たちに（与格）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Reflexive Examples',
+              items: [
+                'Ich wasche mir die Hände.',
+                'Du freust dich auf die Party.',
+                'Sie zieht sich an.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Reflexive Practice',
+              auxiliaryPrompt: 'Use reflexive verbs with correct pronouns',
+              answer: 'Ich freue mich. Du wäschst dich. Wir setzen uns.'
+            }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Comparatives & Superlatives',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Comparison', 'Adjectives', 'Degrees'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Comparison: Comparative & Superlative'
+            },
+            {
+              type: 'text',
+              content: 'Comparative and superlative forms allow you to compare nouns and express the highest degree of a quality. German forms these with -er and -est suffixes, though some common adjectives are irregular.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'groß', definition: '大きい' },
+                { term: 'größer', definition: 'より大きい' },
+                { term: 'am größten', definition: '最も大きい' },
+                { term: 'alt', definition: '古い' },
+                { term: 'älter', definition: 'より年上' },
+                { term: 'am ältesten', definition: '最も年上' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Comparison Examples',
+              items: [
+                'Das Auto ist schneller als das Fahrrad.',
+                'Berlin ist größer als München.',
+                'Das ist die beste Pizza in der Stadt.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Comparative Practice',
+              auxiliaryPrompt: 'Compare objects and people',
+              answer: 'Das Buch ist interessanter. Die Musik ist am schönsten.'
+            }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Modal Verbs Introduction',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Modal verbs', 'können', 'müssen', 'wollen'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Modal Verbs: können, müssen, wollen, sollen, dürfen'
+            },
+            {
+              type: 'text',
+              content: 'Modal verbs express ability, necessity, desire, obligation, or permission. They are extremely common in German and require the infinitive of the main verb at the end of the sentence. Mastering these opens up new levels of expression.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'können', definition: 'できる（能力）' },
+                { term: 'müssen', definition: 'しなければならない（必要性）' },
+                { term: 'wollen', definition: 'したい（欲望）' },
+                { term: 'sollen', definition: 'すべき（義務）' },
+                { term: 'dürfen', definition: 'してもよい（許可）' },
+                { term: 'mögen', definition: '好きである' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Modal Verb Examples',
+              items: [
+                'Ich kann Deutsch sprechen.',
+                'Du musst um 8 Uhr aufstehen.',
+                'Wir wollen ins Kino gehen.',
+                'Ihr dürft hier spielen.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Modal Verb Usage',
+              auxiliaryPrompt: 'Complete sentences with appropriate modal verbs',
+              answer: 'Ich kann schwimmen. Du musst pünktlich sein. Sie wollen Lehrer werden.'
+            }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Imperative Forms',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Imperative', 'Commands', 'Requests'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Imperative Forms & Commands'
+            },
+            {
+              type: 'text',
+              content: 'The imperative mood is used to give commands or make requests. German has different forms depending on whether you\'re addressing one person informally (du), multiple people informally (ihr), or formally (Sie). Understanding these forms is essential for natural communication.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Komm!', definition: '来て！（du）' },
+                { term: 'Kommt!', definition: '来て！（ihr）' },
+                { term: 'Kommen Sie!', definition: '来てください！（Sie）' },
+                { term: 'mach', definition: 'して（du）' },
+                { term: 'macht', definition: 'して（ihr）' },
+                { term: 'Machen Sie', definition: 'してください（Sie）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Imperative Examples',
+              items: [
+                'Schreib mir einen Brief!',
+                'Macht die Haustür auf!',
+                'Bitte nehmen Sie Platz!'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Imperative Formation',
+              auxiliaryPrompt: 'Form imperative sentences in different registers',
+              answer: 'Komm! (du) / Kommt! (ihr) / Kommen Sie! (formal)'
+            }
+          ],
         },
       ],
     },
@@ -7643,57 +8079,273 @@ const deub1: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Genitive Case & Possession',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Genitive', 'Possession', 'Relationships'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Genitive Case & Possessive'
+            },
+            {
+              type: 'text',
+              content: 'The genitive case (Genitiv) expresses possession or relationship and is less used in daily speech but frequent in written German. Understanding genitive constructions allows you to express complex relationships between nouns and grasp the grammar more deeply.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'des Mannes', definition: '男性の（属格）' },
+                { term: 'der Frau', definition: '女性の（属格）' },
+                { term: 'des Kindes', definition: '子どもの（属格）' },
+                { term: 'meines', definition: '私のもの' },
+                { term: 'seines', definition: '彼のもの' },
+                { term: 'ihres', definition: '彼女のもの' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Genitive Examples',
+              items: [
+                'Das Auto des Mannes ist rot.',
+                'Die Farbe der Blume ist schön.',
+                'Das Buch meines Bruders ist interessant.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Genitive Practice',
+              auxiliaryPrompt: 'Convert phrases to genitive case',
+              answer: 'das Haus meines Vaters, die Tür des Zimmers, das Leben seiner Tochter'
+            }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Subjunctive Mood (Konjunktiv)',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Konjunktiv', 'Hypothetical', 'Indirect speech'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Conditional Mood: Subjunctive Mood (Konjunktiv)'
+            },
+            {
+              type: 'text',
+              content: 'The subjunctive mood (Konjunktiv) expresses hypothetical situations, wishes, and polite requests. Konjunktiv II is used for present and future conditions, while Konjunktiv I is used in indirect speech. These moods add sophistication to your German.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'hätte', definition: '持っていたら（仮定法過去）' },
+                { term: 'würde', definition: '〜だろう（条件法）' },
+                { term: 'könnte', definition: 'できただろう' },
+                { term: 'sollte', definition: 'べきであっただろう' },
+                { term: 'sagte', definition: '言った（間接話法）' },
+                { term: 'sei', definition: 'である（仮定法現在）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Subjunctive Examples',
+              items: [
+                'Wenn ich Zeit hätte, würde ich einen Roman schreiben.',
+                'Du könntest das leicht schaffen.',
+                'Ich wünsche mir, dass er käme.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Subjunctive Practice',
+              auxiliaryPrompt: 'Express hypothetical situations',
+              answer: 'Wenn ich reich wäre, würde ich reisen. Das wäre schön.'
+            }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Relative Clauses',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Relative pronouns', 'Subordinate clauses', 'Complex sentences'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Relative Clauses & Relative Pronouns'
+            },
+            {
+              type: 'text',
+              content: 'Relative clauses provide additional information about a noun using relative pronouns (der, die, das, welcher, welche, welches). These clauses are essential for creating complex, sophisticated sentences in German.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'der', definition: '関係代名詞（男性）' },
+                { term: 'die', definition: '関係代名詞（女性）' },
+                { term: 'das', definition: '関係代名詞（中性）' },
+                { term: 'welcher', definition: '関係代名詞（形式的）' },
+                { term: 'denen', definition: '彼ら（与格複数）' },
+                { term: 'whose', definition: 'wessen（属格）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Relative Clause Examples',
+              items: [
+                'Der Mann, der im Garten arbeitet, ist mein Vater.',
+                'Das Buch, das du mir gegeben hast, ist sehr interessant.',
+                'Die Frau, mit der ich sprach, ist eine Ärztin.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Relative Clause Formation',
+              auxiliaryPrompt: 'Combine sentences with relative clauses',
+              answer: 'Der Film, den wir gestern sahen, war fantastisch.'
+            }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Passive Voice',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Passive', 'Agency', 'Transformation'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Passive Voice & Agency'
+            },
+            {
+              type: 'text',
+              content: 'The passive voice shifts focus from the agent to the action and is frequently used in German, especially in written texts and formal communication. Understanding passive construction enables you to understand news and academic texts.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'werden', definition: 'なる（受動態の助動詞）' },
+                { term: 'gesagt', definition: '言われた' },
+                { term: 'geschrieben', definition: '書かれた' },
+                { term: 'gemacht', definition: '作られた' },
+                { term: 'von', definition: '〜によって（行為者）' },
+                { term: 'durch', definition: '〜を通じて（手段）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Passive Voice Examples',
+              items: [
+                'Das Buch wurde von Thomas Mann geschrieben.',
+                'Der Brief ist von mir gelesen worden.',
+                'Das Haus wird gerade renoviert.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Passive Voice Usage',
+              auxiliaryPrompt: 'Transform active sentences to passive',
+              answer: 'Active: Der Künstler malte das Bild. Passive: Das Bild wurde vom Künstler gemalt.'
+            }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: zu-Infinitive Constructions',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Infinitive', 'zu', 'Purpose clauses'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Infinitive Constructions & zu-Infinitive'
+            },
+            {
+              type: 'text',
+              content: 'German uses infinitives with zu (zu + infinitive) in various contexts like expressing purpose, obligation, or after certain verbs and adjectives. Mastering these constructions allows you to express complex ideas and intentions.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'zu', definition: '不定詞マーカー' },
+                { term: 'zu lesen', definition: '読むこと' },
+                { term: 'zu schreiben', definition: '書くこと' },
+                { term: 'sich freuen', definition: '喜ぶ' },
+                { term: 'vergessen', definition: '忘れる' },
+                { term: 'beginnen', definition: '始める' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'zu-Infinitive Examples',
+              items: [
+                'Ich freue mich, dich wiederzusehen.',
+                'Sie vergaß, die Tür zu schließen.',
+                'Es ist wichtig, fleißig zu studieren.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Infinitive Practice',
+              auxiliaryPrompt: 'Use zu-infinitive in appropriate contexts',
+              answer: 'Ich habe keine Zeit, Bücher zu lesen. Es ist schwer, Deutsch zu lernen.'
+            }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Conditional Sentences',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Conditionals', 'wenn', 'Probability'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Conditional Sentences & wenn-clauses'
+            },
+            {
+              type: 'text',
+              content: 'Conditional sentences express situations that are possible, probable, or hypothetical. German uses wenn (if) clauses combined with different verb forms to express different levels of probability and reality.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'wenn', definition: 'もし（条件）' },
+                { term: 'falls', definition: 'もしかして' },
+                { term: 'sofern', definition: '〜である限りは' },
+                { term: 'gesetzt den Fall', definition: 'もしそうだとしたら' },
+                { term: 'Indikativ', definition: 'indicative（事実）' },
+                { term: 'Konjunktiv', definition: 'subjunctive（仮定）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Conditional Examples',
+              items: [
+                'Wenn du kommst, bin ich glücklich.',
+                'Falls es regnet, bleiben wir zu Hause.',
+                'Wenn ich Zeit hätte, würde ich reisen.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Conditional Sentences',
+              auxiliaryPrompt: 'Form conditional sentences',
+              answer: 'Wenn das Wetter schön ist, gehen wir spazieren.'
+            }
+          ],
         },
       ],
     },
@@ -7903,57 +8555,276 @@ const deub2: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: Advanced Passive Constructions',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['Passive', 'sein-passive', 'Advanced structures'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Advanced Passive Constructions & sein-Passive'
+            },
+            {
+              type: 'text',
+              content: 'Beyond the basic werden-passive, German uses sein-passive to express a state resulting from a past action. This distinction is subtle but important for nuanced communication, especially in written German. Understanding both passives deepens grammatical sophistication.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Das Fenster ist offen', definition: '窓は開いた状態（状態受動態）' },
+                { term: 'Das Fenster wurde geöffnet', definition: '窓は開けられた（動作受動態）' },
+                { term: 'fertig', definition: '完了した' },
+                { term: 'geschlossen', definition: '閉じられた' },
+                { term: 'bekommen', definition: '〜を受ける（前置き受動態）' },
+                { term: 'kriegen', definition: '〜を受ける（口語）' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'State vs. Action Passive',
+              items: [
+                'Die Tür ist geschlossen (state).',
+                'Die Tür wurde geschlossen (action).',
+                'Das Problem ist gelöst (resultative state).'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Passive Distinction',
+              auxiliaryPrompt: 'Distinguish between state and action passive',
+              answer: 'Das Dokument ist unterschrieben. Das Dokument wurde unterschrieben.'
+            }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: Complex Sentence Structures',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['Complex sentences', 'Subordination', 'Coordination'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Complex Sentence Structures & Clause Types'
+            },
+            {
+              type: 'text',
+              content: 'German offers rich options for complex sentence construction: coordination with conjunctions, subordination with subordinators, and relative clauses. Mastering these enables you to express nuanced relationships between ideas and communicate with precision.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'während', definition: '〜の間に（文法的従属）' },
+                { term: 'obwohl', definition: '〜にもかかわらず（譲歩節）' },
+                { term: 'weil', definition: 'なぜなら（因果節）' },
+                { term: 'falls', definition: 'もし（条件節）' },
+                { term: 'dadurch, dass', definition: '〜することによって' },
+                { term: 'insofern', definition: 'その限りで' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Complex Sentence Examples',
+              items: [
+                'Während er las, schlief sie.',
+                'Obwohl es regnet, gehen sie spazieren.',
+                'Weil das Wetter schön ist, bleiben wir draußen.',
+                'Falls du Zeit hast, komm vorbei.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Complex Sentences',
+              auxiliaryPrompt: 'Combine ideas using various clause types',
+              answer: 'Nachdem wir gegessen hatten, gingen wir ins Kino. Insofern stimme ich dir zu.'
+            }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: Word Order in Subordinate Clauses',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['Verb positioning', 'Word order', 'Subordinate clauses'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Word Order in Subordinate Clauses & Verb Positioning'
+            },
+            {
+              type: 'text',
+              content: 'German word order changes in subordinate clauses: the verb moves to the end. This is a distinctive feature of German grammar that affects comprehension and production of complex sentences. Understanding this pattern is crucial for fluency.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Ich weiß', definition: '主文（動詞が2番目）' },
+                { term: 'dass du kommst', definition: '従属節（動詞が最後）' },
+                { term: 'weil', definition: '〜だから' },
+                { term: 'ob', definition: 'かどうか' },
+                { term: 'welch-', definition: 'どちらの' },
+                { term: 'was', definition: '何' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Word Order Comparison',
+              items: [
+                'Ich weiß, dass du morgen kommst.',
+                'Sie fragte, ob das möglich war.',
+                'Er sagte, weil er klug ist.',
+                'Das ist der Grund, weshalb ich hier bin.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Subordinate Clause Word Order',
+              auxiliaryPrompt: 'Form subordinate clauses with correct verb position',
+              answer: 'Ich glaube, dass das funktionieren wird. Er wusste nicht, ob das erlaubt war.'
+            }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: Register & Style',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['Formal vs. informal', 'Register', 'Stylistic variation'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Register & Style: Formal vs. Informal Communication'
+            },
+            {
+              type: 'text',
+              content: 'German distinguishes carefully between formal (Sie) and informal (du) address, and between formal and colloquial registers. Understanding stylistic variations allows you to communicate appropriately in different contexts: professional, casual, academic, or literary.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Sie', definition: '敬語（正式）' },
+                { term: 'du', definition: '親友向け（非正式）' },
+                { term: 'höflich', definition: '丁寧な' },
+                { term: 'derber Ton', definition: 'ぶっきらぼう' },
+                { term: 'literarisch', definition: '文学的' },
+                { term: 'umgangssprachlich', definition: '口語的' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Register Examples',
+              items: [
+                'Formal: Könnten Sie mir bitte helfen?',
+                'Informal: Kannst du mir helfen?',
+                'Literature: Es war einmal...',
+                'Colloquial: Das ist ne gute Idee!'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Register Appropriateness',
+              auxiliaryPrompt: 'Adjust register based on context',
+              answer: 'Boss: Sie müssen diesen Bericht fertig machen. Friend: Du musst mir später anrufen!'
+            }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: Idiomatic Expressions & Proverbs',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['Idioms', 'Cultural expressions', 'Native fluency'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Idiomatic Expressions & Proverbs'
+            },
+            {
+              type: 'text',
+              content: 'German is rich with idioms, fixed phrases, and proverbs that express ideas in culturally specific ways. Learning these expressions helps you understand native speakers better and enables you to communicate with more natural, fluent German. Many idioms offer insight into German culture.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Tomaten auf den Augen haben', definition: '目玉焼きが目に見えない' },
+                { term: 'das Handtuch werfen', definition: '降参する' },
+                { term: 'über den Tellerrand schauen', definition: '視野を広げる' },
+                { term: 'jemandem Honig um den Mund schmieren', definition: 'だれかをおだてる' },
+                { term: 'das geht mir auf den Keks', definition: 'うんざりだ' },
+                { term: 'Sprichwort: Der Apfel fällt nicht weit vom Stamm', definition: '蛙の子は蛙' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Idiom Examples',
+              items: [
+                'Das geht mir ein Licht auf! (I understand!)',
+                'Es regnet Katzen und Hunde. (It\'s raining cats and dogs.)',
+                'Ich habe Schmetterlinge im Bauch. (I have butterflies in my stomach.)'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Idiom Recognition',
+              auxiliaryPrompt: 'Use idioms in meaningful contexts',
+              answer: 'Das geht mir gegen den Strich. Das ist Geschmackssache. Viel Spaß dabei!'
+            }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: Advanced Vocabulary & Nuance',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['Advanced vocabulary', 'Synonyms', 'Subtlety'],
+          sections: [
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Advanced Vocabulary & Nuanced Expression'
+            },
+            {
+              type: 'text',
+              content: 'At B2 level, it\'s important to understand subtle differences between near-synonyms and to use vocabulary with precision. German has many words that express similar concepts but carry different connotations, formality levels, or contextual appropriateness.'
+            },
+            {
+              type: 'glossary',
+              terms: [
+                { term: 'Angst', definition: '恐怖（強い恐怖）' },
+                { term: 'Besorgnis', definition: '懸念（より弱い恐怖）' },
+                { term: 'Furcht', definition: '不安（文学的）' },
+                { term: 'schaffen', definition: 'こなす（達成する）' },
+                { term: 'fertig werden', definition: 'できる（対処できる）' },
+                { term: 'zuwege bringen', definition: 'やってのける' }
+              ]
+            },
+            {
+              type: 'highlight-box',
+              title: 'Nuanced Vocabulary Examples',
+              items: [
+                'Ich habe Angst vor diesem Hund. (I\'m afraid of this dog.)',
+                'Diese Besorgnis war unbegründet. (This concern was unfounded.)',
+                'Mit moderner Technologie können wir vieles bewältigen.'
+              ]
+            },
+            {
+              type: 'practice',
+              question: 'Vocabulary Precision',
+              auxiliaryPrompt: 'Choose the most appropriate word for context',
+              answer: 'Bei diesem Projekt hat sie es geschafft = managed it successfully'
+            }
+          ],
         },
       ],
     },
