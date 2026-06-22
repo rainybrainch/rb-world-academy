@@ -82,7 +82,7 @@ export default function HomePage() {
         <div className="flex items-center gap-2 mb-3">
           <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-green)' }} />
           <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            Language アプリ
+            🗣️ Language アプリ
           </h2>
         </div>
 
