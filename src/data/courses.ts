@@ -20341,9 +20341,430 @@ const jslB1: Category = {
   }],
 };
 
+// Classical Chinese - A1 Level
+const clsa1: Category = {
+  id: 'cat-cls-a1',
+  title: 'Classical Chinese - A1',
+  description: '古文・漢文の基礎。文語文法・基本漢字・簡単な古典作品を学びます。',
+  level: 'A1',
+  topicCategoryId: 'topic-classical-chinese',
+  courses: [{
+    id: 'cls-a1-1',
+    title: 'Chapter 1: Foundations of Classical Chinese',
+    lessons: [
+      {
+        id: 'l1',
+        title: 'Lesson 1: Basic Classical Chinese Grammar',
+        duration: '12:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['文語文法', '基本格式'],
+        sections: [
+          { type: 'heading', level: 2, content: '古文・漢文とは' },
+          { type: 'text', content: '古文は平安時代を中心とした日本の古い文章。漢文は中国古典を日本人が読む際の形式です。現代日本語と異なる文法・表現を学ぶことで、古典への理解が深まります。' },
+          { type: 'glossary', terms: [
+            { term: '古文（こぶん）', definition: '古い日本語の文章。平安～江戸時代の作品が中心' },
+            { term: '漢文（かんぶん）', definition: '中国古典を日本で読むための形式。訓読・返り点を使用' },
+            { term: '文語（ぶんご）', definition: '現代口語に対する古い言葉遣い' },
+            { term: '訓読（くんどく）', definition: '漢文を日本語として読む方法' },
+            { term: '返り点（かえりてん）', definition: '漢文の読む順序を示す記号' }
+          ]},
+          { type: 'heading', level: 2, content: '古典文法の基礎' },
+          { type: 'text', content: '• 源氏物語など古文作品の多くは、現代の「です・ます」形よりも、より丁寧で複雑な敬語表現が使われます\n• 漢文では、中国古典の原文に訓読記号を付けて日本語として読みます\n• 両者とも、倒置法や省略が多く、文脈の理解が必要です' },
+          { type: 'practice', question: '古文の特徴を理解する', auxiliaryPrompt: '古文と現代日本語の違いを5つ考えてください', answer: '敬語表現、助動詞、倒置法、省略、語順などの違いが挙げられます' }
+        ],
+      },
+      {
+        id: 'l2',
+        title: 'Lesson 2: Essential Classical Particles & Auxiliaries',
+        duration: '11:30',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['助詞', '助動詞'],
+        sections: [
+          { type: 'heading', level: 2, content: '古典助詞の基本' },
+          { type: 'glossary', terms: [
+            { term: 'は', definition: '主格を表す。現代では「が」。例：我は君を愛す' },
+            { term: 'を', definition: '目的格を示す。現代と同じ用法が多い' },
+            { term: 'に', definition: '場所・時間・相手を表す。多用途の格助詞' },
+            { term: 'より', definition: '比較・起点を表す。「〜より」の形で使用' },
+            { term: 'も', definition: '添加・強調。複数の同類を示す' },
+            { term: 'なり', definition: 'コピュラ。「〜である」の意味。断定の助動詞' }
+          ]},
+          { type: 'heading', level: 2, content: '重要な助動詞' },
+          { type: 'text', content: '• ～ぬ（否定）：「見ぬ」＝「見ない」\n• ～たり（完了）：「見たり」＝「見た」\n• ～けり（過去・詠嘆）：「見けり」＝「見たなあ」\n• ～べし（推定・義務）：「見べし」＝「見るべきだ」' },
+          { type: 'highlight-box', title: '例文', items: [
+            '我は汝を愛す。（私はあなたを愛する）',
+            '見ぬ者は知らず。（見ない者は知らない）',
+            '昔、男ありけり。（昔、ある男がいたのであった）'
+          ]},
+          { type: 'practice', question: '助詞・助動詞を識別する', auxiliaryPrompt: '古文の文章から助詞と助動詞を見つけ、意味を考えてください', answer: '各要素の機能を正確に理解できたか確認してください' }
+        ],
+      },
+      {
+        id: 'l3',
+        title: 'Lesson 3: Reading Chinese Characters in Classical Context',
+        duration: '12:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['漢字', '音読・訓読'],
+        sections: [
+          { type: 'heading', level: 2, content: '古文における漢字の読み方' },
+          { type: 'text', content: '同じ漢字でも、古文では複数の読み方が可能です。文脈に応じて音読・訓読を使い分けます。' },
+          { type: 'glossary', terms: [
+            { term: '音読（おんどく）', definition: '中国語の音を基にした読み方。漢音・呉音・唐音がある' },
+            { term: '訓読（くんどく）', definition: '日本語の言葉に置き換えた読み方' },
+            { term: '常用漢字', definition: '現代日本で一般的に使用される漢字' },
+            { term: '古文特有の字', definition: '現代では見られない漢字や用法。例：「いと」は「甚」' },
+            { term: '返り点の種類', definition: '一・二・三などの数字または文字で読む順序を指示' }
+          ]},
+          { type: 'heading', level: 2, content: '頻出漢字と古文での用法' },
+          { type: 'text', content: '• 「君」：古文では「主君」「あなた」の意。現代とは異なる' },
+          { type: 'text', content: '• 「妹」：古文では「女性」「恋人」の意' },
+          { type: 'text', content: '• 「夫」：古文では「それ」「あの」と読むことも' },
+          { type: 'practice', question: '古文の漢字を読む', auxiliaryPrompt: 'いくつかの古文テキストから漢字を抽出し、複数の読み方を考えてください', answer: '文脈に応じた読み方を正確に判断できたか確認してください' }
+        ],
+      },
+      {
+        id: 'l4',
+        title: 'Lesson 4: Common Classical Expressions',
+        duration: '10:30',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['表現', '成句'],
+        sections: [
+          { type: 'heading', level: 2, content: '古文の定型表現' },
+          { type: 'glossary', terms: [
+            { term: 'いとおかし', definition: '非常に趣きがあって美しい。古典頻出の褒め表現' },
+            { term: 'さしあたりて', definition: 'その場その時、即座に' },
+            { term: 'おのおの', definition: 'おのおの・各自・人それぞれ' },
+            { term: 'さることながら', definition: 'そうであるけれども、それはそうとして' },
+            { term: 'いかがして', definition: 'どのようにして。疑問・感動を表す' }
+          ]},
+          { type: 'highlight-box', title: '定型表現の例', items: [
+            '「いと清うて、をかし」（非常に清潔で、趣きがある）',
+            '「さしあたり、かかる御事侍るべきにあらず」（当面、このようなことはあるべきではない）',
+            '「おのおの、力を尽くしたまへ」（各自、力を尽くしてください）'
+          ]},
+          { type: 'practice', question: '定型表現の意味を理解する', auxiliaryPrompt: '古典作品から3～5の定型表現を見つけ、文脈から意味を推測してください', answer: '正確な意味把握ができたか、文脈との関係を確認してください' }
+        ],
+      },
+      {
+        id: 'l5',
+        title: 'Lesson 5: Tonal and Narrative Styles',
+        duration: '11:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['様式', '文体'],
+        sections: [
+          { type: 'heading', level: 2, content: '古文の文体と叙述方法' },
+          { type: 'text', content: '古典文学には、物語・日記・随筆など複数のジャンルがあります。各ジャンルは独特の文体と叙述方法を持ちます。' },
+          { type: 'glossary', terms: [
+            { term: '物語文体', definition: '第三者による客観的な描写が中心。例：源氏物語' },
+            { term: '日記文体', definition: '一人称による主観的な記録。女房が記すことが多い' },
+            { term: '随筆文体', definition: 'エッセイ形式の自由な思考記録。例：枕草子' },
+            { term: '和歌', definition: '韻律と季語を重んじる詩形。5・7・5・7・7音の短歌が基本' },
+            { term: '返歌（かえしうた）', definition: '相手の和歌に対する応答の歌' }
+          ]},
+          { type: 'heading', level: 2, content: '各文体の特徴' },
+          { type: 'text', content: '• 物語：起承転結の構成。登場人物の心理描写が詳細\n• 日記：日々の出来事と感情。時系列での記述\n• 随筆：季節の風物に対する考察。美学的価値判断が強い' },
+          { type: 'practice', question: '文体を識別する', auxiliaryPrompt: '異なるジャンルの古文テキスト3種類を読み、文体の違いを分析してください', answer: '各文体の特徴と表現方法の違いを正確に説明できたか確認してください' }
+        ],
+      },
+    ],
+  }],
+};
+
+// Classical Chinese - A2 Level
+const clsa2: Category = {
+  id: 'cat-cls-a2',
+  title: 'Classical Chinese - A2',
+  description: '古典文学の主要作品を読む。源氏物語・平家物語などの文章表現を習得。',
+  level: 'A2',
+  topicCategoryId: 'topic-classical-chinese',
+  courses: [{
+    id: 'cls-a2-1',
+    title: 'Chapter 1: Major Classical Works',
+    lessons: [
+      {
+        id: 'l1',
+        title: 'Lesson 1: The Tale of Genji - Language & Style',
+        duration: '13:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['源氏物語', '古典表現'],
+        sections: [
+          { type: 'heading', level: 2, content: '源氏物語の文言特性' },
+          { type: 'text', content: '日本古典文学の最高傑作「源氏物語」。平安時代の宮廷生活を舞台とした長編物語で、複雑な敬語体系と美しい文語が特徴です。' },
+          { type: 'glossary', terms: [
+            { term: '光源氏', definition: '物語の主人公。皇子でありながら源姓を賜った貴公子' },
+            { term: '后宮（こうきゅう）', definition: '皇帝の後妻たちの居住区。複雑な権力関係が存在' },
+            { term: '紫の上（ゆかりのうえ）', definition: '源氏に最も愛された女君。物語の中心人物の一人' },
+            { term: '敬語体系', definition: '源氏物語では4段階の敬語が丁寧に使い分けられている' },
+            { term: '心理描写', definition: '古典では珍しく、登場人物の微細な心の動きが描かれる' }
+          ]},
+          { type: 'heading', level: 2, content: '源氏物語の言語特徴' },
+          { type: 'text', content: '• 優美で洗練された表現：季語と自然描写が豊富\n• 複数視点による描写：複数登場人物の心理が同時に描かれる\n• 和歌の挿入：議論や感情表現に和歌が組み込まれている' },
+          { type: 'highlight-box', title: '出題頻度の高い表現', items: [
+            '「いと」＝「非常に」「とても」。最頻出の副詞',
+            '「なん」＝助動詞「な」の連体形。原因・理由を示す',
+            '「にてあり」＝「である」「いる状態である」'
+          ]},
+          { type: 'practice', question: '源氏物語の文語を解析する', auxiliaryPrompt: '源氏物語から短い段落（3～5行）を選び、文語の特徴を5つ列挙してください', answer: '敬語、倒置、省略、修飾表現、心理描写などが含まれているか確認してください' }
+        ],
+      },
+      {
+        id: 'l2',
+        title: 'Lesson 2: The Tale of Heike - War Narrative Style',
+        duration: '12:30',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['平家物語', '戦記物'],
+        sections: [
+          { type: 'heading', level: 2, content: '平家物語の特徴' },
+          { type: 'text', content: '院政の乱から源平合戦を描いた戦記物語。口頭伝承文芸として琵琶法師に語られ、戦闘場面の描写と登場人物の運命描写が並行する。' },
+          { type: 'glossary', terms: [
+            { term: '院政（いんせい）', definition: '上皇が政治を行う体制。平安後期の権力構造' },
+            { term: '平清盛', definition: '平家の棟梁。一時は日本の実権を握るが、やがて衰退する' },
+            { term: '源義経', definition: '源氏の武将。戦に優れるが、兄義仲と対立し悲劇的に滅亡' },
+            { term: '琵琶法師', definition: '平家物語を語部として語った盲目の芸人' },
+            { term: '運命（さだめ）観', definition: '平家物語に貫く宿命論的世界観' }
+          ]},
+          { type: 'heading', level: 2, content: '平家物語の文体的特徴' },
+          { type: 'text', content: '• リズミカルな文体：琵琶法師による語りを意識した音韻表現\n• 簡潔な描写：源氏物語より直線的で力強い\n• 因果関係の明示：「かかればこそ」などで理由が直接示される' },
+          { type: 'text', content: '• 人物評価が明確：登場人物に対する善悪の判定が明示的' },
+          { type: 'practice', question: '戦記物の文体を分析する', auxiliaryPrompt: '平家物語の戦闘場面と源氏物語の宮廷場面を比較し、文体の違いを3つ挙げてください', answer: 'リズム感、叙述方法、人物評価の方法の違いなどが挙げられます' }
+        ],
+      },
+      {
+        id: 'l3',
+        title: 'Lesson 3: Pillow Book (Makura no Soshi) - Essay Style',
+        duration: '11:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['枕草子', '随筆'],
+        sections: [
+          { type: 'heading', level: 2, content: '枕草子の文学的価値' },
+          { type: 'text', content: '清少納言による随筆作品。千年以上前に書かれたにもかかわらず、現代でも読者を魅了する観察眼と独特の美学表現。' },
+          { type: 'glossary', terms: [
+            { term: '清少納言', definition: '平安時代の女流文筆家。藤原定義の長女' },
+            { term: '定子皇后（さだこ）', definition: '一条天皇の皇后。清少納言はその女房として仕えた' },
+            { term: '枕草子', definition: '雑感・人物評・季節の美を綴った随筆。段落形式は独立している' },
+            { term: 'をかし', definition: '優美さ・趣き・知的な美しさ。枕草子の中心的価値観' },
+            { term: 'あはれ', definition: 'しみじみとした情趣。無常観と感情移入が一体化' }
+          ]},
+          { type: 'heading', level: 2, content: '枕草子の文体と内容' },
+          { type: 'text', content: '• 短編形式：各段が完全に独立しており、随時読むことが可能\n• 人物品評：同時代の貴女たちを厳しく評価。性格描写が極めて詳細\n• 季節感：四季の移ろいと自然現象に対する鋭い観察' },
+          { type: 'text', content: '• 知的態度：単なる感情表現ではなく、理知的な分析が含まれる' },
+          { type: 'practice', question: '枕草子の「をかし」を理解する', auxiliaryPrompt: '「春はあけぼの」などの名文から、「をかし」という概念を5つの例で説明してください', answer: '単なる美しさではなく、知的な優美さの違いを理解できたか確認してください' }
+        ],
+      },
+    ],
+  }],
+};
+
+// Classical Chinese - B1 Level
+const clsb1: Category = {
+  id: 'cat-cls-b1',
+  title: 'Classical Chinese - B1',
+  description: 'Chinese Classics（論語・孫子兵法など）と訓読の深い理解。古典漢文の標準学習。',
+  level: 'B1',
+  topicCategoryId: 'topic-classical-chinese',
+  courses: [{
+    id: 'cls-b1-1',
+    title: 'Chapter 1: Classical Chinese Texts',
+    lessons: [
+      {
+        id: 'l1',
+        title: 'Lesson 1: The Analects (論語) - Confucian Philosophy',
+        duration: '13:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['論語', '儒教思想'],
+        sections: [
+          { type: 'heading', level: 2, content: '論語とは' },
+          { type: 'text', content: '孔子とその弟子たちの言行録。東アジアの思想・倫理観に最大の影響を与えた古典中の古典。漢文学習の中心的テキスト。' },
+          { type: 'glossary', terms: [
+            { term: '孔子（こうし）', definition: '紀元前551-479年。中国古代の大思想家。儒教の創始者' },
+            { term: '弟子', definition: '孔子に従った学生たち。論語では彼らとの対話が記録されている' },
+            { term: '仁（じん）', definition: '儒教の最高の道徳。人間らしい情愛・思いやりを意味する' },
+            { term: '礼（れい）', definition: '社会秩序を保つための儀礼・作法。仁と対をなす道徳原理' },
+            { term: '修身（しゅうしん）', definition: '自らを修養すること。儒教道徳の基本' }
+          ]},
+          { type: 'heading', level: 2, content: '論語の主要篇' },
+          { type: 'text', content: '• 学而第一：学問と修養の重要性\n• 為政第二：政治と統治者の道\n• 子路第十三：道徳と節操\n• 論語全体で約500の記事が収録' },
+          { type: 'highlight-box', title: '有名な言葉', items: [
+            '「学而時習之（がくじときしゅうし）」＝「学びて時にこれを習ふ」＝「学んだことを繰り返し練習する」',
+            '「温故知新（おんこちしん）」＝「古きを温ねて新しきを知る」＝「伝統の中に新しい叡智を見出す」',
+            '「己所不欲勿施人（きしょふよくぶっせじん）」＝「己の欲せざる所人に施すなかれ」＝「自分がされたくないことを他者にするな」'
+          ]},
+          { type: 'practice', question: '論語の思想を理解する', auxiliaryPrompt: '論語から3つの記事を選び、孔子の教えが現代に何を示唆するか考えてください', answer: '儒教道徳の普遍性と時代的背景の両方を理解できたか確認してください' }
+        ],
+      },
+      {
+        id: 'l2',
+        title: 'Lesson 2: Art of War (孫子兵法) - Strategic Wisdom',
+        duration: '12:30',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['孫子兵法', '戦略'],
+        sections: [
+          { type: 'heading', level: 2, content: '孫子兵法の背景' },
+          { type: 'text', content: '古代中国の兵書の中でも最も著名。孫武によって著されたと伝えられ、2500年の歴史を持つ。戦略・戦術・組織論が体系的に記述されている。' },
+          { type: 'glossary', terms: [
+            { term: '孫武', definition: '春秋時代の軍師。孫子兵法の著者とされている' },
+            { term: '計篇（けいへん）', definition: '戦いの事前計画と戦略分析に関する篇' },
+            { term: '勢（せい）', definition: '戦況における相対的な優位性と位置づけ' },
+            { term: '虚実', definition: '敵の隙（虚）と自軍の強み（実）を対比する概念' },
+            { term: 'インテリジェンス', definition: '敵情報の収集と分析が勝敗の鍵という考え' }
+          ]},
+          { type: 'heading', level: 2, content: '孫子兵法の13篇' },
+          { type: 'text', content: '第一篇～第三篇：戦略論・計画論\n第四篇～第七篇：戦術論・布陣論\n第八篇～第十三篇：応変論・統率論\n各篇が相互に関連し、戦争の全体像を構成' },
+          { type: 'text', content: '〈有名な箴言〉\n「敵を知り己を知れば百戦殆からず」＝相手と自分を正確に把握することが必勝の条件' },
+          { type: 'practice', question: '孫子兵法の戦略思想を適用する', auxiliaryPrompt: '孫子兵法の原則を現代のビジネス戦略に当てはめ、3つの事例を考えてください', answer: '古典的な知恵と現代的応用の両立が理解できたか確認してください' }
+        ],
+      },
+      {
+        id: 'l3',
+        title: 'Lesson 3: Mencius (孟子) - Moral Philosophy',
+        duration: '12:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['孟子', '道徳哲学'],
+        sections: [
+          { type: 'heading', level: 2, content: '孟子の思想体系' },
+          { type: 'text', content: '孔子から100年以上後の儒学者・孟子。孔子の思想をさらに発展させ、性善説と民本主義を主張。論語とともに儒教の基礎古典。' },
+          { type: 'glossary', terms: [
+            { term: '孟子', definition: '戦国時代の儒学者。孔子から約100年後の人物' },
+            { term: '性善説（せいぜんせつ）', definition: '人間の本性は善であり、教育と修養により善が発揮される思想' },
+            { term: '民本主義', definition: '民が国家の根本であり、統治者の逆鱗は民心を失うことという考え' },
+            { term: '養心（ようしん）', definition: '心を養い育てること。人間性の完成を目指す修養' },
+            { term: '浩然の気（こうぜんのき）', definition: '徳と正義に満ちた堂々たる精神。孟子の理想的人間像' }
+          ]},
+          { type: 'heading', level: 2, content: '孟子の主要概念' },
+          { type: 'text', content: '• 人間本性：人は生まれながらに善性を持つ\n• 王道政治：暴力でなく道徳と仁愛による統治\n• 民為貴論：民が最も大切で、国家は民のために存在\n• 大丈夫：志を持ち、貧富に心を動かされない人格の完成者' },
+          { type: 'practice', question: '孟子の思想と現代政治を比較する', auxiliaryPrompt: '民本主義と現代民主主義の共通点と相違点を5点挙げてください', answer: '古典思想の普遍的価値と時代的限界の両方が理解できたか確認してください' }
+        ],
+      },
+    ],
+  }],
+};
+
+// Classical Chinese - B2 Level
+const clsb2: Category = {
+  id: 'cat-cls-b2',
+  title: 'Classical Chinese - B2',
+  description: '高度な古典文学。詩経・庭訓・古文辞賦など、より難度の高い古典作品を読む。',
+  level: 'B2',
+  topicCategoryId: 'topic-classical-chinese',
+  courses: [{
+    id: 'cls-b2-1',
+    title: 'Chapter 1: Advanced Classical Works',
+    lessons: [
+      {
+        id: 'l1',
+        title: 'Lesson 1: Book of Poetry (詩経) - Lyric Tradition',
+        duration: '14:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['詩経', '韻文'],
+        sections: [
+          { type: 'heading', level: 2, content: '詩経の概要と構成' },
+          { type: 'text', content: '中国最古の詩集。紀元前1000年から紀元前600年頃の作品を集成。全305首。人民の生活風俗・自然観・愛情表現などが豊富に記録されている。' },
+          { type: 'glossary', terms: [
+            { term: '詩経（しきょう）', definition: '中国最古の詩集。儒教の聖典の一つ' },
+            { term: '風（ふう）', definition: '詩経の最初の大分類。地方の民間詩篇' },
+            { term: '雅（が）', definition: '詩経の第二分類。王侯の詩篇' },
+            { term: '頌（しょう）', definition: '詩経の第三分類。祭祀の詩篇' },
+            { term: '起興法（きこうほう）', definition: '自然描写から始まり、抽象的な感情へと転換する詩法' }
+          ]},
+          { type: 'heading', level: 2, content: '詩経の三大特徴' },
+          { type: 'text', content: '1. 韻律体系：整った韻を踏む。読まれることを前提とした音韻美\n2. 反復表現：同じ語句を繰り返すことで、感情の深さを表現\n3. 比喩と象徴：自然景物を用いて人間の心情や社会状況を表現' },
+          { type: 'highlight-box', title: '代表的な詩篇', items: [
+            '「関雎（かんしょ）」＝若き貴族の恋愛と求婚の詩。詩経の冒頭',
+            '「木瓜（もくか）」＝相互の好意と感謝を表現する男女の贈答詩',
+            '「伐木（ばつぼく）」＝労働と季節の移ろいを描いた詩'
+          ]},
+          { type: 'practice', question: '詩経の韻文構造を分析する', auxiliaryPrompt: '詩経の短い詩篇（10～20行）を選び、韻律・反復・比喩の効果を分析してください', answer: '古典中国詩の美的技法が理解できたか確認してください' }
+        ],
+      },
+      {
+        id: 'l2',
+        title: 'Lesson 2: Fu Rhyme-Prose (賦) - Elaborate Rhetoric',
+        duration: '13:30',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['賦', '修辞'],
+        sections: [
+          { type: 'heading', level: 2, content: '賦の文学的特質' },
+          { type: 'text', content: '中国古典の韻文形式。散文と韻文の中間的性質を持ち、精緻な比喩と華麗な修辞によって、対象物を徹底的に描写する文学形式。' },
+          { type: 'glossary', terms: [
+            { term: '賦（ふ）', definition: '漢代以降の中国文学形式。散韻混合の華麗な修辞' },
+            { term: '隷事法（れいじほう）', definition: '故事成語を大量に引用して説得力を強める技法' },
+            { term: '属対（ぞくたい）', definition: '意味上・形式上相対する語句を並べて対比させる修辞法' },
+            { term: 'アレゴリー', definition: '抽象的観念を具体的形象で表現する手法。賦では頻繁に使用' },
+            { term: '誇張表現', definition: 'ハイペルボレ。事象を極大化して表現し、感情的インパクトを強める' }
+          ]},
+          { type: 'heading', level: 2, content: '賦の構造と技法' },
+          { type: 'text', content: '• 起：主題の提示。対象物の一般的特性を述べる\n• 承：対象物の詳細な描写。比喩と修辞を多用\n• 転：観念的な転換。対象物から抽象的観念へ' },
+          { type: 'text', content: '• 結：全体の統括と教訓の導出' },
+          { type: 'text', content: '〈著名な賋の例〉\n「長門賋」（文帝の妃が皇帝の心変わりを嘆く）\n「高唐賋」（洞庭湖の女神と人間の邂逅を描く）' },
+          { type: 'practice', question: '賦の修辞技法を識別する', auxiliaryPrompt: '賦のテキストから5つの修辞表現を抽出し、その効果を説明してください', answer: '華麗な修辞と内容の相互作用が理解できたか確認してください' }
+        ],
+      },
+      {
+        id: 'l3',
+        title: 'Lesson 3: Han Feizi (韓非子) - Legalist Thought',
+        duration: '13:00',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['韓非子', '法家'],
+        sections: [
+          { type: 'heading', level: 2, content: '韓非子の思想背景' },
+          { type: 'text', content: '戦国時代末期の法家思想家・韓非による著作。法律による厳格な統治と、利益追求による人間行動の予測可能化を主張。秦の統一と其後の中国統治思想に大きな影響を与えた。' },
+          { type: 'glossary', terms: [
+            { term: '韓非', definition: '戦国時代の法家思想家。後に秦に仕えるも、李斯の計略により獄死' },
+            { term: '法家（ほうか）', definition: '法律と刑罰による統治を主張する思想派' },
+            { term: '性悪説', definition: '人間の本性は悪であり、法と罰によってのみ統治できるという考え' },
+            { term: '勢（せい）', definition: '統治者の権力。この勢により人間の行動を規定するという思想' },
+            { term: '術（じゅつ）', definition: '統治者が使うべき統治技法。人心を操るための方策' }
+          ]},
+          { type: 'heading', level: 2, content: '韓非子の主要論点' },
+          { type: 'text', content: '• 法による統治：法は万人に平等に適用されるべき公正性\n• 罰と報酬の二元論：人間は利益と害の計算で行動する\n• 絶対権力の肯定：統治者の権力に対する無条件の従属' },
+          { type: 'text', content: '• 官僚機構の重視：法律の執行者としての官人の選別と統制' },
+          { type: 'practice', question: '法家思想と儒教思想の対比', auxiliaryPrompt: '韓非子と孔子・孟子の思想を比較し、相違点と共通点を5点挙げてください', answer: '異なる統治哲学の根本的差異が理解できたか確認してください' }
+        ],
+      },
+      {
+        id: 'l4',
+        title: 'Lesson 4: Literary Criticism & Textual Analysis',
+        duration: '12:30',
+        videoId: '',
+        isPremium: false,
+        checkItems: ['文学批評', 'テキスト解析'],
+        sections: [
+          { type: 'heading', level: 2, content: '古典文学批評の方法論' },
+          { type: 'text', content: '古典テキストの読解には、歴史的背景・言語体系・著者の思想・時代的文脈の多角的理解が必要。複合的アプローチにより、深い解釈が可能になる。' },
+          { type: 'glossary', terms: [
+            { term: 'テクスト主義', definition: 'テキストそのものに注目し、外部情報に依拠しない読解方法' },
+            { term: '歴史的文脈主義', definition: '著者・時代・社会背景を考慮した読解' },
+            { term: '構造主義的解析', definition: 'テキストの内部構造と意味の相互関係を分析する方法' },
+            { term: '修辞学的読解', definition: 'テキストの言語表現と効果の関係を分析' },
+            { term: '比較文学的視点', definition: '複数の作品・文化を相互参照して理解を深める方法' }
+          ]},
+          { type: 'heading', level: 2, content: '具体的な解析技法' },
+          { type: 'text', content: '1. 語彙分析：重要語句の出現頻度と意味変化を追跡\n2. 構文分析：文法構造とその意味機能の関係性\n3. 形象分析：象徴・比喩・モチーフの系統的追跡' },
+          { type: 'text', content: '4. 時間構造：物語内の時間経過と叙述法の関係\n5. 権力構造：登場人物間の力関係と相互作用' },
+          { type: 'practice', question: '複合的なテキスト解析を実践する', auxiliaryPrompt: '古典テキスト1篇を選び、上記5つの技法を全て適用して分析してください', answer: '多角的視点からのテキスト理解が可能か確認してください' }
+        ],
+      },
+    ],
+  }],
+};
+
 // Export all categories
 export const allCategories: Category[] = [
-  enga1, enga2, engb1, engb2, engc1, engc2, jpna1, jpna2, jpnb1, jpnb2, jpnc1, jpnc2, zhoa1, zhoa2, zhob1, zhob2, zhoc1, zhoc2, kora1, kora2, korb1, korb2, korc1, korc2, deua1, deua2, deub1, deub2, deuc1, deuc2, fraa1, fraa2, frab1, frab2, frac1, frac2, spaa1, spaa2, spab1, spab2, spac1, spac2, rusa1, rusa2, rusb1, rusb2, rusc1, rusc2, pora1, pora2, porb1, porb2, porc1, porc2, itaa1, itaa2, itab1, itab2, itac1, itac2, araa1, araa2, arab1, arab2, arac1, arac2, jslA1, jslB1,
+  enga1, enga2, engb1, engb2, engc1, engc2, jpna1, jpna2, jpnb1, jpnb2, jpnc1, jpnc2, zhoa1, zhoa2, zhob1, zhob2, zhoc1, zhoc2, kora1, kora2, korb1, korb2, korc1, korc2, deua1, deua2, deub1, deub2, deuc1, deuc2, fraa1, fraa2, frab1, frab2, frac1, frac2, spaa1, spaa2, spab1, spab2, spac1, spac2, rusa1, rusa2, rusb1, rusb2, rusc1, rusc2, pora1, pora2, porb1, porb2, porc1, porc2, itaa1, itaa2, itab1, itab2, itac1, itac2, araa1, araa2, arab1, arab2, arac1, arac2, jslA1, jslB1, clsa1, clsa2, clsb1, clsb2,
 ];
 
 // Utility functions
