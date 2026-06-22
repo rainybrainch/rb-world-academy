@@ -1,0 +1,357 @@
+{
+  "metadata": {
+    "generated": "2026-06-22",
+    "scope": "Sample expansions for A1 L1-L5 (demonstration of all 120 lessons pattern)",
+    "notes": "Each lesson follows the pattern: glossary-expanded (8-12 items) → examples (5-8) → cultural-context → native-speaker-usage → practice-tiered (3 levels)"
+  },
+  "a1_level": {
+    "lesson_1_basic_greetings": {
+      "title": "Lesson 1: Basic Greetings & Introduction",
+      "sections": [
+        {
+          "type": "glossary-expanded",
+          "items": [
+            {
+              "term": "hello",
+              "definition": "こんにちは",
+              "synonym": "hi",
+              "antonym": "goodbye",
+              "usageContext": "Formal greeting, works in all situations",
+              "regionalVariant": "US/UK: identical",
+              "formality": "neutral"
+            },
+            {
+              "term": "hi",
+              "definition": "やあ、こんにちは",
+              "synonym": "hello",
+              "antonym": "bye",
+              "usageContext": "Casual and friendly",
+              "regionalVariant": "More common in US than UK",
+              "formality": "casual"
+            },
+            {
+              "term": "hey",
+              "definition": "おい、ねえ、おっす",
+              "synonym": "hi",
+              "antonym": "n/a",
+              "usageContext": "Very informal, attention-getting",
+              "regionalVariant": "Casual US/Australian, less formal in UK",
+              "formality": "very casual"
+            },
+            {
+              "term": "good morning",
+              "definition": "おはよう、おはようございます",
+              "synonym": "morning",
+              "antonym": "good evening",
+              "usageContext": "Formal, before noon",
+              "regionalVariant": "Universal, though less common in very casual settings",
+              "formality": "formal"
+            },
+            {
+              "term": "good afternoon",
+              "definition": "こんにちは（午後の時間帯）",
+              "synonym": "afternoon",
+              "antonym": "good evening",
+              "usageContext": "Formal, 12pm-5pm",
+              "regionalVariant": "Mostly formal contexts (work, business)",
+              "formality": "formal"
+            },
+            {
+              "term": "good evening",
+              "definition": "こんばんは、こんばんは",
+              "synonym": "evening",
+              "antonym": "good morning",
+              "usageContext": "Formal, after 5pm or before dinner",
+              "regionalVariant": "Used in business/formal settings",
+              "formality": "formal"
+            },
+            {
+              "term": "goodbye",
+              "definition": "さようなら、失礼します",
+              "synonym": "bye, farewell",
+              "antonym": "hello",
+              "usageContext": "Formal farewell",
+              "regionalVariant": "Universal but less frequent in casual daily use",
+              "formality": "formal"
+            },
+            {
+              "term": "bye",
+              "definition": "じゃあね、またね、バイ",
+              "synonym": "goodbye",
+              "antonym": "hello",
+              "usageContext": "Casual and frequent",
+              "regionalVariant": "Universal in casual contexts",
+              "formality": "casual"
+            },
+            {
+              "term": "see you later",
+              "definition": "またね、じゃあね",
+              "synonym": "catch you later, see you soon",
+              "antonym": "n/a",
+              "usageContext": "Implies you will see them again",
+              "regionalVariant": "Very common in all varieties of English",
+              "formality": "casual"
+            },
+            {
+              "term": "take care",
+              "definition": "お大事に、達者でね、元気でね",
+              "synonym": "look after yourself",
+              "antonym": "n/a",
+              "usageContext": "Warm, caring farewell",
+              "regionalVariant": "More common in US/Australia",
+              "formality": "semi-formal"
+            },
+            {
+              "term": "how are you",
+              "definition": "お元気ですか、調子はどう",
+              "synonym": "how's it going",
+              "antonym": "n/a",
+              "usageContext": "Standard polite greeting question",
+              "regionalVariant": "Universal but response formality varies",
+              "formality": "neutral"
+            },
+            {
+              "term": "what's up",
+              "definition": "最近どう、何かある",
+              "synonym": "how's it going, how are you",
+              "antonym": "n/a",
+              "usageContext": "Casual, doesn't always expect detailed answer",
+              "regionalVariant": "Very common in US/Australian casual speech",
+              "formality": "very casual"
+            }
+          ]
+        },
+        {
+          "type": "examples-expanded",
+          "items": [
+            "Hello! How are you today? - こんにちは！今日はお元気ですか？",
+            "Good morning. I slept well. - おはよう。よく眠れました。",
+            "Hi there! What's up? - やあ！最近どう？",
+            "Good afternoon. Lovely to see you. - こんにちは。お会いして嬉しいです。",
+            "Goodbye! Have a great day. - さようなら！いい一日を。",
+            "Bye! Talk to you soon. - またね！じゃあ。",
+            "Good evening. How has your day been? - こんばんは。今日はどうでしたか？",
+            "Take care! See you next week. - 達者でね！また来週。"
+          ]
+        },
+        {
+          "type": "cultural-context",
+          "title": "Greetings Across English-Speaking Cultures",
+          "content": "Greetings in English-speaking countries are more casual and frequent than in Japanese culture. Americans often greet strangers with 'Hi' or 'What's up?' even on first meetings. British English maintains slightly more formality, using 'How do you do?' in very formal contexts. Australians are extremely casual with greetings, often using 'G'day mate' even to people they don't know well. The time-based greeting system (good morning/afternoon/evening) is used more in formal or professional settings. In casual daily life, 'Hi' or 'Hey' dominates. Failure to greet properly in business contexts is considered rude, while being over-formal in casual settings is awkward. In the US, business culture emphasizes building rapport quickly through casual greetings. In the UK, maintaining a degree of formality even in casual settings is valued. In Australia, breaking down hierarchies with very casual greetings is a sign of friendliness, not disrespect."
+        },
+        {
+          "type": "native-speaker-usage",
+          "title": "How Native Speakers Actually Greet",
+          "content": "Native speakers rarely say the complete 'How are you?' in casual contexts - it becomes 'How are you?' or even just 'How's it going?' They often combine greeting + question: 'Hey, how've you been?' Native speakers from different regions use different defaults: Americans prefer 'Hey/Hi', British prefer 'Hello', Australians 'G'day mate'. Most native speakers do NOT expect a detailed answer to 'How are you?' - 'Good, thanks' or 'Not bad' suffices. Using overly detailed answers to casual greetings marks you as non-native. In North America, making eye contact and smiling during greetings is essential. In the UK, less enthusiastic responses are normal and expected. In Australia, humor and self-deprecation during greetings show friendliness.",
+          "commonMistakes": [
+            "Saying 'What's up?' in a job interview (too casual)",
+            "Saying 'Good morning' at 9pm (wrong time)",
+            "Using Australian slang in formal UK business context",
+            "Waiting for 'How are you?' to finish speaking before answering",
+            "Over-explaining when someone asks 'How are you?' (they don't want your life story)"
+          ]
+        },
+        {
+          "type": "practice-tiered",
+          "basic": {
+            "question": "Greet 5 different people at different times of day (7am, noon, 3pm, 6pm, 10pm) using appropriate time-based expressions",
+            "answer": "7am: Good morning! / Noon: Good afternoon! / 3pm: Good afternoon! / 6pm: Good evening! / 10pm: Good evening! (or just 'Hi' in casual contexts)"
+          },
+          "intermediate": {
+            "question": "Create a dialogue: You meet an old friend at a coffee shop unexpectedly. What do you say? Include: greeting, asking how they've been, and farewell.",
+            "answer": "A: 'Hey Sarah! How have you been?' B: 'Great to see you! I've been good. How about you?' A: 'Can't complain. Let's catch up over coffee!' [after conversation] A: 'It was great seeing you. Take care!' B: 'You too! See you soon!'"
+          },
+          "advanced": {
+            "question": "Research and explain the cultural differences between American, British, and Australian greetings. When would each be inappropriate? Give specific examples.",
+            "answer": "Americans: casual 'Hi/Hey/What's up' everywhere, expect quick response. British: more formal 'Hello' in business, casual in leisure, value reserved distance. Australian: very casual 'G'day' to strangers, humor expected. Inappropriate examples: Saying 'What's up?' in a job interview (too casual). Saying 'G'day mate' to a British executive (cultural confusion). Saying 'Good morning' at 9pm (wrong time zone awareness). Using 'What's up?' with elderly people (age inappropriate)."
+          }
+        }
+      ]
+    },
+    "lesson_2_daily_routines": {
+      "title": "Lesson 2: Daily Routines & Time",
+      "sections": [
+        {
+          "type": "glossary-expanded",
+          "items": [
+            {
+              "term": "wake up",
+              "definition": "目を覚ます、起きる",
+              "synonym": "get up",
+              "antonym": "sleep",
+              "usageContext": "Stop sleeping, open eyes",
+              "regionalVariant": "Same in all varieties",
+              "formality": "neutral"
+            },
+            {
+              "term": "get up",
+              "definition": "ベッドから起きる、起床する",
+              "synonym": "rise",
+              "antonym": "lie down",
+              "usageContext": "Leave bed, usually after waking up",
+              "regionalVariant": "Same in all varieties",
+              "formality": "neutral"
+            },
+            {
+              "term": "breakfast",
+              "definition": "朝食、朝ご飯",
+              "synonym": "morning meal, brekkie (AU)",
+              "antonym": "dinner",
+              "usageContext": "First meal of day, typically 7-9am",
+              "regionalVariant": "AU: 'brekkie' is casual nickname",
+              "formality": "neutral"
+            },
+            {
+              "term": "lunch",
+              "definition": "昼食、昼ご飯",
+              "synonym": "midday meal, lunch break",
+              "antonym": "breakfast",
+              "usageContext": "Midday meal, typically 12-1pm",
+              "regionalVariant": "US/AU use 'lunch'. UK traditionally 'dinner' for main meal at lunch",
+              "formality": "neutral"
+            },
+            {
+              "term": "dinner",
+              "definition": "夕食、夜食",
+              "synonym": "supper, evening meal, tea (UK)",
+              "antonym": "breakfast",
+              "usageContext": "Evening meal, largest meal typically",
+              "regionalVariant": "US: main evening meal. UK: can mean lunch (formal) or light evening snack. AU: main evening meal",
+              "formality": "neutral"
+            },
+            {
+              "term": "snack",
+              "definition": "おやつ、軽食、スナック",
+              "synonym": "bite, nibble",
+              "antonym": "full meal",
+              "usageContext": "Light food between meals",
+              "regionalVariant": "Same in all varieties",
+              "formality": "neutral"
+            },
+            {
+              "term": "work",
+              "definition": "働く、仕事をする",
+              "synonym": "labor, toil, job",
+              "antonym": "rest, play",
+              "usageContext": "Productive activity, employment",
+              "regionalVariant": "Same in all varieties",
+              "formality": "neutral"
+            },
+            {
+              "term": "exercise",
+              "definition": "運動する、エクササイズをする",
+              "synonym": "work out, train",
+              "antonym": "rest, lounge",
+              "usageContext": "Physical activity for health/fitness",
+              "regionalVariant": "AU/UK: 'keep fit' or 'train'",
+              "formality": "neutral"
+            },
+            {
+              "term": "relax",
+              "definition": "くつろぐ、リラックスする",
+              "synonym": "unwind, chill (informal)",
+              "antonym": "stress, tension",
+              "usageContext": "Become calm and comfortable",
+              "regionalVariant": "US/AU: 'chill' is common informal",
+              "formality": "neutral"
+            },
+            {
+              "term": "sleep",
+              "definition": "寝る、眠る、睡眠をとる",
+              "synonym": "rest, slumber, doze",
+              "antonym": "wake up",
+              "usageContext": "Natural state of rest, night sleep or nap",
+              "regionalVariant": "Same in all varieties",
+              "formality": "neutral"
+            },
+            {
+              "term": "shower",
+              "definition": "シャワーを浴びる、シャワーをする",
+              "synonym": "bathe, wash",
+              "antonym": "n/a",
+              "usageContext": "Wash body with running water",
+              "regionalVariant": "UK: 'have a shower'. US: 'take a shower'",
+              "formality": "neutral"
+            },
+            {
+              "term": "routine",
+              "definition": "日々の習慣、決まった手順",
+              "synonym": "habit, schedule, pattern",
+              "antonym": "spontaneous, random",
+              "usageContext": "Regular pattern of activities",
+              "regionalVariant": "Same in all varieties",
+              "formality": "neutral"
+            }
+          ]
+        },
+        {
+          "type": "examples-expanded",
+          "items": [
+            "I wake up at 7 am every weekday. - 私は平日毎日午前7時に目を覚まします。",
+            "After waking up, I shower and have breakfast. - 目を覚めた後、シャワーを浴びて朝食を食べます。",
+            "I usually have lunch at 12:30 pm at my office. - 私は通常オフィスで午後12時30分に昼食をとります。",
+            "I work from 9 am to 5 pm at a marketing company. - 私はマーケティング会社で午前9時から午後5時まで働きます。",
+            "In the evening, I exercise at the gym for one hour. - 夕方、私はジムで1時間運動します。",
+            "After work, I relax by watching movies or reading. - 仕事の後、映画を見たり本を読んだりしてくつろぎます。",
+            "I usually have dinner around 7 pm with my family. - 私は通常午後7時頃に家族と夕食をとります。",
+            "I go to sleep around 11 pm every night. - 私は毎晩約午後11時に寝ます。"
+          ]
+        },
+        {
+          "type": "cultural-context",
+          "title": "Daily Routines and Work Culture Across English-Speaking Countries",
+          "content": "Daily routines and meal times vary significantly across English-speaking countries. In the United States, breakfast is typically 7-8am, lunch is 12-1pm (often taken at a desk), and dinner (the main meal) is 6-8pm. In the United Kingdom, breakfast is similar, but 'lunch' is the midday meal, 'tea' or 'supper' is a light evening meal, and 'dinner' can mean either lunch (formal/traditional) or the main evening meal (modern). Australians use 'lunch' for midday meal and 'dinner' for evening meal. Work culture also differs significantly: Americans often work through lunch and view long hours as a sign of commitment. British workers value work-life balance more and take proper lunch breaks. Australians have strong union traditions protecting break times. Starting work at 9am and ending at 5pm is standard in Western countries, but varies by field, country, and company. In Japan, starting earlier (8am) is common, but this is less typical in English-speaking countries."
+        },
+        {
+          "type": "native-speaker-usage",
+          "title": "How Native Speakers Talk About Daily Routines",
+          "content": "Native speakers typically use simple present tense for routines: 'I get up at 7' (not 'I am getting up' or 'I do get up usually'). They use adverbs of frequency: 'I always/usually/sometimes/never wake up early'. They shorten phrases: 'Have breakfast' not 'Eat breakfast' (though both work). Native speakers from the UK say 'have a shower' while Americans say 'take a shower'. In casual conversation, native speakers often combine activities: 'I shower, get dressed, and have breakfast' using present simple. Time expressions follow natural order: wake up → breakfast → work → lunch → work → exercise → dinner → relax → sleep. Native speakers often omit personal pronouns: 'Woke up late, had to rush to work.'",
+          "commonMistakes": [
+            "Using 'I am waking up at 7' (should be 'I wake up at 7' - present simple for habits)",
+            "Saying 'I have breakfast' when you are currently eating (not present continuous)",
+            "Using 'eat breakfast' instead of 'have breakfast' (native speakers prefer 'have')",
+            "Saying 'I work from 9 to 5 o'clock' (native speakers omit 'o'clock' with numbers)",
+            "Over-explaining every detail of your routine (native speakers expect brevity)"
+          ]
+        },
+        {
+          "type": "practice-tiered",
+          "basic": {
+            "question": "Write your daily routine in 6 simple sentences using present simple tense",
+            "answer": "I wake up at 7 am. I have breakfast at 7:30. I go to work at 8:30. I eat lunch at noon. I work until 5 pm. I sleep at 11 pm."
+          },
+          "intermediate": {
+            "question": "Describe what you do on a typical weekday vs weekend. What activities change?",
+            "answer": "Weekday: wake at 7, have breakfast, work 9-5, lunch at office, dinner at 7, sleep 11. Weekend: wake at 9, relaxed breakfast, maybe go to gym, spend time with friends, dinner out sometimes, sleep at midnight."
+          },
+          "advanced": {
+            "question": "Research and compare daily routines and work culture in three English-speaking countries (US, UK, Australia). Which has the healthiest lifestyle? Which is most stressful? Explain reasons.",
+            "answer": "UK: has longer lunch breaks and stronger work-life balance (healthier). US: often works through lunch, longer work hours (more stressful). Australia: strong outdoor culture, union protection of break times (balanced). Reasons: UK values personal time, US values productivity/efficiency, AU values health/nature balance."
+          }
+        }
+      ]
+    },
+    "lesson_3_family_relationships": {
+      "title": "Lesson 3: Family & Relationships",
+      "note": "Complete structure identical to lessons 1-2, with family-specific vocabulary"
+    },
+    "lesson_4_numbers_quantities": {
+      "title": "Lesson 4: Numbers & Quantities",
+      "note": "Complete structure identical to lessons 1-2, with numbers/counting vocabulary"
+    },
+    "lesson_5_shopping_money": {
+      "title": "Lesson 5: Shopping & Money",
+      "note": "Complete structure identical to lessons 1-2, with commerce-specific vocabulary"
+    }
+  },
+  "implementation_notes": {
+    "pattern": "Each of 120 lessons follows identical structure with level-appropriate content",
+    "vocabulary_count": "8-12 items per lesson (increases complexity at higher levels)",
+    "examples_count": "5-8 examples per lesson with Japanese translations",
+    "cultural_sections": "Custom content for each lesson's theme",
+    "native_speaker_section": "150-200 words + common mistakes list",
+    "practice_levels": "Basic (mechanical), Intermediate (applied), Advanced (critical thinking)",
+    "total_content_volume": "~2000 new lines of content across 120 lessons",
+    "estimated_generation_time": "10-14 days for complete expansion"
+  }
+}

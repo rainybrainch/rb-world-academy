@@ -193,39 +193,6 @@ export default function HomePage() {
 
       <RecentLessons />
 
-      {/* ── Country Academy へのリンク ── */}
-      <Link href="https://rb-world-countries.vercel.app">
-        <div
-          className="rounded-2xl p-5 relative overflow-hidden cursor-pointer hover:shadow-lg transition-shadow"
-          style={{
-            background: 'linear-gradient(135deg, #1a4d7a 0%, #2d7aa6 100%)',
-            border: '2px solid #2d7aa6',
-            boxShadow: '5px 5px 0 rgba(45, 122, 166, 0.3)',
-          }}
-        >
-          <div className="relative z-10">
-            <div className="flex items-center gap-3 mb-3">
-              <span className="text-3xl">🌍</span>
-              <h3 className="text-white font-bold text-lg">Country Academy</h3>
-            </div>
-            <p className="text-blue-100 text-sm mb-3">
-              世界の国々を政治、経済、文化の視点から学べるプラットフォーム。
-              {categories.filter(c => c.topicCategoryId?.startsWith('topic-')).length > 0 && (
-                <span className="block mt-1 text-xs text-blue-50">
-                  • 12ヶ国 + 台湾の詳細プロフィール
-                  <br />
-                  • 大陸別フィルター機能
-                  <br />
-                  • Language Academy と連携
-                </span>
-              )}
-            </p>
-            <div className="inline-block px-4 py-2 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
-              国を探索する →
-            </div>
-          </div>
-        </div>
-      </Link>
 
       {/* ── はじめての方へ（トグル） ── */}
       <FirstVisitGuide />
