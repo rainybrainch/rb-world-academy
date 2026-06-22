@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALL ACADEMY</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Zen Maru Gothic', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; padding: 20px; }
+    .container { max-width: 600px; margin: 0 auto; }
+    .section { margin: 30px 0; }
+    .section-title { display: flex; align-items: center; gap: 10px; margin: 20px 0 15px 0; font-size: 14px; font-weight: bold; letter-spacing: 2px; color: rgba(26,26,46,0.5); }
+    .section-title .dot { width: 6px; height: 16px; border-radius: 3px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px 12px; }
+    @media (min-width: 768px) { .grid { grid-template-columns: repeat(4, 1fr); } }
+    .app-icon { text-align: center; text-decoration: none; color: inherit; }
+    .app-icon-box { aspect-ratio: 1/1; border-radius: 16px; border: 2px solid rgba(26,26,46,0.08); background: rgba(26,122,166,0.1); box-shadow: 0 2px 8px rgba(26,122,166,0.3); overflow: hidden; cursor: pointer; transition: transform 0.2s; }
+    .app-icon-box:hover { transform: scale(1.05); }
+    .app-icon-box img { width: 100%; height: 100%; object-fit: cover; }
+    .app-name { font-size: 10px; font-weight: bold; margin-top: 8px; color: rgba(26,26,46,0.7); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="section">
+      <div style="background: #1a1a2e; border: 2px solid #1a1a2e; box-shadow: 5px 5px 0 #f5c842; border-radius: 16px; padding: 20px; color: white;">
+        <div style="margin-bottom: 15px;"><span style="font-size: 10px; font-weight: bold; background: rgba(245,200,66,0.15); color: #f5c842; border: 1px solid rgba(245,200,66,0.3); padding: 5px 10px; border-radius: 4px;">ALL ACADEMY</span></div>
+        <h1 style="font-size: 24px; font-family: 'Dela Gothic One', sans-serif; margin-bottom: 10px; line-height: 1.4;">12言語 + 手話を学ぼう。<br><span style="color: #f5c842;">世界と繋がろう。</span></h1>
+        <p style="font-size: 12px; color: rgba(255,255,255,0.55); line-height: 1.6;">12言語・1968講義を楽しく学ぼう。Language と Country アプリで、言語と世界の国々を探索できます。</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <div class="dot" style="background: #4cb77d;"></div>
+        <span>🗣️ Language アプリ</span>
+      </div>
+      <div class="grid">
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #4169e1, #1e90ff);"></div><div class="app-name">English</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #d4af37, #ffd700);"></div><div class="app-name">日本語</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #ff6b6b, #ff8787);"></div><div class="app-name">中国語</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #fd7e14, #ff8f00);"></div><div class="app-name">韓国語</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #30b0c0, #00bcd4);"></div><div class="app-name">ドイツ語</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #7c3aed, #a855f7);"></div><div class="app-name">フランス語</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #ec4899, #f472b6);"></div><div class="app-name">スペイン語</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #06b6d4, #22d3ee);"></div><div class="app-name">イタリア語</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #8b5cf6, #c084fc);"></div><div class="app-name">アラビア語</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #10b981, #34d399);"></div><div class="app-name">ポルトガル語</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #f97316, #fb923c);"></div><div class="app-name">古典漢文</div></div>
+        <div class="app-icon"><div class="app-icon-box" style="background: linear-gradient(135deg, #6366f1, #818cf8);"></div><div class="app-name">手話</div></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <div class="dot" style="background: #2d7aa6;"></div>
+        <span>🌍 Country アプリ</span>
+      </div>
+      <div class="grid">
+        <a href="https://rb-world-countries.vercel.app/countries/india" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=India'); background-size: cover;"></div>
+          <div class="app-name">インド</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/taiwan" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=Taiwan'); background-size: cover;"></div>
+          <div class="app-name">台湾</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/china" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=China'); background-size: cover;"></div>
+          <div class="app-name">中国</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/japan" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=Japan'); background-size: cover;"></div>
+          <div class="app-name">日本</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/germany" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=Germany'); background-size: cover;"></div>
+          <div class="app-name">ドイツ</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/usa" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=USA'); background-size: cover;"></div>
+          <div class="app-name">アメリカ</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/uk" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=UK'); background-size: cover;"></div>
+          <div class="app-name">イギリス</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/france" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=France'); background-size: cover;"></div>
+          <div class="app-name">フランス</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/brazil" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=Brazil'); background-size: cover;"></div>
+          <div class="app-name">ブラジル</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/indonesia" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=Indonesia'); background-size: cover;"></div>
+          <div class="app-name">インドネシア</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/mexico" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=Mexico'); background-size: cover;"></div>
+          <div class="app-name">メキシコ</div>
+        </a>
+        <a href="https://rb-world-countries.vercel.app/countries/korea" target="_blank" class="app-icon">
+          <div class="app-icon-box" style="background-image: url('https://via.placeholder.com/300?text=Korea'); background-size: cover;"></div>
+          <div class="app-name">韓国</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
