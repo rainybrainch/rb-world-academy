@@ -1989,57 +1989,140 @@ const jpna1: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: 挨拶と自己紹介',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['挨拶', '名前', '敬語'],
+          sections: [
+            { type: 'heading', level: 2, content: '日本語の挨拶と時間帯' },
+            { type: 'text', content: '日本語の挨拶は時間や場面によって異なります。「おはようございます」「こんにちは」「こんばんは」など、相手や状況に応じた挨拶を学びます。' },
+            { type: 'glossary', terms: [
+              { term: 'おはようございます', definition: '朝の挨拶・敬語形' },
+              { term: 'こんにちは', definition: '昼間の挨拶' },
+              { term: 'こんばんは', definition: '夜間の挨拶' },
+              { term: 'おやすみなさい', definition: '就寝時の挨拶' },
+              { term: 'さようなら', definition: '別れの挨拶' }
+            ] },
+            { type: 'highlight-box', title: '挨拶の例文', items: ['おはようございます。', 'こんにちは。元気ですか。', 'こんばんは。今日はお疲れ様でした。', 'さようなら。また明日。'] },
+            { type: 'practice', question: '適切な挨拶を選びましょう', auxiliaryPrompt: '時間帯と場面に応じた挨拶を練習します', answer: '朝・昼・夜・別れの場面で、それぞれ適切な挨拶を3つ以上言ってください。' },
+            { type: 'heading', level: 2, content: '名前の言い方と聞き方' },
+            { type: 'text', content: '自分の名前を述べる方法と、他人の名前を丁寧に聞く方法を学びます。' },
+            { type: 'glossary', terms: [
+              { term: '私の名前は〜です', definition: '名前を自己紹介する' },
+              { term: 'あなたの名前は？', definition: '相手の名前を聞く（カジュアル）' },
+              { term: 'お名前は？', definition: '相手の名前を聞く（敬語）' },
+              { term: '〜さん', definition: '敬称・親友や同輩に使う' },
+              { term: '〜さま', definition: '敬称・相手を敬う時' }
+            ] },
+            { type: 'highlight-box', title: '名前の自己紹介例', items: ['私はジョンです。', '私の名前は田中太郎です。', 'お忙しいところ失礼ですが、お名前をお聞きしてもよろしいでしょうか。'] },
+            { type: 'practice', question: '自己紹介を作成してください', auxiliaryPrompt: '自分の名前と簡単な情報を含めた自己紹介文を作ります', answer: '「私の名前は〜です。〜から来ました。」という形式で3文以上の自己紹介を作成してください。' }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: 日常の活動',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['毎日の活動', '時間表現'],
+          sections: [
+            { type: 'heading', level: 2, content: '毎日の活動と時間' },
+            { type: 'text', content: '日常生活で行う活動について、現在形を使って説明する練習をします。「〜ます」という敬語形を使う文法が中心となります。' },
+            { type: 'glossary', terms: [
+              { term: '起きます', definition: '朝目を覚ます' },
+              { term: '朝食を食べます', definition: '朝ご飯を食べる' },
+              { term: '仕事をします', definition: '働く' },
+              { term: '昼食を食べます', definition: 'お昼を食べる' },
+              { term: '寝ます', definition: '眠る' }
+            ] },
+            { type: 'highlight-box', title: '毎日の活動の例文', items: ['私は毎朝7時に起きます。', '朝食を食べてから仕事に行きます。', '12時に昼食を食べます。', '夜10時に寝ます。'] },
+            { type: 'practice', question: 'あなたの1日のスケジュールを説明してください', auxiliaryPrompt: '朝から夜まで、時間と活動を組み合わせて説明します', answer: '朝起きる時間、仕事の時間、食事の時間、寝る時間を「〜時に〜ます」という形で5文以上説明してください。' }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: 曜日と季節',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['曜日', '季節'],
+          sections: [
+            { type: 'heading', level: 2, content: '曜日と週間のスケジュール' },
+            { type: 'text', content: '日本語で曜日を正確に表現する方法を学びます。「月曜日」「日曜日」など、1週間の計画や習慣を説明する能力を養います。' },
+            { type: 'glossary', terms: [
+              { term: '月曜日', definition: 'げつようび・Monday' },
+              { term: '火曜日', definition: 'かようび・Tuesday' },
+              { term: '水曜日', definition: 'すいようび・Wednesday' },
+              { term: '木曜日', definition: 'もくようび・Thursday' },
+              { term: '日曜日', definition: 'にちようび・Sunday' }
+            ] },
+            { type: 'highlight-box', title: '曜日と活動の例文', items: ['月曜日から金曜日まで仕事があります。', '土曜日は買い物に行きます。', '日曜日は家族と過ごします。', '毎週水曜日にジムに行きます。'] },
+            { type: 'practice', question: '1週間のスケジュールを説明してください', auxiliaryPrompt: '各曜日の活動を時間付きで説明します', answer: '月曜日から日曜日まで、「〜曜日は〜をします」という形式で説明してください。' }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: 家族と趣味',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['家族', '趣味'],
+          sections: [
+            { type: 'heading', level: 2, content: '家族の紹介' },
+            { type: 'text', content: '日本語では、自分の家族と他人の家族で異なる表現を使います。自分の家族に対しては敬語を使わず、他人の家族には敬語を付けます。' },
+            { type: 'glossary', terms: [
+              { term: '父', definition: 'ちち・自分の父親' },
+              { term: 'お父さん', definition: '他人の父親' },
+              { term: '母', definition: 'はは・自分の母親' },
+              { term: 'お母さん', definition: '他人の母親' },
+              { term: '姉', definition: 'あね・自分の姉' }
+            ] },
+            { type: 'highlight-box', title: '家族紹介の例文', items: ['私の父は医者です。', 'あなたのお母さんはどこにいますか。', '家族は4人です。', '兄が東京に住んでいます。'] },
+            { type: 'practice', question: 'あなたの家族を紹介してください', auxiliaryPrompt: '家族の人数、関係、職業を含める練習です', answer: '「私の家族は〜人です。」という形式で、各家族メンバーについて3文以上説明してください。' }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: 食事と好み',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['食べ物', '好み'],
+          sections: [
+            { type: 'heading', level: 2, content: '食べ物と飲料の名前' },
+            { type: 'text', content: '日本の食文化を理解するために、一般的な食べ物と飲料の名前を学びます。和食の代表的な料理から、毎日の食事で見かけるものまで、幅広い語彙を身につけます。' },
+            { type: 'glossary', terms: [
+              { term: 'ご飯', definition: 'ごはん・米食' },
+              { term: 'みそ汁', definition: 'みそしる・日本の典型的なスープ' },
+              { term: 'てんぷら', definition: 'てんぷら・揚げた野菜' },
+              { term: '寿司', definition: 'すし・握った米に具を乗せたもの' },
+              { term: 'お茶', definition: 'おちゃ・日本の伝統飲料' }
+            ] },
+            { type: 'highlight-box', title: '食べ物の例文', items: ['私はご飯が好きです。', '朝食は卵焼きとみそ汁です。', '日本料理は美味しいです。', 'コーヒーか紅茶のどちらが好きですか。'] },
+            { type: 'practice', question: 'あなたの好きな食べ物について話してください', auxiliaryPrompt: '好みの食べ物と理由を含めて説明する練習です', answer: '「私は〜が好きです。なぜなら〜です。」という形式で、好きな食べ物3つを理由付きで説明してください。' }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: 買い物と価格',
           duration: '8:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['買い物', '価格'],
+          sections: [
+            { type: 'heading', level: 2, content: '買い物での基本表現' },
+            { type: 'text', content: '買い物をする時に必要な基本的な会話表現を学びます。価格の確認、商品の説明、支払い方法などの表現を習得します。' },
+            { type: 'glossary', terms: [
+              { term: 'いくらですか', definition: '価格はいくらですか' },
+              { term: '円', definition: 'えん・日本の通貨単位' },
+              { term: '安いです', definition: 'やすいです・価格が低い' },
+              { term: '高いです', definition: 'たかいです・価格が高い' },
+              { term: 'クレジットカード', definition: 'くれじっとかーど・支払い方法' }
+            ] },
+            { type: 'highlight-box', title: '買い物の例文', items: ['これはいくらですか。', '1000円ですか。', '何色がありますか。', 'クレジットカードで支払えますか。'] },
+            { type: 'practice', question: '店での簡単な買い物会話をしてください', auxiliaryPrompt: '商品の確認と価格について質問します', answer: '「これはいくらですか」「〜色がありますか」「割引がありますか」という質問を店員さんに向かって3つ言ってください。' }
+          ],
         },
       ],
     },
@@ -2249,57 +2332,129 @@ const jpna2: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: 過去の出来事',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['過去形', '経験', '時間表現'],
+          sections: [
+            { type: 'heading', level: 2, content: '過去形の基礎' },
+            { type: 'text', content: '過去に起こった出来事を説明するために、「〜ました」という過去形を使います。昨日、先週、去年など異なる時間表現と組み合わせた使い方を学びます。' },
+            { type: 'glossary', terms: [
+              { term: '〜ました', definition: '過去形・敬語' },
+              { term: '昨日', definition: 'きのう・前の日' },
+              { term: '先週', definition: 'せんしゅう・前の週' },
+              { term: '去年', definition: 'きょねん・前の年' },
+              { term: '〜時間前に', definition: '〜時間前の出来事' }
+            ] },
+            { type: 'highlight-box', title: '過去形の例文', items: ['昨日は朝7時に起きました。', '先週、東京に行きました。', '去年、日本語を勉強し始めました。', '1時間前にコーヒーを飲みました。'] },
+            { type: 'practice', question: '昨日と先週のことを説明してください', auxiliaryPrompt: '過去の経験と出来事を時系列で説明する練習です', answer: '昨日と先週それぞれで「〜時に〜ました」という形式で、3つずつ異なる活動を説明してください。' }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: 季節と天気',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['季節', '天気', '活動'],
+          sections: [
+            { type: 'heading', level: 2, content: '季節と天気の表現' },
+            { type: 'text', content: '日本には春・夏・秋・冬の4つの季節があり、それぞれに特徴的な天気と活動があります。季節に応じた会話表現と、天気を描写するための語彙を学びます。' },
+            { type: 'glossary', terms: [
+              { term: '春', definition: 'はる・花が咲く季節・3月〜5月' },
+              { term: '夏', definition: 'なつ・暑い季節・6月〜8月' },
+              { term: '晴れています', definition: '天気が良い' },
+              { term: '雨が降っています', definition: '雨が落ちている' },
+              { term: '雪が積もっています', definition: '雪が積まれている' }
+            ] },
+            { type: 'highlight-box', title: '季節と天気の例文', items: ['春は桜がきれいです。', '今日は雨が降っています。', '冬は雪が積もります。', '夏は暑くて、冬は寒いです。'] },
+            { type: 'practice', question: '四季それぞれの特徴を説明してください', auxiliaryPrompt: '季節の特徴と天気、その季節に行う活動を含めます', answer: '春・夏・秋・冬それぞれについて「〜は〜です。その季節に〜ます。」という形式で説明してください。' }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: 経験と思い出',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['経験表現', '思い出', '感情'],
+          sections: [
+            { type: 'heading', level: 2, content: '経験を語る' },
+            { type: 'text', content: 'A2レベルでは、これまでの人生経験や思い出を詳しく説明できるようになります。「〜たことがあります」という経験表現を使って、人生の出来事を共有します。' },
+            { type: 'glossary', terms: [
+              { term: '〜たことがあります', definition: '経験がある・これまでに〜したことがある' },
+              { term: '初めて', definition: 'はじめて・最初' },
+              { term: '思い出', definition: 'おもいで・心に残っている出来事' },
+              { term: '懐かしい', definition: 'なつかしい・昔のことが思い出される' },
+              { term: '感動しました', definition: 'かんどうしました・心が動かされた' }
+            ] },
+            { type: 'highlight-box', title: '経験の例文', items: ['日本に行ったことがあります。', '初めて寿司を食べたのは小学生の時です。', '去年、スキーをしたことがあります。', 'その時はとても感動しました。'] },
+            { type: 'practice', question: 'あなたの思い出を共有してください', auxiliaryPrompt: '過去の経験を詳しく説明する練習です', answer: '「私は〜したことがあります。それは〜年前でした。とても〜でした。」という形式で3つの思い出を説明してください。' }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: 旅行と移動',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['交通手段', '目的地', '日程'],
+          sections: [
+            { type: 'heading', level: 2, content: '旅行計画の立て方' },
+            { type: 'text', content: '旅行計画について、より詳しく説明できるようになります。目的地、交通手段、宿泊、日程などを組み合わせて、完全な旅行プランを述べます。' },
+            { type: 'glossary', terms: [
+              { term: '宿泊', definition: 'しゅくはく・泊まる' },
+              { term: 'ホテル', definition: 'ほてる・宿泊施設' },
+              { term: '新幹線', definition: 'しんかんせん・高速鉄道' },
+              { term: '日程', definition: 'にってい・予定の日' },
+              { term: '観光地', definition: 'かんこうち・観光の目的地' }
+            ] },
+            { type: 'highlight-box', title: '旅行計画の例文', items: ['今年の夏は京都に行く予定です。', '新幹線で東京から京都まで3時間かかります。', 'ホテルは事前に予約しました。', '3泊4日の旅行を計画しています。'] },
+            { type: 'practice', question: 'あなたの理想的な旅行を計画してください', auxiliaryPrompt: '目的地、交通手段、期間を含めた計画を述べます', answer: '「〜へ行きたいです。〜で行きます。〜日間の旅行です。〜を見たいです。」という形式で計画を説明してください。' }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: 人間関係と感情',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['人間関係', '感情表現'],
+          sections: [
+            { type: 'heading', level: 2, content: '感情と気持ちの表現' },
+            { type: 'text', content: 'A2レベルでは、複雑な感情や気持ちを表現できるようになります。喜び、悲しみ、怒りなど、様々な感情を日本語で説明する能力を養います。' },
+            { type: 'glossary', terms: [
+              { term: '嬉しいです', definition: 'うれしいです・喜びを感じている' },
+              { term: '悲しいです', definition: 'かなしいです・悲しみを感じている' },
+              { term: '怒っています', definition: 'おこっています・怒りを感じている' },
+              { term: '驚きました', definition: 'おどろきました・予想外だった' },
+              { term: '退屈です', definition: 'たいくつです・つまらない' }
+            ] },
+            { type: 'highlight-box', title: '感情の例文', items: ['友人の結婚式で嬉しくて涙が出ました。', '自分の失敗に悔しさを感じました。', '予想外の出来事に驚きました。', 'その映画はとても退屈でした。'] },
+            { type: 'practice', question: '最近の感情について話してください', auxiliaryPrompt: '様々な感情を表現する練習です', answer: '「最近、〜で嬉しかったです。なぜなら〜だからです。」という形式で、3つの異なる感情経験を説明してください。' }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: 健康と病気',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['健康', '病気', '医療用語'],
+          sections: [
+            { type: 'heading', level: 2, content: '健康と医療の表現' },
+            { type: 'text', content: '健康と病気に関する語彙を学びます。病院での会話、症状の説明、医療用語など、実生活で必要な表現を習得します。' },
+            { type: 'glossary', terms: [
+              { term: '風邪をひきました', definition: 'かぜをひきました・風邪になった' },
+              { term: '頭痛', definition: 'ずつう・頭が痛い' },
+              { term: '病院', definition: 'びょういん・医療施設' },
+              { term: '医者', definition: 'いしゃ・医師' },
+              { term: '薬', definition: 'くすり・医療薬' }
+            ] },
+            { type: 'highlight-box', title: '健康の例文', items: ['昨日風邪をひきました。', '頭が痛いので医者に行きました。', '医者は私に薬をくれました。', '明日には良くなると思います。'] },
+            { type: 'practice', question: '病気の症状を説明してください', auxiliaryPrompt: '医者への症状説明を練習します', answer: '「昨日から〜が〜です。」「〜も痛いです。」という形式で、複数の症状を説明してください。' }
+          ],
         },
       ],
     },
@@ -2309,12 +2464,24 @@ const jpna2: Category = {
       lessons: [
         {
           id: 'l7',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: 職業と仕事',
           duration: '9:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['職業', '仕事内容', 'キャリア'],
+          sections: [
+            { type: 'heading', level: 2, content: '職業と仕事の説明' },
+            { type: 'text', content: 'A2レベルでは、自分の職業やキャリアについてより詳しく説明できるようになります。仕事内容、責任、キャリア目標などを述べる能力を養います。' },
+            { type: 'glossary', terms: [
+              { term: '職業', definition: 'しょくぎょう・仕事の種類' },
+              { term: 'エンジニア', definition: 'えんじにあ・技術者' },
+              { term: '営業', definition: 'えいぎょう・営業職' },
+              { term: '責任', definition: 'せきにん・担当すること' },
+              { term: 'キャリア', definition: 'きゃりあ・職業経歴' }
+            ] },
+            { type: 'highlight-box', title: '職業の例文', items: ['私はエンジニアとして働いています。', 'ソフトウェア開発が主な仕事です。', '毎日コンピューターを使います。', 'キャリアアップを目指しています。'] },
+            { type: 'practice', question: 'あなたの職業と仕事内容を説明してください', auxiliaryPrompt: '仕事の詳細と目標を含めます', answer: '「私は〜として働いています。主な仕事は〜です。将来は〜になりたいです。」という形式で説明してください。' }
+          ],
         },
         {
           id: 'l8',
@@ -2509,57 +2676,129 @@ const jpnb1: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: 旅行と移動',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['交通手段', '目的地', '日程'],
+          sections: [
+            { type: 'heading', level: 2, content: '交通手段と旅行計画' },
+            { type: 'text', content: 'B1レベルでは、複雑な旅行計画をより詳しく説明できるようになります。異なる交通手段の比較、経路の説明、コスト計算などを含めた総合的なプレゼンテーション能力を養います。' },
+            { type: 'glossary', terms: [
+              { term: '新幹線', definition: 'しんかんせん・高速鉄道' },
+              { term: 'フライト', definition: 'ふらいと・飛行機の便' },
+              { term: '経路', definition: 'けいろ・移動ルート' },
+              { term: '乗り継ぎ', definition: 'のりつぎ・別の交通に乗り換える' },
+              { term: '所要時間', definition: 'しょようじかん・必要な時間' }
+            ] },
+            { type: 'highlight-box', title: '旅行プランの例文', items: ['京都へは新幹線で行き、そこからバスで観光地に向かいます。', '往復航空券は事前にオンラインで予約しました。', '移動時間を含めて、総所要時間は8時間です。', '最初に東京、次に大阪、最後に京都を訪問します。'] },
+            { type: 'practice', question: '複雑な旅行プランを立ててください', auxiliaryPrompt: '複数の交通手段と目的地を組み合わせます', answer: '「〜から〜へ〜で行きます。次に〜へ乗り継ぎます。総所要時間は〜です。」という形式で、3段階の旅程を説明してください。' }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: 買い物と交渉',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['価格交渉', '品質確認', '返品手続き'],
+          sections: [
+            { type: 'heading', level: 2, content: '買い物での高度な会話' },
+            { type: 'text', content: 'B1レベルでは、買い物の際に価格交渉や品質についての議論ができるようになります。返品手続き、保証、支払い条件など、ビジネス的な交渉表現を習得します。' },
+            { type: 'glossary', terms: [
+              { term: '値引き交渉', definition: 'ねびきこうしょう・価格を下げるための交渉' },
+              { term: '保証', definition: 'ほしょう・製品の保証期間' },
+              { term: '返金', definition: 'へんきん・お金を戻す' },
+              { term: '分割払い', definition: 'ぶんかつばらい・何回かに分けて支払う' },
+              { term: 'クレーム', definition: 'くれーむ・苦情・不満' }
+            ] },
+            { type: 'highlight-box', title: '交渉の例文', items: ['この商品は他の店では1000円安く売られています。値引きしていただけますか。', '保証期間はどのくらいですか。', '不具合があった場合、返品できますか。', '分割払いで支払うことは可能ですか。'] },
+            { type: 'practice', question: '高度な買い物交渉をしてください', auxiliaryPrompt: '価格、品質、支払い条件を含めた交渉です', answer: '「この商品について質問があります。値引きは可能ですか。保証はありますか。」という形式で、5つ以上の質問を含めた交渉会話を作成してください。' }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: 文化交流',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['文化比較', '伝統', '現代文化'],
+          sections: [
+            { type: 'heading', level: 2, content: '日本文化と国際交流' },
+            { type: 'text', content: 'B1レベルでは、自分の国の文化と日本文化を比較し、文化交流について議論できるようになります。伝統と現代の融合、文化的価値観の違いなどを説明する能力を養います。' },
+            { type: 'glossary', terms: [
+              { term: '伝統文化', definition: 'でんとうぶんか・昔から続く文化' },
+              { term: '現代文化', definition: 'げんだいぶんか・今の時代の文化' },
+              { term: '習慣', definition: 'しゅうかん・繰り返す行動パターン' },
+              { term: '礼儀', definition: 'れいぎ・マナー・作法' },
+              { term: '価値観', definition: 'かちかん・大事にすること' }
+            ] },
+            { type: 'highlight-box', title: '文化交流の例文', items: ['日本の茶道は単なる儀式ではなく、精神的な修養です。', 'わが国では家族が最も大事な価値観ですが、日本では個人の自立も重視されています。', '現代では西洋文化の影響で、伝統が変わりつつあります。', '両国の文化交流は相互理解を深めます。'] },
+            { type: 'practice', question: 'あなたの国の文化と日本の文化を比較してください', auxiliaryPrompt: '伝統、習慣、価値観を含めた比較です', answer: '「わが国では〜が大事にされていますが、日本では〜が重視されています。」という形式で、3つの文化的違いを比較してください。' }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: 意見と議論',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['意見表現', '同意と反対', '説得'],
+          sections: [
+            { type: 'heading', level: 2, content: '意見表現と議論' },
+            { type: 'text', content: 'B1レベルでは、自分の意見を明確に述べ、他人の意見に同意または反対することができるようになります。理由付きの説得的な議論ができる能力を養います。' },
+            { type: 'glossary', terms: [
+              { term: '私の意見では', definition: 'わたしのいけんでは・自分の考えは' },
+              { term: '〜に同意します', definition: 'どういします・同じ意見です' },
+              { term: '〜に反対します', definition: 'はんたいします・違う意見です' },
+              { term: 'なぜなら', definition: 'なぜなら・理由は' },
+              { term: 'むしろ', definition: 'むしろ・それどころか' }
+            ] },
+            { type: 'highlight-box', title: '意見表現の例文', items: ['私の意見では、リモートワークは生産性を高めます。なぜなら、通勤時間がなくなるからです。', 'ご意見に同意します。同時に、チームコミュニケーションも重要です。', 'その考えには反対です。むしろ、対面での会議はより効果的です。', 'これらの理由から、私たちはハイブリッドモデルを採用すべきです。'] },
+            { type: 'practice', question: '現在の社会問題について意見を述べてください', auxiliaryPrompt: '同意・反対・説得を含める議論です', answer: '「私の意見では〜です。なぜなら〜だからです。この理由から、〜すべきです。」という形式で、意見と根拠を説明してください。' }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: 教育と学習',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['教育制度', '学習方法', 'キャリア教育'],
+          sections: [
+            { type: 'heading', level: 2, content: '教育と学習について' },
+            { type: 'text', content: 'B1レベルでは、教育制度や学習方法について、より詳しく議論できるようになります。異なる教育哲学、学習方法の効果、生涯学習などのテーマを扱います。' },
+            { type: 'glossary', terms: [
+              { term: '教育制度', definition: 'きょういくせいど・学校教育の体系' },
+              { term: '生涯学習', definition: 'しょうがいがくしゅう・人生全体での学習' },
+              { term: '学習効果', definition: 'がくしゅうこうか・学びの成果' },
+              { term: '自発的に', definition: 'じはつてきに・自分から進んで' },
+              { term: 'スキル', definition: 'すきる・技能・能力' }
+            ] },
+            { type: 'highlight-box', title: '教育についての例文', items: ['日本の教育制度は、知識だけでなく、人格形成も重視しています。', '生涯学習の時代では、自発的に新しいスキルを身につけることが大切です。', 'オンライン教育は時間と場所の制約を減らしました。', 'しかし、実践的なスキルには、対面での指導が効果的です。'] },
+            { type: 'practice', question: '理想的な教育について議論してください', auxiliaryPrompt: '教育制度、学習方法、成果を含めます', answer: '「理想的な教育は〜だと考えます。なぜなら〜です。このために、〜が必要です。」という形式で、教育についての見方を説明してください。' }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: 環境と技術',
           duration: '10:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['環境問題', '技術進歩', '持続可能性'],
+          sections: [
+            { type: 'heading', level: 2, content: '環境と技術の関係' },
+            { type: 'text', content: 'B1レベルでは、環境問題と技術革新の関係について、複雑な議論ができるようになります。気候変動、再生可能エネルギー、サステナビリティなどのテーマを扱います。' },
+            { type: 'glossary', terms: [
+              { term: '環境問題', definition: 'かんきょうもんだい・地球環境の課題' },
+              { term: 'CO2排出', definition: 'しーおーつーはいしゅつ・二酸化炭素の排出' },
+              { term: '再生可能エネルギー', definition: 'さいせいかのうえねるぎー・太陽光や風力' },
+              { term: '持続可能性', definition: 'じぞくかのうせい・サステナビリティ' },
+              { term: '気候変動', definition: 'きこうへんどう・climate change' }
+            ] },
+            { type: 'highlight-box', title: '環境技術の例文', items: ['気候変動に対処するには、再生可能エネルギーの導入が急務です。', '企業はCO2排出を削減する技術に投資すべきです。', '持続可能な社会の実現には、個人の行動変化も必要です。', 'しかし、技術革新だけでは問題は解決しません。政策的な支援も必要です。'] },
+            { type: 'practice', question: '環境問題と技術について提案してください', auxiliaryPrompt: '問題分析と解決策を含めます', answer: '「〜という環境問題があります。この問題を解決するために、〜という技術が重要です。同時に、〜も必要です。」という形式で説明してください。' }
+          ],
         },
       ],
     },
@@ -2769,57 +3008,129 @@ const jpnb2: Category = {
       lessons: [
         {
           id: 'l1',
-          title: 'Lesson 1: Topic 1',
+          title: 'Lesson 1: 日本文化と伝統',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 1'],
-          sections: [],
+          checkItems: ['文化表現', '伝統', '美学'],
+          sections: [
+            { type: 'heading', level: 2, content: '日本文化と伝統の深い理解' },
+            { type: 'text', content: 'B2レベルでは、日本の文化、歴史、伝統について、より深い議論ができる能力を目指します。茶道、武道、文学、美術など、日本文化の様々な側面について、複雑な文章表現で説明する技術を習得します。' },
+            { type: 'glossary', terms: [
+              { term: '茶道', definition: 'ちゃどう・日本の伝統的茶儀式・精神修養' },
+              { term: '武道', definition: 'ぶどう・剣道、柔道などの格闘技伝統' },
+              { term: '伝統', definition: 'でんとう・代々受け継がれた風習' },
+              { term: '美学', definition: 'びがく・美しさの理論・侘び寂び' },
+              { term: '現代化', definition: 'げんだいか・現在の形に変わる' }
+            ] },
+            { type: 'highlight-box', title: '文化についての高度な例文', items: ['茶道は単なる儀式ではなく、人生哲学を表現しています。その本質は、静寂の中に美を見出すことです。', '武道の修行を通じて、心身の鍛練が実現できます。技術習得と同時に、精神的な成熟も目指されます。', '日本の伝統は現代社会の中でも重要な役割を果たしています。しかし、グローバル化の中で、変容を余儀なくされています。', '和書と洋書のそれぞれの美学について考える必要があります。侘び寂びの審美眼は東洋独特の価値観です。'] },
+            { type: 'practice', question: '日本文化と西洋文化の違いについて論じてください', auxiliaryPrompt: '比較分析と個人的見解を含める高度な表現を目指します', answer: '「日本文化と西洋文化の最も重要な違いは〜だと考えます。なぜなら、〜だからです。」という形式で、3つ以上の異なる観点から比較論を書いてください。' }
+          ],
         },
         {
           id: 'l2',
-          title: 'Lesson 2: Topic 2',
+          title: 'Lesson 2: 社会問題と時事',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 2'],
-          sections: [],
+          checkItems: ['ニュース理解', '意見表現', '論証能力'],
+          sections: [
+            { type: 'heading', level: 2, content: '社会問題への複合的な意見表現' },
+            { type: 'text', content: 'B2レベルでは、新聞や報道で取り上げられるような社会問題について、複雑で多面的な視点から意見を述べる能力が必要です。異なる立場の意見を理解し、自分の見解を正当化できる論証力を養います。' },
+            { type: 'glossary', terms: [
+              { term: '社会問題', definition: 'しゃかいもんだい・社会全体に影響する課題' },
+              { term: '一方では', definition: 'いっぽうでは・対比的表現' },
+              { term: '他方では', definition: 'たほうでは・別の視点からは' },
+              { term: 'むしろ', definition: 'むしろ・むしろ〜である' },
+              { term: '結論として', definition: 'けつろんとして・最終的な結論' }
+            ] },
+            { type: 'highlight-box', title: '社会問題についての複合的な例文', items: ['高齢社会の問題は複雑です。一方では医療負担が増加します。他方では、経験豊かな高齢者のより良い雇用が必要です。むしろ、両者を統合したアプローチが求められます。', '環境問題に対して、技術的な解決策だけでなく、行動様式の根本的な変化が必要だと考えます。企業のみならず、個人の消費行動の改善も不可欠です。', 'テレワークの普及は利便性を高めましたが、同時にコミュニケーション問題を生じさせています。この矛盾を解決するには、ハイブリッドモデルの構築が重要です。'] },
+            { type: 'practice', question: '現在の社会問題について複合的な意見を述べてください', auxiliaryPrompt: '複数の視点から分析し、個人的結論を導き出します', answer: '「〜という社会問題があります。一方では〜です。他方では〜です。むしろ〜だと考えます。」という複合文で論じてください。' }
+          ],
         },
         {
           id: 'l3',
-          title: 'Lesson 3: Topic 3',
+          title: 'Lesson 3: ビジネス交渉',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 3'],
-          sections: [],
+          checkItems: ['ビジネス用語', '交渉技術', 'プレゼンテーション'],
+          sections: [
+            { type: 'heading', level: 2, content: 'ビジネス場面での高度な表現' },
+            { type: 'text', content: 'B2レベルでは、ビジネス環境での複雑な交渉やプレゼンテーションができるようになります。契約条件、予算、期限などについて、専門的な用語を使った議論を行います。' },
+            { type: 'glossary', terms: [
+              { term: '契約', definition: 'けいやく・ビジネス契約・合意書' },
+              { term: '予算', definition: 'よさん・financial budget' },
+              { term: '納期', definition: 'のうき・deadline・納品期限' },
+              { term: '利益率', definition: 'りえきりつ・profit margin' },
+              { term: 'リスク管理', definition: 'りすくかんり・risk management' }
+            ] },
+            { type: 'highlight-box', title: 'ビジネス交渉の例文', items: ['本契約の条件について、いくつかの修正案を提案させていただきたいのですが。', '予算配分に関しては、年間500万円の投資が必要だと見込んでいます。', '納期を3ヶ月短縮することは可能ですが、そのためには追加リソースが必要になります。', 'このプロジェクトのリスク要因を事前に評価し、対策を立案することが重要です。'] },
+            { type: 'practice', question: 'ビジネス提案をプレゼンしてください', auxiliaryPrompt: '契約条件、予算、期限を含めた提案です', answer: '「本プロジェクトについて、以下の提案があります。予算は〜です。納期は〜です。リスク対策として〜を予定しています。」という形式でプレゼンしてください。' }
+          ],
         },
         {
           id: 'l4',
-          title: 'Lesson 4: Topic 4',
+          title: 'Lesson 4: 文学と表現',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 4'],
-          sections: [],
+          checkItems: ['文学理論', '表現技法', '批評'],
+          sections: [
+            { type: 'heading', level: 2, content: '文学作品の分析と批評' },
+            { type: 'text', content: 'B2レベルでは、日本文学の作品を深く分析し、批評できる能力を養います。作者の意図、表現技法、社会的背景などを総合的に理解します。' },
+            { type: 'glossary', terms: [
+              { term: '表現技法', definition: 'ひょうげんぎほう・literary devices' },
+              { term: 'メタファー', definition: 'めたふぁー・比喩・隠喩' },
+              { term: 'シンボリズム', definition: 'しんぼりずむ・象徴主義' },
+              { term: '背景', definition: 'はいけい・historical context' },
+              { term: '解釈', definition: 'かいしゃく・interpretation' }
+            ] },
+            { type: 'highlight-box', title: '文学批評の例文', items: ['この作品における象徴主義の使用は、作者の深い心理的葛藤を表現しています。', 'メタファーを通じて、自然界と人間の関係性が暗示されています。', '社会的背景を考慮すると、この作品のテーマはより理解しやすくなります。', 'この作家の表現技法は、日本の近代文学に大きな影響を与えました。'] },
+            { type: 'practice', question: '日本文学作品を分析してください', auxiliaryPrompt: '表現技法と社会的意味を含めます', answer: '「この作品では〜というメタファーが使われています。これは〜を象徴していると考えます。社会的には〜という意味があると思われます。」という形式で分析してください。' }
+          ],
         },
         {
           id: 'l5',
-          title: 'Lesson 5: Topic 5',
+          title: 'Lesson 5: 科学と技術',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 5'],
-          sections: [],
+          checkItems: ['科学用語', '技術革新', '倫理問題'],
+          sections: [
+            { type: 'heading', level: 2, content: '科学技術と社会的倫理' },
+            { type: 'text', content: 'B2レベルでは、科学技術の進歩と社会への影響について、倫理的側面を含めて議論できるようになります。AI、バイオテクノロジー、エネルギー問題など、複雑なテーマを扱います。' },
+            { type: 'glossary', terms: [
+              { term: 'AI', definition: 'えーあい・artificial intelligence' },
+              { term: '遺伝子技術', definition: 'いでんしぎじゅつ・genetic engineering' },
+              { term: '倫理的問題', definition: 'りんりてきもんだい・ethical issues' },
+              { term: '社会的インパクト', definition: 'しゃかいてきいんぱくと・社会への影響' },
+              { term: 'レギュレーション', definition: 'れぎゅれーしょん・規制' }
+            ] },
+            { type: 'highlight-box', title: '科学技術と倫理の例文', items: ['AI技術の発展は生産性を大幅に向上させる一方で、雇用問題を引き起こす可能性があります。', '遺伝子操作技術は医療の分野では有用ですが、倫理的な懸念も存在します。', '科学技術の進歩には、社会的責任が伴います。企業だけでなく、政府の適切なレギュレーションが必要です。', '技術革新と人間の価値観のバランスを取ることが、21世紀の課題です。'] },
+            { type: 'practice', question: '科学技術の社会的影響について議論してください', auxiliaryPrompt: '倫理的側面と社会的インパクトを含めます', answer: '「〜という科学技術があります。メリットとしては〜です。しかし倫理的には〜という懸念があります。」という形式で議論してください。' }
+          ],
         },
         {
           id: 'l6',
-          title: 'Lesson 6: Topic 6',
+          title: 'Lesson 6: グローバル化と多様性',
           duration: '11:00',
           videoId: '',
           isPremium: false,
-          checkItems: ['Topic 6'],
-          sections: [],
+          checkItems: ['国際化', '多元主義', '相互理解'],
+          sections: [
+            { type: 'heading', level: 2, content: 'グローバル化時代の相互理解' },
+            { type: 'text', content: 'B2レベルでは、グローバル化の中での文化的多様性と相互理解について、深く議論できるようになります。国家間の関係、移民問題、文化的アイデンティティなど、複雑なテーマを扱います。' },
+            { type: 'glossary', terms: [
+              { term: 'グローバル化', definition: 'ぐろーばるか・globalization' },
+              { term: '多元主義', definition: 'たげんしゅぎ・pluralism' },
+              { term: 'アイデンティティ', definition: 'あいでんてぃてぃ・identity・自己認識' },
+              { term: '相互理解', definition: 'そうごりかい・mutual understanding' },
+              { term: 'ステレオタイプ', definition: 'すてれおたいぷ・stereotype' }
+            ] },
+            { type: 'highlight-box', title: 'グローバル化についての例文', items: ['グローバル化により、異文化間の交流が増えました。しかし同時に、文化的アイデンティティの喪失も懸念されます。', '移民問題は各国で重要なテーマとなっています。相互理解と寛容性が、共生社会実現の鍵です。', 'ステレオタイプを超えて、個人としての相違を認識することが大切です。', '多元主義の価値観の下で、異なる文化背景を持つ人々が協働できる環境の構築が必要です。'] },
+            { type: 'practice', question: 'グローバル化と文化的多様性について論じてください', auxiliaryPrompt: '複数国の視点と相互理解を含めます', answer: '「グローバル化時代には、〜という課題があります。異なる文化的背景を持つ人々が共存するには、〜が必要だと考えます。」という形式で論じてください。' }
+          ],
         },
       ],
     },
