@@ -20867,11 +20867,17 @@ export const allCategories: Category[] = [
   // Base language courses (120 lectures each = 1,440 lectures)
   enga1, enga2, engb1, engb2, engc1, engc2, jpna1, jpna2, jpnb1, jpnb2, jpnc1, jpnc2, zhoa1, zhoa2, zhob1, zhob2, zhoc1, zhoc2, kora1, kora2, korb1, korb2, korc1, korc2, deua1, deua2, deub1, deub2, deuc1, deuc2, fraa1, fraa2, frab1, frab2, frac1, frac2, spaa1, spaa2, spab1, spab2, spac1, spac2, rusa1, rusa2, rusb1, rusb2, rusc1, rusc2, pora1, pora2, porb1, porb2, porc1, porc2, itaa1, itaa2, itab1, itab2, itac1, itac2, araa1, araa2, arab1, arab2, arac1, arac2, jslA1, jslA2, jslB1, jslB2, clsa1, clsa2, clsb1, clsb2,
   // Specialized field lectures (65 per language × 12 languages = 780 lectures)
-  engSpecialized,
-  // Country Academy enrichment (185+ hours)
-  countryUSA,
-  // SUMMARY: 12 languages × 120 base lectures + 1 specialized = 1,445 lectures
-  // Total enriched content: 1,445 lectures with USA Country Academy enrichment
+  // - English, Chinese, French, Arabic, Portuguese, Spanish, Russian, Italian, German, Japanese, Korean, Sign Language
+  engSpecialized, zhoSpecialized, fraSpecialized, araSpecialized, porSpecialized, spaSpecialized, rusSpecialized, itaSpecialized, deuSpecialized, jpnSpecialized, korSpecialized, jslSpecialized,
+  // Country Academy enrichment (185+ hours each = 370+ hours)
+  // - USA, Korea (Additional countries: Japan, China, Germany, France, Spain, Russia, Italy, Brazil, Arab World, UK/Ireland, Portugal planned)
+  countryUSA, countryKorea,
+  // COMPREHENSIVE STATISTICS:
+  // Total Language Base Courses: 12 languages × 120 lectures = 1,440 lectures
+  // Total Specialized Courses: 12 languages × 65 lectures = 780 lectures
+  // Total Country Academies: 2 countries × 185+ hours = 370+ hours
+  // Grand Total: 2,220+ lectures across all languages and 370+ enrichment hours
+  // Content distribution: 185 lectures/hours per language (120 base + 65 specialized)
 ];
 
 // Utility functions
