@@ -6,7 +6,7 @@ const enga1: Category = {
   title: 'English - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-eng',
+  topicCategoryId: 'topic-english',
   courses: [
     {
       id: 'eng-a1-1',
@@ -507,7 +507,7 @@ const enga2: Category = {
   title: 'English - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-eng',
+  topicCategoryId: 'topic-english',
   courses: [
     {
       id: 'eng-a2-1',
@@ -871,7 +871,7 @@ const engb1: Category = {
   title: 'English - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-eng',
+  topicCategoryId: 'topic-english',
   courses: [
     {
       id: 'eng-b1-1',
@@ -1166,7 +1166,7 @@ const engb2: Category = {
   title: 'English - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-eng',
+  topicCategoryId: 'topic-english',
   courses: [
     {
       id: 'eng-b2-1',
@@ -1461,7 +1461,7 @@ const engc1: Category = {
   title: 'English - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-eng',
+  topicCategoryId: 'topic-english',
   courses: [
     {
       id: 'eng-c1-1',
@@ -1721,7 +1721,7 @@ const engc2: Category = {
   title: 'English - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-eng',
+  topicCategoryId: 'topic-english',
   courses: [
     {
       id: 'eng-c2-1',
@@ -1981,7 +1981,7 @@ const jpna1: Category = {
   title: 'Japanese - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-jpn',
+  topicCategoryId: 'topic-japanese',
   courses: [
     {
       id: 'jpn-a1-1',
@@ -2324,7 +2324,7 @@ const jpna2: Category = {
   title: 'Japanese - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-jpn',
+  topicCategoryId: 'topic-japanese',
   courses: [
     {
       id: 'jpn-a2-1',
@@ -2668,7 +2668,7 @@ const jpnb1: Category = {
   title: 'Japanese - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-jpn',
+  topicCategoryId: 'topic-japanese',
   courses: [
     {
       id: 'jpn-b1-1',
@@ -3000,7 +3000,7 @@ const jpnb2: Category = {
   title: 'Japanese - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-jpn',
+  topicCategoryId: 'topic-japanese',
   courses: [
     {
       id: 'jpn-b2-1',
@@ -3332,7 +3332,7 @@ const jpnc1: Category = {
   title: 'Japanese - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-jpn',
+  topicCategoryId: 'topic-japanese',
   courses: [
     {
       id: 'jpn-c1-1',
@@ -3592,7 +3592,7 @@ const jpnc2: Category = {
   title: 'Japanese - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-jpn',
+  topicCategoryId: 'topic-japanese',
   courses: [
     {
       id: 'jpn-c2-1',
@@ -3852,7 +3852,7 @@ const zhoa1: Category = {
   title: 'Chinese - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-zho',
+  topicCategoryId: 'topic-chinese',
   courses: [
     {
       id: 'zho-a1-1',
@@ -4148,7 +4148,7 @@ const zhoa2: Category = {
   title: 'Chinese - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-zho',
+  topicCategoryId: 'topic-chinese',
   courses: [
     {
       id: 'zho-a2-1',
@@ -4444,7 +4444,7 @@ const zhob1: Category = {
   title: 'Chinese - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-zho',
+  topicCategoryId: 'topic-chinese',
   courses: [
     {
       id: 'zho-b1-1',
@@ -4740,7 +4740,7 @@ const zhob2: Category = {
   title: 'Chinese - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-zho',
+  topicCategoryId: 'topic-chinese',
   courses: [
     {
       id: 'zho-b2-1',
@@ -5035,7 +5035,7 @@ const zhoc1: Category = {
   title: 'Chinese - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-zho',
+  topicCategoryId: 'topic-chinese',
   courses: [
     {
       id: 'zho-c1-1',
@@ -5295,7 +5295,7 @@ const zhoc2: Category = {
   title: 'Chinese - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-zho',
+  topicCategoryId: 'topic-chinese',
   courses: [
     {
       id: 'zho-c2-1',
@@ -5555,7 +5555,7 @@ const kora1: Category = {
   title: 'Korean - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-kor',
+  topicCategoryId: 'topic-korean',
   courses: [
     {
       id: 'kor-a1-1',
@@ -5815,7 +5815,7 @@ const kora2: Category = {
   title: 'Korean - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-kor',
+  topicCategoryId: 'topic-korean',
   courses: [
     {
       id: 'kor-a2-1',
@@ -6075,7 +6075,7 @@ const korb1: Category = {
   title: 'Korean - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-kor',
+  topicCategoryId: 'topic-korean',
   courses: [
     {
       id: 'kor-b1-1',
@@ -6335,7 +6335,7 @@ const korb2: Category = {
   title: 'Korean - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-kor',
+  topicCategoryId: 'topic-korean',
   courses: [
     {
       id: 'kor-b2-1',
@@ -6595,7 +6595,7 @@ const korc1: Category = {
   title: 'Korean - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-kor',
+  topicCategoryId: 'topic-korean',
   courses: [
     {
       id: 'kor-c1-1',
@@ -6855,7 +6855,7 @@ const korc2: Category = {
   title: 'Korean - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-kor',
+  topicCategoryId: 'topic-korean',
   courses: [
     {
       id: 'kor-c2-1',
@@ -7115,7 +7115,7 @@ const deua1: Category = {
   title: 'German - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-deu',
+  topicCategoryId: 'topic-german',
   courses: [
     {
       id: 'deu-a1-1',
@@ -7594,7 +7594,7 @@ const deua2: Category = {
   title: 'German - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-deu',
+  topicCategoryId: 'topic-german',
   courses: [
     {
       id: 'deu-a2-1',
@@ -8071,7 +8071,7 @@ const deub1: Category = {
   title: 'German - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-deu',
+  topicCategoryId: 'topic-german',
   courses: [
     {
       id: 'deu-b1-1',
@@ -8547,7 +8547,7 @@ const deub2: Category = {
   title: 'German - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-deu',
+  topicCategoryId: 'topic-german',
   courses: [
     {
       id: 'deu-b2-1',
@@ -9026,7 +9026,7 @@ const deuc1: Category = {
   title: 'German - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-deu',
+  topicCategoryId: 'topic-german',
   courses: [
     {
       id: 'deu-c1-1',
@@ -9286,7 +9286,7 @@ const deuc2: Category = {
   title: 'German - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-deu',
+  topicCategoryId: 'topic-german',
   courses: [
     {
       id: 'deu-c2-1',
@@ -9546,7 +9546,7 @@ const fraa1: Category = {
   title: 'French - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-fra',
+  topicCategoryId: 'topic-french',
   courses: [
     {
       id: 'fra-a1-1',
@@ -9806,7 +9806,7 @@ const fraa2: Category = {
   title: 'French - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-fra',
+  topicCategoryId: 'topic-french',
   courses: [
     {
       id: 'fra-a2-1',
@@ -10066,7 +10066,7 @@ const frab1: Category = {
   title: 'French - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-fra',
+  topicCategoryId: 'topic-french',
   courses: [
     {
       id: 'fra-b1-1',
@@ -10326,7 +10326,7 @@ const frab2: Category = {
   title: 'French - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-fra',
+  topicCategoryId: 'topic-french',
   courses: [
     {
       id: 'fra-b2-1',
@@ -10586,7 +10586,7 @@ const frac1: Category = {
   title: 'French - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-fra',
+  topicCategoryId: 'topic-french',
   courses: [
     {
       id: 'fra-c1-1',
@@ -10846,7 +10846,7 @@ const frac2: Category = {
   title: 'French - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-fra',
+  topicCategoryId: 'topic-french',
   courses: [
     {
       id: 'fra-c2-1',
@@ -11106,7 +11106,7 @@ const spaa1: Category = {
   title: 'Spanish - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-spa',
+  topicCategoryId: 'topic-spanish',
   courses: [
     {
       id: 'spa-a1-1',
@@ -12853,7 +12853,7 @@ const spaa2: Category = {
   title: 'Spanish - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-spa',
+  topicCategoryId: 'topic-spanish',
   courses: [
     {
       id: 'spa-a2-1',
@@ -14056,7 +14056,7 @@ const spab1: Category = {
   title: 'Spanish - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-spa',
+  topicCategoryId: 'topic-spanish',
   courses: [
     {
       id: 'spa-b1-1',
@@ -14466,7 +14466,7 @@ const spab2: Category = {
   title: 'Spanish - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-spa',
+  topicCategoryId: 'topic-spanish',
   courses: [
     {
       id: 'spa-b2-1',
@@ -14876,7 +14876,7 @@ const spac1: Category = {
   title: 'Spanish - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-spa',
+  topicCategoryId: 'topic-spanish',
   courses: [
     {
       id: 'spa-c1-1',
@@ -14960,7 +14960,7 @@ const spac2: Category = {
   title: 'Spanish - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-spa',
+  topicCategoryId: 'topic-spanish',
   courses: [
     {
       id: 'spa-c2-1',
@@ -15220,7 +15220,7 @@ const rusa1: Category = {
   title: 'Russian - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-rus',
+  topicCategoryId: 'topic-russian',
   courses: [
     {
       id: 'rus-a1-1',
@@ -15480,7 +15480,7 @@ const rusa2: Category = {
   title: 'Russian - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-rus',
+  topicCategoryId: 'topic-russian',
   courses: [
     {
       id: 'rus-a2-1',
@@ -15740,7 +15740,7 @@ const rusb1: Category = {
   title: 'Russian - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-rus',
+  topicCategoryId: 'topic-russian',
   courses: [
     {
       id: 'rus-b1-1',
@@ -16000,7 +16000,7 @@ const rusb2: Category = {
   title: 'Russian - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-rus',
+  topicCategoryId: 'topic-russian',
   courses: [
     {
       id: 'rus-b2-1',
@@ -16260,7 +16260,7 @@ const rusc1: Category = {
   title: 'Russian - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-rus',
+  topicCategoryId: 'topic-russian',
   courses: [
     {
       id: 'rus-c1-1',
@@ -16520,7 +16520,7 @@ const rusc2: Category = {
   title: 'Russian - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-rus',
+  topicCategoryId: 'topic-russian',
   courses: [
     {
       id: 'rus-c2-1',
@@ -16780,7 +16780,7 @@ const pora1: Category = {
   title: 'Portuguese - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-por',
+  topicCategoryId: 'topic-portuguese',
   courses: [
     {
       id: 'por-a1-1',
@@ -17040,7 +17040,7 @@ const pora2: Category = {
   title: 'Portuguese - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-por',
+  topicCategoryId: 'topic-portuguese',
   courses: [
     {
       id: 'por-a2-1',
@@ -17300,7 +17300,7 @@ const porb1: Category = {
   title: 'Portuguese - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-por',
+  topicCategoryId: 'topic-portuguese',
   courses: [
     {
       id: 'por-b1-1',
@@ -17560,7 +17560,7 @@ const porb2: Category = {
   title: 'Portuguese - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-por',
+  topicCategoryId: 'topic-portuguese',
   courses: [
     {
       id: 'por-b2-1',
@@ -17820,7 +17820,7 @@ const porc1: Category = {
   title: 'Portuguese - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-por',
+  topicCategoryId: 'topic-portuguese',
   courses: [
     {
       id: 'por-c1-1',
@@ -18080,7 +18080,7 @@ const porc2: Category = {
   title: 'Portuguese - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-por',
+  topicCategoryId: 'topic-portuguese',
   courses: [
     {
       id: 'por-c2-1',
@@ -18340,7 +18340,7 @@ const itaa1: Category = {
   title: 'Italian - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-ita',
+  topicCategoryId: 'topic-italian',
   courses: [
     {
       id: 'ita-a1-1',
@@ -18409,7 +18409,7 @@ const itaa2: Category = {
   title: 'Italian - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-ita',
+  topicCategoryId: 'topic-italian',
   courses: [
     {
       id: 'ita-a2-1',
@@ -18469,7 +18469,7 @@ const itab1: Category = {
   title: 'Italian - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-ita',
+  topicCategoryId: 'topic-italian',
   courses: [
     {
       id: 'ita-b1-1',
@@ -18529,7 +18529,7 @@ const itab2: Category = {
   title: 'Italian - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-ita',
+  topicCategoryId: 'topic-italian',
   courses: [
     {
       id: 'ita-b2-1',
@@ -18589,7 +18589,7 @@ const itac1: Category = {
   title: 'Italian - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-ita',
+  topicCategoryId: 'topic-italian',
   courses: [
     {
       id: 'ita-c1-1',
@@ -18649,7 +18649,7 @@ const itac2: Category = {
   title: 'Italian - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-ita',
+  topicCategoryId: 'topic-italian',
   courses: [
     {
       id: 'ita-c2-1',
@@ -18709,7 +18709,7 @@ const araa1: Category = {
   title: 'Arabic - A1',
   description: '（レベル A1）。',
   level: 'A1',
-  topicCategoryId: 'topic-ara',
+  topicCategoryId: 'topic-arabic',
   courses: [
     {
       id: 'ara-a1-1',
@@ -18969,7 +18969,7 @@ const araa2: Category = {
   title: 'Arabic - A2',
   description: '（レベル A2）。',
   level: 'A2',
-  topicCategoryId: 'topic-ara',
+  topicCategoryId: 'topic-arabic',
   courses: [
     {
       id: 'ara-a2-1',
@@ -19229,7 +19229,7 @@ const arab1: Category = {
   title: 'Arabic - B1',
   description: '（レベル B1）。',
   level: 'B1',
-  topicCategoryId: 'topic-ara',
+  topicCategoryId: 'topic-arabic',
   courses: [
     {
       id: 'ara-b1-1',
@@ -19489,7 +19489,7 @@ const arab2: Category = {
   title: 'Arabic - B2',
   description: '（レベル B2）。',
   level: 'B2',
-  topicCategoryId: 'topic-ara',
+  topicCategoryId: 'topic-arabic',
   courses: [
     {
       id: 'ara-b2-1',
@@ -19749,7 +19749,7 @@ const arac1: Category = {
   title: 'Arabic - C1',
   description: '（レベル C1）。',
   level: 'C1',
-  topicCategoryId: 'topic-ara',
+  topicCategoryId: 'topic-arabic',
   courses: [
     {
       id: 'ara-c1-1',
@@ -20009,7 +20009,7 @@ const arac2: Category = {
   title: 'Arabic - C2',
   description: '（レベル C2）。',
   level: 'C2',
-  topicCategoryId: 'topic-ara',
+  topicCategoryId: 'topic-arabic',
   courses: [
     {
       id: 'ara-c2-1',

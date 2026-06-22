@@ -130,6 +130,7 @@ export default function HomePage() {
             { id: 'south-africa', name: '南アフリカ', icon: '/images/countries/南アフリカ.jpg' },
             { id: 'saudi-arabia', name: 'サウジアラビア', icon: '/images/countries/サウジアラビア.jpg' },
             { id: 'dubai', name: 'ドバイ', icon: '/images/countries/ドバイ.jpg' },
+            { id: 'eu', name: 'EU', icon: '/images/countries/EU.jpg' },
           ].map((country) => (
             <Link
               key={country.id}
