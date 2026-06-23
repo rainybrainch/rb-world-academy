@@ -50,9 +50,9 @@ const enga1: Category = {
               terms: [
                 { term: 'hello', definition: 'こんにちは' },
                 { term: 'goodbye', definition: 'さようなら' },
-                { term: 'morning', definition: '朝' },
-                { term: 'afternoon', definition: '午後' },
-                { term: 'evening', definition: '夜' }
+                { term: 'morning', definition: '<ruby>朝<rt>あさ</rt></ruby>' },
+                { term: 'afternoon', definition: '<ruby>午<rt>ご</rt></ruby><ruby>後<rt>ご</rt></ruby>' },
+                { term: 'evening', definition: '<ruby>夜<rt>よる</rt></ruby>' }
               ]
             },
             {
@@ -82,7 +82,7 @@ const enga1: Category = {
             {
               type: 'glossary',
               terms: [
-                { term: 'name', definition: '名前' },
+                { term: 'name', definition: '<ruby>名<rt>な</rt></ruby><ruby>前<rt>まえ</rt></ruby>' },
                 { term: 'from', definition: '〜から' },
                 { term: 'am', definition: 'いる、ある（I be動詞）' },
                 { term: 'nice', definition: '素敵な、良い' },
@@ -2014,11 +2014,11 @@ const jpna1: Category = {
             { type: 'heading', level: 2, content: '日本語の挨拶と時間帯' },
             { type: 'text', content: '日本語の挨拶は時間や場面によって異なります。「おはようございます」「こんにちは」「こんばんは」など、相手や状況に応じた挨拶を学びます。' },
             { type: 'glossary', terms: [
-              { term: 'おはようございます', definition: '朝の挨拶・敬語形' },
-              { term: 'こんにちは', definition: '昼間の挨拶' },
-              { term: 'こんばんは', definition: '夜間の挨拶' },
-              { term: 'おやすみなさい', definition: '就寝時の挨拶' },
-              { term: 'さようなら', definition: '別れの挨拶' }
+              { term: 'おはようございます', definition: '<ruby>朝<rt>あさ</rt></ruby>の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>・<ruby>敬<rt>けい</rt></ruby><ruby>語<rt>ご</rt></ruby><ruby>形<rt>けい</rt></ruby>' },
+              { term: 'こんにちは', definition: '<ruby>昼<rt>ひる</rt></ruby><ruby>間<rt>ま</rt></ruby>の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>' },
+              { term: 'こんばんは', definition: '<ruby>夜<rt>や</rt></ruby><ruby>間<rt>ま</rt></ruby>の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>' },
+              { term: 'おやすみなさい', definition: '<ruby>就<rt>しゅう</rt></ruby><ruby>寝<rt>ね</rt></ruby><ruby>時<rt>じ</rt></ruby>の<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>' },
+              { term: 'さようなら', definition: '<ruby>別<rt>わか</rt></ruby>れの<ruby>挨<rt>あい</rt></ruby><ruby>拶<rt>さつ</rt></ruby>' }
             ] },
             { type: 'highlight-box', title: '挨拶の例文', items: ['おはようございます。', 'こんにちは。元気ですか。', 'こんばんは。今日はお疲れ様でした。', 'さようなら。また明日。'] },
             { type: 'practice', question: '適切な挨拶を選びましょう', auxiliaryPrompt: '時間帯と場面に応じた挨拶を練習します', answer: '朝・昼・夜・別れの場面で、それぞれ適切な挨拶を3つ以上言ってください。' },
@@ -2088,7 +2088,7 @@ const jpna1: Category = {
             { type: 'heading', level: 2, content: '家族の紹介' },
             { type: 'text', content: '日本語では、自分の家族と他人の家族で異なる表現を使います。自分の家族に対しては敬語を使わず、他人の家族には敬語を付けます。' },
             { type: 'glossary', terms: [
-              { term: '父', definition: 'ちち・自分の父親' },
+              { term: '父', definition: '<ruby>ちち</ruby>・<ruby>自<rt>じ</rt></ruby><ruby>分<rt>ぶん</rt></ruby>の<ruby>父<rt>ちち</rt></ruby><ruby>親<rt>おや</rt></ruby>' },
               { term: 'お父さん', definition: '他人の父親' },
               { term: '母', definition: 'はは・自分の母親' },
               { term: 'お母さん', definition: '他人の母親' },
@@ -2109,11 +2109,11 @@ const jpna1: Category = {
             { type: 'heading', level: 2, content: '食べ物と飲料の名前' },
             { type: 'text', content: '日本の食文化を理解するために、一般的な食べ物と飲料の名前を学びます。和食の代表的な料理から、毎日の食事で見かけるものまで、幅広い語彙を身につけます。' },
             { type: 'glossary', terms: [
-              { term: 'ご飯', definition: 'ごはん・米食' },
-              { term: 'みそ汁', definition: 'みそしる・日本の典型的なスープ' },
-              { term: 'てんぷら', definition: 'てんぷら・揚げた野菜' },
-              { term: '寿司', definition: 'すし・握った米に具を乗せたもの' },
-              { term: 'お茶', definition: 'おちゃ・日本の伝統飲料' }
+              { term: 'ご飯', definition: 'ご<ruby>飯<rt>はん</rt></ruby>・<ruby>米<rt>こめ</rt></ruby><ruby>食<rt>しょく</rt></ruby>' },
+              { term: 'みそ汁', definition: 'みそ<ruby>汁<rt>しる</rt></ruby>・<ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby>の<ruby>典<rt>てん</rt></ruby><ruby>型<rt>がた</rt></ruby>的なスープ' },
+              { term: 'てんぷら', definition: 'てんぷら・<ruby>揚<rt>あ</rt></ruby>げた<ruby>野<rt>や</rt></ruby><ruby>菜<rt>さい</rt></ruby>' },
+              { term: '寿司', definition: 'すし・<ruby>握<rt>にぎ</rt></ruby>った<ruby>米<rt>こめ</rt></ruby>に<ruby>具<rt>ぐ</rt></ruby>を<ruby>乗<rt>の</rt></ruby>せたもの' },
+              { term: 'お茶', definition: 'おちゃ・<ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby>の<ruby>伝<rt>でん</rt></ruby><ruby>統<rt>とう</rt></ruby><ruby>飲<rt>いん</rt></ruby><ruby>料<rt>りょう</rt></ruby>' }
             ] },
             { type: 'highlight-box', title: '食べ物の例文', items: ['私はご飯が好きです。', '朝食は卵焼きとみそ汁です。', '日本料理は美味しいです。', 'コーヒーか紅茶のどちらが好きですか。'] },
             { type: 'practice', question: 'あなたの好きな食べ物について話してください', auxiliaryPrompt: '好みの食べ物と理由を含めて説明する練習です', answer: '「私は〜が好きです。なぜなら〜です。」という形式で、好きな食べ物3つを理由付きで説明してください。' }
@@ -2131,10 +2131,10 @@ const jpna1: Category = {
             { type: 'text', content: '買い物をする時に必要な基本的な会話表現を学びます。価格の確認、商品の説明、支払い方法などの表現を習得します。' },
             { type: 'glossary', terms: [
               { term: 'いくらですか', definition: '価格はいくらですか' },
-              { term: '円', definition: 'えん・日本の通貨単位' },
-              { term: '安いです', definition: 'やすいです・価格が低い' },
-              { term: '高いです', definition: 'たかいです・価格が高い' },
-              { term: 'クレジットカード', definition: 'くれじっとかーど・支払い方法' }
+              { term: '円', definition: 'えん・<ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby>の<ruby>通<rt>つう</rt></ruby><ruby>貨<rt>か</rt></ruby><ruby>単<rt>たん</rt></ruby><ruby>位<rt>い</rt></ruby>' },
+              { term: '安いです', definition: 'やすいです・<ruby>価<rt>か</rt></ruby><ruby>格<rt>かく</rt></ruby>が<ruby>低<rt>ひく</rt></ruby>い' },
+              { term: '高いです', definition: 'たかいです・<ruby>価<rt>か</rt></ruby><ruby>格<rt>かく</rt></ruby>が<ruby>高<rt>たか</rt></ruby>い' },
+              { term: 'クレジットカード', definition: 'くれじっとかーど・<ruby>支<rt>し</rt></ruby><ruby>払<rt>はら</rt></ruby>い<ruby>方<rt>ほう</rt></ruby><ruby>法<rt>ほう</rt></ruby>' }
             ] },
             { type: 'highlight-box', title: '買い物の例文', items: ['これはいくらですか。', '1000円ですか。', '何色がありますか。', 'クレジットカードで支払えますか。'] },
             { type: 'practice', question: '店での簡単な買い物会話をしてください', auxiliaryPrompt: '商品の確認と価格について質問します', answer: '「これはいくらですか」「〜色がありますか」「割引がありますか」という質問を店員さんに向かって3つ言ってください。' }
@@ -11304,8 +11304,8 @@ const spaa1: Category = {
             {
               type: 'glossary',
               terms: [
-                { term: 'Padre', definition: '父' },
-                { term: 'Madre', definition: '母' },
+                { term: 'Padre', definition: '<ruby>父<rt>ちち</rt></ruby>' },
+                { term: 'Madre', definition: '<ruby>母<rt>はは</rt></ruby>' },
                 { term: 'Hermano', definition: '兄弟' },
                 { term: 'Hermana', definition: '姉妹' },
                 { term: 'Abuelo', definition: '祖父' }
