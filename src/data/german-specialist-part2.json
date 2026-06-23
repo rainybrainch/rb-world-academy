@@ -1,0 +1,1588 @@
+{
+  "specialist_fields_part2": [
+    {
+      "field_id": "deu-tech-001",
+      "field_name": "技術・IT分野",
+      "field_name_en": "Technology & IT German",
+      "lesson_count": 10,
+      "lessons": [
+        {
+          "id": "deu-tech-l1",
+          "title": "Lesson 1: Informationstechnologie und Programmierung",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["プログラミング概念", "ソフトウェア開発", "システムアーキテクチャ"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "IT用語とプログラミング"
+            },
+            {
+              "type": "text",
+              "content": "ドイツのテクノロジー産業で使われるプログラミング用語とソフトウェア開発の専門表現を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Software", "definition": "ソフトウェア"},
+                {"term": "Code", "definition": "コード"},
+                {"term": "Algorithmus", "definition": "アルゴリズム"},
+                {"term": "Datenbasis", "definition": "データベース"},
+                {"term": "Schnittstelle", "definition": "インターフェース"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "プログラミング表現",
+              "items": [
+                "Der Code muss optimiert werden.",
+                "Wir nutzen agile Entwicklungsmethoden.",
+                "Das System skaliert horizontal und vertikal."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "技術仕様書作成",
+              "auxiliaryPrompt": "ソフトウェアプロジェクトの技術仕様をドイツ語で作成",
+              "answer": "Webアプリケーション開発プロジェクトの技術仕様書をドイツ語で作成してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "開発プロセス"
+            },
+            {
+              "type": "text",
+              "content": "ソフトウェア開発のライフサイクルと品質保証プロセスを学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-tech-l2",
+          "title": "Lesson 2: Künstliche Intelligenz und Machine Learning",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["AI概念", "機械学習", "ニューラルネットワーク"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "人工知能と機械学習"
+            },
+            {
+              "type": "text",
+              "content": "AI、ML、ディープラーニングなどの最先端技術用語をドイツ語で習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Künstliche Intelligenz", "definition": "人工知能"},
+                {"term": "Machine Learning", "definition": "機械学習"},
+                {"term": "Neuronales Netz", "definition": "ニューラルネットワーク"},
+                {"term": "Training", "definition": "訓練"},
+                {"term": "Inferenz", "definition": "推論"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "AI表現",
+              "items": [
+                "Das Modell wird mit großen Datenmengen trainiert.",
+                "Die KI erreicht 95% Genauigkeit.",
+                "Wir verwenden tiefe neuronale Netze für Bildklassifikation."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "AIプロジェクト提案",
+              "auxiliaryPrompt": "機械学習プロジェクトの提案をドイツ語で実施",
+              "answer": "自動翻訳システムのML実装計画をドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "倫理的AI"
+            },
+            {
+              "type": "text",
+              "content": "AI開発における倫理的課題と責任ある開発を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-tech-l3",
+          "title": "Lesson 3: Cybersicherheit und Datenschutz",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["サイバーセキュリティ", "暗号化", "GDPR"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "サイバーセキュリティとプライバシー"
+            },
+            {
+              "type": "text",
+              "content": "ドイツ発祥のGDPR規制と、サイバー脅威から企業を守るための用語と対策を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Cybersicherheit", "definition": "サイバーセキュリティ"},
+                {"term": "Verschlüsselung", "definition": "暗号化"},
+                {"term": "GDPR", "definition": "一般的なデータ保護規制"},
+                {"term": "Firewall", "definition": "ファイアウォール"},
+                {"term": "Malware", "definition": "マルウェア"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "セキュリティ表現",
+              "items": [
+                "Die Daten sind mit AES-256 verschlüsselt.",
+                "Wir erfüllen alle GDPR-Anforderungen.",
+                "Ein Sicherheitsaudit wird durchgeführt."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "セキュリティ監査報告書",
+              "auxiliaryPrompt": "企業システムのセキュリティ監査レポートをドイツ語で作成",
+              "answer": "情報セキュリティの脆弱性評価をドイツ語で報告してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "データ保護コンプライアンス"
+            },
+            {
+              "type": "text",
+              "content": "GDPR、CCPA等の規制要件を理解し実装する方法を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-tech-l4",
+          "title": "Lesson 4: Wolkencomputering und Infrastruktur",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["クラウド技術", "インフラストラクチャ", "DevOps"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "クラウドテクノロジー"
+            },
+            {
+              "type": "text",
+              "content": "AWS、Azure、Google Cloudなどのクラウドサービスと、インフラの自動化用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Cloud", "definition": "クラウド"},
+                {"term": "Skalierbarkeit", "definition": "スケーラビリティ"},
+                {"term": "Container", "definition": "コンテナ"},
+                {"term": "Virtualisierung", "definition": "仮想化"},
+                {"term": "Verfügbarkeit", "definition": "可用性"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "クラウド表現",
+              "items": [
+                "Wir migrieren zu einer Multi-Cloud-Strategie.",
+                "Die Anwendung wird in Containern bereitgestellt.",
+                "Das System hat 99.9% Verfügbarkeit."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "クラウド移行計画",
+              "auxiliaryPrompt": "オンプレミスからクラウドへの移行戦略をドイツ語で計画",
+              "answer": "企業システムのクラウド移行ロードマップをドイツ語で作成してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "DevOpsと自動化"
+            },
+            {
+              "type": "text",
+              "content": "継続的統合・デプロイメントと運用自動化について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-tech-l5",
+          "title": "Lesson 5: Blockchain und verteilte Systeme",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["ブロックチェーン", "分散システム", "暗号通貨"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ブロックチェーン技術"
+            },
+            {
+              "type": "text",
+              "content": "ブロックチェーン、スマートコントラクト、分散型台帳技術の専門用語をドイツ語で学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Blockchain", "definition": "ブロックチェーン"},
+                {"term": "Smart Contract", "definition": "スマートコントラクト"},
+                {"term": "Kryptographie", "definition": "暗号学"},
+                {"term": "Konsensus", "definition": "コンセンサス"},
+                {"term": "Dezentralisierung", "definition": "分散化"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "ブロックチェーン表現",
+              "items": [
+                "Das Netzwerk nutzt den Proof-of-Work-Konsensus.",
+                "Der Smart Contract regelt automatisch die Transaktion.",
+                "Die Blockchain garantiert Transparenz und Unveränderlichkeit."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "分散システム設計",
+              "auxiliaryPrompt": "ブロックチェーンベースのシステムをドイツ語で設計・説明",
+              "answer": "サプライチェーン追跡用のブロックチェーンシステムをドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "今後の技術動向"
+            },
+            {
+              "type": "text",
+              "content": "量子コンピュータやWeb3など新しい技術トレンドを学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-tech-l6",
+          "title": "Lesson 6: Internetversorgung und Konnektivität",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["ネットワーク", "IoT", "5G"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "インターネットとコネクティビティ技術"
+            },
+            {
+              "type": "text",
+              "content": "IoT、5G、ネットワークプロトコルなど、接続技術の最先端用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Internet der Dinge", "definition": "モノのインターネット"},
+                {"term": "5G", "definition": "5G通信"},
+                {"term": "Protokoll", "definition": "プロトコル"},
+                {"term": "Bandbreite", "definition": "帯域幅"},
+                {"term": "Latenz", "definition": "レイテンシ"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "ネットワーク表現",
+              "items": [
+                "Das 5G-Netz ermöglicht Ultra-Low-Latency-Anwendungen.",
+                "Millionen von IoT-Geräten sind verbunden.",
+                "Das Netzwerkprotokoll unterstützt QoS-Garantien."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "IoT実装プロジェクト",
+              "auxiliaryPrompt": "IoTシステムの導入計画をドイツ語で作成",
+              "answer": "スマートシティのIoT基盤整備計画をドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "通信標準と規格"
+            },
+            {
+              "type": "text",
+              "content": "通信業界の国際標準と規格について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-tech-l7",
+          "title": "Lesson 7: Softwarearchitektur und Design Patterns",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["アーキテクチャ", "デザインパターン", "マイクロサービス"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ソフトウェアアーキテクチャ設計"
+            },
+            {
+              "type": "text",
+              "content": "MVC、MVVM、マイクロサービス、イベント駆動型など、ソフトウェア設計パターンを学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Architektur", "definition": "アーキテクチャ"},
+                {"term": "Designmuster", "definition": "デザインパターン"},
+                {"term": "Microservices", "definition": "マイクロサービス"},
+                {"term": "Monolith", "definition": "モノリシック"},
+                {"term": "Dekoupling", "definition": "デカップリング"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "設計表現",
+              "items": [
+                "Wir verwenden eine Microservices-Architektur.",
+                "Das System ist modular und wartbar aufgebaut.",
+                "Die Komponenten sind lose gekoppelt."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "アーキテクチャ設計演習",
+              "auxiliaryPrompt": "複雑なシステムのアーキテクチャを設計・説明",
+              "answer": "Eコマースプラットフォームのマイクロサービスアーキテクチャをドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "パフォーマンス最適化"
+            },
+            {
+              "type": "text",
+              "content": "スケーラビリティと最適化の戦略を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-tech-l8",
+          "title": "Lesson 8: Webentwicklung und Frontend-Technologien",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["フロントエンド", "ユーザーインターフェース", "レスポンシブデザイン"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Web開発の最先端"
+            },
+            {
+              "type": "text",
+              "content": "React、Vue、Angular、フレームワークと、フロントエンド開発の最新技術用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Frontend", "definition": "フロントエンド"},
+                {"term": "Backend", "definition": "バックエンド"},
+                {"term": "Responsive Design", "definition": "レスポンシブデザイン"},
+                {"term": "JavaScript Framework", "definition": "JavaScriptフレームワーク"},
+                {"term": "API", "definition": "アプリケーションプログラムインターフェース"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "Web開発表現",
+              "items": [
+                "Die Anwendung ist responsive und benutzerfreundlich.",
+                "Wir nutzen React für die Frontend-Entwicklung.",
+                "Die REST-API ermöglicht nahtlose Datenintegration."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "Web開発プロジェクト提案",
+              "auxiliaryPrompt": "新しいWebアプリケーションのプロトタイプをドイツ語で説明",
+              "answer": "次世代の社会ネットワークプラットフォームをドイツ語で設計・説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ユーザー体験設計"
+            },
+            {
+              "type": "text",
+              "content": "UX/UIデザインの原理と方法論を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-tech-l9",
+          "title": "Lesson 9: Datenbanken und Big Data",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["データベース管理", "ビッグデータ分析", "SQL/NoSQL"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "データベースとビッグデータ"
+            },
+            {
+              "type": "text",
+              "content": "SQL、NoSQL、データウェアハウス、ビッグデータ分析の用語と手法を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Datenbank", "definition": "データベース"},
+                {"term": "Big Data", "definition": "ビッグデータ"},
+                {"term": "Data Warehouse", "definition": "データウェアハウス"},
+                {"term": "ETL", "definition": "抽出・変換・ロード"},
+                {"term": "Analyse", "definition": "分析"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "データ表現",
+              "items": [
+                "Das System verarbeitet Terabyte an Daten täglich.",
+                "Wir nutzen Machine Learning für Datenanalyse.",
+                "Die Datenpipeline ist automatisiert."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "ビッグデータプロジェクト設計",
+              "auxiliaryPrompt": "大規模データ分析システムを設計・説明",
+              "answer": "医療データの分析基盤をドイツ語で設計してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "データガバナンス"
+            },
+            {
+              "type": "text",
+              "content": "データ品質管理と規制遵守を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-tech-l10",
+          "title": "Lesson 10: Technische Dokumentation und Kommunikation",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["技術文書", "ドキュメンテーション", "技術コミュニケーション"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "技術文書作成"
+            },
+            {
+              "type": "text",
+              "content": "API仕様書、ユーザーマニュアル、技術レポートなど、専門的な技術ドイツ語で文書を作成します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Dokumentation", "definition": "ドキュメンテーション"},
+                {"term": "Spezifikation", "definition": "仕様書"},
+                {"term": "Anleitung", "definition": "マニュアル"},
+                {"term": "Release Notes", "definition": "リリースノート"},
+                {"term": "Bug Report", "definition": "バグレポート"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "文書表現",
+              "items": [
+                "Die API-Dokumentation ist umfassend und klar.",
+                "Die Release Notes enthalten wichtige Sicherheitsupdates.",
+                "Das Benutzerhandbuch ist in mehrere Sprachen übersetzt."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "技術ドキュメント作成",
+              "auxiliaryPrompt": "新しいソフトウェアツールのドキュメントを作成",
+              "answer": "新しいAPI仕様書とユーザーマニュアルをドイツ語で作成してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "技術プレゼンテーション"
+            },
+            {
+              "type": "text",
+              "content": "開発チームや投資家への技術プレゼンテーションスキルを学びます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "field_id": "deu-med-001",
+      "field_name": "医療・科学分野",
+      "field_name_en": "Medical & Scientific German",
+      "lesson_count": 10,
+      "lessons": [
+        {
+          "id": "deu-med-l1",
+          "title": "Lesson 1: Medizinische Terminologie und Anatomie",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["医学用語", "解剖学", "臨床診断"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "医学用語と人体構造"
+            },
+            {
+              "type": "text",
+              "content": "医学ドイツ語の基本用語。人体の解剖学的名称と臨床用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Pathologie", "definition": "病理学"},
+                {"term": "Symptom", "definition": "症状"},
+                {"term": "Diagnose", "definition": "診断"},
+                {"term": "Behandlung", "definition": "治療"},
+                {"term": "Medikament", "definition": "医薬品"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "医学表現",
+              "items": [
+                "Der Patient zeigt Symptome einer Grippe.",
+                "Die Diagnose wird durch Bluttests bestätigt.",
+                "Die Behandlung besteht aus Antibiotika und Ruhe."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "臨床ケース分析",
+              "auxiliaryPrompt": "医療ケースをドイツ語で分析・説明",
+              "answer": "患者の病歴と診断プロセスをドイツ語で詳細に説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "診断技術"
+            },
+            {
+              "type": "text",
+              "content": "画像診断、検査手法、診断用語について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-med-l2",
+          "title": "Lesson 2: Klinische Kommunikation und Patientengespräche",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["患者対応", "医学面接", "同意取得"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "医者と患者のコミュニケーション"
+            },
+            {
+              "type": "text",
+              "content": "患者への説明、informed consent（説明と同意）、感情的サポートのドイツ語表現を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Aufklärung", "definition": "説明"},
+                {"term": "Zustimmung", "definition": "同意"},
+                {"term": "Prognose", "definition": "予後"},
+                {"term": "Nebeneffekt", "definition": "副作用"},
+                {"term": "Verständnis", "definition": "理解"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "患者対応表現",
+              "items": [
+                "Ich werde alles genau erklären.",
+                "Der Eingriff hat gewisse Risiken.",
+                "Haben Sie Fragen zu Ihrer Behandlung?"
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "医療面接シミュレーション",
+              "auxiliaryPrompt": "患者との医療面接をドイツ語で実施",
+              "answer": "難しい医療状況での患者説明をドイツ語でロールプレイしてください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "医学的倫理"
+            },
+            {
+              "type": "text",
+              "content": "医療倫理と患者の権利について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-med-l3",
+          "title": "Lesson 3: Krankheitsbilder und Syndrome",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["疾病知識", "症候群", "臨床特徴"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "主要疾患の医学知識"
+            },
+            {
+              "type": "text",
+              "content": "心疾患、糖尿病、癌など、主要疾患と症候群の医学的説明をドイツ語で習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Herzinfarkt", "definition": "心筋梗塞"},
+                {"term": "Diabetes mellitus", "definition": "糖尿病"},
+                {"term": "Schlaganfall", "definition": "脳卒中"},
+                {"term": "Hypertonie", "definition": "高血圧"},
+                {"term": "Krebs", "definition": "癌"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "疾病表現",
+              "items": [
+                "Der Herzinfarkt ist eine lebensbedrohliche Notfallsituation.",
+                "Diabetes Typ II wird durch Lebensstil beeinflusst.",
+                "Die Früherkennung von Krebs verbessert die Überlebensrate."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "疾病管理プラン作成",
+              "auxiliaryPrompt": "患者の疾病管理計画をドイツ語で作成",
+              "answer": "糖尿病患者の長期管理計画をドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "予防医学"
+            },
+            {
+              "type": "text",
+              "content": "疾病予防とヘルスプロモーションについて学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-med-l4",
+          "title": "Lesson 4: Pharmakologie und Therapeutika",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["薬理学", "医薬品", "薬物療法"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "薬理学と医薬品"
+            },
+            {
+              "type": "text",
+              "content": "医薬品の作用機序、投与方法、副作用についての専門的なドイツ語表現を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Pharmakon", "definition": "医薬品"},
+                {"term": "Wirkstoff", "definition": "有効成分"},
+                {"term": "Dosierung", "definition": "投与量"},
+                {"term": "Nebenwirkung", "definition": "副作用"},
+                {"term": "Kontraindikation", "definition": "禁忌"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "薬学表現",
+              "items": [
+                "Das Medikament wirkt innerhalb von 30 Minuten.",
+                "Die Dosierung muss an die Nierenfunktion angepasst werden.",
+                "Dieses Medikament ist kontraindiziert bei Schwangerschaft."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "処方計画作成",
+              "auxiliaryPrompt": "患者の処方療法をドイツ語で説明",
+              "answer": "多剤療法患者の処方管理計画をドイツ語で作成してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "臨床薬学"
+            },
+            {
+              "type": "text",
+              "content": "薬物相互作用と個別化医療について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-med-l5",
+          "title": "Lesson 5: Chirurgie und Verfahren",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["手術", "処置", "医療技術"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "外科手術と医療処置"
+            },
+            {
+              "type": "text",
+              "content": "手術術式、医療処置、術前術後管理についての医学ドイツ語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Operation", "definition": "手術"},
+                {"term": "Anästhesie", "definition": "麻酔"},
+                {"term": "Instrument", "definition": "医療器具"},
+                {"term": "Blutung", "definition": "出血"},
+                {"term": "Naht", "definition": "縫合"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "外科表現",
+              "items": [
+                "Die Operation wird unter Vollnarkose durchgeführt.",
+                "Wir nutzen minimalinvasive Techniken wenn möglich.",
+                "Die Wunde wird mit absorbierbarem Fadenmaterial genäht."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "手術レポート作成",
+              "auxiliaryPrompt": "外科手術の記録をドイツ語で作成",
+              "answer": "腹部手術の詳細な手術記録をドイツ語で作成してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "医療リスク管理"
+            },
+            {
+              "type": "text",
+              "content": "合併症管理と患者安全について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-med-l6",
+          "title": "Lesson 6: Epidemiologie und öffentliche Gesundheit",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["疫学", "公衆衛生", "疾病予防"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "疫学と公衆衛生"
+            },
+            {
+              "type": "text",
+              "content": "疾病の流行、感染症対策、公衆衛生政策についての医学用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Epidemiologie", "definition": "疫学"},
+                {"term": "Pandemie", "definition": "パンデミック"},
+                {"term": "Infektionsrate", "definition": "感染率"},
+                {"term": "Prävalenz", "definition": "有病率"},
+                {"term": "Gesundheitspolitik", "definition": "保健政策"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "疫学表現",
+              "items": [
+                "Die Infektionsrate ist gesunken.",
+                "Impfprogramme reduzieren die Krankheitsinzidenz.",
+                "Wir führen epidemiologische Studien durch."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "疫学調査報告",
+              "auxiliaryPrompt": "感染症アウトブレイクの調査をドイツ語で報告",
+              "answer": "流行性疾患の疫学調査と対策をドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "医療システム"
+            },
+            {
+              "type": "text",
+              "content": "ドイツの医療制度と保健政策について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-med-l7",
+          "title": "Lesson 7: Medizinische Forschung und Statistik",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["医学研究", "統計分析", "臨床試験"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "医学研究と統計学"
+            },
+            {
+              "type": "text",
+              "content": "臨床試験、医学研究方法、統計分析についての高度な医学用語をドイツ語で習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Klinische Studie", "definition": "臨床試験"},
+                {"term": "Placebo", "definition": "プラセボ"},
+                {"term": "Signifikanz", "definition": "有意性"},
+                {"term": "Kohorte", "definition": "コホート"},
+                {"term": "Randomisierung", "definition": "無作為化"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "研究表現",
+              "items": [
+                "Die Studie umfasst 500 randomisierte Teilnehmer.",
+                "Die Ergebnisse sind statistisch signifikant.",
+                "Das Placebo-kontrollierte Design minimiert Bias."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "臨床試験デザイン",
+              "auxiliaryPrompt": "新しい治療法の臨床試験をドイツ語で設計",
+              "answer": "新薬の第III相臨床試験プロトコルをドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "医学的エビデンス"
+            },
+            {
+              "type": "text",
+              "content": "根拠に基づいた医療（EBM）について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-med-l8",
+          "title": "Lesson 8: Psychische Gesundheit und Psychiatrie",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["精神医学", "心理学", "メンタルヘルス"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "精神医学と心理治療"
+            },
+            {
+              "type": "text",
+              "content": "精神障害の診断、治療、心理療法についての医学用語をドイツ語で習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Depression", "definition": "抑うつ症"},
+                {"term": "Angststörung", "definition": "不安障害"},
+                {"term": "Psychotherapie", "definition": "精神療法"},
+                {"term": "Psychopharmaka", "definition": "向精神薬"},
+                {"term": "Trauma", "definition": "心的外傷"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "精神医学表現",
+              "items": [
+                "Die Diagnose ist Major Depression.",
+                "Psychotherapie ist die erste Behandlungslinie.",
+                "Das Medikament stabilisiert die Stimmung."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "精神健康ケースマネジメント",
+              "auxiliaryPrompt": "精神疾患患者の治療計画をドイツ語で作成",
+              "answer": "うつ病患者の包括的治療計画をドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "心理社会的支援"
+            },
+            {
+              "type": "text",
+              "content": "メンタルヘルスと社会支援について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-med-l9",
+          "title": "Lesson 9: Geriatrie und Langzeitpflege",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["高齢者医学", "長期ケア", "認知症"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "高齢者医療と長期ケア"
+            },
+            {
+              "type": "text",
+              "content": "高齢者患者の医学的管理、認知症、ケア施設の運営についての医学用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Geriatrie", "definition": "老年医学"},
+                {"term": "Demenz", "definition": "認知症"},
+                {"term": "Alterungsprozess", "definition": "加齢プロセス"},
+                {"term": "Pflegeheim", "definition": "介護施設"},
+                {"term": "Aktivitäten des täglichen Lebens", "definition": "日常生活動作"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "高齢者医学表現",
+              "items": [
+                "Der Patient hat frühe Stadien der Demenz.",
+                "Wir führen ein Sturzprävention-Programm durch.",
+                "Die Lebensqualität steht an erster Stelle."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "高齢者ケア計画",
+              "auxiliaryPrompt": "高齢患者の包括的ケア計画をドイツ語で作成",
+              "answer": "認知症患者の人格中心ケアプログラムをドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "終末期ケア"
+            },
+            {
+              "type": "text",
+              "content": "緩和ケアと人生の最期の医療について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-med-l10",
+          "title": "Lesson 10: Infektiologie und Antibiotikaresistenz",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["感染症", "抗生物質", "耐性菌"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "感染症と抗菌療法"
+            },
+            {
+              "type": "text",
+              "content": "感染症の診断、抗生物質使用、多剤耐性菌対策についての医学用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Infektion", "definition": "感染"},
+                {"term": "Antibiotikaresistenz", "definition": "抗生物質耐性"},
+                {"term": "Pathogen", "definition": "病原体"},
+                {"term": "Sepsis", "definition": "敗血症"},
+                {"term": "Impfstoff", "definition": "ワクチン"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "感染症表現",
+              "items": [
+                "Die Bakterien sind gegen Penicillin resistent.",
+                "Wir führen eine Kultur durch, um den Erreger zu identifizieren.",
+                "Das Breitspektrum-Antibiotikum wird eingesetzt."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "感染症管理プロトコル",
+              "auxiliaryPrompt": "病院内感染症対策をドイツ語で計画",
+              "answer": "多剤耐性菌への対策方針をドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "公衆衛生上の感染症対策"
+            },
+            {
+              "type": "text",
+              "content": "感染症の予防と集団感染対策について学びます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "field_id": "deu-news-001",
+      "field_name": "メディア・ニュース分野",
+      "field_name_en": "Media & News German",
+      "lesson_count": 10,
+      "lessons": [
+        {
+          "id": "deu-news-l1",
+          "title": "Lesson 1: Journalismus und Nachrichtenformate",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["ジャーナリズム基礎", "ニュース形式", "報道倫理"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ジャーナリズムの基本"
+            },
+            {
+              "type": "text",
+              "content": "ドイツの新聞、テレビ、オンラインメディアで使われるジャーナリズム用語とニュース文体を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Nachricht", "definition": "ニュース"},
+                {"term": "Bericht", "definition": "報道"},
+                {"term": "Meinung", "definition": "意見記事"},
+                {"term": "Quelle", "definition": "情報源"},
+                {"term": "Faktencheck", "definition": "ファクトチェック"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "ニュース表現",
+              "items": [
+                "Nach Angaben des Sprechers...",
+                "Eine unabhängige Quelle bestätigt...",
+                "Wir haben die Informationen überprüft."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "ニュース記事執筆",
+              "auxiliaryPrompt": "ドイツのニュース形式で記事を執筆",
+              "answer": "時事ニュースをドイツの新聞形式で執筆してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "メディアリテラシー"
+            },
+            {
+              "type": "text",
+              "content": "メディアバイアスと報道倫理について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-news-l2",
+          "title": "Lesson 2: Nachrichtenanalyse und Politikberichterstattung",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["政治報道", "分析報道", "インタビュー"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "政治ニュースの報道"
+            },
+            {
+              "type": "text",
+              "content": "ドイツの政治ニュース報道で必要な語彙と表現形式を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Bundestag", "definition": "ドイツ連邦議会"},
+                {"term": "Koalition", "definition": "連立"},
+                {"term": "Wahlkampf", "definition": "選挙キャンペーン"},
+                {"term": "Gesetzgebung", "definition": "立法"},
+                {"term": "Abstimmung", "definition": "投票"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "政治報道表現",
+              "items": [
+                "Die Koalitionsverhandlungen dauerten Wochen.",
+                "Das Gesetz wurde vom Bundestag verabschiedet.",
+                "Die Opposition kritisiert die Regierungspolitik."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "政治分析記事",
+              "auxiliaryPrompt": "ドイツの政治情勢を分析して記事を作成",
+              "answer": "ドイツの最新の政治的展開をドイツ語で分析記事として書いてください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "データジャーナリズム"
+            },
+            {
+              "type": "text",
+              "content": "統計データを使用したニュース報道を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-news-l3",
+          "title": "Lesson 3: Wirtschafts- und Finanznachrichten",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["ビジネスニュース", "経済分析", "マーケット報道"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "経済ニュース報道"
+            },
+            {
+              "type": "text",
+              "content": "経済ニュース、株式市場報道、企業ニュースに特化したドイツ語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Börse", "definition": "株式市場"},
+                {"term": "Aktie", "definition": "株式"},
+                {"term": "Gewinn", "definition": "利益"},
+                {"term": "Bankrott", "definition": "破産"},
+                {"term": "Fusionmeldung", "definition": "M&Aニュース"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "経済報道表現",
+              "items": [
+                "Der DAX ist um 2% gestiegen.",
+                "Das Unternehmen meldete Rekordgewinne.",
+                "Die Arbeitslosenquote ist gesunken."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "経済分析記事",
+              "auxiliaryPrompt": "ビジネスニュースをドイツ語で分析・報道",
+              "answer": "大企業の四半期決算をドイツ語で分析報道してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "マーケット分析"
+            },
+            {
+              "type": "text",
+              "content": "金融市場と経済トレンドについて学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-news-l4",
+          "title": "Lesson 4: Wissenschafts- und Umweltjournalismus",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["科学報道", "環境ニュース", "気候報道"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "科学と環境のニュース"
+            },
+            {
+              "type": "text",
+              "content": "科学的発見、環境問題、気候変動に関するニュース報道用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Forschung", "definition": "研究"},
+                {"term": "Klimawandel", "definition": "気候変動"},
+                {"term": "Energiewende", "definition": "エネルギー転換"},
+                {"term": "Artensterben", "definition": "種の絶滅"},
+                {"term": "Studie", "definition": "研究論文"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "科学ニュース表現",
+              "items": [
+                "Forscher entdecken neue Behandlungsmethode.",
+                "Die CO2-Emissionen müssen reduziert werden.",
+                "Eine Studie zeigt alarmierte Ergebnisse."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "科学ニュース記事",
+              "auxiliaryPrompt": "科学的発見をドイツ語で報道する記事を執筆",
+              "answer": "気候変動研究の最新成果をドイツ語で報道してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "科学コミュニケーション"
+            },
+            {
+              "type": "text",
+              "content": "複雑な科学的概念を一般向けに説明する方法を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-news-l5",
+          "title": "Lesson 5: Sportjournalismus und Ereignisberichterstattung",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["スポーツ報道", "イベント報道", "ライブレポート"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "スポーツニュース"
+            },
+            {
+              "type": "text",
+              "content": "スポーツイベント、競技、選手についてのニュース報道用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Fußball", "definition": "サッカー"},
+                {"term": "Tor", "definition": "ゴール"},
+                {"term": "Meisterschaft", "definition": "選手権"},
+                {"term": "Athlet", "definition": "アスリート"},
+                {"term": "Statistik", "definition": "統計"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "スポーツ報道表現",
+              "items": [
+                "Bayern München gewinnt mit 3:2.",
+                "Der Weltmeister behält seinen Titel.",
+                "Die Mannschaft spielte hervorragend."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "スポーツ試合報告",
+              "auxiliaryPrompt": "スポーツイベントをドイツ語で実況・報告",
+              "answer": "ドイツの有名なスポーツイベントをドイツ語で生中継レポートしてください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "インタビュー技法"
+            },
+            {
+              "type": "text",
+              "content": "選手やコーチへのインタビューテクニックを学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-news-l6",
+          "title": "Lesson 6: Kulturjournalismus und Kunstkritik",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["文化報道", "芸術批評", "イベント評"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "文化とアート報道"
+            },
+            {
+              "type": "text",
+              "content": "映画、音楽、演劇、美術についてのニュース報道と批評用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Aufführung", "definition": "公演"},
+                {"term": "Ausstellung", "definition": "展示"},
+                {"term": "Künstler", "definition": "アーティスト"},
+                {"term": "Kritik", "definition": "批評"},
+                {"term": "Meisterwerk", "definition": "傑作"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "文化報道表現",
+              "items": [
+                "Die Premiere war ein großer Erfolg.",
+                "Der Film wurde hochgelobt.",
+                "Die Ausstellung zieht Millionen von Besuchern an."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "芸術批評記事",
+              "auxiliaryPrompt": "文化イベントをドイツ語で批評記事として執筆",
+              "answer": "ドイツの演劇公演をドイツ語で芸術批評として書いてください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ポップカルチャー報道"
+            },
+            {
+              "type": "text",
+              "content": "現代の大衆文化トレンドについて学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-news-l7",
+          "title": "Lesson 7: Investigativer Journalismus",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["調査報道", "事実確認", "深掘り報道"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "調査報道とファクトチェック"
+            },
+            {
+              "type": "text",
+              "content": "深い調査報道に必要な用語と方法論、フェイクニュース対策について学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Recherche", "definition": "取材・調査"},
+                {"term": "Skandal", "definition": "スキャンダル"},
+                {"term": "Enthüllung", "definition": "暴露"},
+                {"term": "Korruption", "definition": "汚職"},
+                {"term": "Geheimnis", "definition": "機密"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "調査報道表現",
+              "items": [
+                "Unsere Recherche hat ergeben...",
+                "Das Dokument beweist Unregelmäßigkeiten.",
+                "Wir haben mehrere Quellen überprüft."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "調査報道プロジェクト",
+              "auxiliaryPrompt": "複雑な事件をドイツ語で調査報道として展開",
+              "answer": "企業の不法行為をドイツ語で調査報道として完全に説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "倫理的問題"
+            },
+            {
+              "type": "text",
+              "content": "調査報道での倫理的ジレンマとプライバシー保護を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-news-l8",
+          "title": "Lesson 8: Soziale Medien und Digital News",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["デジタルメディア", "SNS", "ウェブニュース"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "デジタル時代のニュース配信"
+            },
+            {
+              "type": "text",
+              "content": "ソーシャルメディア、ニュースサイト、デジタル配信に関するメディア用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Social Media", "definition": "ソーシャルメディア"},
+                {"term": "viral", "definition": "バイラル"},
+                {"term": "Hashtag", "definition": "ハッシュタグ"},
+                {"term": "Online-Zeitung", "definition": "オンラインニュースサイト"},
+                {"term": "Push-Benachrichtigung", "definition": "プッシュ通知"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "デジタルメディア表現",
+              "items": [
+                "Die Geschichte wurde viral auf Twitter.",
+                "Der Artikel erhielt Millionen von Aufrufe.",
+                "Die App sendet Echtzeit-Benachrichtigungen."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "デジタルキャンペーン",
+              "auxiliaryPrompt": "ニュースのソーシャルメディア配信戦略をドイツ語で計画",
+              "answer": "オンラインメディアの編集戦略をドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "フェイクニュース対策"
+            },
+            {
+              "type": "text",
+              "content": "デジタル時代の情報操作と対抗戦略について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-news-l9",
+          "title": "Lesson 9: Interview- und Gesprächstechniken",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["インタビュー技法", "対話スキル", "質問設計"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ジャーナリストのインタビュースキル"
+            },
+            {
+              "type": "text",
+              "content": "効果的なインタビュー方法、質問技法、情報源との関係構築を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Interview", "definition": "インタビュー"},
+                {"term": "Befragung", "definition": "質問・聞き取り"},
+                {"term": "Antwort", "definition": "回答"},
+                {"term": "off the record", "definition": "オフレコ"},
+                {"term": "Zitat", "definition": "引用"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "インタビュー表現",
+              "items": [
+                "Das Interview soll 30 Minuten dauern.",
+                "Können Sie das Zitat überprüfen?",
+                "Diese Information ist off the record."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "インタビュー実施",
+              "auxiliaryPrompt": "有名人へのインタビューをドイツ語で実施・記事化",
+              "answer": "政治家へのインタビューをドイツ語で実施し、記事として完成させてください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "倫理的インタビュー"
+            },
+            {
+              "type": "text",
+              "content": "情報源保護と倫理的なインタビュー実践を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-news-l10",
+          "title": "Lesson 10: Redaktion und Nachrichtenmanagement",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["編集作業", "ニュースマネジメント", "メディア企画"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "編集部での業務と企画"
+            },
+            {
+              "type": "text",
+              "content": "メディア企業での編集業務、ニュース企画、記事管理プロセスについて学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Redaktion", "definition": "編集部"},
+                {"term": "Ressortleiter", "definition": "部門長"},
+                {"term": "Deadline", "definition": "締め切り"},
+                {"term": "Aufmacher", "definition": "トップ記事"},
+                {"term": "Layout", "definition": "レイアウト"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "編集表現",
+              "items": [
+                "Die Konferenz beginnt um 10 Uhr.",
+                "Der Aufmacher wird übermorgen veröffentlicht.",
+                "Wir müssen die Deadline einhalten."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "ニュース企画会議",
+              "auxiliaryPrompt": "メディア企画会議の進行をドイツ語で実施",
+              "answer": "週間ニュース企画会議をドイツ語で運営し、企画案を提示してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "メディア経営"
+            },
+            {
+              "type": "text",
+              "content": "メディア企業の経営戦略と事業方針について学びます。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+=== CURRENT IMPORTS IN courses.ts ===
+import { Category } from '@/types';
+import { engSpecialized, countryUSA } from './specialized-content';
+
+=== NEEDED ADDITIONS ===
+The following specialized content files exist but are not yet integrated:
+
+1. Chinese 65 Specialized (chinese-65-specialized.ts)
+   - Export: Chinese65Specialized or similar
+   - Status: File exists with proper structure
+
+2. French 65 Specialized (french-specialized-65.json)
+   - Status: JSON format - needs conversion or direct import
+
+3. Arabic 65 Specialized (arabic-specialized-65-lessons.json)
+   - Status: JSON format - needs conversion
+
+4. Portuguese Specialized (portuguese-specialized.json, portuguese-specialized-2.json)
+   - Status: JSON format - needs consolidation
+
+5. Sign Language Specialized (sign-language-specialized.ts, sign-language-specialized-65.json)
+   - Status: Both .ts and .json - need unified import
+
+=== MISSING LANGUAGES (6/12) ===
+Not yet implemented:
+- Spanish (Spanish-65)
+- Russian (Russian-65)
+- Italian (Italian-65)
+- German (German-65)
+- Japanese (Japanese-65) - note: different from jpn base courses
+- Korean Country Specialized (different from kor base courses)
+
+=== COUNTRY PROFILES ===
+Implemented:
+- USA (countryUSA in specialized-content.ts)
+
+Additional files found:
+- Korea (korea-country-profile.json)
+
+Missing:
+- Japan, Germany, France, Spain, Russia, Italy, Brazil, Portugal, Arab States, China, UK/Ireland

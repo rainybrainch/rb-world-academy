@@ -1,0 +1,444 @@
+{
+  "specializedLessons": [
+    {
+      "id": "por-tech-1",
+      "title": "Lesson 1: Fundamentals de Programação",
+      "duration": "11:00",
+      "field": "technology",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Conceitos Básicos de Código"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda terminologia fundamental de programação em português."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Código", "definition": "コード" },
+            { "term": "Variável", "definition": "変数" },
+            { "term": "Função", "definition": "関数" },
+            { "term": "Loop", "definition": "ループ" },
+            { "term": "Condicional", "definition": "条件分岐" },
+            { "term": "Array", "definition": "配列" },
+            { "term": "Algoritmo", "definition": "アルゴリズム" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Exemplos de Código",
+          "items": [
+            "Variável: int idade = 25;",
+            "Loop: for (i = 0; i < 10; i++)",
+            "Função: function calcular(a, b) {}"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Escreva Código Simples",
+          "auxiliaryPrompt": "Crie um programa básico",
+          "answer": "Escreva código em pseudocódigo português."
+        }
+      ]
+    },
+    {
+      "id": "por-tech-2",
+      "title": "Lesson 2: Linguagens de Programação",
+      "duration": "11:00",
+      "field": "technology",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Principais Linguagens"
+        },
+        {
+          "type": "text",
+          "content": "Explore linguagens populares: Python, JavaScript, Java e C++."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Python", "definition": "Python" },
+            { "term": "JavaScript", "definition": "JavaScript" },
+            { "term": "Compilador", "definition": "コンパイラ" },
+            { "term": "Interpretador", "definition": "インタプリタ" },
+            { "term": "Sintaxe", "definition": "構文" },
+            { "term": "Biblioteca", "definition": "ライブラリ" },
+            { "term": "Estrutura de dados", "definition": "データ構造" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Comparação de Linguagens",
+          "items": [
+            "Python: legível e simples",
+            "JavaScript: para web",
+            "Java: multiplataforma"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Escolher Linguagem",
+          "auxiliaryPrompt": "Selecione linguagem para projeto",
+          "answer": "Justifique escolha de linguagem."
+        }
+      ]
+    },
+    {
+      "id": "por-tech-3",
+      "title": "Lesson 3: Desenvolvimento Web",
+      "duration": "11:00",
+      "field": "technology",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Frontend e Backend"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda arquitetura web e tecnologias essenciais."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Frontend", "definition": "フロントエンド" },
+            { "term": "Backend", "definition": "バックエンド" },
+            { "term": "HTML", "definition": "HTML" },
+            { "term": "CSS", "definition": "CSS" },
+            { "term": "API", "definition": "API" },
+            { "term": "Banco de dados", "definition": "データベース" },
+            { "term": "Servidor", "definition": "サーバー" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Stack Web Comum",
+          "items": [
+            "Frontend: HTML, CSS, JavaScript",
+            "Backend: Python/Node.js",
+            "Banco de dados: SQL/NoSQL"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Arquitetar Aplicação",
+          "auxiliaryPrompt": "Designe estrutura web",
+          "answer": "Descreva stack para aplicação específica."
+        }
+      ]
+    },
+    {
+      "id": "por-tech-4",
+      "title": "Lesson 4: Bancos de Dados",
+      "duration": "11:00",
+      "field": "technology",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "SQL e NoSQL"
+        },
+        {
+          "type": "text",
+          "content": "Domina conceitos de gerenciamento de dados."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "SQL", "definition": "SQL" },
+            { "term": "Tabela", "definition": "テーブル" },
+            { "term": "Query", "definition": "クエリ" },
+            { "term": "Índice", "definition": "インデックス" },
+            { "term": "Backup", "definition": "バックアップ" },
+            { "term": "Normalização", "definition": "正規化" },
+            { "term": "Replicação", "definition": "レプリケーション" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Exemplos de Query",
+          "items": [
+            "SELECT * FROM usuarios WHERE idade > 18;",
+            "INSERT INTO produtos VALUES (...);",
+            "CREATE TABLE clientes (id, nome, email);"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Escrever Queries",
+          "auxiliaryPrompt": "Crie consultas de banco",
+          "answer": "Escreva 5 queries SQL diferentes."
+        }
+      ]
+    },
+    {
+      "id": "por-tech-5",
+      "title": "Lesson 5: Cibersegurança",
+      "duration": "11:00",
+      "field": "technology",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Proteção e Segurança de Dados"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda conceitos fundamentais de segurança digital."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Criptografia", "definition": "暗号化" },
+            { "term": "Firewall", "definition": "ファイアウォール" },
+            { "term": "Autenticação", "definition": "認証" },
+            { "term": "Autorização", "definition": "認可" },
+            { "term": "Ransomware", "definition": "ランサムウェア" },
+            { "term": "Phishing", "definition": "フィッシング" },
+            { "term": "Vulnerabilidade", "definition": "脆弱性" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Boas Práticas",
+          "items": [
+            "Senhas fortes com combinação de caracteres",
+            "Autenticação de dois fatores",
+            "Atualizações de segurança regulares"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise de Segurança",
+          "auxiliaryPrompt": "Identifique riscos de segurança",
+          "answer": "Proponha medidas de proteção."
+        }
+      ]
+    },
+    {
+      "id": "por-tech-6",
+      "title": "Lesson 6: Cloud Computing",
+      "duration": "11:00",
+      "field": "technology",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Serviços em Nuvem"
+        },
+        {
+          "type": "text",
+          "content": "Explore plataformas cloud: AWS, Azure e Google Cloud."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "IaaS", "definition": "Infrastructure as a Service" },
+            { "term": "PaaS", "definition": "Platform as a Service" },
+            { "term": "SaaS", "definition": "Software as a Service" },
+            { "term": "Instância", "definition": "インスタンス" },
+            { "term": "Armazenamento", "definition": "ストレージ" },
+            { "term": "Escalabilidade", "definition": "スケーラビリティ" },
+            { "term": "Redundância", "definition": "冗長性" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Modelo de Nuvem",
+          "items": [
+            "IaaS: controle completo de infraestrutura",
+            "PaaS: foco em desenvolvimento",
+            "SaaS: acesso instantâneo a aplicação"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Arquitetar na Nuvem",
+          "auxiliaryPrompt": "Designe infraestrutura cloud",
+          "answer": "Explique escolha de serviço cloud."
+        }
+      ]
+    },
+    {
+      "id": "por-tech-7",
+      "title": "Lesson 7: Inteligência Artificial",
+      "duration": "11:00",
+      "field": "technology",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Machine Learning e IA"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda conceitos de IA, ML e deep learning."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Machine Learning", "definition": "機械学習" },
+            { "term": "Deep Learning", "definition": "深層学習" },
+            { "term": "Neural network", "definition": "ニューラルネットワーク" },
+            { "term": "Algoritmo", "definition": "アルゴリズム" },
+            { "term": "Treinamento", "definition": "トレーニング" },
+            { "term": "Modelo", "definition": "モデル" },
+            { "term": "Acurácia", "definition": "精度" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Aplicações de IA",
+          "items": [
+            "Reconhecimento de imagem",
+            "Processamento de linguagem natural",
+            "Previsão de dados"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Problema de ML",
+          "auxiliaryPrompt": "Aplique ML a problema real",
+          "answer": "Proponha solução usando machine learning."
+        }
+      ]
+    },
+    {
+      "id": "por-tech-8",
+      "title": "Lesson 8: DevOps e CI/CD",
+      "duration": "11:00",
+      "field": "technology",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Integração e Entrega Contínua"
+        },
+        {
+          "type": "text",
+          "content": "Domine práticas modernas de desenvolvimento e deployment."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "CI/CD", "definition": "継続的統合・継続的配信" },
+            { "term": "Pipeline", "definition": "パイプライン" },
+            { "term": "Deploy", "definition": "デプロイ" },
+            { "term": "Git", "definition": "Git" },
+            { "term": "Docker", "definition": "Docker" },
+            { "term": "Kubernetes", "definition": "Kubernetes" },
+            { "term": "Monitoramento", "definition": "モニタリング" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Fluxo de CI/CD",
+          "items": [
+            "Commit → Build → Test → Deploy",
+            "Automação de testes e deploy",
+            "Monitoramento em produção"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Configurar Pipeline",
+          "auxiliaryPrompt": "Designe CI/CD pipeline",
+          "answer": "Descreva estágios de automação."
+        }
+      ]
+    },
+    {
+      "id": "por-tech-9",
+      "title": "Lesson 9: Blockchain e Criptografia",
+      "duration": "11:00",
+      "field": "technology",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Tecnologias Emergentes"
+        },
+        {
+          "type": "text",
+          "content": "Explore blockchain, criptografia e segurança moderna."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Blockchain", "definition": "ブロックチェーン" },
+            { "term": "Criptografia assimétrica", "definition": "非対称暗号化" },
+            { "term": "Hash", "definition": "ハッシュ" },
+            { "term": "Smart contract", "definition": "スマートコントラクト" },
+            { "term": "Token", "definition": "トークン" },
+            { "term": "Consenso", "definition": "コンセンサス" },
+            { "term": "Bitcoin", "definition": "ビットコイン" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Aplicações",
+          "items": [
+            "Bitcoin e criptomoedas",
+            "Contratos inteligentes",
+            "Rastreabilidade e autenticidade"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Caso de Uso Blockchain",
+          "auxiliaryPrompt": "Identifique aplicação blockchain",
+          "answer": "Proponha solução com blockchain."
+        }
+      ]
+    },
+    {
+      "id": "por-tech-10",
+      "title": "Lesson 10: Comunicação Digital",
+      "duration": "11:00",
+      "field": "technology",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Protocolos e Infraestrutura"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda redes, protocolos e comunicação digital."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "IP (Internet Protocol)", "definition": "インターネットプロトコル" },
+            { "term": "TCP/UDP", "definition": "TCP/UDP" },
+            { "term": "DNS", "definition": "ドメインネームシステム" },
+            { "term": "WiFi", "definition": "WiFi" },
+            { "term": "5G", "definition": "5G" },
+            { "term": "Latência", "definition": "レイテンシー" },
+            { "term": "Bandwidth", "definition": "帯域幅" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Camadas de Rede",
+          "items": [
+            "Camada física: cabos, WiFi",
+            "Camada de dados: IP",
+            "Camada de aplicação: HTTP, Email"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Diagrama de Rede",
+          "auxiliaryPrompt": "Desenhe arquitetura de rede",
+          "answer": "Descreva componentes e protocolos."
+        }
+      ]
+    }
+  ]
+}

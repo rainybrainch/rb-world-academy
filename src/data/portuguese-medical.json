@@ -1,0 +1,444 @@
+{
+  "specializedLessons": [
+    {
+      "id": "por-med-1",
+      "title": "Lesson 1: Anatomia e Fisiologia",
+      "duration": "12:00",
+      "field": "medical",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Sistemas do Corpo Humano"
+        },
+        {
+          "type": "text",
+          "content": "Estude a estrutura e função dos sistemas corporais em português técnico."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Coração", "definition": "心臓" },
+            { "term": "Pulmões", "definition": "肺" },
+            { "term": "Cérebro", "definition": "脳" },
+            { "term": "Fígado", "definition": "肝臓" },
+            { "term": "Rim", "definition": "腎臓" },
+            { "term": "Estômago", "definition": "胃" },
+            { "term": "Circulação", "definition": "循環" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Funções Principais",
+          "items": [
+            "Sistema circulatório transporta sangue",
+            "Sistema respiratório troca gases",
+            "Sistema digestivo processa alimento"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise de Sistema",
+          "auxiliaryPrompt": "Descreva funcionamento de órgão",
+          "answer": "Explique patologia de órgão específico."
+        }
+      ]
+    },
+    {
+      "id": "por-med-2",
+      "title": "Lesson 2: Farmacologia",
+      "duration": "12:00",
+      "field": "medical",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Medicamentos e Fármacos"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda terminologia de farmacologia e classes de medicamentos."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Fármaco", "definition": "薬物" },
+            { "term": "Medicamento", "definition": "医薬品" },
+            { "term": "Prescrição", "definition": "処方箋" },
+            { "term": "Dose", "definition": "用量" },
+            { "term": "Efeito colateral", "definition": "副作用" },
+            { "term": "Antibiótico", "definition": "抗生物質" },
+            { "term": "Anti-inflamatório", "definition": "抗炎症" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Classes de Medicamentos",
+          "items": [
+            "Antibióticos: infecções bacterianas",
+            "Anti-inflamatórios: inflamação",
+            "Antihipertensivos: pressão alta"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Prescrição Adequada",
+          "auxiliaryPrompt": "Recomende medicação apropriada",
+          "answer": "Justifique escolha de fármaco."
+        }
+      ]
+    },
+    {
+      "id": "por-med-3",
+      "title": "Lesson 3: Patologia",
+      "duration": "12:00",
+      "field": "medical",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Doenças e Condições"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda nomenclatura médica de doenças e condições clínicas."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Inflamação", "definition": "炎症" },
+            { "term": "Infecção", "definition": "感染" },
+            { "term": "Lesão", "definition": "損傷" },
+            { "term": "Tumor", "definition": "腫瘍" },
+            { "term": "Degeneração", "definition": "変性" },
+            { "term": "Artrose", "definition": "骨関節炎" },
+            { "term": "Diabetes", "definition": "糖尿病" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Exemplos de Patologias",
+          "items": [
+            "Artrite: inflamação das articulações",
+            "Diabetes: distúrbio metabólico",
+            "Hipertensão: pressão arterial elevada"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Diagnóstico Diferencial",
+          "auxiliaryPrompt": "Identifique possível doença",
+          "answer": "Sugira testes diagnósticos."
+        }
+      ]
+    },
+    {
+      "id": "por-med-4",
+      "title": "Lesson 4: Procedimentos Médicos",
+      "duration": "12:00",
+      "field": "medical",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Técnicas e Cirurgias"
+        },
+        {
+          "type": "text",
+          "content": "Domina terminologia de procedimentos cirúrgicos e diagnósticos."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Cirurgia", "definition": "外科手術" },
+            { "term": "Biópsia", "definition": "生検" },
+            { "term": "Endoscopia", "definition": "内視鏡検査" },
+            { "term": "Ultrassom", "definition": "超音波" },
+            { "term": "Ressonância magnética", "definition": "MRI" },
+            { "term": "Anestesia", "definition": "麻酔" },
+            { "term": "Sutura", "definition": "縫合" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Procedimentos Comuns",
+          "items": [
+            "Endoscopia: diagnóstico do trato GI",
+            "Biópsia: análise de tecido",
+            "Ultrassom: imagem não invasiva"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Planejamento Cirúrgico",
+          "auxiliaryPrompt": "Prepare plano operatório",
+          "answer": "Descreva etapas de cirurgia."
+        }
+      ]
+    },
+    {
+      "id": "por-med-5",
+      "title": "Lesson 5: Psiquiatria e Neurologia",
+      "duration": "12:00",
+      "field": "medical",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Distúrbios Neuropsiquiátricos"
+        },
+        {
+          "type": "text",
+          "content": "Explore terminologia de neurologia, psiquiatria e saúde mental."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Depressão", "definition": "うつ病" },
+            { "term": "Ansiedade", "definition": "不安障害" },
+            { "term": "Psicose", "definition": "精神病" },
+            { "term": "Neurose", "definition": "神経症" },
+            { "term": "Mania", "definition": "躁病" },
+            { "term": "Delírio", "definition": "譫妄" },
+            { "term": "Alucinação", "definition": "幻覚" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Condições Psiquiátricas",
+          "items": [
+            "Transtorno bipolar: oscilação de humor",
+            "Transtorno do pânico: ataques de pânico",
+            "Esquizofrenia: fragmentação cognitiva"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Avaliação Psiquiátrica",
+          "auxiliaryPrompt": "Avalie saúde mental de paciente",
+          "answer": "Recomende plano de tratamento."
+        }
+      ]
+    },
+    {
+      "id": "por-med-6",
+      "title": "Lesson 6: Epidemiologia",
+      "duration": "12:00",
+      "field": "medical",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Saúde Pública e Epidemiologia"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda conceitos de epidemiologia e saúde coletiva."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Epidemia", "definition": "疫病" },
+            { "term": "Pandemia", "definition": "パンデミック" },
+            { "term": "Prevalência", "definition": "有病率" },
+            { "term": "Incidência", "definition": "発生率" },
+            { "term": "Vetor", "definition": "ベクター" },
+            { "term": "Imunização", "definition": "予防接種" },
+            { "term": "Quarentena", "definition": "隔離" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Medidas Epidemiológicas",
+          "items": [
+            "Prevalência: % de casos em população",
+            "Incidência: novos casos por período",
+            "Vacinação: estratégia de prevenção"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise Epidemiológica",
+          "auxiliaryPrompt": "Analise surto de doença",
+          "answer": "Proponha medidas de controle."
+        }
+      ]
+    },
+    {
+      "id": "por-med-7",
+      "title": "Lesson 7: Oncologia",
+      "duration": "12:00",
+      "field": "medical",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Câncer e Oncologia"
+        },
+        {
+          "type": "text",
+          "content": "Domina terminologia de oncologia e tratamento do câncer."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Carcinoma", "definition": "癌腫" },
+            { "term": "Melanoma", "definition": "メラノーマ" },
+            { "term": "Metástase", "definition": "転移" },
+            { "term": "Quimioterapia", "definition": "化学療法" },
+            { "term": "Radioterapia", "definition": "放射線療法" },
+            { "term": "Imunoterapia", "definition": "免疫療法" },
+            { "term": "Remissão", "definition": "寛解" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Tipos de Câncer",
+          "items": [
+            "Carcinomas: origem em células epiteliais",
+            "Sarcomas: origem em tecido conjuntivo",
+            "Leucemias: origem em sangue"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Plano de Tratamento",
+          "auxiliaryPrompt": "Desenvolva protocolo oncológico",
+          "answer": "Recomende terapia combinada."
+        }
+      ]
+    },
+    {
+      "id": "por-med-8",
+      "title": "Lesson 8: Cardiologia",
+      "duration": "12:00",
+      "field": "medical",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Doenças Cardiovasculares"
+        },
+        {
+          "type": "text",
+          "content": "Explore cardiologia e doenças do coração."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Infarto", "definition": "心筋梗塞" },
+            { "term": "Angina", "definition": "狭心症" },
+            { "term": "Arritmia", "definition": "不整脈" },
+            { "term": "Hipertensão", "definition": "高血圧" },
+            { "term": "Colesterol", "definition": "コレステロール" },
+            { "term": "Cateterismo", "definition": "カテーテル検査" },
+            { "term": "Stent", "definition": "ステント" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Condições Cardíacas",
+          "items": [
+            "Infarto: morte do tecido cardíaco",
+            "Arritmia: batimento irregular",
+            "Hipertensão: risco cardiovascular"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Manejo de Cardiopatia",
+          "auxiliaryPrompt": "Trate doença cardíaca aguda",
+          "answer": "Descreva protocolos de emergência."
+        }
+      ]
+    },
+    {
+      "id": "por-med-9",
+      "title": "Lesson 9: Genética Médica",
+      "duration": "12:00",
+      "field": "medical",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Herança e Doenças Genéticas"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda genética médica e doenças hereditárias."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Gene", "definition": "遺伝子" },
+            { "term": "Cromossomo", "definition": "染色体" },
+            { "term": "Mutação", "definition": "突然変異" },
+            { "term": "Herança", "definition": "遺伝" },
+            { "term": "Dominante", "definition": "優性" },
+            { "term": "Recessivo", "definition": "劣性" },
+            { "term": "DNA", "definition": "DNA" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Doenças Genéticas",
+          "items": [
+            "Hemofilia: herança recessiva ligada ao X",
+            "Fibrose cística: autossômica recessiva",
+            "Doença de Huntington: autossômica dominante"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise Genética",
+          "auxiliaryPrompt": "Diagnostique doença hereditária",
+          "answer": "Recomende aconselhamento genético."
+        }
+      ]
+    },
+    {
+      "id": "por-med-10",
+      "title": "Lesson 10: Saúde da Mulher",
+      "duration": "12:00",
+      "field": "medical",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Ginecologia e Obstetrícia"
+        },
+        {
+          "type": "text",
+          "content": "Estude saúde reprodutiva e obstetrícia."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Gravidez", "definition": "妊娠" },
+            { "term": "Parto", "definition": "出産" },
+            { "term": "Cesariana", "definition": "帝王切開" },
+            { "term": "Menstruação", "definition": "月経" },
+            { "term": "Menopausa", "definition": "更年期" },
+            { "term": "Câncer cervical", "definition": "子宮頸がん" },
+            { "term": "Pré-eclâmpsia", "definition": "妊娠高血圧症" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Cuidados Obstétricos",
+          "items": [
+            "Pré-natal: acompanhamento da gravidez",
+            "Parto: vias natural ou cesariana",
+            "Pós-parto: complicações e cuidados"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Monitoramento Gestacional",
+          "auxiliaryPrompt": "Acompanhe gestação com riscos",
+          "answer": "Recomende intervenções necessárias."
+        }
+      ]
+    }
+  ]
+}

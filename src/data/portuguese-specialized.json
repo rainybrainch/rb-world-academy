@@ -1,0 +1,864 @@
+{
+  "specializedLessons": [
+    {
+      "id": "por-biz-1",
+      "title": "Lesson 1: Terminologia Empresarial Básica",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Vocabulário Corporativo Essencial"
+        },
+        {
+          "type": "text",
+          "content": "Domine os termos fundamentais usados em ambientes empresariais portugueses e brasileiros. Estes termos são essenciais para negociações, reuniões e comunicações profissionais."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Empresa", "definition": "会社" },
+            { "term": "Negócio", "definition": "ビジネス" },
+            { "term": "Setor", "definition": "部門" },
+            { "term": "Lucro", "definition": "利益" },
+            { "term": "Prejuízo", "definition": "損失" },
+            { "term": "Orçamento", "definition": "予算" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Exemplos de Uso",
+          "items": [
+            "A empresa está em expansão.",
+            "Nosso setor é tecnologia.",
+            "O orçamento foi aprovado."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Contexto Empresarial",
+          "auxiliaryPrompt": "Use 5 termos corporativos em frases",
+          "answer": "Descreva sua empresa usando terminologia profissional."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-2",
+      "title": "Lesson 2: Reuniões e Comunicação Profissional",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Expressões para Reuniões de Negócios"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda frases e expressões usadas em reuniões profissionais, apresentações e discussões de negócios."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Pautar", "definition": "議題に入れる" },
+            { "term": "Agendar", "definition": "予定を立てる" },
+            { "term": "Relatar", "definition": "報告する" },
+            { "term": "Propor", "definition": "提案する" },
+            { "term": "Acordar", "definition": "合意する" },
+            { "term": "Adiar", "definition": "延期する" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Frases Práticas",
+          "items": [
+            "Vamos pautar este assunto na próxima reunião.",
+            "Preciso relatar os resultados do trimestre.",
+            "Proponho que adiarmos esta decisão."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Diálogo de Reunião",
+          "auxiliaryPrompt": "Crie um diálogo de reunião profissional",
+          "answer": "Escreva uma conversa entre 2 profissionais em uma reunião."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-3",
+      "title": "Lesson 3: Contratos e Documentação Legal",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Linguagem Jurídica Comercial"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda a terminologia usada em contratos comerciais, acordos e documentação legal."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Contrato", "definition": "契約書" },
+            { "term": "Cláusula", "definition": "条項" },
+            { "term": "Assinatura", "definition": "署名" },
+            { "term": "Confidencialidade", "definition": "機密性" },
+            { "term": "Responsabilidade", "definition": "責任" },
+            { "term": "Vigência", "definition": "有効期間" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Termos de Contrato",
+          "items": [
+            "O contrato é válido por 12 meses.",
+            "Existe uma cláusula de confidencialidade.",
+            "As partes assinaram o acordo."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise de Contrato",
+          "auxiliaryPrompt": "Identifique termos legais em documentos",
+          "answer": "Escreva as principais cláusulas de um contrato comercial."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-4",
+      "title": "Lesson 4: Marketing e Publicidade",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Terminologia de Marketing"
+        },
+        {
+          "type": "text",
+          "content": "Domina os termos usados em estratégias de marketing, publicidade e branding no mercado lusófono."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Campanha", "definition": "キャンペーン" },
+            { "term": "Público-alvo", "definition": "ターゲット層" },
+            { "term": "Marca", "definition": "ブランド" },
+            { "term": "Estratégia", "definition": "戦略" },
+            { "term": "Anúncio", "definition": "広告" },
+            { "term": "ROI", "definition": "投資収益率" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Estratégias de Marketing",
+          "items": [
+            "Nossa campanha visa jovens adultos.",
+            "A marca é conhecida por qualidade.",
+            "O ROI foi de 300% neste trimestre."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Proposta de Campanha",
+          "auxiliaryPrompt": "Desenvolva uma campanha de marketing",
+          "answer": "Descreva uma estratégia de marketing para um produto."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-5",
+      "title": "Lesson 5: Finanças e Contabilidade",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Terminologia Financeira"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda a linguagem usada em finanças corporativas, investimentos e relatórios financeiros."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Demonstração financeira", "definition": "財務諸表" },
+            { "term": "Ativo", "definition": "資産" },
+            { "term": "Passivo", "definition": "負債" },
+            { "term": "Fluxo de caixa", "definition": "キャッシュフロー" },
+            { "term": "Dividendo", "definition": "配当金" },
+            { "term": "Auditoria", "definition": "監査" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Conceitos Financeiros",
+          "items": [
+            "O ativo total aumentou 20%.",
+            "O fluxo de caixa foi positivo.",
+            "A auditoria confirmou os números."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise Financeira",
+          "auxiliaryPrompt": "Analise demonstrações financeiras",
+          "answer": "Interprete um balanço patrimonial simples."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-6",
+      "title": "Lesson 6: Recursos Humanos",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Vocabulário de RH e Gestão de Pessoas"
+        },
+        {
+          "type": "text",
+          "content": "Domina os termos de Recursos Humanos, recrutamento, seleção e gestão de talentos."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Recrutamento", "definition": "採用活動" },
+            { "term": "Entrevista", "definition": "面接" },
+            { "term": "Seleção", "definition": "選考" },
+            { "term": "Benefício", "definition": "福利厚生" },
+            { "term": "Demissão", "definition": "解雇" },
+            { "term": "Treinamento", "definition": "研修" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Processos de RH",
+          "items": [
+            "O recrutamento começou em janeiro.",
+            "Tivemos 50 entrevistas.",
+            "O treinamento dura 3 meses."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Processo Seletivo",
+          "auxiliaryPrompt": "Descreva um processo de seleção",
+          "answer": "Explique as etapas de um recrutamento."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-7",
+      "title": "Lesson 7: Negociações Internacionais",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Frases-chave em Negociações"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda a comunicar-se efetivamente em negociações internacionais com parceiros globais."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Proposta", "definition": "提案" },
+            { "term": "Contra-proposta", "definition": "反対提案" },
+            { "term": "Negociação", "definition": "交渉" },
+            { "term": "Compromisso", "definition": "妥協" },
+            { "term": "Fechamento", "definition": "商談成立" },
+            { "term": "Condições", "definition": "条件" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Expressões Negociais",
+          "items": [
+            "Apresento uma proposta competitiva.",
+            "Podemos chegar a um compromisso?",
+            "Quais são suas condições principais?"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Simulação de Negociação",
+          "auxiliaryPrompt": "Pratique negociação com parceiro",
+          "answer": "Crie um diálogo de negociação comercial."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-8",
+      "title": "Lesson 8: Indústria de Tecnologia",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Terminologia Tech em Português"
+        },
+        {
+          "type": "text",
+          "content": "Domine os termos usados no setor tecnológico: startup, inovação, disrupção e transformação digital."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Startup", "definition": "スタートアップ" },
+            { "term": "Inovação", "definition": "イノベーション" },
+            { "term": "Transformação digital", "definition": "デジタル変革" },
+            { "term": "Cloud", "definition": "クラウド" },
+            { "term": "API", "definition": "API" },
+            { "term": "Escalabilidade", "definition": "スケーラビリティ" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Contexto Tech",
+          "items": [
+            "A startup recebeu investimento de VC.",
+            "A transformação digital é urgente.",
+            "Nossa solução é escalável."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Pitch de Startup",
+          "auxiliaryPrompt": "Apresente uma ideia de negócio tech",
+          "answer": "Faça um pitch em português para investidores."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-9",
+      "title": "Lesson 9: Comércio Exterior",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Terminologia de Comércio Internacional"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda os termos usados em importação, exportação, logística e alfândega."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Exportação", "definition": "輸出" },
+            { "term": "Importação", "definition": "輸入" },
+            { "term": "Tarifa", "definition": "関税" },
+            { "term": "Frete", "definition": "運賃" },
+            { "term": "Alfândega", "definition": "税関" },
+            { "term": "Incoterms", "definition": "インコタームズ" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Operações de Comércio",
+          "items": [
+            "Exportamos para 15 países.",
+            "A tarifa é 20% do valor.",
+            "O frete FOB está incluído."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Documentação de Exportação",
+          "auxiliaryPrompt": "Preencha documentos de comércio exterior",
+          "answer": "Crie uma lista de documentos para exportação."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-10",
+      "title": "Lesson 10: Liderança e Gestão",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Estilos de Liderança e Gestão"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda os conceitos de liderança, gestão de equipes e desenvolvimento organizacional."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Liderança", "definition": "リーダーシップ" },
+            { "term": "Gestão", "definition": "経営" },
+            { "term": "Delegação", "definition": "委任" },
+            { "term": "Motivação", "definition": "動機付け" },
+            { "term": "Feedback", "definition": "フィードバック" },
+            { "term": "Desempenho", "definition": "パフォーマンス" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Gestão Eficaz",
+          "items": [
+            "Delego responsabilidades com clareza.",
+            "O feedback deve ser construtivo.",
+            "Motivação impacta o desempenho."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Plano de Desenvolvimento",
+          "auxiliaryPrompt": "Crie um plano de gestão de equipe",
+          "answer": "Descreva como você geriria uma equipe de 10 pessoas."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-11",
+      "title": "Lesson 11: Vendas e Negociação",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Técnicas de Venda"
+        },
+        {
+          "type": "text",
+          "content": "Domine a linguagem e técnicas usadas em vendas, fechamento de negócios e relacionamento com clientes."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Venda", "definition": "販売" },
+            { "term": "Cliente", "definition": "顧客" },
+            { "term": "Proposta de valor", "definition": "価値提案" },
+            { "term": "Fechamento", "definition": "クロージング" },
+            { "term": "Objeção", "definition": "異議" },
+            { "term": "Relacionamento", "definition": "関係構築" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Estratégias de Venda",
+          "items": [
+            "Nossa proposta de valor é única.",
+            "Supero objeções com dados.",
+            "O relacionamento é longo prazo."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Argumento de Venda",
+          "auxiliaryPrompt": "Desenvolva um pitch de vendas",
+          "answer": "Crie um argumento de venda para um produto."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-12",
+      "title": "Lesson 12: Supply Chain e Logística",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Gestão de Cadeia de Suprimentos"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda a terminologia de logística, gestão de estoque e otimização de cadeia de suprimentos."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Supply Chain", "definition": "サプライチェーン" },
+            { "term": "Estoque", "definition": "在庫" },
+            { "term": "Fornecedor", "definition": "サプライヤー" },
+            { "term": "Distribuição", "definition": "流通" },
+            { "term": "Logística", "definition": "ロジスティクス" },
+            { "term": "JIT", "definition": "ジャストインタイム" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Gestão de Suprimentos",
+          "items": [
+            "Otimizamos a cadeia de suprimentos.",
+            "Usamos sistema JIT para eficiência.",
+            "Temos 50 fornecedores principais."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise de Logística",
+          "auxiliaryPrompt": "Optimize uma cadeia de suprimentos",
+          "answer": "Identifique gargalos em uma supply chain."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-13",
+      "title": "Lesson 13: Sustentabilidade Corporativa",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "ESG e Responsabilidade Social"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda os conceitos de ESG (Ambiental, Social e Governança) e sustentabilidade empresarial."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "ESG", "definition": "ESG" },
+            { "term": "Sustentabilidade", "definition": "持続可能性" },
+            { "term": "Carbono neutro", "definition": "カーボンニュートラル" },
+            { "term": "Responsabilidade social", "definition": "社会的責任" },
+            { "term": "Compliance", "definition": "コンプライアンス" },
+            { "term": "Governança", "definition": "ガバナンス" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Iniciativas Sustentáveis",
+          "items": [
+            "Nossa meta é carbono neutro em 2030.",
+            "Investimos em programas sociais.",
+            "Compliance é rigoroso na empresa."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Relatório de Sustentabilidade",
+          "auxiliaryPrompt": "Crie um plano ESG corporativo",
+          "answer": "Desenvolva uma estratégia de sustentabilidade."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-14",
+      "title": "Lesson 14: Indústrias Específicas - Financeira",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Terminologia Bancária e de Seguros"
+        },
+        {
+          "type": "text",
+          "content": "Domina os termos específicos do setor financeiro, bancário e de seguros."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Banco", "definition": "銀行" },
+            { "term": "Empréstimo", "definition": "ローン" },
+            { "term": "Taxa de juros", "definition": "金利" },
+            { "term": "Seguro", "definition": "保険" },
+            { "term": "Prêmio", "definition": "保険料" },
+            { "term": "Cobertura", "definition": "補償範囲" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Produtos Financeiros",
+          "items": [
+            "A taxa de juros é 5% a.a.",
+            "O empréstimo tem 24 parcelas.",
+            "A cobertura inclui acidentes."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise Financeira",
+          "auxiliaryPrompt": "Compare produtos financeiros",
+          "answer": "Recomende um produto para cliente específico."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-15",
+      "title": "Lesson 15: Apresentações e Relatórios Executivos",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Estrutura de Apresentações de Negócios"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda a estruturar e apresentar relatórios executivos, análises e propostas profissionais."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Executivo", "definition": "エグゼクティブ" },
+            { "term": "Resumo", "definition": "概要" },
+            { "term": "Conclusão", "definition": "結論" },
+            { "term": "Recomendação", "definition": "勧告" },
+            { "term": "Anexo", "definition": "附属書" },
+            { "term": "Slide", "definition": "スライド" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Estrutura Padrão",
+          "items": [
+            "Introdução com contexto claro.",
+            "Análise com dados concretos.",
+            "Conclusão com recomendações."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Relatório Executivo",
+          "auxiliaryPrompt": "Crie um relatório profissional",
+          "answer": "Escreva um executive summary de 1 página."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-16",
+      "title": "Lesson 16: Gestão de Projetos",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Metodologias e Ferramentas de Projeto"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda a terminologia de gestão de projetos: Agile, Waterfall, cronograma e marcos."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Projeto", "definition": "プロジェクト" },
+            { "term": "Escopo", "definition": "スコープ" },
+            { "term": "Cronograma", "definition": "スケジュール" },
+            { "term": "Marco", "definition": "マイルストーン" },
+            { "term": "Sprint", "definition": "スプリント" },
+            { "term": "Backlog", "definition": "バックログ" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Gestão Ágil",
+          "items": [
+            "O projeto tem 6 meses de duração.",
+            "Sprint semanal de 5 dias.",
+            "Marco de entrega em junho."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Plano de Projeto",
+          "auxiliaryPrompt": "Crie um cronograma de projeto",
+          "answer": "Defina escopo, cronograma e marcos de um projeto."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-17",
+      "title": "Lesson 17: Análise Competitiva",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Análise SWOT e Posicionamento"
+        },
+        {
+          "type": "text",
+          "content": "Domine as ferramentas analíticas: SWOT, análise Porter e posicionamento competitivo."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "SWOT", "definition": "SWOT分析" },
+            { "term": "Força", "definition": "強み" },
+            { "term": "Fraqueza", "definition": "弱み" },
+            { "term": "Oportunidade", "definition": "機会" },
+            { "term": "Ameaça", "definition": "脅威" },
+            { "term": "Vantagem competitiva", "definition": "競争優位性" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Análise de Mercado",
+          "items": [
+            "Nossa força é inovação tecnológica.",
+            "Ameaça: novos concorrentes.",
+            "Oportunidade: mercado em expansão."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise SWOT Completa",
+          "auxiliaryPrompt": "Analise uma empresa concorrente",
+          "answer": "Crie uma matriz SWOT detalhada."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-18",
+      "title": "Lesson 18: Fusões e Aquisições",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Terminologia de M&A"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda os conceitos e termos envolvidos em processos de fusão e aquisição."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Fusão", "definition": "合併" },
+            { "term": "Aquisição", "definition": "買収" },
+            { "term": "Due diligence", "definition": "デューデリジェンス" },
+            { "term": "Valuation", "definition": "企業評価" },
+            { "term": "Sinergia", "definition": "相乗効果" },
+            { "term": "Integração", "definition": "統合" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Processo M&A",
+          "items": [
+            "Valuation: $ 50 milhões.",
+            "Due diligence em 90 dias.",
+            "Sinergia estimada: 10% de custo."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise de Aquisição",
+          "auxiliaryPrompt": "Avalie uma potencial aquisição",
+          "answer": "Recomende se uma aquisição faz sentido."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-19",
+      "title": "Lesson 19: Negociação Salarial",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Comunicação sobre Remuneração"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda a linguagem usada em discussões salariais, benefícios e pacotes de remuneração."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Salário", "definition": "給与" },
+            { "term": "Bônus", "definition": "ボーナス" },
+            { "term": "Benefício", "definition": "福利厚生" },
+            { "term": "Acordo", "definition": "合意" },
+            { "term": "Incremento", "definition": "昇給" },
+            { "term": "Plano de carreira", "definition": "キャリアプラン" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Componentes de Remuneração",
+          "items": [
+            "Salário: $ 5.000 mensais.",
+            "Bônus anual de 2 meses.",
+            "Plano de carreira claro."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Negociação Salarial",
+          "auxiliaryPrompt": "Pratique negociação de salário",
+          "answer": "Crie um diálogo de negociação salarial."
+        }
+      ]
+    },
+    {
+      "id": "por-biz-20",
+      "title": "Lesson 20: Cultura Corporativa",
+      "duration": "10:00",
+      "field": "business",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Valores e Missão Empresarial"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda como se fala sobre cultura, valores e identidade corporativa em português."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Missão", "definition": "使命" },
+            { "term": "Visão", "definition": "ビジョン" },
+            { "term": "Valores", "definition": "価値観" },
+            { "term": "Cultura", "definition": "企業文化" },
+            { "term": "Engajamento", "definition": "エンゲージメント" },
+            { "term": "Clima organizacional", "definition": "組織風土" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Declarações Corporativas",
+          "items": [
+            "Missão: transformar a indústria.",
+            "Valores: integridade e inovação.",
+            "Visão: ser líder em 2030."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Manifesto Corporativo",
+          "auxiliaryPrompt": "Crie missão e visão de empresa",
+          "answer": "Escreva missão, visão e 3 valores."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "specializedLessons": [
+    {
+      "id": "por-acad-1",
+      "title": "Lesson 1: Literatura Portuguesa Clássica",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Autores Canonicais e Obras"
+        },
+        {
+          "type": "text",
+          "content": "Estude os maiores autores da literatura portuguesa: Camões, Fernando Pessoa, Saramago e Queirós."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Poesia épica", "definition": "叙事詩" },
+            { "term": "Prosa", "definition": "散文" },
+            { "term": "Verso", "definition": "詩" },
+            { "term": "Métrica", "definition": "韻律" },
+            { "term": "Romantismo", "definition": "ロマンティシズム" },
+            { "term": "Modernismo", "definition": "モダニズム" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Obras Essenciais",
+          "items": [
+            "Os Lusíadas - Camões (1572)",
+            "Mensagem - Pessoa (1934)",
+            "Ensaio sobre a Cegueira - Saramago (1995)"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise Literária",
+          "auxiliaryPrompt": "Analise um trecho clássico",
+          "answer": "Comente sobre estrutura e significado de um poema."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-2",
+      "title": "Lesson 2: Filosofia e Pensamento",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Escolas Filosóficas"
+        },
+        {
+          "type": "text",
+          "content": "Explore conceitos filosóficos fundamentais e pensadores lusófonos."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Ontologia", "definition": "存在論" },
+            { "term": "Epistemologia", "definition": "認識論" },
+            { "term": "Ética", "definition": "倫理学" },
+            { "term": "Metafísica", "definition": "形而上学" },
+            { "term": "Fenomenologia", "definition": "現象学" },
+            { "term": "Existencialismo", "definition": "実存主義" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Conceitos-chave",
+          "items": [
+            "Ser e não-ser na ontologia.",
+            "Conhecimento e verdade em epistemologia.",
+            "Responsabilidade em ética."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Discussão Filosófica",
+          "auxiliaryPrompt": "Analise um dilema ético",
+          "answer": "Discuta uma questão moral complexa."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-3",
+      "title": "Lesson 3: História Medieval e Moderna",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Períodos Históricos em Português"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda os marcos históricos do mundo português e brasileiro."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Idade Média", "definition": "中世" },
+            { "term": "Renascença", "definition": "ルネサンス" },
+            { "term": "Descobrimento", "definition": "大航海時代" },
+            { "term": "Colonização", "definition": "植民地化" },
+            { "term": "Independência", "definition": "独立" },
+            { "term": "Revolução", "definition": "革命" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Eventos Históricos",
+          "items": [
+            "Independência do Brasil: 1822",
+            "Revolução Portuguesa: 1974",
+            "Descobrimento da América: 1500"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise Histórica",
+          "auxiliaryPrompt": "Contextualize um evento histórico",
+          "answer": "Explique causas e consequências de evento importante."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-4",
+      "title": "Lesson 4: Arte e Arquitetura",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Movimentos Artísticos"
+        },
+        {
+          "type": "text",
+          "content": "Estude os estilos artísticos e arquitetônicos: Barroco, Manuelino e Modernismo."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Barroco", "definition": "バロック" },
+            { "term": "Manuelino", "definition": "マヌエル様式" },
+            { "term": "Neoclássico", "definition": "新古典主義" },
+            { "term": "Azulejo", "definition": "アズレージョ（タイル）" },
+            { "term": "Pintura", "definition": "絵画" },
+            { "term": "Escultura", "definition": "彫刻" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Exemplos Arquitetônicos",
+          "items": [
+            "Mosteiro de Jerônimos - Manuelino",
+            "Catedral de São Paulo - Barroco",
+            "Azulejos portugueses característicos"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Crítica de Arte",
+          "auxiliaryPrompt": "Analise uma obra de arte",
+          "answer": "Descreva técnica, período e significado de obra."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-5",
+      "title": "Lesson 5: Linguística e Semântica",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Estrutura Linguística do Português"
+        },
+        {
+          "type": "text",
+          "content": "Explore conceitos de semântica, sintaxe e variações dialetais."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Morfologia", "definition": "形態論" },
+            { "term": "Sintaxe", "definition": "構文論" },
+            { "term": "Semântica", "definition": "意味論" },
+            { "term": "Dialeto", "definition": "方言" },
+            { "term": "Fonética", "definition": "音声学" },
+            { "term": "Pragmática", "definition": "語用論" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Análise Linguística",
+          "items": [
+            "Variações entre português europeu e brasileiro.",
+            "Estrutura de orações complexas.",
+            "Influências de outros idiomas."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise de Texto",
+          "auxiliaryPrompt": "Examine estrutura linguística",
+          "answer": "Identifique recursos sintáticos e semânticos."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-6",
+      "title": "Lesson 6: Mitologia Portuguesa",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Mitos e Lendas Lusitanas"
+        },
+        {
+          "type": "text",
+          "content": "Conheça as lendas fundacionais e mitos da cultura portuguesa."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Lenda", "definition": "伝説" },
+            { "term": "Mito", "definition": "神話" },
+            { "term": "Folclore", "definition": "民俗" },
+            { "term": "Herói", "definition": "英雄" },
+            { "term": "Trovadorismo", "definition": "トルバドール文学" },
+            { "term": "Simbolismo", "definition": "象徴主義" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Lendas Conhecidas",
+          "items": [
+            "Rei Artur e os Cavaleiros da Távola Redonda",
+            "Trovadores medievais portugueeses",
+            "Lendas de santos católicos"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Interpretação de Mito",
+          "auxiliaryPrompt": "Analise uma lenda portuguesa",
+          "answer": "Explique significado simbólico e cultural."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-7",
+      "title": "Lesson 7: Antropologia Cultural",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Costumes e Tradições"
+        },
+        {
+          "type": "text",
+          "content": "Estude as práticas culturais e tradições das comunidades lusófonas."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Ritual", "definition": "儀式" },
+            { "term": "Festas tradicionais", "definition": "伝統的祭り" },
+            { "term": "Gastronomia", "definition": "料理" },
+            { "term": "Traje regional", "definition": "地域衣装" },
+            { "term": "Música folclórica", "definition": "民族音楽" },
+            { "term": "Dança tradicional", "definition": "伝統舞踊" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Celebrações Culturais",
+          "items": [
+            "Festas de Santo Antônio (Portugal)",
+            "Carnaval (Brasil)",
+            "Festas populares tradicionais"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise Cultural",
+          "auxiliaryPrompt": "Examine uma tradição cultural",
+          "answer": "Descreva origem, significado e prática."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-8",
+      "title": "Lesson 8: Religião e Teologia",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Tradições Religiosas Lusófonas"
+        },
+        {
+          "type": "text",
+          "content": "Explore o papel da religião na história e cultura portuguesa e brasileira."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Catolicismo", "definition": "カトリック信仰" },
+            { "term": "Inquisição", "definition": "異端審問" },
+            { "term": "Protestantismo", "definition": "プロテスタント信仰" },
+            { "term": "Sincretismo", "definition": "混合宗教" },
+            { "term": "Espiritismo", "definition": "心霊主義" },
+            { "term": "Teologia", "definition": "神学" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Contexto Histórico",
+          "items": [
+            "Papel da Igreja na colonização",
+            "Sincretismo africano-cristão no Brasil",
+            "Influência religiosa na arte e literatura"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise Teológica",
+          "auxiliaryPrompt": "Examine aspecto religioso",
+          "answer": "Discuta tema teológico relevante."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-9",
+      "title": "Lesson 9: Crítica Literária",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Métodos de Análise de Texto"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda técnicas de crítica e análise literária avançadas."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Hermenêutica", "definition": "解釈学" },
+            { "term": "Deconstrução", "definition": "脱構築" },
+            { "term": "Marxismo literário", "definition": "マルクス主義文学批評" },
+            { "term": "Feminismo", "definition": "フェミニズム" },
+            { "term": "Intertextualidade", "definition": "相互テキスト性" },
+            { "term": "Narratologia", "definition": "物語論" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Abordagens Críticas",
+          "items": [
+            "Análise estruturalista de narrativa",
+            "Crítica marxista de ideologia",
+            "Leitura feminista de textos clássicos"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Aplicar Crítica",
+          "auxiliaryPrompt": "Use método crítico em texto",
+          "answer": "Analise obra com abordagem específica."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-10",
+      "title": "Lesson 10: Estudos Comparados",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Literatura Comparativa"
+        },
+        {
+          "type": "text",
+          "content": "Compare obras e autores portugueses com tradições literárias globais."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Influência literária", "definition": "文学的影響" },
+            { "term": "Motivo recorrente", "definition": "繰り返されるモチーフ" },
+            { "term": "Tradução", "definition": "翻訳" },
+            { "term": "Adaptação", "definition": "脚色" },
+            { "term": "Cânone literário", "definition": "文学的正典" },
+            { "term": "Recepção crítica", "definition": "批評的受容" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Comparações Importantes",
+          "items": [
+            "Camões vs. Dante",
+            "Pessoa vs. Modernistas europeus",
+            "Machado de Assis vs. Tolstói"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise Comparativa",
+          "auxiliaryPrompt": "Compare duas obras distintas",
+          "answer": "Identifique similaridades e diferenças temáticas."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-11",
+      "title": "Lesson 11: Poética e Estética",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Teorias Estéticas"
+        },
+        {
+          "type": "text",
+          "content": "Explore conceitos de beleza, gosto e experiência estética."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Belo", "definition": "美しい" },
+            { "term": "Sublime", "definition": "崇高な" },
+            { "term": "Elegância", "definition": "優雅さ" },
+            { "term": "Harmonia", "definition": "調和" },
+            { "term": "Proporção", "definition": "比例" },
+            { "term": "Gosto", "definition": "趣味" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Conceitos Estéticos",
+          "items": [
+            "Beleza como conceito universal vs. relativo",
+            "Sublime em paisagem e arte",
+            "Desenvolvimento do gosto literário"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Análise Estética",
+          "auxiliaryPrompt": "Analise qualidade estética de obra",
+          "answer": "Descreva como obra atinge efeito estético."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-12",
+      "title": "Lesson 12: História Intelectual",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Correntes de Pensamento"
+        },
+        {
+          "type": "text",
+          "content": "Trace a evolução das ideias na cultura portuguesa."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Iluminismo", "definition": "啓蒙主義" },
+            { "term": "Positivismo", "definition": "実証主義" },
+            { "term": "Naturalismo", "definition": "自然主義" },
+            { "term": "Decadentismo", "definition": "退廃主義" },
+            { "term": "Futurismo", "definition": "未来主義" },
+            { "term": "Surrealismo", "definition": "シュルレアリズム" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Movimentos Intelectuais",
+          "items": [
+            "Geração de 70 em Portugal",
+            "Modernismo brasileiro de 22",
+            "Movimento da Negritude africana"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Contextualizar Movimento",
+          "auxiliaryPrompt": "Explique um movimento intelectual",
+          "answer": "Descreva origem, características e legado."
+        }
+      ]
+    },
+    {
+      "id": "por-acad-15",
+      "title": "Lesson 13: Retórica e Oratória",
+      "duration": "12:00",
+      "field": "academic",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Arte da Persuasão"
+        },
+        {
+          "type": "text",
+          "content": "Domina técnicas retóricas de argumentação e eloquência."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Oratória", "definition": "雄弁術" },
+            { "term": "Metáfora", "definition": "比喩" },
+            { "term": "Metonímia", "definition": "換喩" },
+            { "term": "Aliteração", "definition": "頭韻" },
+            { "term": "Anáfora", "definition": "反復" },
+            { "term": "Paradoxo", "definition": "逆説" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Técnicas Retóricas",
+          "items": [
+            "Uso de figuras de linguagem",
+            "Estrutura de argumento lógico",
+            "Apelos emocionais e racionais"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Discurso Retórico",
+          "auxiliaryPrompt": "Crie discurso persuasivo",
+          "answer": "Escreva discurso de 500 palavras."
+        }
+      ]
+    }
+  ]
+}

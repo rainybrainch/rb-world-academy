@@ -1,0 +1,1660 @@
+{
+  "specialist_fields": [
+    {
+      "field_id": "deu-bus-001",
+      "field_name": "ビジネス・職業分野",
+      "field_name_en": "Business & Professional German",
+      "lesson_count": 20,
+      "lessons": [
+        {
+          "id": "deu-bus-l1",
+          "title": "Lesson 1: Geschäftskommunikation - Grundlagen",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["ビジネス敬語", "フォーマルメール", "電話対応"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ビジネスドイツ語の基礎"
+            },
+            {
+              "type": "text",
+              "content": "ドイツのビジネス文化では、フォーマルな敬語（Sie）が重要です。電話対応、メール、会議での基本表現を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Geschäftsbrief", "definition": "ビジネスレター"},
+                {"term": "Angebot", "definition": "提案・見積"},
+                {"term": "Auftrag", "definition": "注文・業務"},
+                {"term": "Verhandlung", "definition": "交渉"},
+                {"term": "Vertrag", "definition": "契約"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "フォーマル敬語の表現",
+              "items": [
+                "Guten Tag, Herr Müller. Wie geht es Ihnen?",
+                "Könnten Sie mir bitte helfen?",
+                "Ich möchte einen Termin vereinbaren."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "ビジネスメール作成演習",
+              "auxiliaryPrompt": "フォーマルなドイツ語でビジネスメールを書く",
+              "answer": "件名・挨拶・本文・署名を含む完全なビジネスメールを作成してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l2",
+          "title": "Lesson 2: Industrie- und Fachvokabular",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["製造業用語", "金融用語", "技術用語"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "業界別用語 - 製造・金融・テクノロジー"
+            },
+            {
+              "type": "text",
+              "content": "ドイツはエンジニアリングと製造業が発達した国です。産業分野での専門用語を習得しましょう。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Fertigung", "definition": "製造・生産"},
+                {"term": "Qualitätskontrolle", "definition": "品質管理"},
+                {"term": "Lieferkette", "definition": "サプライチェーン"},
+                {"term": "Maschinenbau", "definition": "機械工学"},
+                {"term": "Automatisierung", "definition": "自動化"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "製造業の会話例",
+              "items": [
+                "Die Produktionsanlage wird modernisiert.",
+                "Wir müssen die Qualitätsstandards einhalten.",
+                "Die Lieferzeit beträgt zwei Wochen."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "業界用語の理解",
+              "auxiliaryPrompt": "業界別ドイツ語用語を使った会話",
+              "answer": "製造業での10の専門用語を日本語訳と共に説明してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l3",
+          "title": "Lesson 3: Verhandlungen führen",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["交渉技法", "提案表現", "合意形成"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "交渉とビジネス会話"
+            },
+            {
+              "type": "text",
+              "content": "ドイツ人との交渉は直接的で明確です。要求を述べ、譲歩案を提示し、合意に至る道筋を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Angebot machen", "definition": "提案する"},
+                {"term": "Preis verhandeln", "definition": "価格を交渉する"},
+                {"term": "Kompromiss", "definition": "妥協案"},
+                {"term": "einigen", "definition": "合意する"},
+                {"term": "Bedingung", "definition": "条件"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "交渉の重要表現",
+              "items": [
+                "Können Sie beim Preis flexibel sein?",
+                "Wir könnten die Menge erhöhen, wenn Sie den Preis senken.",
+                "Das ist für uns akzeptabel."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "交渉シミュレーション",
+              "auxiliaryPrompt": "ドイツ人パートナーとの価格交渉シナリオ",
+              "answer": "供給者と購買者の役割を交代してロールプレイしてください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l4",
+          "title": "Lesson 4: Internationale Geschäftskultur",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["文化差異", "ビジネスエチケット", "会議マナー"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツのビジネス文化と国際的な違い"
+            },
+            {
+              "type": "text",
+              "content": "ドイツ人は時間を厳守し、効率を重視します。国際ビジネスでの文化的相違を理解することが成功の鍵です。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Pünktlichkeit", "definition": "時間厳守"},
+                {"term": "Effizienz", "definition": "効率性"},
+                {"term": "Zuverlässigkeit", "definition": "信頼性"},
+                {"term": "Etikette", "definition": "エチケット"},
+                {"term": "Respekt", "definition": "尊重"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "ドイツビジネスのルール",
+              "items": [
+                "会議は時間通りに始まります。遅刻は失礼です。",
+                "名刺交換は握手と同時に行います。",
+                "デュッセルドルフでの昼食は短く、仕事の話が中心です。"
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "ビジネスシーン対応",
+              "auxiliaryPrompt": "異文化ビジネス環境での適切な行動を学ぶ",
+              "answer": "ドイツ人上司との初めての会議でのシナリオを描写してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l5",
+          "title": "Lesson 5: Markenwesen und Branding",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["ブランド戦略", "マーケティング用語", "広告表現"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "マーケティングとブランド戦略"
+            },
+            {
+              "type": "text",
+              "content": "ドイツの企業は品質とイノベーションを重視したブランディングを行います。マーケティング用語を習得しましょう。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Markenpositionierung", "definition": "ブランドポジショニング"},
+                {"term": "Zielgruppe", "definition": "ターゲット層"},
+                {"term": "Markenidentität", "definition": "ブランドアイデンティティ"},
+                {"term": "Werbung", "definition": "広告"},
+                {"term": "Kundenbindung", "definition": "顧客ロイヤルティ"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "マーケティング表現",
+              "items": [
+                "Unser Markenwert basiert auf Qualität und Zuverlässigkeit.",
+                "Die Zielgruppe sind Fachleute und Manager.",
+                "Wir investieren in digitales Marketing."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "ブランド分析プロジェクト",
+              "auxiliaryPrompt": "ドイツの有名ブランドのマーケティング戦略を分析",
+              "answer": "BMW、Siemens、またはSAPのブランド戦略をドイツ語で説明してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l6",
+          "title": "Lesson 6: HR und Personalwesen",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["採用プロセス", "雇用契約", "労働法"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "人事管理と雇用関係"
+            },
+            {
+              "type": "text",
+              "content": "ドイツの労働法は労働者保護を重視しており、採用から雇用管理まで厳密に規定されています。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Stellenangebot", "definition": "求人"},
+                {"term": "Bewerbung", "definition": "応募・履歴書"},
+                {"term": "Arbeitsvertrag", "definition": "雇用契約"},
+                {"term": "Kündigungsfrist", "definition": "解雇予告期間"},
+                {"term": "Lohn", "definition": "賃金"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "HR用語と表現",
+              "items": [
+                "Wir suchen einen erfahrenen Projektmanager.",
+                "Der Arbeitsvertrag läuft bis Ende des Jahres.",
+                "Die Kündigungsfrist beträgt vier Wochen."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "求人票作成演習",
+              "auxiliaryPrompt": "ドイツ式の職務経歴書と求人票を作成",
+              "answer": "エンジニア職の求人票と理想的な候補者の職務経歴書を作成してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l7",
+          "title": "Lesson 7: Finanzielle Berichterstattung",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["財務報告", "会計用語", "決算書"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "財務報告と会計用語"
+            },
+            {
+              "type": "text",
+              "content": "ドイツ企業の財務報告は透明性と正確性が求められます。会計・財務用語を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Bilanz", "definition": "貸借対照表"},
+                {"term": "Gewinn- und Verlustrechnung", "definition": "損益計算書"},
+                {"term": "Liquidität", "definition": "流動性"},
+                {"term": "Rentabilität", "definition": "収益性"},
+                {"term": "Kapital", "definition": "資本"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "財務表現",
+              "items": [
+                "Der Umsatz ist um 15% gestiegen.",
+                "Die Gewinnmarge beträgt 8%.",
+                "Wir müssen die Kosten reduzieren."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "財務分析演習",
+              "auxiliaryPrompt": "ドイツ企業の決算書を読んで分析",
+              "answer": "年間決算報告をドイツ語で要約し、主要な財務指標を説明してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l8",
+          "title": "Lesson 8: Projektmanagement",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["プロジェクト計画", "タイムライン", "リスク管理"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "プロジェクトマネジメントの言語"
+            },
+            {
+              "type": "text",
+              "content": "ドイツはプロジェクト管理の品質で知られています。計画、実行、監視の各段階での用語と表現を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Projektplan", "definition": "プロジェクト計画"},
+                {"term": "Meilenstein", "definition": "マイルストーン"},
+                {"term": "Ressource", "definition": "リソース"},
+                {"term": "Risiko", "definition": "リスク"},
+                {"term": "Stakeholder", "definition": "利害関係者"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "プロジェクト管理表現",
+              "items": [
+                "Das Projekt soll in drei Phasen ablaufen.",
+                "Der Meilenstein liegt auf Ende Juni.",
+                "Wir müssen die Risiken identifizieren und mindern."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "プロジェクト報告書作成",
+              "auxiliaryPrompt": "プロジェクトの進捗報告をドイツ語で作成",
+              "answer": "6か月のIT導入プロジェクトの進捗報告書をドイツ語で作成してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l9",
+          "title": "Lesson 9: Logistik und Supply Chain",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["流通チェーン", "輸送", "在庫管理"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ロジスティクスとサプライチェーン"
+            },
+            {
+              "type": "text",
+              "content": "ドイツはヨーロッパの流通ハブです。ロジスティクスとサプライチェーン管理の専門用語を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Lagerbestand", "definition": "在庫"},
+                {"term": "Versand", "definition": "発送"},
+                {"term": "Transportweg", "definition": "輸送ルート"},
+                {"term": "Zoll", "definition": "税関"},
+                {"term": "Sendungsverfolgung", "definition": "配送追跡"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "ロジスティクス表現",
+              "items": [
+                "Die Lieferung erfolgt per LKW in 48 Stunden.",
+                "Wir überprüfen den Bestand wöchentlich.",
+                "Die Ware wird in unserem Lager in Hamburg gelagert."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "供給チェーン最適化ケース",
+              "auxiliaryPrompt": "物流最適化の課題に取り組む",
+              "answer": "ドイツからアジアへの輸送コスト削減案をドイツ語で提案してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l10",
+          "title": "Lesson 10: Digitalisierung und E-Commerce",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["デジタル化", "オンライン販売", "データセキュリティ"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ビジネスのデジタル化"
+            },
+            {
+              "type": "text",
+              "content": "ドイツ企業はIndustrie 4.0（インダストリー4.0）を推進しています。デジタル化とe-コマースの用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Digitalisierung", "definition": "デジタル化"},
+                {"term": "E-Commerce", "definition": "電子商取引"},
+                {"term": "Datensicherheit", "definition": "データセキュリティ"},
+                {"term": "Cloud", "definition": "クラウド"},
+                {"term": "Künstliche Intelligenz", "definition": "人工知能"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "デジタルビジネス表現",
+              "items": [
+                "Wir transformieren unser Geschäftsmodell durch Digitalisierung.",
+                "Der Online-Umsatz wächst schneller als der stationäre Handel.",
+                "Datenschutz ist für uns oberste Priorität."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "デジタル戦略プレゼン",
+              "auxiliaryPrompt": "企業のデジタル化戦略をドイツ語で説明",
+              "answer": "伝統的なドイツ製造企業がデジタル化する戦略をドイツ語で提案してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l11",
+          "title": "Lesson 11: Nachhaltigkeitsmanagement",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["持続可能性", "環境管理", "CSR"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "持続可能性とCSR"
+            },
+            {
+              "type": "text",
+              "content": "ドイツ企業は環境責任を重視しています。持続可能性管理とコーポレートソーシャルレスポンシビリティの用語を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Nachhaltigkeit", "definition": "持続可能性"},
+                {"term": "Umweltschutz", "definition": "環境保護"},
+                {"term": "CO2-Aussto", "definition": "CO2排出量"},
+                {"term": "Energieeffizienz", "definition": "エネルギー効率"},
+                {"term": "Kreislaufwirtschaft", "definition": "サーキュラーエコノミー"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "持続可能性表現",
+              "items": [
+                "Wir bekennen uns zu Nachhaltigkeit und Klimaneutralität.",
+                "Unsere Produkte sind zu 100% recyclierbar.",
+                "Wir reduzieren unseren CO2-Ausstoss um 50% bis 2030."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "サステナビリティ報告書作成",
+              "auxiliaryPrompt": "企業の環境責任報告をドイツ語で作成",
+              "answer": "年間持続可能性報告書（CSR報告書）をドイツ語で要約してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l12",
+          "title": "Lesson 12: Kundenservice und Support",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["カスタマーサービス", "苦情処理", "サポート"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "顧客サービスと対応"
+            },
+            {
+              "type": "text",
+              "content": "顧客満足度はドイツビジネスの重要な要素です。苦情処理とカスタマーサポートの表現を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Kundenzufriedenheit", "definition": "顧客満足度"},
+                {"term": "Beschwerde", "definition": "苦情"},
+                {"term": "Reklamation", "definition": "返品・クレーム"},
+                {"term": "Gewährleistung", "definition": "保証"},
+                {"term": "Kulanz", "definition": "善意の対応"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "顧客対応表現",
+              "items": [
+                "Entschuldigen Sie bitte für die Verspätung.",
+                "Wir werden das Problem sofort beheben.",
+                "Ihre Zufriedenheit ist uns wichtig."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "顧客対応ロールプレイ",
+              "auxiliaryPrompt": "難しい顧客からの苦情に対応",
+              "answer": "製品不良に対する顧客からの厳しい苦情にドイツ語で対応してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l13",
+          "title": "Lesson 13: Fusionen und Übernahmen",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["M&A", "デューデリジェンス", "統合"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "企業統合と買収"
+            },
+            {
+              "type": "text",
+              "content": "M&A（企業買収・統合）はドイツビジネスで重要なプロセスです。複雑な法律用語と交渉表現を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Übernahme", "definition": "買収"},
+                {"term": "Fusion", "definition": "合併"},
+                {"term": "Due Diligence", "definition": "デューデリジェンス"},
+                {"term": "Bewertung", "definition": "評価・査定"},
+                {"term": "Kaufvertrag", "definition": "購買契約"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "M&A表現",
+              "items": [
+                "Wir führen eine umfassende Due Diligence durch.",
+                "Der Kaufpreis basiert auf dem geschätzten Unternehmenswert.",
+                "Nach der Übernahme folgt die Integrationsphase."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "M&A交渉シミュレーション",
+              "auxiliaryPrompt": "企業買収の交渉プロセスをシミュレート",
+              "answer": "ドイツの中堅企業買収時の主要ステップをドイツ語で説明してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l14",
+          "title": "Lesson 14: Innovationen und Forschung",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["研究開発", "イノベーション", "知的財産"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "研究開発とイノベーション"
+            },
+            {
+              "type": "text",
+              "content": "ドイツはR&D（研究開発）投資で世界トップレベルです。イノベーション関連の専門用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Forschung und Entwicklung", "definition": "研究開発"},
+                {"term": "Patent", "definition": "特許"},
+                {"term": "Lizenz", "definition": "ライセンス"},
+                {"term": "Prototyp", "definition": "プロトタイプ"},
+                {"term": "Innovation", "definition": "イノベーション"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "R&D表現",
+              "items": [
+                "Wir investieren 20% unseres Umsatzes in Forschung.",
+                "Das Patent schützt unsere Technologie für 20 Jahre.",
+                "Der Prototyp wird nächsten Monat getestet."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "技術開発プレゼンテーション",
+              "auxiliaryPrompt": "新製品開発プロジェクトをドイツ語で説明",
+              "answer": "新しい環境技術プロジェクトの目標と期待効果をドイツ語で説明してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l15",
+          "title": "Lesson 15: Bankwesen und Finanzierung",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["銀行業務", "融資", "投資"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "銀行と金融サービス"
+            },
+            {
+              "type": "text",
+              "content": "ドイツはヨーロッパの金融センターです。銀行業務と企業融資の用語を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Kreditlinie", "definition": "クレジットライン"},
+                {"term": "Darlehen", "definition": "ローン"},
+                {"term": "Zinssatz", "definition": "金利"},
+                {"term": "Sicherheit", "definition": "担保"},
+                {"term": "Investition", "definition": "投資"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "金融表現",
+              "items": [
+                "Wir beantragen eine Kreditlinie bei der Hauptbank.",
+                "Der Zinssatz beträgt 3,5% pro Jahr.",
+                "Die Sicherheit ist durch Grundschulden gewährleistet."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "資金調達計画作成",
+              "auxiliaryPrompt": "企業の融資申請書をドイツ語で作成",
+              "answer": "成長企業の銀行融資申請書をドイツ語で作成してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l16",
+          "title": "Lesson 16: Export und Internationalisierung",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["輸出", "国際展開", "通関手続"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "輸出と国際事業展開"
+            },
+            {
+              "type": "text",
+              "content": "ドイツは輸出大国です。国際取引と輸出手続の複雑な用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Export", "definition": "輸出"},
+                {"term": "Import", "definition": "輸入"},
+                {"term": "Zollanmeldung", "definition": "税関申告"},
+                {"term": "Frachtbrief", "definition": "運送状"},
+                {"term": "Versicherung", "definition": "保険"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "輸出取引表現",
+              "items": [
+                "Wir exportieren unsere Produkte in 50 Länder.",
+                "Der Frachtbrief dokumentiert die Warenlieferung.",
+                "Die Zollgebühren werden vom Käufer übernommen."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "国際ビジネス交渉",
+              "auxiliaryPrompt": "日本への輸出契約をドイツ語で交渉",
+              "answer": "日本の商社とのドイツ製品輸出契約をドイツ語で交渉してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l17",
+          "title": "Lesson 17: Arbeitsrecht und Compliance",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["労働法", "コンプライアンス", "規制"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "労働法とコンプライアンス"
+            },
+            {
+              "type": "text",
+              "content": "ドイツの労働法は厳格です。規制遵守と労働者保護の法律用語を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Arbeitsrecht", "definition": "労働法"},
+                {"term": "Betriebsrat", "definition": "労働委員会"},
+                {"term": "Tarifvertrag", "definition": "団体交渉契約"},
+                {"term": "Compliance", "definition": "法令遵守"},
+                {"term": "Datenschutz", "definition": "データ保護"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "法令遵守表現",
+              "items": [
+                "Wir halten alle Arbeitsgesetze ein.",
+                "Der Betriebsrat muss bei Personalentscheidungen konsultiert werden.",
+                "Die DSGVO regelt den Umgang mit Kundendaten."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "法令遵守プログラム企画",
+              "auxiliaryPrompt": "企業のコンプライアンスプログラムをドイツ語で説明",
+              "answer": "多国籍企業のドイツにおけるコンプライアンスプログラムを説明してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l18",
+          "title": "Lesson 18: Qualitätsmanagementsysteme",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["品質管理", "ISO認証", "プロセス改善"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "品質管理システム"
+            },
+            {
+              "type": "text",
+              "content": "ドイツは品質管理の標準を発展させた国です。品質システムと認証の専門用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Qualitätsmanagementsystem", "definition": "品質管理システム"},
+                {"term": "ISO 9001", "definition": "ISO 9001認証"},
+                {"term": "Prüfverfahren", "definition": "検査手順"},
+                {"term": "Abweichung", "definition": "偏差"},
+                {"term": "Verbesserung", "definition": "改善"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "品質管理表現",
+              "items": [
+                "Unser Unternehmen ist ISO 9001 zertifiziert.",
+                "Jedes Produkt durchläuft mehrere Qualitätsprüfungen.",
+                "Wir implementieren kontinuierliche Verbesserung."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "品質改善提案",
+              "auxiliaryPrompt": "製造プロセスの品質向上案をドイツ語で提案",
+              "answer": "生産ラインの不良率削減計画をドイツ語で説明してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l19",
+          "title": "Lesson 19: Strategisches Management",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["戦略立案", "競争分析", "事業計画"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "戦略的経営"
+            },
+            {
+              "type": "text",
+              "content": "長期戦略はドイツビジネスの基盤です。事業戦略と競争分析の言語を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Geschäftsstrategie", "definition": "事業戦略"},
+                {"term": "Wettbewerb", "definition": "競争"},
+                {"term": "Wettbewerbsvorteil", "definition": "競争優位"},
+                {"term": "Vision", "definition": "ビジョン"},
+                {"term": "Mission", "definition": "ミッション"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "戦略表現",
+              "items": [
+                "Unsere Vision ist, der Marktführer in Europa zu werden.",
+                "Wir haben einen klaren Wettbewerbsvorteil in Technologie.",
+                "Die Strategie umfasst Expansion in Asien."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "5年事業計画作成",
+              "auxiliaryPrompt": "企業の5年戦略を立案してドイツ語で説明",
+              "answer": "スタートアップの5年戦略計画をドイツ語で作成してください。"
+            }
+          ]
+        },
+        {
+          "id": "deu-bus-l20",
+          "title": "Lesson 20: Geschäftsabschluss und Kontraktverhandlung",
+          "duration": "10:00",
+          "isPremium": false,
+          "checkItems": ["契約交渉", "契約署名", "法的文書"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "契約交渉と締結"
+            },
+            {
+              "type": "text",
+              "content": "ビジネスの最終段階である契約交渉。法律用語と交渉表現を徹底的に学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Vertrag", "definition": "契約"},
+                {"term": "Klausel", "definition": "条項"},
+                {"term": "Unterschrift", "definition": "署名"},
+                {"term": "Rechtsgültig", "definition": "法的有効性"},
+                {"term": "Abmachung", "definition": "合意"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "契約表現",
+              "items": [
+                "Der Vertrag ist ab sofort gültig.",
+                "Diese Klausel ist für beide Seiten bindend.",
+                "Alle Parteien haben den Vertrag unterzeichnet."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "複雑な商業契約の交渉",
+              "auxiliaryPrompt": "国際商業契約をドイツ語で交渉・締結",
+              "answer": "ドイツ企業との技術ライセンス契約をドイツ語で交渉してください。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "field_id": "deu-acad-001",
+      "field_name": "学術・文化分野",
+      "field_name_en": "Academic & Cultural German",
+      "lesson_count": 15,
+      "lessons": [
+        {
+          "id": "deu-acad-l1",
+          "title": "Lesson 1: Literarische Analyse und Textinterpretation",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["文学分析", "テキスト解釈", "批評"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ文学の深い理解"
+            },
+            {
+              "type": "text",
+              "content": "ゲーテ、シラー、カフカなどドイツの文豪の作品を分析するための高度な語彙と表現を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Stilistik", "definition": "文体論"},
+                {"term": "Motiv", "definition": "主題"},
+                {"term": "Symbol", "definition": "象徴"},
+                {"term": "Metapher", "definition": "隠喩"},
+                {"term": "Allegorie", "definition": "寓話"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "文学批評表現",
+              "items": [
+                "Kafkas Werk verkörpert die menschliche Absurdität.",
+                "Das Symbol des Waldes repräsentiert das Unbewusste.",
+                "Die Metapher verdeutlicht die innere Zerreißung des Protagonisten."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "文学テキスト分析",
+              "auxiliaryPrompt": "短編小説の文学分析をドイツ語で実施",
+              "answer": "短編小説の主題、象徴、文体をドイツ語で詳細に分析してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ古典作品の文化的背景"
+            },
+            {
+              "type": "text",
+              "content": "ドイツの古典作品は当時の社会・哲学背景から理解すると深い。時代背景を含めて学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l2",
+          "title": "Lesson 2: Philosophie und Denker",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["哲学概念", "ドイツ哲学", "思想史"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ哲学入門"
+            },
+            {
+              "type": "text",
+              "content": "カント、ヘーゲル、ニーチェなどドイツを代表する哲学者の思想を理解する専門用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Kategorischer Imperativ", "definition": "定言命法（カント）"},
+                {"term": "Dialektik", "definition": "弁証法（ヘーゲル）"},
+                {"term": "Übermensch", "definition": "超人（ニーチェ）"},
+                {"term": "Existenz", "definition": "実存"},
+                {"term": "Sein", "definition": "存在"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "哲学表現",
+              "items": [
+                "Kants kategorischer Imperativ begründet die Ethik.",
+                "Hegels Dialektik zeigt die Entwicklung des Geistes.",
+                "Heidegger untersuchte die Natur des Seins."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "哲学テキスト読解",
+              "auxiliaryPrompt": "ドイツ哲学の抜粋をドイツ語で読んで理解",
+              "answer": "カント『実践理性批判』の章をドイツ語で解説してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "現代ドイツ思想"
+            },
+            {
+              "type": "text",
+              "content": "20世紀から現代のドイツ思想家による議論と批判理論を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l3",
+          "title": "Lesson 3: Kunstgeschichte und Ästhetik",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["美術史", "芸術理論", "審美学"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ美術と美学"
+            },
+            {
+              "type": "text",
+              "content": "ドイツロマン主義、表現主義、バウハウスなど、ドイツの芸術運動の専門用語と歴史背景を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Romantik", "definition": "ロマン主義"},
+                {"term": "Expressionismus", "definition": "表現主義"},
+                {"term": "Bauhaus", "definition": "バウハウス"},
+                {"term": "Komposition", "definition": "構成・構図"},
+                {"term": "Perspektive", "definition": "遠近法"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "美術表現",
+              "items": [
+                "Die Romantik betont Emotion und Natur.",
+                "Der Expressionismus verzerrt die Realität für emotionale Wirkung.",
+                "Das Bauhaus vereinigte Kunst, Handwerk und Industrie."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "美術作品分析",
+              "auxiliaryPrompt": "ドイツ美術作品の分析をドイツ語で実施",
+              "answer": "ドイツ表現主義の画家の作品をドイツ語で分析してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "建築とデザイン"
+            },
+            {
+              "type": "text",
+              "content": "ドイツの建築とデザイン理論は世界に影響を与えています。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l4",
+          "title": "Lesson 4: Geschichte und Gesellschaft",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["歴史", "社会分析", "政治思想"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツの歴史と社会構造"
+            },
+            {
+              "type": "text",
+              "content": "プロイセン時代からナチス、現代ドイツへ。複雑な歴史を理解する専門用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Bismarckzeit", "definition": "ビスマルク時代"},
+                {"term": "Weimarer Republik", "definition": "ワイマール共和国"},
+                {"term": "Nationalsozialismus", "definition": "ナチズム"},
+                {"term": "Wiedervereinigung", "definition": "再統一"},
+                {"term": "Sozialdemokratie", "definition": "社会民主主義"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "歴史表現",
+              "items": [
+                "Die Weimarer Republik war von Instabilität geprägt.",
+                "Der Zweite Weltkrieg hatte katastrophale Folgen.",
+                "Die deutsche Wiedervereinigung war 1990 abgeschlossen."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "歴史分析エッセイ",
+              "auxiliaryPrompt": "ドイツの重要な歴史的転換点を分析",
+              "answer": "ドイツ分裂と再統一の過程をドイツ語で詳細に説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "現代ドイツ社会"
+            },
+            {
+              "type": "text",
+              "content": "EUにおけるドイツの役割、社会的課題、政治的動向を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l5",
+          "title": "Lesson 5: Sprachwissenschaft und Linguistik",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["言語学", "文法理論", "言語分析"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ語言語学"
+            },
+            {
+              "type": "text",
+              "content": "ドイツ語の言語構造、進化、方言、現代的変化を深く理解する学術的用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Morphologie", "definition": "形態論"},
+                {"term": "Syntax", "definition": "統語論"},
+                {"term": "Semantik", "definition": "意味論"},
+                {"term": "Dialekt", "definition": "方言"},
+                {"term": "Etymologie", "definition": "語源学"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "言語学表現",
+              "items": [
+                "Die deutsche Grammatik ist komplexer als die englische.",
+                "Preußisch und Bayerisch sind unterschiedliche Dialekte.",
+                "Das Englische hat viele germanische Wurzeln."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "言語分析プロジェクト",
+              "auxiliaryPrompt": "ドイツ語テキストの言語学的分析",
+              "answer": "ニュース記事の言語構造と修辞法をドイツ語で分析してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "言語変化と進化"
+            },
+            {
+              "type": "text",
+              "content": "ドイツ語がどのように変化し、新しい言葉が作られているかを学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l6",
+          "title": "Lesson 6: Musikwissenschaft und Musikgeschichte",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["音楽史", "音楽理論", "作曲家"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ音楽文化"
+            },
+            {
+              "type": "text",
+              "content": "バッハ、モーツァルト、ベートーヴェン、ブラームスなどドイツ音楽の伝統を深く理解する専門用語を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Klassik", "definition": "古典派"},
+                {"term": "Romantik", "definition": "ロマン派"},
+                {"term": "Symphonie", "definition": "交響曲"},
+                {"term": "Oper", "definition": "オペラ"},
+                {"term": "Kammermusik", "definition": "室内楽"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "音楽表現",
+              "items": [
+                "Bach revolutionierte die Kontrapunktik.",
+                "Beethovens 9. Sinfonie ist sein Meisterwerk.",
+                "Wagner erschuf die Musikdramen des 19. Jahrhunderts."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "音楽作品分析",
+              "auxiliaryPrompt": "ドイツ古典音楽作品をドイツ語で分析",
+              "answer": "ベートーヴェンの『第9交響曲』をドイツ語で音楽学的に説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "現代ドイツ音楽"
+            },
+            {
+              "type": "text",
+              "content": "現代音楽の実験的な試みとポップカルチャーも含めて学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l7",
+          "title": "Lesson 7: Theologie und Religionsstudien",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["神学", "宗教研究", "思想史"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツプロテスタント神学"
+            },
+            {
+              "type": "text",
+              "content": "宗教改革、プロテスタント神学、現代の宗教思想をドイツ語で理解する専門用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Reformation", "definition": "宗教改革"},
+                {"term": "Theologie", "definition": "神学"},
+                {"term": "Erlösung", "definition": "救済"},
+                {"term": "Glauben", "definition": "信仰"},
+                {"term": "Sakrament", "definition": "聖礼"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "神学表現",
+              "items": [
+                "Luthers Reformation revolutionierte das Christentum.",
+                "Die protestantische Ethik prägt die deutsche Kultur.",
+                "Bonhoeffer war ein einflussreicher Theologe des 20. Jahrhunderts."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "神学的議論",
+              "auxiliaryPrompt": "宗教思想をドイツ語で議論",
+              "answer": "現代ドイツにおける信仰と理性のバランスについてドイツ語で論じてください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "比較宗教学"
+            },
+            {
+              "type": "text",
+              "content": "ヨーロッパの宗教多様性と相互理解について学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l8",
+          "title": "Lesson 8: Kulturanthropologie und Volkskunde",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["民俗学", "文化人類学", "伝統文化"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ民族文化と伝統"
+            },
+            {
+              "type": "text",
+              "content": "ドイツの伝統文化、民俗、地域性を深く理解する人類学的な専門用語を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Volkskunde", "definition": "民俗学"},
+                {"term": "Brauchtum", "definition": "慣習"},
+                {"term": "Mythos", "definition": "神話"},
+                {"term": "Überlieferung", "definition": "伝承"},
+                {"term": "Identität", "definition": "アイデンティティ"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "文化表現",
+              "items": [
+                "Das Oktoberfest ist eine alte bayerische Tradition.",
+                "Die Karneval von Köln hat mittelalterliche Wurzeln.",
+                "Deutsche Märchen prägen die kulturelle Identität."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "文化現象分析",
+              "auxiliaryPrompt": "ドイツの文化現象を人類学的に分析",
+              "answer": "ドイツの伝統的なお祭りと現代社会の関係をドイツ語で分析してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "地域別文化特性"
+            },
+            {
+              "type": "text",
+              "content": "プロイセン、バイエルン、ルール地方など地域ごとの文化特性を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l9",
+          "title": "Lesson 9: Filmkunst und Kino",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["映画史", "映像理論", "映画批評"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ映画と映像文化"
+            },
+            {
+              "type": "text",
+              "content": "新ドイツ映画、Expressionismus im Film、現代のドイツ映画を理解する批評用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Neuer Deutscher Film", "definition": "新ドイツ映画"},
+                {"term": "Montage", "definition": "モンタージュ"},
+                {"term": "Kamera", "definition": "カメラ・映像"},
+                {"term": "Schnitt", "definition": "編集"},
+                {"term": "Bildkomposition", "definition": "画面構成"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "映画表現",
+              "items": [
+                "Fassbinder war ein Meister der Filmkunst.",
+                "Wenders untersuchte die deutsche Identität durch Film.",
+                "Das deutsche Expressionismus-Kino war innovativ."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "映画批評",
+              "auxiliaryPrompt": "ドイツ映画作品をドイツ語で批評",
+              "answer": "ドイツの有名映画作品を映像学的視点からドイツ語で分析してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "映像理論"
+            },
+            {
+              "type": "text",
+              "content": "映画の理論的側面と社会的役割について深く学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l10",
+          "title": "Lesson 10: Literarische Bewegungen und Epochen",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["文学運動", "時代特性", "作家群"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ文学の時代的発展"
+            },
+            {
+              "type": "text",
+              "content": "中世からポストモダンまで。ドイツ文学の主要な文学運動と特徴を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Minnegesang", "definition": "ミンネザング（中世叙情詩）"},
+                {"term": "Aufklärung", "definition": "啓蒙主義"},
+                {"term": "Sturm und Drang", "definition": "疾風怒涛"},
+                {"term": "Realismus", "definition": "現実主義"},
+                {"term": "Moderne", "definition": "近代主義"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "文学運動表現",
+              "items": [
+                "Der Sturm und Drang betonte Gefühl und Natur.",
+                "Die deutsche Romantik war eine Reaktion auf die Aufklärung.",
+                "Die Moderne fragmentierte traditionelle Erzählweisen."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "文学史研究",
+              "auxiliaryPrompt": "異なる時代のドイツ文学作品を比較分析",
+              "answer": "18世紀と20世紀のドイツ文学を比較して、時代的特性をドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "文学的方法論"
+            },
+            {
+              "type": "text",
+              "content": "文学研究の方法論と批評理論を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l11",
+          "title": "Lesson 11: Wissenschaftliche Schreibweise und akademisches Deutsch",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["学術文体", "論文作成", "引用法"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "学術的ドイツ語の書き方"
+            },
+            {
+              "type": "text",
+              "content": "大学論文、学位論文、学術出版での正式なドイツ語の書き方を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Dissertation", "definition": "博士論文"},
+                {"term": "Literaturverzeichnis", "definition": "参考文献"},
+                {"term": "Fußnote", "definition": "脚注"},
+                {"term": "Zitat", "definition": "引用"},
+                {"term": "Argument", "definition": "議論"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "学術表現",
+              "items": [
+                "Laut der Studie von Mueller...",
+                "Dies ist in der Literatur umstritten.",
+                "Zusammenfassend lässt sich sagen..."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "学術論文作成",
+              "auxiliaryPrompt": "学術的なドイツ語で論文を執筆",
+              "answer": "言語学的テーマで、正式な学術論文をドイツ語で執筆してください（3000語）。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "研究プレゼンテーション"
+            },
+            {
+              "type": "text",
+              "content": "学会での発表や学術会議でのドイツ語プレゼンテーションスキル。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l12",
+          "title": "Lesson 12: Kulturelle Debatten und Diskurse",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["文化論争", "公開討論", "知識人の言説"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ知識人の議論"
+            },
+            {
+              "type": "text",
+              "content": "現代ドイツの文化的議論、知識人の言説、公開討論を理解する上級表現を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Debatte", "definition": "議論・討論"},
+                {"term": "Diskurs", "definition": "言説"},
+                {"term": "These", "definition": "テーゼ・主張"},
+                {"term": "Widerspruch", "definition": "矛盾"},
+                {"term": "Synthese", "definition": "総合"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "論争表現",
+              "items": [
+                "Die Debatte um Erinnerungskultur ist wichtig.",
+                "Dieser Diskurs prägt die öffentliche Meinung.",
+                "Die Kritik der postkolonialen These ist berechtigt."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "公開討論参加",
+              "auxiliaryPrompt": "ドイツの文化的課題について議論",
+              "answer": "現代ドイツの多文化社会に関する討論をドイツ語で展開してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "メディア批評"
+            },
+            {
+              "type": "text",
+              "content": "ドイツメディアの報道と社会的影響を批評的に分析します。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l13",
+          "title": "Lesson 13: Architekturgeschichte und Städtebau",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["建築史", "都市計画", "デザイン原理"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ建築と都市デザイン"
+            },
+            {
+              "type": "text",
+              "content": "ゴシック建築からモダニズム、戦後再建築。ドイツ建築の歴史と理論を深く学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Gotik", "definition": "ゴシック式"},
+                {"term": "Barock", "definition": "バロック"},
+                {"term": "Modernismus", "definition": "モダニズム"},
+                {"term": "Funktionalismus", "definition": "機能主義"},
+                {"term": "Denkmalpflege", "definition": "文化財保護"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "建築表現",
+              "items": [
+                "Der Kölner Dom ist ein Meisterwerk der Gotik.",
+                "Das Bauhaus prägte den modernen Funktionalismus.",
+                "Berlin zeigt Baustile aus verschiedenen Epochen."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "建築作品分析",
+              "auxiliaryPrompt": "ドイツの有名建築作品を詳しく分析",
+              "answer": "ドイツの重要な建築作品を建築学的視点からドイツ語で分析してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "都市社会学"
+            },
+            {
+              "type": "text",
+              "content": "都市空間と社会関係の関係を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l14",
+          "title": "Lesson 14: Wissenschaftsgeschichte und Epistemologie",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["科学史", "認識論", "方法論"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "ドイツ科学思想"
+            },
+            {
+              "type": "text",
+              "content": "ドイツの科学的思考方法と認識論的議論を理解する上級用語を習得します。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Epistemologie", "definition": "認識論"},
+                {"term": "Methodologie", "definition": "方法論"},
+                {"term": "Hermeneutik", "definition": "解釈学"},
+                {"term": "Phänomenologie", "definition": "現象学"},
+                {"term": "Positivismus", "definition": "実証主義"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "科学理論表現",
+              "items": [
+                "Die Hermeneutik ist zentral für Geisteswissenschaften.",
+                "Diltheys Methode unterschied Natur- und Geisteswissenschaften.",
+                "Kuhn revolutionierte unser Verständnis von Wissenschaftswandel."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "科学論争分析",
+              "auxiliaryPrompt": "科学理論の議論をドイツ語で分析",
+              "answer": "科学研究における客観性と主観性の問題をドイツ語で論じてください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "学際的研究"
+            },
+            {
+              "type": "text",
+              "content": "複数の学問分野を統合する研究方法を学びます。"
+            }
+          ]
+        },
+        {
+          "id": "deu-acad-l15",
+          "title": "Lesson 15: Digitale Geisteswissenschaften und neue Medien",
+          "duration": "11:00",
+          "isPremium": false,
+          "checkItems": ["デジタル人文学", "メディア理論", "テキスト分析"],
+          "sections": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "デジタル時代の人文学"
+            },
+            {
+              "type": "text",
+              "content": "テキスト分析、デジタルアーカイブ、コーパス言語学などデジタル人文学の現代的課題を学びます。"
+            },
+            {
+              "type": "glossary",
+              "terms": [
+                {"term": "Digital Humanities", "definition": "デジタル人文学"},
+                {"term": "Textkorpus", "definition": "テキストコーパス"},
+                {"term": "Digitalisierung", "definition": "デジタル化"},
+                {"term": "Hypertext", "definition": "ハイパーテキスト"},
+                {"term": "Netzwerk", "definition": "ネットワーク"}
+              ]
+            },
+            {
+              "type": "highlight-box",
+              "title": "デジタル表現",
+              "items": [
+                "Digitale Archive ermöglichen neue Forschungsansätze.",
+                "Text Mining hilft, große Textmengen zu analysieren.",
+                "Netzwerkanalysen zeigen Verbindungen zwischen Autoren."
+              ]
+            },
+            {
+              "type": "practice",
+              "question": "デジタル研究プロジェクト",
+              "auxiliaryPrompt": "デジタル方法論を使用した研究計画",
+              "answer": "ドイツ文学のテキストをデジタル分析するプロジェクトをドイツ語で説明してください。"
+            },
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "メディア理論"
+            },
+            {
+              "type": "text",
+              "content": "現代メディア環境における意味生成と社会的影響を学びます。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

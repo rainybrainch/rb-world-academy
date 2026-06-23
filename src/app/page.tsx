@@ -98,14 +98,17 @@ export default function HomePage() {
 
       {/* ── Country アプリグリッド ── */}
       <div>
-        <div className="flex items-center gap-2 mb-3">
+        <div className="flex items-center gap-2 mb-4">
           <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-sky)' }} />
           <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            Country アプリ
+            🌍 Country アプリ
           </h2>
+          <span className="text-xs px-2 py-0.5 rounded-full font-semibold" style={{ background: 'rgba(26,122,166,0.1)', color: 'var(--mb-sky)' }}>
+            26ヶ国
+          </span>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {countriesList.map((country) => {
             // カウントリーレポートは外部リンク
             if (country.id === 'countries-report') {
@@ -115,28 +118,29 @@ export default function HomePage() {
                   href={country.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group"
+                  className="group flex flex-col items-center"
                 >
                   <div
-                    className="w-full rounded-2xl overflow-hidden border-2 relative cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                    className="w-full rounded-xl overflow-hidden border relative cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
                     style={{
                       aspectRatio: '1/1',
-                      borderColor: 'rgba(102,126,234,0.2)',
-                      background: 'linear-gradient(135deg, rgba(102,126,234,0.08) 0%, rgba(118,75,162,0.05) 100%)',
-                      boxShadow: '0 4px 12px rgba(26,122,166,0.2)',
+                      borderColor: 'rgba(102,126,234,0.3)',
+                      borderWidth: '1.5px',
+                      background: 'linear-gradient(135deg, rgba(102,126,234,0.12) 0%, rgba(118,75,162,0.08) 100%)',
+                      boxShadow: '0 6px 16px rgba(26,122,166,0.15)',
                     }}
                   >
                     <img
                       src={country.icon}
                       alt={country.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-400"
                     />
                     <div
-                      className="absolute inset-0 group-hover:bg-gradient-to-t group-hover:from-black/40 transition-all duration-300 pointer-events-none"
+                      className="absolute inset-0 transition-all duration-300 pointer-events-none group-hover:bg-gradient-to-t group-hover:from-black/30"
                       style={{ background: 'transparent' }}
                     />
                   </div>
-                  <p className="text-xs font-bold mt-2 text-center leading-tight" style={{ color: 'rgba(26,26,46,0.75)' }}>
+                  <p className="text-sm font-bold mt-3 text-center leading-snug px-1" style={{ color: 'rgba(26,26,46,0.8)' }}>
                     {country.name}
                   </p>
                 </a>
@@ -147,28 +151,29 @@ export default function HomePage() {
               <Link
                 key={country.id}
                 href={`/countries/${country.id}`}
-                className="group"
+                className="group flex flex-col items-center"
               >
                 <div
-                  className="w-full rounded-2xl overflow-hidden border-2 relative cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+                  className="w-full rounded-xl overflow-hidden border relative cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
                   style={{
                     aspectRatio: '1/1',
-                    borderColor: 'rgba(102,126,234,0.2)',
-                    background: 'linear-gradient(135deg, rgba(102,126,234,0.08) 0%, rgba(118,75,162,0.05) 100%)',
-                    boxShadow: '0 4px 12px rgba(26,122,166,0.2)',
+                    borderColor: 'rgba(102,126,234,0.3)',
+                    borderWidth: '1.5px',
+                    background: 'linear-gradient(135deg, rgba(102,126,234,0.12) 0%, rgba(118,75,162,0.08) 100%)',
+                    boxShadow: '0 6px 16px rgba(26,122,166,0.15)',
                   }}
                 >
                   <img
                     src={country.icon}
                     alt={country.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-400"
                   />
                   <div
-                    className="absolute inset-0 group-hover:bg-gradient-to-t group-hover:from-black/40 transition-all duration-300 pointer-events-none"
+                    className="absolute inset-0 transition-all duration-300 pointer-events-none group-hover:bg-gradient-to-t group-hover:from-black/30"
                     style={{ background: 'transparent' }}
                   />
                 </div>
-                <p className="text-xs font-bold mt-2 text-center leading-tight" style={{ color: 'rgba(26,26,46,0.75)' }}>
+                <p className="text-sm font-bold mt-3 text-center leading-snug px-1" style={{ color: 'rgba(26,26,46,0.8)' }}>
                   {country.name}
                 </p>
               </Link>

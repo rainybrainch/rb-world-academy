@@ -1,0 +1,280 @@
+{
+  "language": "sign_language",
+  "name": "手話",
+  "icon": "/images/genres/genre-sign-language.png",
+  "description": "国際手話・JSL（日本手話）。A1/A2/B1/B2 120講義完全カリキュラム。手形・位置・動き・表情の総合学習",
+  "levels": {
+    "A1": { "start": 1, "end": 30, "title": "Beginner Basic" },
+    "A2": { "start": 31, "end": 60, "title": "Beginner Advanced" },
+    "B1": { "start": 61, "end": 90, "title": "Intermediate" },
+    "B2": { "start": 91, "end": 120, "title": "Upper Intermediate" }
+  },
+  "lessons": [
+    {
+      "id": "sl-001",
+      "level": 1,
+      "chapter": 1,
+      "title": "Hand Shapes 基本5形 - 手形入門",
+      "objectives": ["5つの基本手形を習得する"],
+      "content": {
+        "introduction": "手話は手の形・位置・動き・表情で意味を伝えます。すべての基礎となる5つの基本手形を学びます。",
+        "sections": [
+          {
+            "title": "Open Hand（開いた手）",
+            "content": "5本指をすべて広げた状態。最も基本的な形です。",
+            "handshape_details": {
+              "palm_orientation": "前向き（Palm facing forward）",
+              "finger_position": "すべて広げて平行",
+              "use_cases": ["Greeting（挨拶）", "Offering（申し出）", "Five（5）"]
+            },
+            "glossary": [
+              {"sign": "HELLO", "meaning": "こんにちは", "handshape": "Open Hand", "movement": "手を上げて左右に振る"},
+              {"sign": "THANK-YOU", "meaning": "ありがとう", "handshape": "Open Hand", "movement": "手を下から上へ動かす"}
+            ]
+          },
+          {
+            "title": "Closed Fist（握った手）",
+            "content": "5本指をすべて握った状態。力強い表現に使われます。",
+            "handshape_details": {
+              "palm_orientation": "前向き or 横向き",
+              "finger_position": "すべて握られている",
+              "use_cases": ["Punch（パンチ）", "Hold（持つ）", "Strength（力）"]
+            },
+            "glossary": [
+              {"sign": "STRONG", "meaning": "強い", "handshape": "Closed Fist", "movement": "胸の前で握りしめる"},
+              {"sign": "HOLD", "meaning": "持つ", "handshape": "Closed Fist", "movement": "物を握るようにして保つ"}
+            ]
+          },
+          {
+            "title": "Pointing Finger（人差し指立てた）",
+            "content": "人差し指だけを立てた状態。指差しや指摘に使われます。",
+            "handshape_details": {
+              "palm_orientation": "前向き or 内側",
+              "finger_position": "人差し指のみ立てる",
+              "use_cases": ["Point（指す）", "You（あなた）", "Question（質問）"]
+            },
+            "glossary": [
+              {"sign": "YOU", "meaning": "あなた", "handshape": "Pointing Finger", "movement": "相手に向かって指す"},
+              {"sign": "POINT-AT", "meaning": "指す", "handshape": "Pointing Finger", "movement": "物体の方向に人差し指を向ける"}
+            ]
+          },
+          {
+            "title": "Peace Sign（V字形）",
+            "content": "人差し指と中指をV字に立てた状態。勝利や平和を表します。",
+            "handshape_details": {
+              "palm_orientation": "外向き or 内向き",
+              "finger_position": "人差し指と中指がV字に開く",
+              "use_cases": ["Peace（平和）", "Victory（勝利）", "Two（2）"]
+            },
+            "glossary": [
+              {"sign": "PEACE", "meaning": "平和", "handshape": "Peace Sign", "movement": "胸の前でV字を立てて保つ"},
+              {"sign": "TWO", "meaning": "2", "handshape": "Peace Sign", "movement": "手を前に出して立てる"}
+            ]
+          },
+          {
+            "title": "Thumbs Up（親指立てた）",
+            "content": "親指だけを上に立てた状態。肯定や賞賛を表します。",
+            "handshape_details": {
+              "palm_orientation": "内側向き",
+              "finger_position": "親指のみ上向きに立つ",
+              "use_cases": ["Good（良い）", "Excellent（素晴らしい）", "Agree（同意）"]
+            },
+            "glossary": [
+              {"sign": "GOOD", "meaning": "良い", "handshape": "Thumbs Up", "movement": "親指を上に向けて立てる"},
+              {"sign": "EXCELLENT", "meaning": "素晴らしい", "handshape": "Thumbs Up", "movement": "親指を上げて喜びを表現"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-002",
+      "level": 1,
+      "chapter": 1,
+      "title": "Finger Spelling 指文字 - アルファベット入門",
+      "objectives": ["26文字の指文字をマスターする"],
+      "content": {
+        "introduction": "固有名詞や新しい単語は指文字で表します。アルファベット26文字の指形を習得しましょう。",
+        "sections": [
+          {
+            "title": "A-F の指文字",
+            "content": "最初の6文字を学びます。各文字は指の形で区別されます。",
+            "handshape_details": {
+              "A": {"shape": "握りこぶしで親指を横に出す", "movement": "静止"},
+              "B": {"shape": "4本指を立てる（親指は側面）", "movement": "静止"},
+              "C": {"shape": "手を半円形に開く", "movement": "静止"},
+              "D": {"shape": "中指・薬指・小指を立てる", "movement": "静止"},
+              "E": {"shape": "5本指を少し曲げて閉じる", "movement": "静止"},
+              "F": {"shape": "親指と人差し指で円を作る", "movement": "静止"}
+            }
+          },
+          {
+            "title": "G-L の指文字",
+            "content": "G から L までの指文字。複雑さが増し始めます。",
+            "handshape_details": {
+              "G": {"shape": "人差し指と親指をL字に", "movement": "静止"},
+              "H": {"shape": "人差し指と中指を並べる", "movement": "静止"},
+              "I": {"shape": "小指だけ立てる", "movement": "静止"},
+              "J": {"shape": "小指をかぎ状に曲げる", "movement": "回転"},
+              "K": {"shape": "人差し指・中指と親指でK字", "movement": "静止"},
+              "L": {"shape": "人差し指と親指が直角", "movement": "静止"}
+            }
+          },
+          {
+            "title": "M-R の指文字",
+            "content": "M から R までの指文字。より複雑な形を習得します。",
+            "handshape_details": {
+              "M": {"shape": "3本指（中・薬・小）を親指で押さえる", "movement": "静止"},
+              "N": {"shape": "2本指（薬・小）を親指で押さえる", "movement": "静止"},
+              "O": {"shape": "5本指で輪を作る", "movement": "静止"},
+              "P": {"shape": "K字で中指を下に曲げる", "movement": "静止"},
+              "Q": {"shape": "O字で手を回転", "movement": "回転"},
+              "R": {"shape": "人差し指と中指が交差", "movement": "静止"}
+            }
+          },
+          {
+            "title": "S-Z の指文字",
+            "content": "残りの文字と数字の指文字。指文字の完成です。",
+            "handshape_details": {
+              "S": {"shape": "握った状態で親指と人差し指の側面だけ見える", "movement": "静止"},
+              "T": {"shape": "人差し指を親指の側面に立てる", "movement": "静止"},
+              "U": {"shape": "人差し指と中指を立てて閉じる", "movement": "静止"},
+              "V": {"shape": "人差し指と中指がV字", "movement": "静止"},
+              "W": {"shape": "人差し・中指・薬指が立つ", "movement": "静止"},
+              "X": {"shape": "人差し指がかぎ状", "movement": "静止"},
+              "Y": {"shape": "親指と小指が立つ", "movement": "上下に揺れる"},
+              "Z": {"shape": "人差し指でZ字を描く", "movement": "Z字を描く"}
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-003",
+      "level": 1,
+      "chapter": 1,
+      "title": "Basic Greetings 基本挨拶",
+      "objectives": ["日常の基本挨拶を実行できる"],
+      "content": {
+        "introduction": "手話コミュニティへの入り口。笑顔と身振りで相手を迎えます。",
+        "sections": [
+          {
+            "title": "HELLO - こんにちは",
+            "content": "最も基本的な挨拶。手を顔の側面から上げて、左右に振ります。",
+            "handshape": "Open Hand",
+            "location": "顔の側面から肩の高さ",
+            "movement": "左右に振る",
+            "facial_expression": "笑顔・友好的",
+            "example": "HELLO, nice to meet you"
+          },
+          {
+            "title": "GOOD-MORNING - おはようございます",
+            "content": "朝の挨拶。太陽の位置を示してから GOOD を表現します。",
+            "handshape": "Open Hand → Thumbs Up",
+            "location": "胸の前～顔前",
+            "movement": "Open Hand で地平線を示す → Thumbs Up",
+            "facial_expression": "明るい笑顔",
+            "example": "GOOD-MORNING, how are you?"
+          },
+          {
+            "title": "GOOD-EVENING - こんばんは",
+            "content": "夕方の挨拶。太陽が沈む様子を表現します。",
+            "handshape": "Open Hand（下降）",
+            "location": "胸～腰",
+            "movement": "Open Hand で太陽が沈む動きを表現",
+            "facial_expression": "親しみやすい笑顔",
+            "example": "GOOD-EVENING, everyone"
+          },
+          {
+            "title": "GOODBYE - さようなら",
+            "content": "別れの挨拶。手を上げて左右に振ります（HELLO の変種）。",
+            "handshape": "Open Hand",
+            "location": "肩の高さ",
+            "movement": "左右に振る（HELLO より大きく）",
+            "facial_expression": "友好的・親しみやすい",
+            "example": "GOODBYE, see you later"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-004",
+      "level": 1,
+      "chapter": 1,
+      "title": "Personal Pronouns 人称代名詞",
+      "objectives": ["I / YOU / HE / SHE を表現できる"],
+      "content": {
+        "introduction": "手話では指さしで人称を表現します。空間に人物を設定します。",
+        "sections": [
+          {
+            "title": "I - 私",
+            "content": "人差し指を胸に向けて指す。自分を指します。",
+            "handshape": "Pointing Finger",
+            "location": "胸",
+            "movement": "胸に向かって指す",
+            "example": "I am happy"
+          },
+          {
+            "title": "YOU - あなた",
+            "content": "人差し指を相手に向けて指す。",
+            "handshape": "Pointing Finger",
+            "location": "相手の方向",
+            "movement": "相手を指す",
+            "example": "YOU come here"
+          },
+          {
+            "title": "HE / SHE - 彼 / 彼女",
+            "content": "その人がいた方向を指す。先に人物を空間に設定します。",
+            "handshape": "Pointing Finger",
+            "location": "その人がいた位置",
+            "movement": "その位置を指す",
+            "example": "HE is my friend"
+          },
+          {
+            "title": "WE - 私たち",
+            "content": "握った手で自分から相手側に円弧を描く。",
+            "handshape": "Closed Fist or Index Fingers",
+            "location": "胸の前",
+            "movement": "自分から相手に向かって円弧を描く",
+            "example": "WE are friends"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-005",
+      "level": 1,
+      "chapter": 1,
+      "title": "Numbers 1-10 数字1-10",
+      "objectives": ["1から10までの数字を表現できる"],
+      "content": {
+        "introduction": "手話の数字表現。右手で数字を作ります。",
+        "sections": [
+          {
+            "title": "ONE to FIVE",
+            "content": "1-5は指の数をそのまま表現します。",
+            "handshapes": {
+              "ONE": "Pointing Finger（人差し指立てる）",
+              "TWO": "Peace Sign（人差し・中指V字）",
+              "THREE": "3本指立てる",
+              "FOUR": "4本指立てる",
+              "FIVE": "Open Hand（5本指すべて広げる）"
+            }
+          },
+          {
+            "title": "SIX to TEN",
+            "content": "6-10は左手の5を基に右手で1-5を追加します。",
+            "handshapes": {
+              "SIX": "Open Hand（左）+ Thumbs Up（右）",
+              "SEVEN": "Open Hand（左）+人差し・中指（右）",
+              "EIGHT": "Open Hand（左）+ 3本指（右）",
+              "NINE": "Open Hand（左）+ 4本指（右）",
+              "TEN": "両手でX字"
+            }
+          }
+        ]
+      }
+    },
+    {"id": "sl-006", "level": 1, "chapter": 2, "title": "Family Members 家族表現", "objectives": ["家族の各メンバーを表現できる"], "content": {"introduction": "家族は基本的に手を顔の周りで動かして表現します。", "sections": [{"title": "MOTHER - 母親", "content": "5本指の手を頬に当てる。女性は一般に頬の下側で表現します。", "handshape": "Open Hand", "location": "頬（下側）", "movement": "軽く当てる", "example": "MY MOTHER is kind"}, {"title": "FATHER - 父親", "content": "5本指の手を額に当てる。男性は一般に額側で表現します。", "handshape": "Open Hand", "location": "額", "movement": "軽く当てる", "example": "MY FATHER works hard"}, {"title": "SISTER - 姉妹", "content": "MOTHER の形から下に動かす。", "handshape": "Open Hand", "location": "頬から下へ", "movement": "下に動かす", "example": "MY SISTER is funny"}, {"title": "BROTHER - 兄弟", "content": "FATHER の形から下に動かす。", "handshape": "Open Hand", "location": "額から下へ", "movement": "下に動かす", "example": "MY BROTHER is strong"}]}}
+  ]
+}

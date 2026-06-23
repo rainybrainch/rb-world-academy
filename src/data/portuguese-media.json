@@ -1,0 +1,444 @@
+{
+  "specializedLessons": [
+    {
+      "id": "por-news-1",
+      "title": "Lesson 1: Jornalismo e Redação",
+      "duration": "11:00",
+      "field": "media",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Estrutura de Notícia"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda a estrutura e linguagem da notícia jornalística."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Manchete", "definition": "見出し" },
+            { "term": "Lead", "definition": "リード（書き出し）" },
+            { "term": "Corpo da notícia", "definition": "記事本文" },
+            { "term": "Apuração", "definition": "取材" },
+            { "term": "Fonte", "definition": "情報源" },
+            { "term": "Contextualização", "definition": "背景説明" },
+            { "term": "Headline", "definition": "ヘッドライン" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Estrutura Padrão",
+          "items": [
+            "Manchete clara e atrativa",
+            "Lead com os 5 Ws (quem, o quê, quando, onde, por quê)",
+            "Desenvolvimento com detalhes e contexto"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Escrever Notícia",
+          "auxiliaryPrompt": "Redija notícia completa",
+          "answer": "Crie notícia de 300 palavras com estructura correta."
+        }
+      ]
+    },
+    {
+      "id": "por-news-2",
+      "title": "Lesson 2: Tipos de Jornalismo",
+      "duration": "11:00",
+      "field": "media",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Especialidades Jornalísticas"
+        },
+        {
+          "type": "text",
+          "content": "Explore diferentes tipos e gêneros de jornalismo."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Jornalismo investigativo", "definition": "調査報道" },
+            { "term": "Jornalismo de dados", "definition": "データ報道" },
+            { "term": "Jornalismo de opinião", "definition": "オピニオン記事" },
+            { "term": "Reportagem", "definition": "特集記事" },
+            { "term": "Entrevista", "definition": "インタビュー" },
+            { "term": "Editorial", "definition": "社説" },
+            { "term": "Crônica", "definition": "コラム" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Gêneros Jornalísticos",
+          "items": [
+            "Notícia: informação factual",
+            "Reportagem: aprofundamento investigativo",
+            "Opinião: análise e comentário"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Diversas Formas",
+          "auxiliaryPrompt": "Escreva em gênero diferente",
+          "answer": "Produza editorial ou crônica."
+        }
+      ]
+    },
+    {
+      "id": "por-news-3",
+      "title": "Lesson 3: Ética Jornalística",
+      "duration": "11:00",
+      "field": "media",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Códigos Deontológicos"
+        },
+        {
+          "type": "text",
+          "content": "Compreenda princípios éticos do jornalismo profissional."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Veracidade", "definition": "真実性" },
+            { "term": "Imparcialidade", "definition": "中立性" },
+            { "term": "Independência editorial", "definition": "編集の独立性" },
+            { "term": "Responsabilidade", "definition": "責任" },
+            { "term": "Transparência", "definition": "透明性" },
+            { "term": "Direito de resposta", "definition": "反論権" },
+            { "term": "Sigilo de fonte", "definition": "情報源の秘匿" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Princípios Éticos",
+          "items": [
+            "Busca pela verdade e checagem de fatos",
+            "Respeito à privacidade e dignidade",
+            "Separação clara entre notícia e opinião"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Dilema Ético",
+          "auxiliaryPrompt": "Resolva questão ética jornalística",
+          "answer": "Justifique decisão editorial."
+        }
+      ]
+    },
+    {
+      "id": "por-news-4",
+      "title": "Lesson 4: Jornalismo Digital",
+      "duration": "11:00",
+      "field": "media",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Jornalismo na Era Digital"
+        },
+        {
+          "type": "text",
+          "content": "Estude práticas de jornalismo para web e redes sociais."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Conteúdo multimídia", "definition": "マルチメディアコンテンツ" },
+            { "term": "Viral", "definition": "バイラル" },
+            { "term": "Engajamento", "definition": "エンゲージメント" },
+            { "term": "SEO", "definition": "SEO（検索エンジン最適化）" },
+            { "term": "Paywalled", "definition": "有料購読" },
+            { "term": "Livestream", "definition": "ライブストリーム" },
+            { "term": "Hashtag", "definition": "ハッシュタグ" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Estratégias Digitais",
+          "items": [
+            "Otimização para buscadores",
+            "Criação de títulos click-friendly",
+            "Uso estratégico de redes sociais"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Estratégia Digital",
+          "auxiliaryPrompt": "Desenvolva campanha online",
+          "answer": "Planeje distribuição em múltiplos canais."
+        }
+      ]
+    },
+    {
+      "id": "por-news-5",
+      "title": "Lesson 5: Checagem de Fatos",
+      "duration": "11:00",
+      "field": "media",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Fact-checking e Verificação"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda técnicas de verificação de informação."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Fact-checking", "definition": "ファクトチェック" },
+            { "term": "Desinformação", "definition": "偽情報" },
+            { "term": "Fake news", "definition": "フェイクニュース" },
+            { "term": "Fonte confiável", "definition": "信頼できる情報源" },
+            { "term": "Verificação cruzada", "definition": "クロスチェック" },
+            { "term": "Contexto", "definition": "文脈" },
+            { "term": "Viés", "definition": "バイアス" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Processo de Verificação",
+          "items": [
+            "Identificar afirmações verificáveis",
+            "Conferir múltiplas fontes",
+            "Buscar documentação original"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Verificar Informação",
+          "auxiliaryPrompt": "Cheque fato questionável",
+          "answer": "Relate resultado de fact-checking."
+        }
+      ]
+    },
+    {
+      "id": "por-news-6",
+      "title": "Lesson 6: Cobertura de Eventos",
+      "duration": "11:00",
+      "field": "media",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Jornalismo de Cobertura"
+        },
+        {
+          "type": "text",
+          "content": "Domine técnicas de cobertura de eventos ao vivo."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Cobertura", "definition": "取材カバー" },
+            { "term": "Breaking news", "definition": "速報" },
+            { "term": "Transmissão ao vivo", "definition": "ライブ配信" },
+            { "term": "Correspondente", "definition": "特派員" },
+            { "term": "Cronômetro", "definition": "タイムキープ" },
+            { "term": "Repórter de rua", "definition": "現場レポーター" },
+            { "term": "Desk", "definition": "編集デスク" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Tipos de Eventos",
+          "items": [
+            "Política: eleições, discursos",
+            "Catástrofes: coberturas de emergência",
+            "Esportes: eventos competitivos"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Cobertura de Evento",
+          "auxiliaryPrompt": "Planeje cobertura jornalística",
+          "answer": "Descreva estratégia de apuração."
+        }
+      ]
+    },
+    {
+      "id": "por-news-7",
+      "title": "Lesson 7: Radiojornalismo",
+      "duration": "11:00",
+      "field": "media",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Jornalismo para Rádio"
+        },
+        {
+          "type": "text",
+          "content": "Explore técnicas específicas do radiojornalismo."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Spot", "definition": "短編ニュース" },
+            { "term": "Áudio", "definition": "オーディオ" },
+            { "term": "Entrevista ao vivo", "definition": "ライブインタビュー" },
+            { "term": "Boletim", "definition": "ニュース速報" },
+            { "term": "Repórter de estúdio", "definition": "スタジオレポーター" },
+            { "term": "Edição de áudio", "definition": "音声編集" },
+            { "term": "Vinheta", "definition": "ジングル" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Características do Rádio",
+          "items": [
+            "Linguagem coloquial e acessível",
+            "Clareza na pronúncia",
+            "Respeito ao tempo de transmissão"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Script de Rádio",
+          "auxiliaryPrompt": "Escreva script radiofônico",
+          "answer": "Crie boletim de 3 minutos."
+        }
+      ]
+    },
+    {
+      "id": "por-news-8",
+      "title": "Lesson 8: Jornalismo de Dados",
+      "duration": "11:00",
+      "field": "media",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Análise e Visualização de Dados"
+        },
+        {
+          "type": "text",
+          "content": "Domine jornalismo baseado em dados e estatísticas."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Base de dados", "definition": "データベース" },
+            { "term": "Análise estatística", "definition": "統計分析" },
+            { "term": "Visualização", "definition": "ビジュアライゼーション" },
+            { "term": "Infográfico", "definition": "インフォグラフィック" },
+            { "term": "Gráfico", "definition": "グラフ" },
+            { "term": "Correlação", "definition": "相関" },
+            { "term": "Tendência", "definition": "トレンド" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Exemplos de Análise",
+          "items": [
+            "Evolução de casos COVID ao longo do tempo",
+            "Comparação de políticas orçamentárias",
+            "Análise de padrões de criminalidade"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Reportagem de Dados",
+          "auxiliaryPrompt": "Analise dataset jornalístico",
+          "answer": "Crie reportagem com visualizações."
+        }
+      ]
+    },
+    {
+      "id": "por-news-9",
+      "title": "Lesson 9: Entrevista Jornalística",
+      "duration": "11:00",
+      "field": "media",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Técnicas de Entrevista"
+        },
+        {
+          "type": "text",
+          "content": "Aprenda técnicas de condução de entrevistas profissionais."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Entrevista aberta", "definition": "オープンな質問" },
+            { "term": "Pergunta fechada", "definition": "クローズドな質問" },
+            { "term": "Seguimento", "definition": "フォローアップ" },
+            { "term": "Pausa", "definition": "沈黙" },
+            { "term": "Empatia", "definition": "共感" },
+            { "term": "Escuta ativa", "definition": "積極的な傾聴" },
+            { "term": "Transcrição", "definition": "書き起こし" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Tipos de Entrevista",
+          "items": [
+            "Entrevista jornalística: informações",
+            "Entrevista de perfil: conhecer a pessoa",
+            "Entrevista em profundidade: tema complexo"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Conduzir Entrevista",
+          "auxiliaryPrompt": "Faça entrevista estruturada",
+          "answer": "Transcreva resultado."
+        }
+      ]
+    },
+    {
+      "id": "por-news-10",
+      "title": "Lesson 10: Crítica e Análise",
+      "duration": "11:00",
+      "field": "media",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Crítica Cultural e Política"
+        },
+        {
+          "type": "text",
+          "content": "Estude jornalismo de crítica e análise de tendências."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            { "term": "Crítica literária", "definition": "文学批評" },
+            { "term": "Análise política", "definition": "政治分析" },
+            { "term": "Opinião fundamentada", "definition": "根拠のある意見" },
+            { "term": "Resenha", "definition": "レビュー" },
+            { "term": "Colunista", "definition": "コラムニスト" },
+            { "term": "Argumento", "definition": "論証" },
+            { "term": "Contraponto", "definition": "対比" }
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Formatos de Crítica",
+          "items": [
+            "Crítica de filme ou série",
+            "Análise política de conjuntura",
+            "Coluna de opinião semanal"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Escrever Crítica",
+          "auxiliaryPrompt": "Produza texto crítico",
+          "answer": "Crie análise estruturada e argumentada."
+        }
+      ]
+    }
+  ]
+}

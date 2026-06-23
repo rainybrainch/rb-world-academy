@@ -1,0 +1,3510 @@
+{
+  "language": "sign_language",
+  "name": "手話",
+  "icon": "/images/genres/genre-sign-language.png",
+  "description": "国際手話・JSL（日本手話）。A1/A2/B1/B2 120講義完全カリキュラム。手形・位置・動き・表情の総合学習",
+  "levels": {
+    "A1": {
+      "start": 1,
+      "end": 30,
+      "title": "Beginner Basic"
+    },
+    "A2": {
+      "start": 31,
+      "end": 60,
+      "title": "Beginner Advanced"
+    },
+    "B1": {
+      "start": 61,
+      "end": 90,
+      "title": "Intermediate"
+    },
+    "B2": {
+      "start": 91,
+      "end": 120,
+      "title": "Upper Intermediate"
+    }
+  },
+  "lessons": [
+    {
+      "id": "sl-001",
+      "chapter": 1,
+      "title": "Hand Shapes 基本5形",
+      "objectives": [
+        "5つの基本手形を習得する"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Hand Shapes 基本5形の内容を学びます。",
+        "sections": [
+          {
+            "title": "Hand Shapes 基本5形 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Hand Shapes 基本5形に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-002",
+      "chapter": 1,
+      "title": "Finger Spelling 指文字",
+      "objectives": [
+        "26文字の指文字をマスターする"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Finger Spelling 指文字の内容を学びます。",
+        "sections": [
+          {
+            "title": "Finger Spelling 指文字 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Finger Spelling 指文字に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-003",
+      "chapter": 1,
+      "title": "Basic Greetings 基本挨拶",
+      "objectives": [
+        "日常の基本挨拶を実行できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Basic Greetings 基本挨拶の内容を学びます。",
+        "sections": [
+          {
+            "title": "Basic Greetings 基本挨拶 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Basic Greetings 基本挨拶に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-004",
+      "chapter": 1,
+      "title": "Personal Pronouns 人称代名詞",
+      "objectives": [
+        "I/YOU/HE/SHEを表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Personal Pronouns 人称代名詞の内容を学びます。",
+        "sections": [
+          {
+            "title": "Personal Pronouns 人称代名詞 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Personal Pronouns 人称代名詞に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-005",
+      "chapter": 1,
+      "title": "Numbers 1-10 数字1-10",
+      "objectives": [
+        "1から10までの数字を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Numbers 1-10 数字1-10の内容を学びます。",
+        "sections": [
+          {
+            "title": "Numbers 1-10 数字1-10 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Numbers 1-10 数字1-10に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-006",
+      "chapter": 2,
+      "title": "Family Members 家族表現",
+      "objectives": [
+        "家族の各メンバーを表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Family Members 家族表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Family Members 家族表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Family Members 家族表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-007",
+      "chapter": 2,
+      "title": "Basic Emotions 基本感情",
+      "objectives": [
+        "喜怒哀楽を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Basic Emotions 基本感情の内容を学びます。",
+        "sections": [
+          {
+            "title": "Basic Emotions 基本感情 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Basic Emotions 基本感情に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-008",
+      "chapter": 2,
+      "title": "Body Parts 身体部分",
+      "objectives": [
+        "身体各部を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Body Parts 身体部分の内容を学びます。",
+        "sections": [
+          {
+            "title": "Body Parts 身体部分 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Body Parts 身体部分に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-009",
+      "chapter": 2,
+      "title": "Colors 色彩表現",
+      "objectives": [
+        "基本的な色を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Colors 色彩表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Colors 色彩表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Colors 色彩表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-010",
+      "chapter": 2,
+      "title": "Days of Week 曜日",
+      "objectives": [
+        "一週間の曜日を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Days of Week 曜日の内容を学びます。",
+        "sections": [
+          {
+            "title": "Days of Week 曜日 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Days of Week 曜日に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-011",
+      "chapter": 3,
+      "title": "Months 月の表現",
+      "objectives": [
+        "12ヶ月を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Months 月の表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Months 月の表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Months 月の表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-012",
+      "chapter": 3,
+      "title": "Time Telling 時間表現",
+      "objectives": [
+        "時間を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Time Telling 時間表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Time Telling 時間表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Time Telling 時間表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-013",
+      "chapter": 3,
+      "title": "Common Objects 日常的な物",
+      "objectives": [
+        "よく使う物を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Common Objects 日常的な物の内容を学びます。",
+        "sections": [
+          {
+            "title": "Common Objects 日常的な物 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Common Objects 日常的な物に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-014",
+      "chapter": 3,
+      "title": "Food Items 食べ物",
+      "objectives": [
+        "食べ物を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Food Items 食べ物の内容を学びます。",
+        "sections": [
+          {
+            "title": "Food Items 食べ物 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Food Items 食べ物に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-015",
+      "chapter": 3,
+      "title": "Animals 動物",
+      "objectives": [
+        "基本的な動物を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Animals 動物の内容を学びます。",
+        "sections": [
+          {
+            "title": "Animals 動物 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Animals 動物に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-016",
+      "chapter": 4,
+      "title": "Clothing 衣類表現",
+      "objectives": [
+        "服装を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Clothing 衣類表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Clothing 衣類表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Clothing 衣類表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-017",
+      "chapter": 4,
+      "title": "Weather 天気表現",
+      "objectives": [
+        "天気を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Weather 天気表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Weather 天気表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Weather 天気表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-018",
+      "chapter": 4,
+      "title": "Locations 場所表現",
+      "objectives": [
+        "場所を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Locations 場所表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Locations 場所表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Locations 場所表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-019",
+      "chapter": 4,
+      "title": "Question Signs 質問標識",
+      "objectives": [
+        "yes/noを表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Question Signs 質問標識の内容を学びます。",
+        "sections": [
+          {
+            "title": "Question Signs 質問標識 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Question Signs 質問標識に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-020",
+      "chapter": 4,
+      "title": "Positive Signs ポジティブ表現",
+      "objectives": [
+        "肯定的な表現を習得する"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Positive Signs ポジティブ表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Positive Signs ポジティブ表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Positive Signs ポジティブ表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-021",
+      "chapter": 5,
+      "title": "Negative Signs ネガティブ表現",
+      "objectives": [
+        "否定的な表現を習得する"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Negative Signs ネガティブ表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Negative Signs ネガティブ表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Negative Signs ネガティブ表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-022",
+      "chapter": 5,
+      "title": "Action Verbs 動作動詞",
+      "objectives": [
+        "基本的な動作を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Action Verbs 動作動詞の内容を学びます。",
+        "sections": [
+          {
+            "title": "Action Verbs 動作動詞 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Action Verbs 動作動詞に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-023",
+      "chapter": 5,
+      "title": "Movement Classifier 動きの分類",
+      "objectives": [
+        "様々な動きを分類できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Movement Classifier 動きの分類の内容を学びます。",
+        "sections": [
+          {
+            "title": "Movement Classifier 動きの分類 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Movement Classifier 動きの分類に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-024",
+      "chapter": 5,
+      "title": "Size and Shape サイズと形",
+      "objectives": [
+        "大きさと形を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Size and Shape サイズと形の内容を学びます。",
+        "sections": [
+          {
+            "title": "Size and Shape サイズと形 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Size and Shape サイズと形に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-025",
+      "chapter": 6,
+      "title": "Spatial Relationships 空間関係",
+      "objectives": [
+        "上下左右の位置関係を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Spatial Relationships 空間関係の内容を学びます。",
+        "sections": [
+          {
+            "title": "Spatial Relationships 空間関係 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Spatial Relationships 空間関係に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-026",
+      "chapter": 6,
+      "title": "Possession ポッセッション",
+      "objectives": [
+        "所有を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Possession ポッセッションの内容を学びます。",
+        "sections": [
+          {
+            "title": "Possession ポッセッション - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Possession ポッセッションに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-027",
+      "chapter": 6,
+      "title": "Asking Names 名前の尋ね方",
+      "objectives": [
+        "名前を尋ねられる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Asking Names 名前の尋ね方の内容を学びます。",
+        "sections": [
+          {
+            "title": "Asking Names 名前の尋ね方 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Asking Names 名前の尋ね方に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-028",
+      "chapter": 6,
+      "title": "Self Introduction 自己紹介",
+      "objectives": [
+        "自分を紹介できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Self Introduction 自己紹介の内容を学びます。",
+        "sections": [
+          {
+            "title": "Self Introduction 自己紹介 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Self Introduction 自己紹介に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-029",
+      "chapter": 6,
+      "title": "Polite Expressions 丁寧な表現",
+      "objectives": [
+        "敬意を表現できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "Polite Expressions 丁寧な表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Polite Expressions 丁寧な表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Polite Expressions 丁寧な表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-030",
+      "chapter": 6,
+      "title": "A1 Review and Consolidation",
+      "objectives": [
+        "A1の内容を統合できる"
+      ],
+      "level": 1,
+      "content": {
+        "introduction": "A1 Review and Consolidationの内容を学びます。",
+        "sections": [
+          {
+            "title": "A1 Review and Consolidation - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "A1 Review and Consolidationに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-031",
+      "chapter": 7,
+      "title": "Detailed Colors 詳細な色表現",
+      "objectives": [
+        "微妙な色合いを表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Detailed Colors 詳細な色表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Detailed Colors 詳細な色表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Detailed Colors 詳細な色表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-032",
+      "chapter": 7,
+      "title": "Adjectives 形容詞表現",
+      "objectives": [
+        "様々な形容詞を使える"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Adjectives 形容詞表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Adjectives 形容詞表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Adjectives 形容詞表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-033",
+      "chapter": 7,
+      "title": "Descriptions of People 人物描写",
+      "objectives": [
+        "人物を詳しく描写できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Descriptions of People 人物描写の内容を学びます。",
+        "sections": [
+          {
+            "title": "Descriptions of People 人物描写 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Descriptions of People 人物描写に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-034",
+      "chapter": 7,
+      "title": "Occupations 職業",
+      "objectives": [
+        "様々な職業を表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Occupations 職業の内容を学びます。",
+        "sections": [
+          {
+            "title": "Occupations 職業 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Occupations 職業に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-035",
+      "chapter": 8,
+      "title": "School and Education 学校教育",
+      "objectives": [
+        "学校関連を表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "School and Education 学校教育の内容を学びます。",
+        "sections": [
+          {
+            "title": "School and Education 学校教育 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "School and Education 学校教育に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-036",
+      "chapter": 8,
+      "title": "Numbers 11-100 数字拡張",
+      "objectives": [
+        "11から100まで表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Numbers 11-100 数字拡張の内容を学びます。",
+        "sections": [
+          {
+            "title": "Numbers 11-100 数字拡張 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Numbers 11-100 数字拡張に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-037",
+      "chapter": 8,
+      "title": "Prices and Money 価格とお金",
+      "objectives": [
+        "お金を表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Prices and Money 価格とお金の内容を学びます。",
+        "sections": [
+          {
+            "title": "Prices and Money 価格とお金 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Prices and Money 価格とお金に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-038",
+      "chapter": 8,
+      "title": "Sports Activities スポーツ",
+      "objectives": [
+        "スポーツを表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Sports Activities スポーツの内容を学びます。",
+        "sections": [
+          {
+            "title": "Sports Activities スポーツ - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Sports Activities スポーツに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-039",
+      "chapter": 9,
+      "title": "Hobbies and Interests 趣味",
+      "objectives": [
+        "趣味を表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Hobbies and Interests 趣味の内容を学びます。",
+        "sections": [
+          {
+            "title": "Hobbies and Interests 趣味 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Hobbies and Interests 趣味に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-040",
+      "chapter": 9,
+      "title": "Transportation 乗り物",
+      "objectives": [
+        "乗り物を表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Transportation 乗り物の内容を学びます。",
+        "sections": [
+          {
+            "title": "Transportation 乗り物 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Transportation 乗り物に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-041",
+      "chapter": 9,
+      "title": "Travel and Tourism 旅行",
+      "objectives": [
+        "旅行について話せる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Travel and Tourism 旅行の内容を学びます。",
+        "sections": [
+          {
+            "title": "Travel and Tourism 旅行 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Travel and Tourism 旅行に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-042",
+      "chapter": 9,
+      "title": "Restaurants and Food 食事",
+      "objectives": [
+        "食事について話せる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Restaurants and Food 食事の内容を学びます。",
+        "sections": [
+          {
+            "title": "Restaurants and Food 食事 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Restaurants and Food 食事に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-043",
+      "chapter": 10,
+      "title": "Past Tense 過去時制",
+      "objectives": [
+        "過去のことを表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Past Tense 過去時制の内容を学びます。",
+        "sections": [
+          {
+            "title": "Past Tense 過去時制 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Past Tense 過去時制に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-044",
+      "chapter": 10,
+      "title": "Future Tense 未来時制",
+      "objectives": [
+        "未来のことを表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Future Tense 未来時制の内容を学びます。",
+        "sections": [
+          {
+            "title": "Future Tense 未来時制 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Future Tense 未来時制に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-045",
+      "chapter": 10,
+      "title": "Continuous Actions 継続動作",
+      "objectives": [
+        "継続している動作を表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Continuous Actions 継続動作の内容を学びます。",
+        "sections": [
+          {
+            "title": "Continuous Actions 継続動作 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Continuous Actions 継続動作に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-046",
+      "chapter": 10,
+      "title": "Conditional Expressions 条件表現",
+      "objectives": [
+        "条件を表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Conditional Expressions 条件表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Conditional Expressions 条件表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Conditional Expressions 条件表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-047",
+      "chapter": 11,
+      "title": "Questions Advanced 質問応用",
+      "objectives": [
+        "複雑な質問ができる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Questions Advanced 質問応用の内容を学びます。",
+        "sections": [
+          {
+            "title": "Questions Advanced 質問応用 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Questions Advanced 質問応用に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-048",
+      "chapter": 11,
+      "title": "Comparative Expressions 比較表現",
+      "objectives": [
+        "比較ができる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Comparative Expressions 比較表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Comparative Expressions 比較表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Comparative Expressions 比較表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-049",
+      "chapter": 11,
+      "title": "Superlatives 最上級表現",
+      "objectives": [
+        "最上級を使える"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Superlatives 最上級表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Superlatives 最上級表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Superlatives 最上級表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-050",
+      "chapter": 11,
+      "title": "Reasons and Causes 理由と原因",
+      "objectives": [
+        "理由を説明できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Reasons and Causes 理由と原因の内容を学びます。",
+        "sections": [
+          {
+            "title": "Reasons and Causes 理由と原因 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Reasons and Causes 理由と原因に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-051",
+      "chapter": 12,
+      "title": "Emotion Nuance 感情の微妙さ",
+      "objectives": [
+        "複雑な感情を表現できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Emotion Nuance 感情の微妙さの内容を学びます。",
+        "sections": [
+          {
+            "title": "Emotion Nuance 感情の微妙さ - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Emotion Nuance 感情の微妙さに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-052",
+      "chapter": 12,
+      "title": "Advice and Suggestions 助言と提案",
+      "objectives": [
+        "助言できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Advice and Suggestions 助言と提案の内容を学びます。",
+        "sections": [
+          {
+            "title": "Advice and Suggestions 助言と提案 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Advice and Suggestions 助言と提案に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-053",
+      "chapter": 12,
+      "title": "Opinions and Agreement 意見と同意",
+      "objectives": [
+        "意見を述べられる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Opinions and Agreement 意見と同意の内容を学びます。",
+        "sections": [
+          {
+            "title": "Opinions and Agreement 意見と同意 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Opinions and Agreement 意見と同意に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-054",
+      "chapter": 12,
+      "title": "Disagreement and Negation 不同意",
+      "objectives": [
+        "異議を唱えられる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Disagreement and Negation 不同意の内容を学びます。",
+        "sections": [
+          {
+            "title": "Disagreement and Negation 不同意 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Disagreement and Negation 不同意に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-055",
+      "chapter": 13,
+      "title": "Dialogue Routines 会話ルーチン",
+      "objectives": [
+        "会話のやり取りができる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Dialogue Routines 会話ルーチンの内容を学びます。",
+        "sections": [
+          {
+            "title": "Dialogue Routines 会話ルーチン - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Dialogue Routines 会話ルーチンに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-056",
+      "chapter": 13,
+      "title": "Conversation Topics 会話トピック",
+      "objectives": [
+        "様々な話題で会話できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Conversation Topics 会話トピックの内容を学びます。",
+        "sections": [
+          {
+            "title": "Conversation Topics 会話トピック - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Conversation Topics 会話トピックに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-057",
+      "chapter": 13,
+      "title": "Phone Etiquette 電話マナー",
+      "objectives": [
+        "電話で手話できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Phone Etiquette 電話マナーの内容を学びます。",
+        "sections": [
+          {
+            "title": "Phone Etiquette 電話マナー - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Phone Etiquette 電話マナーに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-058",
+      "chapter": 13,
+      "title": "Meeting and Greeting 出会いと挨拶",
+      "objectives": [
+        "初対面で話せる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Meeting and Greeting 出会いと挨拶の内容を学びます。",
+        "sections": [
+          {
+            "title": "Meeting and Greeting 出会いと挨拶 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Meeting and Greeting 出会いと挨拶に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-059",
+      "chapter": 13,
+      "title": "Community and Culture コミュニティ",
+      "objectives": [
+        "ろう文化を理解できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "Community and Culture コミュニティの内容を学びます。",
+        "sections": [
+          {
+            "title": "Community and Culture コミュニティ - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Community and Culture コミュニティに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-060",
+      "chapter": 13,
+      "title": "A2 Review and Consolidation",
+      "objectives": [
+        "A2の内容を統合できる"
+      ],
+      "level": 2,
+      "content": {
+        "introduction": "A2 Review and Consolidationの内容を学びます。",
+        "sections": [
+          {
+            "title": "A2 Review and Consolidation - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "A2 Review and Consolidationに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-061",
+      "chapter": 14,
+      "title": "Deaf Culture Introduction ろう文化入門",
+      "objectives": [
+        "ろう文化を理解できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Deaf Culture Introduction ろう文化入門の内容を学びます。",
+        "sections": [
+          {
+            "title": "Deaf Culture Introduction ろう文化入門 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Deaf Culture Introduction ろう文化入門に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-062",
+      "chapter": 14,
+      "title": "Historical Perspectives 手話の歴史",
+      "objectives": [
+        "手話の発展を学べる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Historical Perspectives 手話の歴史の内容を学びます。",
+        "sections": [
+          {
+            "title": "Historical Perspectives 手話の歴史 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Historical Perspectives 手話の歴史に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-063",
+      "chapter": 14,
+      "title": "Sign Language Variations 手話の変種",
+      "objectives": [
+        "JSLと国際手話の違いを理解できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Sign Language Variations 手話の変種の内容を学びます。",
+        "sections": [
+          {
+            "title": "Sign Language Variations 手話の変種 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Sign Language Variations 手話の変種に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-064",
+      "chapter": 14,
+      "title": "Facial Grammar 表情文法",
+      "objectives": [
+        "表情の文法的役割を理解できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Facial Grammar 表情文法の内容を学びます。",
+        "sections": [
+          {
+            "title": "Facial Grammar 表情文法 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Facial Grammar 表情文法に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-065",
+      "chapter": 15,
+      "title": "Body Positioning 身体ポジション",
+      "objectives": [
+        "身体の配置を活用できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Body Positioning 身体ポジションの内容を学びます。",
+        "sections": [
+          {
+            "title": "Body Positioning 身体ポジション - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Body Positioning 身体ポジションに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-066",
+      "chapter": 15,
+      "title": "Classifiers Advanced 分類詞応用",
+      "objectives": [
+        "複雑な分類詞を使える"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Classifiers Advanced 分類詞応用の内容を学びます。",
+        "sections": [
+          {
+            "title": "Classifiers Advanced 分類詞応用 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Classifiers Advanced 分類詞応用に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-067",
+      "chapter": 15,
+      "title": "Role Shifting ロールシフト",
+      "objectives": [
+        "視点切り替えができる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Role Shifting ロールシフトの内容を学びます。",
+        "sections": [
+          {
+            "title": "Role Shifting ロールシフト - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Role Shifting ロールシフトに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-068",
+      "chapter": 15,
+      "title": "Directional Verbs 方向動詞",
+      "objectives": [
+        "方向動詞を使いこなせる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Directional Verbs 方向動詞の内容を学びます。",
+        "sections": [
+          {
+            "title": "Directional Verbs 方向動詞 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Directional Verbs 方向動詞に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-069",
+      "chapter": 16,
+      "title": "Abstract Concepts 抽象概念",
+      "objectives": [
+        "抽象的な概念を表現できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Abstract Concepts 抽象概念の内容を学びます。",
+        "sections": [
+          {
+            "title": "Abstract Concepts 抽象概念 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Abstract Concepts 抽象概念に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-070",
+      "chapter": 16,
+      "title": "Metaphors and Idioms 比喩と慣用句",
+      "objectives": [
+        "手話の表現的側面を理解できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Metaphors and Idioms 比喩と慣用句の内容を学びます。",
+        "sections": [
+          {
+            "title": "Metaphors and Idioms 比喩と慣用句 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Metaphors and Idioms 比喩と慣用句に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-071",
+      "chapter": 16,
+      "title": "Storytelling 物語表現",
+      "objectives": [
+        "物語を手話で語れる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Storytelling 物語表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Storytelling 物語表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Storytelling 物語表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-072",
+      "chapter": 16,
+      "title": "Emotions Complex 複雑な感情",
+      "objectives": [
+        "微妙な感情を表現できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Emotions Complex 複雑な感情の内容を学びます。",
+        "sections": [
+          {
+            "title": "Emotions Complex 複雑な感情 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Emotions Complex 複雑な感情に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-073",
+      "chapter": 17,
+      "title": "Professional Contexts 専門的文脈",
+      "objectives": [
+        "職場で手話できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Professional Contexts 専門的文脈の内容を学びます。",
+        "sections": [
+          {
+            "title": "Professional Contexts 専門的文脈 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Professional Contexts 専門的文脈に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-074",
+      "chapter": 17,
+      "title": "Medical Vocabulary 医療用語",
+      "objectives": [
+        "医療用語が理解できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Medical Vocabulary 医療用語の内容を学びます。",
+        "sections": [
+          {
+            "title": "Medical Vocabulary 医療用語 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Medical Vocabulary 医療用語に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-075",
+      "chapter": 17,
+      "title": "Legal Concepts 法律概念",
+      "objectives": [
+        "法律用語が理解できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Legal Concepts 法律概念の内容を学びます。",
+        "sections": [
+          {
+            "title": "Legal Concepts 法律概念 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Legal Concepts 法律概念に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-076",
+      "chapter": 17,
+      "title": "Technology and Internet テクノロジー",
+      "objectives": [
+        "IT関連を表現できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Technology and Internet テクノロジーの内容を学びます。",
+        "sections": [
+          {
+            "title": "Technology and Internet テクノロジー - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Technology and Internet テクノロジーに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-077",
+      "chapter": 18,
+      "title": "Environmental Issues 環境問題",
+      "objectives": [
+        "環境について議論できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Environmental Issues 環境問題の内容を学びます。",
+        "sections": [
+          {
+            "title": "Environmental Issues 環境問題 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Environmental Issues 環境問題に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-078",
+      "chapter": 18,
+      "title": "Social Issues 社会問題",
+      "objectives": [
+        "社会的話題を扱える"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Social Issues 社会問題の内容を学びます。",
+        "sections": [
+          {
+            "title": "Social Issues 社会問題 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Social Issues 社会問題に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-079",
+      "chapter": 18,
+      "title": "Political Discourse 政治論議",
+      "objectives": [
+        "政治について話せる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Political Discourse 政治論議の内容を学びます。",
+        "sections": [
+          {
+            "title": "Political Discourse 政治論議 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Political Discourse 政治論議に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-080",
+      "chapter": 18,
+      "title": "Economics and Finance 経済財務",
+      "objectives": [
+        "経済用語が理解できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Economics and Finance 経済財務の内容を学びます。",
+        "sections": [
+          {
+            "title": "Economics and Finance 経済財務 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Economics and Finance 経済財務に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-081",
+      "chapter": 19,
+      "title": "Literature and Poetry 文学と詩",
+      "objectives": [
+        "手話文学を理解できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Literature and Poetry 文学と詩の内容を学びます。",
+        "sections": [
+          {
+            "title": "Literature and Poetry 文学と詩 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Literature and Poetry 文学と詩に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-082",
+      "chapter": 19,
+      "title": "Arts and Design 芸術とデザイン",
+      "objectives": [
+        "芸術を手話で議論できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Arts and Design 芸術とデザインの内容を学びます。",
+        "sections": [
+          {
+            "title": "Arts and Design 芸術とデザイン - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Arts and Design 芸術とデザインに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-083",
+      "chapter": 19,
+      "title": "Music and Performing Arts 音楽と舞台",
+      "objectives": [
+        "パフォーミングアーツを表現できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Music and Performing Arts 音楽と舞台の内容を学びます。",
+        "sections": [
+          {
+            "title": "Music and Performing Arts 音楽と舞台 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Music and Performing Arts 音楽と舞台に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-084",
+      "chapter": 19,
+      "title": "Film and Media 映画とメディア",
+      "objectives": [
+        "映像作品を議論できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Film and Media 映画とメディアの内容を学びます。",
+        "sections": [
+          {
+            "title": "Film and Media 映画とメディア - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Film and Media 映画とメディアに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-085",
+      "chapter": 20,
+      "title": "Dialogs Complex 複雑な対話",
+      "objectives": [
+        "複雑な会話ができる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Dialogs Complex 複雑な対話の内容を学びます。",
+        "sections": [
+          {
+            "title": "Dialogs Complex 複雑な対話 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Dialogs Complex 複雑な対話に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-086",
+      "chapter": 20,
+      "title": "Arguments and Debates 議論と討論",
+      "objectives": [
+        "議論ができる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Arguments and Debates 議論と討論の内容を学びます。",
+        "sections": [
+          {
+            "title": "Arguments and Debates 議論と討論 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Arguments and Debates 議論と討論に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-087",
+      "chapter": 20,
+      "title": "Negotiation Skills 交渉スキル",
+      "objectives": [
+        "交渉ができる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Negotiation Skills 交渉スキルの内容を学びます。",
+        "sections": [
+          {
+            "title": "Negotiation Skills 交渉スキル - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Negotiation Skills 交渉スキルに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-088",
+      "chapter": 20,
+      "title": "Presentation Skills プレゼンテーション",
+      "objectives": [
+        "プレゼンができる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Presentation Skills プレゼンテーションの内容を学びます。",
+        "sections": [
+          {
+            "title": "Presentation Skills プレゼンテーション - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Presentation Skills プレゼンテーションに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-089",
+      "chapter": 20,
+      "title": "Telephone Interpretation 電話通訳",
+      "objectives": [
+        "通訳の基礎を理解できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "Telephone Interpretation 電話通訳の内容を学びます。",
+        "sections": [
+          {
+            "title": "Telephone Interpretation 電話通訳 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Telephone Interpretation 電話通訳に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-090",
+      "chapter": 20,
+      "title": "B1 Review and Consolidation",
+      "objectives": [
+        "B1の内容を統合できる"
+      ],
+      "level": 3,
+      "content": {
+        "introduction": "B1 Review and Consolidationの内容を学びます。",
+        "sections": [
+          {
+            "title": "B1 Review and Consolidation - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "B1 Review and Consolidationに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-091",
+      "chapter": 21,
+      "title": "Advanced Linguistics 言語学応用",
+      "objectives": [
+        "手話言語学を理解できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Advanced Linguistics 言語学応用の内容を学びます。",
+        "sections": [
+          {
+            "title": "Advanced Linguistics 言語学応用 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Advanced Linguistics 言語学応用に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-092",
+      "chapter": 21,
+      "title": "Semantics and Pragmatics 意味と用法",
+      "objectives": [
+        "言語的微妙さを理解できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Semantics and Pragmatics 意味と用法の内容を学びます。",
+        "sections": [
+          {
+            "title": "Semantics and Pragmatics 意味と用法 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Semantics and Pragmatics 意味と用法に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-093",
+      "chapter": 21,
+      "title": "Syntax and Structure 文構造",
+      "objectives": [
+        "手話の文法構造を深く理解できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Syntax and Structure 文構造の内容を学びます。",
+        "sections": [
+          {
+            "title": "Syntax and Structure 文構造 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Syntax and Structure 文構造に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-094",
+      "chapter": 21,
+      "title": "Discourse Analysis 談話分析",
+      "objectives": [
+        "会話構造を分析できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Discourse Analysis 談話分析の内容を学びます。",
+        "sections": [
+          {
+            "title": "Discourse Analysis 談話分析 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Discourse Analysis 談話分析に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-095",
+      "chapter": 22,
+      "title": "Regional Dialects 地域方言",
+      "objectives": [
+        "地域差を理解できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Regional Dialects 地域方言の内容を学びます。",
+        "sections": [
+          {
+            "title": "Regional Dialects 地域方言 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Regional Dialects 地域方言に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-096",
+      "chapter": 22,
+      "title": "Slang and Colloquial 俗語と口語",
+      "objectives": [
+        "手話のスラングが理解できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Slang and Colloquial 俗語と口語の内容を学びます。",
+        "sections": [
+          {
+            "title": "Slang and Colloquial 俗語と口語 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Slang and Colloquial 俗語と口語に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-097",
+      "chapter": 22,
+      "title": "Code-Switching コードスイッチング",
+      "objectives": [
+        "言語切り替えができる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Code-Switching コードスイッチングの内容を学びます。",
+        "sections": [
+          {
+            "title": "Code-Switching コードスイッチング - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Code-Switching コードスイッチングに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-098",
+      "chapter": 22,
+      "title": "Bilingualism バイリンガリズム",
+      "objectives": [
+        "2言語使用を理解できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Bilingualism バイリンガリズムの内容を学びます。",
+        "sections": [
+          {
+            "title": "Bilingualism バイリンガリズム - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Bilingualism バイリンガリズムに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-099",
+      "chapter": 23,
+      "title": "Interpreting Techniques 通訳技法",
+      "objectives": [
+        "通訳ができる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Interpreting Techniques 通訳技法の内容を学びます。",
+        "sections": [
+          {
+            "title": "Interpreting Techniques 通訳技法 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Interpreting Techniques 通訳技法に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-100",
+      "chapter": 23,
+      "title": "Specialized Interpreting 特化通訳",
+      "objectives": [
+        "特殊分野で通訳できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Specialized Interpreting 特化通訳の内容を学びます。",
+        "sections": [
+          {
+            "title": "Specialized Interpreting 特化通訳 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Specialized Interpreting 特化通訳に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-101",
+      "chapter": 23,
+      "title": "Teaching Sign Language 手話教授",
+      "objectives": [
+        "手話を教えられる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Teaching Sign Language 手話教授の内容を学びます。",
+        "sections": [
+          {
+            "title": "Teaching Sign Language 手話教授 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Teaching Sign Language 手話教授に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-102",
+      "chapter": 23,
+      "title": "Language Planning 言語計画",
+      "objectives": [
+        "言語政策を理解できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Language Planning 言語計画の内容を学びます。",
+        "sections": [
+          {
+            "title": "Language Planning 言語計画 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Language Planning 言語計画に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-103",
+      "chapter": 24,
+      "title": "Creativity in Signing 創造的手話表現",
+      "objectives": [
+        "創造的に手話できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Creativity in Signing 創造的手話表現の内容を学びます。",
+        "sections": [
+          {
+            "title": "Creativity in Signing 創造的手話表現 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Creativity in Signing 創造的手話表現に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-104",
+      "chapter": 24,
+      "title": "Performance and Poetry パフォーマンス",
+      "objectives": [
+        "手話詩を表現できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Performance and Poetry パフォーマンスの内容を学びます。",
+        "sections": [
+          {
+            "title": "Performance and Poetry パフォーマンス - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Performance and Poetry パフォーマンスに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-105",
+      "chapter": 24,
+      "title": "Visual Storytelling ビジュアルストーリー",
+      "objectives": [
+        "視覚的に物語を伝えられる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Visual Storytelling ビジュアルストーリーの内容を学びます。",
+        "sections": [
+          {
+            "title": "Visual Storytelling ビジュアルストーリー - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Visual Storytelling ビジュアルストーリーに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-106",
+      "chapter": 24,
+      "title": "Humor and Wit ユーモアと機知",
+      "objectives": [
+        "手話でユーモアできる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Humor and Wit ユーモアと機知の内容を学びます。",
+        "sections": [
+          {
+            "title": "Humor and Wit ユーモアと機知 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Humor and Wit ユーモアと機知に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-107",
+      "chapter": 25,
+      "title": "Deaf Education ろう教育",
+      "objectives": [
+        "教育的視点を理解できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Deaf Education ろう教育の内容を学びます。",
+        "sections": [
+          {
+            "title": "Deaf Education ろう教育 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Deaf Education ろう教育に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-108",
+      "chapter": 25,
+      "title": "DeafBlind Communication デフブラインド",
+      "objectives": [
+        "ろう盲者と通信できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "DeafBlind Communication デフブラインドの内容を学びます。",
+        "sections": [
+          {
+            "title": "DeafBlind Communication デフブラインド - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "DeafBlind Communication デフブラインドに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-109",
+      "chapter": 25,
+      "title": "Accessibility and Inclusion 包括性",
+      "objectives": [
+        "アクセシビリティを推進できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Accessibility and Inclusion 包括性の内容を学びます。",
+        "sections": [
+          {
+            "title": "Accessibility and Inclusion 包括性 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Accessibility and Inclusion 包括性に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-110",
+      "chapter": 25,
+      "title": "Technology and Innovation テクノロジー活用",
+      "objectives": [
+        "手話とテクノロジー統合ができる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Technology and Innovation テクノロジー活用の内容を学びます。",
+        "sections": [
+          {
+            "title": "Technology and Innovation テクノロジー活用 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Technology and Innovation テクノロジー活用に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-111",
+      "chapter": 26,
+      "title": "Cross-cultural Communication 異文化コミュニケーション",
+      "objectives": [
+        "異文化を理解し交信できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Cross-cultural Communication 異文化コミュニケーションの内容を学びます。",
+        "sections": [
+          {
+            "title": "Cross-cultural Communication 異文化コミュニケーション - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Cross-cultural Communication 異文化コミュニケーションに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-112",
+      "chapter": 26,
+      "title": "Global Sign Language グローバル手話",
+      "objectives": [
+        "国際手話を使いこなせる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Global Sign Language グローバル手話の内容を学びます。",
+        "sections": [
+          {
+            "title": "Global Sign Language グローバル手話 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Global Sign Language グローバル手話に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-113",
+      "chapter": 26,
+      "title": "International Deaf Community 国際ろう者コミュニティ",
+      "objectives": [
+        "国際的視点を持てる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "International Deaf Community 国際ろう者コミュニティの内容を学びます。",
+        "sections": [
+          {
+            "title": "International Deaf Community 国際ろう者コミュニティ - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "International Deaf Community 国際ろう者コミュニティに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-114",
+      "chapter": 26,
+      "title": "Rights and Advocacy 権利と擁護",
+      "objectives": [
+        "障害者権利を理解できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Rights and Advocacy 権利と擁護の内容を学びます。",
+        "sections": [
+          {
+            "title": "Rights and Advocacy 権利と擁護 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Rights and Advocacy 権利と擁護に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-115",
+      "chapter": 27,
+      "title": "Research Methods 研究方法",
+      "objectives": [
+        "手話研究ができる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Research Methods 研究方法の内容を学びます。",
+        "sections": [
+          {
+            "title": "Research Methods 研究方法 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Research Methods 研究方法に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-116",
+      "chapter": 27,
+      "title": "Advanced Topics 上級テーマ",
+      "objectives": [
+        "専門的テーマで話せる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Advanced Topics 上級テーマの内容を学びます。",
+        "sections": [
+          {
+            "title": "Advanced Topics 上級テーマ - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Advanced Topics 上級テーマに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-117",
+      "chapter": 27,
+      "title": "Doctorate Level Discourse 博士レベル言語",
+      "objectives": [
+        "最高度で議論できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Doctorate Level Discourse 博士レベル言語の内容を学びます。",
+        "sections": [
+          {
+            "title": "Doctorate Level Discourse 博士レベル言語 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Doctorate Level Discourse 博士レベル言語に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-118",
+      "chapter": 27,
+      "title": "Professional Integration 職業統合",
+      "objectives": [
+        "職業的に手話できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Professional Integration 職業統合の内容を学びます。",
+        "sections": [
+          {
+            "title": "Professional Integration 職業統合 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Professional Integration 職業統合に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-119",
+      "chapter": 27,
+      "title": "Mastery and Excellence 習熟と卓越性",
+      "objectives": [
+        "手話を完璧に習得できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "Mastery and Excellence 習熟と卓越性の内容を学びます。",
+        "sections": [
+          {
+            "title": "Mastery and Excellence 習熟と卓越性 - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "Mastery and Excellence 習熟と卓越性に関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-120",
+      "chapter": 27,
+      "title": "B2 Review and Mastery Assessment",
+      "objectives": [
+        "B2完全習得を確認できる"
+      ],
+      "level": 4,
+      "content": {
+        "introduction": "B2 Review and Mastery Assessmentの内容を学びます。",
+        "sections": [
+          {
+            "title": "B2 Review and Mastery Assessment - セクション1",
+            "content": "このセクションでは、基本的な表現方法を学びます。",
+            "handshape": "Various",
+            "location": "Upper body",
+            "movement": "Dynamic",
+            "facial_expression": "Natural",
+            "glossary": [
+              {
+                "sign": "EXAMPLE",
+                "meaning": "例",
+                "description": "B2 Review and Mastery Assessmentに関連した例"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

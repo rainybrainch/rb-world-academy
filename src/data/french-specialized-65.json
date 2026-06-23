@@ -1,0 +1,2800 @@
+{
+  "frenchSpecializedCourses": [
+    {
+      "id": "fra-spec-bus-1",
+      "title": "Lesson 1: International Business Terminology",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Terminologie Commerciale Internationale"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez les termes clés utilisés dans les négociations commerciales internationales. Ces expressions sont essentielles pour les réunions d'affaires, les contrats et les communications professionnelles entre partenaires commerciaux."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "contrat", "definition": "契約書"},
+            {"term": "négociation", "definition": "交渉"},
+            {"term": "délai de livraison", "definition": "納期"},
+            {"term": "conditions de paiement", "definition": "支払い条件"},
+            {"term": "facturation", "definition": "請求"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Exemples en Contexte",
+          "items": [
+            "Les conditions de paiement sont définies dans le contrat.",
+            "Nous attendons la confirmation du délai de livraison.",
+            "La facturation s'effectuera à la fin du mois."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Pratiquez les Termes Commerciaux",
+          "auxiliaryPrompt": "Utilisez 3 termes dans des phrases professionnelles",
+          "answer": "Rédigez 3 phrases utilisant les termes clés dans des contextes commerciaux réels."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-2",
+      "title": "Lesson 2: Corporate Structure & Hierarchy",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Structure Organisationnelle"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez les rôles et responsabilités au sein d'une entreprise française. Apprenez les titres de postes, la hiérarchie et les relations professionnelles typiques du monde des affaires français."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "directeur général", "definition": "CEO"},
+            {"term": "directeur financier", "definition": "CFO"},
+            {"term": "responsable des ressources humaines", "definition": "HR責任者"},
+            {"term": "chef de projet", "definition": "プロジェクトマネージャー"},
+            {"term": "équipe", "definition": "チーム"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Phrases Organisationnelles",
+          "items": [
+            "Le directeur général supervise tous les départements.",
+            "Le responsable RH gère les recrutements et les paies.",
+            "Notre chef de projet coordonne l'équipe de développement."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Décrire une Structure d'Entreprise",
+          "auxiliaryPrompt": "Expliquez les rôles de 3 postes différents",
+          "answer": "Écrivez les responsabilités de 3 postes différents dans une entreprise."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-3",
+      "title": "Lesson 3: Marketing & Advertising Language",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Vocabulaire Publicitaire"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le langage utilisé dans le marketing et la publicité. Comprenez comment les entreprises françaises présentent leurs produits et services auprès des consommateurs."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "campagne publicitaire", "definition": "広告キャンペーン"},
+            {"term": "cible commerciale", "definition": "ターゲット層"},
+            {"term": "stratégie de marketing", "definition": "マーケティング戦略"},
+            {"term": "réseau social", "definition": "ソーシャルメディア"},
+            {"term": "engagement client", "definition": "顧客エンゲージメント"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Exemples Marketing",
+          "items": [
+            "Notre nouvelle campagne publicitaire cible les jeunes adultes.",
+            "La stratégie de marketing se concentre sur les réseaux sociaux.",
+            "L'engagement client est notre priorité principale."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Créer un Message Marketing",
+          "auxiliaryPrompt": "Développez une brève stratégie publicitaire",
+          "answer": "Proposez une campagne marketing pour un produit fictif en 5 phrases."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-4",
+      "title": "Lesson 4: Financial Terms & Accounting",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Vocabulaire Financier"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez les termes financiers et comptables utilisés en entreprise. Comprenez les rapports financiers, les budgets et les investissements."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "bilan", "definition": "貸借対照表"},
+            {"term": "compte de résultat", "definition": "損益計算書"},
+            {"term": "trésorerie", "definition": "現金流"},
+            {"term": "investissement", "definition": "投資"},
+            {"term": "rendement", "definition": "リターン"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Contexte Financier",
+          "items": [
+            "Le bilan montre la position financière de l'entreprise.",
+            "Le compte de résultat détaille les revenus et les dépenses.",
+            "La gestion de la trésorerie est cruciale pour la survie."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyser des Chiffres",
+          "auxiliaryPrompt": "Expliquez des concepts financiers",
+          "answer": "Décrivez 3 concepts financiers et leur importance pour l'entreprise."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-5",
+      "title": "Lesson 5: Industry-Specific Terminology",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Vocabulaire Sectoriel"
+        },
+        {
+          "type": "text",
+          "content": "Découvrez les termes spécifiques à différents secteurs industriels : technologie, santé, construction, fabrication et services."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "production", "definition": "製造"},
+            {"term": "qualité", "definition": "品質"},
+            {"term": "supply chain", "definition": "サプライチェーン"},
+            {"term": "logistique", "definition": "物流"},
+            {"term": "durabilité", "definition": "持続可能性"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Secteurs Variés",
+          "items": [
+            "La production doit respecter les normes de qualité.",
+            "La supply chain doit être efficace et rentable.",
+            "La durabilité est devenue une priorité commerciale."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Secteur d'Expertise",
+          "auxiliaryPrompt": "Choisissez un secteur et utilisez son vocabulaire",
+          "answer": "Sélectionnez une industrie et utilisez 5 termes spécifiques dans un contexte professionnel."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-6",
+      "title": "Lesson 6: Workplace Communication & Etiquette",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Étiquette Professionnelle"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez les conventions de communication au travail : formules de politesse, emails professionnels, et interactions appropriées en français."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "Monsieur/Madame", "definition": "敬称"},
+            {"term": "cordialement", "definition": "敬具"},
+            {"term": "à votre disposition", "definition": "ご用命はお気軽に"},
+            {"term": "convocation", "definition": "会議招待"},
+            {"term": "procès-verbal", "definition": "議事録"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Formules Professionnelles",
+          "items": [
+            "Veuillez trouver ci-joint les documents demandés.",
+            "Je vous prie de recevoir mes sincères salutations.",
+            "Nous vous remercions de votre intérêt."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Rédiger un Email Professionnel",
+          "auxiliaryPrompt": "Écrivez une demande ou un rapport professionnel",
+          "answer": "Composez un email professionnel avec formule d'ouverture, corps et formule de fermeture appropriés."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-7",
+      "title": "Lesson 7: Employment & HR Language",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Vocabulaire RH et Emploi"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le langage des ressources humaines : recrutement, contrats, évaluations de performance et avantages sociaux."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "candidature", "definition": "応募"},
+            {"term": "entretien d'embauche", "definition": "採用面接"},
+            {"term": "contrat de travail", "definition": "雇用契約"},
+            {"term": "démission", "definition": "辞職"},
+            {"term": "prime", "definition": "ボーナス"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Contexte RH",
+          "items": [
+            "Sa candidature a été retenue pour l'entretien d'embauche.",
+            "Le contrat de travail mentionne les horaires et le salaire.",
+            "Elle a reçu une prime en fin d'année."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Simuler une Embauche",
+          "auxiliaryPrompt": "Pratiquez le dialogue d'une interview",
+          "answer": "Écrivez un dialogue entre un recruteur et un candidat."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-8",
+      "title": "Lesson 8: Sales & Customer Service",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Langage de Vente et Service Client"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez les expressions utilisées dans la vente et le service client. Apprenez à présenter des produits, gérer les objections et conclure des ventes."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "devis", "definition": "見積書"},
+            {"term": "client potentiel", "definition": "見込み客"},
+            {"term": "fermeture de vente", "definition": "成約"},
+            {"term": "satisfaction client", "definition": "顧客満足"},
+            {"term": "assistance technique", "definition": "テクニカルサポート"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Phrases de Vente",
+          "items": [
+            "Je vous propose un devis détaillé pour ce projet.",
+            "Nous garantissons la satisfaction client à 100%.",
+            "Notre équipe d'assistance technique est disponible 24/7."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Présenter un Produit",
+          "auxiliaryPrompt": "Décrivez un produit et ses avantages",
+          "answer": "Présentez un produit fictif en mettant l'accent sur ses bénéfices pour le client."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-9",
+      "title": "Lesson 9: Legal Agreements & Contracts",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Langage Juridique et Contrats"
+        },
+        {
+          "type": "text",
+          "content": "Familiarisez-vous avec le vocabulaire des contrats et des accords légaux. Comprenez les clauses principales et les obligations contractuelles."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "clause", "definition": "条項"},
+            {"term": "responsabilité", "definition": "責任"},
+            {"term": "confidentialité", "definition": "機密性"},
+            {"term": "validité", "definition": "有効性"},
+            {"term": "rupture de contrat", "definition": "契約違反"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Exemples Juridiques",
+          "items": [
+            "La clause de confidentialité protège les informations sensibles.",
+            "En cas de rupture de contrat, des pénalités s'appliquent.",
+            "La responsabilité de chaque partie est clairement définie."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyser un Contrat",
+          "auxiliaryPrompt": "Identifiez et expliquez les clauses principales",
+          "answer": "Lisez un contrat simplifié et listez 5 clauses importantes avec vos explications."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-10",
+      "title": "Lesson 10: Trade & Import/Export",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Commerce International"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire du commerce international : douanes, export, import, droits de douane et documents de transport."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "export", "definition": "輸出"},
+            {"term": "import", "definition": "輸入"},
+            {"term": "droits de douane", "definition": "関税"},
+            {"term": "formalités douanières", "definition": "税関手続き"},
+            {"term": "bill of lading", "definition": "船荷証券"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Contexte Commercial",
+          "items": [
+            "Nous exportons nos produits vers l'Europe et l'Asie.",
+            "Les droits de douane doivent être calculés pour chaque importation.",
+            "Le bill of lading accompagne chaque envoi international."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Processus d'Export",
+          "auxiliaryPrompt": "Décrivez les étapes d'une exportation",
+          "answer": "Énumérez et expliquez 5 étapes du processus d'exportation de marchandises."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-11",
+      "title": "Lesson 11: Presentations & Public Speaking",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Présentations Professionnelles"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le langage des présentations et de la parole en public. Apprenez à structurer une présentation, capter l'attention et convaincre votre audience."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "diaporama", "definition": "スライドショー"},
+            {"term": "introduction", "definition": "導入"},
+            {"term": "transition", "definition": "移行"},
+            {"term": "conclusion", "definition": "結論"},
+            {"term": "appel à l'action", "definition": "行動喚起"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Phrases de Présentation",
+          "items": [
+            "Bonjour à tous. Je vais vous présenter nos résultats trimestriels.",
+            "Passons maintenant à la section suivante de notre agenda.",
+            "En conclusion, nous proposons d'augmenter notre investissement."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Préparer une Présentation",
+          "auxiliaryPrompt": "Structurez une courte présentation",
+          "answer": "Créez un plan pour une présentation de 10 minutes sur un sujet professionnel."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-12",
+      "title": "Lesson 12: Meetings & Negotiations",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Réunions et Négociations"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le langage spécifique aux réunions professionnelles et aux négociations commerciales. Maîtrisez les expressions pour proposer, discuter et conclure."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "ordre du jour", "definition": "アジェンダ"},
+            {"term": "point de vue", "definition": "見方"},
+            {"term": "compromis", "definition": "妥協"},
+            {"term": "accord", "definition": "合意"},
+            {"term": "poursuite", "definition": "続行"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Langage de Négociation",
+          "items": [
+            "Je comprends votre point de vue, mais nous devons trouver un compromis.",
+            "Nous sommes d'accord sur les points principaux de ce contrat.",
+            "Pouvons-nous convenir d'une date limite pour cette décision?"
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Simuler une Négociation",
+          "auxiliaryPrompt": "Pratiquez un dialogue de négociation",
+          "answer": "Écrivez un dialogue entre deux négociateurs cherchant un accord."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-13",
+      "title": "Lesson 13: Supply Chain Management",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Gestion de la Chaîne d'Approvisionnement"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire de la gestion de la supply chain : fournisseurs, inventaire, distribution et logistique."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "fournisseur", "definition": "サプライヤー"},
+            {"term": "inventaire", "definition": "在庫"},
+            {"term": "entrepôt", "definition": "倉庫"},
+            {"term": "distribution", "definition": "配送"},
+            {"term": "délai", "definition": "期間"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Contexte Logistique",
+          "items": [
+            "Notre fournisseur principal livre les matières premières régulièrement.",
+            "L'inventaire doit être optimisé pour réduire les coûts.",
+            "La distribution s'effectue depuis nos trois entrepôts régionaux."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Optimiser la Supply Chain",
+          "auxiliaryPrompt": "Proposez des améliorations",
+          "answer": "Suggérez 3 améliorations pour optimiser la supply chain d'une entreprise."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-14",
+      "title": "Lesson 14: Innovation & Technology in Business",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Innovation et Technologie"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire de l'innovation technologique en entreprise : transformation numérique, AI, automatisation et digitalisation."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "transformation numérique", "definition": "デジタル変革"},
+            {"term": "automatisation", "definition": "自動化"},
+            {"term": "intelligence artificielle", "definition": "人工知能"},
+            {"term": "données", "definition": "データ"},
+            {"term": "cybersécurité", "definition": "サイバーセキュリティ"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Contexte Technologique",
+          "items": [
+            "La transformation numérique est essentielle pour rester compétitif.",
+            "L'automatisation réduit les coûts de production.",
+            "Les données permettent de meilleures décisions commerciales."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Proposer une Innovation",
+          "auxiliaryPrompt": "Suggérez une solution technologique",
+          "answer": "Proposez une innovation technologique pour améliorer l'efficacité d'une entreprise."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-15",
+      "title": "Lesson 15: Corporate Social Responsibility",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Responsabilité Sociale d'Entreprise"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le langage de la RSE : développement durable, éthique commerciale, impact social et environnemental."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "développement durable", "definition": "持続可能な開発"},
+            {"term": "impact environnemental", "definition": "環境への影響"},
+            {"term": "impact social", "definition": "社会的影響"},
+            {"term": "éthique", "definition": "倫理"},
+            {"term": "bilan carbone", "definition": "カーボンフットプリント"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Initiatives RSE",
+          "items": [
+            "Notre entreprise s'engage pour le développement durable.",
+            "Nous réduisons notre bilan carbone chaque année.",
+            "L'impact social est au cœur de notre stratégie."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Plan RSE",
+          "auxiliaryPrompt": "Développez une stratégie RSE",
+          "answer": "Créez un plan de responsabilité sociale pour une entreprise fictive."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-16",
+      "title": "Lesson 16: Quality Management & Standards",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Gestion de la Qualité"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire de la gestion de la qualité : normes ISO, contrôle de qualité, amélioration continue et certifications."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "norme ISO", "definition": "ISO規格"},
+            {"term": "contrôle de qualité", "definition": "品質管理"},
+            {"term": "amélioration continue", "definition": "継続的改善"},
+            {"term": "défaut", "definition": "欠陥"},
+            {"term": "certification", "definition": "認証"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Standards Qualité",
+          "items": [
+            "Nous respectons les normes ISO 9001 et ISO 14001.",
+            "Le contrôle de qualité est effectué à chaque étape de production.",
+            "L'amélioration continue est une priorité organisationnelle."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Processus d'Assurance Qualité",
+          "auxiliaryPrompt": "Décrivez un système qualité",
+          "answer": "Décrivez comment mettre en place un système d'assurance qualité en 5 étapes."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-17",
+      "title": "Lesson 17: Project Management Terminology",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Gestion de Projet"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire de la gestion de projet : planification, suivi, risques et livrables."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "jalons", "definition": "マイルストーン"},
+            {"term": "risque", "definition": "リスク"},
+            {"term": "livrable", "definition": "成果物"},
+            {"term": "budget", "definition": "予算"},
+            {"term": "calendrier", "definition": "スケジュール"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Gestion de Projet",
+          "items": [
+            "Les jalons du projet sont fixés pour chaque trimestre.",
+            "Nous devons identifier et mitiger les risques potentiels.",
+            "Les livrables doivent respecter les spécifications.",
+            "Le budget et le calendrier sont étroitement surveillés."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Plan Projet",
+          "auxiliaryPrompt": "Créez un plan de projet",
+          "answer": "Développez un plan de projet simple avec jalons, risques et livrables."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-18",
+      "title": "Lesson 18: Customer Relationship Management",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Gestion Relation Client"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le langage de la gestion de la relation client : fidélisation, segmentation, personnalisation et feedback."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "fidélisation", "definition": "リテンション"},
+            {"term": "segmentation", "definition": "セグメンテーション"},
+            {"term": "personnalisation", "definition": "パーソナライゼーション"},
+            {"term": "feedback", "definition": "フィードバック"},
+            {"term": "lifetime value", "definition": "顧客生涯価値"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Stratégie CRM",
+          "items": [
+            "La fidélisation des clients réduit les coûts d'acquisition.",
+            "La segmentation permet une meilleure personnalisation.",
+            "Le feedback client guide nos améliorations de produits."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Stratégie de Fidélisation",
+          "auxiliaryPrompt": "Proposez des initiatives client",
+          "answer": "Créez une stratégie de fidélisation pour un type de client spécifique."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-19",
+      "title": "Lesson 19: Data Analytics & Business Intelligence",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Analytique Données"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire de l'analytique données et du business intelligence : métriques, KPI, reporting et insights."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "métrique", "definition": "メトリクス"},
+            {"term": "KPI", "definition": "主要業績評価指標"},
+            {"term": "tableau de bord", "definition": "ダッシュボード"},
+            {"term": "insight", "definition": "インサイト"},
+            {"term": "prédiction", "definition": "予測"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Contexte Analytique",
+          "items": [
+            "Les KPIs permettent de mesurer la performance.",
+            "Le tableau de bord offre une vue d'ensemble en temps réel.",
+            "Les insights data guident les décisions stratégiques."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Rapport Analytique",
+          "auxiliaryPrompt": "Présentez des données analytiques",
+          "answer": "Créez un rapport analytique simple avec 3 KPIs et leurs implications."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-bus-20",
+      "title": "Lesson 20: Entrepreneurship & Startups",
+      "level": "B2",
+      "field": "Business & Professions",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Entrepreneuriat et Startups"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire de l'entrepreneuriat : business plan, levée de fonds, incubation et croissance."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "business plan", "definition": "事業計画書"},
+            {"term": "levée de fonds", "definition": "資金調達"},
+            {"term": "investisseur", "definition": "投資家"},
+            {"term": "pitch", "definition": "ピッチ"},
+            {"term": "scalabilité", "definition": "スケーラビリティ"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Langage Entrepreneurial",
+          "items": [
+            "Notre business plan projette une croissance de 200% en deux ans.",
+            "Nous recherchons une levée de fonds de 500 000 euros.",
+            "Notre modèle est scalable et peut se développer rapidement."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Business Plan Startup",
+          "auxiliaryPrompt": "Rédigez un business plan succinct",
+          "answer": "Créez un business plan de 1 page pour une startup fictive."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-1",
+      "title": "Lesson 21: Literary Analysis & Criticism",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Analyse Littéraire"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire de la critique littéraire : thème, style, narrateur, symbolisme et techniques narratives."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "thème", "definition": "テーマ"},
+            {"term": "symbolisme", "definition": "象徴性"},
+            {"term": "narrateur", "definition": "ナレーター"},
+            {"term": "point de vue", "definition": "視点"},
+            {"term": "métaphore", "definition": "メタファー"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Critique Littéraire",
+          "items": [
+            "Le thème central du roman est la quête d'identité.",
+            "Le symbolisme de la rose représente l'amour et la beauté.",
+            "La narration à la première personne crée une intimité avec le lecteur."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyser une Oeuvre",
+          "auxiliaryPrompt": "Analysez un passage littéraire",
+          "answer": "Écrivez une analyse critique d'un passage de 200 mots identifiant le thème et les techniques."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-2",
+      "title": "Lesson 22: Philosophy & Ethics",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Philosophie et Éthique"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire philosophique : ontologie, épistémologie, éthique, morale et existentialisme."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "ontologie", "definition": "存在論"},
+            {"term": "épistémologie", "definition": "認識論"},
+            {"term": "morale", "definition": "道徳"},
+            {"term": "existentialisme", "definition": "実存主義"},
+            {"term": "bien et mal", "definition": "善悪"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Concepts Philosophiques",
+          "items": [
+            "Descartes propose que l'être existe dans la pensée.",
+            "L'éthique kantienne est basée sur le devoir.",
+            "L'existentialisme affirme que l'existence précède l'essence."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Débat Philosophique",
+          "auxiliaryPrompt": "Argumentez une position éthique",
+          "answer": "Présentez un argument pour ou contre une proposition éthique en 5 phrases."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-3",
+      "title": "Lesson 23: History & Historical Context",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Vocabulaire Historique"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le langage historique : périodes, événements majeurs, causes et conséquences des transformations sociales."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "époque", "definition": "時代"},
+            {"term": "révolution", "definition": "革命"},
+            {"term": "règne", "definition": "統治期間"},
+            {"term": "monarchie", "definition": "君主制"},
+            {"term": "République", "definition": "共和国"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Contexte Historique",
+          "items": [
+            "La Révolution Française de 1789 a transformé la société.",
+            "Le Moyen-Âge dure mille ans en Europe.",
+            "Napoléon Bonaparte a reformé le système judiciaire français."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyser un Événement Historique",
+          "auxiliaryPrompt": "Décrivez les causes et conséquences",
+          "answer": "Expliquez un événement historique majeur en identifiant ses causes et impacts."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-4",
+      "title": "Lesson 24: Art History & Aesthetics",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Histoire de l'Art"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire de l'histoire de l'art et de l'esthétique : mouvements artistiques, techniques et influences."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "Renaissance", "definition": "ルネサンス"},
+            {"term": "impressionnisme", "definition": "印象派"},
+            {"term": "composition", "definition": "構成"},
+            {"term": "palette", "definition": "パレット"},
+            {"term": "perspective", "definition": "遠近法"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Styles Artistiques",
+          "items": [
+            "La Renaissance valorise l'humanisme et la nature.",
+            "L'Impressionnisme se concentre sur la lumière et la couleur.",
+            "La composition est l'arrangement des éléments dans l'oeuvre."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Décrire une Oeuvre d'Art",
+          "auxiliaryPrompt": "Analysez une œuvre artistique",
+          "answer": "Choisissez une œuvre d'art et décrivez son style, technique et signification."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-5",
+      "title": "Lesson 25: Sociology & Social Theory",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Sociologie et Théorie Sociale"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire sociologique : classes sociales, institutions, normes, interactions sociales et changement social."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "classe sociale", "definition": "社会階級"},
+            {"term": "institution", "definition": "制度"},
+            {"term": "norme", "definition": "規範"},
+            {"term": "stéréotype", "definition": "ステレオタイプ"},
+            {"term": "mobilité sociale", "definition": "社会移動"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Concepts Sociologiques",
+          "items": [
+            "Les classes sociales structurent la société selon le capital économique.",
+            "Les institutions façonnent le comportement social.",
+            "La mobilité sociale permet le changement de statut."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyse Sociologique",
+          "auxiliaryPrompt": "Appliquez la théorie à un phénomène social",
+          "answer": "Analysez un phénomène social en utilisant des concepts sociologiques."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-6",
+      "title": "Lesson 26: Psychology & Human Behavior",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Psychologie et Comportement"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire psychologique : personnalité, développement, troubles mentaux et thérapies."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "personnalité", "definition": "人格"},
+            {"term": "développement", "definition": "発達"},
+            {"term": "psyché", "definition": "心理"},
+            {"term": "inconscient", "definition": "無意識"},
+            {"term": "condition mentale", "definition": "精神状態"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Concepts Psychologiques",
+          "items": [
+            "Freud explore l'inconscient et ses influences.",
+            "La psychologie développementale étude les stades de la vie.",
+            "La thérapie cognitive aide à modifier les pensées négatives."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Cas Psychologique",
+          "auxiliaryPrompt": "Analysez un comportement en termes psychologiques",
+          "answer": "Présentez une analyse psychologique d'un comportement humain courant."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-7",
+      "title": "Lesson 27: Linguistics & Language Structure",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Linguistique et Structure Linguistique"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire linguistique : grammaire, syntaxe, sémantique, pragmatique et évolution des langues."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "grammaire", "definition": "文法"},
+            {"term": "syntaxe", "definition": "統語論"},
+            {"term": "sémantique", "definition": "意味論"},
+            {"term": "phonème", "definition": "音素"},
+            {"term": "étymologie", "definition": "語源"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Analyse Linguistique",
+          "items": [
+            "La grammaire régit les règles d'une langue.",
+            "La syntaxe organise l'ordre des mots.",
+            "L'étymologie révèle l'origine et l'évolution des mots."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyse de Phrases",
+          "auxiliaryPrompt": "Analysez la structure linguistique",
+          "answer": "Décomposez une phrase complexe en analysant sa grammaire et syntaxe."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-8",
+      "title": "Lesson 28: Political Science & Government",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Sciences Politiques"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire politique : systèmes de gouvernement, pouvoir politique, politique et diplomatie."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "démocratie", "definition": "民主制"},
+            {"term": "autoritarisme", "definition": "権威主義"},
+            {"term": "parlement", "definition": "議会"},
+            {"term": "législation", "definition": "立法"},
+            {"term": "diplomatie", "definition": "外交"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Systèmes Politiques",
+          "items": [
+            "La démocratie repose sur la participation citoyenne.",
+            "Le parlement français comprend deux chambres.",
+            "La diplomatie gère les relations entre nations."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Système Politique",
+          "auxiliaryPrompt": "Comparez deux systèmes politiques",
+          "answer": "Comparez la structure et le fonctionnement de deux systèmes politiques différents."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-9",
+      "title": "Lesson 29: Anthropology & Cultural Studies",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Anthropologie et Études Culturelles"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire anthropologique : culture, traditions, rituels et diversité culturelle."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "culture", "definition": "文化"},
+            {"term": "tradition", "definition": "伝統"},
+            {"term": "rituel", "definition": "儀式"},
+            {"term": "ethnographie", "definition": "民族誌"},
+            {"term": "acculturation", "definition": "文化的適応"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Phénomènes Culturels",
+          "items": [
+            "Chaque culture a des traditions spécifiques et des rituels.",
+            "L'ethnographie étudie les peuples et leurs comportements.",
+            "L'acculturation est l'adaptation à une nouvelle culture."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Étude Culturelle",
+          "auxiliaryPrompt": "Analysez une pratique culturelle",
+          "answer": "Décrivez une pratique culturelle et son importance dans une société."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-10",
+      "title": "Lesson 30: Economics & Economic Theory",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Économie et Théorie Économique"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire économique avancé : microéconomie, macroéconomie, marché et politique économique."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "offre et demande", "definition": "供給と需要"},
+            {"term": "marché", "definition": "市場"},
+            {"term": "inflation", "definition": "インフレーション"},
+            {"term": "croissance économique", "definition": "経済成長"},
+            {"term": "récession", "definition": "景気後退"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Concepts Économiques",
+          "items": [
+            "L'équilibre du marché se trouve où l'offre égale la demande.",
+            "L'inflation réduit le pouvoir d'achat des consommateurs.",
+            "La croissance économique est mesurée par le PIB."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyse Économique",
+          "auxiliaryPrompt": "Analysez un phénomène économique",
+          "answer": "Expliquez un phénomène économique en utilisant les concepts clés."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-11",
+      "title": "Lesson 31: Higher Education & Academic Discourse",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Discours Académique"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le langage académique : écriture scientifique, citations, arguments et structure de recherche."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "thèse", "definition": "論文"},
+            {"term": "hypothèse", "definition": "仮説"},
+            {"term": "méthodologie", "definition": "方法論"},
+            {"term": "conclusion", "definition": "結論"},
+            {"term": "source primaire", "definition": "一次資料"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Structure de Recherche",
+          "items": [
+            "La thèse présente l'argument principal de la recherche.",
+            "L'hypothèse guide l'investigation scientifique.",
+            "Les sources primaires fournissent des preuves directes."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Rédaction Académique",
+          "auxiliaryPrompt": "Écrivez un paragraphe académique",
+          "answer": "Écrivez un paragraphe académique avec thèse, preuve et conclusion."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-12",
+      "title": "Lesson 32: Film & Cinema Studies",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Études Cinématographiques"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire du cinéma : cinématographie, montage, mise en scène et genres filmiques."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "cinématographie", "definition": "映像技法"},
+            {"term": "montage", "definition": "編集"},
+            {"term": "mise en scène", "definition": "演出"},
+            {"term": "cadrage", "definition": "フレーミング"},
+            {"term": "son", "definition": "サウンド"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Techniques Filmiques",
+          "items": [
+            "La cinématographie utilise la lumière et la composition.",
+            "Le montage crée le rythme et la tension du film.",
+            "La mise en scène dirige les acteurs et les mouvements."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyse Cinématographique",
+          "auxiliaryPrompt": "Analysez une scène de film",
+          "answer": "Analysez une scène cinématographique en identifiant les techniques utilisées."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-13",
+      "title": "Lesson 33: Music Theory & Musicology",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Théorie Musicale"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire musical : harmonie, mélodie, rythme, genres musicaux et histoire de la musique."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "mélodie", "definition": "メロディー"},
+            {"term": "harmonie", "definition": "ハーモニー"},
+            {"term": "rythme", "definition": "リズム"},
+            {"term": "tonalité", "definition": "調性"},
+            {"term": "timbre", "definition": "音色"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Éléments Musicaux",
+          "items": [
+            "La mélodie est la ligne principale du morceau.",
+            "L'harmonie crée la profondeur et la texture sonore.",
+            "Le rythme organise les sons dans le temps."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyse Musicale",
+          "auxiliaryPrompt": "Analysez un morceau musical",
+          "answer": "Décrivez les éléments musicaux (mélodie, harmonie, rythme) d'une composition."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-14",
+      "title": "Lesson 34: Geography & Geopolitics",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Géographie et Géopolitique"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire géographique : terrains, climat, frontières, ressources et dynamiques géopolitiques."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "terrain", "definition": "地形"},
+            {"term": "climat", "definition": "気候"},
+            {"term": "frontière", "definition": "国境"},
+            {"term": "ressource naturelle", "definition": "自然資源"},
+            {"term": "urbanisation", "definition": "都市化"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Phénomènes Géographiques",
+          "items": [
+            "Le terrain influence la vie économique d'une région.",
+            "Le climat affecte l'agriculture et l'industrie.",
+            "L'urbanisation transforme les paysages et les sociétés."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyse Géopolitique",
+          "auxiliaryPrompt": "Analysez une région géopolitique",
+          "answer": "Décrivez les caractéristiques géographiques et géopolitiques d'une région."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-acad-15",
+      "title": "Lesson 35: Religious Studies & Theology",
+      "level": "B2",
+      "field": "Academic & Culture",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Études Religieuses"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire religieux et théologique : doctrines, rituels, textes sacrés et pratiques spirituelles."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "doctrine", "definition": "教義"},
+            {"term": "foi", "definition": "信仰"},
+            {"term": "prière", "definition": "祈祷"},
+            {"term": "sacré", "definition": "神聖"},
+            {"term": "spiritualité", "definition": "スピリチュアリティ"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Concepts Religieux",
+          "items": [
+            "Les doctrines définissent les croyances d'une religion.",
+            "Les rituels marquent les événements importants de la vie.",
+            "Les textes sacrés contiennent les enseignements religieux."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Comparaison Religieuse",
+          "auxiliaryPrompt": "Comparez deux traditions religieuses",
+          "answer": "Comparez les doctrines et pratiques de deux religions différentes."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-tech-1",
+      "title": "Lesson 36: Programming & Software Development",
+      "level": "B2",
+      "field": "Technology & IT",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Programmation et Développement"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire informatique : langages de programmation, développement logiciel et concepts techniques."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "code", "definition": "コード"},
+            {"term": "algorithme", "definition": "アルゴリズム"},
+            {"term": "bug", "definition": "バグ"},
+            {"term": "débogage", "definition": "デバッグ"},
+            {"term": "base de données", "definition": "データベース"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Concepts Programmation",
+          "items": [
+            "Le code source est écrit en langage de programmation.",
+            "Un algorithme résout un problème par étapes logiques.",
+            "Le débogage identifie et corrige les erreurs."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Expliquer le Code",
+          "auxiliaryPrompt": "Décrivez un concept de programmation",
+          "answer": "Expliquez comment un algorithme résout un problème spécifique."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-tech-2",
+      "title": "Lesson 37: Web Technologies & Internet",
+      "level": "B2",
+      "field": "Technology & IT",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Technologies Web"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire web : HTML, CSS, JavaScript, serveurs et protocoles internet."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "HTML", "definition": "ハイパーテキスト・マークアップ言語"},
+            {"term": "CSS", "definition": "スタイルシート"},
+            {"term": "serveur web", "definition": "ウェブサーバー"},
+            {"term": "navigateur", "definition": "ブラウザ"},
+            {"term": "site web", "definition": "ウェブサイト"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Architecture Web",
+          "items": [
+            "HTML structure le contenu d'une page web.",
+            "CSS style les éléments visuels de la page.",
+            "Le serveur web héberge et distribue le contenu."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Décrire une Page Web",
+          "auxiliaryPrompt": "Expliquez les composants d'une page",
+          "answer": "Décrivez comment HTML, CSS et JavaScript fonctionnent ensemble sur une page web."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-tech-3",
+      "title": "Lesson 38: Cybersecurity & Data Protection",
+      "level": "B2",
+      "field": "Technology & IT",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Cybersécurité et Protection Données"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire de la cybersécurité : virus, malware, cryptage, authentification et sécurité réseau."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "virus", "definition": "ウイルス"},
+            {"term": "malware", "definition": "マルウェア"},
+            {"term": "cryptage", "definition": "暗号化"},
+            {"term": "mot de passe", "definition": "パスワード"},
+            {"term": "firewall", "definition": "ファイアウォール"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Sécurité Informatique",
+          "items": [
+            "Le cryptage protège les données sensibles.",
+            "Un mot de passe fort résiste aux attaques.",
+            "Le firewall bloque les accès non autorisés au réseau."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Plan de Sécurité",
+          "auxiliaryPrompt": "Proposez des mesures de sécurité",
+          "answer": "Décrivez 3 mesures de cybersécurité pour une entreprise."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-tech-4",
+      "title": "Lesson 39: Artificial Intelligence & Machine Learning",
+      "level": "B2",
+      "field": "Technology & IT",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Intelligence Artificielle et Machine Learning"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire de l'IA : machine learning, neural networks, algorithmes et applications."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "machine learning", "definition": "機械学習"},
+            {"term": "neural network", "definition": "ニューラルネットワーク"},
+            {"term": "données d'entraînement", "definition": "訓練データ"},
+            {"term": "modèle", "definition": "モデル"},
+            {"term": "prédiction", "definition": "予測"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Concepts IA",
+          "items": [
+            "Le machine learning permet aux systèmes d'apprendre des données.",
+            "Les neural networks imitent le fonctionnement du cerveau humain.",
+            "Les modèles de prédiction anticipent les résultats futurs."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Application de l'IA",
+          "auxiliaryPrompt": "Proposez une application d'IA",
+          "answer": "Décrivez comment l'IA pourrait résoudre un problème spécifique."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-tech-5",
+      "title": "Lesson 40: Cloud Computing & Infrastructure",
+      "level": "B2",
+      "field": "Technology & IT",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Cloud Computing et Infrastructure"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire du cloud : serveurs, stockage, scalabilité et services cloud."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "cloud computing", "definition": "クラウドコンピューティング"},
+            {"term": "serveur", "definition": "サーバー"},
+            {"term": "stockage", "definition": "ストレージ"},
+            {"term": "scalabilité", "definition": "スケーラビリティ"},
+            {"term": "API", "definition": "アプリケーションプログラムインターフェース"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Services Cloud",
+          "items": [
+            "Le cloud offre une flexibilité et une scalabilité.",
+            "Les serveurs cloud sont gérés par un fournisseur.",
+            "Les APIs permettent la communication entre services."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Migration Cloud",
+          "auxiliaryPrompt": "Planifiez une migration cloud",
+          "answer": "Décrivez les étapes pour migrer une infrastructure vers le cloud."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-tech-6",
+      "title": "Lesson 41: Mobile Technology & Apps",
+      "level": "B2",
+      "field": "Technology & IT",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Technologie Mobile"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire des applications mobiles : iOS, Android, interfaces et expérience utilisateur."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "application mobile", "definition": "モバイルアプリ"},
+            {"term": "iOS", "definition": "iOS"},
+            {"term": "Android", "definition": "Android"},
+            {"term": "interface utilisateur", "definition": "ユーザーインターフェース"},
+            {"term": "application native", "definition": "ネイティブアプリ"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Développement Mobile",
+          "items": [
+            "Les apps mobiles sont optimisées pour les petits écrans.",
+            "iOS et Android dominent le marché mobile.",
+            "L'interface utilisateur doit être intuitive et efficace."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Conception d'App",
+          "auxiliaryPrompt": "Concevez une application mobile",
+          "answer": "Décrivez les fonctionnalités et l'interface d'une application mobile."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-tech-7",
+      "title": "Lesson 42: Digital Marketing & SEO",
+      "level": "B2",
+      "field": "Technology & IT",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Marketing Digital et SEO"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire du marketing digital : SEO, SEM, réseaux sociaux et analytics web."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "SEO", "definition": "検索エンジン最適化"},
+            {"term": "SEM", "definition": "検索エンジンマーケティング"},
+            {"term": "mots-clés", "definition": "キーワード"},
+            {"term": "ranking", "definition": "順位"},
+            {"term": "conversion", "definition": "コンバージョン"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Stratégies Digitales",
+          "items": [
+            "Le SEO améliore le classement dans les moteurs de recherche.",
+            "Les mots-clés sont essentiels pour la visibilité.",
+            "La conversion mesure le succès des campagnes."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Stratégie SEO",
+          "auxiliaryPrompt": "Créez une stratégie SEO",
+          "answer": "Développez une stratégie SEO pour un site web spécifique."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-tech-8",
+      "title": "Lesson 43: Internet of Things & Devices",
+      "level": "B2",
+      "field": "Technology & IT",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Internet des Objets"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire IoT : capteurs, objets connectés, domotique et applications."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "IoT", "definition": "モノのインターネット"},
+            {"term": "capteur", "definition": "センサー"},
+            {"term": "appareil connecté", "definition": "コネクテッドデバイス"},
+            {"term": "domotique", "definition": "スマートホーム"},
+            {"term": "données en temps réel", "definition": "リアルタイムデータ"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Applications IoT",
+          "items": [
+            "Les capteurs collectent des données de leur environnement.",
+            "La domotique permet le contrôle des maisons intelligentes.",
+            "Les appareils IoT communiquent entre eux via internet."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Système IoT",
+          "auxiliaryPrompt": "Concevez un système IoT",
+          "answer": "Décrivez un système IoT pour une application spécifique (maison, usine, etc.)."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-tech-9",
+      "title": "Lesson 44: Blockchain & Cryptocurrency",
+      "level": "B2",
+      "field": "Technology & IT",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Blockchain et Cryptomonnaies"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire blockchain : transactions, mineurs, chaîne de blocs et applications décentralisées."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "blockchain", "definition": "ブロックチェーン"},
+            {"term": "transaction", "definition": "トランザクション"},
+            {"term": "mineur", "definition": "マイナー"},
+            {"term": "crypto-monnaie", "definition": "暗号資産"},
+            {"term": "contrat intelligent", "definition": "スマートコントラクト"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Technologie Blockchain",
+          "items": [
+            "La blockchain enregistre les transactions de façon immuable.",
+            "Les mineurs valident les transactions et sécurisent le réseau.",
+            "Les contrats intelligents exécutent automatiquement les accords."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Cas d'Usage Blockchain",
+          "auxiliaryPrompt": "Identifiez une application blockchain",
+          "answer": "Proposez un cas d'usage pour la technologie blockchain dans une industrie."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-tech-10",
+      "title": "Lesson 45: Digital Communication Tools",
+      "level": "B2",
+      "field": "Technology & IT",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Outils de Communication Numérique"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire des outils de communication digitale : email, chat, visioconférence et collaboration."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "email", "definition": "電子メール"},
+            {"term": "messagerie instantanée", "definition": "チャット"},
+            {"term": "visioconférence", "definition": "ビデオ会議"},
+            {"term": "collaboration", "definition": "協力"},
+            {"term": "partage de fichiers", "definition": "ファイル共有"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Outils Collaboratifs",
+          "items": [
+            "L'email reste le standard de communication professionnelle.",
+            "La visioconférence permet les réunions à distance.",
+            "Les outils collaboratifs facilitent le travail d'équipe."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Communication Virtuelle",
+          "auxiliaryPrompt": "Gérez une équipe virtuelle",
+          "answer": "Décrivez comment utiliser les outils digitaux pour gérer une équipe distante."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-med-1",
+      "title": "Lesson 46: Medical Terminology & Healthcare",
+      "level": "B2",
+      "field": "Healthcare & Science",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Terminologie Médicale"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire médical : anatomie, maladies, traitements et procédures médicales."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "diagnostic", "definition": "診断"},
+            {"term": "symptôme", "definition": "症状"},
+            {"term": "traitement", "definition": "治療"},
+            {"term": "chirurgie", "definition": "手術"},
+            {"term": "médicament", "definition": "医薬品"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Pratique Médicale",
+          "items": [
+            "Le diagnostic précis est crucial pour le traitement.",
+            "Les symptômes guident la recherche de la maladie.",
+            "La chirurgie est une intervention invasive."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Description de Maladie",
+          "auxiliaryPrompt": "Décrivez une condition médicale",
+          "answer": "Décrivez une maladie avec ses symptômes, diagnostic et traitement."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-med-2",
+      "title": "Lesson 47: Pharmacology & Medications",
+      "level": "B2",
+      "field": "Healthcare & Science",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Pharmacologie et Médicaments"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire pharmacologique : médicaments, dosages, effets secondaires et interactions."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "dose", "definition": "用量"},
+            {"term": "posologie", "definition": "用法用量"},
+            {"term": "effets secondaires", "definition": "副作用"},
+            {"term": "interaction", "definition": "相互作用"},
+            {"term": "prescrire", "definition": "処方する"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Administration de Médicaments",
+          "items": [
+            "La dose doit être adaptée au poids et à l'âge du patient.",
+            "Les effets secondaires doivent être surveillés.",
+            "Les interactions peuvent réduire l'efficacité."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Information sur le Médicament",
+          "auxiliaryPrompt": "Décrivez un profil médicamenteux",
+          "answer": "Décrivez les propriétés, effets et précautions d'un médicament."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-med-3",
+      "title": "Lesson 48: Clinical Practice & Patient Care",
+      "level": "B2",
+      "field": "Healthcare & Science",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Pratique Clinique"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire clinique : examens, tests, consultations et suivi des patients."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "consultation", "definition": "診察"},
+            {"term": "examen physique", "definition": "身体検査"},
+            {"term": "test sanguin", "definition": "血液検査"},
+            {"term": "imagerie médicale", "definition": "医療画像"},
+            {"term": "suivi", "definition": "フォローアップ"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Processus Clinique",
+          "items": [
+            "La consultation commence par l'historique du patient.",
+            "L'examen physique fournit des observations directes.",
+            "Les tests confirmenty les hypothèses diagnostiques."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Protocole de Consultation",
+          "auxiliaryPrompt": "Décrivez une visite médicale",
+          "answer": "Décrivez les étapes d'une consultation médicale de routine."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-med-4",
+      "title": "Lesson 49: Scientific Research & Methodology",
+      "level": "B2",
+      "field": "Healthcare & Science",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Recherche Scientifique"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire de la recherche scientifique : hypothèse, expérience, données et résultats."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "hypothèse", "definition": "仮説"},
+            {"term": "expérience", "definition": "実験"},
+            {"term": "données", "definition": "データ"},
+            {"term": "résultats", "definition": "結果"},
+            {"term": "peer review", "definition": "ピア・レビュー"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Démarche Scientifique",
+          "items": [
+            "L'hypothèse guide la conception de l'expérience.",
+            "Les données sont collectées systématiquement.",
+            "Le peer review valide la qualité de la recherche."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Protocole Expérimental",
+          "auxiliaryPrompt": "Concevez une étude scientifique",
+          "answer": "Décrivez le protocole d'une expérience scientifique avec hypothèse et variables."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-med-5",
+      "title": "Lesson 50: Public Health & Epidemiology",
+      "level": "B2",
+      "field": "Healthcare & Science",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Santé Publique et Épidémiologie"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire épidémiologique : épidémie, pandémie, transmission et prévention."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "épidémie", "definition": "流行"},
+            {"term": "pandémie", "definition": "パンデミック"},
+            {"term": "transmission", "definition": "感染"},
+            {"term": "prévention", "definition": "予防"},
+            {"term": "vaccin", "definition": "ワクチン"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Concepts Épidémiologiques",
+          "items": [
+            "Une épidémie se limite à une région ou population.",
+            "Une pandémie s'étend mondialement.",
+            "La prévention est plus efficace que le traitement."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Analyse d'Épidémie",
+          "auxiliaryPrompt": "Étudiez la propagation d'une maladie",
+          "answer": "Décrivez comment une épidémie se propage et quelles mesures la contrôler."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-med-6",
+      "title": "Lesson 51: Mental Health & Psychology",
+      "level": "B2",
+      "field": "Healthcare & Science",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Santé Mentale"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire de la santé mentale : troubles psychologiques, thérapies et bien-être mental."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "dépression", "definition": "抑うつ"},
+            {"term": "anxiété", "definition": "不安"},
+            {"term": "thérapie", "definition": "治療"},
+            {"term": "psychiatre", "definition": "精神科医"},
+            {"term": "bien-être", "definition": "ウェルビーイング"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Soutien Mental",
+          "items": [
+            "La dépression affecte l'humeur et la motivation.",
+            "L'anxiété manifeste une peur excessive.",
+            "La thérapie aide à gérer les troubles psychologiques."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Intervention Thérapeutique",
+          "auxiliaryPrompt": "Proposez un plan thérapeutique",
+          "answer": "Décrivez une approche thérapeutique pour un trouble psychologique spécifique."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-med-7",
+      "title": "Lesson 52: Nutrition & Dietetics",
+      "level": "B2",
+      "field": "Healthcare & Science",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Nutrition et Diététique"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire nutritionnel : nutriments, régimes, alimentation saine et maladies liées à la nutrition."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "protéine", "definition": "タンパク質"},
+            {"term": "glucide", "definition": "炭水化物"},
+            {"term": "lipide", "definition": "脂質"},
+            {"term": "calorie", "definition": "カロリー"},
+            {"term": "régime équilibré", "definition": "バランスの取れた食事"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Concepts Nutritionnels",
+          "items": [
+            "Les protéines construisent et réparent les tissus.",
+            "Les glucides fournissent l'énergie.",
+            "Un régime équilibré inclut tous les macronutriments."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Plan Nutritionnel",
+          "auxiliaryPrompt": "Créez un plan alimentaire",
+          "answer": "Développez un plan nutritionnel équilibré pour un objectif de santé spécifique."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-med-8",
+      "title": "Lesson 53: Genetic Science & Biotechnology",
+      "level": "B2",
+      "field": "Healthcare & Science",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Génétique et Biotechnologie"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le vocabulaire génétique : ADN, gènes, mutations et applications biotechnologiques."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "ADN", "definition": "DNA"},
+            {"term": "gène", "definition": "遺伝子"},
+            {"term": "mutation", "definition": "突然変異"},
+            {"term": "hérédité", "definition": "遺伝"},
+            {"term": "transgénique", "definition": "遺伝子組み換え"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Concepts Génétiques",
+          "items": [
+            "L'ADN contient les instructions génétiques.",
+            "Les mutations peuvent causer des maladies.",
+            "La biotechnologie modifie les organismes génétiquement."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Application Biotechnologique",
+          "auxiliaryPrompt": "Proposez une utilisation de la biotechnologie",
+          "answer": "Décrivez une application de la biotechnologie moderne en médecine."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-med-9",
+      "title": "Lesson 54: Cardiology & Cardiovascular System",
+      "level": "B2",
+      "field": "Healthcare & Science",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Cardiologie"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire cardiologique : cœur, circulation, maladies cardiovasculaires et interventions."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "cœur", "definition": "心臓"},
+            {"term": "artère", "definition": "動脈"},
+            {"term": "tension artérielle", "definition": "血圧"},
+            {"term": "arrêt cardiaque", "definition": "心停止"},
+            {"term": "infarctus", "definition": "心筋梗塞"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Santé Cardiovasculaire",
+          "items": [
+            "Le cœur pompe le sang dans tout le corps.",
+            "L'hypertension augmente le risque de maladie.",
+            "L'infarctus est une urgence médicale."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Prévention Cardiaque",
+          "auxiliaryPrompt": "Proposez des mesures préventives",
+          "answer": "Décrivez 3 mesures pour maintenir la santé cardiovasculaire."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-med-10",
+      "title": "Lesson 55: Environmental Science & Ecology",
+      "level": "B2",
+      "field": "Healthcare & Science",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Sciences Environnementales"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire environnemental : écosystème, biodiversité, pollution et conservation."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "écosystème", "definition": "生態系"},
+            {"term": "biodiversité", "definition": "生物多様性"},
+            {"term": "pollution", "definition": "汚染"},
+            {"term": "conservation", "definition": "保全"},
+            {"term": "changement climatique", "definition": "気候変動"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Enjeux Environnementaux",
+          "items": [
+            "Les écosystèmes sont interconnectés et fragiles.",
+            "La biodiversité diminue à cause des activités humaines.",
+            "Le changement climatique menace l'équilibre écologique."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Projet de Conservation",
+          "auxiliaryPrompt": "Proposez une initiative environnementale",
+          "answer": "Décrivez un projet de conservation pour protéger une espèce ou un écosystème."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-news-1",
+      "title": "Lesson 56: Journalism & News Writing",
+      "level": "B2",
+      "field": "Media & Journalism",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Journalisme et Écriture Journalistique"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez le vocabulaire journalistique : sources, faits, objectivité et style d'écriture journalistique."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "article", "definition": "記事"},
+            {"term": "source fiable", "definition": "信頼できる情報源"},
+            {"term": "vérification des faits", "definition": "事実確認"},
+            {"term": "objectivité", "definition": "客観性"},
+            {"term": "citation", "definition": "引用"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Principes Journalistiques",
+          "items": [
+            "L'objectivité est fondamentale au journalisme.",
+            "Les sources doivent être fiables et vérifiées.",
+            "Les citations donnent crédibilité et contexte."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Rédiger un Article",
+          "auxiliaryPrompt": "Écrivez un article journalistique",
+          "answer": "Rédigez un court article journalistique sur un événement d'actualité."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-news-2",
+      "title": "Lesson 57: Media Types & Platforms",
+      "level": "B2",
+      "field": "Media & Journalism",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Types de Médias et Plateformes"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez les différents médias : presse écrite, télévision, radio, web et réseaux sociaux."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "presse écrite", "definition": "新聞・雑誌"},
+            {"term": "télévision", "definition": "テレビ"},
+            {"term": "radio", "definition": "ラジオ"},
+            {"term": "journal en ligne", "definition": "オンラインニュース"},
+            {"term": "podcast", "definition": "ポッドキャスト"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Paysage Médiatique",
+          "items": [
+            "La presse écrite offre une analyse approfondie.",
+            "La télévision atteint un large public.",
+            "Les réseaux sociaux offrent immédiateté et interaction."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Adaptation Médiatique",
+          "auxiliaryPrompt": "Adaptez une histoire pour différents médias",
+          "answer": "Présentez une nouvelle adaptée pour la TV, la radio et les réseaux sociaux."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-news-3",
+      "title": "Lesson 58: Reporting & Investigation",
+      "level": "B2",
+      "field": "Media & Journalism",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Reportage et Investigation"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le vocabulaire du reportage : enquête, interview, observation et documentation."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "enquête", "definition": "調査"},
+            {"term": "interview", "definition": "インタビュー"},
+            {"term": "témoin", "definition": "証人"},
+            {"term": "documentation", "definition": "資料収集"},
+            {"term": "couverture", "definition": "報道"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Processus d'Investigation",
+          "items": [
+            "Une bonne enquête commence par des questions claires.",
+            "Les interviews capturent les voix directes.",
+            "La documentation soutient les affirmations journalistiques."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Mener une Investigation",
+          "auxiliaryPrompt": "Planifiez une enquête journalistique",
+          "answer": "Décrivez les étapes pour enquêter sur une histoire d'intérêt public."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-news-4",
+      "title": "Lesson 59: Opinion & Editorial Writing",
+      "level": "B2",
+      "field": "Media & Journalism",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Écriture d'Opinion et Éditorial"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez à écrire des opinions et des éditoriaux : argumentation, persuasion et crédibilité."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "éditorial", "definition": "社説"},
+            {"term": "opinion", "definition": "意見"},
+            {"term": "argument", "definition": "論証"},
+            {"term": "contrepoint", "definition": "対抗論"},
+            {"term": "persuasion", "definition": "説得"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Structure d'Opinion",
+          "items": [
+            "Un éditorial exprime la position d'un journal.",
+            "Les arguments doivent être logiques et soutenus.",
+            "Les contrepoints reconnaissent les autres perspectives."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Rédiger un Éditorial",
+          "auxiliaryPrompt": "Écrivez une pièce d'opinion",
+          "answer": "Composez un éditorial de 300 mots sur un sujet d'actualité."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-news-5",
+      "title": "Lesson 60: Media Ethics & Responsibility",
+      "level": "B2",
+      "field": "Media & Journalism",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Éthique Médiatique"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez l'éthique journalistique : confidentialité des sources, conflits d'intérêts et responsabilité sociale."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "confidentialité", "definition": "機密性"},
+            {"term": "conflit d'intérêt", "definition": "利益相反"},
+            {"term": "responsabilité", "definition": "責任"},
+            {"term": "code d'éthique", "definition": "倫理規程"},
+            {"term": "transparence", "definition": "透明性"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Principes Éthiques",
+          "items": [
+            "La confidentialité des sources protège les lanceurs d'alerte.",
+            "Les conflits d'intérêt doivent être déclarés.",
+            "La transparence renforce la confiance du public."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Dilemme Éthique",
+          "auxiliaryPrompt": "Résolvez un dilemme journalistique",
+          "answer": "Discutez comment gérer un conflit entre scoop et responsabilité éthique."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-news-6",
+      "title": "Lesson 61: Fact-Checking & Misinformation",
+      "level": "B2",
+      "field": "Media & Journalism",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Vérification des Faits et Désinformation"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez à vérifier les faits et combattre la désinformation : sources, preuves et techniques."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "vérification des faits", "definition": "事実確認"},
+            {"term": "désinformation", "definition": "偽情報"},
+            {"term": "misinformation", "definition": "誤った情報"},
+            {"term": "hoax", "definition": "デマ"},
+            {"term": "source primaire", "definition": "一次資料"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Lutte Contre la Désinformation",
+          "items": [
+            "La vérification des faits demande rigueur et patience.",
+            "Les sources primaires offrent une vérification directe.",
+            "L'éducation critique aide à identifier les hoax."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Vérifier une Affirmation",
+          "auxiliaryPrompt": "Testez une affirmation controversée",
+          "answer": "Décrivez comment vérifier une affirmation importante avant publication."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-news-7",
+      "title": "Lesson 62: Multimedia Storytelling",
+      "level": "B2",
+      "field": "Media & Journalism",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Narration Multimédia"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez la narration multimédia : images, vidéo, audio et interactivité dans le journalisme."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "photojournalisme", "definition": "フォトジャーナリズム"},
+            {"term": "vidéo documentaire", "definition": "ドキュメンタリー動画"},
+            {"term": "infographie", "definition": "インフォグラフィックス"},
+            {"term": "interactivité", "definition": "インタラクティビティ"},
+            {"term": "contenu immersif", "definition": "イマーシブコンテンツ"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Formats Multimédias",
+          "items": [
+            "Les photos apportent une perspective visuelle immediated.",
+            "Les vidéos capturent les événements en action.",
+            "L'infographie simplifie les données complexes."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Projet Multimédia",
+          "auxiliaryPrompt": "Concevez une histoire multimédia",
+          "answer": "Proposez un projet journalistique combinant texte, images, vidéo et données."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-news-8",
+      "title": "Lesson 63: Broadcast Journalism",
+      "level": "B2",
+      "field": "Media & Journalism",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Journalisme Audiovisuel"
+        },
+        {
+          "type": "text",
+          "content": "Comprenez le journalisme audiovisuel : télévision, radio et production audiovisuelle."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "bulletin d'information", "definition": "ニュース番組"},
+            {"term": "présentateur", "definition": "キャスター"},
+            {"term": "script", "definition": "台本"},
+            {"term": "décrochage", "definition": "生中継"},
+            {"term": "montage", "definition": "編集"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Production Audiovisuelle",
+          "items": [
+            "Le script guide le présentateur et l'équipe.",
+            "Les décrochages fournissent des informations en direct.",
+            "Le montage crée un narratif cohérent."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Script de Bulletin",
+          "auxiliaryPrompt": "Rédigez un script de bulletin d'info",
+          "answer": "Écrivez un script pour un bulletin d'information de 3 minutes."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-news-9",
+      "title": "Lesson 64: Digital Media & Content Strategy",
+      "level": "B2",
+      "field": "Media & Journalism",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Médias Numériques et Stratégie Éditoriale"
+        },
+        {
+          "type": "text",
+          "content": "Apprenez la stratégie de contenu digital : SEO, engagement, monétisation et analyse d'audience."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "stratégie éditoriale", "definition": "編集戦略"},
+            {"term": "engagement", "definition": "エンゲージメント"},
+            {"term": "audience", "definition": "オーディエンス"},
+            {"term": "analytics", "definition": "アナリティクス"},
+            {"term": "monétisation", "definition": "収益化"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Stratégie Numérique",
+          "items": [
+            "Une bonne stratégie éditoriale attire et fidélise l'audience.",
+            "L'engagement mesure l'interaction des lecteurs.",
+            "L'analyse des données guide l'optimisation du contenu."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Plan Éditorial Digital",
+          "auxiliaryPrompt": "Développez une stratégie de contenu",
+          "answer": "Créez un plan éditorial numérique pour une publication d'actualité."
+        }
+      ]
+    },
+    {
+      "id": "fra-spec-news-10",
+      "title": "Lesson 65: International Reporting & Global Journalism",
+      "level": "B2",
+      "field": "Media & Journalism",
+      "duration": "10:00",
+      "sections": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Journalisme International"
+        },
+        {
+          "type": "text",
+          "content": "Maîtrisez le journalisme international : contexte géopolitique, langues multiples et couverture mondiale."
+        },
+        {
+          "type": "glossary",
+          "terms": [
+            {"term": "correspondant", "definition": "特派員"},
+            {"term": "contexte géopolitique", "definition": "地政学的背景"},
+            {"term": "conflit international", "definition": "国際紛争"},
+            {"term": "diplomatie", "definition": "外交"},
+            {"term": "perspective globale", "definition": "グローバルな視点"}
+          ]
+        },
+        {
+          "type": "highlight-box",
+          "title": "Couverture Mondiale",
+          "items": [
+            "Les correspondants rapportent de différentes régions du monde.",
+            "Le contexte géopolitique est essentiel à la compréhension.",
+            "La perspective globale enrichit la couverture locale."
+          ]
+        },
+        {
+          "type": "practice",
+          "question": "Rapport International",
+          "auxiliaryPrompt": "Couvrez une histoire mondiale",
+          "answer": "Rédigez un rapport sur un événement international mettant en contexte géopolitique."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1394 @@
+{
+  "language": "sign_language_specialized",
+  "name": "手話 - 専門分野",
+  "icon": "/images/genres/genre-sign-language.png",
+  "description": "ビジネス・学術・技術・医療・メディア分野の専門用語を習得する65講義",
+  "lessons": [
+    {
+      "id": "sl-biz-001",
+      "level": 3,
+      "chapter": 21,
+      "domain": "business",
+      "title": "ビジネス基本用語 - 企業組織体系",
+      "objectives": ["企業内の職階・部署用語を手話で表現できる"],
+      "content": {
+        "introduction": "会社組織の基本構造と役職。ビジネス手話の入門",
+        "sections": [
+          {
+            "title": "Company Structure - 企業構造",
+            "content": "CEO・部長・課長などの職位体系を表現します。",
+            "vocabulary": [
+              {"sign": "COMPANY", "meaning": "会社", "handshape": "両手Open Hand で建物を表現"},
+              {"sign": "CEO/PRESIDENT", "meaning": "社長", "handshape": "Crown gesture + Point upward"},
+              {"sign": "DEPARTMENT", "meaning": "部門", "handshape": "Closed Fist で区切りを示す"},
+              {"sign": "MANAGER", "meaning": "マネージャー", "handshape": "両手で指揮する動き"},
+              {"sign": "STAFF", "meaning": "スタッフ", "handshape": "Multiple Pointing で複数を示す"}
+            ]
+          },
+          {
+            "title": "Department Names - 部門名",
+            "content": "営業・企画・技術部などの部署を手話で。",
+            "vocabulary": [
+              {"sign": "SALES", "meaning": "営業", "handshape": "両手で物を送る動き"},
+              {"sign": "PLANNING", "meaning": "企画", "handshape": "頭を指してから手で拡げる"},
+              {"sign": "TECHNOLOGY", "meaning": "技術", "handshape": "両手で機械を操作する動き"},
+              {"sign": "HUMAN-RESOURCES", "meaning": "人事", "handshape": "複数の人を指す"},
+              {"sign": "FINANCE", "meaning": "財務", "handshape": "Money sign + 計算する動き"}
+            ]
+          },
+          {
+            "title": "Job Titles - 職業名",
+            "content": "エンジニア・企画者・営業など各職種。",
+            "vocabulary": [
+              {"sign": "ENGINEER", "meaning": "エンジニア", "handshape": "技術gestures"},
+              {"sign": "DESIGNER", "meaning": "デザイナー", "handshape": "創造的な手の動き"},
+              {"sign": "ACCOUNTANT", "meaning": "会計士", "handshape": "数字 + Pointing"},
+              {"sign": "CONSULTANT", "meaning": "コンサルタント", "handshape": "相談する姿勢"},
+              {"sign": "DIRECTOR", "meaning": "ディレクター", "handshape": "映画監督の手振り"}
+            ]
+          },
+          {
+            "title": "Company Activities - 企業活動",
+            "content": "会議・プレゼン・報告など日常業務。",
+            "vocabulary": [
+              {"sign": "MEETING", "meaning": "会議", "handshape": "複数の人が集まる動き"},
+              {"sign": "PRESENTATION", "meaning": "プレゼンテーション", "handshape": "前へ話す動き"},
+              {"sign": "REPORT", "meaning": "報告", "handshape": "書類を上司に渡す"},
+              {"sign": "BUDGET", "meaning": "予算", "handshape": "お金の量を示す"},
+              {"sign": "PROJECT", "meaning": "プロジェクト", "handshape": "パッケージング動き"}
+            ]
+          },
+          {
+            "title": "Business Ethics - ビジネス倫理",
+            "content": "契約・コンプライアンス・責任など。",
+            "vocabulary": [
+              {"sign": "CONTRACT", "meaning": "契約", "handshape": "握手 + 署名"},
+              {"sign": "COMPLIANCE", "meaning": "コンプライアンス", "handshape": "ルールを守る動き"},
+              {"sign": "RESPONSIBILITY", "meaning": "責任", "handshape": "肩に荷を背負う"},
+              {"sign": "AGREEMENT", "meaning": "合意", "handshape": "握手"},
+              {"sign": "DEADLINE", "meaning": "締め切り", "handshape": "時間制限を示す"}
+            ]
+          },
+          {
+            "title": "実践：会社紹介",
+            "content": "自分の会社を手話で紹介する練習。",
+            "practice": [
+              {"id": "sl-biz-001-p1", "type": "descriptive", "scenario": "会社規模・部門数・職員数を手話で説明する"},
+              {"id": "sl-biz-001-p2", "type": "roleplay", "scenario": "会議の場で自分の役職と担当を紹介する"},
+              {"id": "sl-biz-001-p3", "type": "conversation", "scenario": "同僚に新規プロジェクトの説明をする"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-biz-002",
+      "level": 3,
+      "chapter": 21,
+      "domain": "business",
+      "title": "ビジネス交渉 - Deal Making",
+      "objectives": ["ビジネス交渉の流れを手話で実行できる"],
+      "content": {
+        "introduction": "提案・交渉・決定のプロセスを手話で。",
+        "sections": [
+          {
+            "title": "Proposal Process - 提案プロセス",
+            "content": "提案から承認までの段階を表現。",
+            "vocabulary": [
+              {"sign": "PROPOSE", "meaning": "提案する", "handshape": "前に差し出す"},
+              {"sign": "NEGOTIATE", "meaning": "交渉する", "handshape": "両手で受け渡す動き"},
+              {"sign": "DISCUSS", "meaning": "討論する", "handshape": "対面で話す"},
+              {"sign": "APPROVE", "meaning": "承認する", "handshape": "Thumbs Up"},
+              {"sign": "REJECT", "meaning": "却下する", "handshape": "手を横に振る"}
+            ]
+          },
+          {
+            "title": "Price & Cost - 価格と費用",
+            "content": "価格交渉の用語。",
+            "vocabulary": [
+              {"sign": "PRICE", "meaning": "価格", "handshape": "お金の量を示す"},
+              {"sign": "DISCOUNT", "meaning": "割引", "handshape": "減少を示す"},
+              {"sign": "COST", "meaning": "費用", "handshape": "出ていくお金"},
+              {"sign": "PROFIT", "meaning": "利益", "handshape": "増加を示す"},
+              {"sign": "EXPENSE", "meaning": "経費", "handshape": "支出の動き"}
+            ]
+          },
+          {
+            "title": "Deal Closure - 契約締結",
+            "content": "交渉の終結と合意。",
+            "vocabulary": [
+              {"sign": "DEAL", "meaning": "取引", "handshape": "握手"},
+              {"sign": "CLOSE", "meaning": "締結する", "handshape": "両手で包み込む"},
+              {"sign": "SIGN-CONTRACT", "meaning": "契約にサイン", "handshape": "署名する動き"},
+              {"sign": "FINAL", "meaning": "最終的", "handshape": "終了を示す"},
+              {"sign": "CONFIRM", "meaning": "確認する", "handshape": "頷く + 指す"}
+            ]
+          },
+          {
+            "title": "Conditions & Terms - 条件と条項",
+            "content": "契約条件の詳細。",
+            "vocabulary": [
+              {"sign": "CONDITION", "meaning": "条件", "handshape": "制限を示す"},
+              {"sign": "TERM", "meaning": "期間", "handshape": "時間を示す線"},
+              {"sign": "WARRANTY", "meaning": "保証", "handshape": "守る動き"},
+              {"sign": "OBLIGATION", "meaning": "義務", "handshape": "責任の動き"},
+              {"sign": "PENALTY", "meaning": "ペナルティ", "handshape": "罰を示す"}
+            ]
+          },
+          {
+            "title": "International Business - 国際ビジネス",
+            "content": "グローバル取引の用語。",
+            "vocabulary": [
+              {"sign": "INTERNATIONAL", "meaning": "国際的", "handshape": "地球を示す"},
+              {"sign": "EXPORT", "meaning": "輸出", "handshape": "外へ送る"},
+              {"sign": "IMPORT", "meaning": "輸入", "handshape": "内へ受け取る"},
+              {"sign": "CURRENCY", "meaning": "通貨", "handshape": "お金 + 国"},
+              {"sign": "TRADE", "meaning": "貿易", "handshape": "両国間の流れ"}
+            ]
+          },
+          {
+            "title": "実践：商談シミュレーション",
+            "content": "実際の商談を手話で実演。",
+            "practice": [
+              {"id": "sl-biz-002-p1", "type": "roleplay", "scenario": "価格交渉を手話で進める"},
+              {"id": "sl-biz-002-p2", "type": "dialogue", "scenario": "契約条件について議論"},
+              {"id": "sl-biz-002-p3", "type": "presentation", "scenario": "取引成立の報告"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-biz-003",
+      "level": 3,
+      "chapter": 21,
+      "domain": "business",
+      "title": "ビジネスIT - Office Technology",
+      "objectives": ["オフィス技術用語を習得する"],
+      "content": {
+        "introduction": "PC・メール・資料作成など日常のIT用語。",
+        "sections": [
+          {
+            "title": "Computer Tools - コンピュータツール",
+            "content": "仕事で使うソフトウェア。",
+            "vocabulary": [
+              {"sign": "EMAIL", "meaning": "メール", "handshape": "封筒の動き"},
+              {"sign": "SPREADSHEET", "meaning": "表計算", "handshape": "格子を示す"},
+              {"sign": "PRESENTATION-SOFTWARE", "meaning": "プレゼンソフト", "handshape": "スライド映す動き"},
+              {"sign": "DATABASE", "meaning": "データベース", "handshape": "大量のデータ"},
+              {"sign": "DOCUMENT", "meaning": "ドキュメント", "handshape": "書類"}
+            ]
+          },
+          {
+            "title": "Digital Communication - デジタル通信",
+            "content": "ビデオ会議・チャットなど。",
+            "vocabulary": [
+              {"sign": "VIDEO-CALL", "meaning": "ビデオ通話", "handshape": "画面と顔"},
+              {"sign": "MESSAGE", "meaning": "メッセージ", "handshape": "吹き出し"},
+              {"sign": "CONFERENCE", "meaning": "テレビ会議", "handshape": "複数が画面に映る"},
+              {"sign": "SHARE-SCREEN", "meaning": "画面共有", "handshape": "展開する動き"},
+              {"sign": "RECORD", "meaning": "記録する", "handshape": "録画ボタン"}
+            ]
+          },
+          {
+            "title": "Data Management - データ管理",
+            "content": "ファイル・クラウド・バックアップ。",
+            "vocabulary": [
+              {"sign": "FILE", "meaning": "ファイル", "handshape": "フォルダ"},
+              {"sign": "FOLDER", "meaning": "フォルダ", "handshape": "折りたたむ動き"},
+              {"sign": "CLOUD", "meaning": "クラウド", "handshape": "雲を示す"},
+              {"sign": "BACKUP", "meaning": "バックアップ", "handshape": "複製する動き"},
+              {"sign": "DELETE", "meaning": "削除", "handshape": "捨てる動き"}
+            ]
+          },
+          {
+            "title": "Security & Access - セキュリティ",
+            "content": "パスワード・アクセス権限など。",
+            "vocabulary": [
+              {"sign": "PASSWORD", "meaning": "パスワード", "handshape": "秘密の動き"},
+              {"sign": "LOGIN", "meaning": "ログイン", "handshape": "扉を開く"},
+              {"sign": "PERMISSION", "meaning": "権限", "handshape": "許可する動き"},
+              {"sign": "ACCESS", "meaning": "アクセス", "handshape": "近づく動き"},
+              {"sign": "SECURE", "meaning": "セキュア", "handshape": "守る動き"}
+            ]
+          },
+          {
+            "title": "Troubleshooting - トラブルシューティング",
+            "content": "エラーと問題解決。",
+            "vocabulary": [
+              {"sign": "ERROR", "meaning": "エラー", "handshape": "×マーク"},
+              {"sign": "CRASH", "meaning": "クラッシュ", "handshape": "落ちる動き"},
+              {"sign": "BUG", "meaning": "バグ", "handshape": "虫"},
+              {"sign": "RESTART", "meaning": "再起動", "handshape": "回転・開始"},
+              {"sign": "UPDATE", "meaning": "アップデート", "handshape": "上昇する動き"}
+            ]
+          },
+          {
+            "title": "実践：技術サポート",
+            "content": "IT問題を手話で説明・解決する。",
+            "practice": [
+              {"id": "sl-biz-003-p1", "type": "problem-description", "scenario": "PCの不具合を説明"},
+              {"id": "sl-biz-003-p2", "type": "instruction", "scenario": "ソフト操作方法を指導"},
+              {"id": "sl-biz-003-p3", "type": "support-dialogue", "scenario": "サポートスタッフとのやり取り"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-biz-004",
+      "level": 3,
+      "chapter": 22,
+      "domain": "business",
+      "title": "ビジネス外交 - Workplace Communication",
+      "objectives": ["職場での上下関係とコミュニケーション方法を習得"],
+      "content": {
+        "introduction": "敬語や上司部下間での丁寧な表現。",
+        "sections": [
+          {
+            "title": "Formal vs Casual - 敬語と親密",
+            "content": "文脈による表現の使い分け。",
+            "vocabulary": [
+              {"sign": "RESPECTFUL-GREETING", "meaning": "敬礼", "handshape": "丁寧なお辞儀"},
+              {"sign": "CASUAL-GREETING", "meaning": "カジュアル挨拶", "handshape": "親友同士"},
+              {"sign": "FORMAL-ADDRESS", "meaning": "敬称", "handshape": "相手を高く示す"},
+              {"sign": "INFORMAL-ADDRESS", "meaning": "親昵的", "handshape": "同等の高さ"},
+              {"sign": "HIERARCHICAL", "meaning": "階級的", "handshape": "上下の関係"}
+            ]
+          },
+          {
+            "title": "Request & Instruction - 指示と依頼",
+            "content": "上司からの指示と部下への依頼。",
+            "vocabulary": [
+              {"sign": "INSTRUCTION", "meaning": "指示", "handshape": "命令する動き"},
+              {"sign": "REQUEST", "meaning": "依頼", "handshape": "お願いする両手"},
+              {"sign": "ASK", "meaning": "尋ねる", "handshape": "疑問の顔"},
+              {"sign": "DEMAND", "meaning": "要求", "handshape": "強い指し示し"},
+              {"sign": "SUGGEST", "meaning": "提案", "handshape": "ライトが付く"}
+            ]
+          },
+          {
+            "title": "Performance & Feedback - 評価とフィードバック",
+            "content": "仕事の評価についての表現。",
+            "vocabulary": [
+              {"sign": "EXCELLENT-WORK", "meaning": "素晴らしい仕事", "handshape": "Thumbs Up + 顔"},
+              {"sign": "NEED-IMPROVEMENT", "meaning": "改善が必要", "handshape": "上昇する動き"},
+              {"sign": "FEEDBACK", "meaning": "フィードバック", "handshape": "返してくる"},
+              {"sign": "EVALUATION", "meaning": "評価", "handshape": "天秤"},
+              {"sign": "SCORE", "meaning": "スコア", "handshape": "数字を示す"}
+            ]
+          },
+          {
+            "title": "Problem Solving at Work - 問題解決",
+            "content": "職場での課題対応。",
+            "vocabulary": [
+              {"sign": "PROBLEM", "meaning": "問題", "handshape": "困惑の顔"},
+              {"sign": "SOLUTION", "meaning": "解決", "handshape": "クイズが解ける"},
+              {"sign": "CONFLICT", "meaning": "衝突", "handshape": "ぶつかる"},
+              {"sign": "COMPROMISE", "meaning": "妥協", "handshape": "中間に寄る"},
+              {"sign": "RESOLUTION", "meaning": "決着", "handshape": "終了"}
+            ]
+          },
+          {
+            "title": "Team Dynamics - チームワーク",
+            "content": "チーム内での関係。",
+            "vocabulary": [
+              {"sign": "TEAM", "meaning": "チーム", "handshape": "複数が一体"},
+              {"sign": "COOPERATION", "meaning": "協力", "handshape": "一緒に動く"},
+              {"sign": "LEADERSHIP", "meaning": "リーダーシップ", "handshape": "前に進む"},
+              {"sign": "SUPPORT", "meaning": "サポート", "handshape": "支える動き"},
+              {"sign": "UNITY", "meaning": "団結", "handshape": "手を合わせる"}
+            ]
+          },
+          {
+            "title": "実践：会社でのシナリオ",
+            "content": "職場での実際の場面。",
+            "practice": [
+              {"id": "sl-biz-004-p1", "type": "scenario", "situation": "上司に報告・相談"},
+              {"id": "sl-biz-004-p2", "type": "dialogue", "situation": "部下に仕事を任せる"},
+              {"id": "sl-biz-004-p3", "type": "roleplay", "situation": "同僚と問題を解決"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-biz-005",
+      "level": 3,
+      "chapter": 22,
+      "domain": "business",
+      "title": "業界別用語 - Industry Specific Terms",
+      "objectives": ["特定産業の用語を手話で表現できる"],
+      "content": {
+        "introduction": "金融・製造・医療・教育など業界特有の言葉。",
+        "sections": [
+          {
+            "title": "Finance Industry - 金融業界",
+            "content": "銀行・投資・保険関連用語。",
+            "vocabulary": [
+              {"sign": "BANK", "meaning": "銀行", "handshape": "金庫"},
+              {"sign": "LOAN", "meaning": "ローン", "handshape": "借りる動き"},
+              {"sign": "INVESTMENT", "meaning": "投資", "handshape": "種を蒔く"},
+              {"sign": "INSURANCE", "meaning": "保険", "handshape": "保護する"},
+              {"sign": "INTEREST-RATE", "meaning": "利率", "handshape": "増加"}
+            ]
+          },
+          {
+            "title": "Manufacturing - 製造業",
+            "content": "生産・品質・供給チェーン。",
+            "vocabulary": [
+              {"sign": "MANUFACTURE", "meaning": "製造", "handshape": "作る動き"},
+              {"sign": "PRODUCTION", "meaning": "生産", "handshape": "生み出す"},
+              {"sign": "QUALITY", "meaning": "品質", "handshape": "確認する"},
+              {"sign": "SUPPLY-CHAIN", "meaning": "サプライチェーン", "handshape": "流れ"},
+              {"sign": "WAREHOUSE", "meaning": "倉庫", "handshape": "大きな建物"}
+            ]
+          },
+          {
+            "title": "Retail & Marketing - 小売・マーケ",
+            "content": "販売・広告・消費者分析。",
+            "vocabulary": [
+              {"sign": "RETAIL", "meaning": "小売", "handshape": "店"},
+              {"sign": "CUSTOMER", "meaning": "顧客", "handshape": "人を指す"},
+              {"sign": "MARKETING", "meaning": "マーケティング", "handshape": "展開"},
+              {"sign": "ADVERTISEMENT", "meaning": "広告", "handshape": "放送"},
+              {"sign": "SALES-VOLUME", "meaning": "売上", "handshape": "増加"}
+            ]
+          },
+          {
+            "title": "Healthcare Industry - 医療業界",
+            "content": "医療機関・保険・患者管理。",
+            "vocabulary": [
+              {"sign": "HOSPITAL", "meaning": "病院", "handshape": "十字"},
+              {"sign": "PATIENT", "meaning": "患者", "handshape": "病気の人"},
+              {"sign": "TREATMENT", "meaning": "治療", "handshape": "治す動き"},
+              {"sign": "MEDICAL-RECORD", "meaning": "医療記録", "handshape": "書類"},
+              {"sign": "PRESCRIPTION", "meaning": "処方箋", "handshape": "薬"}
+            ]
+          },
+          {
+            "title": "Education Sector - 教育部門",
+            "content": "学校・カリキュラム・学生管理。",
+            "vocabulary": [
+              {"sign": "SCHOOL", "meaning": "学校", "handshape": "教室"},
+              {"sign": "CURRICULUM", "meaning": "カリキュラム", "handshape": "計画"},
+              {"sign": "ENROLLMENT", "meaning": "入学", "handshape": "参加"},
+              {"sign": "GRADUATION", "meaning": "卒業", "handshape": "帽子脱ぐ"},
+              {"sign": "SCHOLARSHIP", "meaning": "奨学金", "handshape": "与える"}
+            ]
+          },
+          {
+            "title": "実践：業界プレゼン",
+            "content": "自分の業界を手話で説明。",
+            "practice": [
+              {"id": "sl-biz-005-p1", "type": "presentation", "scenario": "業界概要の説明"},
+              {"id": "sl-biz-005-p2", "type": "discussion", "scenario": "業界トレンドについて"},
+              {"id": "sl-biz-005-p3", "type": "interview", "scenario": "業界専門家へのインタビュー"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-academic-001",
+      "level": 3,
+      "chapter": 23,
+      "domain": "academic",
+      "title": "哲学概念 - Philosophical Discourse",
+      "objectives": ["高度な哲学概念を手話で表現できる"],
+      "content": {
+        "introduction": "存在論・認識論など基本的な哲学用語。",
+        "sections": [
+          {
+            "title": "Metaphysics - 形而上学",
+            "content": "存在・本質・現実について。",
+            "vocabulary": [
+              {"sign": "EXISTENCE", "meaning": "存在", "handshape": "ここにある"},
+              {"sign": "ESSENCE", "meaning": "本質", "handshape": "核"},
+              {"sign": "REALITY", "meaning": "現実", "handshape": "実際"},
+              {"sign": "BEING", "meaning": "存在者", "handshape": "あり方"},
+              {"sign": "SUBSTANCE", "meaning": "実体", "handshape": "実在"}
+            ]
+          },
+          {
+            "title": "Epistemology - 認識論",
+            "content": "知識・真実・認識の方法。",
+            "vocabulary": [
+              {"sign": "KNOWLEDGE", "meaning": "知識", "handshape": "脳に光"},
+              {"sign": "TRUTH", "meaning": "真実", "handshape": "真っすぐ"},
+              {"sign": "BELIEF", "meaning": "信念", "handshape": "心"},
+              {"sign": "DOUBT", "meaning": "疑い", "handshape": "困惑"},
+              {"sign": "REASON", "meaning": "理性", "handshape": "思考"}
+            ]
+          },
+          {
+            "title": "Ethics - 倫理学",
+            "content": "善悪・道徳・価値観。",
+            "vocabulary": [
+              {"sign": "GOOD", "meaning": "善", "handshape": "Thumbs Up"},
+              {"sign": "EVIL", "meaning": "悪", "handshape": "否定"},
+              {"sign": "MORALITY", "meaning": "道徳", "handshape": "規範"},
+              {"sign": "VIRTUE", "meaning": "徳", "handshape": "光"},
+              {"sign": "DUTY", "meaning": "義務", "handshape": "責任"}
+            ]
+          },
+          {
+            "title": "Logic & Reasoning - 論理学",
+            "content": "命題・論証・矛盾。",
+            "vocabulary": [
+              {"sign": "LOGIC", "meaning": "論理", "handshape": "連鎖"},
+              {"sign": "ARGUMENT", "meaning": "論証", "handshape": "説得"},
+              {"sign": "CONTRADICTION", "meaning": "矛盾", "handshape": "相反"},
+              {"sign": "PREMISE", "meaning": "前提", "handshape": "基礎"},
+              {"sign": "CONCLUSION", "meaning": "結論", "handshape": "終着"}
+            ]
+          },
+          {
+            "title": "Schools of Thought - 思想の流派",
+            "content": "主要な哲学派。",
+            "vocabulary": [
+              {"sign": "IDEALISM", "meaning": "観念論", "handshape": "考え"},
+              {"sign": "REALISM", "meaning": "現実主義", "handshape": "現実"},
+              {"sign": "EXISTENTIALISM", "meaning": "実存主義", "handshape": "自分"},
+              {"sign": "MATERIALISM", "meaning": "唯物論", "handshape": "物質"},
+              {"sign": "PRAGMATISM", "meaning": "実用主義", "handshape": "実用"}
+            ]
+          },
+          {
+            "title": "実践：哲学討論",
+            "content": "哲学的なテーマについて議論。",
+            "practice": [
+              {"id": "sl-academic-001-p1", "type": "debate", "topic": "存在と本質"},
+              {"id": "sl-academic-001-p2", "type": "explanation", "topic": "道徳的ジレンマ"},
+              {"id": "sl-academic-001-p3", "type": "dialogue", "topic": "知識と信念"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-academic-002",
+      "level": 3,
+      "chapter": 23,
+      "domain": "academic",
+      "title": "文学表現 - Literary Analysis",
+      "objectives": ["文学用語を手話で分析できる"],
+      "content": {
+        "introduction": "詩・小説・修辞法などの文学用語。",
+        "sections": [
+          {
+            "title": "Literary Genres - 文学ジャンル",
+            "content": "詩・小説・戯曲など。",
+            "vocabulary": [
+              {"sign": "POETRY", "meaning": "詩", "handshape": "心と表現"},
+              {"sign": "NOVEL", "meaning": "小説", "handshape": "長い物語"},
+              {"sign": "DRAMA", "meaning": "戯曲", "handshape": "舞台"},
+              {"sign": "ESSAY", "meaning": "エッセイ", "handshape": "思考を書く"},
+              {"sign": "NARRATIVE", "meaning": "物語", "handshape": "時間軸"}
+            ]
+          },
+          {
+            "title": "Literary Devices - 修辞技法",
+            "content": "比喩・擬人法などの表現法。",
+            "vocabulary": [
+              {"sign": "METAPHOR", "meaning": "比喩", "handshape": "類似"},
+              {"sign": "SIMILE", "meaning": "直喩", "handshape": "〜のように"},
+              {"sign": "PERSONIFICATION", "meaning": "擬人法", "handshape": "人間化"},
+              {"sign": "IRONY", "meaning": "皮肉", "handshape": "反対"},
+              {"sign": "SYMBOLISM", "meaning": "象徴", "handshape": "意味"}
+            ]
+          },
+          {
+            "title": "Character & Plot - 人物と筋立て",
+            "content": "キャラクターと物語構造。",
+            "vocabulary": [
+              {"sign": "CHARACTER", "meaning": "登場人物", "handshape": "人"},
+              {"sign": "PROTAGONIST", "meaning": "主人公", "handshape": "一番前"},
+              {"sign": "ANTAGONIST", "meaning": "敵役", "handshape": "対立"},
+              {"sign": "PLOT", "meaning": "筋立て", "handshape": "流れ"},
+              {"sign": "CLIMAX", "meaning": "クライマックス", "handshape": "ピーク"}
+            ]
+          },
+          {
+            "title": "Theme & Meaning - テーマと意味",
+            "content": "作品の主題と深い意味。",
+            "vocabulary": [
+              {"sign": "THEME", "meaning": "テーマ", "handshape": "中心"},
+              {"sign": "MEANING", "meaning": "意味", "handshape": "指す"},
+              {"sign": "INTERPRETATION", "meaning": "解釈", "handshape": "理解"},
+              {"sign": "ALLEGORY", "meaning": "寓話", "handshape": "隠された"},
+              {"sign": "MORAL", "meaning": "教訓", "handshape": "学ぶ"}
+            ]
+          },
+          {
+            "title": "Writing Style - 文体",
+            "content": "著者のスタイルと表現方法。",
+            "vocabulary": [
+              {"sign": "STYLE", "meaning": "文体", "handshape": "個性"},
+              {"sign": "TONE", "meaning": "調子", "handshape": "感情"},
+              {"sign": "IMAGERY", "meaning": "心象", "handshape": "画像"},
+              {"sign": "RHYTHM", "meaning": "リズム", "handshape": "波"},
+              {"sign": "VOICE", "meaning": "声", "handshape": "話者"}
+            ]
+          },
+          {
+            "title": "実践：文学論文",
+            "content": "作品について分析的に議論。",
+            "practice": [
+              {"id": "sl-academic-002-p1", "type": "analysis", "work": "古典作品の主題分析"},
+              {"id": "sl-academic-002-p2", "type": "comparison", "works": "2作品の比較"},
+              {"id": "sl-academic-002-p3", "type": "presentation", "topic": "著者の文体の特徴"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-academic-003",
+      "level": 3,
+      "chapter": 24,
+      "domain": "academic",
+      "title": "歴史分析 - Historical Discourse",
+      "objectives": ["歴史的事象を手話で分析できる"],
+      "content": {
+        "introduction": "時代区分・主要事件・歴史的影響を表現。",
+        "sections": [
+          {
+            "title": "Periods & Eras - 時代区分",
+            "content": "古代・中世・近世などの区分。",
+            "vocabulary": [
+              {"sign": "ANCIENT", "meaning": "古代", "handshape": "昔々"},
+              {"sign": "MEDIEVAL", "meaning": "中世", "handshape": "真ん中"},
+              {"sign": "MODERN", "meaning": "近代", "handshape": "ここ"},
+              {"sign": "CONTEMPORARY", "meaning": "現代", "handshape": "今"},
+              {"sign": "PREHISTORIC", "meaning": "先史", "handshape": "文字前"}
+            ]
+          },
+          {
+            "title": "Major Events - 主要事件",
+            "content": "戦争・革命・発見など。",
+            "vocabulary": [
+              {"sign": "REVOLUTION", "meaning": "革命", "handshape": "大転換"},
+              {"sign": "WAR", "meaning": "戦争", "handshape": "対立"},
+              {"sign": "DISCOVERY", "meaning": "発見", "handshape": "ライト"},
+              {"sign": "EMPIRE", "meaning": "帝国", "handshape": "広大"},
+              {"sign": "CIVILIZATION", "meaning": "文明", "handshape": "発展"}
+            ]
+          },
+          {
+            "title": "Historical Figures - 歴史人物",
+            "content": "著名な人物と業績。",
+            "vocabulary": [
+              {"sign": "LEADER", "meaning": "指導者", "handshape": "先導"},
+              {"sign": "PHILOSOPHER", "meaning": "哲学者", "handshape": "思考"},
+              {"sign": "SCIENTIST", "meaning": "科学者", "handshape": "実験"},
+              {"sign": "ARTIST", "meaning": "芸術家", "handshape": "創作"},
+              {"sign": "CONQUEROR", "meaning": "征服者", "handshape": "支配"}
+            ]
+          },
+          {
+            "title": "Cause & Effect - 原因と結果",
+            "content": "歴史的な因果関係。",
+            "vocabulary": [
+              {"sign": "CAUSE", "meaning": "原因", "handshape": "始まり"},
+              {"sign": "CONSEQUENCE", "meaning": "結果", "handshape": "終わり"},
+              {"sign": "INFLUENCE", "meaning": "影響", "handshape": "波及"},
+              {"sign": "IMPACT", "meaning": "衝撃", "handshape": "ぶつかる"},
+              {"sign": "LEGACY", "meaning": "遺産", "handshape": "継ぎ継ぎ"}
+            ]
+          },
+          {
+            "title": "Historical Sources - 史料",
+            "content": "文献・証拠・記録。",
+            "vocabulary": [
+              {"sign": "DOCUMENT", "meaning": "文献", "handshape": "書類"},
+              {"sign": "EVIDENCE", "meaning": "証拠", "handshape": "指す"},
+              {"sign": "RECORD", "meaning": "記録", "handshape": "書く"},
+              {"sign": "ARTIFACT", "meaning": "遺物", "handshape": "古い物"},
+              {"sign": "MONUMENT", "meaning": "記念碑", "handshape": "大きな建造物"}
+            ]
+          },
+          {
+            "title": "実践：歴史プレゼン",
+            "content": "歴史的事象について詳しく説明。",
+            "practice": [
+              {"id": "sl-academic-003-p1", "type": "presentation", "topic": "重要な時代区分"},
+              {"id": "sl-academic-003-p2", "type": "analysis", "event": "歴史的事件の因果関係"},
+              {"id": "sl-academic-003-p3", "type": "discussion", "theme": "歴史的人物の評価"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-academic-004",
+      "level": 3,
+      "chapter": 24,
+      "domain": "academic",
+      "title": "美術・芸術 - Art History & Criticism",
+      "objectives": ["美術用語と作品分析ができる"],
+      "content": {
+        "introduction": "絵画・彫刻・音楽などの芸術用語。",
+        "sections": [
+          {
+            "title": "Art Forms - 芸術形式",
+            "content": "各種芸術分野。",
+            "vocabulary": [
+              {"sign": "PAINTING", "meaning": "絵画", "handshape": "筆で描く"},
+              {"sign": "SCULPTURE", "meaning": "彫刻", "handshape": "刻む"},
+              {"sign": "ARCHITECTURE", "meaning": "建築", "handshape": "建物"},
+              {"sign": "MUSIC", "meaning": "音楽", "handshape": "メロディ"},
+              {"sign": "DANCE", "meaning": "舞踊", "handshape": "踊る"}
+            ]
+          },
+          {
+            "title": "Artistic Movements - 芸術運動",
+            "content": "ルネッサンス・バロック・モダンアートなど。",
+            "vocabulary": [
+              {"sign": "RENAISSANCE", "meaning": "ルネッサンス", "handshape": "再生"},
+              {"sign": "BAROQUE", "meaning": "バロック", "handshape": "豪華"},
+              {"sign": "IMPRESSIONISM", "meaning": "印象主義", "handshape": "光"},
+              {"sign": "MODERNISM", "meaning": "モダニズム", "handshape": "新しい"},
+              {"sign": "SURREALISM", "meaning": "シュルレアリズム", "handshape": "超現実"}
+            ]
+          },
+          {
+            "title": "Color & Composition - 色と構成",
+            "content": "視覚的要素の分析。",
+            "vocabulary": [
+              {"sign": "COLOR", "meaning": "色", "handshape": "色を示す"},
+              {"sign": "COMPOSITION", "meaning": "構成", "handshape": "配置"},
+              {"sign": "SYMMETRY", "meaning": "対称", "handshape": "両側同じ"},
+              {"sign": "BALANCE", "meaning": "バランス", "handshape": "平衡"},
+              {"sign": "PERSPECTIVE", "meaning": "遠近法", "handshape": "奥行き"}
+            ]
+          },
+          {
+            "title": "Artistic Techniques - 芸術技法",
+            "content": "製作方法と表現技法。",
+            "vocabulary": [
+              {"sign": "TECHNIQUE", "meaning": "技法", "handshape": "方法"},
+              {"sign": "MEDIUM", "meaning": "媒体", "handshape": "素材"},
+              {"sign": "BRUSHSTROKE", "meaning": "筆致", "handshape": "筆の動き"},
+              {"sign": "TEXTURE", "meaning": "テクスチャ", "handshape": "表面"},
+              {"sign": "CONTRAST", "meaning": "コントラスト", "handshape": "対比"}
+            ]
+          },
+          {
+            "title": "Aesthetic Concepts - 美学概念",
+            "content": "美・醜・崇高などの概念。",
+            "vocabulary": [
+              {"sign": "BEAUTY", "meaning": "美", "handshape": "光"},
+              {"sign": "UGLY", "meaning": "醜", "handshape": "否定"},
+              {"sign": "SUBLIME", "meaning": "崇高", "handshape": "高み"},
+              {"sign": "HARMONY", "meaning": "調和", "handshape": "一致"},
+              {"sign": "AESTHETIC", "meaning": "美学的", "handshape": "感性"}
+            ]
+          },
+          {
+            "title": "実践：美術評論",
+            "content": "作品について批評的に分析。",
+            "practice": [
+              {"id": "sl-academic-004-p1", "type": "critique", "artwork": "名作の分析"},
+              {"id": "sl-academic-004-p2", "type": "comparison", "works": "2つの流派比較"},
+              {"id": "sl-academic-004-p3", "type": "presentation", "artist": "芸術家の業績紹介"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-academic-005",
+      "level": 3,
+      "chapter": 24,
+      "domain": "academic",
+      "title": "言語学・セミオティクス - Linguistics",
+      "objectives": ["言語学用語と記号論を習得する"],
+      "content": {
+        "introduction": "言語構造・意味・コミュニケーション。",
+        "sections": [
+          {
+            "title": "Language Systems - 言語体系",
+            "content": "言語の構造レベル。",
+            "vocabulary": [
+              {"sign": "PHONEME", "meaning": "音韻", "handshape": "音"},
+              {"sign": "MORPHEME", "meaning": "形態素", "handshape": "単位"},
+              {"sign": "SYNTAX", "meaning": "構文", "handshape": "組み立て"},
+              {"sign": "GRAMMAR", "meaning": "文法", "handshape": "規則"},
+              {"sign": "SEMANTICS", "meaning": "意味論", "handshape": "意味"}
+            ]
+          },
+          {
+            "title": "Semiotics - 記号論",
+            "content": "記号・シニフィアン・シニフィエ。",
+            "vocabulary": [
+              {"sign": "SIGN", "meaning": "記号", "handshape": "示す"},
+              {"sign": "SIGNIFIER", "meaning": "シニフィアン", "handshape": "形態"},
+              {"sign": "SIGNIFIED", "meaning": "シニフィエ", "handshape": "意味"},
+              {"sign": "SYMBOL", "meaning": "象徴", "handshape": "表す"},
+              {"sign": "ICON", "meaning": "アイコン", "handshape": "似ている"}
+            ]
+          },
+          {
+            "title": "Pragmatics - 語用論",
+            "content": "文脈と実用的意味。",
+            "vocabulary": [
+              {"sign": "CONTEXT", "meaning": "文脈", "handshape": "背景"},
+              {"sign": "IMPLICATION", "meaning": "含意", "handshape": "暗示"},
+              {"sign": "REFERENCE", "meaning": "指示", "handshape": "指す"},
+              {"sign": "PRESUPPOSITION", "meaning": "前提", "handshape": "基礎"},
+              {"sign": "SPEECH-ACT", "meaning": "発話行為", "handshape": "言う動き"}
+            ]
+          },
+          {
+            "title": "Language Variation - 言語変異",
+            "content": "方言・言語レジスター・社会言語学。",
+            "vocabulary": [
+              {"sign": "DIALECT", "meaning": "方言", "handshape": "地域"},
+              {"sign": "REGISTER", "meaning": "レジスター", "handshape": "様式"},
+              {"sign": "SOCIOLECT", "meaning": "社会方言", "handshape": "階級"},
+              {"sign": "IDIOLECT", "meaning": "個人言語", "handshape": "個人"},
+              {"sign": "ACCENT", "meaning": "アクセント", "handshape": "発音"}
+            ]
+          },
+          {
+            "title": "Communication Theory - 通信理論",
+            "content": "送り手・受け手・メッセージ。",
+            "vocabulary": [
+              {"sign": "SENDER", "meaning": "送り手", "handshape": "出す"},
+              {"sign": "RECEIVER", "meaning": "受け手", "handshape": "受ける"},
+              {"sign": "MESSAGE", "meaning": "メッセージ", "handshape": "内容"},
+              {"sign": "CHANNEL", "meaning": "チャネル", "handshape": "経路"},
+              {"sign": "NOISE", "meaning": "ノイズ", "handshape": "邪魔"}
+            ]
+          },
+          {
+            "title": "実践：言語分析",
+            "content": "言語現象を分析的に考察。",
+            "practice": [
+              {"id": "sl-academic-005-p1", "type": "analysis", "text": "文の意味構造分析"},
+              {"id": "sl-academic-005-p2", "type": "discussion", "topic": "言語変異の社会的背景"},
+              {"id": "sl-academic-005-p3", "type": "presentation", "theme": "記号の多義性"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-tech-001",
+      "level": 3,
+      "chapter": 25,
+      "domain": "technology",
+      "title": "テクノロジー基本 - Technology Fundamentals",
+      "objectives": ["IT・デジタル用語の基本を習得する"],
+      "content": {
+        "introduction": "ハード・ソフト・ネットワークの基本用語。",
+        "sections": [
+          {
+            "title": "Computer Hardware - コンピュータ",
+            "content": "PCの物理的構成要素。",
+            "vocabulary": [
+              {"sign": "CPU", "meaning": "CPU", "handshape": "脳"},
+              {"sign": "RAM", "meaning": "メモリ", "handshape": "短期記憶"},
+              {"sign": "STORAGE", "meaning": "ストレージ", "handshape": "保管"},
+              {"sign": "MONITOR", "meaning": "モニタ", "handshape": "画面"},
+              {"sign": "KEYBOARD", "meaning": "キーボード", "handshape": "タイプ"}
+            ]
+          },
+          {
+            "title": "Software & Applications - ソフトウェア",
+            "content": "プログラム・アプリケーション。",
+            "vocabulary": [
+              {"sign": "SOFTWARE", "meaning": "ソフトウェア", "handshape": "プログラム"},
+              {"sign": "APPLICATION", "meaning": "アプリ", "handshape": "使う"},
+              {"sign": "OPERATING-SYSTEM", "meaning": "OS", "handshape": "基盤"},
+              {"sign": "PROGRAM", "meaning": "プログラム", "handshape": "命令"},
+              {"sign": "CODE", "meaning": "コード", "handshape": "文字列"}
+            ]
+          },
+          {
+            "title": "Internet & Networking - インターネット",
+            "content": "ネットワーク・通信。",
+            "vocabulary": [
+              {"sign": "INTERNET", "meaning": "インターネット", "handshape": "世界的つながり"},
+              {"sign": "NETWORK", "meaning": "ネットワーク", "handshape": "網"},
+              {"sign": "WIFI", "meaning": "Wi-Fi", "handshape": "無線"},
+              {"sign": "SERVER", "meaning": "サーバ", "handshape": "提供"},
+              {"sign": "BANDWIDTH", "meaning": "帯域幅", "handshape": "通す量"}
+            ]
+          },
+          {
+            "title": "Data Concepts - データ概念",
+            "content": "データ・情報・アルゴリズム。",
+            "vocabulary": [
+              {"sign": "DATA", "meaning": "データ", "handshape": "情報"},
+              {"sign": "INFORMATION", "meaning": "情報", "handshape": "意味"},
+              {"sign": "BIT", "meaning": "ビット", "handshape": "最小単位"},
+              {"sign": "BYTE", "meaning": "バイト", "handshape": "8単位"},
+              {"sign": "ALGORITHM", "meaning": "アルゴリズム", "handshape": "手順"}
+            ]
+          },
+          {
+            "title": "Programming Concepts - プログラミング",
+            "content": "コーディングの基本概念。",
+            "vocabulary": [
+              {"sign": "VARIABLE", "meaning": "変数", "handshape": "変わる"},
+              {"sign": "FUNCTION", "meaning": "関数", "handshape": "機能"},
+              {"sign": "LOOP", "meaning": "ループ", "handshape": "繰り返し"},
+              {"sign": "CONDITION", "meaning": "条件", "handshape": "if"},
+              {"sign": "DEBUG", "meaning": "デバッグ", "handshape": "虫を取る"}
+            ]
+          },
+          {
+            "title": "実践：テック説明",
+            "content": "技術概念をわかりやすく説明。",
+            "practice": [
+              {"id": "sl-tech-001-p1", "type": "explanation", "topic": "コンピュータの仕組み"},
+              {"id": "sl-tech-001-p2", "type": "tutorial", "topic": "アプリの使い方"},
+              {"id": "sl-tech-001-p3", "type": "discussion", "topic": "デジタル化の影響"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-tech-002",
+      "level": 3,
+      "chapter": 25,
+      "domain": "technology",
+      "title": "AI・機械学習 - AI & Machine Learning",
+      "objectives": ["AI関連の専門用語を習得する"],
+      "content": {
+        "introduction": "人工知能・機械学習・ニューラルネットワーク。",
+        "sections": [
+          {
+            "title": "Artificial Intelligence Basics - AI基本",
+            "content": "AI・知能・学習の概念。",
+            "vocabulary": [
+              {"sign": "ARTIFICIAL-INTELLIGENCE", "meaning": "AI", "handshape": "人工の知能"},
+              {"sign": "MACHINE-LEARNING", "meaning": "機械学習", "handshape": "学ぶ機械"},
+              {"sign": "DEEP-LEARNING", "meaning": "深層学習", "handshape": "深い層"},
+              {"sign": "NEURAL-NETWORK", "meaning": "ニューラルネット", "handshape": "脳の網"},
+              {"sign": "ALGORITHM", "meaning": "アルゴリズム", "handshape": "手順"}
+            ]
+          },
+          {
+            "title": "Training & Data - 訓練とデータ",
+            "content": "学習プロセスとデータセット。",
+            "vocabulary": [
+              {"sign": "TRAINING", "meaning": "訓練", "handshape": "学ぶ動き"},
+              {"sign": "DATASET", "meaning": "データセット", "handshape": "集合"},
+              {"sign": "LABEL", "meaning": "ラベル", "handshape": "タグ"},
+              {"sign": "FEATURE", "meaning": "特徴", "handshape": "選ぶ"},
+              {"sign": "MODEL", "meaning": "モデル", "handshape": "型"}
+            ]
+          },
+          {
+            "title": "Supervised & Unsupervised - 教師あり・なし",
+            "content": "学習タイプの分類。",
+            "vocabulary": [
+              {"sign": "SUPERVISED-LEARNING", "meaning": "教師あり学習", "handshape": "指導"},
+              {"sign": "UNSUPERVISED-LEARNING", "meaning": "教師なし学習", "handshape": "自動分類"},
+              {"sign": "CLASSIFICATION", "meaning": "分類", "handshape": "グループ化"},
+              {"sign": "CLUSTERING", "meaning": "クラスタリング", "handshape": "集団"},
+              {"sign": "PREDICTION", "meaning": "予測", "handshape": "未来を見る"}
+            ]
+          },
+          {
+            "title": "Performance Metrics - 性能指標",
+            "content": "モデル評価の指標。",
+            "vocabulary": [
+              {"sign": "ACCURACY", "meaning": "精度", "handshape": "正確さ"},
+              {"sign": "PRECISION", "meaning": "適合率", "handshape": "的を射た"},
+              {"sign": "RECALL", "meaning": "再現率", "handshape": "思い出す"},
+              {"sign": "ERROR", "meaning": "エラー", "handshape": "間違い"},
+              {"sign": "LOSS", "meaning": "損失", "handshape": "減少"}
+            ]
+          },
+          {
+            "title": "Applications - 応用例",
+            "content": "AIの実用例。",
+            "vocabulary": [
+              {"sign": "IMAGE-RECOGNITION", "meaning": "画像認識", "handshape": "目で見て判定"},
+              {"sign": "NATURAL-LANGUAGE-PROCESSING", "meaning": "自然言語処理", "handshape": "言葉を処理"},
+              {"sign": "COMPUTER-VISION", "meaning": "コンピュータビジョン", "handshape": "機械が見る"},
+              {"sign": "ROBOTICS", "meaning": "ロボティクス", "handshape": "ロボット"},
+              {"sign": "AUTONOMOUS-SYSTEMS", "meaning": "自律システム", "handshape": "自動動作"}
+            ]
+          },
+          {
+            "title": "実践：AI解説",
+            "content": "AIの仕組みをわかりやすく説明。",
+            "practice": [
+              {"id": "sl-tech-002-p1", "type": "explanation", "concept": "機械学習の基本"},
+              {"id": "sl-tech-002-p2", "type": "example", "application": "実用的なAI例"},
+              {"id": "sl-tech-002-p3", "type": "discussion", "topic": "AIの社会的影響"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-tech-003",
+      "level": 3,
+      "chapter": 25,
+      "domain": "technology",
+      "title": "サイバーセキュリティ - Cybersecurity",
+      "objectives": ["セキュリティ用語と防御方法を習得"],
+      "content": {
+        "introduction": "暗号・攻撃・防御・プライバシー。",
+        "sections": [
+          {
+            "title": "Threats & Attacks - 脅威と攻撃",
+            "content": "セキュリティ上の脅威。",
+            "vocabulary": [
+              {"sign": "THREAT", "meaning": "脅威", "handshape": "危険"},
+              {"sign": "ATTACK", "meaning": "攻撃", "handshape": "襲う"},
+              {"sign": "MALWARE", "meaning": "マルウェア", "handshape": "悪いソフト"},
+              {"sign": "VIRUS", "meaning": "ウイルス", "handshape": "感染"},
+              {"sign": "RANSOMWARE", "meaning": "ランサムウェア", "handshape": "身代金"}
+            ]
+          },
+          {
+            "title": "Defense Mechanisms - 防御機構",
+            "content": "セキュリティ対策。",
+            "vocabulary": [
+              {"sign": "FIREWALL", "meaning": "ファイアウォール", "handshape": "壁"},
+              {"sign": "ENCRYPTION", "meaning": "暗号化", "handshape": "コード化"},
+              {"sign": "AUTHENTICATION", "meaning": "認証", "handshape": "確認"},
+              {"sign": "AUTHORIZATION", "meaning": "認可", "handshape": "許可"},
+              {"sign": "PATCH", "meaning": "パッチ", "handshape": "修理"}
+            ]
+          },
+          {
+            "title": "Cryptography - 暗号技術",
+            "content": "暗号と復号。",
+            "vocabulary": [
+              {"sign": "ENCRYPTION-KEY", "meaning": "暗号鍵", "handshape": "鍵"},
+              {"sign": "CIPHER", "meaning": "暗号", "handshape": "変換"},
+              {"sign": "HASH", "meaning": "ハッシュ", "handshape": "指紋"},
+              {"sign": "DECRYPTION", "meaning": "復号", "handshape": "コード解く"},
+              {"sign": "ALGORITHM", "meaning": "アルゴリズム", "handshape": "手順"}
+            ]
+          },
+          {
+            "title": "User Security - ユーザーセキュリティ",
+            "content": "個人レベルの対策。",
+            "vocabulary": [
+              {"sign": "PASSWORD", "meaning": "パスワード", "handshape": "秘密"},
+              {"sign": "TWO-FACTOR-AUTH", "meaning": "二要素認証", "handshape": "2つ"},
+              {"sign": "PHISHING", "meaning": "フィッシング", "handshape": "釣る"},
+              {"sign": "SOCIAL-ENGINEERING", "meaning": "社会工学", "handshape": "だます"},
+              {"sign": "BACKUP", "meaning": "バックアップ", "handshape": "複製"}
+            ]
+          },
+          {
+            "title": "Privacy & Compliance - プライバシーと規制",
+            "content": "個人情報保護・法規制。",
+            "vocabulary": [
+              {"sign": "PRIVACY", "meaning": "プライバシー", "handshape": "個人のみ"},
+              {"sign": "DATA-PROTECTION", "meaning": "データ保護", "handshape": "守る"},
+              {"sign": "GDPR", "meaning": "GDPR", "handshape": "ヨーロッパの法"},
+              {"sign": "COMPLIANCE", "meaning": "コンプライアンス", "handshape": "従う"},
+              {"sign": "AUDIT", "meaning": "監査", "handshape": "調べる"}
+            ]
+          },
+          {
+            "title": "実践：セキュリティ指導",
+            "content": "セキュリティ対策をわかりやすく説明。",
+            "practice": [
+              {"id": "sl-tech-003-p1", "type": "education", "topic": "基本的な防御方法"},
+              {"id": "sl-tech-003-p2", "type": "warning", "threat": "一般的な脅威と対策"},
+              {"id": "sl-tech-003-p3", "type": "guidance", "scenario": "セキュリティインシデント対応"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-tech-004",
+      "level": 3,
+      "chapter": 26,
+      "domain": "technology",
+      "title": "デジタルコミュニケーション - Digital Communication",
+      "objectives": ["オンラインコミュニケーション方法を習得"],
+      "content": {
+        "introduction": "SNS・チャット・動画配信など。",
+        "sections": [
+          {
+            "title": "Social Media Platforms - SNS",
+            "content": "主要なプラットフォーム。",
+            "vocabulary": [
+              {"sign": "SOCIAL-MEDIA", "meaning": "SNS", "handshape": "社会的ネット"},
+              {"sign": "FACEBOOK", "meaning": "Facebook", "handshape": "顔のマーク"},
+              {"sign": "TWITTER", "meaning": "Twitter", "handshape": "つぶやき"},
+              {"sign": "INSTAGRAM", "meaning": "Instagram", "handshape": "写真"},
+              {"sign": "TIKTOK", "meaning": "TikTok", "handshape": "短編動画"}
+            ]
+          },
+          {
+            "title": "Content Creation - コンテンツ作成",
+            "content": "投稿・配信・配信者。",
+            "vocabulary": [
+              {"sign": "POST", "meaning": "投稿", "handshape": "上げる"},
+              {"sign": "STREAM", "meaning": "配信", "handshape": "流す"},
+              {"sign": "VIDEO", "meaning": "動画", "handshape": "映像"},
+              {"sign": "CONTENT-CREATOR", "meaning": "クリエイター", "handshape": "作る人"},
+              {"sign": "INFLUENCER", "meaning": "インフルエンサー", "handshape": "影響力"}
+            ]
+          },
+          {
+            "title": "Interaction & Engagement - 相互作用",
+            "content": "いいね・コメント・シェア。",
+            "vocabulary": [
+              {"sign": "LIKE", "meaning": "いいね", "handshape": "Thumbs Up"},
+              {"sign": "COMMENT", "meaning": "コメント", "handshape": "言葉"},
+              {"sign": "SHARE", "meaning": "シェア", "handshape": "広げる"},
+              {"sign": "FOLLOW", "meaning": "フォロー", "handshape": "ついていく"},
+              {"sign": "HASHTAG", "meaning": "ハッシュタグ", "handshape": "＃"}
+            ]
+          },
+          {
+            "title": "Online Communities - オンラインコミュニティ",
+            "content": "フォーラム・グループ・チャット。",
+            "vocabulary": [
+              {"sign": "FORUM", "meaning": "フォーラム", "handshape": "掲示板"},
+              {"sign": "GROUP-CHAT", "meaning": "グループチャット", "handshape": "複数で話す"},
+              {"sign": "DISCORD", "meaning": "Discord", "handshape": "通信アプリ"},
+              {"sign": "COMMUNITY", "meaning": "コミュニティ", "handshape": "共同体"},
+              {"sign": "MEMBER", "meaning": "メンバー", "handshape": "参加者"}
+            ]
+          },
+          {
+            "title": "Digital Etiquette - デジタルマナー",
+            "content": "オンラインでの礼儀。",
+            "vocabulary": [
+              {"sign": "NETIQUETTE", "meaning": "ネチケット", "handshape": "オンラインマナー"},
+              {"sign": "RESPECT", "meaning": "尊重", "handshape": "敬意"},
+              {"sign": "CYBERBULLYING", "meaning": "サイバーいじめ", "handshape": "いじめ"},
+              {"sign": "TROLLING", "meaning": "荒らし", "handshape": "邪魔"},
+              {"sign": "FAKE-NEWS", "meaning": "フェイクニュース", "handshape": "嘘"}
+            ]
+          },
+          {
+            "title": "実践：オンライン交流",
+            "content": "デジタルコミュニケーション実践。",
+            "practice": [
+              {"id": "sl-tech-004-p1", "type": "posting", "scenario": "SNS投稿を説明"},
+              {"id": "sl-tech-004-p2", "type": "interaction", "scenario": "オンラインでの会話"},
+              {"id": "sl-tech-004-p3", "type": "content-creation", "scenario": "動画配信の説明"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-medical-001",
+      "level": 3,
+      "chapter": 26,
+      "domain": "medical",
+      "title": "医学基本用語 - Medical Terminology",
+      "objectives": ["基本的な医学用語を習得する"],
+      "content": {
+        "introduction": "解剖学・生理学・医療用語。",
+        "sections": [
+          {
+            "title": "Body Systems - 身体システム",
+            "content": "各種臓器と系統。",
+            "vocabulary": [
+              {"sign": "CIRCULATORY-SYSTEM", "meaning": "循環器系", "handshape": "血が流れる"},
+              {"sign": "RESPIRATORY-SYSTEM", "meaning": "呼吸器系", "handshape": "呼吸"},
+              {"sign": "NERVOUS-SYSTEM", "meaning": "神経系", "handshape": "信号"},
+              {"sign": "DIGESTIVE-SYSTEM", "meaning": "消化器系", "handshape": "消化"},
+              {"sign": "IMMUNE-SYSTEM", "meaning": "免疫系", "handshape": "守る"}
+            ]
+          },
+          {
+            "title": "Common Diseases - 一般的な病気",
+            "content": "よくある疾患。",
+            "vocabulary": [
+              {"sign": "DIABETES", "meaning": "糖尿病", "handshape": "血の問題"},
+              {"sign": "HYPERTENSION", "meaning": "高血圧", "handshape": "血圧が高い"},
+              {"sign": "ARTHRITIS", "meaning": "関節炎", "handshape": "関節痛"},
+              {"sign": "ASTHMA", "meaning": "喘息", "handshape": "呼吸困難"},
+              {"sign": "INFECTION", "meaning": "感染", "handshape": "広がる"}
+            ]
+          },
+          {
+            "title": "Medical Procedures - 医療処置",
+            "content": "検査・治療・手術。",
+            "vocabulary": [
+              {"sign": "EXAMINATION", "meaning": "診察", "handshape": "調べる"},
+              {"sign": "DIAGNOSIS", "meaning": "診断", "handshape": "判定"},
+              {"sign": "TREATMENT", "meaning": "治療", "handshape": "治す"},
+              {"sign": "SURGERY", "meaning": "手術", "handshape": "切る"},
+              {"sign": "MEDICATION", "meaning": "薬", "handshape": "飲む"}
+            ]
+          },
+          {
+            "title": "Symptoms & Signs - 症状と兆候",
+            "content": "患者の症状表現。",
+            "vocabulary": [
+              {"sign": "FEVER", "meaning": "発熱", "handshape": "熱い"},
+              {"sign": "PAIN", "meaning": "痛み", "handshape": "痛い表情"},
+              {"sign": "COUGH", "meaning": "咳", "handshape": "咳をする"},
+              {"sign": "NAUSEA", "meaning": "吐き気", "handshape": "気分悪い"},
+              {"sign": "FATIGUE", "meaning": "疲労", "handshape": "疲れた"}
+            ]
+          },
+          {
+            "title": "Healthcare Professionals - 医療専門家",
+            "content": "医者・看護師など。",
+            "vocabulary": [
+              {"sign": "DOCTOR", "meaning": "医者", "handshape": "医学"},
+              {"sign": "NURSE", "meaning": "看護師", "handshape": "世話"},
+              {"sign": "SPECIALIST", "meaning": "専門医", "handshape": "特化"},
+              {"sign": "SURGEON", "meaning": "外科医", "handshape": "手術"},
+              {"sign": "PHARMACIST", "meaning": "薬剤師", "handshape": "薬"}
+            ]
+          },
+          {
+            "title": "実践：医療面接",
+            "content": "医者と患者の交流。",
+            "practice": [
+              {"id": "sl-medical-001-p1", "type": "patient-interview", "scenario": "症状を説明"},
+              {"id": "sl-medical-001-p2", "type": "instruction", "scenario": "医師から指示を受ける"},
+              {"id": "sl-medical-001-p3", "type": "explanation", "scenario": "診断結果の説明"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-medical-002",
+      "level": 3,
+      "chapter": 27,
+      "domain": "medical",
+      "title": "科学・研究用語 - Scientific Research",
+      "objectives": ["科学研究の用語を習得する"],
+      "content": {
+        "introduction": "仮説・実験・結果の表現。",
+        "sections": [
+          {
+            "title": "Scientific Method - 科学方法",
+            "content": "研究プロセス。",
+            "vocabulary": [
+              {"sign": "HYPOTHESIS", "meaning": "仮説", "handshape": "推測"},
+              {"sign": "EXPERIMENT", "meaning": "実験", "handshape": "試す"},
+              {"sign": "OBSERVATION", "meaning": "観察", "handshape": "見る"},
+              {"sign": "DATA", "meaning": "データ", "handshape": "情報"},
+              {"sign": "CONCLUSION", "meaning": "結論", "handshape": "終わり"}
+            ]
+          },
+          {
+            "title": "Research Design - 研究デザイン",
+            "content": "研究計画と方法論。",
+            "vocabulary": [
+              {"sign": "STUDY", "meaning": "研究", "handshape": "学ぶ"},
+              {"sign": "SAMPLE", "meaning": "サンプル", "handshape": "代表"},
+              {"sign": "CONTROL-GROUP", "meaning": "対照群", "handshape": "比較"},
+              {"sign": "VARIABLE", "meaning": "変数", "handshape": "変わる"},
+              {"sign": "METHODOLOGY", "meaning": "方法論", "handshape": "手順"}
+            ]
+          },
+          {
+            "title": "Statistical Analysis - 統計分析",
+            "content": "データの処理と分析。",
+            "vocabulary": [
+              {"sign": "STATISTICS", "meaning": "統計", "handshape": "数字"},
+              {"sign": "MEAN", "meaning": "平均", "handshape": "中間"},
+              {"sign": "DEVIATION", "meaning": "偏差", "handshape": "ずれ"},
+              {"sign": "CORRELATION", "meaning": "相関", "handshape": "関連"},
+              {"sign": "SIGNIFICANCE", "meaning": "有意性", "handshape": "意味ある"}
+            ]
+          },
+          {
+            "title": "Peer Review & Publication - 査読と出版",
+            "content": "研究成果の発表。",
+            "vocabulary": [
+              {"sign": "PEER-REVIEW", "meaning": "ピアレビュー", "handshape": "同僚が検査"},
+              {"sign": "PUBLICATION", "meaning": "出版", "handshape": "公開"},
+              {"sign": "JOURNAL", "meaning": "ジャーナル", "handshape": "学術誌"},
+              {"sign": "CITATION", "meaning": "引用", "handshape": "参照"},
+              {"sign": "CONFERENCE", "meaning": "学会", "handshape": "発表"}
+            ]
+          },
+          {
+            "title": "Ethics in Research - 研究倫理",
+            "content": "倫理的配慮。",
+            "vocabulary": [
+              {"sign": "ETHICS", "meaning": "倫理", "handshape": "正しさ"},
+              {"sign": "INFORMED-CONSENT", "meaning": "インフォームド・コンセント", "handshape": "同意"},
+              {"sign": "INSTITUTIONAL-REVIEW", "meaning": "施設審査", "handshape": "承認"},
+              {"sign": "CONFIDENTIALITY", "meaning": "機密性", "handshape": "秘密"},
+              {"sign": "BIAS", "meaning": "バイアス", "handshape": "偏り"}
+            ]
+          },
+          {
+            "title": "実践：研究発表",
+            "content": "研究成果をプレゼン。",
+            "practice": [
+              {"id": "sl-medical-002-p1", "type": "presentation", "topic": "研究仮説の説明"},
+              {"id": "sl-medical-002-p2", "type": "methodology", "topic": "実験方法の詳説"},
+              {"id": "sl-medical-002-p3", "type": "results", "topic": "結果と考察"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-media-001",
+      "level": 3,
+      "chapter": 27,
+      "domain": "media",
+      "title": "ニュース・ジャーナリズム - Journalism & News",
+      "objectives": ["ニュース報道の用語を習得する"],
+      "content": {
+        "introduction": "記者・取材・ニュース報道の表現。",
+        "sections": [
+          {
+            "title": "News Types & Sources - ニュース種類",
+            "content": "様々なニュース形式。",
+            "vocabulary": [
+              {"sign": "NEWS", "meaning": "ニュース", "handshape": "最新情報"},
+              {"sign": "BREAKING-NEWS", "meaning": "速報", "handshape": "急速"},
+              {"sign": "HEADLINE", "meaning": "ヘッドライン", "handshape": "大きく"},
+              {"sign": "STORY", "meaning": "ストーリー", "handshape": "物語"},
+              {"sign": "SOURCE", "meaning": "情報源", "handshape": "起点"}
+            ]
+          },
+          {
+            "title": "Journalism Roles - ジャーナリズム役割",
+            "content": "記者・エディターなど。",
+            "vocabulary": [
+              {"sign": "JOURNALIST", "meaning": "ジャーナリスト", "handshape": "記者"},
+              {"sign": "REPORTER", "meaning": "記者", "handshape": "報告する"},
+              {"sign": "EDITOR", "meaning": "エディター", "handshape": "編集"},
+              {"sign": "ANCHOR", "meaning": "アンカー", "handshape": "TV司会"},
+              {"sign": "PHOTOGRAPHER", "meaning": "カメラマン", "handshape": "写真"}
+            ]
+          },
+          {
+            "title": "Reporting Process - 報道プロセス",
+            "content": "取材から報道まで。",
+            "vocabulary": [
+              {"sign": "INVESTIGATION", "meaning": "調査", "handshape": "探る"},
+              {"sign": "INTERVIEW", "meaning": "インタビュー", "handshape": "質問"},
+              {"sign": "VERIFICATION", "meaning": "検証", "handshape": "確認"},
+              {"sign": "EDITING", "meaning": "編集", "handしape": "修正"},
+              {"sign": "PUBLICATION", "meaning": "掲載", "handshape": "公開"}
+            ]
+          },
+          {
+            "title": "Media Outlets - メディア媒体",
+            "content": "新聞・TV・ネットメディア。",
+            "vocabulary": [
+              {"sign": "NEWSPAPER", "meaning": "新聞", "handshape": "紙"},
+              {"sign": "TELEVISION", "meaning": "テレビ", "handshape": "画面"},
+              {"sign": "RADIO", "meaning": "ラジオ", "handshape": "音声"},
+              {"sign": "INTERNET-MEDIA", "meaning": "ネットメディア", "handshape": "オンライン"},
+              {"sign": "SOCIAL-MEDIA", "meaning": "SNS", "handshape": "社会的ネット"}
+            ]
+          },
+          {
+            "title": "News Content & Analysis - ニュース内容",
+            "content": "ニュース要素と分析。",
+            "vocabulary": [
+              {"sign": "FACTS", "meaning": "事実", "handshape": "真実"},
+              {"sign": "OPINION", "meaning": "意見", "handshape": "考え"},
+              {"sign": "ANALYSIS", "meaning": "分析", "handshape": "詳しく"},
+              {"sign": "COMMENTARY", "meaning": "論評", "handshape": "コメント"},
+              {"sign": "BIAS", "meaning": "バイアス", "handshape": "偏り"}
+            ]
+          },
+          {
+            "title": "実践：ニュースリポート",
+            "content": "ニュース事象を報道スタイルで説明。",
+            "practice": [
+              {"id": "sl-media-001-p1", "type": "reporting", "scenario": "ニュース速報"},
+              {"id": "sl-media-001-p2", "type": "interview", "scenario": "インタビュー"},
+              {"id": "sl-media-001-p3", "type": "analysis", "scenario": "ニュース解説"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "sl-media-002",
+      "level": 3,
+      "chapter": 28,
+      "domain": "media",
+      "title": "メディアリテラシー - Media Literacy",
+      "objectives": ["情報分析・批判的思考を習得"],
+      "content": {
+        "introduction": "フェイクニュース・情報評価・批判的思考。",
+        "sections": [
+          {
+            "title": "Information Evaluation - 情報評価",
+            "content": "情報の信頼性判定。",
+            "vocabulary": [
+              {"sign": "CREDIBILITY", "meaning": "信頼性", "handshape": "信じられる"},
+              {"sign": "RELIABILITY", "meaning": "信度", "handshape": "確実"},
+              {"sign": "VALIDITY", "meaning": "妥当性", "handshape": "有効"},
+              {"sign": "AUTHENTICITY", "meaning": "真正性", "handshape": "本物"},
+              {"sign": "SOURCE-EVALUATION", "meaning": "情報源評価", "handshape": "判定"}
+            ]
+          },
+          {
+            "title": "Fake News & Misinformation - フェイクニュース",
+            "content": "誤情報と偽情報。",
+            "vocabulary": [
+              {"sign": "FAKE-NEWS", "meaning": "フェイクニュース", "handshape": "嘘"},
+              {"sign": "MISINFORMATION", "meaning": "誤情報", "handshape": "間違った情報"},
+              {"sign": "DISINFORMATION", "meaning": "偽情報", "handshape": "意図的な嘘"},
+              {"sign": "HOAX", "meaning": "デマ", "handshape": "でっち上げ"},
+              {"sign": "RUMOR", "meaning": "うわさ", "handshape": "広がる情報"}
+            ]
+          },
+          {
+            "title": "Critical Thinking - 批判的思考",
+            "content": "情報を批判的に分析。",
+            "vocabulary": [
+              {"sign": "CRITICAL", "meaning": "批判的", "handshape": "詳しく調べる"},
+              {"sign": "ANALYSIS", "meaning": "分析", "handshape": "分解"},
+              {"sign": "REASONING", "meaning": "推論", "handshape": "論理"},
+              {"sign": "EVIDENCE", "meaning": "証拠", "handshape": "指す"},
+              {"sign": "ARGUMENT", "meaning": "議論", "handshape": "主張"}
+            ]
+          },
+          {
+            "title": "Fact-Checking - ファクトチェック",
+            "content": "事実確認方法。",
+            "vocabulary": [
+              {"sign": "FACT-CHECK", "meaning": "ファクトチェック", "handshape": "確認"},
+              {"sign": "VERIFICATION", "meaning": "検証", "handshape": "確かめる"},
+              {"sign": "CROSS-REFERENCE", "meaning": "相互参照", "handshape": "比較"},
+              {"sign": "PRIMARY-SOURCE", "meaning": "一次情報", "handshape": "直接"},
+              {"sign": "EXPERT-OPINION", "meaning": "専門家意見", "handshape": "専門"}
+            ]
+          },
+          {
+            "title": "Media Bias - メディアバイアス",
+            "content": "メディアの偏り。",
+            "vocabulary": [
+              {"sign": "BIAS", "meaning": "バイアス", "handshape": "偏り"},
+              {"sign": "EDITORIAL-STANCE", "meaning": "編集的立場", "handshape": "方針"},
+              {"sign": "SLANT", "meaning": "傾斜", "handshape": "傾く"},
+              {"sign": "OBJECTIVITY", "meaning": "客観性", "handshape": "公正"},
+              {"sign": "FRAMING", "meaning": "フレーミング", "handshape": "枠"}
+            ]
+          },
+          {
+            "title": "実践：情報批判",
+            "content": "情報を批判的に検討。",
+            "practice": [
+              {"id": "sl-media-002-p1", "type": "evaluation", "article": "記事の信頼性評価"},
+              {"id": "sl-media-002-p2", "type": "fact-check", "claim": "主張の検証"},
+              {"id": "sl-media-002-p3", "type": "analysis", "media": "メディアの偏り分析"}
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
