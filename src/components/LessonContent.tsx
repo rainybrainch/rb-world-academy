@@ -364,9 +364,9 @@ function parseRuby(text: string): React.ReactNode[] {
 
     // Add ruby element
     parts.push(
-      <ruby key={`ruby-${match.index}`} style={{ ruby: 'auto' }}>
+      <ruby key={`ruby-${match.index}`}>
         {match[1]}
-        <rt style={{ fontSize: '0.55em', display: 'block', textAlign: 'center' }}>{match[2]}</rt>
+        <rt style={{ fontSize: '0.55em' }}>{match[2]}</rt>
       </ruby>
     );
 
