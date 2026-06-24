@@ -1,0 +1,1362 @@
+[
+  {
+    "lessonId": "l1",
+    "title": "Greetings & Introductions",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Greetings & Introductions"
+      },
+      {
+        "type": "text",
+        "content": "Learning greetings is the foundation of French conversation. Unlike English, French distinguishes between formal and informal contexts. In the morning you say 'Bonjour' (good morning/hello), in the evening 'Bonsoir' (good evening). When introducing yourself, you follow with 'Je m'appelle...' (My name is...) or 'Je suis...' (I am...). The response to an introduction typically includes 'Enchanté(e)' (Nice to meet you), which agrees with your gender.\n\nFrench greetings also include physical conventions. A handshake is common in formal settings, while close friends and family exchange 'la bise' (cheek kiss), typically two to four times depending on the region. Always use 'vous' (formal you) until invited to use 'tu' (informal you)."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Bonjour",
+            "ruby": "Good morning/Hello (formal greeting until evening)"
+          },
+          {
+            "term": "Bonsoir",
+            "ruby": "Good evening (greeting after dark)"
+          },
+          {
+            "term": "Je m'appelle",
+            "ruby": "My name is... (lit. I call myself)"
+          },
+          {
+            "term": "Enchanté(e)",
+            "ruby": "Nice to meet you (agrees with speaker's gender)"
+          },
+          {
+            "term": "À bientôt",
+            "ruby": "See you soon (farewell)"
+          },
+          {
+            "term": "Au revoir",
+            "ruby": "Goodbye (formal farewell)"
+          },
+          {
+            "term": "La bise",
+            "ruby": "Cheek kiss greeting (cultural practice)"
+          },
+          {
+            "term": "Vous",
+            "ruby": "Formal 'you' (respectful plural/singular)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Use 'Bonjour' from morning until evening, then switch to 'Bonsoir'",
+          "Introduce yourself with 'Je m'appelle [Name]' and respond with 'Enchanté(e)'",
+          "Always use 'vous' (formal) with strangers; wait to be invited to use 'tu'"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "How would you greet a stranger at 2 PM and introduce yourself?",
+          "What is the polite response when someone introduces themselves to you?"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l2",
+    "title": "Basic Questions",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Basic Questions"
+      },
+      {
+        "type": "text",
+        "content": "Asking questions is essential for beginner conversation. In French, you can form questions three ways: using rising intonation ('Tu t'appelles comment?'), inverting the subject and verb ('Comment t'appelles-tu?'), or using 'Est-ce que' at the beginning ('Est-ce que tu t'appelles Marie?'). The 'Est-ce que' structure is most common in spoken French and easiest for beginners.\n\nKey question words include 'Qui' (Who), 'Quoi' (What), 'Où' (Where), 'Quand' (When), 'Pourquoi' (Why), and 'Comment' (How). These interrogative words typically come first in casual speech, followed by the subject and verb. Responses should be complete sentences when possible, not just one-word answers."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Est-ce que",
+            "ruby": "Question marker (used at beginning for yes/no questions)"
+          },
+          {
+            "term": "Qui",
+            "ruby": "Who? (interrogative pronoun)"
+          },
+          {
+            "term": "Quoi",
+            "ruby": "What? (interrogative pronoun)"
+          },
+          {
+            "term": "Où",
+            "ruby": "Where? (interrogative adverb)"
+          },
+          {
+            "term": "Quand",
+            "ruby": "When? (interrogative adverb)"
+          },
+          {
+            "term": "Comment",
+            "ruby": "How? (interrogative adverb)"
+          },
+          {
+            "term": "Pourquoi",
+            "ruby": "Why? (interrogative adverb)"
+          },
+          {
+            "term": "Quel/Quelle",
+            "ruby": "Which? What? (interrogative adjective, agrees with gender)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Use 'Est-ce que' + statement for easiest yes/no questions",
+          "Question words (Qui, Où, Quand) go at the start of sentences",
+          "Always answer in complete sentences, not single words"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Form two different questions asking 'What is your name?' using different structures",
+          "Ask 'Where do you live?' using 'Est-ce que' and then with inversion"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l3",
+    "title": "Personal Information",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Personal Information"
+      },
+      {
+        "type": "text",
+        "content": "Sharing personal information is fundamental to communication. You should be able to talk about your name, age, nationality, profession, and place of origin. In French, age is expressed as 'J'ai [number] ans' (I have [number] years), not 'I am [number] years old'. Nationality is expressed with either 'Je suis français(e)' (I am French) or 'Je viens de France' (I come from France).\n\nProfession uses the verb 'être' without an article: 'Je suis professeur' (I am a teacher), not 'Je suis un professeur'. To express where you live, use 'Je habite à [city]' or 'Je vis à [city]'. Personal information questions are among the most common in beginner French, so mastering these phrases will unlock many conversations."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Je m'appelle",
+            "ruby": "My name is... (lit. I call myself)"
+          },
+          {
+            "term": "J'ai [number] ans",
+            "ruby": "I am [number] years old (lit. I have [number] years)"
+          },
+          {
+            "term": "Je suis de",
+            "ruby": "I am from... (nationality/origin)"
+          },
+          {
+            "term": "Je habite à",
+            "ruby": "I live in... (place of residence)"
+          },
+          {
+            "term": "Je suis [profession]",
+            "ruby": "I am a [profession] (no article used)"
+          },
+          {
+            "term": "Nationalité",
+            "ruby": "Nationality (description of ethnic/national origin)"
+          },
+          {
+            "term": "Profession",
+            "ruby": "Profession/Job/Occupation"
+          },
+          {
+            "term": "Adresse",
+            "ruby": "Address (place where someone lives)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Express age as 'J'ai X ans' (I have X years), not 'Je suis'",
+          "Use professions without articles: 'Je suis professeur' not 'un professeur'",
+          "Nationality can use 'Je suis' or 'Je viens de' interchangeably"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Create a full personal introduction including name, age, nationality, and profession",
+          "Ask someone 'What is your profession?' and 'Where do you come from?' in French"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l4",
+    "title": "Numbers & Counting",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Numbers & Counting"
+      },
+      {
+        "type": "text",
+        "content": "French numbers follow logical patterns that make learning them easier than English. Numbers 0-19 are mostly irregular and must be memorized: zéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix, onze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf. From 20 onward, the pattern is regular: vingt (20), trente (30), quarante (40), cinquante (50), soixante (60), soixante-dix (70), quatre-vingts (80), quatre-vingt-dix (90), cent (100), mille (1000).\n\nNote that 70, 80, and 90 are constructed differently than English: 70 is 'soixante-dix' (60+10), 80 is 'quatre-vingts' (4×20), and 90 is 'quatre-vingt-dix' (4×20+10). French uses commas for decimals and periods for thousands, opposite to English convention. When counting money or giving phone numbers, numbers are often grouped in pairs: 'soixante, trente, quinze' (60, 30, 15)."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Zéro à dix-neuf",
+            "ruby": "Zero to nineteen (irregular, must memorize)"
+          },
+          {
+            "term": "Vingt",
+            "ruby": "Twenty (base for 20-29)"
+          },
+          {
+            "term": "Soixante-dix",
+            "ruby": "Seventy (lit. 60+10, unique French construction)"
+          },
+          {
+            "term": "Quatre-vingts",
+            "ruby": "Eighty (lit. 4×20, loses 's' before another number)"
+          },
+          {
+            "term": "Cent",
+            "ruby": "One hundred (no article used: 'cent euros' not 'un cent euros')"
+          },
+          {
+            "term": "Mille",
+            "ruby": "One thousand (never takes 's' in plural)"
+          },
+          {
+            "term": "Virgule",
+            "ruby": "Comma/decimal point (used for decimals in French)"
+          },
+          {
+            "term": "Numéro de téléphone",
+            "ruby": "Phone number (given in pairs: 06 12 34 56 78)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Memorize 0-19 as they are irregular; 20+ follows logical patterns",
+          "70, 80, 90 are constructed as 60+10, 4×20, 4×20+10 respectively",
+          "Quatre-vingts drops the 's' before another number: 'quatre-vingt-dix'"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Count from 0 to 100 by tens in French",
+          "Say the following numbers aloud: 47, 68, 72, 85, 99, 156"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l5",
+    "title": "Days, Months & Time",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Days, Months & Time"
+      },
+      {
+        "type": "text",
+        "content": "Days of the week and months are essential for scheduling and discussing plans. The days are: lundi (Monday), mardi (Tuesday), mercredi (Wednesday), jeudi (Thursday), vendredi (Friday), samedi (Saturday), dimanche (Sunday). Note that in French, the week starts on Monday, and days are always lowercase unless at the beginning of a sentence. Months follow similar conventions: janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre.\n\nTelling time in French uses 'Il est [number] h [minutes]' (It is [number] hours [minutes]). Noon is 'midi' and midnight is 'minuit'. Quarter past is 'et quart', half past is 'et demie', and quarter to is 'moins le quart'. For example: 'Il est trois heures et demie' (It's 3:30) or 'Il est neuf heures moins le quart' (It's quarter to 9). Use 'du matin' (morning), 'de l'après-midi' (afternoon), or 'du soir' (evening) for clarity with times."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Lundi à dimanche",
+            "ruby": "Monday to Sunday (days of week, always lowercase)"
+          },
+          {
+            "term": "Janvier à décembre",
+            "ruby": "January to December (months, always lowercase)"
+          },
+          {
+            "term": "Il est [number] heures",
+            "ruby": "It is [number] o'clock (time expression)"
+          },
+          {
+            "term": "Et quart",
+            "ruby": "Quarter past (15 minutes)"
+          },
+          {
+            "term": "Et demie",
+            "ruby": "Half past (30 minutes, feminine 'demie')"
+          },
+          {
+            "term": "Moins le quart",
+            "ruby": "Quarter to (45 minutes, lit. minus quarter)"
+          },
+          {
+            "term": "Midi",
+            "ruby": "Noon (12:00 PM)"
+          },
+          {
+            "term": "Minuit",
+            "ruby": "Midnight (12:00 AM)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Days and months are always lowercase unless at sentence start",
+          "French week starts Monday; use 'h' for hours: 'Il est 14h30'",
+          "Use 'et quart' (quarter past), 'et demie' (half past), 'moins le quart' (quarter to)"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Write out the times: 2:15 PM, 6:45 PM, 12:30 PM, and 8:00 AM in French",
+          "Say in French: 'The meeting is on Wednesday at 3:30 PM' and 'December 25th'"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l6",
+    "title": "Family & Relationships",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Family & Relationships"
+      },
+      {
+        "type": "text",
+        "content": "Family vocabulary is fundamental for personal conversations. Primary family members include: mère (mother), père (father), sœur (sister), frère (brother), grand-mère (grandmother), grand-père (grandfather), tante (aunt), oncle (uncle), cousin(e) (cousin), and enfant (child). Remember that many French family terms have different masculine and feminine forms: tante/oncle, cousine/cousin, and néece/neveu.\n\nWhen discussing family relationships, you often use possessive adjectives that must agree with the noun: mon (my, masculine singular), ma (my, feminine singular), mes (my, plural), son (his/her, masculine singular), sa (his/her, feminine singular), ses (his/her, plural). For example: 'mon frère' (my brother, masculine noun), 'ma sœur' (my sister, feminine noun), 'mes enfants' (my children, plural). French also includes broader terms like 'belle-mère' (mother-in-law or stepmother), 'beau-père' (father-in-law or stepfather), and 'demi-frère/demi-sœur' (half-brother/half-sister)."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Mère / Père",
+            "ruby": "Mother / Father"
+          },
+          {
+            "term": "Sœur / Frère",
+            "ruby": "Sister / Brother"
+          },
+          {
+            "term": "Grand-mère / Grand-père",
+            "ruby": "Grandmother / Grandfather"
+          },
+          {
+            "term": "Tante / Oncle",
+            "ruby": "Aunt / Uncle"
+          },
+          {
+            "term": "Cousin / Cousine",
+            "ruby": "Male cousin / Female cousin"
+          },
+          {
+            "term": "Mon / Ma / Mes",
+            "ruby": "My (masculine singular / feminine singular / plural possessives)"
+          },
+          {
+            "term": "Belle-mère / Beau-père",
+            "ruby": "Mother-in-law/stepmother / Father-in-law/stepfather"
+          },
+          {
+            "term": "Demi-frère / Demi-sœur",
+            "ruby": "Half-brother / Half-sister"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Possessive adjectives agree with noun gender/number: 'mon frère' vs 'ma sœur'",
+          "Family terms often have masculine/feminine forms: cousine/cousin, niece/neveu",
+          "Belle- and demi- prefixes indicate in-law and half-relations respectively"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Describe your family structure in French, using at least 5 family terms",
+          "Say 'My sister has two cousins' and 'His mother is a teacher' in French"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l7",
+    "title": "Food & Drinks",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Food & Drinks"
+      },
+      {
+        "type": "text",
+        "content": "French food vocabulary is extensive and culturally important. Common foods include: pain (bread), fromage (cheese), viande (meat), poulet (chicken), poisson (fish), légumes (vegetables), fruits (fruits), œufs (eggs), and riz (rice). Vegetables include tomate (tomato), carotte (carrot), oignon (onion), pomme de terre (potato), and laitue (lettuce). Fruits are fraise (strawberry), pomme (apple), banane (banana), orange (orange), and raisin (grape).\n\nDrinks are equally important: eau (water), café (coffee), thé (tea), jus (juice), vin (wine), bière (beer), and lait (milk). To express preferences, use 'J'aime' (I like), 'J'adore' (I love), and 'Je n'aime pas' (I don't like). For food allergies or dietary restrictions, you might say 'Je suis végétarien(ne)' (I'm vegetarian) or 'Je suis intolérant(e) au lactose' (I'm lactose intolerant). In restaurants, order with 'Je voudrais' (I would like) or 'Un/Une [item], s'il vous plaît' (A [item], please)."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Pain / Fromage",
+            "ruby": "Bread / Cheese (staple carbs and proteins)"
+          },
+          {
+            "term": "Viande / Poulet / Poisson",
+            "ruby": "Meat / Chicken / Fish (protein sources)"
+          },
+          {
+            "term": "Légumes / Fruits",
+            "ruby": "Vegetables / Fruits (produce categories)"
+          },
+          {
+            "term": "Café / Thé / Eau",
+            "ruby": "Coffee / Tea / Water (common beverages)"
+          },
+          {
+            "term": "J'aime / J'adore",
+            "ruby": "I like / I love (preference expressions)"
+          },
+          {
+            "term": "Je n'aime pas",
+            "ruby": "I don't like (negative preference)"
+          },
+          {
+            "term": "Je voudrais",
+            "ruby": "I would like (polite ordering phrase)"
+          },
+          {
+            "term": "Intolérance / Allergie",
+            "ruby": "Intolerance / Allergy (dietary restriction)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Use 'J'aime' + noun for preferences; 'Je n'aime pas' for dislikes",
+          "Order politely with 'Je voudrais' or 'Un/Une..., s'il vous plaît'",
+          "Common vegetable: légume; common fruits: fruits; meat: viande"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "List your 3 favorite foods and 3 you dislike, using 'J'aime' and 'Je n'aime pas'",
+          "Order a meal at a French restaurant: 'I would like a chicken, water, and bread, please'"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l8",
+    "title": "Colors & Descriptions",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Colors & Descriptions"
+      },
+      {
+        "type": "text",
+        "content": "Colors in French must agree in gender and number with the noun they describe. Basic colors include: rouge (red), bleu(e) (blue), jaune (yellow), vert(e) (green), noir(e) (black), blanc(he) (white), orange (orange, usually invariable), rose (pink), gris(e) (gray), and violet(te) (purple). For example: 'une voiture rouge' (a red car, feminine), 'un chat noir' (a black cat, masculine), 'les fleurs bleues' (the blue flowers, plural feminine).\n\nDescriptive adjectives in French generally come after the noun, unlike English. You say 'un livre bleu' (a blue book) not 'un bleu livre'. However, some common adjectives like bon (good), mauvais (bad), grand (big), and petit (small) come before the noun. Intensity can be expressed with 'très' (very), 'assez' (quite), 'trop' (too), and 'un peu' (a little). Comparisons use 'plus... que' (more...than) and 'moins... que' (less...than): 'Le bleu est plus foncé que le jaune' (Blue is darker than yellow)."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Rouge / Bleu / Jaune",
+            "ruby": "Red / Blue / Yellow (primary colors)"
+          },
+          {
+            "term": "Vert / Noir / Blanc",
+            "ruby": "Green / Black / White (secondary colors)"
+          },
+          {
+            "term": "Accord de genre et nombre",
+            "ruby": "Gender and number agreement (colors must agree with noun)"
+          },
+          {
+            "term": "Très / Assez / Trop",
+            "ruby": "Very / Quite / Too (intensity modifiers)"
+          },
+          {
+            "term": "Plus... que",
+            "ruby": "More...than (comparative structure)"
+          },
+          {
+            "term": "Moins... que",
+            "ruby": "Less...than (comparative structure)"
+          },
+          {
+            "term": "Adjectif descriptif",
+            "ruby": "Descriptive adjective (usually comes after noun in French)"
+          },
+          {
+            "term": "Foncé / Clair",
+            "ruby": "Dark / Light (color intensity descriptors)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Colors agree with noun gender/number: 'une maison blanche' (white house, feminine)",
+          "Most adjectives come after noun in French: 'un chat noir' not 'un noir chat'",
+          "Use 'très,' 'assez,' 'trop,' and 'un peu' to modify intensity of adjectives"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Describe 5 items in your room using color adjectives (e.g., 'Mon lit est bleu')",
+          "Compare two colors using 'plus...que': 'Red is darker than pink' in French"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l9",
+    "title": "Clothes & Fashion",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Clothes & Fashion"
+      },
+      {
+        "type": "text",
+        "content": "Clothing vocabulary is essential for everyday conversation. Common garments include: chemise (shirt), t-shirt (t-shirt), pantalon (trousers/pants), jupe (skirt), robe (dress), veste (jacket), manteau (coat), pull (sweater), chaussettes (socks), and chaussures (shoes). Accessories include: chapeau (hat), gants (gloves), écharpe (scarf), ceinture (belt), and sac (bag). Remember that French distinguishes between formal shirts (chemise for men, chemisier for women) and casual t-shirts.\n\nWhen describing clothing, include colors and fit: 'Cette robe est rouge et très jolie' (This dress is red and very pretty) or 'Mon manteau est trop grand' (My coat is too big). Sizes in French use: petit (small), moyen (medium), and grand (large). To ask for clothing in a store, say 'Je cherche une chemise bleue' (I'm looking for a blue shirt) or 'Avez-vous un pull en taille moyen?' (Do you have a sweater in size medium?). Common fabrics include: coton (cotton), laine (wool), soie (silk), and cuir (leather)."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Chemise / T-shirt / Robe",
+            "ruby": "Shirt / T-shirt / Dress (upper body garments)"
+          },
+          {
+            "term": "Pantalon / Jupe",
+            "ruby": "Pants / Skirt (lower body garments)"
+          },
+          {
+            "term": "Veste / Manteau / Pull",
+            "ruby": "Jacket / Coat / Sweater (outer layers)"
+          },
+          {
+            "term": "Chaussures / Chaussettes",
+            "ruby": "Shoes / Socks (footwear)"
+          },
+          {
+            "term": "Accessoire",
+            "ruby": "Accessory (jewelry, belts, hats, scarves)"
+          },
+          {
+            "term": "Taille (petit / moyen / grand)",
+            "ruby": "Size (small / medium / large)"
+          },
+          {
+            "term": "Tissu / Matière",
+            "ruby": "Fabric / Material (coton, laine, soie, cuir)"
+          },
+          {
+            "term": "Je cherche",
+            "ruby": "I'm looking for... (used in shopping)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Chemise = formal shirt; t-shirt is casual; robe = dress for any gender to wear",
+          "Sizes: petit (S), moyen (M), grand (L) — always check if French sizing differs",
+          "Include fabric information: 'une robe en coton' (a cotton dress)"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Describe what you're wearing today in French, including colors and fabrics",
+          "Ask a shopkeeper for a medium-sized blue cotton t-shirt"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l10",
+    "title": "Daily Life Verbs",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Daily Life Verbs"
+      },
+      {
+        "type": "text",
+        "content": "Daily routine verbs form the backbone of everyday communication. Common verbs include: se lever (to get up), se doucher (to shower), s'habiller (to get dressed), manger (to eat), boire (to drink), travailler (to work), étudier (to study), jouer (to play), regarder (to watch), lire (to read), écrire (to write), dormir (to sleep), and arriver (to arrive). Many daily routine verbs are reflexive (se lever, se doucher, s'habiller), meaning they include a reflexive pronoun: je me lève, tu te lèves, il/elle se lève, nous nous levons, vous vous levez, ils/elles se lèvent.\n\nTo describe your daily routine, use present tense: 'Je me lève à sept heures, puis je me douche et m'habille' (I get up at seven, then I shower and get dressed). Adverbs indicating frequency include: toujours (always), souvent (often), quelquefois (sometimes), rarement (rarely), and jamais (never). For sequencing actions, use 'd'abord' (first), 'ensuite' (then), and 'enfin' (finally). These verbs combined with time expressions create rich descriptions of daily routines."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Se lever / Se doucher",
+            "ruby": "To get up / To shower (reflexive verbs with se)"
+          },
+          {
+            "term": "S'habiller / Se coucher",
+            "ruby": "To get dressed / To go to bed (reflexive verbs)"
+          },
+          {
+            "term": "Manger / Boire",
+            "ruby": "To eat / To drink (basic activity verbs)"
+          },
+          {
+            "term": "Travailler / Étudier",
+            "ruby": "To work / To study (occupational verbs)"
+          },
+          {
+            "term": "Jouer / Regarder / Lire",
+            "ruby": "To play / To watch / To read (leisure verbs)"
+          },
+          {
+            "term": "Toujours / Souvent / Jamais",
+            "ruby": "Always / Often / Never (frequency adverbs)"
+          },
+          {
+            "term": "D'abord / Ensuite / Enfin",
+            "ruby": "First / Then / Finally (sequencing adverbs)"
+          },
+          {
+            "term": "Verbe réfléchi",
+            "ruby": "Reflexive verb (uses reflexive pronouns: me, te, se, nous, vous)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Reflexive verbs use pronouns before the verb: 'je me lève' (I get up)",
+          "Use frequency adverbs: toujours/souvent/quelquefois/rarement/jamais",
+          "Sequence actions with d'abord, ensuite, and enfin for clear routines"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Describe your morning routine using at least 5 reflexive or daily verbs in French",
+          "Say 'I always shower, then I eat breakfast, and finally I work' in French"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l11",
+    "title": "Hobbies & Interests",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Hobbies & Interests"
+      },
+      {
+        "type": "text",
+        "content": "Discussing hobbies and interests is a great way to develop conversations. Common activities include: lire (reading), jouer au football/au tennis (playing football/tennis), danser (dancing), cuisiner (cooking), dessiner (drawing), peindre (painting), jouer de la guitare (playing guitar), écouter de la musique (listening to music), regarder des films (watching movies), and voyager (traveling). Note that 'jouer' has two meanings: 'jouer à' for sports/games and 'jouer de' for musical instruments.\n\nTo express interest, use 'J'aime + [infinitive verb]' or 'Je aime + [noun]': 'J'aime lire' (I like to read), but 'J'aime les livres' (I like books). Intensity of interest can be expressed with 'J'adore' (I love), 'Je n'aime pas trop' (I don't like much), or 'Je déteste' (I hate). When discussing frequency of hobbies, combine with adverbs: 'Je joue souvent au tennis le weekend' (I often play tennis on weekends). Collections and passionate interests might use 'Je suis passionné(e) par...' (I'm passionate about...) or 'J'ai une passion pour...' (I have a passion for...)."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Lire / Écrire",
+            "ruby": "To read / To write (intellectual activities)"
+          },
+          {
+            "term": "Jouer à / Jouer de",
+            "ruby": "To play (sports) / To play (instruments) — different prepositions"
+          },
+          {
+            "term": "Danser / Cuisiner / Dessiner",
+            "ruby": "To dance / To cook / To draw (creative activities)"
+          },
+          {
+            "term": "Écouter de la musique",
+            "ruby": "To listen to music"
+          },
+          {
+            "term": "Regarder des films",
+            "ruby": "To watch movies/films"
+          },
+          {
+            "term": "Voyager",
+            "ruby": "To travel (adventure activity)"
+          },
+          {
+            "term": "J'adore / Je déteste",
+            "ruby": "I love / I hate (extreme preferences)"
+          },
+          {
+            "term": "Je suis passionné(e) par",
+            "ruby": "I'm passionate about... (strong interest expression)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "'Jouer à' for sports/games, 'jouer de' for instruments: 'jouer au football' vs 'jouer de la guitare'",
+          "Express hobbies with 'J'aime + infinitive': 'J'aime danser' (I like to dance)",
+          "Use 'Je suis passionné(e) par' for strong interests or 'J'adore' for love"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "List 5 of your hobbies in French and rate them (adore/like/don't like much)",
+          "Ask someone 'Do you play tennis?' and 'What music do you listen to?' in French"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l12",
+    "title": "Places Around Us",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Places Around Us"
+      },
+      {
+        "type": "text",
+        "content": "Navigating locations requires knowledge of common places and spatial vocabulary. Essential locations include: maison (house), école (school), église (church), gare (train station), aéroport (airport), café (café), restaurant (restaurant), musée (museum), parc (park), bibliothèque (library), hôpital (hospital), pharmacie (pharmacy), supermarché (supermarket), banque (bank), and bureau de poste (post office). In cities, you'll also encounter: rue (street), avenue (avenue), boulevard (boulevard), place (square), and pont (bridge).\n\nTo describe location, use prepositions: à côté de (next to), en face de (across from), près de (near), loin de (far from), entre (between), devant (in front of), and derrière (behind). To ask directions, say 'Où est la gare?' (Where is the train station?), 'C'est près d'ici?' (Is it near here?), or 'Comment aller à...?' (How do I go to...?). Responses use 'C'est à gauche/droite' (It's on the left/right), 'Continuez tout droit' (Continue straight ahead), and 'Tournez à gauche/droite' (Turn left/right). The imperative forms are essential for giving directions."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Maison / École / Église",
+            "ruby": "House / School / Church (common buildings)"
+          },
+          {
+            "term": "Gare / Aéroport",
+            "ruby": "Train station / Airport (transit hubs)"
+          },
+          {
+            "term": "Café / Restaurant / Hôtel",
+            "ruby": "Café / Restaurant / Hotel (hospitality places)"
+          },
+          {
+            "term": "Musée / Parc / Bibliothèque",
+            "ruby": "Museum / Park / Library (leisure/cultural places)"
+          },
+          {
+            "term": "À côté de / En face de",
+            "ruby": "Next to / Across from (adjacent location prepositions)"
+          },
+          {
+            "term": "Près de / Loin de",
+            "ruby": "Near / Far from (distance prepositions)"
+          },
+          {
+            "term": "À gauche / À droite",
+            "ruby": "On the left / On the right (directional prepositions)"
+          },
+          {
+            "term": "Tout droit",
+            "ruby": "Straight ahead (direction instruction)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Use 'à côté de,' 'en face de,' 'près de,' 'loin de' for location descriptions",
+          "Ask 'Où est...?' for locations and 'Comment aller à...?' for directions",
+          "Use imperative: 'Continuez tout droit,' 'Tournez à gauche'"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Describe where the library is relative to your house using location prepositions",
+          "Give directions to a friend: 'The café is next to the school, turn right at the square'"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l13",
+    "title": "Weather & Seasons",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Weather & Seasons"
+      },
+      {
+        "type": "text",
+        "content": "Weather vocabulary is practical for daily conversation and planning. Seasons are: printemps (spring), été (summer), automne (autumn), and hiver (winter). Weather conditions use impersonal expressions with 'Il fait' (It is) or 'Il y a' (There is): Il fait beau (It's nice), Il fait mauvais (It's bad), Il fait chaud (It's hot), Il fait froid (It's cold), Il fait frais (It's cool), and Il fait du vent (It's windy). Precipitation uses different expressions: Il pleut (It's raining), Il neige (It's snowing), and Il grêle (It's hailing).\n\nMore complex weather conditions include: Il y a du brouillard (It's foggy), Il y a des nuages (It's cloudy), and C'est couvert (It's overcast). When describing weather for planning, use: 'Par ce temps...' (In this weather...) or 'Avec ce froid...' (With this cold...). Temperature can be expressed as: 'Il fait 20 degrés Celsius' (It's 20 degrees Celsius). Cultural note: France uses Celsius, not Fahrenheit. For weather safety, know: 'Il y a une tempête' (There's a storm), 'C'est orageux' (It's stormy), and 'C'est dangereux' (It's dangerous)."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Printemps / Été / Automne / Hiver",
+            "ruby": "Spring / Summer / Autumn / Winter (four seasons)"
+          },
+          {
+            "term": "Il fait beau / mauvais",
+            "ruby": "It's nice / bad (general weather assessment)"
+          },
+          {
+            "term": "Il fait chaud / froid",
+            "ruby": "It's hot / cold (temperature expressions)"
+          },
+          {
+            "term": "Il pleut / Il neige",
+            "ruby": "It's raining / It's snowing (precipitation verbs)"
+          },
+          {
+            "term": "Il y a du brouillard",
+            "ruby": "It's foggy (lit. There is fog)"
+          },
+          {
+            "term": "Il y a des nuages",
+            "ruby": "It's cloudy (lit. There are clouds)"
+          },
+          {
+            "term": "C'est couvert / orageux",
+            "ruby": "It's overcast / stormy (cloud/storm conditions)"
+          },
+          {
+            "term": "Degrés Celsius",
+            "ruby": "Degrees Celsius (French temperature unit, not Fahrenheit)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Use 'Il fait' for temperature/conditions; 'Il y a' for presence (fog, clouds, wind)",
+          "Precipitation uses special verbs: 'Il pleut' (It rains), 'Il neige' (It snows)",
+          "France uses Celsius: 20°C = room temperature; 0°C = freezing"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Describe today's weather in French using 3-4 weather expressions",
+          "Say 'In spring, it's nice and cool' and 'In winter, it's cold and snowy' in French"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l14",
+    "title": "Simple Present Tense",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Simple Present Tense"
+      },
+      {
+        "type": "text",
+        "content": "The present tense (présent) is the most fundamental verb tense in French. Regular verbs fall into three categories based on their infinitive endings: -ER verbs (parler, danser), -IR verbs (finir, choisir), and -RE verbs (vendre, perdre). For -ER verbs like 'parler' (to speak): je parle, tu parles, il/elle parle, nous parlons, vous parlez, ils/elles parlent. For -IR verbs like 'finir' (to finish): je finis, tu finis, il/elle finit, nous finissons, vous finissez, ils/elles finissent. For -RE verbs like 'vendre' (to sell): je vends, tu vends, il/elle vend, nous vendons, vous vendez, ils/elles vendent.\n\nHowever, some common verbs are irregular and must be memorized: être (to be), avoir (to have), aller (to go), faire (to do/make), pouvoir (can/may), vouloir (to want), and devoir (must/to have to). For example, 'être' conjugates as: je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont. The present tense expresses habitual actions, general truths, and current states. Practice all three regular categories and memorize irregular verbs for fluency."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "-ER verbes (parler, danser)",
+            "ruby": "First group regular verbs (largest group in French)"
+          },
+          {
+            "term": "-IR verbes (finir, choisir)",
+            "ruby": "Second group regular verbs (mid-sized group)"
+          },
+          {
+            "term": "-RE verbes (vendre, perdre)",
+            "ruby": "Third group regular verbs (smaller group)"
+          },
+          {
+            "term": "Être / Avoir / Aller",
+            "ruby": "To be / To have / To go (most common irregular verbs)"
+          },
+          {
+            "term": "Faire / Pouvoir / Vouloir",
+            "ruby": "To do/make / Can / To want (important irregular verbs)"
+          },
+          {
+            "term": "Devoir",
+            "ruby": "Must / To have to (obligation verb)"
+          },
+          {
+            "term": "Conjugaison",
+            "ruby": "Conjugation (changing verb form per person/number)"
+          },
+          {
+            "term": "Verbe régulier / irrégulier",
+            "ruby": "Regular / Irregular verb (follows or breaks standard rules)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Regular verbs follow patterns: -ER, -IR, -RE; learn endings for each group",
+          "Memorize common irregular verbs: être, avoir, aller, faire, pouvoir, vouloir, devoir",
+          "Present tense describes habits, truths, and current actions"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Conjugate 'parler,' 'finir,' and 'vendre' for all pronouns (je, tu, il/elle, etc.)",
+          "Fill in the blanks: 'Je _____ (être) français. Tu _____ (aller) à l'école. Il _____ (avoir) un chat.'"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l15",
+    "title": "Present Continuous",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Present Continuous"
+      },
+      {
+        "type": "text",
+        "content": "The present continuous tense expresses actions happening right now at the moment of speaking. In French, this is formed using 'être en train de' + infinitive verb. For example: 'Je suis en train de lire' (I am reading right now), 'Elle est en train de manger' (She is eating right now), 'Nous sommes en train de travailler' (We are working right now). This construction literally means 'to be in the process of' and is very common in spoken French.\n\nAlternatively, the simple present tense can express ongoing actions when context is clear: 'Je lis un livre' can mean both 'I read a book' (habitual) and 'I am reading a book' (right now), depending on context. However, 'être en train de' removes ambiguity by specifically indicating an action in progress. Use 'être en train de' when you want to emphasize that something is happening at this exact moment. This tense is useful for phone conversations: 'Qu'est-ce que tu fais?' (What are you doing?) might be answered with 'Je suis en train d'étudier' (I'm studying right now) versus 'J'étudie le français' (I study French, habitual)."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Être en train de",
+            "ruby": "To be in the process of / To be [verb]-ing (present continuous construction)"
+          },
+          {
+            "term": "Être + en train de + infinitif",
+            "ruby": "Structure for present continuous (e.g., 'Je suis en train de lire')"
+          },
+          {
+            "term": "Action en cours",
+            "ruby": "Action in progress (happening right now)"
+          },
+          {
+            "term": "Contexte",
+            "ruby": "Context (simple present can mean continuous if context is clear)"
+          },
+          {
+            "term": "Au moment de parler",
+            "ruby": "At the moment of speaking (when to use present continuous)"
+          },
+          {
+            "term": "Présent simple vs présent continu",
+            "ruby": "Simple present vs continuous present (habitual vs right now)"
+          },
+          {
+            "term": "Conversation téléphonique",
+            "ruby": "Phone conversation (common use for present continuous)"
+          },
+          {
+            "term": "Ambiguïté",
+            "ruby": "Ambiguity (resolved by using 'être en train de')"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "'Être en train de' + infinitive = action happening right now",
+          "Example: 'Je suis en train de manger' (I am eating now), not just 'Je mange' (I eat habitual)",
+          "Use present continuous to clarify 'right now' versus 'usually' in phone calls"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Form present continuous sentences for: reading, eating, studying, and working",
+          "Transform these habitual statements to present continuous: 'Je lis un livre,' 'Ils jouent au football'"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l16",
+    "title": "Have/Has (Avoir)",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Have/Has (Avoir)"
+      },
+      {
+        "type": "text",
+        "content": "The verb 'avoir' (to have) is one of the most essential French verbs. In the present tense, it conjugates as: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont. 'Avoir' is used to express possession: 'J'ai une maison' (I have a house), 'Elle a un chat' (She has a cat), 'Nous avons trois enfants' (We have three children). Beyond possession, 'avoir' is crucial for expressing physical conditions: 'J'ai faim' (I have hunger = I'm hungry), 'J'ai soif' (I have thirst = I'm thirsty), 'J'ai froid' (I have cold = I'm cold), 'J'ai chaud' (I have heat = I'm hot), 'J'ai peur' (I have fear = I'm afraid), and 'J'ai sommeil' (I have sleep = I'm sleepy).\n\nAnother critical use is age: 'J'ai 25 ans' (I have 25 years = I'm 25 years old). Additionally, 'avoir' is an auxiliary verb used to form the passé composé (past tense): 'J'ai mangé' (I ate/have eaten). Possession expressions use specific structures: 'J'ai une question' (I have a question), 'Avez-vous du temps?' (Do you have time?), and negative 'Je n'ai pas d'argent' (I don't have money). Mastering 'avoir' is fundamental to French fluency."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "J'ai / Tu as / Il/Elle a",
+            "ruby": "I have / You have (singular) / He/She has (present tense)"
+          },
+          {
+            "term": "Nous avons / Vous avez / Ils/Elles ont",
+            "ruby": "We have / You have (formal/plural) / They have"
+          },
+          {
+            "term": "J'ai faim / J'ai soif",
+            "ruby": "I'm hungry / I'm thirsty (lit. I have hunger/thirst)"
+          },
+          {
+            "term": "J'ai froid / J'ai chaud",
+            "ruby": "I'm cold / I'm hot (lit. I have cold/heat)"
+          },
+          {
+            "term": "J'ai peur / J'ai sommeil",
+            "ruby": "I'm afraid / I'm sleepy (lit. I have fear/sleep)"
+          },
+          {
+            "term": "J'ai [number] ans",
+            "ruby": "I am [number] years old (lit. I have [number] years)"
+          },
+          {
+            "term": "Verbe auxiliaire",
+            "ruby": "Auxiliary verb (avoir used with passé composé)"
+          },
+          {
+            "term": "Possession",
+            "ruby": "Ownership/Possession (primary use of avoir)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Avoir conjugates: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont",
+          "Physical conditions use avoir: 'J'ai faim' (hungry), 'J'ai froid' (cold), 'J'ai sommeil' (sleepy)",
+          "Age uses avoir: 'J'ai 20 ans' (I'm 20 years old); avoir is also auxiliary for passé composé"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Conjugate avoir for all pronouns and create sentences expressing physical conditions",
+          "Translate: 'They have a big house,' 'I'm hungry and thirsty,' 'She's 30 years old'"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l17",
+    "title": "Negations & Questions",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Negations & Questions"
+      },
+      {
+        "type": "text",
+        "content": "Negation in French uses two parts surrounding the verb: 'ne...pas' (not). For example: 'Je ne parle pas français' (I don't speak French), 'Il ne mange pas de viande' (He doesn't eat meat). The structure is 'subject + ne + verb + pas + complement'. In informal speech, 'ne' is often dropped: 'Je parle pas' sounds natural but is technically incomplete. Other negative structures include 'ne...plus' (no longer/not anymore), 'ne...jamais' (never), 'ne...rien' (nothing), 'ne...personne' (nobody/no one), and 'ne...ni...ni' (neither...nor).\n\nQuestions have already been covered in Lesson 2, but they're worth revisiting here. The three main ways to ask questions are: intonation ('Tu parles français?'), 'Est-ce que' structure ('Est-ce que tu parles français?'), and inversion ('Parles-tu français?'). In modern French, 'Est-ce que' is most common. To ask negative questions, use: 'Est-ce que tu ne parles pas français?' (Don't you speak French?) or 'Tu ne parles pas français?' with rising intonation. Tag questions use 'n'est-ce pas?' (isn't it?) at the end: 'Tu parles français, n'est-ce pas?' (You speak French, don't you?)."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Ne...pas",
+            "ruby": "Not (standard negation: 'Je ne parle pas')"
+          },
+          {
+            "term": "Ne...plus",
+            "ruby": "No longer / Not anymore (cessation of action)"
+          },
+          {
+            "term": "Ne...jamais",
+            "ruby": "Never (strongest negation of frequency)"
+          },
+          {
+            "term": "Ne...rien",
+            "ruby": "Nothing (negation of objects)"
+          },
+          {
+            "term": "Ne...personne",
+            "ruby": "Nobody / No one (negation of people)"
+          },
+          {
+            "term": "Ne...ni...ni",
+            "ruby": "Neither...nor (negation of multiple items)"
+          },
+          {
+            "term": "Est-ce que",
+            "ruby": "Question marker (easiest yes/no question structure)"
+          },
+          {
+            "term": "N'est-ce pas ?",
+            "ruby": "Isn't it? (tag question ending)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Use 'ne...pas' for negation; in spoken French, 'ne' is often dropped casually",
+          "Other negations: 'ne...jamais' (never), 'ne...rien' (nothing), 'ne...personne' (nobody)",
+          "Question words: intonation (casual), 'Est-ce que' (standard), inversion (formal)"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Negate these sentences: 'Je parle français,' 'Il aime les légumes,' 'Nous avons du temps'",
+          "Ask these as questions 3 ways each: 'Do you speak French?' and 'Does she live here?'"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l18",
+    "title": "Adjectives & Adverbs",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Adjectives & Adverbs"
+      },
+      {
+        "type": "text",
+        "content": "Adjectives describe nouns and must agree in gender and number in French. Regular adjective agreement follows patterns: -e for feminine singular, -s for plural. For example, 'grand' (big, masculine singular) becomes 'grande' (feminine singular), 'grands' (masculine plural), and 'grandes' (feminine plural). Agreement with nouns is critical: 'une grande maison' (a big house, feminine), 'des petits enfants' (small children, plural). Some adjectives don't change form: 'orange' (orange), 'rose' (pink), 'marron' (brown), and 'ultra-modern' invariable adjectives.\n\nAdverbs describe verbs, adjectives, or other adverbs and typically don't change form. Most adverbs are formed by adding '-ment' to the feminine form of adjectives: 'lent' (slow, masculine) → 'lente' (feminine) → 'lentement' (slowly). However, common adverbs are irregular: bien (well), mal (badly), vite (fast), loin (far), and near (près). Placement differs from English: adverbs generally come after the verb, not before: 'Je parle lentement' (I speak slowly) not 'Je lentement parle'. Intensity adverbs like 'très' (very), 'assez' (quite), 'trop' (too), 'peu' (little), and 'beaucoup' (a lot) precede adjectives but follow verbs."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Adjectif",
+            "ruby": "Adjective (describes noun, must agree in gender/number)"
+          },
+          {
+            "term": "Accord (masculin/féminin/pluriel)",
+            "ruby": "Agreement (masculine/feminine/plural forms)"
+          },
+          {
+            "term": "Grand(e) / Petit(e)",
+            "ruby": "Big/Large / Small (common adjectives with agreement)"
+          },
+          {
+            "term": "Adverbe",
+            "ruby": "Adverb (describes verb/adjective/adverb, usually invariable)"
+          },
+          {
+            "term": "Adverbe en -ment",
+            "ruby": "Adverb ending in -ment (formed from feminine adjective)"
+          },
+          {
+            "term": "Très / Assez / Trop",
+            "ruby": "Very / Quite / Too (intensity/degree adverbs)"
+          },
+          {
+            "term": "Bien / Mal / Vite",
+            "ruby": "Well / Badly / Fast (irregular adverbs)"
+          },
+          {
+            "term": "Beaucoup / Peu",
+            "ruby": "A lot / A little (quantity adverbs)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Adjectives agree with noun gender/number: 'une grande maison' (feminine), 'des grands enfants' (plural)",
+          "Adverbs end in -ment for most, formed from feminine adjective + -ment: 'rapide' → 'rapidement'",
+          "Adverbs follow verbs: 'Je parle lentement'; intensity adverbs precede adjectives: 'très grand'"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Make these adjectives agree: 'bon' with 'ami(e),' 'cher(e)' with 'prix,' 'joli(e)' with 'fleur'",
+          "Form adverbs from: rapide, lent, heureux, difficile; use in sentences"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l19",
+    "title": "Prepositions",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Prepositions"
+      },
+      {
+        "type": "text",
+        "content": "Prepositions are small words that show relationships between nouns, pronouns, and other words. Common prepositions of location include: à (to, at), de (of, from), en (in, made of), sur (on), sous (under), devant (in front of), derrière (behind), entre (between), and près de (near). Time prepositions include: à (at), de (from), jusqu'à (until), pendant (during), avant (before), and après (after). For example: 'Je vais à l'école' (I go to school), 'Un verre de vin' (a glass of wine), 'Une robe en soie' (a silk dress).\n\nAn important note: prepositions contract with definite articles in French. 'À' combines with 'le' to form 'au' and with 'les' to form 'aux': 'Je vais au parc' (I go to the park), 'Je parle aux enfants' (I speak to the children). Similarly, 'de' combines with 'le' to form 'du' and with 'les' to form 'des': 'La couleur du ciel' (the color of the sky), 'Les jouets des enfants' (the children's toys). Prepositions followed by verbs require the infinitive form: 'avant de manger' (before eating), 'après avoir mangé' (after having eaten). Mastering these contractions is essential for fluent French."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "À / De",
+            "ruby": "To/At / Of/From (most common prepositions)"
+          },
+          {
+            "term": "En / Sur / Sous",
+            "ruby": "In/Made of / On / Under (location/material prepositions)"
+          },
+          {
+            "term": "Devant / Derrière / Entre",
+            "ruby": "In front of / Behind / Between (spatial prepositions)"
+          },
+          {
+            "term": "Pendant / Avant / Après",
+            "ruby": "During / Before / After (time prepositions)"
+          },
+          {
+            "term": "Au / Aux",
+            "ruby": "To the / To the (plural) (contraction: à + le = au, à + les = aux)"
+          },
+          {
+            "term": "Du / DES",
+            "ruby": "Of the / Of the (plural) (contraction: de + le = du, de + les = des)"
+          },
+          {
+            "term": "Préposition + infinitif",
+            "ruby": "Preposition + infinitive (e.g., 'avant de manger' = before eating)"
+          },
+          {
+            "term": "Contraction",
+            "ruby": "Contraction (combining preposition + article into one form)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Learn location prepositions: à, de, en, sur, sous, devant, derrière, entre, près de",
+          "Contractions: à + le = au, à + les = aux; de + le = du, de + les = des",
+          "After prepositions, use infinitive verbs: 'avant de manger' (before eating)"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Fill contractions: 'Je vais _____ (à + le) café. Le livre _____ (de + les) enfants est rouge.'",
+          "Use prepositions to describe: 'The cat is under the table,' 'She lives near the park'"
+        ]
+      }
+    ]
+  },
+  {
+    "lessonId": "l20",
+    "title": "Conversation Synthesis",
+    "sections": [
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Conversation Synthesis"
+      },
+      {
+        "type": "text",
+        "content": "Bringing together all learned elements, this lesson synthesizes 19 previous lessons into realistic conversations. A natural greeting conversation flows: 'Bonjour! Je m'appelle Marie. Enchanté(e)?' → 'Enchanté(e)! Je suis Jean. Ça va?' → 'Ça va bien, merci! Et toi?' This sequence uses greetings, introductions, and pleasantries. For deeper conversation, combine personal information with present tense: 'Je suis professeure à Paris. J'aime enseigner l'histoire. Habituellement, je travaille le lundi au vendredi.' Using elements from lessons 3, 11, and 14, you create rich dialogue.\n\nMore complex scenarios combine multiple lessons. In a restaurant: 'Bonjour, une table pour deux, s'il vous plaît' (greeting + location), followed by ordering using food vocabulary, negations, and politeness. A weather conversation: 'Quel temps fait-il? Il pleut maintenant, mais demain il fera beau.' Asking about hobbies: 'Qu'est-ce que tu fais le weekend? J'aime jouer au football et lire.' Professional introductions combine name, age, profession, and location: 'Je suis Marc Dubois, j'ai 35 ans, je suis ingénieur et j'habite à Lyon.' Master these conversational frameworks and you'll handle real-world interactions confidently."
+      },
+      {
+        "type": "glossary",
+        "terms": [
+          {
+            "term": "Ça va ?",
+            "ruby": "How are you? (informal, lit. 'That goes?')"
+          },
+          {
+            "term": "Ça va bien / mal",
+            "ruby": "I'm well / I'm not well (response to Ça va?)"
+          },
+          {
+            "term": "Merci / De rien",
+            "ruby": "Thank you / You're welcome (politeness)"
+          },
+          {
+            "term": "S'il vous plaît / S'il te plaît",
+            "ruby": "Please (formal/informal, lit. if it pleases you)"
+          },
+          {
+            "term": "Excusez-moi / Pardon",
+            "ruby": "Excuse me / Sorry (politeness)"
+          },
+          {
+            "term": "Conversation naturelle",
+            "ruby": "Natural conversation (flowing dialogue with transitions)"
+          },
+          {
+            "term": "Scénario",
+            "ruby": "Scenario (realistic context for conversation)"
+          },
+          {
+            "term": "Cadre conversationnel",
+            "ruby": "Conversational framework (structure for interactions)"
+          }
+        ]
+      },
+      {
+        "type": "highlight-box",
+        "title": "Key Takeaways",
+        "items": [
+          "Combine greetings + personal info + present tense for natural conversations",
+          "Use politeness: 'S'il vous plaît,' 'Merci,' 'De rien,' 'Pardon'",
+          "Build scenarios (restaurant, weather, hobbies) using multiple learned lessons together"
+        ]
+      },
+      {
+        "type": "practice",
+        "questions": [
+          "Write a 10-line dialogue: greeting someone, asking about their profession, hobbies, and plans",
+          "Create a restaurant scenario: order a meal, ask about ingredients, and complain (gently) about service"
+        ]
+      }
+    ]
+  }
+]
