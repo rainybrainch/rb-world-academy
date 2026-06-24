@@ -336,12 +336,49 @@ function PracticeSection({ section }: { section: Extract<LessonSection, { type: 
 }
 
 function renderBold(text: string): React.ReactNode[] {
-  const parts = text.split(/\*\*(.+?)\*\*/g);
-  return parts.map((part, i) =>
-    i % 2 === 1
-      ? <strong key={i} style={{ fontWeight: 700, color: 'var(--mb-dark)' }}>{part}</strong>
-      : part
-  );
+  // First split by bold markers
+  const boldParts = text.split(/\*\*(.+?)\*\*/g);
+
+  return boldParts.map((part, i) => {
+    const isStrong = i % 2 === 1;
+    const content = parseRuby(part);
+
+    return isStrong
+      ? <strong key={i} style={{ fontWeight: 700, color: 'var(--mb-dark)' }}>{content}</strong>
+      : content;
+  });
+}
+
+function parseRuby(text: string): React.ReactNode[] {
+  // Parse <ruby>kanji<rt>furigana</rt></ruby> format
+  const rubyRegex = /<ruby>([^<]+)<rt>([^<]+)<\/rt><\/ruby>/g;
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = rubyRegex.exec(text)) !== null) {
+    // Add text before ruby tag
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+
+    // Add ruby element
+    parts.push(
+      <ruby key={`ruby-${match.index}`} style={{ ruby: 'auto' }}>
+        {match[1]}
+        <rt style={{ fontSize: '0.55em', display: 'block', textAlign: 'center' }}>{match[2]}</rt>
+      </ruby>
+    );
+
+    lastIndex = rubyRegex.lastIndex;
+  }
+
+  // Add remaining text
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+
+  return parts.length > 0 ? parts : [text];
 }
 
 // Renders paragraph text with whitespace-pre-wrap + ①②③ item parsing + bold support
