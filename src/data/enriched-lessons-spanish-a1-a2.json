@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "title": "Greetings & Introductions",
+    "heading": "¡Hola! Saludos y Presentaciones",
+    "text": "Spanish greetings vary by time of day and formality level. 'Hola' is universal, but use 'Buenos días' (good morning) until noon, 'Buenas tardes' (good afternoon) from noon to dusk, and 'Buenas noches' (good evening/night) after dark. When meeting someone, use 'Encantado/Encantada' (delighted, with gender agreement) or 'Mucho gusto' (pleased to meet you). Spanish culture values personal warmth in introductions—handshakes or cheek kisses (dos besos in many regions) are common. The distinction between 'tú' (informal you, used with friends/family) and 'usted' (formal you, used with strangers/authority) is crucial and appears in your very first interaction.",
+    "glossary": [
+      {"term": "Hola", "definition": "Hello"},
+      {"term": "Buenos días", "definition": "Good morning (until ~12pm)"},
+      {"term": "Buenas tardes", "definition": "Good afternoon (12pm-dusk)"},
+      {"term": "Buenas noches", "definition": "Good evening/night (after dusk)"},
+      {"term": "Encantado/a", "definition": "Delighted (agrees with speaker's gender)"},
+      {"term": "Mucho gusto", "definition": "Pleased to meet you"},
+      {"term": "¿Cómo estás?", "definition": "How are you? (informal)"},
+      {"term": "¿Cómo está?", "definition": "How are you? (formal)"}
+    ],
+    "highlight_box": [
+      "Spanish has three daily greetings: buenos días, buenas tardes, buenas noches—not one catch-all 'hello'.",
+      "Tú vs. usted: Use tú with friends/peers, usted with elders/strangers. Wrong choice = cultural misstep.",
+      "Encantado changes by gender: 'encantado' (male speaker), 'encantada' (female speaker)."
+    ],
+    "practice": [
+      "It's 2pm and you meet a business client. Would you say 'Hola, ¿cómo estás?' or 'Buenas tardes, ¿cómo está?'? Why?",
+      "You're speaking to a friend your age. Respond to 'Hola, ¿cómo estás?' with two alternatives."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Basic Questions",
+    "heading": "Preguntas Básicas",
+    "text": "Asking questions is essential for conversation. Spanish word order differs from English: questions often retain statement order but use rising intonation, or invert the subject after the verb. Key phrases include '¿Qué?' (what), '¿Quién?' (who), '¿Dónde?' (where), '¿Cuándo?' (when), '¿Cuánto?' (how much—agrees with noun gender), and '¿Por qué?' (why). Notice the opening inverted question marks (¿) and closing marks (?)—mandatory in Spanish writing. The tú/usted distinction continues here: '¿De dónde eres?' (where are you from?—tú) vs. '¿De dónde es?' (usted). Verb conjugation changes based on question subject, requiring attention to verb endings.",
+    "glossary": [
+      {"term": "¿Qué?", "definition": "What?"},
+      {"term": "¿Quién/Quiénes?", "definition": "Who? (singular/plural)"},
+      {"term": "¿Dónde?", "definition": "Where?"},
+      {"term": "¿Cuándo?", "definition": "When?"},
+      {"term": "¿Cuánto/a/os/as?", "definition": "How much/many? (agrees with gender & number)"},
+      {"term": "¿Por qué?", "definition": "Why?"},
+      {"term": "¿Cuál/Cuáles?", "definition": "Which one(s)? (for selection among options)"},
+      {"term": "¿Cómo?", "definition": "How?"}
+    ],
+    "highlight_box": [
+      "Spanish questions require inverted question marks at the start: ¿Qué tal? (How's it going?)",
+      "Cuánto agrees with nouns: '¿Cuántos hermanos?' (how many brothers?), '¿Cuánta leche?' (how much milk?)",
+      "Word order: Spanish often keeps statement order even in questions; intonation signals the question."
+    ],
+    "practice": [
+      "Formulate three questions using ¿qué?, ¿dónde?, and ¿cuándo? to ask a new Spanish friend about their weekend.",
+      "Explain the difference between '¿Cuál es tu nombre?' and '¿Qué es tu nombre?' (Hint: cuál = which/which one, qué = what)."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Personal Information",
+    "heading": "Información Personal",
+    "text": "Introducing yourself in Spanish follows a predictable pattern: 'Me llamo...' (my name is..., literally 'I call myself...'), 'Soy de...' (I'm from...), 'Tengo ... años' (I am ... years old, literally 'I have ... years'—never use 'ser' for age). Your nationality is expressed as 'Soy [nationality]' (I am Mexican, Spanish, Colombian, etc.), and professions similarly: 'Soy ingeniero/a' (I'm an engineer—gender agreement). Important: Spanish professions and nationalities are lowercase unless they begin a sentence. State your occupation or student status: 'Soy estudiante' (I'm a student), 'Trabajo en...' (I work at...). This foundation opens every conversation and sets tone for ongoing communication.",
+    "glossary": [
+      {"term": "Me llamo...", "definition": "My name is... (literally: I call myself)"},
+      {"term": "Soy de...", "definition": "I'm from..."},
+      {"term": "Tengo ... años", "definition": "I am ... years old (literally: I have ... years)"},
+      {"term": "Soy [nacionalidad]", "definition": "I am [nationality]"},
+      {"term": "Soy [profesión]", "definition": "I am [profession]"},
+      {"term": "Soy estudiante", "definition": "I'm a student"},
+      {"term": "Trabajo en...", "definition": "I work at..."},
+      {"term": "El apellido", "definition": "The surname/last name"}
+    ],
+    "highlight_box": [
+      "Age: Use 'Tengo [number] años' (have years), never 'Soy [number] años'. This is a common beginner error.",
+      "Nationality & profession don't use articles: 'Soy ingeniero' (not 'Soy un ingeniero').",
+      "Spanish often has two surnames (padre y madre)—don't be surprised by longer names."
+    ],
+    "practice": [
+      "Introduce yourself in Spanish: name, age, nationality, and profession/student status.",
+      "Ask a classmate 'Me llamo María. ¿Cómo te llamas tú? ¿De dónde eres? ¿Cuántos años tienes?' and note their responses."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Numbers (1-100 & Beyond)",
+    "heading": "Los Números",
+    "text": "Spanish numbers follow patterns that differ from English. One-digit numbers (1-9) are irregular: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve. Teens (10-19) combine a base form with units: diez, once, doce, trece, catorce, quince, dieciséis, diecisiete, dieciocho, diecinueve. Tens are regular: veinte (20), treinta (30), cuarenta (40), cincuenta (50), sesenta (60), setenta (70), ochenta (80), noventa (90), cien/ciento (100). Compound numbers 21-99 use 'y' (and): veintiuno, treinta y uno, noventa y nueve. 'Uno' shortens to 'un' before masculine nouns ('un libro'—one book) and becomes 'una' before feminine nouns ('una casa'—one house). Large numbers: mil (1,000), un millón (1,000,000). Spanish uses periods for thousands and commas for decimals (opposite of English: 1.000,50).",
+    "glossary": [
+      {"term": "Uno, dos, tres...", "definition": "One, two, three... (1-9)"},
+      {"term": "Diez, once, doce...", "definition": "Ten through nineteen"},
+      {"term": "Veinte, treinta, cuarenta...", "definition": "Twenty, thirty, forty... (tens)"},
+      {"term": "Veintiuno, treinta y uno", "definition": "Twenty-one, thirty-one (compound numbers)"},
+      {"term": "Cien / Ciento", "definition": "One hundred (cien alone, ciento in compounds)"},
+      {"term": "Mil", "definition": "One thousand"},
+      {"term": "Un millón", "definition": "One million"},
+      {"term": "Número par / impar", "definition": "Even / odd number"}
+    ],
+    "highlight_box": [
+      "Treinta (30), not 'veinti-treinta'. Compound numbers 21-99: use 'y' (treinta y cinco = 35).",
+      "Uno → un (masculine noun), una (feminine noun): 'un coche' (one car), 'una mesa' (one table).",
+      "Cien is used alone (cien pesos), but ciento in compounds (ciento uno = 101)."
+    ],
+    "practice": [
+      "Say aloud: 21, 45, 67, 89, 99, 100, 1.000 (Spanish decimal notation).",
+      "Ask a partner: '¿Cuántos años tienes?' and respond with a number sentence using tengo."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Telling Time",
+    "heading": "La Hora",
+    "text": "Telling time in Spanish uses 'ser': 'Es la una' (it is one o'clock—singular because one hour), 'Son las dos' (it is two o'clock—plural for multiple hours). The 24-hour clock is common in Spain and Latin America for formal contexts (17:30 = cinco y media de la tarde). For casual speech, use 12-hour with 'de la mañana' (morning), 'de la tarde' (afternoon), 'de la noche' (night). Minutes: 'son las tres y cinco' (3:05), 'son las cuatro y cuarto' (4:15), 'son las cinco y media' (5:30). For times before the hour, use 'menos' (minus): 'son las seis menos diez' (5:50, literally six minus ten). Asking the time: '¿Qué hora es?' (What time is it?). Schedules mention 'en punto' (on the dot): 'a las dos en punto' (at 2 o'clock sharp).",
+    "glossary": [
+      {"term": "Es la una", "definition": "It is one o'clock (singular)"},
+      {"term": "Son las [number]", "definition": "It is [number] o'clock (plural)"},
+      {"term": "Y cuarto", "definition": "And a quarter (15 minutes)"},
+      {"term": "Y media", "definition": "And a half (30 minutes)"},
+      {"term": "Menos [number]", "definition": "Minus [number] (time before the hour)"},
+      {"term": "De la mañana/tarde/noche", "definition": "In the morning/afternoon/night"},
+      {"term": "¿Qué hora es?", "definition": "What time is it?"},
+      {"term": "En punto", "definition": "On the dot (exactly)"}
+    ],
+    "highlight_box": [
+      "Singular 'Es la una' (one hour) vs. plural 'Son las dos' (two or more hours).",
+      "Use 'y' for minutes after the hour, 'menos' for minutes before: 'las tres y diez' (3:10), 'las cuatro menos cinco' (3:55).",
+      "Spanish often uses 24-hour format officially; 'de la mañana/tarde/noche' in casual 12-hour speech."
+    ],
+    "practice": [
+      "Say these times in Spanish: 1:00, 2:15, 3:30, 5:45, 8:20, 12:00 noon, 6:00 PM.",
+      "Ask '¿Qué hora es?' and tell a partner three appointments: 'Tengo una cita a las diez de la mañana.'"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Family & Relationships",
+    "heading": "La Familia",
+    "text": "Spanish family vocabulary includes padre (father), madre (mother), hijo (son), hija (daughter), hermano (brother), hermana (sister), abuelo (grandfather), abuela (grandmother), tío (uncle), tía (aunt), primo (male cousin), prima (female cousin), esposo (husband), esposa (wife), and others. Gender agreement is consistent: 'mi hermano' (my brother), 'mi hermana' (my sister), 'mis hermanos' (my siblings—can mean mixed or all brothers). Possessive adjectives agree in gender and number: mi/mis (my), tu/tus (your—informal), su/sus (his, her, their, your formal). Note: Spanish omits the possessive when context is clear ('Me duele la cabeza'—literally 'the head hurts me'). Family structures in Spanish-speaking cultures often emphasize extended family and multi-generational households. When describing family size, use 'Tengo dos hermanos' (I have two siblings), and relationships: 'Mi padre se llama Carlos' (My father's name is Carlos).",
+    "glossary": [
+      {"term": "Padre / Madre", "definition": "Father / Mother"},
+      {"term": "Hijo / Hija", "definition": "Son / Daughter"},
+      {"term": "Hermano / Hermana", "definition": "Brother / Sister"},
+      {"term": "Abuelo / Abuela", "definition": "Grandfather / Grandmother"},
+      {"term": "Tío / Tía", "definition": "Uncle / Aunt"},
+      {"term": "Primo / Prima", "definition": "Male / Female cousin"},
+      {"term": "Esposo / Esposa", "definition": "Husband / Wife"},
+      {"term": "Mi/Tu/Su + sustantivo", "definition": "My/Your/His-her-their + noun (possessive agreement)"}
+    ],
+    "highlight_box": [
+      "Gender & number agreement: 'mi hermano, mi hermana, mis hermanos, mis hermanas'.",
+      "Spanish omits possessive with body parts in context: 'Me duele la cabeza' (the head hurts me = I have a headache).",
+      "Hermanos = can mean siblings (mixed) or brothers (all male); hermanas = sisters."
+    ],
+    "practice": [
+      "Describe your family: 'Tengo ... hermanos y ... hermanas. Mi padre se llama... Mi madre...'",
+      "Ask a partner: '¿Cuántos hermanos tienes? ¿Cómo se llaman?' and note their family structure."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Food & Meals",
+    "heading": "La Comida y Las Comidas",
+    "text": "Spanish meals are structured differently than English meals. 'Desayuno' (breakfast—light: café y pan) occurs early; 'almuerzo' (lunch—the main meal) happens midday (1-2pm); 'merienda' (afternoon snack, ~5pm) is common, especially for children; 'cena' (dinner—lighter, ~8-9pm) is late evening. Key foods: pan (bread), leche (milk), queso (cheese), jamón (ham), carne (meat), pollo (chicken), pescado (fish), verdura (vegetable), fruta (fruit), arroz (rice), patata (potato, Spain; papa in Latin America), frijoles (beans), huevo (egg), aceitunas (olives—iconic Spanish food). Spanish cuisine emphasizes olive oil ('aceite de oliva'), garlic ('ajo'), and regional specialties (paella from Valencia, gazpacho from Andalucía). The siesta tradition (afternoon rest post-almuerzo) is fading in cities but remains culturally significant. Common food phrases: '¿Qué comes?' (What do you eat?), 'Me gusta...' (I like...), 'No me gusta...' (I don't like...).",
+    "glossary": [
+      {"term": "Desayuno", "definition": "Breakfast (early, light meal)"},
+      {"term": "Almuerzo", "definition": "Lunch (main meal, midday)"},
+      {"term": "Merienda", "definition": "Afternoon snack (~5pm)"},
+      {"term": "Cena", "definition": "Dinner (late evening)"},
+      {"term": "Carne / Pollo / Pescado", "definition": "Meat / Chicken / Fish"},
+      {"term": "Pan / Queso / Jamón", "definition": "Bread / Cheese / Ham"},
+      {"term": "Verdura / Fruta", "definition": "Vegetable / Fruit"},
+      {"term": "Me gusta / No me gusta", "definition": "I like / I don't like (literally: it pleases me/doesn't please me)"}
+    ],
+    "highlight_box": [
+      "Spanish meals shift timing: almuerzo (main meal, 1-2pm), not breakfast. Dinner (cena) is 8-9pm.",
+      "'Me gusta' is singular (Me gusta el café = I like coffee). 'Me gustan' is plural (Me gustan las frutas = I like fruits).",
+      "Spanish has regional food variety: paella (Valencia), gazpacho (Andalucía, cold soup), tapas (small plates, especially Spain)."
+    ],
+    "practice": [
+      "Describe your typical meals: 'Para el desayuno como... Para el almuerzo...'",
+      "Use 'me gusta/no me gusta': State three foods you like and three you dislike."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Colors & Descriptions",
+    "heading": "Los Colores y Las Descripciones",
+    "text": "Spanish colors agree in gender and number with the noun they modify: 'un coche rojo' (a red car—masculine singular), 'una casa roja' (a red house—feminine singular), 'libros rojos' (red books—masculine plural), 'mesas rojas' (red tables—feminine plural). Basic colors: rojo (red), azul (blue—same for all genders/numbers), verde (green—same), amarillo (yellow), negro (black), blanco (white), gris (gray), naranja (orange), rosa (pink), morado (purple), marrón/café (brown). Exception: 'azul', 'verde', 'gris', 'naranja' don't change for gender but do for number: 'ojos azules' (blue eyes—plural). Other descriptions use adjectives that also agree: 'grande' (big), 'pequeño' (small), 'joven' (young), 'viejo' (old), 'bonito' (pretty), 'feo' (ugly), 'nuevo' (new), 'sucio' (dirty), 'limpio' (clean). Adjective placement typically follows the noun in Spanish (opposite of English): 'un libro rojo' (a red book), 'un edificio alto' (a tall building).",
+    "glossary": [
+      {"term": "Rojo / Roja / Rojos / Rojas", "definition": "Red (agrees with gender & number)"},
+      {"term": "Azul / Azules", "definition": "Blue (no gender change, plural -es)"},
+      {"term": "Verde / Verdes", "definition": "Green (no gender change, plural -es)"},
+      {"term": "Amarillo, Negro, Blanco, Gris", "definition": "Yellow, black, white, gray (agree with noun)"},
+      {"term": "Grande / Pequeño", "definition": "Big / Small (agree with noun)"},
+      {"term": "Joven / Viejo", "definition": "Young / Old"},
+      {"term": "Bonito / Feo", "definition": "Pretty / Ugly"},
+      {"term": "Nuevo / Sucio / Limpio", "definition": "New / Dirty / Clean"}
+    ],
+    "highlight_box": [
+      "Colors agree: 'un coche rojo, una casa roja, dos coches rojos'. But 'azul, verde, gris' only pluralize: 'ojos azules'.",
+      "Adjective placement: Spanish puts adjectives AFTER the noun ('una casa grande'—a big house), opposite of English.",
+      "Some adjectives shorten: 'un buen libro' (a good book—'bueno' → 'buen' before masculine singular noun)."
+    ],
+    "practice": [
+      "Describe objects in your room: 'Mi escritorio es grande y de color marrón. Mi lámpara es roja.'",
+      "Use gender agreement: Create three sentences with color + noun (mix genders/numbers)."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Clothing & Fashion",
+    "heading": "La Ropa",
+    "text": "Spanish clothing vocabulary: camiseta (t-shirt), camisa (shirt), blusa (blouse), suéter (sweater), chaqueta (jacket), pantalones (pants—always plural), falda (skirt), vestido (dress), zapato (shoe), bota (boot), calcetín (sock—usually plural), sombrero (hat), gorro (beanie), corbata (tie), cinturón (belt), guante (glove—usually plural). Underwear and foundations: ropa interior (underwear), sostén/sujetador (bra—sostén in Latin America, sujetador in Spain), abrigo (overcoat). Material adjectives: de algodón (cotton), de lana (wool), de seda (silk), de cuero (leather), de plástico (plastic). Fit descriptors: ajustado (tight), holgado/suelto (loose/baggy), largo (long), corto (short). Getting dressed: 'Me pongo...' (I put on...), 'Llevo...' (I wear...). Example: 'Me pongo los pantalones azules y una camiseta blanca' (I put on blue pants and a white t-shirt). Shoe sizes differ by region; Spanish sizing is European (38=US 7 women, 43=US 10 men). Fashion varies by region and season—Spain favors darker, more formal wear; Latin America often more colorful.",
+    "glossary": [
+      {"term": "Camiseta / Camisa", "definition": "T-shirt / Shirt (collared)"},
+      {"term": "Pantalones / Falda", "definition": "Pants (plural) / Skirt"},
+      {"term": "Zapato / Bota", "definition": "Shoe / Boot"},
+      {"term": "Suéter / Chaqueta / Abrigo", "definition": "Sweater / Jacket / Overcoat"},
+      {"term": "De algodón / De lana / De seda", "definition": "Made of cotton / wool / silk"},
+      {"term": "Ajustado / Holgado / Largo / Corto", "definition": "Tight / Loose / Long / Short (fit adjectives)"},
+      {"term": "Me pongo...", "definition": "I put on... (dressing)"},
+      {"term": "Llevo...", "definition": "I wear... (already wearing)"}
+    ],
+    "highlight_box": [
+      "Pantalones, calcetines, guantes are almost always plural in Spanish (even one pair = los pantalones).",
+      "Distinguishing: 'Me pongo' (action of putting on), 'Llevo' (state of wearing). 'Me pongo una chaqueta' vs. 'Llevo chaqueta hoy'.",
+      "European sizing standard in Spain; Latin America varies. Always check before buying online."
+    ],
+    "practice": [
+      "Describe what you're wearing today: 'Llevo pantalones negros, una camiseta blanca y zapatos de cuero.'",
+      "Ask a partner: '¿Qué ropa llevas hoy? ¿De qué color es tu camiseta?' and describe their outfit."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Daily Verbs & Actions",
+    "heading": "Los Verbos Cotidianos",
+    "text": "Spanish has three regular verb families: -AR (hablar—to speak), -ER (comer—to eat), -IR (vivir—to live). In present tense, conjugations follow predictable patterns. For -AR verbs (example: trabajar—to work): (yo) trabajo, (tú) trabajas, (él/ella/usted) trabaja, (nosotros/as) trabajamos, (vosotros/as) trabajáis, (ellos/ellas/ustedes) trabajan. For -ER verbs (beber—to drink): (yo) bebo, (tú) bebes, (él/ella/usted) bebe, (nosotros/as) bebemos, (vosotros/as) bebéis, (ellos/ellas/ustedes) beben. For -IR verbs (escribir—to write): (yo) escribo, (tú) escribes, (él/ella/usted) escribe, (nosotros/as) escribimos, (vosotros/as) escribís, (ellos/ellas/ustedes) escriben. Common daily verbs: despertar/despertarse (wake/wake up), levantarse (get up), ducharse (shower), desayunar (eat breakfast), trabajar (work), estudiar (study), comer (eat), beber (drink), hablar (talk), jugar (play), ver (see—irregular), hacer (do/make—irregular), dormir (sleep—stem change), volver (return—stem change). Vocabulary note: vosotros form (you all—informal, Spain only) is less used in Latin America, where ustedes is universal.",
+    "glossary": [
+      {"term": "-AR verbs: trabajar, hablar", "definition": "Regular -AR family (I work, you speak, etc.)"},
+      {"term": "-ER verbs: comer, beber", "definition": "Regular -ER family (I eat, you drink, etc.)"},
+      {"term": "-IR verbs: vivir, escribir", "definition": "Regular -IR family (I live, you write, etc.)"},
+      {"term": "Despertarse / Levantarse", "definition": "Wake up / Get up (reflexive)"},
+      {"term": "Ducharse / Desayunar", "definition": "Shower / Eat breakfast"},
+      {"term": "Dormir / Volver", "definition": "Sleep / Return (stem-changing: o→ue)"},
+      {"term": "Jugar / Hacer / Ver", "definition": "Play / Do-Make / See (irregular)"},
+      {"term": "Reflexive verbs (-se)", "definition": "Actions directed at self (me levanto = I get myself up)"}
+    ],
+    "highlight_box": [
+      "Three conjugation families (-AR, -ER, -IR) with predictable endings. Learn patterns, not individual verbs.",
+      "Reflexive verbs (despertarse, levantarse, ducharse) use reflexive pronouns (me, te, se, nos, os, se): 'Me levanto a las 7.'",
+      "Irregular verbs (hacer, ver, ir) and stem-changing verbs (dormir: duermo, duermes; volver: vuelvo, vuelves) need memorization."
+    ],
+    "practice": [
+      "Conjugate 'trabajar' for all six persons (yo, tú, él/ella/usted, nosotros, vosotros, ellos/ustedes).",
+      "Build a daily schedule: 'Me despierto a las 7. Me levanto y me ducho. Desayuno a las 7:30. Trabajo hasta las 12.'"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Hobbies & Leisure Activities",
+    "heading": "Los Pasatiempos y Actividades de Ocio",
+    "text": "Common Spanish hobbies: leer (read), escribir (write), cantar (sing), tocar [instrumento] (play instrument), pintar (paint), dibujar (draw), bailar (dance), nadar (swim), correr (run), andar (walk), pasear (stroll), viajar (travel), cocinar (cook), ver películas (watch movies), jugar (play games), escuchar música (listen to music). Hobbies often follow 'Me gusta': 'Me gusta leer libros de ficción' (I like reading fiction books). Some require indirect object pronouns: 'A mí me encanta jugar al fútbol' (I absolutely love playing soccer—literally, to me it enchants me). Sports and games: fútbol (soccer/football), baloncesto (basketball), tenis (tennis), béisbol (baseball), natación (swimming), esquí (skiing), senderismo (hiking). The verb 'jugar' is special because it takes the preposition 'a': 'jugar al fútbol' (play soccer—not 'jugar fútbol'). Spanish culture emphasizes spending time outdoors (paseos—evening strolls) and gathering with friends/family for meals and conversation. Regional hobbies include flamenco dancing (Andalucía), bullfighting (tradition across Spain), and various folk traditions.",
+    "glossary": [
+      {"term": "Leer / Escribir / Cantar", "definition": "Read / Write / Sing (common hobbies)"},
+      {"term": "Tocar [instrumento]", "definition": "Play [instrument] (e.g., tocar la guitarra)"},
+      {"term": "Pintar / Dibujar / Bailar", "definition": "Paint / Draw / Dance"},
+      {"term": "Nadar / Correr / Andar", "definition": "Swim / Run / Walk"},
+      {"term": "Jugar a [deporte]", "definition": "Play [sport] (always 'a': jugar al tenis)"},
+      {"term": "Ver películas / Escuchar música", "definition": "Watch movies / Listen to music"},
+      {"term": "Me gusta / Me encanta", "definition": "I like / I love (indirect object: me gusta...)"},
+      {"term": "Viajar / Pasear / Senderismo", "definition": "Travel / Stroll / Hiking"}
+    ],
+    "highlight_box": [
+      "Hobbies use 'Me gusta + verb (infinitive)' or 'Me gusta + noun': 'Me gusta leer' (I like reading), 'Me gusta la música' (I like music).",
+      "Jugar always takes 'a': 'jugar al fútbol, jugar al tenis'—not 'jugar fútbol'.",
+      "Spanish leisure culture: paseos (evening walks in plazas), terrazas (outdoor café seating), tertulias (social gatherings)."
+    ],
+    "practice": [
+      "List five hobbies: 'Me gusta leer, me encanta bailar, juego al tenis, toco la guitarra, me gusta cocinar.'",
+      "Ask a partner: '¿Cuáles son tus pasatiempos? ¿Qué deporte practicas? ¿Tocas algún instrumento?'"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Places & Locations",
+    "heading": "Los Lugares",
+    "text": "Spanish places vocabulary: casa (house), apartamento (apartment—piso in Spain), edificio (building), tienda (store), mercado (market), supermercado (supermarket), calle (street), plaza (plaza/town square), parque (park), biblioteca (library), escuela (school), universidad (university), hospital (hospital), iglesia (church), museo (museum), restaurante (restaurant), café (café), bar (bar), correos (post office), banco (bank), estación (station—train or bus), aeropuerto (airport), playas (beaches), montaña (mountain), río (river), bosque (forest), ciudad (city), pueblo (town/village), campo (countryside). Prepositions of location: en (in/at), en la... (in the...), cerca de (near), lejos de (far from), entre (between), al lado de (next to), enfrente de (opposite/across from), detrás de (behind), delante de (in front of), arriba (above), abajo (below). Important construction: 'Hay' (there is/are) + noun: 'Hay una tienda cerca de mi casa' (There's a store near my house). Asking directions: '¿Dónde está...?' (Where is...?), '¿Cómo se llega a...?' (How do you get to...?). Cities and regions have distinct characters: Madrid (capital, central Spain), Barcelona (Catalonia, northeastern coast), Sevilla (Andalucía, southern Spain), Mexico City, Buenos Aires, etc.",
+    "glossary": [
+      {"term": "Casa / Apartamento (piso)", "definition": "House / Apartment (piso in Spain)"},
+      {"term": "Tienda / Mercado / Supermercado", "definition": "Store / Market / Supermarket"},
+      {"term": "Calle / Plaza / Parque", "definition": "Street / Plaza / Park"},
+      {"term": "Biblioteca / Escuela / Universidad", "definition": "Library / School / University"},
+      {"term": "Restaurante / Café / Bar", "definition": "Restaurant / Café / Bar"},
+      {"term": "Cerca de / Lejos de / Al lado de", "definition": "Near / Far from / Next to (prepositions)"},
+      {"term": "¿Dónde está...? / Hay...", "definition": "Where is...? / There is/are..."},
+      {"term": "Ciudad / Pueblo / Campo", "definition": "City / Town / Countryside"}
+    ],
+    "highlight_box": [
+      "Location prepositions: 'en la casa' (in the house), 'cerca de la escuela' (near school), 'enfrente del parque' (opposite the park).",
+      "'Hay' is unique: no subject, always singular form 'hay' for both singular and plural: 'Hay un gato. Hay dos gatos.'",
+      "Spanish cities/regions have distinct identities: Madrid (politics/art), Barcelona (Catalan culture), Sevilla (Andalusian tradition)."
+    ],
+    "practice": [
+      "Describe your neighborhood: 'Vivo en un apartamento cerca de una plaza. Hay una tienda al lado de mi casa.'",
+      "Ask for directions: '¿Dónde está la biblioteca? ¿Cómo se llega a la estación de tren?'"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Weather & Seasons",
+    "heading": "El Tiempo y Las Estaciones",
+    "text": "Spanish weather uses special constructions: 'Hace buen tiempo' (The weather is good—literally: it makes good weather), 'Hace mal tiempo' (bad weather), 'Hace calor' (it's hot—literally: it makes heat), 'Hace frío' (it's cold), 'Hace sol' (it's sunny), 'Hace viento' (it's windy), 'Hace nublado' (it's cloudy—though 'Está nublado' is also used). Precipitation: 'Llueve' (it rains—from llover), 'Nieva' (it snows—from nevar), 'Hay granizo' (there is hail). Other expressions: 'Hay tormentas' (there are storms), 'Hay humedad' (there is humidity), 'Está despejado' (it's clear). Seasons: primavera (spring—March-May), verano (summer—June-August), otoño (autumn—September-November), invierno (winter—December-February). Temperatures in Celsius are standard in Spain and Latin America (0°C = freezing, 20°C = comfortable room temp, 37°C = body temperature). Seasonal activities vary: esquiar (ski) in winter, nadar (swim) in summer, senderismo (hike) in spring/autumn. Natural phenomena: arco iris (rainbow), relámpago (lightning), trueno (thunder).",
+    "glossary": [
+      {"term": "Hace buen/mal tiempo", "definition": "Good/bad weather (construction with 'hace')"},
+      {"term": "Hace calor / Hace frío", "definition": "It's hot / It's cold"},
+      {"term": "Hace sol / Hace viento", "definition": "It's sunny / It's windy"},
+      {"term": "Llueve / Nieva", "definition": "It rains / It snows (third-person singular verbs)"},
+      {"term": "Primavera / Verano / Otoño / Invierno", "definition": "Spring / Summer / Autumn / Winter"},
+      {"term": "Hay tormentas / Hay humedad", "definition": "There are storms / There is humidity"},
+      {"term": "Está despejado / Está nublado", "definition": "It's clear / It's cloudy (estar + adjective)"},
+      {"term": "Grados Celsius / Fahrenheit", "definition": "Celsius/Fahrenheit (Spain/Latin America use Celsius)"}
+    ],
+    "highlight_box": [
+      "Weather grammar: 'Hace' + noun (hace calor, hace frío, hace viento) vs. 'Está' + adjective (está nublado, está despejado).",
+      "Rain & snow are verbs: 'Llueve mucho en invierno' (It rains a lot in winter), 'Nieva en las montañas' (It snows in the mountains).",
+      "Spanish uses Celsius exclusively; memorize key temps: 0°C (freezing), 10°C (cool), 20°C (comfortable), 30°C (hot), 37°C (body temp)."
+    ],
+    "practice": [
+      "Describe today's weather: 'Hoy hace buen tiempo. Hace calor y hace sol. La temperatura es de 25 grados Celsius.'",
+      "Ask: '¿Qué tiempo hace en tu país en invierno? ¿Nieva? ¿Llueve mucho en primavera?'"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Present Tense Mastery",
+    "heading": "El Presente Indicativo",
+    "text": "The present tense is Spanish's most fundamental verb form, used for habitual actions, current states, and general truths. Regular verbs follow three patterns (AR/ER/IR) with consistent endings. Irregular verbs break patterns but follow groups: (1) vowel changes in stem (stem-changing verbs like poder/puedo, querer/quiero, venir/vengo, dormir/duermo, pedir/pido); (2) first-person irregulars (hacer/hago, poner/pongo, traer/traigo, salir/salgo, see/veo); (3) completely irregular (ser/soy, estar/estoy, ir/voy, haber/he). Tú vs. usted distinction affects conjugation: 'tú hablas' (you speak—informal) vs. 'usted habla' (you speak—formal, same as él/ella). In Latin America, vosotros is absent; ustedes serves as formal and informal plural you. Common present-tense expressions: 'Ahora estudio' (I'm studying now), 'Siempre trabajo' (I always work), 'Hablo español' (I speak Spanish—general truth). Reflexive verbs (me levanto, te vistes, se ducha) add reflexive pronouns before the conjugated verb. Using present continuously ('estar + gerund') requires understanding gerund formation (-ando for AR, -iendo for ER/IR): 'Estoy comiendo' (I'm eating).",
+    "glossary": [
+      {"term": "Presente indicativo", "definition": "Present indicative (current/habitual action)"},
+      {"term": "-AR verbs: yo -o, tú -as, él -a", "definition": "Regular -AR conjugation pattern"},
+      {"term": "-ER/-IR verbs: conjugation", "definition": "-ER: -o, -es, -e; -IR: -o, -es, -e"},
+      {"term": "Stem-changing verbs (o→ue, e→ie)", "definition": "Vowel shifts in verb stem (poder/puedo, querer/quiero, dormir/duermo)"},
+      {"term": "Irregular verbs (ser, estar, ir, haber)", "definition": "Completely irregular verbs requiring memorization"},
+      {"term": "Reflexive verbs (me, te, se, nos, os, se)", "definition": "Actions on self (me levanto, te vistes, se ducha)"},
+      {"term": "Gerund (-ando, -iendo)", "definition": "Present participle (hablando, comiendo, viviendo)"},
+      {"term": "Estar + gerund (present continuous)", "definition": "Ongoing action (Estoy comiendo = I'm eating right now)"}
+    ],
+    "highlight_box": [
+      "Master regular patterns first: -AR, -ER, -IR are predictable. Irregulars come next.",
+      "Reflexive pronouns precede verb: 'Me levanto' (I get up), 'Te duchas' (You shower), 'Se viste' (He/she dresses).",
+      "Estar + gerund emphasizes action in progress: 'Estoy estudiando' (actively studying now) vs. 'Estudio' (habitually study)."
+    ],
+    "practice": [
+      "Conjugate three verbs (one from each family: hablar, comer, vivir) for all six persons.",
+      "Write a daily schedule using present tense: 'Por la mañana me levanto, desayuno, y voy al trabajo. Trabajo hasta las 5.'"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Present Continuous Tense",
+    "heading": "El Presente Continuo (Estar + Gerundio)",
+    "text": "The present continuous emphasizes an action happening right now or in the immediate present. It combines 'estar' (to be) in present tense with a gerund (verb form ending in -ando/-iendo/-yendo). Formation: 'estar' (estoy, estás, está, estamos, estáis, están) + gerund. Gerund formation: -AR verbs drop -ar and add -ando (hablar → hablando, trabajar → trabajando); -ER/-IR verbs drop -er/-ir and add -iendo (comer → comiendo, vivir → viviendo). Exceptions: verbs ending in vowel + -ER/IR change -iendo to -yendo (leer → leyendo, oír → oyendo). Stem-changing verbs apply changes to gerunds: dormir → durmiendo (o→u), preferir → prefiriendo (e→i), seguir → siguiendo. Examples: 'Estoy comiendo un sándwich' (I'm eating a sandwich right now), 'Ella está leyendo un libro' (She's reading a book), 'Estamos viendo una película' (We're watching a movie). Present continuous differs from simple present: 'Como frutas todos los días' (I eat fruit every day—habitual) vs. 'Estoy comiendo frutas' (I'm eating fruit right now—immediate action). Reflexive verbs: reflexive pronoun can attach to gerund or come before 'estar': 'Estoy vistiéndome' or 'Me estoy vistiendo' (I'm getting dressed).",
+    "glossary": [
+      {"term": "Estar + gerundio", "definition": "Present continuous (action happening now)"},
+      {"term": "-ando (from -AR)", "definition": "Gerund ending for -AR verbs (hablando, trabajando)"},
+      {"term": "-iendo (from -ER/-IR)", "definition": "Gerund ending for -ER/-IR verbs (comiendo, viviendo)"},
+      {"term": "-yendo (vowel + -ER/IR)", "definition": "Gerund change for leer/oír (leyendo, oyendo)"},
+      {"term": "Stem changes in gerunds", "definition": "dormir→durmiendo, preferir→prefiriendo, seguir→siguiendo"},
+      {"term": "Estoy/Estás/Está + gerundio", "definition": "I'm/You're/He/she's [verb]-ing (right now)"},
+      {"term": "Me estoy vistiendo / Estoy vistiéndome", "definition": "I'm getting dressed (reflexive in present continuous)"},
+      {"term": "Immediacy marker", "definition": "Present continuous emphasizes 'right now' vs. habitual simple present"}
+    ],
+    "highlight_box": [
+      "Formation: 'estar' (conjugated) + gerund. 'Estoy hablando' (I'm speaking now), not 'estoy hablar'.",
+      "Gerund endings: -ando (AR), -iendo (ER/IR), -yendo (vowel + ER/IR). Leer → leyendo, no 'leeiendo'.",
+      "Present continuous vs. simple present: 'Como manzanas' (I eat apples—habitual) vs. 'Estoy comiendo una manzana' (I'm eating an apple right now)."
+    ],
+    "practice": [
+      "Convert infinitives to gerunds: hablar, comer, vivir, dormir, leer, correr, preferir.",
+      "Build sentences: 'Estoy [gerund]... ¿Qué estás haciendo? Mi hermano está [gerund]...'"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Have/Has & Possession",
+    "heading": "Tener y Haber (Posesión y Existencia)",
+    "text": "Spanish distinguishes between possession (tener = to have, to possess) and existence/perfect tense (haber = to have, auxiliary). 'Tener' is regular -ER conjugation: (yo) tengo, (tú) tienes, (él/ella/usted) tiene, (nosotros/as) tenemos, (vosotros/as) tenéis, (ellos/ellas/ustedes) tienen. 'Tengo un libro' (I have a book), 'Ella tiene una hermana' (She has a sister). Note that age uses tener: 'Tengo 25 años' (I have 25 years = I am 25). 'Haber' is highly irregular: (yo) he, (tú) has, (él/ella/usted) ha, (nosotros/as) hemos, (vosotros/as) habéis, (ellos/ellas/ustedes) han. In present perfect, haber + past participle: 'He estudiado' (I have studied), 'Ha comido' (He has eaten). Past participles: -AR → -ado (hablar → hablado), -ER/-IR → -ido (comer → comido, vivir → vivido). Irregular participles: ser → sido, tener → tenido, hacer → hecho, decir → dicho, ir → ido, venir → venido. 'Hay' (there is/are, from haber) is impersonal: 'Hay un gato y dos perros' (There is a cat and two dogs—invariable form regardless of number). Possession with 'de': 'El libro de María' (María's book—literally the book of María).",
+    "glossary": [
+      {"term": "Tener (posesión)", "definition": "Have (possess) - regular -ER verb"},
+      {"term": "Tengo / Tienes / Tiene", "definition": "I have / You have / He/she has"},
+      {"term": "Edad: Tengo ... años", "definition": "Age: I have ... years (= I'm ... years old)"},
+      {"term": "Haber (auxiliar)", "definition": "Have (auxiliary for perfect tense)"},
+      {"term": "He / Has / Ha + participio", "definition": "I have / You have / He/she has [past participle]"},
+      {"term": "Participio pasado (-ado, -ido)", "definition": "Past participle (hablado, comido, vivido)"},
+      {"term": "Participios irregulares", "definition": "hecho, dicho, visto, escrito, roto (irregular past participles)"},
+      {"term": "Hay (existencia)", "definition": "There is/are (impersonal from haber)"}
+    ],
+    "highlight_box": [
+      "Tener = possess. Haber = auxiliary or 'there is'. Don't confuse: 'Tengo un libro' (I have a book) vs. 'Hay un libro aquí' (There is a book here).",
+      "Age: Use tener, not ser: 'Tengo 20 años' (I have 20 years = I'm 20), never 'Soy 20 años'.",
+      "Present perfect: Haber + past participle. Regular: -ado/-ido. Irregular: hecho, dicho, visto, escrito, roto, vuelto."
+    ],
+    "practice": [
+      "Express possession: 'Tengo una casa, dos coches, y tres gatos. Mi hermano tiene un perro.'",
+      "Use present perfect: 'He estudiado mucho. Ella ha comido ya. ¿Habéis viajado a España?'"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Negations & Negatives",
+    "heading": "Las Negaciones",
+    "text": "Spanish negation is straightforward but differs in syntax from English. The primary negation word is 'no' (not), placed before the verb: 'No hablo inglés' (I don't speak English), 'No estoy cansado' (I'm not tired), 'No tenemos dinero' (We don't have money). With reflexive verbs, 'no' precedes the reflexive pronoun: 'No me levanto temprano' (I don't wake up early). Multiple negatives are grammatically correct and common: 'No hablé con nadie' (I didn't speak with anyone—double negative), 'Nunca veo nada' (I never see anything—triple negative). Key negative words: no (not), nunca/jamás (never), tampoco (neither/not either), nadie (nobody/no one), nada (nothing), ningún/ninguno (no/none—agrees with noun gender), ni (nor). 'Ninguno' becomes 'ningún' before masculine singular nouns: 'ningún libro' (no book), but 'ninguna casa' (no house). When a negative word follows the verb, 'no' is still required: 'No veo a nadie' (I see no one—literally: I don't see nobody), 'No hay nada aquí' (There's nothing here). Nor construction: 'ni... ni...' (neither... nor...): 'No me gusta ni el café ni el té' (I like neither coffee nor tea).",
+    "glossary": [
+      {"term": "No", "definition": "Not (negation particle, before verb)"},
+      {"term": "Nunca / Jamás", "definition": "Never (nunca more common; jamás = absolutely never)"},
+      {"term": "Tampoco", "definition": "Neither / Not either"},
+      {"term": "Nadie", "definition": "Nobody / No one"},
+      {"term": "Nada", "definition": "Nothing"},
+      {"term": "Ningún / Ninguno / Ninguna", "definition": "No / None (agrees with gender/number)"},
+      {"term": "Ni... ni...", "definition": "Neither... nor..."},
+      {"term": "Double negatives (correct in Spanish)", "definition": "'No veo a nadie' (I see no one), 'Nunca como nada' (I never eat anything)"}
+    ],
+    "highlight_box": [
+      "Spanish allows and requires double negatives: 'No tengo nada' (I have nothing—literally: I don't have nothing). This is grammatically correct.",
+      "Ninguno → ningún before masculine singular: 'ningún problema' (no problem), but 'ninguna pregunta' (no question).",
+      "Word order: When negative follows verb, 'no' still precedes it: 'No veo a nadie' (not 'Veo a no-nadie')."
+    ],
+    "practice": [
+      "Negate sentences: 'Tengo dos hermanos' → 'No tengo hermanos.' 'Siempre como frutas' → 'Nunca como frutas.'",
+      "Use multiple negatives: 'No me gusta nada. No veo a nadie. Nunca hablo con nadie.'"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Adjectives & Agreement",
+    "heading": "Los Adjetivos y Concordancia",
+    "text": "Spanish adjectives must agree in gender and number with the nouns they modify. Adjectives ending in -o change for gender and number: rojo (red), roja (red fem.), rojos (red masc. plural), rojas (red fem. plural). Adjectives ending in -e or consonants are invariant for gender but change for number: verde (green) → verdes (green plural), azul (blue) → azules (blue plural). Some adjectives have unique feminine forms: bueno (good) → buena, malo (bad) → mala, uno → una, alguno → alguna, ninguno → ninguna. Shortened forms: bueno/malo/alguno/ninguno drop the final -o before masculine singular nouns: 'un buen libro' (a good book), 'un mal día' (a bad day), 'algún problema' (some problem). Comparatives use más (more) or menos (less): 'más grande' (bigger), 'menos importante' (less important). Superlatives add the definite article: 'el más grande' (the biggest), 'la más hermosa' (the most beautiful). Irregular comparatives: bueno → mejor (better), malo → peor (worse), grande → mayor (greater/bigger in importance), pequeño → menor (smaller in importance). Adjective placement typically follows the noun (opposite English): 'un coche rojo' (a red car), 'una casa grande' (a big house), with exceptions for subjective/artistic adjectives placed before: 'un hermoso día' (a beautiful day).",
+    "glossary": [
+      {"term": "Adjetivos -o (rojo, malo, bueno)", "definition": "Adjectives with gender/number agreement"},
+      {"term": "Adjetivos -e / consonante (verde, azul, grande)", "definition": "Gender-invariant adjectives (plural: -es)"},
+      {"term": "Formas apocopadas (buen, mal, algún, ningún)", "definition": "Shortened forms before masculine singular nouns"},
+      {"term": "Más/Menos + adjetivo", "definition": "Comparative (más grande = bigger, menos importante = less important)"},
+      {"term": "El/La más + adjetivo", "definition": "Superlative (el más grande = the biggest)"},
+      {"term": "Irregulares: mejor, peor, mayor, menor", "definition": "Irregular comparatives (better, worse, greater, smaller)"},
+      {"term": "Orden: sustantivo + adjetivo", "definition": "Typical placement: 'coche rojo' (red car), 'día hermoso' (beautiful day)"},
+      {"term": "Concordancia (acuerdo)", "definition": "Agreement in gender and number with noun"}
+    ],
+    "highlight_box": [
+      "Agreement is essential: 'un libro rojo, una casa roja, dos libros rojos, dos casas rojas'.",
+      "Shortened forms: 'buen libro, mal tiempo, algún momento, ningún problema' (before masc. singular only).",
+      "Comparative irregulars: bueno→mejor, malo→peor, grande→mayor. 'Este es mejor que ese' (This is better than that)."
+    ],
+    "practice": [
+      "Agree adjectives with nouns: Write 'red car, pretty houses, good friends, bad weather' in Spanish with proper agreement.",
+      "Form comparatives/superlatives: 'My house is bigger than your house. This is the most beautiful day of the year.'"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Prepositions & Relationships",
+    "heading": "Las Preposiciones",
+    "text": "Spanish prepositions establish relationships between words and are essential for expressing location, time, and manner. Common prepositions: a (to, at), ante (before—formal context), bajo (under), con (with), contra (against), de (of, from), desde (from—starting point), durante (during), en (in, at), entre (between, among), excepto (except), hacia (toward), hasta (until, up to), para (for, in order to), por (by, through, because of), según (according to), sin (without), sobre (on, about), tras (after, behind), y versus u (and—u before vowels), o versus u (or—u before vowel sounds). Contractions: a + el = al, de + el = del (only these two contract). Examples: 'Voy al cine' (I go to the cinema—a + el = al), 'El libro del profesor' (The teacher's book—de + el = del). Prepositions often pair with verbs: hablar con (talk with), pensar en (think about), insistir en (insist on), depender de (depend on). Time expressions: 'por la mañana' (in the morning), 'durante el verano' (during summer), 'desde las 9 hasta las 5' (from 9 until 5). Purpose/destination distinction: para (for, destination) vs. por (through, agent, reason): 'Trabajo para una compañía' (I work for a company), 'Voy por la calle' (I go through the street). Prepositions affect reflexive pronouns: 'contigo' (with you—informal, con + ti → contigo), 'conmigo' (with me).",
+    "glossary": [
+      {"term": "A / En / De", "definition": "To/at / In / Of, from (most common)"},
+      {"term": "Para / Por", "definition": "For (destination) / By, through, for (reason or agent)"},
+      {"term": "Con / Sin", "definition": "With / Without"},
+      {"term": "Desde / Hasta", "definition": "From (starting point) / Until, up to"},
+      {"term": "Entre / Bajo / Sobre", "definition": "Between, among / Under / On, about"},
+      {"term": "Hacia / Contra", "definition": "Toward / Against"},
+      {"term": "Al (a + el) / Del (de + el)", "definition": "Contractions (only two in Spanish)"},
+      {"term": "Conmigo / Contigo / Consigo", "definition": "With me / With you (informal) / With him/her (special forms)"}
+    ],
+    "highlight_box": [
+      "Para vs. por: Para = destination/purpose ('trabajo para vivir'—I work to live). Por = through, reason, agent ('Paso por tu casa'—I pass by your house).",
+      "Only contractions: al (a+el) and del (de+el). No other preposition + article contractions in Spanish.",
+      "Special forms with con: con + mí = conmigo, con + ti = contigo, con + sí = consigo (not 'con me', 'con te')."
+    ],
+    "practice": [
+      "Fill prepositions: 'Voy ____ la tienda. Hablo ____ mis amigos. Trabajo ____ una empresa ____ vivir.'",
+      "Translate time: 'From Monday until Friday, I work in the office. In the morning I study, in the afternoon I work.'"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Conversation Synthesis & Real-World Application",
+    "heading": "Síntesis: Conversación Integrada",
+    "text": "This final lesson synthesizes A1-A2 Spanish by constructing full conversations and real-world scenarios. A typical introduction dialogue: 'Hola, ¿cómo te llamas?' → 'Me llamo Juan. ¿Y tú?' → 'Yo soy María. ¿De dónde eres?' → 'Soy de Madrid. ¿Y tú?' → 'Soy de México. ¿Cuántos años tienes?' → 'Tengo 25 años. ¿A qué te dedicas?' → 'Soy ingeniero. Trabajo en una empresa de tecnología. ¿Y tú?' → 'Soy estudiante de medicina. ¿Cuáles son tus hobbies?' → 'Me gusta leer, juego al fútbol, y me encanta viajar. ¿Y los tuyos?' → 'A mí me gusta cocinar, escuchar música, y nadar.' Restaurant scenario: 'Una mesa para dos, por favor.' → 'Enseguida. ¿Qué desean beber?' → 'Dos aguas, por favor.' → 'Aquí están. ¿Qué van a comer?' → 'Yo quiero una ensalada y pollo a la parrilla. Ella quiere pescado con arroz.' → 'Perfecto. Un momento, por favor.' Shopping: '¿Cuánto cuesta este suéter?' → 'Cuesta 30 euros.' → '¿Hay talla pequeña?' → 'Sí, hay en la tienda.' Recovery and deeper conversation introduces using 'porque' (because), expressing likes/dislikes with intensity ('me encanta, me gusta, no me gusta, no me gusta nada'), and sustaining dialogue with follow-up questions. A1-A2 mastery means comfort in basic social situations, ability to handle routine transactions, and confidence in present-tense narration of daily life.",
+    "glossary": [
+      {"term": "Porque", "definition": "Because (reason/explanation)"},
+      {"term": "Me encanta / Me gusta / No me gusta / No me gusta nada", "definition": "I love / I like / I don't like / I hate (intensity spectrum)"},
+      {"term": "Ensalada / Pollo a la parrilla", "definition": "Salad / Grilled chicken (common food orders)"},
+      {"term": "Pescado / Arroz", "definition": "Fish / Rice"},
+      {"term": "¿Cuánto cuesta?", "definition": "How much does it cost?"},
+      {"term": "Talla pequeña / mediana / grande", "definition": "Small / Medium / Large (clothing sizes)"},
+      {"term": "Un momento / Enseguida", "definition": "One moment / Right away (service phrases)"},
+      {"term": "¿Desean...? / ¿Qué van a...?", "definition": "Do you want...? / What will you...? (formal service questions)"}
+    ],
+    "highlight_box": [
+      "A1-A2 conversations focus on present tense, present continuous, basic past (he/has), and common questions (qué, dónde, cuándo, cuánto).",
+      "Key conversational elements: greetings (time-based), personal info (nombre, edad, nacionalidad, profesión), hobbies, basic transactions (food, shopping, directions).",
+      "Cultural awareness: Tú vs. usted distinction, Spanish meal times (almuerzo at 1-2pm, cena at 8-9pm), regional foods (paella, gazpacho, tapas), evening paseos."
+    ],
+    "practice": [
+      "Conduct a complete conversation: Meet a Spanish speaker, introduce yourself, ask about their family/hobbies, discuss your day's activities, make a restaurant reservation.",
+      "Role-play: Shopping scenario—ask prices, inquire about sizes, negotiate, make a purchase. Restaurant scenario—order food, ask questions about dishes, pay the bill."
+    ]
+  }
+]
