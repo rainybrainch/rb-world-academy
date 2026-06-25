@@ -1,0 +1,793 @@
+[
+  {
+    "lessonNumber": 1,
+    "heading": "Gruesse und Anrede: Guten Morgen, Guten Tag",
+    "text": "Greetings are essential in German culture. In formal settings, use 'Guten Morgen' (before 11 AM), 'Guten Tag' (midday to evening), 'Guten Abend' (evening), and 'Gute Nacht' (bedtime). Germans place high importance on politeness and proper address. You'll encounter 'du' (informal, for friends/family) and 'Sie' (formal, for strangers/superiors). Notice that 'Sie' is always capitalized, even in the middle of sentences, showing respect through capitalization—a uniquely German feature.\n\nIn Bavaria and Austria, 'Gruss Gott' is common instead of 'Guten Tag'. Germans typically shake hands when greeting formally. Even in casual settings, proper greetings set the tone for respectful communication.",
+    "glossary": [
+      {
+        "term": "der Gruss",
+        "definition": "greeting (masculine; plural: die Gruesse)"
+      },
+      {
+        "term": "Guten Morgen",
+        "definition": "good morning (using accusative neuter singular 'guten')"
+      },
+      {
+        "term": "die Anrede",
+        "definition": "form of address; how you address someone"
+      },
+      {
+        "term": "du",
+        "definition": "informal 'you' (singular); used with friends, family, children"
+      },
+      {
+        "term": "Sie",
+        "definition": "formal 'you' (singular or plural); always capitalized; used with strangers, elders, superiors"
+      },
+      {
+        "term": "duzen",
+        "definition": "to use 'du' with someone (informal); to address informally"
+      },
+      {
+        "term": "siezen",
+        "definition": "to use 'Sie' with someone (formal); to use the polite form of address"
+      }
+    ],
+    "highlight-box": [
+      "German capitalizes all nouns AND the formal 'Sie', showing respect through grammar.",
+      "'du' vs. 'Sie' is crucial: mix them up and you'll seem rude. When in doubt, use 'Sie'."
+    ],
+    "practice": [
+      "Practice saying 'Guten Morgen' vs. 'Guten Tag' at different times of day. When would you use 'Sie' vs. 'du'?"
+    ]
+  },
+  {
+    "lessonNumber": 2,
+    "heading": "Das Genus: der, die, das und Artikel",
+    "text": "Every German noun has a grammatical gender: masculine (der), feminine (die), or neuter (das). Unlike English, German articles change based on gender and case. In the nominative case (the subject), we use: 'der Mann' (the man—masculine), 'die Frau' (the woman—feminine), 'das Kind' (the child—neuter). There are no perfect rules for predicting gender, so you must learn each noun with its article. However, some patterns exist: nouns ending in '-er' tend to be masculine (der Lehrer, teacher), '-in' tend to be feminine (die Lehrerin, female teacher), and '-chen'/'-lein' are always neuter (das Maedchen, girl).\n\nAlways write nouns with their article and memorize them as a unit. This habit prevents countless errors later when cases change the article form.",
+    "glossary": [
+      {
+        "term": "das Genus",
+        "definition": "grammatical gender (masculine, feminine, or neuter)"
+      },
+      {
+        "term": "der Artikel",
+        "definition": "article (definite: the; indefinite: a/an)"
+      },
+      {
+        "term": "der Mann",
+        "definition": "the man (masculine noun in nominative case)"
+      },
+      {
+        "term": "die Frau",
+        "definition": "the woman (feminine noun in nominative case)"
+      },
+      {
+        "term": "das Kind",
+        "definition": "the child (neuter noun in nominative case)"
+      },
+      {
+        "term": "der Nominativ",
+        "definition": "nominative case: the subject of a sentence"
+      },
+      {
+        "term": "das Maedchen",
+        "definition": "the girl (neuter, despite referring to a female)"
+      }
+    ],
+    "highlight-box": [
+      "German has three genders: der (M), die (F), das (N). Learn each noun with its article from day one.",
+      "Neuter 'das' often applies to diminutives (-chen, -lein) and some abstract nouns, even if they refer to females."
+    ],
+    "practice": [
+      "List 10 common nouns with their correct articles: der, die, or das. Can you spot any patterns?",
+      "Why is 'das Maedchen' neuter even though it means 'girl'? (Hint: it's a diminutive of 'die Magd'.)"
+    ]
+  },
+  {
+    "lessonNumber": 3,
+    "heading": "Nominativ und Akkusativ: Nominative and Accusative Cases",
+    "text": "German has four cases, and we'll start with nominative and accusative. The nominative case identifies the subject (who/what does the action): 'Der Mann trinkt Wasser' (The man drinks water—Mann is nominative). The accusative case marks the direct object (who/what receives the action): 'Ich sehe den Mann' (I see the man—Mann is now accusative, so the article changes from 'der' to 'den'). Notice that the article changes based on the case and gender: masculine nouns in accusative take 'den' instead of 'der', but feminine, neuter, and plural articles remain the same. This pattern is one of the most frequent in German, so practice it thoroughly.\n\nMemorize this key distinction: nominative = subject, accusative = direct object. Most verbs, like 'sehen' (to see), 'essen' (to eat), and 'trinken' (to drink), take accusative objects.",
+    "glossary": [
+      {
+        "term": "der Nominativ",
+        "definition": "nominative case: identifies the subject of the sentence"
+      },
+      {
+        "term": "der Akkusativ",
+        "definition": "accusative case: marks the direct object"
+      },
+      {
+        "term": "das Subjekt",
+        "definition": "subject: the one performing the action"
+      },
+      {
+        "term": "das Objekt",
+        "definition": "object: the one receiving or affected by the action"
+      },
+      {
+        "term": "den (Akkusativ Singular Maskulin)",
+        "definition": "accusative article for masculine singular nouns (changes from 'der')"
+      },
+      {
+        "term": "trinken",
+        "definition": "to drink (takes accusative object: Wasser, Milch, Bier)"
+      }
+    ],
+    "highlight-box": [
+      "Nominative = subject (wer/was). Accusative = direct object (wen/was). Only masculine articles change.",
+      "Masculine accusative 'den' is the first case ending you'll master. All others stay the same in accusative."
+    ],
+    "practice": [
+      "Convert these nominative sentences to accusative: (1) 'Der Lehrer kommt.' → 'Ich sehe...' (2) 'Das Buch ist neu.' → 'Ich lese...'",
+      "Why doesn't the feminine or neuter article change in accusative, but masculine does?"
+    ]
+  },
+  {
+    "lessonNumber": 4,
+    "heading": "Verben im Praesens: Regular Verb Conjugation",
+    "text": "German regular verbs (schwache Verben) follow predictable patterns in the present tense. Take the infinitive 'spielen' (to play), remove the '-en', and add endings: ich spiele, du spielst, er/sie/es spielt, wir spielen, ihr spielt, sie/Sie spielen. The verb agrees with the subject in person and number. Notice that the stem 'spiel-' stays the same, and we only change the ending. This becomes automatic with practice. Other common regular verbs include 'machen' (to do/make), 'sagen' (to say), 'fragen' (to ask), 'antworten' (to answer), 'arbeiten' (to work), and 'wohnen' (to live). A few regular verbs need extra care: those ending in '-t' or '-d' (like 'arbeiten': ich arbeite, du arbeitest) insert an 'e' before the consonant for pronunciation.\n\nRegular verbs are predictable, which makes them ideal for building confidence. Master their conjugation pattern, and you'll recognize them in any text.",
+    "glossary": [
+      {
+        "term": "der Infinitiv",
+        "definition": "infinitive: the base form of a verb (always ends in '-en': spielen, machen)"
+      },
+      {
+        "term": "die Konjugation",
+        "definition": "conjugation: changing the verb based on subject (ich, du, er, etc.)"
+      },
+      {
+        "term": "spielen",
+        "definition": "to play (regular verb; root: spiel-)"
+      },
+      {
+        "term": "machen",
+        "definition": "to do, to make (regular verb; common, flexible meaning)"
+      },
+      {
+        "term": "der Stamm",
+        "definition": "stem: the part of the verb that stays the same (spielen → spiel-)"
+      },
+      {
+        "term": "die Endung",
+        "definition": "ending: the part that changes with the subject (-e, -st, -t, -en, etc.)"
+      }
+    ],
+    "highlight-box": [
+      "Remove '-en' from the infinitive to find the stem, then add the correct ending for the subject.",
+      "For verbs ending in '-d' or '-t', add an extra '-e-' (arbeite, arbeitest) to keep them pronounceable."
+    ],
+    "practice": [
+      "Conjugate 'arbeiten' (to work) for all six persons: ich, du, er/sie/es, wir, ihr, sie/Sie.",
+      "Why does 'arbeiten' need an extra '-e-' in some forms, but 'spielen' doesn't?"
+    ]
+  },
+  {
+    "lessonNumber": 5,
+    "heading": "Unregelmaessige Verben: sein und haben",
+    "text": "Irregular verbs (starke Verben) don't follow standard patterns and must be memorized. The most important are 'sein' (to be) and 'haben' (to have). 'Sein' is especially irregular: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. 'Haben' is more regular but still unique: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben. Both verbs are essential; 'sein' appears constantly in identification ('Ich bin Anna') and descriptions ('Das Buch ist interessant'), while 'haben' expresses possession ('Ich habe einen Hund') and forms the present perfect tense ('Ich habe gespielt—I have played/I played'). These two verbs appear in nearly every German sentence, so investing time to memorize them now pays enormous dividends.\n\nPractice 'sein' and 'haben' daily until they become automatic. Your fluency depends on them.",
+    "glossary": [
+      {
+        "term": "sein",
+        "definition": "to be (highly irregular: bin, bist, ist, sind, seid, sind)"
+      },
+      {
+        "term": "haben",
+        "definition": "to have (somewhat irregular: habe, hast, hat, haben, habt, haben)"
+      },
+      {
+        "term": "ich bin",
+        "definition": "I am (1st person singular of 'sein')"
+      },
+      {
+        "term": "er ist",
+        "definition": "he is (3rd person singular of 'sein')"
+      },
+      {
+        "term": "ich habe",
+        "definition": "I have (1st person singular of 'haben')"
+      },
+      {
+        "term": "das Perfekt",
+        "definition": "present perfect tense; formed with haben/sein + past participle"
+      }
+    ],
+    "highlight-box": [
+      "Sein and haben are so irregular they must be memorized. There are no shortcuts.",
+      "'Sein' = identity/state; 'haben' = possession/auxiliary for present perfect. Both appear constantly."
+    ],
+    "practice": [
+      "Conjugate both 'sein' and 'haben' for all six persons without looking. Can you do it from memory?",
+      "Write 6 sentences: 3 using 'sein' (e.g., 'Ich bin Student') and 3 using 'haben' (e.g., 'Du hast ein Buch')."
+    ]
+  },
+  {
+    "lessonNumber": 6,
+    "heading": "Mehr unregelmaessige Verben: gehen, sehen, essen",
+    "text": "Beyond 'sein' and 'haben', many high-frequency verbs are irregular. 'Gehen' (to go) is crucial: ich gehe, du gehst, er/sie/es geht, wir gehen, ihr geht, sie/Sie gehen. Notice the vowel change from 'e' to 'ie' in the 2nd and 3rd person singular, a pattern called 'stem-vowel change' (Ablaut). 'Sehen' (to see) follows the same pattern: ich sehe, du siehst, er/sie/es sieht. 'Essen' (to eat) also changes its stem vowel: ich esse, du isst, er/sie/es isst. These verbs are high-frequency in everyday conversation—you'll use 'gehen' to describe movement, 'sehen' to talk about observation, and 'essen' for meals. The vowel changes are consistent and logical once you recognize the pattern: e→ie (sehen, gehen), e→i (essen), a→ae (fahren, schlafen). Memorizing these stem-vowel patterns makes learning dozens of other irregular verbs much easier.\n\nIrregular verbs are high-frequency by nature; native speakers use them constantly. Your exposure to them will be enormous, so you'll internalize them naturally with practice.",
+    "glossary": [
+      {
+        "term": "gehen",
+        "definition": "to go (stem-vowel change: ich gehe, du gehst, er geht)"
+      },
+      {
+        "term": "sehen",
+        "definition": "to see (stem-vowel change e→ie: ich sehe, du siehst, er sieht)"
+      },
+      {
+        "term": "essen",
+        "definition": "to eat (stem-vowel change e→i: ich esse, du isst, er isst)"
+      },
+      {
+        "term": "der Ablaut",
+        "definition": "stem-vowel change in irregular verbs (e.g., e→ie, a→ae)"
+      },
+      {
+        "term": "fahren",
+        "definition": "to drive/travel (stem-vowel change a→ae: ich fahre, du faehrst, er faehrt)"
+      },
+      {
+        "term": "schlafen",
+        "definition": "to sleep (stem-vowel change a→ae: ich schlafe, du schlaefst, er schlaeft)"
+      }
+    ],
+    "highlight-box": [
+      "Stem-vowel changes (Ablaut) are predictable patterns: e→ie (gehen, sehen), e→i (essen), a→ae (fahren, schlafen).",
+      "These high-frequency verbs appear in nearly every conversation. Prioritize memorizing them early."
+    ],
+    "practice": [
+      "Conjugate 'gehen', 'sehen', and 'essen' for all six persons. Identify the stem-vowel pattern in each.",
+      "Write a short paragraph (4-5 sentences) using 'gehen' (where you go), 'sehen' (what you see), and 'essen' (what you eat)."
+    ]
+  },
+  {
+    "lessonNumber": 7,
+    "heading": "Dativ: The Indirect Object and Dative Phrases",
+    "text": "The dative case (der Dativ) marks the indirect object—the person or thing that receives the benefit or detriment of an action. Compare: 'Ich gebe dem Mann ein Buch' (I give the man—dative—a book). Notice 'dem' replaces 'der' in dative. The dative articles are: der Mann → dem Mann (masculine), die Frau → der Frau (feminine), das Kind → dem Kind (neuter), die Maenner → den Maennern (plural). Certain verbs always require dative objects: 'gefallen' (to please), 'helfen' (to help), 'geben' (to give), 'zeigen' (to show), 'sagen' (to tell). A famous phrase using dative is 'Mir gefaellt das Buch' (The book pleases me). German also uses dative in prepositional phrases: 'mit' (with), 'bei' (at), 'von' (of/by), 'zu' (to), 'in' (in—locative), 'an' (on—locative), 'auf' (on—locative).\n\nThe dative case is common in German and appears in many fixed expressions. Learning dative-verb combinations and dative prepositions is essential for fluent conversation.",
+    "glossary": [
+      {
+        "term": "der Dativ",
+        "definition": "dative case: marks the indirect object or object of certain prepositions"
+      },
+      {
+        "term": "dem (Dativ Singular Maskulin)",
+        "definition": "dative article for masculine singular nouns (changes from 'der')"
+      },
+      {
+        "term": "der (Dativ Singular Feminin)",
+        "definition": "dative article for feminine singular nouns (same as nominative)"
+      },
+      {
+        "term": "dem (Dativ Singular Neutrum)",
+        "definition": "dative article for neuter singular nouns (changes from 'das')"
+      },
+      {
+        "term": "gefallen",
+        "definition": "to please (takes dative: Mir gefaellt...—it pleases me)"
+      },
+      {
+        "term": "mit",
+        "definition": "with (dative preposition: mit dem Freund—with the friend)"
+      }
+    ],
+    "highlight-box": [
+      "Dative marks the indirect object. Ask 'to whom/for whom' to identify dative in a sentence.",
+      "Certain verbs (gefallen, helfen, geben) ALWAYS take dative. Learn them as dative-verb pairs."
+    ],
+    "practice": [
+      "Convert these accusative phrases to dative sentences using 'gefallen': (1) 'Ich mag den Hund.' (2) 'Du magst das Buch.' (3) 'Er mag die Pizza.'",
+      "List 5 German verbs that require dative objects. For each, write a sample sentence."
+    ]
+  },
+  {
+    "lessonNumber": 8,
+    "heading": "Zahlen: Numbers and German Number Customs",
+    "text": "German numbers follow clear patterns, but with quirks that English speakers often miss. Units come first, then tens: 21 is 'einundzwanzig' (one-and-twenty), not 'twenty-one'. The '-und' (and) connecting them is mandatory. Numbers 13-19 add '-zehn' to a base: 13 'dreizehn', 14 'vierzehn', 15 'fuenfzehn' (note: drops the final 'f'), 16 'sechzehn' (drops the final 's'), 17 'siebzehn'. Tens are: 20 'zwanzig', 30 'dreissig', 40 'vierzig', 50 'fuenfzig', 60 'sechzig', 70 'siebzig', 80 'achtzig', 90 'neunzig'. Hundreds: 100 'hundert', 200 'zweihundert'. Thousands: 1000 'tausend'. Germans write numbers with periods as thousand separators (1.000) and commas as decimal points (3,14 for pi). In spoken German, use the accusative case with numbers: 'Ich bin einundzwanzig Jahre alt' (I am twenty-one years old).\n\nMastering German numbers is crucial for daily tasks: telling time, ordering food, discussing prices, and understanding dates.",
+    "glossary": [
+      {
+        "term": "die Zahl",
+        "definition": "number (noun)"
+      },
+      {
+        "term": "einundzwanzig",
+        "definition": "twenty-one (literally: one-and-twenty; the '-und' is mandatory)"
+      },
+      {
+        "term": "zwanzig",
+        "definition": "twenty (first two-digit number)"
+      },
+      {
+        "term": "hundert",
+        "definition": "one hundred"
+      },
+      {
+        "term": "tausend",
+        "definition": "one thousand"
+      },
+      {
+        "term": "das Alter",
+        "definition": "age (in the phrase 'Ich bin ... Jahre alt')"
+      }
+    ],
+    "highlight-box": [
+      "German numbers reverse English order: 21 is 'one-and-twenty', not 'twenty-one'. The '-und' is essential.",
+      "German uses commas for decimals (3,14) and periods for thousands (1.000)—opposite of English conventions."
+    ],
+    "practice": [
+      "Write out these numbers in German words: 13, 25, 47, 68, 99, 156, 234, 2019. Then say them aloud.",
+      "Explain why German uses 'eins' (one) as a standalone number but 'ein' in compound numbers like 'einundzwanzig'."
+    ]
+  },
+  {
+    "lessonNumber": 9,
+    "heading": "Trennbare Verben: Separable Verbs",
+    "text": "German has separable verbs (trennbare Verben)—compounds where the prefix detaches from the stem in conjugated forms. A classic example is 'anfangen' (to begin): ich fange an, du faengst an, er faengt an. Notice 'an-' moves to the end. Other common separable verbs include 'einkaufen' (to shop), 'fernsehen' (to watch TV), 'aufstehen' (to get up), 'abfahren' (to depart). The stress accent falls on the prefix in separable verbs (ANfangen, EINkaufen). In subordinate clauses and infinitive phrases, the prefix rejoins the stem. Example: 'Ich weiss, dass ich morgen frueh aufstehen muss' (I know that I must get up early tomorrow).\n\nSeparable verbs are tricky at first, but once you recognize the pattern, they become intuitive.",
+    "glossary": [
+      {
+        "term": "das trennbare Verb",
+        "definition": "separable verb: the prefix detaches in present tense (anfangen → ich fange an)"
+      },
+      {
+        "term": "anfangen",
+        "definition": "to begin, to start (prefix: 'an-'; stress: ANfangen)"
+      },
+      {
+        "term": "einkaufen",
+        "definition": "to shop, to go shopping (prefix: 'ein-'; ich kaufe ein)"
+      },
+      {
+        "term": "aufstehen",
+        "definition": "to get up, to rise (prefix: 'auf-'; ich stehe auf)"
+      },
+      {
+        "term": "die Vorsilbe",
+        "definition": "prefix: the part that detaches in separable verbs (an-, ein-, auf-, ab-)"
+      },
+      {
+        "term": "fernsehen",
+        "definition": "to watch TV (prefix: 'fern-'; ich sehe fern)"
+      }
+    ],
+    "highlight-box": [
+      "In present tense, the prefix moves to the end: 'Ich kaufe Lebensmittel ein' (I shop for groceries).",
+      "In subordinate clauses and infinitives, the prefix rejoins the stem: 'Ich muss morgen frueh aufstehen'."
+    ],
+    "practice": [
+      "Conjugate 'aufstehen' and 'einkaufen' for all six persons in present tense.",
+      "Write two sentences for each of these separable verbs: one in main clause and one in subordinate clause."
+    ]
+  },
+  {
+    "lessonNumber": 10,
+    "heading": "Deutsche Esskultur: German Food Culture",
+    "text": "German food culture is central to German identity and daily life. The three main meals are 'das Fruehstueck' (breakfast), 'das Mittagessen' (lunch—the largest, warm meal), and 'das Abendessen' (dinner—usually light). Key foods include 'das Brot' (bread), 'die Wurst' (sausage), 'der Kaese' (cheese), and 'das Bier' (beer). The phrase 'Guten Appetit!' (Enjoy your meal!) is common before eating. Regional specialties define German cuisine: Bavarian 'Knoedel' (dumplings), Swabian 'Maultaschen' (German ravioli). Germans take 'Kaffeepause' (coffee break) seriously. Understanding food customs is essential for authentic cultural interaction.\n\nFood vocabulary and mealtime customs are practical necessities for German learners.",
+    "glossary": [
+      {
+        "term": "das Brot",
+        "definition": "bread (neuter; Germans consume more per capita than almost any nation)"
+      },
+      {
+        "term": "die Wurst",
+        "definition": "sausage (feminine; hundreds of regional varieties)"
+      },
+      {
+        "term": "der Kaese",
+        "definition": "cheese (masculine; from many regions)"
+      },
+      {
+        "term": "das Bier",
+        "definition": "beer (neuter; deeply tied to German culture)"
+      },
+      {
+        "term": "das Fruehstueck",
+        "definition": "breakfast (substantial: bread, jam, cheese, cold cuts, coffee)"
+      },
+      {
+        "term": "das Mittagessen",
+        "definition": "lunch/midday meal (the largest and warmest meal of the day)"
+      },
+      {
+        "term": "das Abendessen",
+        "definition": "dinner/evening meal (usually light: bread, cheese, cold cuts)"
+      }
+    ],
+    "highlight-box": [
+      "Germans emphasize Brot (bread), Wurst (sausage), and Kaese (cheese). Each region has signature varieties.",
+      "'Mittagessen' is the main meal. 'Abendessen' is light. This differs significantly from English-speaking countries."
+    ],
+    "practice": [
+      "Describe a typical German breakfast vs. dinner. List 5 foods for each.",
+      "Research one German regional specialty. Describe it in German."
+    ]
+  },
+  {
+    "lessonNumber": 11,
+    "heading": "Umlaute und Umlautveraenderung: Umlauts and Vowel Shifts",
+    "text": "German has three umlaut letters: 'ae' (a-umlaut), 'oe' (o-umlaut), and 'ue' (u-umlaut). These are distinct letters that change pronunciation and meaning. Compare: 'der Mann' (the man) vs. 'die Maenner' (the men). Umlauts appear in plurals, diminutives, and irregular verb conjugations. The umlaut in verb forms follows a pattern: 2nd and 3rd person singular of certain verbs add an umlaut. Examples: fahren (ich fahre, du faehrst, er faehrt), halten (ich halte, du haeltst, er haelt). This pattern is consistent and logical.\n\nUmlauts are fundamental to German and appear constantly.",
+    "glossary": [
+      {
+        "term": "der Umlaut",
+        "definition": "umlaut: marks (ae, oe, ue) that change vowel sound and meaning"
+      },
+      {
+        "term": "ae (a-Umlaut)",
+        "definition": "front unrounded mid vowel"
+      },
+      {
+        "term": "oe (o-Umlaut)",
+        "definition": "front rounded mid vowel"
+      },
+      {
+        "term": "ue (u-Umlaut)",
+        "definition": "front rounded high vowel"
+      },
+      {
+        "term": "die Umlautveraenderung",
+        "definition": "umlaut vowel shift in irregular verbs and plurals (fahren → faehrst)"
+      },
+      {
+        "term": "das Haeuschhen",
+        "definition": "little house (diminutive of 'das Haus')"
+      }
+    ],
+    "highlight-box": [
+      "ae, oe, ue are distinct letters. Always write them correctly.",
+      "Umlauts appear in verb conjugations, plurals, and diminutives."
+    ],
+    "practice": [
+      "Write out these words and explain the difference: (1) der Mann / die Maenner (2) der Fluss / die Fluesse (3) das Haus / die Haeuser",
+      "Conjugate fahren, halten, schlafen. Which persons get umlauts?"
+    ]
+  },
+  {
+    "lessonNumber": 12,
+    "heading": "Plurale und Pluralendungen: German Plural Forms",
+    "text": "German plurals use various endings: '-e', '-en', '-er', '-s', and sometimes with umlaut changes. Most feminine nouns add '-en': die Frau → die Frauen. Many masculine nouns add '-e': der Mann → die Maenner (note umlaut). Some neuter and masculine nouns add '-er': das Kind → die Kinder, das Buch → die Buecher. A few modern or foreign nouns add only '-s': das Auto → die Autos. There's no rule to predict which ending each noun takes, so you must learn plurals with each noun from the start. The good news is that all articles in plural are 'die' (regardless of gender).\n\nPractice plurals actively. The variety of plural forms is one of the most challenging aspects of German for learners.",
+    "glossary": [
+      {
+        "term": "der Plural",
+        "definition": "plural: the form for more than one (all plural articles are 'die')"
+      },
+      {
+        "term": "die Pluralendung",
+        "definition": "plural ending: '-e', '-en', '-er', '-s', or no change"
+      },
+      {
+        "term": "die Frauen",
+        "definition": "the women (plural of 'die Frau'; regular '-en' ending)"
+      },
+      {
+        "term": "die Tische",
+        "definition": "the tables (plural of 'der Tisch'; '-e' ending)"
+      },
+      {
+        "term": "die Buecher",
+        "definition": "the books (plural of 'das Buch'; '-er' ending with umlaut)"
+      },
+      {
+        "term": "die Autos",
+        "definition": "the cars (plural of 'das Auto'; '-s' ending)"
+      }
+    ],
+    "highlight-box": [
+      "All plural articles are 'die'. This uniformity simplifies plural recognition.",
+      "Learn each noun with its plural from day one: 'der Mann, die Maenner'."
+    ],
+    "practice": [
+      "Look up plural forms of these nouns: das Fenster, der Apfel, die Lampe, das Auge, der Anzug. Identify the plural ending.",
+      "Write 3 sentences using plural nouns in nominative, then convert to accusative."
+    ]
+  },
+  {
+    "lessonNumber": 13,
+    "heading": "Das Perfekt: Present Perfect Tense with haben and sein",
+    "text": "The present perfect tense (das Perfekt) describes completed actions in conversational German. It uses a conjugated 'haben' or 'sein' + the past participle. Most verbs use 'haben': 'Ich habe ein Buch gelesen' (I have read a book). The past participle of regular verbs adds 'ge-' prefix and '-t' suffix: spielen → gespielt. Irregular verbs change their stem and add '-en': sehen → gesehen, essen → gegessen, gehen → gegangen. A few verbs use 'sein' instead of 'haben': motion verbs (gehen, fahren) and state-change verbs (aufstehen, einschlafen, werden). The word order in present perfect is: subject + haben/sein + rest of sentence + past participle at the end.\n\nMastering the present perfect is essential for fluent conversation.",
+    "glossary": [
+      {
+        "term": "das Perfekt",
+        "definition": "present perfect tense: haben/sein (conjugated) + past participle"
+      },
+      {
+        "term": "das Partizip Perfekt",
+        "definition": "past participle"
+      },
+      {
+        "term": "gespielt",
+        "definition": "played (regular past participle of 'spielen': ge-spiel-t)"
+      },
+      {
+        "term": "gesehen",
+        "definition": "seen (irregular past participle of 'sehen': ge-seh-en)"
+      },
+      {
+        "term": "gegangen",
+        "definition": "gone (irregular past participle of 'gehen': ge-gang-en)"
+      },
+      {
+        "term": "gefahren",
+        "definition": "driven/gone (past participle of 'fahren'; uses 'sein')"
+      }
+    ],
+    "highlight-box": [
+      "Regular verbs: ge- + stem + -t (spielen → gespielt). Irregular verbs: ge- + changed stem + -en (sehen → gesehen).",
+      "Most verbs use 'haben'; motion/state-change verbs use 'sein' (gehen, fahren, aufstehen, werden)."
+    ],
+    "practice": [
+      "Form the past participles: lesen, schreiben, sprechen, tanzen, singen, stehen. Identify regular vs. irregular.",
+      "Write 6 sentences in present perfect: 3 with haben-verbs and 3 with sein-verbs."
+    ]
+  },
+  {
+    "lessonNumber": 14,
+    "heading": "Wortstellung: German Word Order and V2 Rule",
+    "text": "German word order is famously complex but logical. The fundamental rule is the V2 principle: the finite verb occupies the second position in a main clause. Examples: 'Ich kaufe Brot ein' (Subject-Verb-Object), 'Morgen fahre ich nach Berlin' (Adverb-Verb-Subject-Object). In subordinate clauses, the word order changes: the verb moves to the end. Example: 'Ich weiss, dass ich morgen nach Berlin fahre' (the verb is at the end). Separable verbs in main clauses have the prefix detached ('Ich kaufe Brot ein'), but in subordinate clauses they rejoin ('dass ich Brot einkaufe'). Negation 'nicht' typically comes after the verb and pronouns. Questions invert the subject and verb: 'Kaufst du Brot ein?'\n\nRecognizing the V2 rule and the main-clause vs. subordinate-clause distinction demystifies German word order.",
+    "glossary": [
+      {
+        "term": "die Wortstellung",
+        "definition": "word order; German follows the V2 rule in main clauses"
+      },
+      {
+        "term": "das Finitum / das finite Verb",
+        "definition": "finite verb: the conjugated verb in the second position"
+      },
+      {
+        "term": "die V2-Regel",
+        "definition": "V2 rule: the finite verb occupies the second position in main clauses"
+      },
+      {
+        "term": "der Nebensatz",
+        "definition": "subordinate clause: the finite verb moves to the end"
+      },
+      {
+        "term": "nicht",
+        "definition": "not; negation particle"
+      },
+      {
+        "term": "die Satzfrage",
+        "definition": "yes-no question; formed by inverting subject and verb"
+      }
+    ],
+    "highlight-box": [
+      "V2 rule: The conjugated verb is in second position in main clauses. 'Ich kaufe ein Brot.' 'Morgen fahre ich nach Berlin.'",
+      "Subordinate clauses are verb-final: 'Ich weiss, dass ich morgen fahre.'"
+    ],
+    "practice": [
+      "Identify the finite verb position: (1) 'Ich kaufe Brot ein.' (2) 'Morgen fahre ich zur Schule.' (3) 'Weisst du, dass ich morgen fahre?'",
+      "Convert these questions to statements: (1) 'Kaufst du Brot ein?' (2) 'Faehrst du morgen nach Berlin?'"
+    ]
+  },
+  {
+    "lessonNumber": 15,
+    "heading": "Genitiv: The Possessive Case (Introduction)",
+    "text": "The genitive case (der Genitiv) expresses possession. In modern German, it's less common in spoken language (speakers often use 'von + dative' instead), but it's essential for written German. The genitive articles are: der Mann → des Mannes (masculine), die Frau → der Frau (feminine), das Kind → des Kindes (neuter), die Maenner → der Maenner (plural). Example: 'Das Buch des Mannes' (The book of the man). Most masculine and neuter singular nouns add a genitive suffix. Certain prepositions require genitive: 'wegen' (because of), 'trotz' (despite), 'waehrend' (during), 'anstatt' (instead of).\n\nThe genitive is declining in spoken German, but understanding it is crucial for reading and formal writing.",
+    "glossary": [
+      {
+        "term": "der Genitiv",
+        "definition": "genitive case: expresses possession"
+      },
+      {
+        "term": "des Mannes",
+        "definition": "genitive form of 'der Mann'; adds '-es' or '-s'"
+      },
+      {
+        "term": "der Frau",
+        "definition": "genitive form of 'die Frau'; only the article changes"
+      },
+      {
+        "term": "des Kindes",
+        "definition": "genitive form of 'das Kind'; article 'des' and noun adds '-es' or '-s'"
+      },
+      {
+        "term": "wegen",
+        "definition": "because of (genitive preposition: wegen des Regens—because of the rain)"
+      },
+      {
+        "term": "von + Dativ",
+        "definition": "of + dative (colloquial alternative: das Buch von dem Mann)"
+      }
+    ],
+    "highlight-box": [
+      "Genitive articles: des (M), der (F), des (N), der (plural). Masculine/neuter nouns add '-s' or '-es'.",
+      "In spoken German, 'von + dative' often replaces genitive: 'Das Buch von dem Mann'."
+    ],
+    "practice": [
+      "Form genitive of these nouns: der Lehrer, die Schule, das Haus, der Student, die Tochter.",
+      "Write 4 possession sentences using genitive case."
+    ]
+  },
+  {
+    "lessonNumber": 16,
+    "heading": "Adjektive und Adjektivendungen: Adjectives and Agreement",
+    "text": "German adjectives must agree with nouns in gender, number, and case. Adjectives can appear before the noun (attributive: 'ein grosses Haus'—a large house) or after a linking verb (predicative: 'Das Haus ist gross'). In predicative position, adjectives take NO ending. In attributive position, they take endings that agree with the noun's gender, number, and case. These depend on whether the adjective follows a definite article, indefinite article, or no article. With definite article: 'der grosse Mann', 'die grosse Frau', 'das grosse Kind'. With indefinite article: 'ein grosser Mann', 'eine grosse Frau', 'ein grosses Kind'. The adjective ending echoes the article in nominative singular.\n\nAdjective endings are a major challenge, but you'll master them through exposure and practice.",
+    "glossary": [
+      {
+        "term": "das Adjektiv",
+        "definition": "adjective (must agree in gender, number, case when attributive)"
+      },
+      {
+        "term": "das attributive Adjektiv",
+        "definition": "attributive adjective: before the noun, takes endings"
+      },
+      {
+        "term": "das praedikative Adjektiv",
+        "definition": "predicative adjective: after linking verb, no ending"
+      },
+      {
+        "term": "die Adjektivendung",
+        "definition": "adjective ending: varies by gender, number, case, and article type"
+      },
+      {
+        "term": "groesser",
+        "definition": "larger (comparative form of 'gross')"
+      },
+      {
+        "term": "das groesste",
+        "definition": "the largest (superlative form)"
+      }
+    ],
+    "highlight-box": [
+      "Predicative adjectives (after 'ist') take NO ending. Attributive adjectives (before the noun) ALWAYS take endings.",
+      "Adjective endings echo the article in nominative singular."
+    ],
+    "practice": [
+      "Fill in correct adjective endings: (1) ein klein___ Buch (neuter nominative) (2) die klein___ Buecher (plural nominative) (3) den klein___ Jungen (masculine accusative)",
+      "Write 5 sentences with predicative adjectives and 5 with attributive adjectives."
+    ]
+  },
+  {
+    "lessonNumber": 17,
+    "heading": "Praeposition: Prepositions and Case Government",
+    "text": "Prepositions (die Praepositions) show relationships between nouns. In German, they govern or require specific cases. Accusative prepositions: 'durch' (through), 'fuer' (for), 'gegen' (against), 'ohne' (without), 'um' (around). Example: 'Ich kaufe ein Buch fuer meinen Freund' (I buy a book for my friend). Dative prepositions: 'mit' (with), 'bei' (at), 'von' (of), 'zu' (to), 'nach' (to/after), 'aus' (from), 'seit' (since). Example: 'Ich gehe mit meinem Freund' (I go with my friend). Two-way prepositions take accusative for direction and dative for location: 'in', 'auf', 'an', 'ueber', 'unter', 'neben', 'zwischen', 'vor', 'hinter'. Example: 'Ich gehe in die Schule' (to school—accusative) vs. 'Ich bin in der Schule' (in school—dative).\n\nMastering preposition case government is one of the most practical investments in German grammar.",
+    "glossary": [
+      {
+        "term": "die Praeposition",
+        "definition": "preposition: a word governing a noun/pronoun in a specific case"
+      },
+      {
+        "term": "durch",
+        "definition": "through (always accusative)"
+      },
+      {
+        "term": "fuer",
+        "definition": "for (always accusative)"
+      },
+      {
+        "term": "mit",
+        "definition": "with (always dative)"
+      },
+      {
+        "term": "in",
+        "definition": "in (accusative for direction, dative for location)"
+      },
+      {
+        "term": "wohin? / wo?",
+        "definition": "where to? (direction, accusative) / where? (location, dative)"
+      }
+    ],
+    "highlight-box": [
+      "Accusative prepositions: durch, fuer, gegen, ohne, um. Dative prepositions: mit, bei, von, zu, nach, aus, seit, ausser.",
+      "Two-way prepositions (in, auf, an, etc.) take accusative for direction and dative for location."
+    ],
+    "practice": [
+      "Identify preposition and case: (1) 'Ich gehe mit meinem Freund.' (2) 'Das Buch ist fuer dich.' (3) 'Wir fahren durch die Stadt.'",
+      "Fill in correct preposition and case: (1) Ich fahre ___ (for) meinen Freund. (2) Du sitzt ___ (next to) mir."
+    ]
+  },
+  {
+    "lessonNumber": 18,
+    "heading": "Fragewoe­rter: German Question Words",
+    "text": "Question words (Fragewoe­rter) are essential for conversations. Main question words: 'wer' (who—nominative), 'wen' (whom—accusative), 'wem' (to whom—dative), 'wessen' (whose—genitive), 'was' (what), 'wo' (where—location), 'wohin' (where to—direction), 'woher' (where from—origin), 'wann' (when), 'wie' (how), 'warum' (why), 'welch-' (which), 'wie viel' (how much), 'wie viele' (how many). Examples: 'Wer kommt?' (Who is coming?), 'Wen siehst du?' (Whom do you see?), 'Wem gibst du das Buch?' (To whom do you give the book?). 'Wer/wen/wem/wessen' changes with case. 'Was' doesn't change but serves both nominative and accusative. 'Welch-' is an agreeing adjective taking regular adjective endings. Questions with question words place the question word first, then invert subject and verb: 'Wer kommt morgen?' 'Wann fahrt ihr nach Berlin?'\n\nMastering question words transforms you into an active conversationalist.",
+    "glossary": [
+      {
+        "term": "das Fragewort",
+        "definition": "question word (wer, was, wo, wie, wann, warum, etc.)"
+      },
+      {
+        "term": "wer",
+        "definition": "who (nominative; changes: wen—acc., wem—dat., wessen—gen.)"
+      },
+      {
+        "term": "was",
+        "definition": "what (nominative and accusative; doesn't change)"
+      },
+      {
+        "term": "wo",
+        "definition": "where (location)"
+      },
+      {
+        "term": "wann",
+        "definition": "when (time)"
+      },
+      {
+        "term": "warum",
+        "definition": "why (reason)"
+      }
+    ],
+    "highlight-box": [
+      "'Wer/wen/wem/wessen' changes with case. 'Was' does not.",
+      "'Wo' (location) differs from 'wohin' (direction) and 'woher' (origin)."
+    ],
+    "practice": [
+      "Create questions: (1) 'Mein Freund kommt morgen.' (Wer...?) (2) 'Ich sehe einen Mann.' (Wen...?) (3) 'Das ist ein Buch.' (Was...?)",
+      "Explain the difference between 'wo', 'wohin', and 'woher'. Give examples."
+    ]
+  },
+  {
+    "lessonNumber": 19,
+    "heading": "Konjunktionen: Coordinating and Subordinating Conjunctions",
+    "text": "Conjunctions (Konjunktionen) connect clauses. Coordinating conjunctions join equal clauses without changing word order: 'und' (and), 'oder' (or), 'aber' (but), 'denn' (for/because), 'sondern' (but rather). Example: 'Ich kaufe Brot und Kaese' (I buy bread and cheese). Subordinating conjunctions introduce dependent clauses with verb-final word order: 'weil' (because), 'dass' (that), 'wenn' (if/when), 'obwohl' (although), 'bevor' (before), 'nachdem' (after), 'waehrend' (while), 'bis' (until). Example: 'Ich weiss, dass du morgen kommst' (the verb is at the end). The word order change is critical: main clauses follow V2; subordinate clauses are verb-final. A subtle distinction: 'denn' (coordinating) doesn't change word order, but 'weil' (subordinating) does. Example: 'Ich gehe nach Hause, denn ich bin muede' vs. 'Ich gehe nach Hause, weil ich muede bin'.\n\nMastering conjunctions improves your sentence-combining ability and comprehension dramatically.",
+    "glossary": [
+      {
+        "term": "die Konjunktion",
+        "definition": "conjunction: a word connecting clauses or words"
+      },
+      {
+        "term": "die Koordinierungskonjunktion",
+        "definition": "coordinating conjunction (und, oder, aber, denn, sondern)"
+      },
+      {
+        "term": "die Unterordnungskonjunktion",
+        "definition": "subordinating conjunction (weil, dass, wenn, obwohl, etc.)"
+      },
+      {
+        "term": "und",
+        "definition": "and (coordinating; no word-order change)"
+      },
+      {
+        "term": "weil",
+        "definition": "because (subordinating; triggers verb-final word order)"
+      },
+      {
+        "term": "denn",
+        "definition": "for/because (coordinating conjunction; doesn't change word order)"
+      }
+    ],
+    "highlight-box": [
+      "Coordinating conjunctions (und, oder, aber, denn, sondern) maintain V2. Subordinating conjunctions (weil, dass, wenn, obwohl) trigger verb-final.",
+      "'Denn' vs. 'weil': both mean 'because', but 'denn' keeps verb in position 2, 'weil' moves it to the end."
+    ],
+    "practice": [
+      "Identify coordinating vs. subordinating: (1) 'Ich bleibe zu Hause, denn es regnet.' (2) 'Ich bleibe zu Hause, weil es regnet.'",
+      "Combine sentences using coordinating and subordinating conjunctions."
+    ]
+  },
+  {
+    "lessonNumber": 20,
+    "heading": "Zusammenfassung: German A1-A2 Essentials",
+    "text": "German A1-A2 has equipped you with the foundation for daily communication. You've mastered: the three genders with articles, nominative and accusative cases (plus dative and genitive), regular and irregular verb conjugations in present tense, present perfect for the past, German word order with V2 rule and verb-final subordinate clauses, separable verbs, adjective and preposition agreement, and essential vocabulary covering greetings, numbers, food culture, and question formation. You've internalized umlauts, plural formations, and the nuances of 'du' vs. 'Sie'. You've begun to think in German structures: nominative subjects, accusative objects, dative beneficiaries, verb-final clauses. The next steps are intermediate grammar (modal verbs, conditional tense, passive voice) and thematic vocabulary expansion (work, family, travel, health). Consistent exposure through reading, listening, speaking, and writing will cement these foundations and build fluency. Continue practicing daily, engage with native speakers, consume German media, and celebrate milestones. A1-A2 represents roughly 500-1500 hours of study; B1-B2 (intermediate) requires another 1500+ hours. Viel Erfolg! (Much success!)\n\nLanguage learning is a marathon. These 20 lessons provide the critical 80% foundation. The remaining 20% comes from engagement with authentic German.",
+    "glossary": [
+      {
+        "term": "die Zusammenfassung",
+        "definition": "summary; recap of key concepts"
+      },
+      {
+        "term": "das Fundament",
+        "definition": "foundation; the base of skills built in A1-A2"
+      },
+      {
+        "term": "die Fluenz",
+        "definition": "fluency; ability to speak/understand naturally"
+      },
+      {
+        "term": "die Exposition",
+        "definition": "exposure; consistent engagement through reading, listening, speaking"
+      },
+      {
+        "term": "Viel Erfolg!",
+        "definition": "Much success! (common well-wishing phrase)"
+      },
+      {
+        "term": "der Meilenstein",
+        "definition": "milestone; significant achievement or marker"
+      }
+    ],
+    "highlight-box": [
+      "A1-A2 provides essential foundation: three genders, cases, verb conjugation, V2 word order, and everyday vocabulary.",
+      "Fluency comes from consistent exposure. Celebrate your progress and continue daily practice."
+    ],
+    "practice": [
+      "Reflect on your A1-A2 journey: Which topics were easiest? Most challenging? How will you build on this foundation?",
+      "Set a B1 goal. What vocabulary and grammar structures will you prioritize? How will you maintain daily German engagement?"
+    ]
+  }
+]
