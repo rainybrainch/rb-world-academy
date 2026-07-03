@@ -82,6 +82,7 @@ export const academies: Academy[] = [
     description: 'ビジネススキル、営業、マネジメント、起業を学べるコース',
     color: '#A29BFE',
     courseIds: [
+      'cloudworks-basic-001',
       'cloudworks-intro-001',
       'booth-sales-intro-001',
     ],
