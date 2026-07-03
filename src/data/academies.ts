@@ -83,8 +83,6 @@ export const academies: Academy[] = [
     color: '#A29BFE',
     courseIds: [
       'cloudworks-basic-001',
-      'cloudworks-intro-001',
-      'booth-sales-intro-001',
     ],
   },
   {
