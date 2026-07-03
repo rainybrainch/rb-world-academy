@@ -99,10 +99,6 @@ export default async function AcademyPage({ params }: Props) {
                         src={`/images/courses/${course.id}/31_course_icon.png`}
                         alt={course.title || 'Course'}
                         className="w-full h-full object-cover"
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).src = '/academy-icon.webp';
-                          (e.target as HTMLImageElement).className = 'w-full h-full object-contain p-2';
-                        }}
                       />
                     </div>
                     {/* Course Info */}
