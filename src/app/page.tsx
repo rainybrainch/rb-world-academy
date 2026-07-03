@@ -84,6 +84,39 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* ── オールアカデミー入口 ── */}
+      <div
+        className="rounded-2xl p-5 border-2"
+        style={{
+          background: 'linear-gradient(135deg, rgba(108,92,231,0.08), rgba(102,205,170,0.08))',
+          borderColor: 'rgba(108,92,231,0.3)',
+        }}
+      >
+        <div className="flex items-start gap-3 mb-3">
+          <div className="text-2xl">🎓</div>
+          <div className="flex-1 min-w-0">
+            <h2 className="text-sm font-bold mb-1" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              新しいフロア: オールアカデミー
+            </h2>
+            <p className="text-xs" style={{ color: 'rgba(26,26,46,0.65)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              言語から文化・ビジネス・テクノロジーまで。10つのアカデミーで多角的に学習できます。
+            </p>
+          </div>
+        </div>
+        <Link
+          href="/academies"
+          className="inline-block text-xs font-bold px-3 py-2 rounded-lg border-2 transition-all hover:scale-105"
+          style={{
+            background: 'white',
+            borderColor: '#6C5CE7',
+            color: '#6C5CE7',
+            fontFamily: "'Zen Maru Gothic', sans-serif",
+          }}
+        >
+          10アカデミーを見てみる →
+        </Link>
+      </div>
+
       {/* ── Language アプリグリッド ── */}
       <div>
         <div className="flex items-center gap-2 mb-3">

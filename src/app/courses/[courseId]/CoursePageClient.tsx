@@ -462,6 +462,44 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
           onClose={() => {}}
         />
       )}
+
+      {/* Image Gallery Section - 画像教材ギャラリー */}
+      {course.lessons.length > 0 && (
+        <div className="mt-8">
+          <h2 className="text-sm font-bold mb-4" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+            📚 教材ギャラリー
+          </h2>
+          <div className="grid grid-cols-2 gap-3">
+            {course.lessons.map((lesson) => {
+              const imagePath = `/images/courses/${courseId}/${lesson.title}.png`;
+              return (
+                <div
+                  key={lesson.id}
+                  className="rounded-lg overflow-hidden border-2 bg-white transition-transform hover:scale-105"
+                  style={{ borderColor: categoryColor }}
+                >
+                  <div className="aspect-square bg-gray-200 relative overflow-hidden">
+                    <img
+                      src={imagePath}
+                      alt={lesson.title}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = '/academy-icon.webp';
+                        (e.target as HTMLImageElement).className = 'w-full h-full object-contain p-4';
+                      }}
+                    />
+                  </div>
+                  <div className="p-2">
+                    <p className="text-xs font-bold" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                      {lesson.title}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -20862,6 +20862,52 @@ const jslB2: Category = {
   }],
 };
 
+// IT・AIアカデミー
+const aiAcademy: Category = {
+  id: 'cat-ai-it',
+  title: 'IT・AIアカデミー',
+  description: 'AI・プログラミング・テクノロジーの基礎から応用まで学べるアカデミー',
+  courses: [
+    {
+      id: 'ai-intro-001',
+      title: 'AI入門001',
+      description: '画像教材を使用したAI基礎入門コース。表紙から修了証まで32の教材で構成。',
+      lessons: [
+        { id: 'l-cover', title: '01_表紙', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l-intro', title: '02_はじめに', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l-contents', title: '03_全体目次', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l-ch1', title: '04_Chapter1目次', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l-ch2', title: '05_Chapter2目次', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l-ch3', title: '06_Chapter3目次', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l-ch4', title: '07_Chapter4目次', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l1', title: '08_講義01', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l2', title: '09_講義02', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l3', title: '10_講義03', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l4', title: '11_講義04', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l5', title: '12_講義05', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l6', title: '13_講義06', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l7', title: '14_講義07', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l8', title: '15_講義08', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l9', title: '16_講義09', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l10', title: '17_講義10', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l11', title: '18_講義11', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l12', title: '19_講義12', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l13', title: '20_講義13', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l14', title: '21_講義14', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l15', title: '22_講義15', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l16', title: '23_講義16', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l17', title: '24_講義17', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l18', title: '25_講義18', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l19', title: '26_講義19', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l20', title: '27_講義20', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l21', title: '28_講義21', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l22', title: '29_講義22', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+        { id: 'l-cert', title: '30_修了証', duration: '', videoId: '', isPremium: false, checkItems: [], sections: [] },
+      ],
+    },
+  ],
+};
+
 // Export all categories (including specialized field lectures and country academy)
 export const allCategories: Category[] = [
   // Base language courses (120 lectures each = 1,440 lectures)
@@ -20872,12 +20918,14 @@ export const allCategories: Category[] = [
   // Country Academy enrichment (185+ hours each = 370+ hours)
   // - USA, Korea (Additional countries: Japan, China, Germany, France, Spain, Russia, Italy, Brazil, Arab World, UK/Ireland, Portugal planned)
   countryUSA, countryKorea,
+  // IT・AIアカデミー
+  aiAcademy,
   // COMPREHENSIVE STATISTICS:
   // Total Language Base Courses: 12 languages × 120 lectures = 1,440 lectures
   // Total Specialized Courses: 12 languages × 65 lectures = 780 lectures
   // Total Country Academies: 2 countries × 185+ hours = 370+ hours
-  // Grand Total: 2,220+ lectures across all languages and 370+ enrichment hours
-  // Content distribution: 185 lectures/hours per language (120 base + 65 specialized)
+  // IT・AIアカデミー: 1 course × 30 lectures = 30 lectures
+  // Grand Total: 2,250+ lectures across all languages and 370+ enrichment hours
 ];
 
 // Utility functions
