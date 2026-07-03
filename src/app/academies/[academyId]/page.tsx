@@ -63,10 +63,10 @@ export default async function AcademyPage({ params }: Props) {
         <p className="text-sm leading-relaxed" style={{ color: 'rgba(26,26,46,0.65)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
           {academy.description}
         </p>
-        {academy.courseIds.length > 0 && (
+        {(academy.courseIds ?? []).length > 0 && (
           <div className="mt-4 pt-4 border-t" style={{ borderColor: academy.color }}>
             <span className="text-sm font-bold" style={{ color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              📚 {academy.courseIds.length} コース
+              📚 {(academy.courseIds ?? []).length} コース
             </span>
           </div>
         )}
