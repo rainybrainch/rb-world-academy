@@ -93,7 +93,7 @@ export default async function AcademyPage({ params }: Props) {
                   {/* Course Icon Thumbnail */}
                   <div className="w-20 h-20 flex-shrink-0 bg-gray-100 overflow-hidden">
                     <img
-                      src={`/images/courses/${course.id}/31_コースアイコン.png`}
+                      src={`/images/courses/${course.id}/31_course_icon.png`}
                       alt={course.title}
                       className="w-full h-full object-cover"
                       onError={(e) => {
