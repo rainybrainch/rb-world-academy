@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAcademy, getAllAcademies } from '@/data/academies';
 import { getCourse } from '@/data/courses';
+import { getAppsByAcademy, getAppFolderName } from '@/data/apps';
 
 interface Props {
   params: Promise<{ academyId: string }>;
@@ -71,6 +73,73 @@ export default async function AcademyPage({ params }: Props) {
           </div>
         )}
       </div>
+
+      {/* Apps Section (V2.0 Hierarchy) */}
+      {(() => {
+        const apps = getAppsByAcademy(academy.id);
+        if (apps.length > 0) {
+          return (
+            <div className="mb-8">
+              <h2 className="text-lg font-bold mb-4" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                🎓 アプリから学ぶ
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {apps.map((app) => (
+                  <Link
+                    key={app.id}
+                    href={`#app-${app.id}`}
+                    className="block rounded-lg border-2 transition-all hover:scale-102 active:scale-95 overflow-hidden"
+                    style={{
+                      background: 'white',
+                      borderColor: academy.color + '40',
+                      boxShadow: `2px 2px 0 ${academy.color}20`,
+                    }}
+                  >
+                    <div className="p-3">
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="w-10 h-10 flex-shrink-0 rounded bg-gray-100 overflow-hidden flex items-center justify-center text-lg border" style={{ borderColor: academy.color }}>
+                          {(() => {
+                            const folderName = getAppFolderName(app.id);
+                            const iconPath = folderName ? `/Academies/🌎%20世界アカデミー/${folderName}/icon.png` : null;
+                            if (iconPath && app.id.startsWith('app-world-')) {
+                              return (
+                                <Image
+                                  src={iconPath}
+                                  alt={app.title}
+                                  width={40}
+                                  height={40}
+                                  className="w-full h-full object-cover"
+                                  onError={(e) => {
+                                    (e.target as HTMLImageElement).style.display = 'none';
+                                  }}
+                                />
+                              );
+                            }
+                            // Fallback: Show app initial or icon
+                            return app.title.charAt(0);
+                          })()}
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <h3 className="text-sm font-bold truncate" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                            {app.title}
+                          </h3>
+                          <span className="text-xs" style={{ color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                            {app.courseIds.length} コース
+                          </span>
+                        </div>
+                      </div>
+                      <p className="text-xs line-clamp-2" style={{ color: 'rgba(26,26,46,0.65)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                        {app.description}
+                      </p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          );
+        }
+        return null;
+      })()}
 
       {/* Courses List */}
       {courses.length > 0 ? (
