@@ -52,6 +52,11 @@ function AcademyCard({ academy }: { academy: any }) {
   const folderName = academyFolderMap[academy.id];
   const iconPath = folderName ? `/Assets/Academies/${folderName}/icon.svg` : null;
 
+  // Debug log
+  if (process.env.NODE_ENV === 'development') {
+    console.log(`[${academy.title}] id: ${academy.id}, folder: ${folderName}, path: ${iconPath}`);
+  }
+
   return (
     <Link
       href={`/academies/${academy.id}`}
@@ -65,23 +70,20 @@ function AcademyCard({ academy }: { academy: any }) {
       <div className="p-4">
         {/* Academy Icon Section */}
         <div className="flex items-center gap-3 mb-3">
-          <div className="w-16 h-16 flex-shrink-0 rounded-lg bg-gray-100 overflow-hidden border" style={{ borderColor: academy.color }}>
+          <div className="w-16 h-16 flex-shrink-0 rounded-lg bg-gray-100 overflow-hidden border flex items-center justify-center" style={{ borderColor: academy.color }}>
             {iconPath ? (
-              <Image
+              <img
                 src={iconPath}
                 alt={academy.title}
-                width={64}
-                height={64}
                 className="w-full h-full object-cover"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"%3E%3Crect fill="%23f0f0f0" width="64" height="64"/%3E%3Ctext x="32" y="36" font-size="40" text-anchor="middle" fill="%23999"%3E' + encodeURIComponent(academy.icon) + '%3C/text%3E%3C/svg%3E';
+                  (e.target as HTMLImageElement).style.display = 'none';
                 }}
               />
-            ) : (
-              <div className="w-full h-full flex items-center justify-center text-3xl">
-                {academy.icon}
-              </div>
-            )}
+            ) : null}
+            <div className="text-3xl">
+              {academy.icon}
+            </div>
           </div>
           <div className="flex-1">
             <h2 className="text-lg font-bold" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
