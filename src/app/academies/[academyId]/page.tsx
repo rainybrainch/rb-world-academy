@@ -30,10 +30,11 @@ export default async function AcademyPage({ params }: Props) {
   if (!academy) notFound();
 
   // このアカデミーのコースデータを取得
-  const courses = academy.courseIds
+  const courseIds = academy.courseIds ?? [];
+  const courses = courseIds
     .map(courseId => getCourse(courseId))
-    .filter(result => result !== null)
-    .map(result => result!);
+    .filter((result): result is NonNullable<typeof result> => result !== null)
+    .map(result => result);
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
