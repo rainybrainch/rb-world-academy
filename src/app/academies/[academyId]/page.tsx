@@ -100,7 +100,7 @@ export default async function AcademyPage({ params }: Props) {
                         <div className="w-10 h-10 flex-shrink-0 rounded bg-gray-100 overflow-hidden flex items-center justify-center text-lg border" style={{ borderColor: academy.color }}>
                           {(() => {
                             const folderName = getAppFolderName(app.id);
-                            const iconPath = folderName ? `/Academies/🌎%20世界アカデミー/${folderName}/icon.png` : null;
+                            const iconPath = folderName ? `/Assets/Courses/world-academy-${app.id.replace('app-world-', '')}/31_icon.png` : null;
                             if (iconPath && app.id.startsWith('app-world-')) {
                               return (
                                 <Image
@@ -109,13 +109,11 @@ export default async function AcademyPage({ params }: Props) {
                                   width={40}
                                   height={40}
                                   className="w-full h-full object-cover"
-                                  onError={(e) => {
-                                    (e.target as HTMLImageElement).style.display = 'none';
-                                  }}
+                                  priority={false}
                                 />
                               );
                             }
-                            // Fallback: Show app initial or icon
+                            // Fallback: Show app initial
                             return app.title.charAt(0);
                           })()}
                         </div>
@@ -163,11 +161,14 @@ export default async function AcademyPage({ params }: Props) {
                 >
                   <div className="flex gap-3">
                     {/* Course Icon Thumbnail */}
-                    <div className="w-20 h-20 flex-shrink-0 bg-gray-100 overflow-hidden">
+                    <div className="w-20 h-20 flex-shrink-0 bg-gray-100 overflow-hidden flex items-center justify-center text-3xl">
                       <img
-                        src={`/images/courses/${course.id}/31_course_icon.png`}
+                        src={`/Assets/Courses/${course.id}/31_icon.png`}
                         alt={course.title || 'Course'}
                         className="w-full h-full object-cover"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).style.display = 'none';
+                        }}
                       />
                     </div>
                     {/* Course Info */}

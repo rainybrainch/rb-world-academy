@@ -50,7 +50,7 @@ function AcademyCard({ academy }: { academy: any }) {
   };
 
   const folderName = academyFolderMap[academy.id];
-  const iconPath = folderName ? `/Assets/Academies/${folderName}/icon.png` : null;
+  const iconPath = folderName ? `/Assets/Academies/${folderName}/icon.svg` : null;
 
   return (
     <Link
