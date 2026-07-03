@@ -470,6 +470,28 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
             📚 教材ギャラリー
           </h2>
           <div className="grid grid-cols-2 gap-3">
+            {/* Course Icon - 31_コースアイコン */}
+            <div
+              className="rounded-lg overflow-hidden border-2 bg-white transition-transform hover:scale-105"
+              style={{ borderColor: categoryColor }}
+            >
+              <div className="aspect-square bg-gray-200 relative overflow-hidden">
+                <img
+                  src={`/images/courses/${courseId}/31_コースアイコン.png`}
+                  alt="コースアイコン"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = '/academy-icon.webp';
+                    (e.target as HTMLImageElement).className = 'w-full h-full object-contain p-4';
+                  }}
+                />
+              </div>
+              <div className="p-2">
+                <p className="text-xs font-bold" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                  コースアイコン
+                </p>
+              </div>
+            </div>
             {course.lessons.map((lesson) => {
               const imagePath = `/images/courses/${courseId}/${lesson.title}.png`;
               return (
