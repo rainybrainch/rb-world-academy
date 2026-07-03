@@ -78,52 +78,55 @@ export default async function AcademyPage({ params }: Props) {
             📖 このアカデミーのコース
           </h2>
           <div className="space-y-3">
-            {courses.map(({ course, category }) => (
-              <Link
-                key={course.id}
-                href={`/courses/${course.id}`}
-                className="block rounded-lg border-2 transition-all hover:scale-102 active:scale-95 overflow-hidden"
-                style={{
-                  background: 'white',
-                  borderColor: 'rgba(26,26,46,0.1)',
-                  boxShadow: '2px 2px 0 rgba(26,26,46,0.05)',
-                }}
-              >
-                <div className="flex gap-3">
-                  {/* Course Icon Thumbnail */}
-                  <div className="w-20 h-20 flex-shrink-0 bg-gray-100 overflow-hidden">
-                    <img
-                      src={`/images/courses/${course.id}/31_course_icon.png`}
-                      alt={course.title}
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).src = '/academy-icon.webp';
-                        (e.target as HTMLImageElement).className = 'w-full h-full object-contain p-2';
-                      }}
-                    />
-                  </div>
-                  {/* Course Info */}
-                  <div className="flex-1 p-3 flex flex-col justify-center">
-                    <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                      {course.title}
-                    </h3>
-                    {course.description && (
-                      <p className="text-xs mb-2" style={{ color: 'rgba(26,26,46,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                        {course.description}
-                      </p>
-                    )}
-                    <div className="flex items-center gap-2">
-                      <span className="text-[10px]" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                        {course.lessons?.length ?? 0} 講義
-                      </span>
-                      <span className="text-[10px] px-2 py-0.5 rounded" style={{ background: academy.color + '20', color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                        →
-                      </span>
+            {courses.map(({ course, category }) => {
+              if (!course || !course.id) return null;
+              return (
+                <Link
+                  key={course.id}
+                  href={`/courses/${course.id}`}
+                  className="block rounded-lg border-2 transition-all hover:scale-102 active:scale-95 overflow-hidden"
+                  style={{
+                    background: 'white',
+                    borderColor: 'rgba(26,26,46,0.1)',
+                    boxShadow: '2px 2px 0 rgba(26,26,46,0.05)',
+                  }}
+                >
+                  <div className="flex gap-3">
+                    {/* Course Icon Thumbnail */}
+                    <div className="w-20 h-20 flex-shrink-0 bg-gray-100 overflow-hidden">
+                      <img
+                        src={`/images/courses/${course.id}/31_course_icon.png`}
+                        alt={course.title || 'Course'}
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).src = '/academy-icon.webp';
+                          (e.target as HTMLImageElement).className = 'w-full h-full object-contain p-2';
+                        }}
+                      />
+                    </div>
+                    {/* Course Info */}
+                    <div className="flex-1 p-3 flex flex-col justify-center">
+                      <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                        {course.title || 'Untitled Course'}
+                      </h3>
+                      {course.description && (
+                        <p className="text-xs mb-2" style={{ color: 'rgba(26,26,46,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                          {course.description}
+                        </p>
+                      )}
+                      <div className="flex items-center gap-2">
+                        <span className="text-[10px]" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                          {course.lessons?.length ?? 0} 講義
+                        </span>
+                        <span className="text-[10px] px-2 py-0.5 rounded" style={{ background: academy.color + '20', color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                          →
+                        </span>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              );
+            })}
           </div>
         </div>
       ) : (

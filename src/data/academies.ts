@@ -72,7 +72,6 @@ export const academies: Academy[] = [
     color: '#6C5CE7',
     courseIds: [
       'ai-intro-001',
-      'claude-code-intro-001',
     ],
   },
   {
