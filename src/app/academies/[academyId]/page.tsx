@@ -1,226 +1,153 @@
-import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+'use client';
+
 import Link from 'next/link';
-import Image from 'next/image';
-import { getAcademy, getAllAcademies } from '@/data/academies';
-import { getCourse } from '@/data/courses';
-import { getAppsByAcademy, getAppFolderName } from '@/data/apps';
+import { useState, useEffect } from 'react';
+import { useParams } from 'next/navigation';
 
-interface Props {
-  params: Promise<{ academyId: string }>;
+interface AppInfo {
+  id: string;
+  name: string;
+  folderCount: number;
+  folders: string[];
 }
 
-export function generateStaticParams() {
-  return getAllAcademies().map(academy => ({ academyId: academy.id }));
+interface AcademyDetail {
+  id: string;
+  name: string;
+  icon: string;
+  description: string;
+  color: string;
+  appCount: number;
+  apps: AppInfo[];
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { academyId } = await params;
-  const academy = getAcademy(academyId);
-  if (!academy) return {};
+export default function AcademyDetailPage() {
+  const params = useParams();
+  const academyId = params?.academyId as string;
+  const [academy, setAcademy] = useState<AcademyDetail | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  return {
-    title: `${academy.title} | オールアカデミー | ALL ACADEMY`,
-    description: academy.description,
-  };
-}
+  useEffect(() => {
+    const fetchAcademy = async () => {
+      try {
+        const response = await fetch('/api/academies');
+        if (!response.ok) throw new Error('Failed to fetch academies');
+        const data = await response.json();
 
-export default async function AcademyPage({ params }: Props) {
-  const { academyId } = await params;
-  const academy = getAcademy(academyId);
+        // find academy by ID
+        const foundAcademy = data.academies.find(
+          (a: AcademyDetail) => a.id === academyId
+        );
 
-  if (!academy) notFound();
+        if (!foundAcademy) {
+          throw new Error('Academy not found');
+        }
 
-  // このアカデミーのコースデータを取得
-  const courseIds = academy.courseIds ?? [];
-  const courses = courseIds
-    .map(courseId => getCourse(courseId))
-    .filter((result): result is NonNullable<typeof result> => result !== null)
-    .map(result => result);
+        setAcademy(foundAcademy);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Failed to load academy');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (academyId) {
+      fetchAcademy();
+    }
+  }, [academyId]);
+
+  if (loading) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="text-center">
+          <p style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>読み込み中...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error || !academy) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="text-center" style={{ color: 'red', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+          <p>エラー: {error || 'Academy not found'}</p>
+        </div>
+        <div className="mt-4">
+          <Link href="/academies" className="text-blue-500 hover:underline" style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+            戻る
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      {/* Breadcrumb */}
-      <nav className="text-xs mb-4 flex items-center gap-1.5 flex-wrap" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-        <Link href="/" className="hover:underline">ホーム</Link>
-        <span>/</span>
-        <Link href="/academies" className="hover:underline">オールアカデミー</Link>
-        <span>/</span>
-        <span style={{ color: 'var(--mb-dark)' }}>{academy.title}</span>
-      </nav>
+    <div className="max-w-7xl mx-auto px-4 py-8">
+      {/* Header */}
+      <div className="mb-8">
+        <Link href="/academies" className="text-sm" style={{ color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+          ← オールアカデミー
+        </Link>
 
-      {/* Academy Header */}
-      <div
-        className="rounded-xl p-6 mb-8 border-2"
-        style={{
-          background: 'white',
-          borderColor: academy.color,
-          boxShadow: `4px 4px 0 ${academy.color}30`,
-        }}
-      >
-        <div className="text-5xl mb-3">{academy.icon}</div>
-        <h1 className="text-2xl font-bold mb-2" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-          {academy.title}
-        </h1>
-        <p className="text-sm leading-relaxed" style={{ color: 'rgba(26,26,46,0.65)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-          {academy.description}
-        </p>
-        {(academy.courseIds ?? []).length > 0 && (
-          <div className="mt-4 pt-4 border-t" style={{ borderColor: academy.color }}>
-            <span className="text-sm font-bold" style={{ color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              📚 {(academy.courseIds ?? []).length} コース
-            </span>
+        <div className="mt-4 flex items-center gap-4">
+          <div className="text-5xl">{academy.icon}</div>
+          <div>
+            <h1 className="text-3xl font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
+              {academy.name}
+            </h1>
+            <p className="text-sm mt-2" style={{ color: 'rgba(26,26,46,0.65)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              {academy.description}
+            </p>
+            <p className="text-xs mt-2" style={{ color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              📚 {academy.appCount} アプリ
+            </p>
           </div>
-        )}
+        </div>
       </div>
 
-      {/* Apps Section (V2.0 Hierarchy) */}
-      {(() => {
-        const apps = getAppsByAcademy(academy.id);
-        if (apps.length > 0) {
-          return (
-            <div className="mb-8">
-              <h2 className="text-lg font-bold mb-4" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                🎓 アプリから学ぶ
-              </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {apps.map((app) => (
-                  <Link
-                    key={app.id}
-                    href={`#app-${app.id}`}
-                    className="block rounded-lg border-2 transition-all hover:scale-102 active:scale-95 overflow-hidden"
-                    style={{
-                      background: 'white',
-                      borderColor: academy.color + '40',
-                      boxShadow: `2px 2px 0 ${academy.color}20`,
-                    }}
-                  >
-                    <div className="p-3">
-                      <div className="flex items-center gap-2 mb-2">
-                        <div className="w-10 h-10 flex-shrink-0 rounded bg-gray-100 overflow-hidden flex items-center justify-center text-lg border" style={{ borderColor: academy.color }}>
-                          {(() => {
-                            const folderName = getAppFolderName(app.id);
-                            const iconPath = folderName ? `/Assets/Courses/world-academy-${app.id.replace('app-world-', '')}/31_icon.png` : null;
-                            if (iconPath && app.id.startsWith('app-world-')) {
-                              return (
-                                <Image
-                                  src={iconPath}
-                                  alt={app.title}
-                                  width={40}
-                                  height={40}
-                                  className="w-full h-full object-cover"
-                                  priority={false}
-                                />
-                              );
-                            }
-                            // Fallback: Show app initial
-                            return app.title.charAt(0);
-                          })()}
-                        </div>
-                        <div className="flex-1 min-w-0">
-                          <h3 className="text-sm font-bold truncate" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                            {app.title}
-                          </h3>
-                          <span className="text-xs" style={{ color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                            {app.courseIds.length} コース
-                          </span>
-                        </div>
-                      </div>
-                      <p className="text-xs line-clamp-2" style={{ color: 'rgba(26,26,46,0.65)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                        {app.description}
-                      </p>
-                    </div>
-                  </Link>
-                ))}
+      {/* Apps Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {academy.apps.map((app) => (
+          <Link
+            key={app.id}
+            href={`/academies/${academy.id}/${app.id}`}
+            className="block rounded-lg border-2 p-4 transition-all hover:scale-102 active:scale-95"
+            style={{
+              background: 'white',
+              borderColor: academy.color,
+              boxShadow: `2px 2px 0 ${academy.color}15`,
+            }}
+          >
+            <div className="flex items-start justify-between mb-3">
+              <div>
+                <h3 className="font-bold text-sm" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
+                  {app.name}
+                </h3>
+                <p className="text-xs mt-1" style={{ color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                  📁 {app.folderCount} フォルダ
+                </p>
               </div>
+              <div className="text-2xl">📱</div>
             </div>
-          );
-        }
-        return null;
-      })()}
 
-      {/* Courses List */}
-      {courses.length > 0 ? (
-        <div>
-          <h2 className="text-lg font-bold mb-4" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            📖 このアカデミーのコース
-          </h2>
-          <div className="space-y-3">
-            {courses.map(({ course, category }) => {
-              if (!course || !course.id) return null;
-              return (
-                <Link
-                  key={course.id}
-                  href={`/courses/${course.id}`}
-                  className="block rounded-lg border-2 transition-all hover:scale-102 active:scale-95 overflow-hidden"
-                  style={{
-                    background: 'white',
-                    borderColor: 'rgba(26,26,46,0.1)',
-                    boxShadow: '2px 2px 0 rgba(26,26,46,0.05)',
-                  }}
-                >
-                  <div className="flex gap-3">
-                    {/* Course Icon Thumbnail */}
-                    <div className="w-20 h-20 flex-shrink-0 bg-gray-100 overflow-hidden flex items-center justify-center text-3xl">
-                      <img
-                        src={`/Assets/Courses/${course.id}/31_icon.png`}
-                        alt={course.title || 'Course'}
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).style.display = 'none';
-                        }}
-                      />
-                    </div>
-                    {/* Course Info */}
-                    <div className="flex-1 p-3 flex flex-col justify-center">
-                      <h3 className="text-sm font-bold mb-1" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                        {course.title || 'Untitled Course'}
-                      </h3>
-                      {course.description && (
-                        <p className="text-xs mb-2" style={{ color: 'rgba(26,26,46,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                          {course.description}
-                        </p>
-                      )}
-                      <div className="flex items-center gap-2">
-                        <span className="text-[10px]" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                          {course.lessons?.length ?? 0} 講義
-                        </span>
-                        <span className="text-[10px] px-2 py-0.5 rounded" style={{ background: academy.color + '20', color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                          →
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      ) : (
-        <div className="rounded-lg p-6 text-center" style={{ background: 'rgba(26,26,46,0.04)' }}>
-          <p className="text-sm" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            このアカデミーのコースはまだ登録されていません。
-          </p>
-          <p className="text-xs mt-2" style={{ color: 'rgba(26,26,46,0.35)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            近日公開予定...
-          </p>
-        </div>
-      )}
-
-      {/* Back Link */}
-      <div className="mt-8">
-        <Link
-          href="/academies"
-          className="inline-flex items-center gap-1 text-sm font-bold px-4 py-2 rounded-lg border-2"
-          style={{
-            background: 'white',
-            borderColor: academy.color,
-            color: academy.color,
-            fontFamily: "'Zen Maru Gothic', sans-serif",
-          }}
-        >
-          ← アカデミー一覧に戻る
-        </Link>
+            {app.folderCount > 0 && (
+              <div className="border-t pt-2" style={{ borderColor: academy.color }}>
+                <p className="text-xs font-bold mb-1" style={{ color: 'rgba(26,26,46,0.65)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                  成果物フォルダ:
+                </p>
+                <div className="text-[10px] space-y-0.5" style={{ color: 'rgba(26,26,46,0.60)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                  {app.folders.slice(0, 5).map((folder) => (
+                    <div key={folder}>• {folder}</div>
+                  ))}
+                  {app.folderCount > 5 && (
+                    <div style={{ color: academy.color }}>... 他 {app.folderCount - 5} 個</div>
+                  )}
+                </div>
+              </div>
+            )}
+          </Link>
+        ))}
       </div>
     </div>
   );

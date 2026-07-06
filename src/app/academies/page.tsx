@@ -1,61 +1,30 @@
 'use client';
 
-import type { Metadata } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
-import { getAllAcademies } from '@/data/academies';
-import { getCourse } from '@/data/courses';
 import { useState, useEffect } from 'react';
 
-// export const metadata: Metadata = {
-//   title: 'オールアカデミー | ALL ACADEMY',
-//   description: 'RAINYBRAIN が提供する10つのアカデミー。ライフスキルから最新テクノロジーまで、あらゆる学習が揃った総合学習プラットフォーム。',
-// };
-
-interface CourseInfo {
+interface AppInfo {
   id: string;
-  title: string;
+  name: string;
+  folderCount: number;
+  folders: string[];
 }
 
-function AcademyCard({ academy }: { academy: any }) {
-  const [courses, setCourses] = useState<CourseInfo[]>([]);
-  const [showAllCourses, setShowAllCourses] = useState(false);
+interface AcademyData {
+  id: string;
+  name: string;
+  icon: string;
+  description: string;
+  color: string;
+  appCount: number;
+  apps: AppInfo[];
+}
 
-  useEffect(() => {
-    // Get courses for this academy
-    const courseList = academy.courseIds
-      .map((courseId: string) => {
-        const course = getCourse(courseId);
-        return course ? { id: courseId, title: course.course.title } : null;
-      })
-      .filter(Boolean);
-    setCourses(courseList);
-  }, [academy]);
+function AcademyCard({ academy }: { academy: AcademyData }) {
+  const [showAllApps, setShowAllApps] = useState(false);
 
-  const visibleCourses = showAllCourses ? courses : courses.slice(0, 5);
-  const hiddenCoursesCount = Math.max(0, courses.length - 5);
-
-  // Map academy ID to folder name
-  const academyFolderMap: Record<string, string> = {
-    'academy-life': 'life',
-    'academy-language': 'language',
-    'academy-world': 'world',
-    'academy-subject': 'subject',
-    'academy-hobby': 'hobby',
-    'academy-money': 'money',
-    'academy-ai-it': 'it-ai',
-    'academy-business': 'business',
-    'academy-qualification': 'qualification',
-    'academy-rb': 'rb',
-  };
-
-  const folderName = academyFolderMap[academy.id];
-  const iconPath = folderName ? `/Assets/Academies/${folderName}/icon.svg` : null;
-
-  // Debug log
-  if (process.env.NODE_ENV === 'development') {
-    console.log(`[${academy.title}] id: ${academy.id}, folder: ${folderName}, path: ${iconPath}`);
-  }
+  const visibleApps = showAllApps ? academy.apps : academy.apps.slice(0, 5);
+  const hiddenAppsCount = Math.max(0, academy.apps.length - 5);
 
   return (
     <Link
@@ -70,28 +39,16 @@ function AcademyCard({ academy }: { academy: any }) {
       <div className="p-4">
         {/* Academy Icon Section */}
         <div className="flex items-center gap-3 mb-3">
-          <div className="w-16 h-16 flex-shrink-0 rounded-lg bg-gray-100 overflow-hidden border flex items-center justify-center" style={{ borderColor: academy.color }}>
-            {iconPath ? (
-              <img
-                src={iconPath}
-                alt={academy.title}
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).style.display = 'none';
-                }}
-              />
-            ) : null}
-            <div className="text-3xl">
-              {academy.icon}
-            </div>
+          <div className="w-16 h-16 flex-shrink-0 rounded-lg bg-gray-100 overflow-hidden border flex items-center justify-center text-3xl" style={{ borderColor: academy.color }}>
+            {academy.icon}
           </div>
           <div className="flex-1">
             <h2 className="text-lg font-bold" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              {academy.title}
+              {academy.name}
             </h2>
-            {courses.length > 0 && (
+            {academy.appCount > 0 && (
               <span className="text-xs font-bold" style={{ color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                📚 {courses.length} コース
+                📚 {academy.appCount} アプリ
               </span>
             )}
           </div>
@@ -102,33 +59,33 @@ function AcademyCard({ academy }: { academy: any }) {
           {academy.description}
         </p>
 
-        {/* Courses List */}
-        {courses.length > 0 && (
+        {/* Apps List */}
+        {academy.appCount > 0 && (
           <div className="border-t pt-3" style={{ borderColor: academy.color }}>
             <div className="text-xs font-bold mb-2" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              📖 作成済みコース
+              📖 アプリ一覧
             </div>
             <div className="space-y-1.5">
-              {visibleCourses.map((course) => (
-                <div key={course.id} className="flex items-center gap-2">
+              {visibleApps.map((app) => (
+                <div key={app.id} className="flex items-center gap-2">
                   <div className="w-6 h-6 flex-shrink-0 rounded bg-gray-100 overflow-hidden flex items-center justify-center text-xs">
-                    📚
+                    📱
                   </div>
                   <span className="text-[10px]" style={{ color: 'rgba(26,26,46,0.75)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                    {course.title}
+                    {app.name}
                   </span>
                 </div>
               ))}
-              {hiddenCoursesCount > 0 && (
+              {hiddenAppsCount > 0 && (
                 <div
                   className="text-[10px] font-bold pt-1 cursor-pointer"
                   style={{ color: academy.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}
                   onClick={(e) => {
                     e.preventDefault();
-                    setShowAllCourses(!showAllCourses);
+                    setShowAllApps(!showAllApps);
                   }}
                 >
-                  +{hiddenCoursesCount} コース
+                  +{hiddenAppsCount} アプリ
                 </div>
               )}
             </div>
@@ -140,7 +97,46 @@ function AcademyCard({ academy }: { academy: any }) {
 }
 
 export default function AcademiesPage() {
-  const academies = getAllAcademies();
+  const [academies, setAcademies] = useState<AcademyData[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchAcademies = async () => {
+      try {
+        const response = await fetch('/api/academies');
+        if (!response.ok) throw new Error('Failed to fetch academies');
+        const data = await response.json();
+        setAcademies(data.academies || []);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Failed to load academies');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchAcademies();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="text-center">
+          <p style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>読み込み中...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="text-center" style={{ color: 'red', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+          <p>エラー: {error}</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
@@ -151,6 +147,9 @@ export default function AcademiesPage() {
         </h1>
         <p className="text-sm" style={{ color: 'rgba(26,26,46,0.65)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
           10つの専門アカデミーで、あらゆる学習分野をカバー。あなたの興味から始めよう。
+        </p>
+        <p className="text-xs mt-2" style={{ color: 'rgba(26,26,46,0.50)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+          {academies.length} アカデミー • {academies.reduce((sum, a) => sum + a.appCount, 0)} アプリ
         </p>
       </div>
 
