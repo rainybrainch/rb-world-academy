@@ -104,12 +104,28 @@ export default function AcademiesPage() {
   useEffect(() => {
     const fetchAcademies = async () => {
       try {
+        console.log('[AcademiesPage] Fetching /api/academies...');
         const response = await fetch('/api/academies');
-        if (!response.ok) throw new Error('Failed to fetch academies');
+
+        console.log(`[AcademiesPage] Response status: ${response.status}`);
+
+        if (!response.ok) {
+          const errorData = await response.json().catch(() => ({}));
+          console.error('[AcademiesPage] API Error:', errorData);
+          throw new Error(
+            `API Error ${response.status}: ${errorData.error || 'Failed to fetch academies'}`
+          );
+        }
+
         const data = await response.json();
+        console.log(`[AcademiesPage] Loaded ${data.totalAcademies} academies, ${data.totalApps} apps`);
+        console.log('[AcademiesPage] Source:', data.source);
+
         setAcademies(data.academies || []);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load academies');
+        const errorMessage = err instanceof Error ? err.message : 'Failed to load academies';
+        console.error('[AcademiesPage] Error:', errorMessage);
+        setError(errorMessage);
       } finally {
         setLoading(false);
       }
@@ -131,8 +147,45 @@ export default function AcademiesPage() {
   if (error) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="text-center" style={{ color: 'red', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-          <p>エラー: {error}</p>
+        <div
+          style={{
+            background: '#fee',
+            border: '2px solid #f88',
+            borderRadius: '12px',
+            padding: '20px',
+            fontFamily: "'Zen Maru Gothic', sans-serif",
+          }}
+        >
+          <h2 style={{ color: '#c00', marginBottom: '10px', fontSize: '1.2rem' }}>
+            ⚠️ データ読み込みエラー
+          </h2>
+          <p style={{ color: '#666', marginBottom: '15px', fontSize: '0.95rem' }}>
+            {error}
+          </p>
+          <details style={{ fontSize: '0.85rem', color: '#888', cursor: 'pointer' }}>
+            <summary style={{ fontWeight: 'bold', marginBottom: '10px' }}>
+              トラブルシューティング
+            </summary>
+            <div
+              style={{
+                background: '#f9f9f9',
+                padding: '10px',
+                borderRadius: '8px',
+                marginTop: '10px',
+                fontFamily: 'monospace',
+                fontSize: '0.8rem',
+                lineHeight: '1.6',
+              }}
+            >
+              <p>✓ ページをリロードしてください（F5キー）</p>
+              <p>✓ DevTools Console（F12）でエラーメッセージを確認</p>
+              <p>✓ /api/academies に直接アクセスしてレスポンスを確認</p>
+              <p>✓ 本番環境ではフォールバックデータを使用しています</p>
+              <p style={{ marginTop: '10px' }}>
+                環境: <strong>{process.env.NODE_ENV || 'unknown'}</strong>
+              </p>
+            </div>
+          </details>
         </div>
       </div>
     );

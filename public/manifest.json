@@ -1,0 +1,71 @@
+{
+  "name": "All Academy - 世界最高の教育プラットフォーム",
+  "short_name": "All Academy",
+  "description": "漫画、解説、クイズで学ぶ次世代教育プラットフォーム。10個のアカデミー、128個のコース、3000以上の講義。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231a1a2e' width='192' height='192'/><text x='96' y='110' font-size='100' font-weight='bold' text-anchor='middle' fill='%234ecdc4' font-family='sans-serif'>ALL</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%231a1a2e' width='512' height='512'/><text x='256' y='340' font-size='280' font-weight='bold' text-anchor='middle' fill='%234ecdc4' font-family='sans-serif'>ALL</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23f8f9fa' width='540' height='720'/><rect fill='%231a1a2e' width='540' height='200'/><text x='270' y='100' font-size='40' font-weight='bold' text-anchor='middle' fill='white' font-family='sans-serif'>All Academy</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "学習を続ける",
+      "short_name": "続ける",
+      "description": "前回のコースから学習を再開",
+      "url": "/",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><circle cx='48' cy='48' r='45' fill='%234ecdc4'/><polygon points='40,30 40,66 65,48' fill='white'/></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "新しいコースを探す",
+      "short_name": "探す",
+      "description": "すべてのアカデミーと コースを閲覧",
+      "url": "/academies",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><circle cx='48' cy='48' r='45' fill='%23f5c842'/><text x='48' y='60' font-size='40' font-weight='bold' text-anchor='middle' fill='white' font-family='sans-serif'>📚</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
